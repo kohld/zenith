@@ -1,15 +1,15 @@
 
 import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { Features } from './components/Features';
+import { SkyMap } from './components/SkyView/SkyMap';
 import { Footer } from './components/Footer';
 
 function App() {
     return (
-        <div className="min-h-screen bg-slate-900 text-white selection:bg-cyan-500 selection:text-white font-sans overflow-x-hidden">
+        <div className="min-h-screen bg-slate-900 text-white selection:bg-cyan-500 selection:text-white font-sans overflow-x-hidden flex flex-col">
             <Navbar />
-            <Hero />
-            <Features />
+            <main className="flex-grow flex flex-col justify-center">
+                <SkyMap />
+            </main>
             <Footer />
         </div>
     );
