@@ -91,6 +91,10 @@ export interface SpacecraftData {
     velocityKmS: number;
     /** Mission type / Description (e.g. "Interstellar Probe"). */
     missionType: string;
+    /** Right Ascension in degrees (0-360). */
+    ra?: number;
+    /** Declination in degrees (+/- 90). */
+    dec?: number;
     /** Timestamp when data was fetched. */
     date: string;
 }

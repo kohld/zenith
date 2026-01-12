@@ -19,6 +19,8 @@ interface SpacecraftData {
     distanceKm: number; // Distance from Earth
     velocityKmS: number; // Relative velocity to Earth
     missionType: string;
+    ra?: number;
+    dec?: number;
     date: string;
 }
 
@@ -34,25 +36,20 @@ async function fetchSpacecraftData(spacecraft: typeof SPACECRAFT[0]): Promise<Sp
     console.log(`📡 Contacting NASA JPL for ${spacecraft.name} (ID: ${spacecraft.id})...`);
 
     // Construct params for Ephemeris query
-    // COMMAND: Object ID
-    // CENTER: '500@399' (Earth center)
-    // MAKE_EPHEM: 'YES'
-    // EPHEM_TYPE: 'VECTORS' (state vectors) or 'OBSERVER' (observer variables). 
-    // OBSERVER is easier for "distance" (range).
-    // QUANTITIES: '20' (Range and Range-rate)
-
-    // Using OBSERVER mode with QUANTITIES='20' to get range (delta) in AU or KM
+    // QUANTITIES: '1,20' 
+    // 1 = Astrometric RA & DEC (ICRF) 
+    // 20 = Range & Range-rate
     const params = new URLSearchParams({
         format: "text",
         COMMAND: `'${spacecraft.id}'`,
-        OBJ_DATA: "'NO'", // Don't need object physical data
+        OBJ_DATA: "'NO'",
         MAKE_EPHEM: "'YES'",
         EPHEM_TYPE: "'OBSERVER'",
         CENTER: "'500@399'", // Earth (Geocentric)
         START_TIME: `'${getToday()}'`,
         STOP_TIME: `'${getTomorrow()}'`,
         STEP_SIZE: "'1d'",
-        QUANTITIES: "'20'", // 20 = Range (distance) & Range-rate (velocity)
+        QUANTITIES: "'1,20'",
         CSV_FORMAT: "'YES'"
     });
 
@@ -63,7 +60,6 @@ async function fetchSpacecraftData(spacecraft: typeof SPACECRAFT[0]): Promise<Sp
         const text = await response.text();
 
         // Parse CSV Output
-        // Horizons CSV is usually between $$SOE and $$EOE markers
         const soeIndex = text.indexOf("$$SOE");
         const eoeIndex = text.indexOf("$$EOE");
 
@@ -73,25 +69,47 @@ async function fetchSpacecraftData(spacecraft: typeof SPACECRAFT[0]): Promise<Sp
         }
 
         const dataBlock = text.substring(soeIndex + 5, eoeIndex).trim();
-        // Example Line: 2025-01-01 00:00, 1.632E+11, 2.345E+01
-        // CSV columns depend on QUANTITIES. 
-        // For Q=20 (Observer Range), standard CSV output is: Date, Range (AU), Range-rate (km/s)
-        // Wait, default units for range are usually AU. We check headers or assume AU.
-        // Let's verify via 'RANGE_UNITS' param or usually it defaults to AU.
+        // Standard Columns for Q=1,20:
+        // Date__(UT)__HR:MN, R.A._(ICRF), DEC_(ICRF), Range, Range-rate
+
+        // Example Line:
+        // 2025-01-12 00:00, 290.12345, -12.34567, 1.5E+9, 12.34
 
         const lines = dataBlock.split('\n');
         const firstLine = lines[0];
-        const parts = firstLine.split(',');
+        const parts = firstLine.split(',').map(p => p.trim());
 
-        // CSV Structure for QUANTITIES='20': Date, [empty], [empty], Range(AU), Velocity(km/s)
-        const rangeAU = parseFloat(parts[3]);
-        const velocity = parseFloat(parts[4]);
+        // Helper to parse Sexagesimal to Decimal
+        // RA: "HH MM SS.SS" -> Degrees (x15)
+        // DEC: "DD MM SS.SS" -> Degrees
+        const parseCoordinate = (str: string, isRA: boolean) => {
+            if (!str) return 0;
+            const parts = str.trim().split(' ').map(parseFloat);
+            if (parts.length < 3) return parseFloat(str) || 0; // Fallback if already decimal
+
+            let val = Math.abs(parts[0]) + parts[1] / 60 + parts[2] / 3600;
+            if (parts[0] < 0 || str.trim().startsWith('-')) val *= -1;
+
+            return isRA ? val * 15 : val;
+        };
+
+        // CSV Indices for Q=1,20:
+        // [0]=Date, [1]=Empty, [2]=Empty, [3]=RA(HMS), [4]=DEC(DMS), [5]=Range(AU), [6]=Rate
+        const raRaw = parts[3];
+        const decRaw = parts[4];
+        const rangeRaw = parts[5];
+        const rateRaw = parts[6];
+
+        const ra = parseCoordinate(raRaw, true);
+        const dec = parseCoordinate(decRaw, false);
+        const rangeAU = parseFloat(rangeRaw);
+        const velocity = parseFloat(rateRaw);
 
         // 1 AU = 149,597,870.7 km
         const AU_IN_KM = 149597870.7;
         const distanceKm = rangeAU * AU_IN_KM;
 
-        console.log(`✅ ${spacecraft.name}: ${distanceKm.toLocaleString()} km`);
+        console.log(`✅ ${spacecraft.name}: ${distanceKm.toLocaleString()} km | RA: ${ra}° DEC: ${dec}°`);
 
         return {
             name: spacecraft.name,
@@ -99,6 +117,8 @@ async function fetchSpacecraftData(spacecraft: typeof SPACECRAFT[0]): Promise<Sp
             distanceKm: distanceKm,
             velocityKmS: velocity,
             missionType: spacecraft.missionType,
+            ra,
+            dec,
             date: new Date().toISOString()
         };
 
