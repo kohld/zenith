@@ -1,5 +1,6 @@
 import { useRef, useEffect } from 'react';
 import { VisualObject } from '../../lib/definitions';
+import { projectAzElToCartesian } from '../../utils/projection';
 
 interface SkyCanvasProps {
     objects: VisualObject[];
@@ -35,16 +36,6 @@ export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCa
             const cx = width / 2;
             const cy = height / 2;
             const radius = Math.min(cx, cy) - 35;
-
-            // Helper for projection
-            const project = (az: number, el: number) => {
-                const r = radius * (1 - el / 90);
-                const angle = (az - 90) * (Math.PI / 180);
-                return {
-                    x: cx + r * Math.cos(angle),
-                    y: cy + r * Math.sin(angle)
-                };
-            };
 
             // Clear
             ctx.clearRect(0, 0, width, height);
@@ -106,7 +97,7 @@ export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCa
                 if (selectedSatId) {
                     const sat = objects.find(o => o.id === selectedSatId); // Use ID
                     if (sat && sat.position.elevation > 0) {
-                        const { x, y } = project(sat.position.azimuth, sat.position.elevation);
+                        const { x, y } = projectAzElToCartesian(sat.position.azimuth, sat.position.elevation, cx, cy, radius);
                         ctx.moveTo(x, y);
                         started = true;
                     }
@@ -114,7 +105,7 @@ export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCa
 
                 orbitPath.forEach(pt => {
                     if (pt.elevation > 0) {
-                        const { x, y } = project(pt.azimuth, pt.elevation);
+                        const { x, y } = projectAzElToCartesian(pt.azimuth, pt.elevation, cx, cy, radius);
                         if (!started) {
                             ctx.moveTo(x, y);
                             started = true;
@@ -133,7 +124,7 @@ export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCa
             objects.forEach(obj => {
                 if (obj.position.elevation < 0) return;
 
-                const { x, y } = project(obj.position.azimuth, obj.position.elevation);
+                const { x, y } = projectAzElToCartesian(obj.position.azimuth, obj.position.elevation, cx, cy, radius);
 
                 const isISS = obj.name.includes('ISS');
                 const isSelected = selectedSatId === obj.id; // Use ID
@@ -209,11 +200,8 @@ export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCa
         objects.forEach(obj => {
             if (obj.position.elevation < 0) return;
 
-            // Project again to get screen coords
-            const r = radius * (1 - obj.position.elevation / 90);
-            const angle = (obj.position.azimuth - 90) * (Math.PI / 180);
-            const ox = cx + r * Math.cos(angle);
-            const oy = cy + r * Math.sin(angle);
+            // Project again to get screen coords using shared utility
+            const { x: ox, y: oy } = projectAzElToCartesian(obj.position.azimuth, obj.position.elevation, cx, cy, radius);
 
             const dx = x - ox;
             const dy = y - oy;
