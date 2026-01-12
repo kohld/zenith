@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
-import { fetchTLEs, getSatPosition, SatelliteData, SatellitePosition } from '../../utils/orbital';
+import { fetchTLEs, getSatPosition, SatelliteData, SatellitePosition, getSatellitePath } from '../../utils/orbital';
 import { SkyCanvas } from './SkyCanvas';
 
 interface VisualObject {
     name: string;
+    id: string;
+    type: string; // Add type
     position: SatellitePosition;
 }
 
@@ -25,7 +27,10 @@ interface SearchResult {
 export const SkyMap = () => {
     const [satellites, setSatellites] = useState<SatelliteData[]>([]);
     const [visualObjects, setVisualObjects] = useState<VisualObject[]>([]);
+
     const [loading, setLoading] = useState(true);
+    const [selectedSat, setSelectedSat] = useState<string | null>(null);
+    const [orbitPath, setOrbitPath] = useState<SatellitePosition[]>([]);
 
     // Location State - start as null to show loading/detection
     const [location, setLocation] = useState<Location | null>(() => {
@@ -174,6 +179,30 @@ export const SkyMap = () => {
         setShowResults(false);
     };
 
+    const handleSelectSat = (satName: string | null) => {
+        setSelectedSat(satName);
+        if (satName && location) {
+            const sat = satellites.find(s => s.name === satName);
+            if (sat) {
+                const path = getSatellitePath(sat.line1, sat.line2, new Date(), 90, location.lat, location.lng, 0.2);
+                setOrbitPath(path);
+            }
+        } else {
+            setOrbitPath([]);
+        }
+    };
+
+    // Update path if location/selection changes
+    useEffect(() => {
+        if (selectedSat && location) {
+            const sat = satellites.find(s => s.name === selectedSat);
+            if (sat) {
+                const path = getSatellitePath(sat.line1, sat.line2, new Date(), 90, location.lat, location.lng, 0.2);
+                setOrbitPath(path);
+            }
+        }
+    }, [location, selectedSat, satellites]);
+
     // Animation / Calculation Loop
     useEffect(() => {
         if (satellites.length === 0 || !location) return;
@@ -190,6 +219,8 @@ export const SkyMap = () => {
                 if (pos && pos.elevation > 0) { // Only calculate/show if above horizon
                     visible.push({
                         name: sat.name,
+                        id: sat.id,
+                        type: sat.type,
                         position: pos
                     });
                 }
@@ -262,7 +293,68 @@ export const SkyMap = () => {
                         )}
                     </div>
                 ) : (
-                    <SkyCanvas objects={visualObjects} />
+                    <>
+                        <SkyCanvas
+                            objects={visualObjects}
+                            onSelect={handleSelectSat}
+                            selectedSat={selectedSat}
+                            orbitPath={orbitPath.filter(p => !p.time || p.time > new Date())} // Filter past points
+                        />
+
+                    </>
+                )}
+            </div>
+
+            {/* Selected Satellite Data Panel (Always Visible) */}
+            <div className="w-full max-w-[600px] mt-4 p-4 bg-slate-800/80 backdrop-blur-md border border-slate-700/50 rounded-xl shadow-lg min-h-[120px] flex flex-col justify-center transition-all duration-300">
+                {selectedSat && visualObjects.find(v => v.name === selectedSat) ? (
+                    (() => {
+                        const sat = visualObjects.find(v => v.name === selectedSat);
+                        const pos = sat!.position;
+                        return (
+                            <div className="flex flex-row items-center justify-between gap-4 animate-in fade-in duration-300">
+                                <div className="flex-shrink-0">
+                                    <div className="text-[10px] uppercase tracking-widest text-cyan-400 font-semibold mb-1">Target Lock</div>
+                                    <div className="text-xl font-bold text-white leading-none truncate max-w-[200px]" title={sat!.name}>
+                                        {sat!.name}
+                                    </div>
+                                    <div className="mt-2 text-[10px] text-slate-500 font-mono flex flex-col gap-0.5">
+                                        <span>NORAD ID: <span className="text-slate-300">{sat!.id}</span></span>
+                                        <span className="text-cyan-500/80">{sat!.type}</span>
+                                    </div>
+                                </div>
+
+                                <div className="h-10 w-px bg-slate-700/50 hidden sm:block" />
+
+                                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs flex-grow">
+                                    <div>
+                                        <div className="text-slate-500 mb-0.5">Altitude</div>
+                                        <div className="text-slate-200 font-mono text-sm">{Math.round(pos.height).toLocaleString()} <span className="text-[10px] text-slate-500">km</span></div>
+                                    </div>
+                                    <div>
+                                        <div className="text-slate-500 mb-0.5">Velocity</div>
+                                        <div className="text-slate-200 font-mono text-sm">{pos.velocity.toFixed(2)} <span className="text-[10px] text-slate-500">km/s</span></div>
+                                    </div>
+                                    <div>
+                                        <div className="text-slate-500 mb-0.5">Elevation</div>
+                                        <div className="text-slate-200 font-mono text-sm">{pos.elevation.toFixed(1)}°</div>
+                                    </div>
+                                    <div>
+                                        <div className="text-slate-500 mb-0.5">Azimuth</div>
+                                        <div className="text-slate-200 font-mono text-sm">{pos.azimuth.toFixed(1)}°</div>
+                                    </div>
+                                </div>
+                            </div>
+                        );
+                    })()
+                ) : (
+                    <div className="flex flex-col items-center justify-center h-full text-slate-500 animate-in fade-in duration-300">
+                        <div className="flex items-center gap-2 mb-1">
+                            <div className="w-2 h-2 rounded-full bg-cyan-500/50 animate-pulse"></div>
+                            <span className="text-xs font-medium uppercase tracking-widest">Radar Active</span>
+                        </div>
+                        <p className="text-sm">Select a satellite to view telemetry</p>
+                    </div>
                 )}
             </div>
 

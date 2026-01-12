@@ -3,14 +3,18 @@ import { SatellitePosition } from '../../utils/orbital';
 
 interface VisualObject {
     name: string;
+    id: string; // Add id
     position: SatellitePosition;
 }
 
 interface SkyCanvasProps {
-    objects: VisualObject[]; // Satellites
+    objects: VisualObject[];
+    onSelect?: (name: string | null) => void;
+    selectedSat?: string | null;
+    orbitPath?: { azimuth: number; elevation: number }[];
 }
 
-export const SkyCanvas = ({ objects }: SkyCanvasProps) => {
+export const SkyCanvas = ({ objects, onSelect, selectedSat, orbitPath }: SkyCanvasProps) => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
 
     useEffect(() => {
@@ -22,9 +26,8 @@ export const SkyCanvas = ({ objects }: SkyCanvasProps) => {
         let animationFrameId: number;
 
         const render = () => {
-            // Resize canvas to display size
+            // Resize canvas
             const { width, height } = canvas.getBoundingClientRect();
-            // Handle high DPI
             const dpr = window.devicePixelRatio || 1;
 
             if (canvas.width !== width * dpr || canvas.height !== height * dpr) {
@@ -33,35 +36,39 @@ export const SkyCanvas = ({ objects }: SkyCanvasProps) => {
             }
 
             ctx.scale(dpr, dpr);
-            // From here on, use logical pixels
+            // Logic pixels
 
             const cx = width / 2;
             const cy = height / 2;
-            const radius = Math.min(cx, cy) - 35; // Margin
+            const radius = Math.min(cx, cy) - 35;
+
+            // Helper for projection
+            const project = (az: number, el: number) => {
+                const r = radius * (1 - el / 90);
+                const angle = (az - 90) * (Math.PI / 180);
+                return {
+                    x: cx + r * Math.cos(angle),
+                    y: cy + r * Math.sin(angle)
+                };
+            };
 
             // Clear
             ctx.clearRect(0, 0, width, height);
 
-            // Draw Background (Stars)
-            // Ideally stars should be static or calculated once, but for now simple random
-            ctx.fillStyle = '#0f172a'; // Slate-900 like
-            // Actually the background is transparent so we see the app bg? 
-            // Or we draw a dark circle for the sky?
-
-            // Draw Sky Circle Background
+            // Sky Circle
             ctx.beginPath();
             ctx.arc(cx, cy, radius, 0, 2 * Math.PI);
-            ctx.fillStyle = 'rgba(15, 23, 42, 0.8)'; // Dark slate semi-transparent
+            ctx.fillStyle = 'rgba(15, 23, 42, 0.8)';
             ctx.fill();
-            ctx.strokeStyle = 'rgba(56, 189, 248, 0.3)'; // Cyan-400 faint
+            ctx.strokeStyle = 'rgba(56, 189, 248, 0.3)';
             ctx.lineWidth = 1;
             ctx.stroke();
 
-            // Draw Grid (Azimuth lines)
+            // Grid (Azimuth)
             ctx.strokeStyle = 'rgba(56, 189, 248, 0.1)';
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
-            ctx.fillStyle = 'rgba(148, 163, 184, 0.5)'; // Slate-400
+            ctx.fillStyle = 'rgba(148, 163, 184, 0.5)';
             ctx.font = '10px Inter, sans-serif';
 
             const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
@@ -75,13 +82,12 @@ export const SkyCanvas = ({ objects }: SkyCanvasProps) => {
                 ctx.lineTo(tx, ty);
                 ctx.stroke();
 
-                // Labels
-                const lx = cx + (radius + 15) * Math.cos(angle);
-                const ly = cy + (radius + 15) * Math.sin(angle);
+                const lx = cx + (radius + 20) * Math.cos(angle);
+                const ly = cy + (radius + 20) * Math.sin(angle);
                 ctx.fillText(directions[i], lx, ly);
             }
 
-            // Draw Elevation Rings (0, 30, 60)
+            // Elevation Rings
             [0, 30, 60].forEach(el => {
                 const r = radius * (1 - el / 90);
                 ctx.beginPath();
@@ -92,68 +98,148 @@ export const SkyCanvas = ({ objects }: SkyCanvasProps) => {
                 }
             });
 
+            // Draw Orbit Path
+            if (orbitPath && orbitPath.length > 0) {
+                ctx.beginPath();
+                ctx.strokeStyle = 'rgba(56, 189, 248, 0.4)'; // Cyan-400 transparent
+                ctx.lineWidth = 2;
+                ctx.setLineDash([5, 5]);
+
+                // Determine start point (Satellite position or first point)
+                let started = false;
+
+                // If we have a selected satellite that matches, start from it to connect the line
+                if (selectedSat) {
+                    const sat = objects.find(o => o.name === selectedSat);
+                    if (sat && sat.position.elevation > 0) {
+                        const { x, y } = project(sat.position.azimuth, sat.position.elevation);
+                        ctx.moveTo(x, y);
+                        started = true;
+                    }
+                }
+
+                orbitPath.forEach(pt => {
+                    if (pt.elevation > 0) {
+                        const { x, y } = project(pt.azimuth, pt.elevation);
+                        if (!started) {
+                            ctx.moveTo(x, y);
+                            started = true;
+                        } else {
+                            ctx.lineTo(x, y);
+                        }
+                    } else {
+                        started = false; // Break line if below horizon
+                    }
+                });
+                ctx.stroke();
+                ctx.setLineDash([]);
+            }
+
             // Draw Satellites
             objects.forEach(obj => {
-                if (obj.position.elevation < 0) return; // Below horizon
+                if (obj.position.elevation < 0) return;
 
-                // Convert Az/El to X/Y
-                // Azimuth: 0 is North (Top). In canvas, 0 is Right. 
-                // So -90 degrees offset.
-                // Also Azimuth increases clockwise (N -> E -> S). Canvas angle increases clockwise.
-                // So angle = (azimuth - 90) * degToRad
+                const { x, y } = project(obj.position.azimuth, obj.position.elevation);
 
-                const angle = (obj.position.azimuth - 90) * (Math.PI / 180);
-                const dist = radius * (1 - obj.position.elevation / 90);
-
-                const x = cx + dist * Math.cos(angle);
-                const y = cy + dist * Math.sin(angle);
-
-                // Draw Satellite Dot
                 const isISS = obj.name.includes('ISS');
-                const dotColor = isISS ? '#ffffff' : '#38bdf8';
-                const dotSize = isISS ? 5 : 3;
+                const isSelected = selectedSat === obj.name;
+
+                let dotColor = '#38bdf8';
+                let dotSize = 3;
+                let shadowBlur = 8;
+
+                if (isISS) {
+                    dotColor = '#ffffff';
+                    dotSize = 5;
+                    shadowBlur = 15;
+                }
+
+                if (isSelected) {
+                    dotColor = '#fbbf24'; // Amber
+                    dotSize = 5;
+                    shadowBlur = 15;
+
+                    // Selection Ring
+                    ctx.beginPath();
+                    ctx.arc(x, y, 10, 0, 2 * Math.PI);
+                    ctx.strokeStyle = 'rgba(251, 191, 36, 0.5)';
+                    ctx.lineWidth = 1;
+                    ctx.stroke();
+                }
 
                 ctx.beginPath();
                 ctx.arc(x, y, dotSize, 0, 2 * Math.PI);
                 ctx.fillStyle = dotColor;
-                ctx.fill();
-
-                // Glow
-                ctx.shadowBlur = isISS ? 15 : 8;
+                ctx.shadowBlur = shadowBlur;
                 ctx.shadowColor = dotColor;
                 ctx.fill();
                 ctx.shadowBlur = 0;
 
                 // Label
-                ctx.font = '10px Inter, sans-serif';
-                ctx.fillStyle = '#e2e8f0'; // Slate-200
-                ctx.fillText(obj.name, x, y - 8);
+                if (isISS || isSelected) {
+                    ctx.fillStyle = isSelected ? '#fbbf24' : '#ffffff';
+                    ctx.font = isSelected ? 'bold 12px Inter' : '10px Inter';
+                    ctx.fillText(obj.name, x, y - 12);
+                } else {
+                    ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
+                    ctx.font = '10px Inter';
+                    ctx.fillText(obj.name, x, y - 8);
+                }
             });
+        }; // End of render function
 
-            // Keep reference for cleanup if needed, but we rely on React state updates to drive this mostly.
-            // Actually, if we want smooth animation of *time*, map needs to drive the loop.
-            // Here we just render what we get.
-            // If props update, we re-render? No, canvas should just be a dumb renderer called by effect.
-            // But if we want 60fps local interpolation, this component should handle the loop.
-            // For now, let's just render when props change or just once per frame if parent drives it.
-            // Let's assume parent drives the data update at 1fps or higher.
-
-            // To make it smooth, the parent should update positions frequently or we interpolate here.
-            // Simpler: Parent updates.
-
-            animationFrameId = requestAnimationFrame(render);
-        };
-
-        render();
+        animationFrameId = requestAnimationFrame(render);
 
         return () => cancelAnimationFrame(animationFrameId);
-    }, [objects]);
+    }, [objects, selectedSat, orbitPath]);
+
+    const handleClick = (e: React.MouseEvent<HTMLCanvasElement>) => {
+        if (!onSelect) return;
+
+        const canvas = canvasRef.current;
+        if (!canvas) return;
+
+        const rect = canvas.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        const width = rect.width;
+        const height = rect.height;
+        const cx = width / 2;
+        const cy = height / 2;
+        const radius = Math.min(cx, cy) - 35;
+
+        let closest: string | null = null;
+        let minDist = 20; // Hit radius
+
+        objects.forEach(obj => {
+            if (obj.position.elevation < 0) return;
+
+            // Project again to get screen coords
+            const r = radius * (1 - obj.position.elevation / 90);
+            const angle = (obj.position.azimuth - 90) * (Math.PI / 180);
+            const ox = cx + r * Math.cos(angle);
+            const oy = cy + r * Math.sin(angle);
+
+            const dx = x - ox;
+            const dy = y - oy;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+
+            if (dist < minDist) {
+                minDist = dist;
+                closest = obj.name;
+            }
+        });
+
+        onSelect(closest);
+    };
 
     return (
         <canvas
             ref={canvasRef}
-            className="w-full h-full"
+            className="w-full h-full cursor-pointer"
             style={{ width: '100%', height: '100%' }}
+            onClick={handleClick}
         />
     );
 };
