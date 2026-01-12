@@ -77,6 +77,16 @@ export interface SearchResult {
     lon: string;
     /** Full formatted address string. */
     display_name: string;
+    /** Detailed address components (if requested). */
+    address?: {
+        house_number?: string;
+        road?: string;
+        city?: string;
+        town?: string;
+        village?: string;
+        country_code?: string;
+        [key: string]: string | undefined;
+    };
 }
 
 /**

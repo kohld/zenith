@@ -138,7 +138,7 @@ export const SkyMap = () => {
 
             setIsSearching(true);
             try {
-                const res = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&limit=5`);
+                const res = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&addressdetails=1&limit=5`);
                 if (res.ok) {
                     const data = await res.json();
                     setSearchResults(data);
@@ -156,8 +156,29 @@ export const SkyMap = () => {
 
     // Handle Select
     const handleSelectLocation = (result: SearchResult) => {
+        // Logic to extracting better short name using address details
+        let name = result.display_name.split(',')[0];
+
+        if (result.address && result.address.road) {
+            const { road, house_number, country_code } = result.address;
+
+            if (house_number) {
+                // German-speaking countries usually put Number AFTER Street
+                const isGermanic = ['de', 'at', 'ch'].includes(country_code?.toLowerCase() || '');
+                name = isGermanic ? `${road} ${house_number}` : `${house_number} ${road}`;
+            } else {
+                name = road;
+            }
+        } else {
+            // Fallback to previous heuristic if address details missing
+            const parts = result.display_name.split(',').map(p => p.trim());
+            if (/^\d+$/.test(parts[0]) && parts.length > 1) {
+                name = `${parts[0]} ${parts[1]}`;
+            }
+        }
+
         const newLocation = {
-            name: result.display_name.split(',')[0], // Take first part as short name
+            name: name,
             lat: parseFloat(result.lat),
             lng: parseFloat(result.lon)
         };
