@@ -109,7 +109,11 @@ export const SignalVisualizer = ({ distanceKm, probeName, isActive, progress, on
             </div>
 
             <div className="text-[10px] text-slate-600 text-center uppercase tracking-widest">
-                Deep Space Network / Time Compression: 15s real = {formatDuration(roundTripSeconds)} virtual
+                {roundTripSeconds <= 15 ? (
+                    <>Real-time Signal Link • Round-trip: {formatDuration(roundTripSeconds)}</>
+                ) : (
+                    <>Time Compression: 15s Simulation = {formatDuration(roundTripSeconds)} Real-time</>
+                )}
             </div>
         </div>
     );

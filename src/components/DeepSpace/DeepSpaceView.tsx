@@ -10,8 +10,21 @@ export const DeepSpaceView = () => {
     const [selectedSpacecraftId, setSelectedSpacecraftId] = useState<string | null>(null);
     const [loading, setLoading] = useState(true);
 
+    const selectedSpacecraft = spacecraft.find(s => s.id === selectedSpacecraftId);
+
+    // Calculate Round-Trip Time (RTT) in milliseconds
+    // Speed of Light ≈ 300,000 km/s
+    const SPEED_OF_LIGHT = 299_792.458;
+    const rttMs = selectedSpacecraft
+        ? (selectedSpacecraft.distanceKm * 2 / SPEED_OF_LIGHT) * 1000
+        : 15000;
+
+    // Logic: Use RTT, but cap at 15 seconds (15000ms) for very distant objects
+    // "15s timer only applies if RTT > 15s, otherwise use RTT"
+    const pingDuration = Math.min(rttMs, 15000);
+
     // Ping Animation Hook
-    const { isPinging, progress: pingProgress, startPing, stopPing } = usePingAnimation(15000);
+    const { isPinging, progress: pingProgress, startPing, stopPing } = usePingAnimation(pingDuration);
 
     useEffect(() => {
         fetchSpacecraftData()
@@ -25,8 +38,6 @@ export const DeepSpaceView = () => {
             .catch(err => console.warn("Deep Space Data Error:", err))
             .finally(() => setLoading(false));
     }, []);
-
-    const selectedSpacecraft = spacecraft.find(s => s.id === selectedSpacecraftId);
 
     // Helper to stop ping on selection change
     useEffect(() => {
