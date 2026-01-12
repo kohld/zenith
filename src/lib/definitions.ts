@@ -99,4 +99,6 @@ export interface SpacecraftData {
     dec?: number;
     /** Timestamp when data was fetched. */
     date: string;
+    /** Current mission status (e.g. "Active", "Hibernate"). */
+    status?: string;
 }

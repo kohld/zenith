@@ -123,7 +123,9 @@ export const DeepSpaceView = () => {
                         </div>
                         <div className="p-4 bg-slate-800/30 rounded-lg border border-white/5">
                             <div className="text-slate-500 text-xs uppercase mb-1">Status</div>
-                            <div className="text-green-400 font-mono text-xs">● TRACKING ACTIVE</div>
+                            <div className={`${selectedSpacecraft.status === 'POWER SAVING' ? 'text-amber-400' : 'text-green-400'} font-mono text-xs uppercase`}>
+                                ● {selectedSpacecraft.status || 'TRACKING ACTIVE'}
+                            </div>
                         </div>
                     </div>
                 </div>
