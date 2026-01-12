@@ -227,6 +227,13 @@ export const SkyMap = () => {
                 Orbital Radar
             </h2>
 
+            {/* Screen Reader Only: Live Summary */}
+            <div className="sr-only" aria-live="polite">
+                {visualObjects.length > 0
+                    ? `Radar active. ${visualObjects.length} satellites visible above ${location?.name || 'current location'}.`
+                    : 'Searching for satellites...'}
+            </div>
+
             {/* Location Search Control */}
             <div className="relative w-full max-w-[300px] mb-6 z-20">
                 <div className="flex items-center bg-slate-800/80 backdrop-blur-md rounded-lg border border-slate-700 px-4 py-2 focus-within:ring-2 focus-within:ring-cyan-500/50 transition-all">
@@ -241,18 +248,22 @@ export const SkyMap = () => {
                         onChange={(e) => setQuery(e.target.value)}
                         onFocus={() => setShowResults(true)}
                         className="bg-transparent border-none outline-none text-sm text-white placeholder-slate-400 w-full"
+                        aria-label="Search for a location"
+                        aria-expanded={showResults}
+                        aria-controls="location-results"
                     />
                     {isSearching && <div className="animate-spin h-4 w-4 border-2 border-cyan-500 rounded-full border-t-transparent"></div>}
                 </div>
 
                 {/* Results Dropdown */}
                 {showResults && searchResults.length > 0 && (
-                    <div className="absolute top-full left-0 right-0 mt-2 bg-slate-800 border border-slate-700 rounded-lg shadow-xl overflow-hidden max-h-60 overflow-y-auto">
+                    <div id="location-results" role="listbox" className="absolute top-full left-0 right-0 mt-2 bg-slate-800 border border-slate-700 rounded-lg shadow-xl overflow-hidden max-h-60 overflow-y-auto">
                         {searchResults.map((res) => (
                             <button
                                 key={res.place_id}
                                 onClick={() => handleSelectLocation(res)}
-                                className="w-full text-left px-4 py-3 text-sm text-slate-300 hover:bg-slate-700 hover:text-white transition-colors border-b border-slate-700 last:border-0"
+                                className="w-full text-left px-4 py-3 text-sm text-slate-300 hover:bg-slate-700 hover:text-white transition-colors border-b border-slate-700 last:border-0 focus:outline-none focus:bg-slate-700"
+                                role="option"
                             >
                                 {res.display_name}
                             </button>
@@ -352,8 +363,11 @@ export const SkyMap = () => {
                         <span className="w-px h-3 bg-slate-700"></span>
                         {/* Status Bubble Indicator */}
                         <div className="flex items-center gap-1.5" title={dataSource === 'mirror' ? 'Data Source: Primary Mirror (Active)' : 'Data Source: Fallback (Primary Limit Reached)'}>
-                            <span>Data: CelesTrak</span>
+                            <span aria-hidden="true">Data: CelesTrak</span>
                             <span className={`w-2 h-2 rounded-full ${dataSource === 'mirror' ? 'bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.5)]' : 'bg-red-500 animate-pulse shadow-[0_0_8px_rgba(239,68,68,0.5)]'}`}></span>
+                            <span className="sr-only">
+                                {dataSource === 'mirror' ? 'System Status: Nominal, using primary mirror.' : 'System Status: Degraded, using fallback data.'}
+                            </span>
                         </div>
                     </div>
                 </div>

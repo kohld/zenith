@@ -234,6 +234,8 @@ export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCa
             className="w-full h-full cursor-pointer"
             style={{ width: '100%', height: '100%' }}
             onClick={handleClick}
+            role="img"
+            aria-label="Real-time orbital radar view showing satellite positions above your location"
         />
     );
 };
