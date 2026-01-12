@@ -1,5 +1,13 @@
 # Zenith
 
+<div align="center">
+
+  ![Deploy Status](https://img.shields.io/github/actions/workflow/status/kohld/zenith/deploy.yml?branch=main&style=flat-square&label=Deploy&color=93C5FD)
+  ![Spacecraft Data](https://img.shields.io/github/actions/workflow/status/kohld/zenith/update-spacecraft.yml?branch=main&style=flat-square&label=NASA%20Horizons&color=FDBA74)
+  ![TLE Data](https://img.shields.io/github/actions/workflow/status/kohld/zenith/update-tle.yml?branch=main&style=flat-square&label=CelesTrak%20TLE&color=86EFAC)
+
+</div>
+
 **Zenith** is a high-performance, visual interface for tracking humanity's presence in the cosmos. It combines real-time orbital tracking of Low Earth Orbit (LEO) satellites with a deep-space network monitor for interplanetary missions.
 
 ## Table of Contents
