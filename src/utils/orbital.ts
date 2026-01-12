@@ -146,29 +146,42 @@ const getSatelliteType = (name: string): string => {
 
 export const fetchTLEs = async (): Promise<SatelliteData[]> => {
     try {
-        // 100 brightest satellites
-        const response = await fetch('https://celestrak.org/NORAD/elements/gp.php?GROUP=visual&FORMAT=tle');
-        if (!response.ok) throw new Error('Failed to fetch TLEs');
-        const text = await response.text();
-        const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-        const satellites: SatelliteData[] = [];
+        const sources = [
+            'https://celestrak.org/NORAD/elements/gp.php?GROUP=visual&FORMAT=tle',  // Brightest
+            'https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=tle' // Space Stations
+        ];
 
-        for (let i = 0; i < lines.length; i += 3) {
-            if (lines[i] && lines[i + 1] && lines[i + 2]) {
-                const line2 = lines[i + 2];
-                const id = line2.length >= 7 ? line2.substring(2, 7).trim() : '00000';
-                const name = lines[i];
+        const responses = await Promise.all(sources.map(url => fetch(url)));
+        const texts = await Promise.all(responses.map(res => {
+            if (!res.ok) throw new Error(`Failed to fetch TLEs from ${res.url}`);
+            return res.text();
+        }));
 
-                satellites.push({
-                    id: id,
-                    name: name,
-                    type: getSatelliteType(name),
-                    line1: lines[i + 1],
-                    line2: line2
-                });
+        const satMap = new Map<string, SatelliteData>();
+
+        texts.forEach(text => {
+            const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+
+            for (let i = 0; i < lines.length; i += 3) {
+                if (lines[i] && lines[i + 1] && lines[i + 2]) {
+                    const line2 = lines[i + 2];
+                    const id = line2.length >= 7 ? line2.substring(2, 7).trim() : '00000';
+                    const name = lines[i];
+
+                    if (!satMap.has(id)) {
+                        satMap.set(id, {
+                            id: id,
+                            name: name,
+                            type: getSatelliteType(name),
+                            line1: lines[i + 1],
+                            line2: line2
+                        });
+                    }
+                }
             }
-        }
-        return satellites;
+        });
+
+        return Array.from(satMap.values());
     } catch (e) {
         console.error("Error fetching TLEs:", e);
         return [];
