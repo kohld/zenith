@@ -94,18 +94,21 @@ export const DeepSpaceView = () => {
             </div>
 
             {selectedSpacecraft && (
-                <div className="w-full">
-                    <SignalVisualizer
-                        key={selectedSpacecraft.id} // Reset state on change
-                        distanceKm={selectedSpacecraft.distanceKm}
-                        probeName={selectedSpacecraft.name}
-                        isActive={isPinging}
-                        progress={pingProgress}
-                        onStartPing={startPing}
-                    />
+                <div className="w-full flex flex-col lg:flex-row gap-8">
+                    {/* Signal Visualizer Panel */}
+                    <div className="flex-1">
+                        <SignalVisualizer
+                            key={selectedSpacecraft.id} // Reset state on change
+                            distanceKm={selectedSpacecraft.distanceKm}
+                            probeName={selectedSpacecraft.name}
+                            isActive={isPinging}
+                            progress={pingProgress}
+                            onStartPing={startPing}
+                        />
+                    </div>
 
                     {/* Additional Metadata */}
-                    <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div className="grid grid-cols-2 lg:grid-cols-1 gap-4 lg:w-80">
                         <div className="p-4 bg-slate-800/30 rounded-lg border border-white/5">
                             <div className="text-slate-500 text-xs uppercase mb-1">Mission Type</div>
                             <div className="text-white font-mono text-sm">{selectedSpacecraft.missionType}</div>
