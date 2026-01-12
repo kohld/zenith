@@ -119,12 +119,21 @@ export const DeepSpaceView = () => {
                         </div>
                         <div className="p-4 bg-slate-800/30 rounded-lg border border-white/5">
                             <div className="text-slate-500 text-xs uppercase mb-1">Data Timestamp</div>
-                            <div className="text-white font-mono text-xs">{new Date(selectedSpacecraft.date).toLocaleDateString()}</div>
+                            <div className="text-white font-mono text-xs">
+                                {new Date(selectedSpacecraft.date).toLocaleString([], {
+                                    year: 'numeric', month: '2-digit', day: '2-digit',
+                                    hour: '2-digit', minute: '2-digit',
+                                    timeZoneName: 'short'
+                                })}
+                            </div>
                         </div>
                         <div className="p-4 bg-slate-800/30 rounded-lg border border-white/5">
                             <div className="text-slate-500 text-xs uppercase mb-1">Status</div>
-                            <div className={`${selectedSpacecraft.status === 'POWER SAVING' ? 'text-amber-400' : 'text-green-400'} font-mono text-xs uppercase`}>
-                                ● {selectedSpacecraft.status || 'TRACKING ACTIVE'}
+                            <div className={`font-mono text-xs uppercase ${selectedSpacecraft.status?.includes('ACTIVE') ? 'text-green-400' :
+                                selectedSpacecraft.status === 'POWER SAVING' ? 'text-amber-400' :
+                                    'text-slate-400'
+                                }`}>
+                                ● {selectedSpacecraft.status || 'UNKNOWN'}
                             </div>
                         </div>
                     </div>

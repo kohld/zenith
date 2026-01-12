@@ -102,3 +102,16 @@ export interface SpacecraftData {
     /** Current mission status (e.g. "Active", "Hibernate"). */
     status?: string;
 }
+
+/**
+ * DSN Target status from NASA Eyes XML.
+ */
+export interface DSNTarget {
+    name: string; // e.g. "VGR1"
+    id: string;   // e.g. "31"
+    upSignal: boolean;
+    downSignal: boolean;
+    dataRate: number; // b/s
+    frequency: number; // Hz
+    power: number; // dBm
+}

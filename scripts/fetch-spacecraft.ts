@@ -1,4 +1,5 @@
-import { write, file } from "bun";
+import { write } from "bun";
+import { fetchDSNStatus } from "../src/api/dsn";
 
 // Configuration for NASA JPL Horizons API
 const API_URL = "https://ssd.jpl.nasa.gov/api/horizons.api";
@@ -130,48 +131,7 @@ async function fetchSpacecraftData(spacecraft: typeof SPACECRAFT[0]): Promise<Sp
     }
 }
 
-// DSN XML Status Fetcher
-async function fetchDSNStatus(): Promise<Map<string, string>> {
-    const statusMap = new Map<string, string>();
-    try {
-        console.log("📡 Fetching real-time DSN status...");
-        // Use eyes.nasa.gov which is often more reliable/accessible for public data
-        const response = await fetch("https://eyes.nasa.gov/dsn/data/dsn.xml");
-        if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-        const xmlText = await response.text();
-
-        // Simple regex parsing to avoid XML dependency
-        // Looking for: <dish ...> ... <target ... name="TGT" ... /> ... </dish>
-        // Or better: check for upSignal/downSignal with spacecraft names/ids
-
-        // Define mapping from Horizons ID/Name to DSN Name/ID if necessary
-        // Typically DSN uses names like 'VGR1', 'VGR2', 'NHPC', 'JWST', 'PSP'
-
-        // Check for active signals
-        const signals = [
-            { id: "-31", dsnName: "VGR1", label: "TRACKING ACTIVE" },
-            { id: "-32", dsnName: "VGR2", label: "TRACKING ACTIVE" },
-            { id: "-98", dsnName: "NHPC", label: "TRACKING ACTIVE" },
-            { id: "-170", dsnName: "JWST", label: "TRACKING ACTIVE" },
-            { id: "-96", dsnName: "PSP", label: "TRACKING ACTIVE" }
-        ];
-
-        for (const sig of signals) {
-            // Check if spacecraft is mentioned in upSignal or downSignal with active="true"
-            // <downSignal active="true" ... spacecraft="VGR1" ... />
-            // <upSignal active="true" ... spacecraft="VGR1" ... />
-            const regex = new RegExp(`(up|down)Signal\\s+active="true"[^>]*spacecraft="${sig.dsnName}"`, 'i');
-            if (regex.test(xmlText)) {
-                statusMap.set(sig.id, "● DOWNLINK ACTIVE"); // Differentiate if needed
-            }
-        }
-    } catch (e) {
-        console.warn("⚠️ Failed to fetch DSN status, using defaults:", e);
-    }
-    return statusMap;
-}
-
+// Main execution
 async function main() {
     console.log("🚀 Starting Deep Space Network Data Fetch...");
 
@@ -181,13 +141,11 @@ async function main() {
     for (const spacecraft of SPACECRAFT) {
         const data = await fetchSpacecraftData(spacecraft);
         if (data) {
-            // Apply DSN status if available, else default or existing logic
+            // Apply DSN status if available
             if (dsnStatus.has(spacecraft.id)) {
                 data.status = dsnStatus.get(spacecraft.id);
-            } else if (spacecraft.id === "-32") {
-                data.status = "POWER SAVING"; // V2 default override
             } else {
-                data.status = "TRACKING ACTIVE"; // Default
+                data.status = "AWAITING SIGNAL"; // Default when not currently talking to DSN
             }
             results.push(data);
         }
