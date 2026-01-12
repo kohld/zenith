@@ -44,8 +44,8 @@ jobs:
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name "Zenith Bot"
-          git config --global user.email "bot@zenith.app"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # Check if there are changes
           if git diff --quiet public/data/tles.txt; then

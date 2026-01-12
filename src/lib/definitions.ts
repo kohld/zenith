@@ -76,3 +76,21 @@ export interface SearchResult {
     /** Full formatted address string. */
     display_name: string;
 }
+
+/**
+ * Deep Space spacecraft data from NASA JPL Horizons.
+ */
+export interface SpacecraftData {
+    /** Spacecraft name (e.g., "Voyager 1"). */
+    name: string;
+    /** NASA Horizons ID (e.g., "-31"). */
+    id: string;
+    /** Distance from Earth in kilometers. */
+    distanceKm: number;
+    /** Velocity relative to Sun in km/s. */
+    velocityKmS: number;
+    /** Mission type / Description (e.g. "Interstellar Probe"). */
+    missionType: string;
+    /** Timestamp when data was fetched. */
+    date: string;
+}

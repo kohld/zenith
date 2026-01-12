@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import { fetchTLEs, getSatPosition, getSatellitePath } from '../../utils/orbital';
+import { getSatPosition, getSatellitePath } from '../../utils/orbital';
+import { fetchTLEs } from '../../api/celestrak';
 import { SkyCanvas } from './SkyCanvas';
 import { SatelliteData, SatellitePosition, VisualObject, ObserverLocation as Location, SearchResult } from '../../lib/definitions';
 

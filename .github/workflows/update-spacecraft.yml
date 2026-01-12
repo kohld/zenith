@@ -1,0 +1,41 @@
+name: Update Deep Space Spacecraft
+
+on:
+  schedule:
+    - cron: '30 */6 * * *' # Run every 6 hours (offset by 30min from TLE update)
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-spacecraft:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Fetch Deep Space Data
+        run: bun run scripts/fetch-spacecraft.ts
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check if there are changes
+          if git diff --quiet public/data/spacecraft.json; then
+            echo "No changes in Deep Space spacecraft data."
+          else
+            git add public/data/spacecraft.json
+            git commit -m "[AUTO] Update Deep Space spacecraft data"
+            git push
+          fi
