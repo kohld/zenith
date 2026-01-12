@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  ![Deploy Status](https://img.shields.io/github/actions/workflow/status/kohld/zenith/deploy.yml?branch=main&style=flat-square&label=Deploy&color=93C5FD)
+  ![Deploy Status](https://img.shields.io/github/actions/workflow/status/kohld/zenith/deploy.yml?branch=main&style=flat-square&label=Deployment&color=93C5FD)
   ![Spacecraft Data](https://img.shields.io/github/actions/workflow/status/kohld/zenith/update-spacecraft.yml?branch=main&style=flat-square&label=NASA%20Horizons&color=FDBA74)
   ![TLE Data](https://img.shields.io/github/actions/workflow/status/kohld/zenith/update-tle.yml?branch=main&style=flat-square&label=CelesTrak%20TLE&color=86EFAC)
 
