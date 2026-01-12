@@ -222,7 +222,7 @@ export const SkyMap = () => {
 
 
     return (
-        <div className="w-full max-w-4xl mx-auto p-4 flex flex-col items-center">
+        <div className="w-full mx-auto p-4 flex flex-col items-center">
             <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-6">
                 Orbital Radar
             </h2>
@@ -261,7 +261,7 @@ export const SkyMap = () => {
                 )}
             </div>
 
-            <div className="relative w-full aspect-square max-w-[600px] bg-slate-900/50 rounded-full border border-slate-700/50 backdrop-blur-sm shadow-[0_0_50px_rgba(56,189,248,0.1)] overflow-hidden">
+            <div className="relative w-full aspect-square md:w-[50vw] md:max-w-none max-w-[600px] bg-slate-900/50 rounded-full border border-slate-700/50 backdrop-blur-sm shadow-[0_0_50px_rgba(56,189,248,0.1)] overflow-hidden">
                 {loading || !location ? (
                     <div className="absolute inset-0 flex items-center justify-center flex-col gap-4 z-10 p-4">
                         <div className="animate-spin h-6 w-6 border-2 border-cyan-500 rounded-full border-t-transparent"></div>
