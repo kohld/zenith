@@ -64,9 +64,25 @@ export const fetchTLEs = async (): Promise<{ data: SatelliteData[], source: 'mir
             let loadedCount = 0;
             for (let i = 0; i < lines.length; i += 3) {
                 if (lines[i] && lines[i + 1] && lines[i + 2]) {
+                    const line1 = lines[i + 1];
                     const line2 = lines[i + 2];
                     const id = line2.length >= 7 ? line2.substring(2, 7).trim() : '00000';
                     const name = lines[i];
+
+                    // Parse COSPAR designation from TLE line 1 (columns 10-17, 1-indexed)
+                    // Example: "1 25544U 98067A   ..." -> "1998-067-A"
+                    let cospar: string | undefined;
+                    if (line1.length >= 17) {
+                        const cosparRaw = line1.substring(9, 17).trim(); // 0-indexed: 9-16
+                        if (cosparRaw.length >= 5) {
+                            // Format: "98067A" -> "1998-067-A"
+                            const year = cosparRaw.substring(0, 2);
+                            const launch = cosparRaw.substring(2, 5);
+                            const piece = cosparRaw.substring(5);
+                            const fullYear = parseInt(year) < 57 ? `20${year}` : `19${year}`; // Y2K pivot
+                            cospar = `${fullYear}-${launch}${piece ? `-${piece}` : ''}`;
+                        }
+                    }
 
                     // Deduplicate
                     if (!satMap.has(id)) {
@@ -74,8 +90,9 @@ export const fetchTLEs = async (): Promise<{ data: SatelliteData[], source: 'mir
                             id: id,
                             name: name,
                             type: getSatelliteType(name),
-                            line1: lines[i + 1],
-                            line2: line2
+                            line1: line1,
+                            line2: line2,
+                            cospar: cospar
                         });
                         loadedCount++;
                     }

@@ -34,6 +34,8 @@ export interface SatelliteData {
     line1: string;
     /** Second line of TLE set. */
     line2: string;
+    /** COSPAR designation (International Designator, e.g., "1998-067-A"). */
+    cospar?: string;
 }
 
 /**

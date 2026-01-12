@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getSatPosition, getSatellitePath } from '../../utils/orbital';
+import { getOrbitalParams } from '../../utils/orbital-params';
 import { fetchTLEs } from '../../api/celestrak';
 import { SkyCanvas } from './SkyCanvas';
 import { SatelliteData, SatellitePosition, VisualObject, ObserverLocation as Location, SearchResult } from '../../lib/definitions';
@@ -303,49 +304,68 @@ export const SkyMap = () => {
             </div>
 
             {/* Selected Satellite Data Panel (Always Visible) */}
-            <div className="w-full max-w-[600px] mt-4 p-4 bg-slate-800/80 backdrop-blur-md border border-slate-700/50 rounded-xl shadow-lg min-h-[120px] flex flex-col justify-center transition-all duration-300">
+            <div className="w-full max-w-[600px] mt-4 p-4 bg-slate-800/80 backdrop-blur-md border border-slate-700/50 rounded-xl shadow-lg transition-all duration-300">
                 {selectedSatId && visualObjects.find(v => v.id === selectedSatId) ? (
                     (() => {
                         const sat = visualObjects.find(v => v.id === selectedSatId); // Find by ID
+                        const satData = satellites.find(s => s.id === selectedSatId); // Get full satellite data
                         const pos = sat!.position;
+                        const orbitalParams = satData ? getOrbitalParams(satData.line1, satData.line2) : null;
+
                         return (
-                            <div className="flex flex-row items-center justify-between gap-4 animate-in fade-in duration-300">
-                                <div className="flex-shrink-0">
-                                    <div className="text-[10px] uppercase tracking-widest text-cyan-400 font-semibold mb-1">Target Lock</div>
-                                    <div className="text-xl font-bold text-white leading-none truncate max-w-[200px]" title={sat!.name}>
-                                        {sat!.name}
+                            <div className="flex flex-col gap-3 animate-in fade-in duration-300">
+                                {/* Header Row */}
+                                <div className="flex flex-row items-center justify-between gap-4">
+                                    <div className="flex-shrink-0">
+                                        <div className="text-[10px] uppercase tracking-widest text-cyan-400 font-semibold mb-1">Target Lock</div>
+                                        <div className="text-xl font-bold text-white leading-none truncate max-w-[200px]" title={sat!.name}>
+                                            {sat!.name}
+                                        </div>
+                                        <div className="mt-2 text-[10px] text-slate-500 font-mono flex flex-col gap-0.5">
+                                            <span>NORAD ID: <span className="text-slate-300">{sat!.id}</span></span>
+                                            {satData?.cospar && (
+                                                <span>COSPAR: <span className="text-slate-300">{satData.cospar}</span></span>
+                                            )}
+                                            <span className="text-cyan-500/80">{sat!.type}</span>
+                                        </div>
                                     </div>
-                                    <div className="mt-2 text-[10px] text-slate-500 font-mono flex flex-col gap-0.5">
-                                        <span>NORAD ID: <span className="text-slate-300">{sat!.id}</span></span>
-                                        <span className="text-cyan-500/80">{sat!.type}</span>
+
+                                    <div className="h-10 w-px bg-slate-700/50 hidden sm:block" />
+
+                                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs flex-grow">
+                                        <div>
+                                            <div className="text-slate-500 mb-0.5">Altitude</div>
+                                            <div className="text-slate-200 font-mono text-sm">{Math.round(pos.height).toLocaleString()} <span className="text-[10px] text-slate-500">km</span></div>
+                                        </div>
+                                        <div>
+                                            <div className="text-slate-500 mb-0.5">Velocity</div>
+                                            <div className="text-slate-200 font-mono text-sm">{pos.velocity.toFixed(2)} <span className="text-[10px] text-slate-500">km/s</span></div>
+                                        </div>
+                                        <div>
+                                            <div className="text-slate-500 mb-0.5">Elevation</div>
+                                            <div className="text-slate-200 font-mono text-sm">{pos.elevation.toFixed(1)}°</div>
+                                        </div>
+                                        <div>
+                                            <div className="text-slate-500 mb-0.5">Azimuth</div>
+                                            <div className="text-slate-200 font-mono text-sm">{pos.azimuth.toFixed(1)}°</div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div className="h-10 w-px bg-slate-700/50 hidden sm:block" />
-
-                                <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs flex-grow">
-                                    <div>
-                                        <div className="text-slate-500 mb-0.5">Altitude</div>
-                                        <div className="text-slate-200 font-mono text-sm">{Math.round(pos.height).toLocaleString()} <span className="text-[10px] text-slate-500">km</span></div>
+                                {/* Orbital Parameters Row */}
+                                {orbitalParams && (
+                                    <div className="pt-2 border-t border-slate-700/30">
+                                        <div className="text-[10px] text-slate-500 mb-1">Orbit</div>
+                                        <div className="text-sm text-slate-300 font-mono">
+                                            {Math.round(orbitalParams.perigee)} × {Math.round(orbitalParams.apogee)} km; {orbitalParams.inclination.toFixed(1)}°
+                                        </div>
                                     </div>
-                                    <div>
-                                        <div className="text-slate-500 mb-0.5">Velocity</div>
-                                        <div className="text-slate-200 font-mono text-sm">{pos.velocity.toFixed(2)} <span className="text-[10px] text-slate-500">km/s</span></div>
-                                    </div>
-                                    <div>
-                                        <div className="text-slate-500 mb-0.5">Elevation</div>
-                                        <div className="text-slate-200 font-mono text-sm">{pos.elevation.toFixed(1)}°</div>
-                                    </div>
-                                    <div>
-                                        <div className="text-slate-500 mb-0.5">Azimuth</div>
-                                        <div className="text-slate-200 font-mono text-sm">{pos.azimuth.toFixed(1)}°</div>
-                                    </div>
-                                </div>
+                                )}
                             </div>
                         );
                     })()
                 ) : (
-                    <div className="flex flex-col items-center justify-center h-full text-slate-500 animate-in fade-in duration-300">
+                    <div className="flex flex-col items-center justify-center py-8 text-slate-500 animate-in fade-in duration-300">
                         <div className="flex items-center gap-2 mb-1">
                             <div className="w-2 h-2 rounded-full bg-cyan-500/50 animate-pulse"></div>
                             <span className="text-xs font-medium uppercase tracking-widest">Radar Active</span>
