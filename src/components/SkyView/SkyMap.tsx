@@ -223,7 +223,7 @@ export const SkyMap = () => {
 
 
     return (
-        <div className="w-full mx-auto p-4 flex flex-col items-center">
+        <div className="w-full mx-auto p-4 flex flex-col items-center animate-slide-in">
             <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-6">
                 Orbital Radar
             </h2>
