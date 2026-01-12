@@ -1,16 +1,34 @@
 {
   "name": "zenith",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "description": "Modern, real-time satellite tracking visualization with self-hosted TLE mirror.",
+  "author": "Dennes Kohl",
+  "license": "MIT",
+  "keywords": [
+    "satellite",
+    "tracking",
+    "orbit",
+    "visualization",
+    "react",
+    "vite",
+    "space",
+    "real-time"
+  ],
   "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/kohld/zenith"
   },
+  "bugs": {
+    "url": "https://github.com/kohld/zenith/issues"
+  },
+  "homepage": "https://github.com/kohld/zenith#readme",
   "scripts": {
     "dev": "vite",
     "start": "vite",
-    "build": "vite build",
+    "build": "tsc -b && vite build",
+    "type-check": "tsc --noEmit",
     "preview": "vite preview"
   },
   "devDependencies": {
