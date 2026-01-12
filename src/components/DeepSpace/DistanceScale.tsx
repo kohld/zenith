@@ -10,10 +10,10 @@ interface DistanceScaleProps {
 
 // Celestial reference points (distances from Earth in km)
 const MILESTONES = [
-    { name: 'Moon', distance: 384400, icon: '🌕' },
-    { name: 'Mars', distance: 225_000_000, icon: '♂️' }, // Average
-    { name: 'Jupiter', distance: 628_000_000, icon: '♃' }, // Average
-    { name: 'Pluto', distance: 5_900_000_000, icon: '♇' }, // Average
+    { name: 'Moon', distance: 384400, gradient: 'from-slate-300 to-slate-500', shadow: 'rgba(203,213,225,0.6)' },
+    { name: 'Mars', distance: 225_000_000, gradient: 'from-red-400 to-orange-600', shadow: 'rgba(248,113,113,0.6)' }, // Average
+    { name: 'Jupiter', distance: 628_000_000, gradient: 'from-amber-300 to-orange-500', shadow: 'rgba(251,191,36,0.6)' }, // Average
+    { name: 'Pluto', distance: 5_900_000_000, gradient: 'from-cyan-300 to-blue-500', shadow: 'rgba(34,211,238,0.6)' }, // Average
 ];
 
 export const DistanceScale = ({ spacecraft, selectedId, onSelectSpacecraft, isPinging, pingProgress }: DistanceScaleProps) => {
@@ -71,9 +71,12 @@ export const DistanceScale = ({ spacecraft, selectedId, onSelectSpacecraft, isPi
                     )}
 
                     {/* Earth (Start Point) */}
-                    <div className="absolute left-0 top-1/2 -translate-y-1/2 flex flex-col items-center">
-                        <div className="w-6 h-6 mb-2 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 shadow-[0_0_15px_rgba(59,130,246,0.6)] border border-blue-300/20" />
-                        <span className="text-xs text-slate-400 font-mono">Earth</span>
+                    <div className="absolute left-0 top-1/2 flex flex-col items-center">
+                        {/* Centered on line */}
+                        <div className="absolute -translate-y-1/2 -translate-x-1/2 flex flex-col items-center">
+                            <div className="w-6 h-6 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 shadow-[0_0_15px_rgba(59,130,246,0.6)] border border-blue-300/20" />
+                            <span className="absolute top-8 text-xs text-slate-400 font-mono" style={{ writingMode: 'vertical-rl', textOrientation: 'upright', letterSpacing: '-1px' }}>Earth</span>
+                        </div>
                     </div>
 
                     {/* Milestones */}
@@ -84,11 +87,22 @@ export const DistanceScale = ({ spacecraft, selectedId, onSelectSpacecraft, isPi
                         return (
                             <div
                                 key={milestone.name}
-                                className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 flex flex-col items-center"
+                                className="absolute top-1/2"
                                 style={{ left: `${pos}%` }}
                             >
-                                <div className="text-lg mb-1 opacity-60">{milestone.icon}</div>
-                                <span className="text-[10px] text-slate-500 font-mono whitespace-nowrap">{milestone.name}</span>
+                                {/* Icon centered on line */}
+                                <div
+                                    className={`absolute -translate-x-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-gradient-to-br ${milestone.gradient} border border-white/10`}
+                                    style={{ boxShadow: `0 0 10px ${milestone.shadow}` }}
+                                />
+
+                                {/* Vertical Label below */}
+                                <span
+                                    className="absolute top-4 -translate-x-1/2 text-[10px] text-slate-500 font-mono whitespace-nowrap"
+                                    style={{ writingMode: 'vertical-rl', textOrientation: 'upright', letterSpacing: '-1px' }}
+                                >
+                                    {milestone.name}
+                                </span>
                             </div>
                         );
                     })}
