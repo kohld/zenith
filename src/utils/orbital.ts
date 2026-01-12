@@ -144,30 +144,45 @@ const getSatelliteType = (name: string): string => {
     return 'Satellite';
 };
 
-export const fetchTLEs = async (): Promise<SatelliteData[]> => {
-    try {
-        const sources = [
-            'https://celestrak.org/NORAD/elements/gp.php?GROUP=visual&FORMAT=tle',  // Brightest
-            'https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=tle' // Space Stations
-        ];
+export const fetchTLEs = async (): Promise<{ data: SatelliteData[], source: 'mirror' | 'fallback' | 'error' }> => {
+    const satMap = new Map<string, SatelliteData>();
 
-        const responses = await Promise.all(sources.map(url => fetch(url)));
-        const texts = await Promise.all(responses.map(res => {
-            if (!res.ok) throw new Error(`Failed to fetch TLEs from ${res.url}`);
-            return res.text();
-        }));
+    // Priority: Local Mirror (updated by GitHub Actions), Fallback: ARISS
+    // We use import.meta.env.BASE_URL to ensure this works even if the app is served from a subdirectory (like /zenith/)
+    const sources = [
+        { url: `${import.meta.env.BASE_URL}data/tles.txt`, type: 'mirror' },
+        { url: 'https://live.ariss.org/iss.txt', type: 'fallback' }
+    ];
 
-        const satMap = new Map<string, SatelliteData>();
+    console.log("Fetching TLEs from local mirror...");
 
-        texts.forEach(text => {
+    let usedSource: 'mirror' | 'fallback' | 'error' = 'error';
+
+    for (const source of sources) {
+        try {
+            const res = await fetch(source.url);
+            if (!res.ok) {
+                console.warn(`Failed to fetch ${source.url}: ${res.status}`);
+                continue;
+            }
+            const text = await res.text();
+
+            // Should contain lines, ignore HTML errors or empty responses
+            if (!text || text.trim().length === 0 || text.includes('<!DOCTYPE')) {
+                console.warn(`Invalid TLE content from ${source.url}`);
+                continue;
+            }
+
             const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
 
+            let loadedCount = 0;
             for (let i = 0; i < lines.length; i += 3) {
                 if (lines[i] && lines[i + 1] && lines[i + 2]) {
                     const line2 = lines[i + 2];
                     const id = line2.length >= 7 ? line2.substring(2, 7).trim() : '00000';
                     const name = lines[i];
 
+                    // Deduplicate
                     if (!satMap.has(id)) {
                         satMap.set(id, {
                             id: id,
@@ -176,14 +191,24 @@ export const fetchTLEs = async (): Promise<SatelliteData[]> => {
                             line1: lines[i + 1],
                             line2: line2
                         });
+                        loadedCount++;
                     }
                 }
             }
-        });
+            console.log(`Fetched ${loadedCount} satellites from ${source.url}`);
 
-        return Array.from(satMap.values());
-    } catch (e) {
-        console.error("Error fetching TLEs:", e);
-        return [];
+            // If we successfully loaded data from the primary mirror, we can stop.
+            if (satMap.size > 0) {
+                usedSource = source.type as 'mirror' | 'fallback';
+                if (usedSource === 'mirror') break;
+            }
+
+        } catch (e) {
+            console.warn(`Error fetching ${source.url}:`, e);
+        }
     }
+
+    const results = Array.from(satMap.values());
+    console.log(`Total satellites loaded: ${results.length} (Source: ${usedSource})`);
+    return { data: results, source: usedSource };
 };

@@ -31,6 +31,7 @@ export const SkyMap = () => {
     const [loading, setLoading] = useState(true);
     const [selectedSatId, setSelectedSatId] = useState<string | null>(null); // Track ID
     const [orbitPath, setOrbitPath] = useState<SatellitePosition[]>([]);
+    const [dataSource, setDataSource] = useState<'mirror' | 'fallback' | 'error'>('mirror');
 
     // Location State - start as null to show loading/detection
     const [location, setLocation] = useState<Location | null>(() => {
@@ -45,12 +46,15 @@ export const SkyMap = () => {
     // Initial Fetch
     useEffect(() => {
         const loadData = async () => {
-            const data = await fetchTLEs();
+            const { data, source } = await fetchTLEs();
             setSatellites(data);
+            setDataSource(source);
             setLoading(false);
         };
         loadData();
     }, []);
+
+
 
     // Save location
     useEffect(() => {
@@ -361,11 +365,15 @@ export const SkyMap = () => {
             {location && (
                 <div className="mt-4 text-center text-slate-400 text-sm">
                     <p>Showing {visualObjects.length} bright satellites above <span className="text-cyan-400 font-medium">{location.name}</span>.</p>
-                    <div className="text-xs text-slate-500 mt-1 space-x-2">
+                    <div className="text-xs text-slate-500 mt-1 flex items-center justify-center gap-3">
                         <span>Lat: {location.lat.toFixed(2)}°</span>
                         <span>Lng: {location.lng.toFixed(2)}°</span>
-                        <span>•</span>
-                        <span>Data: CelesTrak</span>
+                        <span className="w-px h-3 bg-slate-700"></span>
+                        {/* Status Bubble Indicator */}
+                        <div className="flex items-center gap-1.5" title={dataSource === 'mirror' ? 'Data Source: Primary Mirror (Active)' : 'Data Source: Fallback (Primary Limit Reached)'}>
+                            <span>Data: CelesTrak</span>
+                            <span className={`w-2 h-2 rounded-full ${dataSource === 'mirror' ? 'bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.5)]' : 'bg-red-500 animate-pulse shadow-[0_0_8px_rgba(239,68,68,0.5)]'}`}></span>
+                        </div>
                     </div>
                 </div>
             )}

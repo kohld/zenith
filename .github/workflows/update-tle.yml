@@ -1,0 +1,57 @@
+name: Update TLE Data
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Run every 6 hours
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-tle:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and Merge TLEs
+        run: |
+          mkdir -p public/data
+          
+          # Fetch Visual (Brightest)
+          curl -s "https://celestrak.org/NORAD/elements/gp.php?GROUP=visual&FORMAT=tle" > visual.txt
+          
+          # Fetch Space Stations
+          curl -s "https://celestrak.org/NORAD/elements/gp.php?GROUP=stations&FORMAT=tle" > stations.txt
+          
+          # Combine files (Visual first)
+          cat visual.txt > combined.txt
+          echo "" >> combined.txt
+          cat stations.txt >> combined.txt
+          
+          # Basic validation: Check if file has content
+          if [ -s combined.txt ]; then
+            mv combined.txt public/data/tles.txt
+            echo "TLE data updated successfully."
+          else
+            echo "Failed to fetch TLE data."
+            exit 1
+          fi
+          
+          # Cleanup temp files
+          rm visual.txt stations.txt
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "Zenith Bot"
+          git config --global user.email "bot@zenith.app"
+          
+          # Check if there are changes
+          if git diff --quiet public/data/tles.txt; then
+            echo "No changes in TLE data."
+          else
+            git add public/data/tles.txt
+            git commit -m "[AUTO] Update TLE satellite data"
+            git push
+          fi
