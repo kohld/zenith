@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { SignalVisualizer } from './SignalVisualizer';
+import { SignalAnalysis } from './SignalAnalysis';
 import { DistanceScale } from './DistanceScale';
 import { usePingAnimation } from '../../hooks/usePingAnimation';
 import { SpacecraftData } from '../../lib/definitions';
@@ -8,6 +9,7 @@ import { fetchSpacecraftData } from '../../api/horizons';
 export const DeepSpaceView = () => {
     const [spacecraft, setSpacecraft] = useState<SpacecraftData[]>([]);
     const [selectedSpacecraftId, setSelectedSpacecraftId] = useState<string | null>(null);
+    const [showSigInt, setShowSigInt] = useState(false);
     const [loading, setLoading] = useState(true);
 
     const selectedSpacecraft = spacecraft.find(s => s.id === selectedSpacecraftId);
@@ -109,6 +111,17 @@ export const DeepSpaceView = () => {
 
                     {/* Additional Metadata */}
                     <div className="grid grid-cols-2 lg:grid-cols-1 gap-4 lg:w-80">
+
+                        <button
+                            onClick={() => setShowSigInt(true)}
+                            className="col-span-2 p-3 bg-cyan-900/30 border border-cyan-500/30 rounded-lg text-cyan-400 text-sm font-mono tracking-wider hover:bg-cyan-500/20 transition-all flex items-center justify-center gap-2 group"
+                        >
+                            <svg className="w-5 h-5 group-hover:animate-pulse" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                            </svg>
+                            SIGNAL ANALYSIS
+                        </button>
+
                         <div className="p-4 bg-slate-800/30 rounded-lg border border-white/5">
                             <div className="text-slate-500 text-xs uppercase mb-1">Mission Type</div>
                             <div className="text-white font-mono text-sm">{selectedSpacecraft.missionType}</div>
@@ -138,6 +151,13 @@ export const DeepSpaceView = () => {
                         </div>
                     </div>
                 </div>
+            )}
+
+            {showSigInt && selectedSpacecraft && (
+                <SignalAnalysis
+                    spacecraft={selectedSpacecraft}
+                    onClose={() => setShowSigInt(false)}
+                />
             )}
         </div>
     );

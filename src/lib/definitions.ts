@@ -111,6 +111,8 @@ export interface SpacecraftData {
     date: string;
     /** Current mission status (e.g. "Active", "Hibernate"). */
     status?: string;
+    /** Real-time DSN signal data (Power, Data Rate) if available. */
+    dsnSignal?: DSNTarget;
 }
 
 /**

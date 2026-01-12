@@ -12,8 +12,8 @@ import { DSNTarget } from '../lib/definitions';
  * Note: This endpoint often has CORS restrictions in browsers,
  * so it is primarily used by the build script (fetch-spacecraft.ts).
  */
-export const fetchDSNStatus = async (): Promise<Map<string, string>> => {
-    const statusMap = new Map<string, string>();
+export const fetchDSNStatus = async (): Promise<Map<string, DSNTarget>> => {
+    const statusMap = new Map<string, DSNTarget>();
     try {
         console.log("📡 Fetching real-time DSN status...");
         const response = await fetch("https://eyes.nasa.gov/dsn/data/dsn.xml");
@@ -31,23 +31,53 @@ export const fetchDSNStatus = async (): Promise<Map<string, string>> => {
         ];
 
         for (const sig of signals) {
-            // Check for DOWN active="true"
-            // <downSignal active="true" ... spacecraft="VGR1" ... />
-            const rxDown = new RegExp(`downSignal\\s+active="true"[^>]*spacecraft="${sig.dsnName}"`, 'i');
+            // Regex to extract DownSignal attributes
+            // <downSignal ... spacecraft="VGR1" ... dataRate="160.0" ... power="-155.0" ... frequency="8415000000" ... active="true" />
+            // Note: Regex is brittle but sufficient for this specific XML schema if simple
+            // We look for a <downSignal ...> tag containing spacecraft="NAME" and then extract attributes
 
-            // Check for UP active="true"
-            // <upSignal active="true" ... spacecraft="VGR1" ... />
-            const rxUp = new RegExp(`upSignal\\s+active="true"[^>]*spacecraft="${sig.dsnName}"`, 'i');
+            // Matches the whole tag for this spacecraft
+            const downSignalRegex = new RegExp(`<downSignal[^>]*?spacecraft="${sig.dsnName}"[^>]*?>`, 'i');
+            const match = xmlText.match(downSignalRegex);
 
-            const isDown = rxDown.test(xmlText);
-            const isUp = rxUp.test(xmlText);
+            let dsnData: DSNTarget = {
+                id: sig.id,
+                name: sig.dsnName,
+                upSignal: false,
+                downSignal: false,
+                dataRate: 0,
+                power: 0,
+                frequency: 0
+            };
 
-            if (isDown && isUp) {
-                statusMap.set(sig.id, "2-WAY CONTACT");
-            } else if (isDown) {
-                statusMap.set(sig.id, "DOWNLINK ACTIVE");
-            } else if (isUp) {
-                statusMap.set(sig.id, "UPLINK ACTIVE");
+            if (match) {
+                const tag = match[0];
+
+                // Parse attributes
+                const active = /active="true"/i.test(tag);
+                if (active) {
+                    dsnData.downSignal = true;
+
+                    const drMatch = tag.match(/dataRate="([\d.-]+)"/);
+                    if (drMatch) dsnData.dataRate = parseFloat(drMatch[1]);
+
+                    const pwrMatch = tag.match(/power="([\d.-]+)"/);
+                    if (pwrMatch) dsnData.power = parseFloat(pwrMatch[1]);
+
+                    const freqMatch = tag.match(/frequency="([\d.-]+)"/);
+                    if (freqMatch) dsnData.frequency = parseFloat(freqMatch[1]);
+                }
+            }
+
+            // Check Uplink too
+            const upSignalRegex = new RegExp(`<upSignal[^>]*?spacecraft="${sig.dsnName}"[^>]*?active="true"`, 'i');
+            if (upSignalRegex.test(xmlText)) {
+                dsnData.upSignal = true;
+            }
+
+            // Only add if there is some activity or at least parsed structure
+            if (dsnData.downSignal || dsnData.upSignal) {
+                statusMap.set(sig.id, dsnData);
             }
         }
     } catch (e) {

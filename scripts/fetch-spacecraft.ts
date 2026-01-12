@@ -131,9 +131,15 @@ async function main() {
     for (const spacecraft of SPACECRAFT) {
         const data = await fetchSpacecraftData(spacecraft);
         if (data) {
-            // Apply DSN status if available
             if (dsnStatus.has(spacecraft.id)) {
-                data.status = dsnStatus.get(spacecraft.id);
+                const dsn = dsnStatus.get(spacecraft.id)!;
+                data.dsnSignal = dsn;
+
+                // Derive text status
+                if (dsn.upSignal && dsn.downSignal) data.status = "2-WAY CONTACT";
+                else if (dsn.downSignal) data.status = "DOWNLINK ACTIVE";
+                else if (dsn.upSignal) data.status = "UPLINK ACTIVE";
+                else data.status = "AWAITING SIGNAL";
             } else {
                 data.status = "AWAITING SIGNAL"; // Default when not currently talking to DSN
             }
