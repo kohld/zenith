@@ -72,7 +72,7 @@ export const DistanceScale = ({ spacecraft, selectedId, onSelectSpacecraft, isPi
 
                     {/* Earth (Start Point) */}
                     <div className="absolute left-0 top-1/2 -translate-y-1/2 flex flex-col items-center">
-                        <div className="text-2xl mb-2">🌍</div>
+                        <div className="w-6 h-6 mb-2 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 shadow-[0_0_15px_rgba(59,130,246,0.6)] border border-blue-300/20" />
                         <span className="text-xs text-slate-400 font-mono">Earth</span>
                     </div>
 
