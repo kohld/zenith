@@ -10,6 +10,17 @@ import {
 } from 'satellite.js';
 import { SatellitePosition, SatelliteData } from '../lib/definitions';
 
+/**
+ * Calculates the current geodetic position and look angles for a satellite relative to an observer.
+ * 
+ * @param tle1 - The first line of the TLE (Two-Line Element) set.
+ * @param tle2 - The second line of the TLE set.
+ * @param date - The date/time for which to calculate the position.
+ * @param observerLat - The observer's latitude in degrees.
+ * @param observerLng - The observer's longitude in degrees.
+ *
+ * @returns A generic SatellitePosition object, or null if propagation fails.
+ */
 export const getSatPosition = (
     tle1: string,
     tle2: string,
@@ -61,7 +72,19 @@ export const getSatPosition = (
     };
 };
 
-// Calculate orbital path for the next `durationMinutes`
+/**
+ * Generates a series of future positions for a satellite to visualize its predicted path.
+ * 
+ * @param tle1 - The first line of the TLE set.
+ * @param tle2 - The second line of the TLE set.
+ * @param startTime - The starting time for the path calculation.
+ * @param durationMinutes - How many minutes into the future to calculate (e.g., 90 for one orbit).
+ * @param observerLat - The observer's latitude.
+ * @param observerLng - The observer's longitude.
+ * @param stepMinutes - The interval between calculate points (default: 1 minute).
+ *
+ * @returns Array of SatellitePosition objects representing the path.
+ */
 export const getSatellitePath = (
     tle1: string,
     tle2: string,
@@ -113,7 +136,13 @@ export const getSatellitePath = (
 };
 
 
-
+/**
+ * Infers the satellite type based on common naming patterns in the TLE name.
+ * 
+ * @param name - The satellite name (e.g., "STARLINK-123", "ISS (ZARYA)").
+ *
+ * @returns A classified string like "Space Station", "Communication", or "Satellite".
+ */
 const getSatelliteType = (name: string): string => {
     const n = name.toUpperCase();
     if (n.includes('ISS') || n.includes('ZARYA') || n.includes('CSS') || n.includes('TIANGONG')) return 'Space Station';
@@ -128,6 +157,15 @@ const getSatelliteType = (name: string): string => {
     return 'Satellite';
 };
 
+/**
+ * Fetches Two-Line Element (TLE) data from configured sources with fallback logic.
+ * 
+ * Strategy:
+ * 1. Try Local Mirror (`/data/tles.txt`) - Populated by GitHub Actions (prevents rate limits).
+ * 2. Fallback to ARISS (`live.ariss.org`) - Ensures at least ISS is visible if mirror fails.
+ * 
+ * @returns Object containing parsed satellite data and source metadata.
+ */
 export const fetchTLEs = async (): Promise<{ data: SatelliteData[], source: 'mirror' | 'fallback' | 'error' }> => {
     const satMap = new Map<string, SatelliteData>();
 
