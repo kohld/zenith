@@ -1,28 +1,9 @@
 import { useEffect, useState } from 'react';
-import { fetchTLEs, getSatPosition, SatelliteData, SatellitePosition, getSatellitePath } from '../../utils/orbital';
+import { fetchTLEs, getSatPosition, getSatellitePath } from '../../utils/orbital';
 import { SkyCanvas } from './SkyCanvas';
-
-interface VisualObject {
-    name: string;
-    id: string;
-    type: string; // Add type
-    position: SatellitePosition;
-}
-
-interface Location {
-    name: string;
-    lat: number;
-    lng: number;
-}
+import { SatelliteData, SatellitePosition, VisualObject, ObserverLocation as Location, SearchResult } from '../../lib/definitions';
 
 // Default to Berlin removed. Starting with null to trigger detection.
-
-interface SearchResult {
-    place_id: number;
-    lat: string;
-    lon: string;
-    display_name: string;
-}
 
 export const SkyMap = () => {
     const [satellites, setSatellites] = useState<SatelliteData[]>([]);

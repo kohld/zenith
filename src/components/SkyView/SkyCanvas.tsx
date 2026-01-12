@@ -1,11 +1,5 @@
 import { useRef, useEffect } from 'react';
-import { SatellitePosition } from '../../utils/orbital';
-
-interface VisualObject {
-    name: string;
-    id: string; // Add id
-    position: SatellitePosition;
-}
+import { VisualObject } from '../../lib/definitions';
 
 interface SkyCanvasProps {
     objects: VisualObject[];

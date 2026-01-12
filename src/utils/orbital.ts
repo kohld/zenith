@@ -8,17 +8,7 @@ import {
     degreesToRadians,
     radiansToDegrees
 } from 'satellite.js';
-
-export interface SatellitePosition {
-    azimuth: number;   // Degrees
-    elevation: number; // Degrees
-    range: number;     // km
-    height: number;    // km
-    latitude: number;  // Degrees
-    longitude: number; // Degrees
-    velocity: number;  // km/s
-    time?: Date;       // Timestamp for path pruning
-}
+import { SatellitePosition, SatelliteData } from '../lib/definitions';
 
 export const getSatPosition = (
     tle1: string,
@@ -122,13 +112,7 @@ export const getSatellitePath = (
     return path;
 };
 
-export interface SatelliteData {
-    id: string;
-    name: string;
-    type: string; // Add type
-    line1: string;
-    line2: string;
-}
+
 
 const getSatelliteType = (name: string): string => {
     const n = name.toUpperCase();
