@@ -90,34 +90,63 @@ export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCa
                 ctx.lineWidth = 2;
                 ctx.setLineDash([5, 5]);
 
-                // Determine start point (Satellite position or first point)
+                // Track coordinates for arrow drawing
+                let arrowTip: { x: number, y: number } | null = null;
+                let arrowTail: { x: number, y: number } | null = null;
                 let started = false;
 
-                // If we have a selected satellite that matches, start from it to connect the line
+                // Start from satellite position if available
                 if (selectedSatId) {
-                    const sat = objects.find(o => o.id === selectedSatId); // Use ID
+                    const sat = objects.find(o => o.id === selectedSatId);
                     if (sat && sat.position.elevation > 0) {
                         const { x, y } = projectAzElToCartesian(sat.position.azimuth, sat.position.elevation, cx, cy, radius);
                         ctx.moveTo(x, y);
                         started = true;
+                        arrowTip = { x, y };
                     }
                 }
 
-                orbitPath.forEach(pt => {
+                for (const pt of orbitPath) {
                     if (pt.elevation > 0) {
                         const { x, y } = projectAzElToCartesian(pt.azimuth, pt.elevation, cx, cy, radius);
                         if (!started) {
                             ctx.moveTo(x, y);
                             started = true;
+                            arrowTip = { x, y };
                         } else {
                             ctx.lineTo(x, y);
+                            arrowTail = arrowTip;
+                            arrowTip = { x, y };
                         }
                     } else {
                         started = false; // Break line if below horizon
                     }
-                });
+                }
                 ctx.stroke();
                 ctx.setLineDash([]);
+
+                // Draw Direction Arrow at the end
+                if (arrowTip && arrowTail) {
+                    const angle = Math.atan2(arrowTip.y - arrowTail.y, arrowTip.x - arrowTail.x);
+                    const headLen = 6; // Subtle size
+
+                    ctx.beginPath();
+                    ctx.strokeStyle = 'rgba(56, 189, 248, 0.8)';
+                    ctx.lineWidth = 2;
+
+                    // Arrowhead
+                    ctx.moveTo(arrowTip.x, arrowTip.y);
+                    ctx.lineTo(
+                        arrowTip.x - headLen * Math.cos(angle - Math.PI / 6),
+                        arrowTip.y - headLen * Math.sin(angle - Math.PI / 6)
+                    );
+                    ctx.moveTo(arrowTip.x, arrowTip.y);
+                    ctx.lineTo(
+                        arrowTip.x - headLen * Math.cos(angle + Math.PI / 6),
+                        arrowTip.y - headLen * Math.sin(angle + Math.PI / 6)
+                    );
+                    ctx.stroke();
+                }
             }
 
             // Draw Satellites
@@ -150,6 +179,27 @@ export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCa
                     ctx.strokeStyle = 'rgba(251, 191, 36, 0.5)';
                     ctx.lineWidth = 1;
                     ctx.stroke();
+
+                    // Direction Arrow on Bubble
+                    if (orbitPath && orbitPath.length > 0 && orbitPath[0].elevation > 0) {
+                        const nextPt = orbitPath[0];
+                        const { x: nx, y: ny } = projectAzElToCartesian(nextPt.azimuth, nextPt.elevation, cx, cy, radius);
+                        const angle = Math.atan2(ny - y, nx - x);
+                        const arrowDist = 14;
+
+                        ctx.save();
+                        ctx.translate(x + arrowDist * Math.cos(angle), y + arrowDist * Math.sin(angle));
+                        ctx.rotate(angle);
+
+                        ctx.beginPath();
+                        ctx.moveTo(-3, -3);
+                        ctx.lineTo(2, 0);
+                        ctx.lineTo(-3, 3);
+                        ctx.strokeStyle = '#fbbf24';
+                        ctx.lineWidth = 2;
+                        ctx.stroke();
+                        ctx.restore();
+                    }
                 }
 
                 ctx.beginPath();
