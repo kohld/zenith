@@ -210,11 +210,26 @@ export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCa
                 ctx.fill();
                 ctx.shadowBlur = 0;
 
+                // Label Logic
+                let labelYOffset = isSelected ? -24 : -12; // Default: Above (increased gap for bubble)
+
+                // If selected and moving "North" (Up), move label below to avoid arrow overlap
+                if (isSelected && orbitPath && orbitPath.length > 0 && orbitPath[0].elevation > 0) {
+                    const nextPt = orbitPath[0];
+                    const { x: nx, y: ny } = projectAzElToCartesian(nextPt.azimuth, nextPt.elevation, cx, cy, radius);
+                    const angle = Math.atan2(ny - y, nx - x);
+
+                    // Check if angle is roughly "Up" (-PI/2) +/- 45 degrees
+                    if (angle > -3 * Math.PI / 4 && angle < -Math.PI / 4) {
+                        labelYOffset = 24; // Move below
+                    }
+                }
+
                 // Label
                 if (isISS || isSelected) {
                     ctx.fillStyle = isSelected ? '#fbbf24' : '#ffffff';
                     ctx.font = isSelected ? 'bold 12px Inter' : '10px Inter';
-                    ctx.fillText(obj.name, x, y - 12);
+                    ctx.fillText(obj.name, x, y + labelYOffset);
                 } else {
                     ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
                     ctx.font = '10px Inter';
