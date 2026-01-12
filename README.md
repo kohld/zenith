@@ -51,6 +51,7 @@ Zenith uses a hybrid approach to ensure performance and data freshness without h
 ```mermaid
 graph TD
     NASA[NASA JPL Horizons API]
+    DSN[NASA DSN XML]
     CelesTrak[CelesTrak API]
     
     Script_Horizons[scripts/fetch-spacecraft.ts]
@@ -67,6 +68,10 @@ graph TD
     Action_Horizons -- "Every 6h" --> Script_Horizons
     Script_Horizons -- "Queries (RA/DEC/Range)" --> NASA
     NASA -- "CSV Response" --> Script_Horizons
+    
+    Script_Horizons -- "Check Status" --> DSN
+    DSN -- "XML Response" --> Script_Horizons
+    
     Script_Horizons -- Writes --> JSON_Spacecraft
 
     Action_TLE -- Every 6h --> Script_TLE
@@ -102,7 +107,7 @@ bun run build
 The project includes custom scripts and workflows to bridge external data sources.
 
 ### 1. NASA JPL Horizons (Deep Space)
-- **Source**: `scripts/fetch-spacecraft.ts` queries NASA Horizons for accurate RA/DEC and Distance.
+- **Source**: `scripts/fetch-spacecraft.ts` queries **NASA Horizons** for ephemeris and **NASA DSN XML** for real-time signal status.
 - **Schedule**: Updates every 6 hours via `update-spacecraft.yml`.
 - **Output**: `public/data/spacecraft.json`.
 
