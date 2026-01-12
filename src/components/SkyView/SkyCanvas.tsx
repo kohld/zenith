@@ -30,7 +30,9 @@ export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCa
                 canvas.height = height * dpr;
             }
 
-            ctx.scale(dpr, dpr);
+            // Reset transform to identity then scale by dpr
+            // This prevents "infinite zoom" accumulation across frames
+            ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
             // Logic pixels
 
             const cx = width / 2;
