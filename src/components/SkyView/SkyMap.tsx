@@ -29,7 +29,7 @@ export const SkyMap = () => {
     const [visualObjects, setVisualObjects] = useState<VisualObject[]>([]);
 
     const [loading, setLoading] = useState(true);
-    const [selectedSat, setSelectedSat] = useState<string | null>(null);
+    const [selectedSatId, setSelectedSatId] = useState<string | null>(null); // Track ID
     const [orbitPath, setOrbitPath] = useState<SatellitePosition[]>([]);
 
     // Location State - start as null to show loading/detection
@@ -179,10 +179,10 @@ export const SkyMap = () => {
         setShowResults(false);
     };
 
-    const handleSelectSat = (satName: string | null) => {
-        setSelectedSat(satName);
-        if (satName && location) {
-            const sat = satellites.find(s => s.name === satName);
+    const handleSelectSat = (satId: string | null) => { // Accept ID
+        setSelectedSatId(satId);
+        if (satId && location) {
+            const sat = satellites.find(s => s.id === satId); // Find by ID
             if (sat) {
                 const path = getSatellitePath(sat.line1, sat.line2, new Date(), 90, location.lat, location.lng, 0.2);
                 setOrbitPath(path);
@@ -194,14 +194,14 @@ export const SkyMap = () => {
 
     // Update path if location/selection changes
     useEffect(() => {
-        if (selectedSat && location) {
-            const sat = satellites.find(s => s.name === selectedSat);
+        if (selectedSatId && location) {
+            const sat = satellites.find(s => s.id === selectedSatId); // Find by ID
             if (sat) {
                 const path = getSatellitePath(sat.line1, sat.line2, new Date(), 90, location.lat, location.lng, 0.2);
                 setOrbitPath(path);
             }
         }
-    }, [location, selectedSat, satellites]);
+    }, [location, selectedSatId, satellites]);
 
     // Animation / Calculation Loop
     useEffect(() => {
@@ -297,7 +297,7 @@ export const SkyMap = () => {
                         <SkyCanvas
                             objects={visualObjects}
                             onSelect={handleSelectSat}
-                            selectedSat={selectedSat}
+                            selectedSatId={selectedSatId} // Updated Prop
                             orbitPath={orbitPath.filter(p => !p.time || p.time > new Date())} // Filter past points
                         />
 
@@ -307,9 +307,9 @@ export const SkyMap = () => {
 
             {/* Selected Satellite Data Panel (Always Visible) */}
             <div className="w-full max-w-[600px] mt-4 p-4 bg-slate-800/80 backdrop-blur-md border border-slate-700/50 rounded-xl shadow-lg min-h-[120px] flex flex-col justify-center transition-all duration-300">
-                {selectedSat && visualObjects.find(v => v.name === selectedSat) ? (
+                {selectedSatId && visualObjects.find(v => v.id === selectedSatId) ? (
                     (() => {
-                        const sat = visualObjects.find(v => v.name === selectedSat);
+                        const sat = visualObjects.find(v => v.id === selectedSatId); // Find by ID
                         const pos = sat!.position;
                         return (
                             <div className="flex flex-row items-center justify-between gap-4 animate-in fade-in duration-300">

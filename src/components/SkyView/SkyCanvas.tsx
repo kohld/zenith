@@ -9,12 +9,12 @@ interface VisualObject {
 
 interface SkyCanvasProps {
     objects: VisualObject[];
-    onSelect?: (name: string | null) => void;
-    selectedSat?: string | null;
+    onSelect?: (id: string | null) => void;
+    selectedSatId?: string | null; // Changed from selectedSat (name)
     orbitPath?: { azimuth: number; elevation: number }[];
 }
 
-export const SkyCanvas = ({ objects, onSelect, selectedSat, orbitPath }: SkyCanvasProps) => {
+export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCanvasProps) => { // Updated props
     const canvasRef = useRef<HTMLCanvasElement>(null);
 
     useEffect(() => {
@@ -109,8 +109,8 @@ export const SkyCanvas = ({ objects, onSelect, selectedSat, orbitPath }: SkyCanv
                 let started = false;
 
                 // If we have a selected satellite that matches, start from it to connect the line
-                if (selectedSat) {
-                    const sat = objects.find(o => o.name === selectedSat);
+                if (selectedSatId) {
+                    const sat = objects.find(o => o.id === selectedSatId); // Use ID
                     if (sat && sat.position.elevation > 0) {
                         const { x, y } = project(sat.position.azimuth, sat.position.elevation);
                         ctx.moveTo(x, y);
@@ -142,7 +142,7 @@ export const SkyCanvas = ({ objects, onSelect, selectedSat, orbitPath }: SkyCanv
                 const { x, y } = project(obj.position.azimuth, obj.position.elevation);
 
                 const isISS = obj.name.includes('ISS');
-                const isSelected = selectedSat === obj.name;
+                const isSelected = selectedSatId === obj.id; // Use ID
 
                 let dotColor = '#38bdf8';
                 let dotSize = 3;
@@ -191,7 +191,7 @@ export const SkyCanvas = ({ objects, onSelect, selectedSat, orbitPath }: SkyCanv
         animationFrameId = requestAnimationFrame(render);
 
         return () => cancelAnimationFrame(animationFrameId);
-    }, [objects, selectedSat, orbitPath]);
+    }, [objects, selectedSatId, orbitPath]); // Updated dep
 
     const handleClick = (e: React.MouseEvent<HTMLCanvasElement>) => {
         if (!onSelect) return;
@@ -209,7 +209,7 @@ export const SkyCanvas = ({ objects, onSelect, selectedSat, orbitPath }: SkyCanv
         const cy = height / 2;
         const radius = Math.min(cx, cy) - 35;
 
-        let closest: string | null = null;
+        let closestId: string | null = null; // Use ID
         let minDist = 20; // Hit radius
 
         objects.forEach(obj => {
@@ -227,11 +227,11 @@ export const SkyCanvas = ({ objects, onSelect, selectedSat, orbitPath }: SkyCanv
 
             if (dist < minDist) {
                 minDist = dist;
-                closest = obj.name;
+                closestId = obj.id;
             }
         });
 
-        onSelect(closest);
+        onSelect(closestId);
     };
 
     return (
