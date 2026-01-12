@@ -15,17 +15,7 @@ const SPACECRAFT = [
     { name: "Parker Solar Probe", id: "-96", missionType: "Heliophysics" }, // Solar Orbit
 ];
 
-interface SpacecraftData {
-    name: string;
-    id: string;
-    distanceKm: number; // Distance from Earth
-    velocityKmS: number; // Relative velocity to Earth
-    missionType: string;
-    ra?: number;
-    dec?: number;
-    date: string;
-    status?: string;
-}
+import { SpacecraftData } from "../src/lib/definitions";
 
 // Helper to format date as YYYY-MM-DD for API
 const getToday = () => new Date().toISOString().split('T')[0];
