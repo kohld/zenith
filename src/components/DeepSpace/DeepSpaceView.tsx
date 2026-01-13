@@ -67,7 +67,7 @@ export const DeepSpaceView = () => {
 
     return (
         <div className="w-full max-w-4xl mx-auto p-4 flex flex-col items-center animate-slide-in">
-            <h2 className="text-2xl font-bold bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent mb-8">
+            <h2 className="text-2xl font-bold bg-gradient-to-r from-indigo-400 to-purple-500 bg-clip-text text-transparent mb-6">
                 Deep Space Network
             </h2>
 

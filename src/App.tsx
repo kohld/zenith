@@ -12,7 +12,7 @@ function App() {
     return (
         <div className="min-h-screen bg-slate-900 text-white selection:bg-cyan-500 selection:text-white font-sans overflow-x-hidden flex flex-col">
             <Navbar currentView={view} onViewChange={setView} />
-            <main className="flex-grow flex flex-col justify-center pt-20">
+            <main className="flex-grow flex flex-col justify-start pt-20">
                 {view === 'orbital' ? (
                     <SkyMap />
                 ) : view === 'deepspace' ? (

@@ -62,10 +62,10 @@ export const LaunchGateway = () => {
     const streamUrl = nextLaunch?.vidURLs?.[0]?.url || nextLaunch?.vid_urls?.[0]?.url;
 
     return (
-        <div className="w-full max-w-7xl mx-auto p-6 animate-in fade-in duration-500">
-            <h1 className="text-center text-3xl sm:text-4xl font-black bg-gradient-to-r from-rose-400 to-red-500 bg-clip-text text-transparent mb-8 tracking-tight animate-in slide-in-from-top-8 fade-in duration-700">
+        <div className="w-full max-w-7xl mx-auto p-4 flex flex-col items-center animate-in fade-in duration-500">
+            <h2 className="text-2xl font-bold bg-gradient-to-r from-rose-400 to-red-500 bg-clip-text text-transparent mb-6">
                 Launch Gateway
-            </h1>
+            </h2>
 
             <div className="flex flex-col lg:flex-row gap-8">
                 {/* HERO: Next Launch */}
