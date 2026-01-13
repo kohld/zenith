@@ -5,6 +5,7 @@ import { DistanceScale } from './DistanceScale';
 import { usePingAnimation } from '../../hooks/usePingAnimation';
 import { SpacecraftData } from '../../lib/definitions';
 import { fetchSpacecraftData } from '../../api/horizons';
+import { SPACECRAFT_SPECS } from '../../lib/definitions';
 
 export const DeepSpaceView = () => {
     const [spacecraft, setSpacecraft] = useState<SpacecraftData[]>([]);
@@ -124,7 +125,21 @@ export const DeepSpaceView = () => {
 
                         <div className="p-4 bg-slate-800/30 rounded-lg border border-white/5">
                             <div className="text-slate-500 text-xs uppercase mb-1">Mission Type</div>
-                            <div className="text-white font-mono text-sm">{selectedSpacecraft.missionType}</div>
+                            <a
+                                href={SPACECRAFT_SPECS[selectedSpacecraft.id]?.missionUrl || (parseInt(selectedSpacecraft.id) > 0 ? `https://www.n2yo.com/satellite/?s=${selectedSpacecraft.id}` : '#')}
+                                target="_blank"
+                                rel="noreferrer"
+                                className={`font-mono text-sm flex items-center gap-2 group transition-colors ${SPACECRAFT_SPECS[selectedSpacecraft.id]?.missionUrl || parseInt(selectedSpacecraft.id) > 0
+                                    ? "text-indigo-400 hover:text-indigo-300 hover:underline hover:underline-offset-4 cursor-pointer"
+                                    : "text-white"
+                                    }`}
+                                onClick={e => (!SPACECRAFT_SPECS[selectedSpacecraft.id]?.missionUrl && isNaN(parseInt(selectedSpacecraft.id))) && e.preventDefault()}
+                            >
+                                {selectedSpacecraft.missionType}
+                                {(SPACECRAFT_SPECS[selectedSpacecraft.id]?.missionUrl || parseInt(selectedSpacecraft.id) > 0) && (
+                                    <svg className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity text-cyan-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                                )}
+                            </a>
                         </div>
                         <div className="p-4 bg-slate-800/30 rounded-lg border border-white/5">
                             <div className="text-slate-500 text-xs uppercase mb-1">Velocity (Rel. Sun)</div>

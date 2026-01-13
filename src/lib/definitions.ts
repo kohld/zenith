@@ -127,3 +127,94 @@ export interface DSNTarget {
     frequency: number; // Hz
     power: number; // dBm
 }
+
+export const SPACECRAFT_SPECS: Record<string, {
+    power: string;
+    antenna: string;
+    type: string;
+    missionUrl?: string;
+    instruments: Array<{ id: string, name: string, status: 'ON' | 'OFF' | 'STANDBY' }>
+}> = {
+    // Voyager 1
+    '-31': {
+        power: 'RTG (Plutonium-238)',
+        antenna: '3.7m High-Gain Parabolic',
+        type: 'Interstellar Probe',
+        missionUrl: 'https://science.nasa.gov/mission/voyager/',
+        instruments: [
+            { id: 'MAG', name: 'Magnetometer', status: 'ON' },
+            { id: 'CRS', name: 'Cosmic Ray Subsystem', status: 'ON' },
+            { id: 'LECP', name: 'Low Energy Charged Particle', status: 'ON' },
+            { id: 'PWS', name: 'Plasma Wave Subsystem', status: 'ON' },
+            { id: 'ISS', name: 'Imaging Science Subsystem', status: 'OFF' },
+            { id: 'IRIS', name: 'Infrared Interferometer', status: 'OFF' }
+        ]
+    },
+    // Voyager 2
+    '-32': {
+        power: 'RTG (Plutonium-238)',
+        antenna: '3.7m High-Gain Parabolic',
+        type: 'Interstellar Probe',
+        missionUrl: 'https://science.nasa.gov/mission/voyager-2/',
+        instruments: [
+            { id: 'MAG', name: 'Magnetometer', status: 'ON' },
+            { id: 'CRS', name: 'Cosmic Ray Subsystem', status: 'ON' },
+            { id: 'PLS', name: 'Plasma Science', status: 'ON' }, // V2 PLS still works, V1 died
+            { id: 'PWS', name: 'Plasma Wave Subsystem', status: 'ON' },
+            { id: 'ISS', name: 'Imaging Science Subsystem', status: 'OFF' }
+        ]
+    },
+    // New Horizons
+    '-98': {
+        power: 'RTG (GPHS)',
+        antenna: '2.1m High-Gain',
+        type: 'Kuiper Belt Explorer',
+        missionUrl: 'https://science.nasa.gov/mission/new-horizons/',
+        instruments: [
+            { id: 'LORRI', name: 'Long Range Recon Imager', status: 'STANDBY' },
+            { id: 'RALPH', name: 'Color/IR Imager', status: 'STANDBY' },
+            { id: 'ALICE', name: 'UV Spectrometer', status: 'OFF' },
+            { id: 'REX', name: 'Radio Science Experiment', status: 'ON' },
+            { id: 'SWAP', name: 'Solar Wind Around Pluto', status: 'ON' },
+            { id: 'PEPSSI', name: 'Energetic Particle Spec', status: 'ON' }
+        ]
+    },
+    // JWST
+    '-170': {
+        power: 'Solar Array + Li-Ion',
+        antenna: 'Ka-Band High-Rate',
+        type: 'Space Observatory',
+        missionUrl: 'https://science.nasa.gov/mission/webb/',
+        instruments: [
+            { id: 'NIRCam', name: 'Near-Infrared Camera', status: 'ON' },
+            { id: 'NIRSpec', name: 'Near-Infrared Spectrograph', status: 'ON' },
+            { id: 'MIRI', name: 'Mid-Infrared Instrument', status: 'ON' }, // Cryocooler active
+            { id: 'FGS', name: 'Fine Guidance Sensor', status: 'ON' }
+        ]
+    },
+    // Parker Solar Probe
+    '-96': {
+        power: 'Solar Array (Liquid Cooled)',
+        antenna: 'Ka-Band Parabolic',
+        type: 'Heliophysics Orbiter',
+        missionUrl: 'https://science.nasa.gov/mission/parker-solar-probe/',
+        instruments: [
+            { id: 'FIELDS', name: 'Electromagnetic Fields', status: 'ON' },
+            { id: 'WISPR', name: 'Wide-Field Imager', status: 'ON' },
+            { id: 'SWEAP', name: 'Solar Wind Electrons Alphas', status: 'ON' },
+            { id: 'ISOIS', name: 'Integrated Science Invest.', status: 'ON' }
+        ]
+    }
+};
+
+export const DEFAULT_SPECS = {
+    power: 'Solar Array / Battery',
+    antenna: 'High-Gain Antenna',
+    type: 'Deep Space Explorer',
+    instruments: [
+        { id: 'COM', name: 'Comms Subsystem', status: 'ON' as const },
+        { id: 'GNC', name: 'Guidance & Navigation', status: 'ON' as const },
+        { id: 'PWR', name: 'Power Bus Controller', status: 'ON' as const },
+        { id: 'THERM', name: 'Thermal Control', status: 'ON' as const }
+    ]
+};

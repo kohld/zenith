@@ -1,94 +1,40 @@
 import { useEffect, useState } from 'react';
-import { SpacecraftData } from '../../lib/definitions';
+import { SpacecraftData, SPACECRAFT_SPECS, DEFAULT_SPECS } from '../../lib/definitions';
 
 interface SignalAnalysisProps {
     spacecraft: SpacecraftData;
     onClose: () => void;
 }
 
-// MOCK DATABASE OF SPACECRAFT SYSTEMS
-const SPACECRAFT_SPECS: Record<string, {
-    power: string;
-    antenna: string;
-    instruments: Array<{ id: string, name: string, status: 'ON' | 'OFF' | 'STANDBY' }>
-}> = {
-    // Voyager 1
-    '-31': {
-        power: 'RTG (Plutonium-238)',
-        antenna: '3.7m High-Gain Parabolic',
-        instruments: [
-            { id: 'MAG', name: 'Magnetometer', status: 'ON' },
-            { id: 'CRS', name: 'Cosmic Ray Subsystem', status: 'ON' },
-            { id: 'LECP', name: 'Low Energy Charged Particle', status: 'ON' },
-            { id: 'PWS', name: 'Plasma Wave Subsystem', status: 'ON' },
-            { id: 'ISS', name: 'Imaging Science Subsystem', status: 'OFF' },
-            { id: 'IRIS', name: 'Infrared Interferometer', status: 'OFF' }
-        ]
-    },
-    // Voyager 2
-    '-32': {
-        power: 'RTG (Plutonium-238)',
-        antenna: '3.7m High-Gain Parabolic',
-        instruments: [
-            { id: 'MAG', name: 'Magnetometer', status: 'ON' },
-            { id: 'CRS', name: 'Cosmic Ray Subsystem', status: 'ON' },
-            { id: 'PLS', name: 'Plasma Science', status: 'ON' }, // V2 PLS still works, V1 died
-            { id: 'PWS', name: 'Plasma Wave Subsystem', status: 'ON' },
-            { id: 'ISS', name: 'Imaging Science Subsystem', status: 'OFF' }
-        ]
-    },
-    // New Horizons
-    '-98': {
-        power: 'RTG (GPHS)',
-        antenna: '2.1m High-Gain',
-        instruments: [
-            { id: 'LORRI', name: 'Long Range Recon Imager', status: 'STANDBY' },
-            { id: 'RALPH', name: 'Color/IR Imager', status: 'STANDBY' },
-            { id: 'ALICE', name: 'UV Spectrometer', status: 'OFF' },
-            { id: 'REX', name: 'Radio Science Experiment', status: 'ON' },
-            { id: 'SWAP', name: 'Solar Wind Around Pluto', status: 'ON' },
-            { id: 'PEPSSI', name: 'Energetic Particle Spec', status: 'ON' }
-        ]
-    },
-    // JWST
-    '-170': {
-        power: 'Solar Array + Li-Ion',
-        antenna: 'Ka-Band High-Rate',
-        instruments: [
-            { id: 'NIRCam', name: 'Near-Infrared Camera', status: 'ON' },
-            { id: 'NIRSpec', name: 'Near-Infrared Spectrograph', status: 'ON' },
-            { id: 'MIRI', name: 'Mid-Infrared Instrument', status: 'ON' }, // Cryocooler active
-            { id: 'FGS', name: 'Fine Guidance Sensor', status: 'ON' }
-        ]
-    },
-    // Parker Solar Probe
-    '-96': {
-        power: 'Solar Array (Liquid Cooled)',
-        antenna: 'Ka-Band Parabolic',
-        instruments: [
-            { id: 'FIELDS', name: 'Electromagnetic Fields', status: 'ON' },
-            { id: 'WISPR', name: 'Wide-Field Imager', status: 'ON' },
-            { id: 'SWEAP', name: 'Solar Wind Electrons Alphas', status: 'ON' },
-            { id: 'ISOIS', name: 'Integrated Science Invest.', status: 'ON' }
-        ]
-    }
-};
-
-const DEFAULT_SPECS = {
-    power: 'Solar Array / Battery',
-    antenna: 'High-Gain Antenna',
-    instruments: [
-        { id: 'COM', name: 'Comms Subsystem', status: 'ON' as const },
-        { id: 'GNC', name: 'Guidance & Navigation', status: 'ON' as const },
-        { id: 'PWR', name: 'Power Bus Controller', status: 'ON' as const },
-        { id: 'THERM', name: 'Thermal Control', status: 'ON' as const }
-    ]
-};
-
 export const SignalAnalysis = ({ spacecraft, onClose }: SignalAnalysisProps) => {
 
     const isConnected = spacecraft.status?.includes('ACTIVE');
     const specs = SPACECRAFT_SPECS[spacecraft.id] || DEFAULT_SPECS;
+
+    // Mission Clock (UTC with Milliseconds)
+    const [timeStr, setTimeStr] = useState("");
+    const [msStr, setMsStr] = useState("000");
+
+    useEffect(() => {
+        let frameId: number;
+
+        const updateClock = () => {
+            const now = new Date();
+            // Using UTC for Spacecraft operations
+            const h = now.getUTCHours().toString().padStart(2, '0');
+            const m = now.getUTCMinutes().toString().padStart(2, '0');
+            const s = now.getUTCSeconds().toString().padStart(2, '0');
+
+            setTimeStr(`${h}:${m}:${s}`);
+            setMsStr(now.getUTCMilliseconds().toString().padStart(3, '0'));
+
+            frameId = requestAnimationFrame(updateClock);
+        };
+
+        frameId = requestAnimationFrame(updateClock);
+        return () => cancelAnimationFrame(frameId);
+    }, []);
+
 
     // PHYSICS CALCULATIONS
 
@@ -182,36 +128,30 @@ export const SignalAnalysis = ({ spacecraft, onClose }: SignalAnalysisProps) => 
     const owltHours = owltMinutes / 60;
 
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/90 backdrop-blur-md animate-in fade-in duration-300 font-mono">
-            {/* CRT/Scanline Overlay */}
-            <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(18,16,16,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] bg-[length:100%_2px,3px_100%] z-50 opacity-20" />
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-300 font-sans">
 
-            <div className="relative w-full max-w-6xl bg-slate-900/90 border border-slate-700/50 shadow-2xl flex flex-col max-h-[90vh]"
-                style={{ clipPath: 'polygon(0 0, 100% 0, 100% 85%, 95% 100%, 0 100%)' }}>
-
-                {/* HUD Decoration Corners */}
-                <div className="absolute top-0 left-0 w-8 h-8 border-t-2 border-l-2 border-cyan-500/50" />
-                <div className="absolute top-0 right-0 w-8 h-8 border-t-2 border-r-2 border-cyan-500/50" />
-                <div className="absolute bottom-0 left-0 w-8 h-8 border-b-2 border-l-2 border-cyan-500/50" />
+            <div className="relative w-full max-w-6xl bg-slate-900/80 backdrop-blur-xl border border-white/10 shadow-2xl rounded-2xl flex flex-col max-h-[90vh] overflow-hidden ring-1 ring-white/5">
 
                 {/* Header */}
-                <div className="flex items-center justify-between p-4 border-b border-cyan-900/40 bg-slate-900/80">
+                <div className="flex items-center justify-between p-6 border-b border-white/5 bg-white/5">
                     <div className="flex items-center gap-4">
                         <div className="flex flex-col">
-                            <span className="text-[10px] text-cyan-600 tracking-[0.2em] font-bold">MCRN TACTICAL // LINK TOPOLOGY</span>
-                            <h2 className="text-2xl font-bold text-cyan-100 tracking-widest uppercase flex items-center gap-2">
-                                <span className={`inline-block w-2 h-6 ${isConnected ? 'bg-cyan-500' : 'bg-red-500 animate-pulse'}`} />
+                            <span className="text-[10px] text-indigo-400 font-medium tracking-widest uppercase">Deep Space Network // Analysis</span>
+                            <h2 className="text-2xl font-light text-white tracking-wide flex items-center gap-3">
+                                <span className={`inline-block w-2 h-2 rounded-full ${isConnected ? 'bg-emerald-500 shadow-[0_0_10px_rgba(16,185,129,0.5)]' : 'bg-amber-500 animate-pulse'}`} />
                                 {spacecraft.name}
                             </h2>
                         </div>
                     </div>
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-6">
                         <div className="text-right hidden sm:block">
-                            <div className="text-[10px] text-slate-500">SYSTEM TIME</div>
-                            <div className="text-cyan-500/80">{new Date().toISOString().split('T')[1].replace('Z', '')}</div>
+                            <div className="text-[10px] text-slate-400 font-medium uppercase tracking-wider">Mission Time (UTC)</div>
+                            <div className="text-slate-200 font-mono text-sm">
+                                {timeStr}<span className="text-slate-500 text-xs">.{msStr}</span>
+                            </div>
                         </div>
-                        <button onClick={onClose} className="p-2 border border-cyan-900 hover:bg-cyan-900/30 hover:text-cyan-400 text-slate-500 transition-colors uppercase text-xs tracking-widest">
-                            [ Close Term ]
+                        <button onClick={onClose} className="p-2 rounded-lg hover:bg-white/10 text-slate-400 hover:text-white transition-colors">
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" /></svg>
                         </button>
                     </div>
                 </div>
@@ -230,36 +170,38 @@ export const SignalAnalysis = ({ spacecraft, onClose }: SignalAnalysisProps) => 
                             <svg className="w-full h-full" viewBox="0 0 800 300">
                                 <defs>
                                     <linearGradient id="beamGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                                        <stop offset="0%" stopColor="rgb(6,182,212)" stopOpacity="0" />
-                                        <stop offset="10%" stopColor="rgb(6,182,212)" stopOpacity="0.1" />
-                                        <stop offset="100%" stopColor="rgb(6,182,212)" stopOpacity="0.3" />
+                                        <stop offset="0%" stopColor="#818cf8" stopOpacity="0" />
+                                        <stop offset="10%" stopColor="#818cf8" stopOpacity="0.05" />
+                                        <stop offset="100%" stopColor="#818cf8" stopOpacity="0.2" />
                                     </linearGradient>
-                                    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-                                        <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(6,182,212,0.1)" strokeWidth="0.5" />
+                                    {/* Vertical dashed guides instead of grid */}
+                                    <pattern id="guides" width="100" height="300" patternUnits="userSpaceOnUse">
+                                        <line x1="0" y1="0" x2="0" y2="300" stroke="white" strokeOpacity="0.03" strokeDasharray="4,4" />
                                     </pattern>
                                 </defs>
 
-                                {/* Background Grid */}
-                                <rect width="100%" height="100%" fill="url(#grid)" />
+                                {/* Background Guides */}
+                                <rect width="100%" height="100%" fill="url(#guides)" />
 
                                 {/* Earth Node (Left) */}
                                 <g transform="translate(50, 150)">
-                                    <circle r="20" fill="#1e293b" stroke="#0ea5e9" strokeWidth="2" />
-                                    <text x="0" y="35" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="monospace">EARTH (DSN)</text>
-                                    <circle r="4" fill="#0ea5e9" className="animate-pulse" />
+                                    <circle r="20" fill="#0f172a" stroke="#38bdf8" strokeWidth="1.5" />
+                                    <text x="0" y="40" textAnchor="middle" fill="#94a3b8" fontSize="11" fontFamily="sans-serif" fontWeight="300">EARTH</text>
+                                    <circle r="4" fill="#38bdf8" className="animate-pulse" />
                                 </g>
 
                                 {/* Spacecraft Node (Right) */}
                                 <g transform="translate(750, 150)">
-                                    <circle r="10" fill="#1e293b" stroke={isConnected ? "#22c55e" : "#ef4444"} strokeWidth="2" />
-                                    <text x="0" y="25" textAnchor="middle" fill="#94a3b8" fontSize="10" fontFamily="monospace">TARGET</text>
+                                    <circle r="12" fill="#0f172a" stroke={isConnected ? "#34d399" : "#f43f5e"} strokeWidth="1.5" />
+                                    <text x="0" y="32" textAnchor="middle" fill="#94a3b8" fontSize="11" fontFamily="sans-serif" fontWeight="300">TARGET</text>
                                     {isConnected && (
-                                        <path d="M -15 -10 L 0 0 L -15 10" fill="none" stroke="#22c55e" strokeWidth="2" />
+                                        <path d="M -15 -10 L 0 0 L -15 10" fill="none" stroke="#34d399" strokeWidth="1.5" />
                                     )}
                                 </g>
 
                                 {/* Connection Line */}
-                                <line x1="70" y1="150" x2="730" y2="150" stroke="#334155" strokeWidth="1" strokeDasharray="5,5" />
+                                {/* Connection Line */}
+                                <line x1="70" y1="150" x2="730" y2="150" stroke="#475569" strokeWidth="1" strokeDasharray="3,3" opacity="0.5" />
 
                                 {/* Active Link Beam */}
                                 {isConnected && (
@@ -267,27 +209,27 @@ export const SignalAnalysis = ({ spacecraft, onClose }: SignalAnalysisProps) => 
                                         {/* Beam Cone */}
                                         <path d="M 740 150 L 70 120 L 70 180 Z" fill="url(#beamGradient)" />
 
-                                        {/* Traveling Packets */}
-                                        <circle r="3" fill="#ffffff" filter="drop-shadow(0 0 5px #fff)">
+                                        {/* Traveling Packets - Softer glow */}
+                                        <circle r="3" fill="#ffffff" opacity="0.8">
                                             <animate attributeName="cx" from="730" to="70" dur="3s" repeatCount="indefinite" />
                                             <animate attributeName="cy" from="150" to="150" dur="3s" repeatCount="indefinite" />
-                                            <animate attributeName="opacity" values="0;1;1;0" dur="3s" repeatCount="indefinite" />
+                                            <animate attributeName="opacity" values="0;0.8;0.8;0" dur="3s" repeatCount="indefinite" />
                                         </circle>
-                                        <circle r="3" fill="#ffffff" filter="drop-shadow(0 0 5px #fff)">
+                                        <circle r="3" fill="#ffffff" opacity="0.8">
                                             <animate attributeName="cx" from="730" to="70" dur="3s" begin="1.5s" repeatCount="indefinite" />
                                             <animate attributeName="cy" from="150" to="150" dur="3s" begin="1.5s" repeatCount="indefinite" />
-                                            <animate attributeName="opacity" values="0;1;1;0" dur="3s" begin="1.5s" repeatCount="indefinite" />
+                                            <animate attributeName="opacity" values="0;0.8;0.8;0" dur="3s" begin="1.5s" repeatCount="indefinite" />
                                         </circle>
                                     </>
                                 )}
 
                                 {/* Distance Markers */}
-                                <g transform="translate(400, 150)">
-                                    <text x="0" y="-10" textAnchor="middle" fill="#64748b" fontSize="10" fontFamily="monospace">
+                                <g transform="translate(400, 130)">
+                                    <text x="0" y="0" textAnchor="middle" fill="#64748b" fontSize="12" fontFamily="monospace">
                                         {(spacecraft.distanceKm / 149597870.7).toFixed(2)} AU
                                     </text>
-                                    <text x="0" y="20" textAnchor="middle" fill="#64748b" fontSize="10" fontFamily="monospace">
-                                        {(spacecraft.distanceKm / 1e6).toFixed(1)} M km
+                                    <text x="0" y="16" textAnchor="middle" fill="#475569" fontSize="10" fontFamily="sans-serif">
+                                        {(spacecraft.distanceKm / 1e6).toFixed(1)} million km
                                     </text>
                                 </g>
                             </svg>
@@ -299,17 +241,17 @@ export const SignalAnalysis = ({ spacecraft, onClose }: SignalAnalysisProps) => 
                             </div>
                         </div>
                         <div className="grid grid-cols-3 gap-1 mt-2">
-                            <div className="bg-cyan-900/10 p-2 border-l-2 border-cyan-600">
-                                <span className="block text-[10px] text-slate-500">EST. BANDWIDTH</span>
-                                <span className="text-sm text-cyan-400">{dataRateLabel}</span>
+                            <div className="bg-white/5 p-4 rounded-xl border border-white/5">
+                                <span className="block text-xs text-indigo-300 mb-1 font-medium">Est. Bandwidth</span>
+                                <span className="text-lg text-white font-light">{dataRateLabel}</span>
                             </div>
-                            <div className="bg-cyan-900/10 p-2 border-l-2 border-cyan-600">
-                                <span className="block text-[10px] text-slate-500">ANTENNA CONFIG</span>
-                                <span className="text-xs text-cyan-400 truncate" title={specs.antenna}>{specs.antenna}</span>
+                            <div className="bg-white/5 p-4 rounded-xl border border-white/5">
+                                <span className="block text-xs text-indigo-300 mb-1 font-medium">Antenna Config</span>
+                                <span className="text-sm text-slate-200 truncate leading-6" title={specs.antenna}>{specs.antenna}</span>
                             </div>
-                            <div className="bg-cyan-900/10 p-2 border-l-2 border-cyan-600">
-                                <span className="block text-[10px] text-slate-500">POWER SOURCE</span>
-                                <span className="text-xs text-cyan-400 truncate" title={specs.power}>{specs.power}</span>
+                            <div className="bg-white/5 p-4 rounded-xl border border-white/5">
+                                <span className="block text-xs text-indigo-300 mb-1 font-medium">Power Source</span>
+                                <span className="text-sm text-slate-200 truncate leading-6" title={specs.power}>{specs.power}</span>
                             </div>
                         </div>
                     </div>
@@ -318,32 +260,25 @@ export const SignalAnalysis = ({ spacecraft, onClose }: SignalAnalysisProps) => 
                     <div className="lg:col-span-4 flex flex-col gap-6">
 
                         {/* Onboard Systems Status */}
-                        <div className="bg-slate-950 border border-cyan-900/40 p-1">
-                            <div className="bg-cyan-900/20 px-2 py-1 text-[10px] text-cyan-400 font-bold border-b border-cyan-900/40 flex justify-between">
-                                <span>ONBOARD_SYSTEMS</span>
-                                <span className={isConnected ? "text-cyan-400" : "text-amber-500"}>{isConnected ? "● ONLINE" : "○ LOW POWER"}</span>
+                        <div className="bg-white/5 rounded-xl border border-white/5 overflow-hidden flex flex-col">
+                            <div className="px-4 py-3 border-b border-white/5 flex justify-between items-center bg-white/[0.02]">
+                                <span className="text-xs text-indigo-200 font-medium uppercase tracking-wider">System Status</span>
+                                <span className={`text-[10px] px-2 py-0.5 rounded-full border ${isConnected ? "bg-emerald-500/10 text-emerald-400 border-emerald-500/20" : "bg-amber-500/10 text-amber-400 border-amber-500/20"}`}>
+                                    {isConnected ? "ONLINE" : "LOW POWER"}
+                                </span>
                             </div>
-                            <div className="p-2 h-48 overflow-y-auto font-mono text-xs">
-                                <table className="w-full text-left border-collapse">
-                                    <thead>
-                                        <tr className="text-[9px] text-slate-600 border-b border-slate-800">
-                                            <th className="pb-1">ID</th>
-                                            <th className="pb-1">SYSTEM</th>
-                                            <th className="pb-1 text-right">STATUS</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
+                            <div className="p-0 overflow-y-auto">
+                                <table className="w-full text-left">
+                                    <tbody className="divide-y divide-white/5">
                                         {specs.instruments.map((inst) => (
-                                            <tr key={inst.id} className="border-b border-slate-800/50 hover:bg-cyan-900/10 transition-colors">
-                                                <td className="py-1.5 text-cyan-500/80 font-bold">{inst.id}</td>
-                                                <td className="py-1.5 text-slate-400 truncate max-w-[120px]" title={inst.name}>{inst.name}</td>
-                                                <td className="py-1.5 text-right">
-                                                    <span className={`px-1 py-0.5 rounded text-[9px] ${inst.status === 'ON' ? 'bg-cyan-500/10 text-cyan-400 border border-cyan-500/30' :
-                                                        inst.status === 'STANDBY' ? 'bg-amber-500/10 text-amber-500 border border-amber-500/30' :
-                                                            'bg-red-500/10 text-red-500 border border-red-500/30'
-                                                        }`}>
-                                                        {inst.status}
-                                                    </span>
+                                            <tr key={inst.id} className="hover:bg-white/5 transition-colors group">
+                                                <td className="py-3 pl-4 text-xs font-mono text-indigo-300/80">{inst.id}</td>
+                                                <td className="py-3 px-2 text-sm text-slate-300 font-light truncate max-w-[140px]" title={inst.name}>{inst.name}</td>
+                                                <td className="py-3 pr-4 text-right">
+                                                    <span className={`w-1.5 h-1.5 rounded-full inline-block ${inst.status === 'ON' ? 'bg-emerald-400 shadow-[0_0_8px_rgba(52,211,153,0.6)]' :
+                                                        inst.status === 'STANDBY' ? 'bg-amber-400' :
+                                                            'bg-slate-600'
+                                                        }`} />
                                                 </td>
                                             </tr>
                                         ))}
@@ -354,34 +289,35 @@ export const SignalAnalysis = ({ spacecraft, onClose }: SignalAnalysisProps) => 
 
                         {/* Doppler & Signal */}
                         <div className="space-y-4">
-                            <div>
-                                <div className="flex justify-between text-[10px] text-slate-500 mb-1">
-                                    <span>DOPPLER SHIFT (Δf)</span>
-                                    <span>{shiftHz > 0 ? '+' : ''}{(shiftHz / 1000).toFixed(3)} kHz</span>
+                            <div className="bg-white/5 p-4 rounded-xl border border-white/5">
+                                <div className="flex justify-between text-xs mb-3">
+                                    <span className="text-slate-400 font-medium uppercase tracking-wider">Doppler Shift (Δf)</span>
+                                    <span className="text-white font-mono">{shiftHz > 0 ? '+' : ''}{(shiftHz / 1000).toFixed(3)} kHz</span>
                                 </div>
-                                <div className="h-4 bg-slate-900 border border-slate-700 relative overflow-hidden">
-                                    <div className="absolute left-1/2 top-0 bottom-0 w-px bg-white/30 z-10" />
+                                <div className="h-2 bg-slate-800 rounded-full relative overflow-hidden">
+                                    <div className="absolute left-1/2 top-0 bottom-0 w-px bg-white/20 z-10" />
                                     {/* Bar growing from center */}
                                     <div
-                                        className={`absolute top-0 bottom-0 transition-all duration-300 ${shiftHz > 0 ? 'bg-cyan-600 left-1/2' : 'bg-amber-600 right-1/2'}`}
+                                        className={`absolute top-0 bottom-0 transition-all duration-500 rounded-full ${shiftHz > 0 ? 'bg-indigo-500 left-1/2' : 'bg-amber-500 right-1/2'}`}
                                         style={{ width: `${Math.min(Math.abs(shiftHz) / 1000, 50)}%` }}
                                     />
                                 </div>
                             </div>
 
-                            <div>
-                                <div className="flex justify-between text-[10px] text-slate-500 mb-1">
-                                    <span>SIGNAL STRENGTH (Rx Power)</span>
-                                    <span>{liveSignal.toFixed(1)} dBm</span>
+                            <div className="bg-white/5 p-4 rounded-xl border border-white/5">
+                                <div className="flex justify-between text-xs mb-3">
+                                    <span className="text-slate-400 font-medium uppercase tracking-wider">Signal Strength</span>
+                                    <span className="text-white font-mono">{liveSignal.toFixed(1)} dBm</span>
                                 </div>
-                                <div className="flex gap-0.5">
-                                    {Array.from({ length: 20 }).map((_, i) => (
+                                <div className="flex gap-1 h-8 items-end">
+                                    {Array.from({ length: 24 }).map((_, i) => (
                                         <div
                                             key={i}
-                                            className={`h-3 w-full max-w-[10px] skew-x-[-20deg] ${i < (liveSignal + 160) / 2
-                                                ? (i > 15 ? 'bg-amber-500' : 'bg-cyan-500')
-                                                : 'bg-slate-800'
+                                            className={`flex-1 rounded-sm transition-all duration-300 ${i < (liveSignal + 165) / 1.5
+                                                ? (i > 18 ? 'bg-indigo-400' : 'bg-indigo-500/50')
+                                                : 'bg-slate-800/50'
                                                 }`}
+                                            style={{ height: `${20 + Math.random() * 80}%` }}
                                         />
                                     ))}
                                 </div>
@@ -389,17 +325,24 @@ export const SignalAnalysis = ({ spacecraft, onClose }: SignalAnalysisProps) => 
                         </div>
 
                         {/* Latency Box */}
-                        <div className="bg-slate-900/50 border-t border-cyan-900/40 pt-4">
-                            <div className="text-[10px] text-slate-500 mb-2 tracking-widest uppercase">Light Delay Protocol</div>
-                            <div className="flex justify-between items-center bg-black p-2 border border-slate-800">
-                                <div className="text-right">
-                                    <div className="text-[9px] text-cyan-700">TX_ORIGIN</div>
-                                    <div className="text-sm text-cyan-500">{new Date(Date.now() - (spacecraft.distanceKm / 299792 * 1000)).toLocaleTimeString()}</div>
+                        <div className="bg-white/5 rounded-xl border border-white/5 p-5">
+                            <div className="text-xs text-indigo-200 font-medium uppercase tracking-wider mb-4 text-center">Protocol Timing</div>
+                            <div className="flex justify-between items-center relative">
+                                {/* Connecting line */}
+                                <div className="absolute top-1/2 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
+
+                                <div className="relative bg-slate-900 border border-white/10 px-3 py-2 rounded-lg z-10 text-center min-w-[80px]">
+                                    <div className="text-[10px] text-slate-500 mb-1">TX ORIGIN</div>
+                                    <div className="text-sm text-indigo-300 font-mono">{new Date(Date.now() - (spacecraft.distanceKm / 299792 * 1000)).toLocaleTimeString()}</div>
                                 </div>
-                                <div className="text-xs text-slate-600 font-bold">→ {(spacecraft.distanceKm / 299792 / 60).toFixed(1)}m →</div>
-                                <div>
-                                    <div className="text-[9px] text-cyan-700">RX_LOCAL</div>
-                                    <div className="text-sm text-white">{new Date().toLocaleTimeString()}</div>
+
+                                <div className="relative z-10 bg-slate-950 rounded-full p-1.5 border border-white/10 text-slate-500 text-xs font-mono">
+                                    {(spacecraft.distanceKm / 299792 / 60).toFixed(0)}m
+                                </div>
+
+                                <div className="relative bg-slate-900 border border-white/10 px-3 py-2 rounded-lg z-10 text-center min-w-[80px]">
+                                    <div className="text-[10px] text-slate-500 mb-1">RX LOCAL</div>
+                                    <div className="text-sm text-white font-mono">{new Date().toLocaleTimeString()}</div>
                                 </div>
                             </div>
                         </div>
@@ -409,9 +352,9 @@ export const SignalAnalysis = ({ spacecraft, onClose }: SignalAnalysisProps) => 
                 </div>
 
                 {/* Footer Deco */}
-                <div className="p-2 border-t border-slate-800 flex justify-between text-[9px] text-slate-600 bg-slate-950 uppercase tracking-wider">
-                    <span>UNCLASSIFIED // PUBLIC RELEASE</span>
-                    <span>TCR-OV // 24.2.19.11</span>
+                <div className="p-4 border-t border-white/5 flex justify-between text-[10px] text-slate-500 font-medium tracking-widest uppercase">
+                    <span>Zenith Deep Space Network</span>
+                    <span>Scientific Analysis Terminal // V0.1.0</span>
                 </div>
             </div>
         </div>

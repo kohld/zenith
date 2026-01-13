@@ -339,9 +339,20 @@ export const SkyMap = () => {
                                 <div className="flex flex-row items-center justify-between gap-4">
                                     <div className="flex-shrink-0">
                                         <div className="text-[10px] uppercase tracking-widest text-cyan-400 font-semibold mb-1">Target Lock</div>
-                                        <div className="text-xl font-bold text-white leading-none truncate max-w-[200px]" title={sat!.name}>
-                                            {sat!.name}
-                                        </div>
+                                        <a
+                                            href={`https://www.n2yo.com/satellite/?s=${sat!.id}`}
+                                            target="_blank"
+                                            rel="noreferrer"
+                                            className="group flex items-center gap-2 cursor-pointer"
+                                            title={`View ${sat!.name} on N2YO.com`}
+                                        >
+                                            <span className="text-xl font-bold text-white leading-none truncate max-w-[200px] border-b border-transparent group-hover:border-cyan-500/50 transition-all">
+                                                {sat!.name}
+                                            </span>
+                                            <svg className="w-4 h-4 text-cyan-500 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                            </svg>
+                                        </a>
                                         <div className="mt-2 text-[10px] text-slate-500 font-mono flex flex-col gap-0.5">
                                             <span>NORAD ID: <span className="text-slate-300">{sat!.id}</span></span>
                                             {satData?.cospar && (
