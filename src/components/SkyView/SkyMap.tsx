@@ -16,17 +16,30 @@ export const SkyMap = () => {
     const [orbitPath, setOrbitPath] = useState<SatellitePosition[]>([]);
     const [dataSource, setDataSource] = useState<'mirror' | 'fallback' | 'error'>('mirror');
 
-    // Location State - start as null to show loading/detection
+    // Location State
     const [location, setLocation] = useState<Location | null>(() => {
-        const saved = localStorage.getItem('zenith_location');
-        return saved ? JSON.parse(saved) : null;
+        try {
+            const saved = localStorage.getItem('zenith_location');
+            if (saved) {
+                const parsed = JSON.parse(saved);
+                // Treat (0,0) as invalid/fallback and force re-detection
+                if (parsed.lat === 0 && parsed.lng === 0) return null;
+                return parsed;
+            }
+        } catch (e) {
+            return null;
+        }
+        return null;
     });
+
     const [query, setQuery] = useState('');
     const [searchResults, setSearchResults] = useState<SearchResult[]>([]);
     const [isSearching, setIsSearching] = useState(false);
     const [showResults, setShowResults] = useState(false);
+    const [isLocating, setIsLocating] = useState(false);
+    const [gpsError, setGpsError] = useState<string | null>(null);
 
-    // Initial Fetch
+    // Initial Fetch (Satellites)
     useEffect(() => {
         const loadData = async () => {
             const { data, source } = await fetchTLEs();
@@ -37,121 +50,130 @@ export const SkyMap = () => {
         loadData();
     }, []);
 
-
-
-    // Save location
+    // Save location only if valid
     useEffect(() => {
-        localStorage.setItem('zenith_location', JSON.stringify(location));
+        if (location) {
+            localStorage.setItem('zenith_location', JSON.stringify(location));
+        }
     }, [location]);
 
-    // Try to get user location on first load if not set
-    useEffect(() => {
-        let isMounted = true;
-        const saved = localStorage.getItem('zenith_location');
+    // Reusable Detection Logic
+    const detectLocation = () => {
+        setIsLocating(true);
+        setGpsError(null); // Reset error
+        let gpsResolved = false;
 
-        if (!saved) {
-            // GLOBAL FAILSAFE: If nothing works after 3 seconds, unlock the UI
-            const fallbackTimer = setTimeout(() => {
-                if (isMounted) {
-                    setLocation(prev => prev || { name: 'Select Location', lat: 0, lng: 0 });
+        // 1. Trigger GPS (WiFi Triangulation / CoreLocation)
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                async (pos) => {
+                    gpsResolved = true; // WINNER
+                    const { latitude, longitude } = pos.coords;
+                    try {
+                        const res = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`);
+                        if (res.ok) {
+                            const data = await res.json();
+                            const name = data.address?.city || data.address?.town || data.address?.village || data.display_name.split(',')[0] || 'My Location';
+                            setLocation({ name, lat: latitude, lng: longitude });
+                        } else {
+                            setLocation({ name: `GPS: ${latitude.toFixed(2)}, ${longitude.toFixed(2)}`, lat: latitude, lng: longitude });
+                        }
+                    } catch (e) {
+                        setLocation({ name: `GPS Location`, lat: latitude, lng: longitude });
+                    } finally {
+                        setIsLocating(false);
+                    }
+                },
+                (err) => {
+                    console.warn("GPS Access denied/failed", err);
+                    setGpsError(err.message || "Location Unavailable");
+
+                    if (!gpsResolved) {
+                        setIsLocating(false); // Fix: Stop spinner if GPS fails!
+                        // GPS failed. If IP is done, stopping spinner is fine.
+                        // If IP is NOT done, wait for it? 
+                        // Actually, let's just ensure spinner stops eventually.
+                        // But critical: We rely on IP now.
+                    }
+                },
+                {
+                    timeout: 10000,
+                    maximumAge: 0, // Force fresh
+                    enableHighAccuracy: false
                 }
-            }, 3000);
+            );
+        }
 
-            // IP Fetch with 2s timeout
-            const controller = new AbortController();
-            const ipTimeout = setTimeout(() => controller.abort(), 2000);
+        // 2. Trigger IP Geolocation (Fast Fallback)
+        fetch('https://ipapi.co/json/')
+            .then(res => {
+                if (!res.ok) throw new Error('IP API Error');
+                return res.json();
+            })
+            .then(data => {
+                // If we have data and assume GPS hasn't won yet
+                if (!gpsResolved && data.latitude && data.longitude) {
+                    const cityName = data.city || data.region || 'IP Location';
+                    setLocation({
+                        name: `${cityName} (IP)`,
+                        lat: data.latitude,
+                        lng: data.longitude
+                    });
+                }
+            })
+            .catch(err => console.warn("IP Geo failed", err))
+            .finally(() => {
+                // Always ensure spinner stops if we don't have GPS capability or if we are just done with this request
+                if (!navigator.geolocation) setIsLocating(false);
+                // If GPS failed fast, and this takes long, this finally will clean up. 
+                // If GPS is hanging, this won't stop spinner (good, unless GPS hangs forever).
+            });
+    };
 
-            // 1. Try IP Geolocation first
-            fetch('https://ipapi.co/json/', { signal: controller.signal })
-                .then(res => {
-                    if (!res.ok) throw new Error('IP API Error');
-                    return res.json();
-                })
-                .then(data => {
-                    if (isMounted && data.latitude && data.longitude) {
-                        setLocation({
-                            name: data.city || data.region || 'IP Location',
-                            lat: data.latitude,
-                            lng: data.longitude
-                        });
-                    } else {
-                        throw new Error('Invalid IP Data');
-                    }
-                })
-                .catch(err => {
-                    if (isMounted) console.warn("IP Geo/Fetch failed", err);
-                })
-                .finally(() => {
-                    clearTimeout(ipTimeout);
-                    // 2. Try precise Browser Geolocation (with 4s timeout)
-                    if (isMounted && navigator.geolocation) {
-                        navigator.geolocation.getCurrentPosition(
-                            async (pos) => {
-                                if (!isMounted) return;
-                                const { latitude, longitude } = pos.coords;
-                                try {
-                                    const res = await fetch(`https://nominatim.openstreetmap.org/reverse?lat=${latitude}&lon=${longitude}&format=json`);
-                                    if (res.ok) {
-                                        const data = await res.json();
-                                        const name = data.address?.city || data.address?.town || data.address?.village || data.display_name.split(',')[0] || 'My Location';
-                                        if (isMounted) {
-                                            setLocation({ name, lat: latitude, lng: longitude });
-                                        }
-                                    } else {
-                                        if (isMounted) {
-                                            setLocation(_ => {
-                                                const displayName = `Lat: ${latitude.toFixed(2)}`;
-                                                return { name: displayName, lat: latitude, lng: longitude };
-                                            });
-                                        }
-                                    }
-                                } catch (e) {
-                                    if (isMounted) {
-                                        setLocation({ name: `GPS Location`, lat: latitude, lng: longitude });
-                                    }
-                                }
-                            },
-                            (err) => {
-                                if (isMounted) console.warn("GPS Access denied/failed", err);
-                            },
-                            { timeout: 4000 }
-                        );
-                    }
-                });
-
-            return () => {
-                isMounted = false;
-                controller.abort();
-                clearTimeout(fallbackTimer);
-                clearTimeout(ipTimeout);
-            };
+    // Trigger detection on mount if no valid location exists OR if saved location was approximating
+    useEffect(() => {
+        if (!location || location.name.includes('(IP)')) {
+            detectLocation();
         }
     }, []);
 
     // Search Logic
     useEffect(() => {
+        const controller = new AbortController();
+        const signal = controller.signal;
+
         const timer = setTimeout(async () => {
             if (query.length < 3) {
                 setSearchResults([]);
+                setIsSearching(false);
                 return;
             }
 
             setIsSearching(true);
             try {
-                const res = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&addressdetails=1&limit=5`);
+                const res = await fetch(`https://nominatim.openstreetmap.org/search?q=${encodeURIComponent(query)}&format=json&addressdetails=1&limit=5`, { signal });
                 if (res.ok) {
                     const data = await res.json();
-                    setSearchResults(data);
-                    setShowResults(true);
+                    if (!signal.aborted) {
+                        setSearchResults(data);
+                        setShowResults(true);
+                    }
                 }
-            } catch (e) {
-                console.error("Search failed", e);
+            } catch (e: any) {
+                if (e.name !== 'AbortError') {
+                    console.error("Search failed", e);
+                }
             } finally {
-                setIsSearching(false);
+                if (!signal.aborted) {
+                    setIsSearching(false);
+                }
             }
         }, 500); // 500ms debounce
 
-        return () => clearTimeout(timer);
+        return () => {
+            clearTimeout(timer);
+            controller.abort();
+        };
     }, [query]);
 
     // Handle Select
@@ -183,7 +205,10 @@ export const SkyMap = () => {
             lng: parseFloat(result.lon)
         };
         setLocation(newLocation);
+        setGpsError(null); // Clear error on manual select
         setQuery('');
+        setIsSearching(false); // Force stop search spinner
+        setIsLocating(false); // Force stop location spinner (if auto-detect was running)
         setShowResults(false);
     };
 
@@ -259,10 +284,14 @@ export const SkyMap = () => {
 
             {/* Location Search Control */}
             <div className="relative w-full max-w-[300px] mb-6 z-20">
-                <div className="flex items-center bg-slate-800/80 backdrop-blur-md rounded-lg border border-slate-700 px-4 py-2 focus-within:ring-2 focus-within:ring-cyan-500/50 transition-all">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-slate-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                <div className={`flex items-center bg-slate-800/80 backdrop-blur-md rounded-lg border px-4 py-2 focus-within:ring-2 focus-within:ring-cyan-500/50 transition-all ${gpsError ? 'border-amber-500/50' : 'border-slate-700'}`}>
+                    <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 mr-2 ${gpsError ? 'text-amber-500' : 'text-slate-400'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        {gpsError ? (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                        ) : (
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                        )}
+                        {!gpsError && <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />}
                     </svg>
                     <input
                         type="text"
@@ -275,7 +304,25 @@ export const SkyMap = () => {
                         aria-expanded={showResults}
                         aria-controls="location-results"
                     />
-                    {isSearching && <div className="animate-spin h-4 w-4 border-2 border-cyan-500 rounded-full border-t-transparent"></div>}
+
+                    {isSearching && <div className="animate-spin h-4 w-4 border-2 border-cyan-500 rounded-full border-t-transparent mr-2"></div>}
+
+                    {/* Manual Detect Button */}
+                    <button
+                        onClick={() => detectLocation()}
+                        disabled={isLocating}
+                        className="p-1.5 rounded-full hover:bg-slate-700 text-slate-400 hover:text-cyan-400 transition-colors ml-2"
+                        title="Auto-Detect Location"
+                    >
+                        {isLocating ? (
+                            <div className="animate-spin h-4 w-4 border-2 border-cyan-500 rounded-full border-t-transparent"></div>
+                        ) : (
+                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        )}
+                    </button>
                 </div>
 
                 {/* Results Dropdown */}
