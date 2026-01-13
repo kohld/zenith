@@ -218,3 +218,132 @@ export const DEFAULT_SPECS = {
         { id: 'THERM', name: 'Thermal Control', status: 'ON' as const }
     ]
 };
+
+/**
+ * Launch Data from 'The Space Devs' / 'Launch Library 2'
+ */
+export interface VidURL {
+    priority: number;
+    source: string;
+    publisher: string | null;
+    title: string;
+    description: string;
+    feature_image: string | null;
+    url: string;
+    type: string | null;
+    language: string;
+    start_time: string | null;
+    end_time: string | null;
+}
+
+export interface LaunchServiceProvider {
+    id: number;
+    url: string;
+    name: string;
+    type: string;
+}
+
+export interface RocketConfiguration {
+    id: number;
+    url: string;
+    name: string;
+    family: string;
+    full_name: string;
+    variant: string;
+}
+
+export interface Rocket {
+    id: number;
+    configuration: RocketConfiguration;
+}
+
+export interface Mission {
+    id: number;
+    name: string;
+    description: string;
+    type: string;
+    orbit: {
+        id: number;
+        name: string;
+        abbrev: string;
+    } | null;
+}
+
+export interface Pad {
+    id: number;
+    url: string;
+    agency_id: number | null;
+    name: string;
+    map_url: string | null;
+    latitude: string;
+    longitude: string;
+    location: {
+        id: number;
+        url: string;
+        name: string;
+        country_code: string;
+    };
+    country_code: string;
+}
+
+export interface Launch {
+    id: string;
+    url: string;
+    slug: string;
+    name: string;
+    status: {
+        id: number;
+        name: string;
+        abbrev: string;
+        description: string;
+    };
+    last_updated: string;
+    net: string; // "No Earlier Than" timestamp
+    window_end: string;
+    window_start: string;
+    probability: number | null;
+    holdreason: string | null;
+    failreason: string | null;
+    hashtag: string | null;
+    launch_service_provider: LaunchServiceProvider;
+    rocket: Rocket;
+    mission: Mission | null;
+    pad: Pad;
+    webcast_live: boolean;
+    image: string | null;
+    infographic: string | null;
+    program: any[];
+    orbital_launch_attempt_count: number | null;
+    location_launch_attempt_count: number | null;
+    pad_launch_attempt_count: number | null;
+    agency_launch_attempt_count: number | null;
+    orbital_launch_attempt_count_year: number | null;
+    location_launch_attempt_count_year: number | null;
+    pad_launch_attempt_count_year: number | null;
+    agency_launch_attempt_count_year: number | null;
+    vidURLs: VidURL[]; // Deprecated field but often present
+    vid_urls?: VidURL[]; // Correct field name may vary, mapping to consistent interface
+}
+
+/**
+ * Component Props & Data Structures
+ */
+
+export interface LaunchMapProps {
+    latitude: number;
+    longitude: number;
+    zoom?: number;
+    height?: number;
+    className?: string; // Allow custom classes
+    autoHeight?: boolean;
+}
+
+export interface LaunchDetailModalProps {
+    launch: Launch;
+    onClose: () => void;
+}
+
+export interface LaunchData {
+    updatedAt: string;
+    launches: Launch[];
+}

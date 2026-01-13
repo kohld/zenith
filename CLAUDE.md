@@ -42,11 +42,11 @@ Follow these rules for all code you write:
 
 **Git commit messages:**
 - Always use prefixes: `[FEATURE]`, `[FIX]`, `[REFACTOR]`, `[DOCS]`, `[STYLE]`, `[TEST]`, `[CHORE]`
-- Format: `[PREFIX] Short description:` followed directly by detailed bullet points (NO empty line between title and list)
+- Format: `[PREFIX] Short description` followed directly by detailed bullet points (NO empty line between title and list)
 - Rules: No links in messages, no empty lines between header and body
 - Example:
 ```text
-[FEATURE] Add hero animation:
+[FEATURE] Add hero animation
 - Implement fading gradients
 - Add scroll-triggered reveal
 ```

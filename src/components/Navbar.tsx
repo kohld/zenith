@@ -1,8 +1,8 @@
 
 
 interface NavbarProps {
-    currentView: 'orbital' | 'deepspace';
-    onViewChange: (view: 'orbital' | 'deepspace') => void;
+    currentView: 'orbital' | 'deepspace' | 'gateway';
+    onViewChange: (view: 'orbital' | 'deepspace' | 'gateway') => void;
 }
 
 export const Navbar = ({ currentView, onViewChange }: NavbarProps) => {
@@ -33,6 +33,19 @@ export const Navbar = ({ currentView, onViewChange }: NavbarProps) => {
                                 <span className="md:hidden">DSN</span>
                                 <span className="hidden md:inline">Deep Space Network</span>
                             </button>
+                        </li>
+                        <li>
+                            <button
+                                onClick={() => onViewChange('gateway')}
+                                className={`text-base md:text-lg font-semibold py-1 px-2 md:py-2 rounded md:p-0 transition-colors ${currentView === 'gateway' ? 'text-rose-500' : 'text-slate-300 hover:text-white'}`}
+                                aria-current={currentView === 'gateway' ? 'page' : undefined}
+                            >
+                                <span className="md:hidden">Launch</span>
+                                <span className="hidden md:inline">Launch Gateway</span>
+                            </button>
+                        </li>
+                        <li>
+                            <div className="h-5 w-px bg-white/10 mx-2 hidden md:block"></div>
                         </li>
                         <li>
                             <a href="https://github.com/kohld/zenith" target="_blank" rel="noopener noreferrer" className="block py-1 px-2 text-gray-300 hover:text-white md:p-0 transition-colors" title="View on GitHub" aria-label="View Source Code on GitHub">

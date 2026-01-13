@@ -5,6 +5,7 @@
   ![Deploy Status](https://img.shields.io/github/actions/workflow/status/kohld/zenith/deploy.yml?branch=main&style=flat-square&label=Deployment&color=93C5FD)
   ![Spacecraft Data](https://img.shields.io/github/actions/workflow/status/kohld/zenith/update-spacecraft.yml?branch=main&style=flat-square&label=NASA%20Horizons&color=FDBA74)
   ![TLE Data](https://img.shields.io/github/actions/workflow/status/kohld/zenith/update-tle.yml?branch=main&style=flat-square&label=CelesTrak%20TLE&color=86EFAC)
+  ![Launch Data](https://img.shields.io/github/actions/workflow/status/kohld/zenith/update-launches.yml?branch=main&style=flat-square&label=Upcoming%20Launches&color=violet)
 
 </div>
 
@@ -115,3 +116,8 @@ The project includes custom scripts and workflows to bridge external data source
 - **Source**: `update-tle.yml` uses `curl` to fetch General Perturbation (GP) elements for "Visual" and "Stations" groups.
 - **Schedule**: Updates every 6 hours.
 - **Output**: `public/data/tles.txt` (Local mirror to prevent rate-limiting).
+
+### 3. Launch Library 2 (The Space Devs)
+- **Source**: `scripts/fetch-launches.ts` queries the **Launch Library 2** API for upcoming orbital launches.
+- **Schedule**: Updates every 2 hours via `update-launches.yml`.
+- **Output**: `public/data/launches.json`.

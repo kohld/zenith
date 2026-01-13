@@ -1,0 +1,1792 @@
+{
+  "updatedAt": "2026-01-13T12:47:38.009Z",
+  "launches": [
+    {
+      "id": "0fb47674-d5c3-4681-ae0a-bff4c8e43d6a",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/0fb47674-d5c3-4681-ae0a-bff4c8e43d6a/",
+      "slug": "falcon-9-block-5-starlink-group-6-97",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-97",
+      "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+      },
+      "last_updated": "2026-01-13T01:26:35Z",
+      "net": "2026-01-12T21:08:20Z",
+      "window_end": "2026-01-12T21:42:00Z",
+      "window_start": "2026-01-12T17:42:00Z",
+      "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+      },
+      "probability": 85,
+      "weather_concerns": "Cumulus Cloud Rule",
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8870,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7461,
+        "name": "Starlink Group 6-97",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 624,
+            "consecutive_successful_launches": 109,
+            "successful_launches": 609,
+            "failed_launches": 15,
+            "pending_launches": 124,
+            "consecutive_successful_landings": 108,
+            "successful_landings": 569,
+            "failed_landings": 27,
+            "attempted_landings": 595,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "timezone_name": "America/New_York",
+          "total_launch_count": 1079,
+          "total_landing_count": 70
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 357,
+        "orbital_launch_attempt_count": 357
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 7179,
+      "location_launch_attempt_count": 1079,
+      "pad_launch_attempt_count": 357,
+      "agency_launch_attempt_count": 624,
+      "orbital_launch_attempt_count_year": 6,
+      "location_launch_attempt_count_year": 3,
+      "pad_launch_attempt_count_year": 3,
+      "agency_launch_attempt_count_year": 5,
+      "type": "normal"
+    },
+    {
+      "id": "2e15e3c4-408b-48a2-a647-4818df4eebc4",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/2e15e3c4-408b-48a2-a647-4818df4eebc4/",
+      "slug": "long-march-8a-unknown-payload",
+      "name": "Long March 8A | Unknown Payload",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-01-12T23:54:54Z",
+      "net": "2026-01-13T15:25:00Z",
+      "window_end": "2026-01-13T15:42:00Z",
+      "window_start": "2026-01-13T15:17:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+      },
+      "rocket": {
+        "id": 8872,
+        "configuration": {
+          "id": 518,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/518/",
+          "name": "Long March 8A",
+          "family": "Long March",
+          "full_name": "Long March 8A",
+          "variant": "A"
+        }
+      },
+      "mission": {
+        "id": 7463,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 218,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/218/",
+        "agency_id": null,
+        "name": "Commercial LC-1",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Commercial_Space_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.597275,110.930753",
+        "latitude": "19.597275",
+        "longitude": "110.930753",
+        "location": {
+          "id": 8,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+          "name": "Wenchang Space Launch Site, People's Republic of China",
+          "country_code": "CHN",
+          "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19° north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 55,
+          "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_commercial_lc-1_20231225074041.jpg",
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7180,
+      "location_launch_attempt_count": 56,
+      "pad_launch_attempt_count": 7,
+      "agency_launch_attempt_count": 571,
+      "orbital_launch_attempt_count_year": 7,
+      "location_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 1,
+      "type": "normal"
+    },
+    {
+      "id": "b8d9ff2b-a972-4e50-8fff-6c189dbe34cd",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/b8d9ff2b-a972-4e50-8fff-6c189dbe34cd/",
+      "slug": "falcon-9-block-5-starlink-group-6-98",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-98",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-01-08T18:01:58Z",
+      "net": "2026-01-14T18:01:00Z",
+      "window_end": "2026-01-14T22:01:00Z",
+      "window_start": "2026-01-14T18:01:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8871,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7462,
+        "name": "Starlink Group 6-98",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 624,
+            "consecutive_successful_launches": 109,
+            "successful_launches": 609,
+            "failed_launches": 15,
+            "pending_launches": 124,
+            "consecutive_successful_landings": 108,
+            "successful_landings": 569,
+            "failed_landings": 27,
+            "attempted_landings": 595,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "timezone_name": "America/New_York",
+          "total_launch_count": 1079,
+          "total_landing_count": 70
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 357,
+        "orbital_launch_attempt_count": 357
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 7181,
+      "location_launch_attempt_count": 1080,
+      "pad_launch_attempt_count": 358,
+      "agency_launch_attempt_count": 625,
+      "orbital_launch_attempt_count_year": 8,
+      "location_launch_attempt_count_year": 4,
+      "pad_launch_attempt_count_year": 4,
+      "agency_launch_attempt_count_year": 6,
+      "type": "normal"
+    },
+    {
+      "id": "67068998-010a-40cc-8bc8-a60743cda331",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/67068998-010a-40cc-8bc8-a60743cda331/",
+      "slug": "long-march-3be-unknown-payload",
+      "name": "Long March 3B/E | Unknown Payload",
+      "status": {
+        "id": 8,
+        "name": "To Be Confirmed",
+        "abbrev": "TBC",
+        "description": "Awaiting official confirmation - current date is known with some certainty."
+      },
+      "last_updated": "2026-01-07T02:03:26Z",
+      "net": "2026-01-15T16:00:00Z",
+      "window_end": "2026-01-15T19:00:00Z",
+      "window_start": "2026-01-15T16:00:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+      },
+      "rocket": {
+        "id": 8873,
+        "configuration": {
+          "id": 50,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/50/",
+          "name": "Long March 3B/E",
+          "family": "Long March",
+          "full_name": "Long March 3B/E",
+          "variant": "B/E"
+        }
+      },
+      "mission": {
+        "id": 7464,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247209,102.02917",
+        "latitude": "28.247209",
+        "longitude": "102.02917",
+        "location": {
+          "id": 16,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+          "name": "Xichang Satellite Launch Center, People's Republic of China",
+          "country_code": "CHN",
+          "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 236,
+          "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 105,
+        "orbital_launch_attempt_count": 105
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7182,
+      "location_launch_attempt_count": 237,
+      "pad_launch_attempt_count": 106,
+      "agency_launch_attempt_count": 572,
+      "orbital_launch_attempt_count_year": 9,
+      "location_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 2,
+      "type": "normal"
+    },
+    {
+      "id": "ea2d97bc-a834-4904-b579-6a1e1f7a9c54",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/ea2d97bc-a834-4904-b579-6a1e1f7a9c54/",
+      "slug": "ceres-1s-unknown-payload",
+      "name": "Ceres-1S | Unknown Payload",
+      "status": {
+        "id": 8,
+        "name": "To Be Confirmed",
+        "abbrev": "TBC",
+        "description": "Awaiting official confirmation - current date is known with some certainty."
+      },
+      "last_updated": "2026-01-09T18:32:40Z",
+      "net": "2026-01-15T19:30:00Z",
+      "window_end": "2026-01-15T23:00:00Z",
+      "window_start": "2026-01-15T19:30:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 1021,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1021/",
+        "name": "Galactic Energy",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8880,
+        "configuration": {
+          "id": 500,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/500/",
+          "name": "Ceres-1S",
+          "family": "Ceres-1",
+          "full_name": "Ceres-1S",
+          "variant": "Ceres-1S"
+        }
+      },
+      "mission": {
+        "id": 7471,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 221,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/221/",
+        "agency_id": 88,
+        "name": "Oriental Spaceport mobile launch ship",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=35.391667%2C119.598667",
+        "latitude": "35.391667",
+        "longitude": "119.598667",
+        "location": {
+          "id": 185,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/185/",
+          "name": "Haiyang Oriental Spaceport",
+          "country_code": "CHN",
+          "description": "Chinese orbital launch vehicle launches supporting sea port located at Haiyang, Shandong Province, with dedicated piers and rocket/payload processing facilities for Chinese launch vehicles’ sea launches, and (as part of its expansion project) land based launch pads on artificial islands for various test vehicles and launch vehicles of private and government launch services providers.\r\n\r\nIn operation as a remote base of Taiyuan Satellite Launch Center since 2019.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_haiyang_oriental_spaceport_20251128181322.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 21,
+          "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_oriental_spaceport_mobile_launch_ship_20240529085416.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 7
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1s_image_20230905114324.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7183,
+      "location_launch_attempt_count": 22,
+      "pad_launch_attempt_count": 8,
+      "agency_launch_attempt_count": 23,
+      "orbital_launch_attempt_count_year": 10,
+      "location_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 1,
+      "type": "normal"
+    },
+    {
+      "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/1b23eb18-e06e-4058-9b42-e95ca0980511/",
+      "slug": "spectrum-flight-two",
+      "name": "Spectrum | Flight Two",
+      "status": {
+        "id": 2,
+        "name": "To Be Determined",
+        "abbrev": "TBD",
+        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+      },
+      "last_updated": "2025-12-23T19:21:50Z",
+      "net": "2026-01-17T00:00:00Z",
+      "window_end": "2026-01-17T00:00:00Z",
+      "window_start": "2026-01-17T00:00:00Z",
+      "net_precision": {
+        "id": 5,
+        "name": "Day",
+        "abbrev": "DAY",
+        "description": "The T-0 is expected on the given day."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 1046,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1046/",
+        "name": "Isar Aerospace",
+        "type": "Private"
+      },
+      "rocket": {
+        "id": 8716,
+        "configuration": {
+          "id": 491,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/491/",
+          "name": "Spectrum",
+          "family": "",
+          "full_name": "Spectrum",
+          "variant": ""
+        }
+      },
+      "mission": {
+        "id": 7309,
+        "name": "Flight Two",
+        "description": "Second test flight of the Isar Spectrum launch vehicle, carrying several cubesats as part of the European Space Agency's “Boost!” program.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+          "id": 17,
+          "name": "Sun-Synchronous Orbit",
+          "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 51,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/51/",
+        "agency_id": null,
+        "name": "Orbital Launch Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/And%C3%B8ya_Space",
+        "map_url": "https://www.google.com/maps?q=69.1084,15.5895",
+        "latitude": "69.1084",
+        "longitude": "15.5895",
+        "location": {
+          "id": 161,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/161/",
+          "name": "Andøya Spaceport",
+          "country_code": "NOR",
+          "description": "Andøya Space, also named Andøya Space Center and formerly Andøya Rocket Range, is a rocket launch site, rocket range, and spaceport on Andøya island (the northernmost in the Vesterålen archipelago) in Andøy Municipality in Nordland county, Norway.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_161_20240109072235.jpg",
+          "timezone_name": "Europe/Oslo",
+          "total_launch_count": 1,
+          "total_landing_count": 0
+        },
+        "country_code": "NOR",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_51_20200803143605.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7184,
+      "location_launch_attempt_count": 2,
+      "pad_launch_attempt_count": 2,
+      "agency_launch_attempt_count": 2,
+      "orbital_launch_attempt_count_year": 11,
+      "location_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 1,
+      "type": "normal"
+    },
+    {
+      "id": "7650a17a-cc52-4597-bd1a-0951d7389a95",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/7650a17a-cc52-4597-bd1a-0951d7389a95/",
+      "slug": "ceres-2-demo-flight",
+      "name": "Ceres-2 | Demo Flight",
+      "status": {
+        "id": 8,
+        "name": "To Be Confirmed",
+        "abbrev": "TBC",
+        "description": "Awaiting official confirmation - current date is known with some certainty."
+      },
+      "last_updated": "2026-01-10T06:15:18Z",
+      "net": "2026-01-17T04:05:00Z",
+      "window_end": "2026-01-17T06:00:00Z",
+      "window_start": "2026-01-17T03:00:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 1021,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1021/",
+        "name": "Galactic Energy",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8828,
+        "configuration": {
+          "id": 546,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/546/",
+          "name": "Ceres-2",
+          "family": "",
+          "full_name": "Ceres-2",
+          "variant": ""
+        }
+      },
+      "mission": {
+        "id": 7419,
+        "name": "Demo Flight",
+        "description": "First test launch of Galactic Energy’s Ceres-2 rocket.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 21,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/21/",
+        "agency_id": null,
+        "name": "Launch Area 95A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.969117,100.343333",
+        "latitude": "40.969117",
+        "longitude": "100.343333",
+        "location": {
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+          "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+          "country_code": "CHN",
+          "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 273,
+          "total_landing_count": 2
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
+        "total_launch_count": 64,
+        "orbital_launch_attempt_count": 64
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-2_illustr_image_20251210054657.png",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7185,
+      "location_launch_attempt_count": 274,
+      "pad_launch_attempt_count": 65,
+      "agency_launch_attempt_count": 24,
+      "orbital_launch_attempt_count_year": 12,
+      "location_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 2,
+      "type": "normal"
+    },
+    {
+      "id": "1cdbe42e-22bb-470e-9107-edcc4c902ee5",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/1cdbe42e-22bb-470e-9107-edcc4c902ee5/",
+      "slug": "falcon-9-block-5-nrol-105",
+      "name": "Falcon 9 Block 5 | NROL-105",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-01-13T09:02:56Z",
+      "net": "2026-01-17T04:18:00Z",
+      "window_end": "2026-01-17T04:53:00Z",
+      "window_start": "2026-01-17T04:18:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8876,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7467,
+        "name": "NROL-105",
+        "description": "Twelfth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [
+          {
+            "id": 181,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/181/",
+            "name": "National Reconnaissance Office",
+            "featured": false,
+            "type": "Government",
+            "country_code": "USA",
+            "abbrev": "NRO",
+            "description": "The National Reconnaissance Office (NRO) is a member of the United States Intelligence Community and an agency of the United States Department of Defense which designs, builds, launches, and operates the reconnaissance satellites of the U.S. federal government, and provides satellite intelligence to several government agencies, particularly signals intelligence (SIGINT) to the NSA, imagery intelligence (IMINT) to the NGA, and measurement and signature intelligence (MASINT) to the DIA.",
+            "administrator": "Director: Christopher Scolese",
+            "founding_year": "1961",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.nro.gov/",
+            "wiki_url": "https://en.wikipedia.org/wiki/National_Reconnaissance_Office",
+            "logo_url": null,
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520reconnaissance2520office_nation_20240228092125.png"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+          "name": "Vandenberg SFB, CA, USA",
+          "country_code": "USA",
+          "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "timezone_name": "America/Los_Angeles",
+          "total_launch_count": 854,
+          "total_landing_count": 32
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 240,
+        "orbital_launch_attempt_count": 240
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241024165956.jpg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7186,
+      "location_launch_attempt_count": 855,
+      "pad_launch_attempt_count": 241,
+      "agency_launch_attempt_count": 626,
+      "orbital_launch_attempt_count_year": 13,
+      "location_launch_attempt_count_year": 3,
+      "pad_launch_attempt_count_year": 3,
+      "agency_launch_attempt_count_year": 7,
+      "type": "normal"
+    },
+    {
+      "id": "13979f7e-c835-4813-860f-915c8ce9e784",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/13979f7e-c835-4813-860f-915c8ce9e784/",
+      "slug": "falcon-9-block-5-starlink-group-6-100",
+      "name": "Falcon 9 Block 5 | Starlink Group 6-100",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-01-13T09:02:58Z",
+      "net": "2026-01-18T22:04:00Z",
+      "window_end": "2026-01-19T02:04:00Z",
+      "window_start": "2026-01-18T22:04:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8877,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7468,
+        "name": "Starlink Group 6-100",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 624,
+            "consecutive_successful_launches": 109,
+            "successful_launches": 609,
+            "failed_launches": 15,
+            "pending_launches": 124,
+            "consecutive_successful_landings": 108,
+            "successful_landings": 569,
+            "failed_landings": 27,
+            "attempted_landings": 595,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "timezone_name": "America/New_York",
+          "total_launch_count": 1079,
+          "total_landing_count": 70
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 357,
+        "orbital_launch_attempt_count": 357
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 7187,
+      "location_launch_attempt_count": 1081,
+      "pad_launch_attempt_count": 359,
+      "agency_launch_attempt_count": 627,
+      "orbital_launch_attempt_count_year": 14,
+      "location_launch_attempt_count_year": 5,
+      "pad_launch_attempt_count_year": 5,
+      "agency_launch_attempt_count_year": 8,
+      "type": "normal"
+    },
+    {
+      "id": "878c07cc-73db-4be6-8492-42f2890a498a",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/878c07cc-73db-4be6-8492-42f2890a498a/",
+      "slug": "long-march-12-unknown-payload",
+      "name": "Long March 12 | Unknown Payload",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-01-12T23:58:05Z",
+      "net": "2026-01-19T07:48:00Z",
+      "window_end": "2026-01-19T08:08:00Z",
+      "window_start": "2026-01-19T07:41:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+      },
+      "rocket": {
+        "id": 8874,
+        "configuration": {
+          "id": 517,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/517/",
+          "name": "Long March 12",
+          "family": "Long March",
+          "full_name": "Long March 12",
+          "variant": ""
+        }
+      },
+      "mission": {
+        "id": 7465,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 219,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/219/",
+        "agency_id": null,
+        "name": "Commercial LC-2",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Commercial_Space_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.59755,110.936481",
+        "latitude": "19.59755",
+        "longitude": "110.936481",
+        "location": {
+          "id": 8,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+          "name": "Wenchang Space Launch Site, People's Republic of China",
+          "country_code": "CHN",
+          "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19° north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 55,
+          "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_commercial_lc-2_20231225074048.jpg",
+        "total_launch_count": 4,
+        "orbital_launch_attempt_count": 4
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_20241128132937.jpg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7188,
+      "location_launch_attempt_count": 57,
+      "pad_launch_attempt_count": 5,
+      "agency_launch_attempt_count": 573,
+      "orbital_launch_attempt_count_year": 15,
+      "location_launch_attempt_count_year": 2,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 3,
+      "type": "normal"
+    },
+    {
+      "id": "b7c38b80-6ce7-4ab0-8010-19ee11e26fc5",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/b7c38b80-6ce7-4ab0-8010-19ee11e26fc5/",
+      "slug": "smart-dragon-3-unknown-payload",
+      "name": "Smart Dragon 3 | Unknown Payload",
+      "status": {
+        "id": 8,
+        "name": "To Be Confirmed",
+        "abbrev": "TBC",
+        "description": "Awaiting official confirmation - current date is known with some certainty."
+      },
+      "last_updated": "2026-01-07T01:56:30Z",
+      "net": "2026-01-20T06:30:00Z",
+      "window_end": "2026-01-20T10:00:00Z",
+      "window_start": "2026-01-20T04:00:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 272,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/272/",
+        "name": "China Rocket Co. Ltd.",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8861,
+        "configuration": {
+          "id": 484,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/484/",
+          "name": "Smart Dragon 3",
+          "family": "Smart Dragon",
+          "full_name": "Smart Dragon 3",
+          "variant": ""
+        }
+      },
+      "mission": {
+        "id": 7452,
+        "name": "Unknown Payload",
+        "description": "Possibly an Earth observation satellite for the Pakistan government's SUPARCO, details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 221,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/221/",
+        "agency_id": 88,
+        "name": "Oriental Spaceport mobile launch ship",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=35.391667%2C119.598667",
+        "latitude": "35.391667",
+        "longitude": "119.598667",
+        "location": {
+          "id": 185,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/185/",
+          "name": "Haiyang Oriental Spaceport",
+          "country_code": "CHN",
+          "description": "Chinese orbital launch vehicle launches supporting sea port located at Haiyang, Shandong Province, with dedicated piers and rocket/payload processing facilities for Chinese launch vehicles’ sea launches, and (as part of its expansion project) land based launch pads on artificial islands for various test vehicles and launch vehicles of private and government launch services providers.\r\n\r\nIn operation as a remote base of Taiyuan Satellite Launch Center since 2019.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_haiyang_oriental_spaceport_20251128181322.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 21,
+          "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_oriental_spaceport_mobile_launch_ship_20240529085416.jpg",
+        "total_launch_count": 7,
+        "orbital_launch_attempt_count": 7
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7189,
+      "location_launch_attempt_count": 23,
+      "pad_launch_attempt_count": 9,
+      "agency_launch_attempt_count": 10,
+      "orbital_launch_attempt_count_year": 16,
+      "location_launch_attempt_count_year": 2,
+      "pad_launch_attempt_count_year": 2,
+      "agency_launch_attempt_count_year": 1,
+      "type": "normal"
+    },
+    {
+      "id": "8d50a489-8f86-4411-81fa-d4bfe75680eb",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/8d50a489-8f86-4411-81fa-d4bfe75680eb/",
+      "slug": "new-shepard-ns-38",
+      "name": "New Shepard | NS-38",
+      "status": {
+        "id": 8,
+        "name": "To Be Confirmed",
+        "abbrev": "TBC",
+        "description": "Awaiting official confirmation - current date is known with some certainty."
+      },
+      "last_updated": "2026-01-09T22:00:17Z",
+      "net": "2026-01-21T13:30:00Z",
+      "window_end": "2026-01-21T21:30:00Z",
+      "window_start": "2026-01-21T13:30:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 141,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/141/",
+        "name": "Blue Origin",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8881,
+        "configuration": {
+          "id": 137,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/137/",
+          "name": "New Shepard",
+          "family": "",
+          "full_name": "New Shepard",
+          "variant": ""
+        }
+      },
+      "mission": {
+        "id": 7472,
+        "name": "NS-38",
+        "description": "NS-38 is the 38th flight in the New Shepard program's history.",
+        "launch_designator": null,
+        "type": "Tourism",
+        "orbit": {
+          "id": 15,
+          "name": "Suborbital",
+          "abbrev": "Sub"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 90,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/90/",
+        "agency_id": 141,
+        "name": "West Texas Suborbital Launch Site/ Corn Ranch",
+        "description": null,
+        "info_url": "https://www.blueorigin.com",
+        "wiki_url": "https://en.wikipedia.org/wiki/Corn_Ranch",
+        "map_url": "https://www.google.com/maps?q=31.422878000000000,-104.757121000000000",
+        "latitude": "31.422878",
+        "longitude": "-104.757121",
+        "location": {
+          "id": 29,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/29/",
+          "name": "Corn Ranch, Van Horn, TX, USA",
+          "country_code": "USA",
+          "description": "Corn Ranch, commonly referred to as Launch Site One (LSO), is a spaceport owned and operated by Blue Origin which is located approximately 30 miles north of the town of Van Horn, Texas, United States.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_29_20200803142436.jpg",
+          "timezone_name": "America/Chicago",
+          "total_launch_count": 37,
+          "total_landing_count": 37
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_90_20200803143233.jpg",
+        "total_launch_count": 37,
+        "orbital_launch_attempt_count": 0
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": null,
+      "location_launch_attempt_count": 38,
+      "pad_launch_attempt_count": 38,
+      "agency_launch_attempt_count": 40,
+      "orbital_launch_attempt_count_year": null,
+      "location_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 1,
+      "type": "normal"
+    },
+    {
+      "id": "18292387-fbeb-43ac-97a0-1ade50bd68f1",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/18292387-fbeb-43ac-97a0-1ade50bd68f1/",
+      "slug": "falcon-9-block-5-starlink-group-17-30",
+      "name": "Falcon 9 Block 5 | Starlink Group 17-30",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-01-13T09:03:00Z",
+      "net": "2026-01-22T02:43:00Z",
+      "window_end": "2026-01-22T06:43:00Z",
+      "window_start": "2026-01-22T02:43:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8878,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "variant": "Block 5"
+        }
+      },
+      "mission": {
+        "id": 7469,
+        "name": "Starlink Group 17-30",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 624,
+            "consecutive_successful_launches": 109,
+            "successful_launches": 609,
+            "failed_launches": 15,
+            "pending_launches": 124,
+            "consecutive_successful_landings": 108,
+            "successful_landings": 569,
+            "failed_landings": 27,
+            "attempted_landings": 595,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+          "name": "Vandenberg SFB, CA, USA",
+          "country_code": "USA",
+          "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "timezone_name": "America/Los_Angeles",
+          "total_launch_count": 854,
+          "total_landing_count": 32
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 240,
+        "orbital_launch_attempt_count": 240
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 7190,
+      "location_launch_attempt_count": 856,
+      "pad_launch_attempt_count": 242,
+      "agency_launch_attempt_count": 628,
+      "orbital_launch_attempt_count_year": 17,
+      "location_launch_attempt_count_year": 4,
+      "pad_launch_attempt_count_year": 4,
+      "agency_launch_attempt_count_year": 9,
+      "type": "normal"
+    },
+    {
+      "id": "6d2beb1a-6869-4505-9fc1-a4aa224178e2",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/6d2beb1a-6869-4505-9fc1-a4aa224178e2/",
+      "slug": "long-march-7a-unknown-payload",
+      "name": "Long March 7A | Unknown Payload",
+      "status": {
+        "id": 8,
+        "name": "To Be Confirmed",
+        "abbrev": "TBC",
+        "description": "Awaiting official confirmation - current date is known with some certainty."
+      },
+      "last_updated": "2026-01-07T02:08:30Z",
+      "net": "2026-01-26T21:00:00Z",
+      "window_end": "2026-01-26T23:55:00Z",
+      "window_start": "2026-01-26T21:00:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "type": "Government"
+      },
+      "rocket": {
+        "id": 8875,
+        "configuration": {
+          "id": 216,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/216/",
+          "name": "Long March 7A",
+          "family": "Long March",
+          "full_name": "Long March 7A",
+          "variant": "A"
+        }
+      },
+      "mission": {
+        "id": 7466,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 176,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/176/",
+        "agency_id": null,
+        "name": "201",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.618452,110.955356",
+        "latitude": "19.618452",
+        "longitude": "110.955356",
+        "location": {
+          "id": 8,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+          "name": "Wenchang Space Launch Site, People's Republic of China",
+          "country_code": "CHN",
+          "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19° north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 55,
+          "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_176_20200803143412.jpg",
+        "total_launch_count": 28,
+        "orbital_launch_attempt_count": 28
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7191,
+      "location_launch_attempt_count": 58,
+      "pad_launch_attempt_count": 29,
+      "agency_launch_attempt_count": 574,
+      "orbital_launch_attempt_count_year": 18,
+      "location_launch_attempt_count_year": 3,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 4,
+      "type": "normal"
+    },
+    {
+      "id": "3639c1c6-1f92-4836-9eeb-fd50ef398550",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/3639c1c6-1f92-4836-9eeb-fd50ef398550/",
+      "slug": "electron-bridging-the-swarm-neonsat-1a",
+      "name": "Electron | Bridging The Swarm (NeonSat-1A)",
+      "status": {
+        "id": 2,
+        "name": "To Be Determined",
+        "abbrev": "TBD",
+        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+      },
+      "last_updated": "2025-12-21T07:53:53Z",
+      "net": "2026-01-31T00:00:00Z",
+      "window_end": "2026-01-31T00:00:00Z",
+      "window_start": "2026-01-31T00:00:00Z",
+      "net_precision": {
+        "id": 7,
+        "name": "Month",
+        "abbrev": "M",
+        "description": "The T-0 is expected in the given month."
+      },
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "type": "Commercial"
+      },
+      "rocket": {
+        "id": 8847,
+        "configuration": {
+          "id": 26,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+          "name": "Electron",
+          "family": "",
+          "full_name": "Electron",
+          "variant": ""
+        }
+      },
+      "mission": {
+        "id": 7438,
+        "name": "Bridging The Swarm (NeonSat-1A)",
+        "description": "The NeonSat-1A, carrying a high-resolution optical camera, is designed to test the constellation capabilities of the South Korean government's Earth observation micro-satellite constellation NeonSat (New-space Earth Observation Satellite), in particular technology improvements identified from operations of NeonSat-1 after its launch in April 2024. These technologies will in turn be incorporated into the next 10 NeonSat under construction, as well as providing more site re-visiting capabilities along with NeonSat-1.\r\n\r\nThe NeonSat constellation is the first satellite system developed by the government using a mass-production approach for precise monitoring of the Korean Peninsula, lead by the Satellite Technology Research Center (SaTReC) at the Korea Advanced Institute of Science and Technology (KAIST), Korea’s leading university dedicated to science and technology. Designed to capture near-real time natural disaster monitoring for the Korean peninsula, KAIST’s NEONSAT constellation is a collaboration across multiple Korean academic, industry, and research institutions, including SaTReC, which is leading the program’s system design and engineering. \r\n\r\nThe NEONSAT program is funded by the Korean government’s Ministry of Science and ICT (MSIT).",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+          "id": 17,
+          "name": "Sun-Synchronous Orbit",
+          "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 65,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/65/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
+        "location": {
+          "id": 10,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
+          "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+          "country_code": "NZL",
+          "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+          "timezone_name": "Pacific/Auckland",
+          "total_launch_count": 69,
+          "total_landing_count": 17
+        },
+        "country_code": "NZL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_65_20200803143549.jpg",
+        "total_launch_count": 35,
+        "orbital_launch_attempt_count": 35
+      },
+      "webcast_live": false,
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_on_the_image_20251215193751.jpg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7196,
+      "location_launch_attempt_count": 70,
+      "pad_launch_attempt_count": 36,
+      "agency_launch_attempt_count": 80,
+      "orbital_launch_attempt_count_year": 23,
+      "location_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 1,
+      "type": "normal"
+    }
+  ]
+}
