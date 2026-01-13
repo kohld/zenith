@@ -54,16 +54,20 @@ graph TD
     NASA[NASA JPL Horizons API]
     DSN[NASA DSN XML]
     CelesTrak[CelesTrak API]
+    LL2[Launch Library 2 API]
     
     Script_Horizons[scripts/fetch-spacecraft.ts]
     Script_TLE["bash (curl)"]
+    Script_Launches[scripts/fetch-launches.ts]
     
     JSON_Spacecraft[public/data/spacecraft.json]
     TXT_TLE[public/data/tles.txt]
+    JSON_Launches[public/data/launches.json]
     
     App[React Application]
     Action_Horizons["GitHub Action: update-spacecraft.yml"]
     Action_TLE["GitHub Action: update-tle.yml"]
+    Action_Launches["GitHub Action: update-launches.yml"]
 
     subgraph "Automated Backend (Build Time)"
     Action_Horizons -- "Every 6h" --> Script_Horizons
@@ -79,11 +83,17 @@ graph TD
     Script_TLE -- Fetches GP Elements --> CelesTrak
     CelesTrak -- TLE Response --> Script_TLE
     Script_TLE -- Writes --> TXT_TLE
+
+    Action_Launches -- "Every 2h" --> Script_Launches
+    Script_Launches -- "Queries" --> LL2
+    LL2 -- "JSON Response" --> Script_Launches
+    Script_Launches -- Writes --> JSON_Launches
     end
 
     subgraph "Frontend (Runtime)"
     App -- Fetches --> JSON_Spacecraft
     App -- Fetches --> TXT_TLE
+    App -- Fetches --> JSON_Launches
     App -- Renders --> UI[UI / Canvas]
     end
 ```
