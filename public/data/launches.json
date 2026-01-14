@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-14T16:44:26.770Z",
+  "updatedAt": "2026-01-14T17:09:50.795Z",
   "launches": [
     {
       "id": "b8d9ff2b-a972-4e50-8fff-6c189dbe34cd",
@@ -241,7 +241,7 @@
           "consecutive_successful_launches": 233,
           "successful_launches": 530,
           "failed_launches": 1,
-          "pending_launches": 105,
+          "pending_launches": 106,
           "attempted_landings": 522,
           "successful_landings": 517,
           "failed_landings": 5,
@@ -1713,7 +1713,7 @@
           "consecutive_successful_launches": 233,
           "successful_launches": 530,
           "failed_launches": 1,
-          "pending_launches": 105,
+          "pending_launches": 106,
           "attempted_landings": 522,
           "successful_landings": 517,
           "failed_landings": 5,
@@ -1937,17 +1937,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -2316,7 +2316,7 @@
           "consecutive_successful_launches": 233,
           "successful_launches": 530,
           "failed_launches": 1,
-          "pending_launches": 105,
+          "pending_launches": 106,
           "attempted_landings": 522,
           "successful_landings": 517,
           "failed_landings": 5,
@@ -3606,7 +3606,7 @@
           "consecutive_successful_launches": 233,
           "successful_launches": 530,
           "failed_launches": 1,
-          "pending_launches": 105,
+          "pending_launches": 106,
           "attempted_landings": 522,
           "successful_landings": 517,
           "failed_landings": 5,
@@ -4196,6 +4196,14 @@
       "last_updated": "2026-01-13T18:29:57Z",
       "updates": [
         {
+          "id": 13637,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/sl-17-20",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-14T17:00:00Z"
+        },
+        {
           "id": 13627,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
           "comment": "Added launch.",
@@ -4388,7 +4396,7 @@
           "consecutive_successful_launches": 233,
           "successful_launches": 530,
           "failed_launches": 1,
-          "pending_launches": 105,
+          "pending_launches": 106,
           "attempted_landings": 522,
           "successful_landings": 517,
           "failed_landings": 5,
@@ -4398,35 +4406,35 @@
           {
             "id": 874,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 13,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 153,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/153/",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1088",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1088_landing_o_image_20250912151209.jpeg",
+              "successful_landings": 12,
+              "attempted_landings": 12,
+              "flights": 12,
+              "last_launch_date": "2025-12-07T17:58:30Z",
+              "first_launch_date": "2024-11-30T08:10:00Z"
             },
             "landing": {
               "id": 1765,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on ASDS OCISLY after its flight.",
+              "description": "The Falcon 9 first stage B1088 will land on ASDS OCISLY after its 13th flight.",
               "downrange_distance": 574,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 1,
+                "name": "Of Course I Still Love You",
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 172
               },
               "type": {
                 "id": 1,
@@ -4435,9 +4443,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-12-07T17:58:30Z",
+            "turn_around_time_days": 48,
+            "previous_flight": {
+              "id": "e9a5374e-b091-45dc-830c-d2ffa1b1ed47",
+              "name": "Falcon 9 Block 5 | Starlink Group 11-15"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -4514,10 +4525,154 @@
         "total_launch_count": 240,
         "orbital_launch_attempt_count": 240
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-17-20",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starlink Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/G-o0icUWEAAbKLU.jpg",
+          "url": "https://x.com/i/broadcasts/1MYxNlmpmZLGw",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-01-25T15:10:00Z",
+          "end_time": "2026-01-25T16:30:00Z"
+        }
+      ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M12S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M24S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M28S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M35S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT2M55S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M7S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M33S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT7M57S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M21S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M39S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT53M11S"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT53M12S"
+        },
+        {
+          "type": {
+            "id": 23,
+            "abbrev": "Starlink Deployment",
+            "description": "Deployment of the Starlink stack from the rocket"
+          },
+          "relative_time": "PT1H2M3S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "infographic": null,
       "program": [
