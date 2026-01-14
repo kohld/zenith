@@ -23,6 +23,7 @@
 - [Automation](#automation)
   - [1. NASA JPL Horizons (Deep Space)](#1-nasa-jpl-horizons-deep-space)
   - [2. CelesTrak (LEO Satellites)](#2-celestrak-leo-satellites)
+  - [3. Launch Library 2 (The Space Devs)](#3-launch-library-2-the-space-devs)
 
 ## Tech Stack
 
