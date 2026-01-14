@@ -17,6 +17,7 @@
 - [Features](#features)
   - [Orbital Radar (LEO)](#orbital-radar-leo)
   - [Deep Space Network (DSN)](#deep-space-network-dsn)
+  - [Start Gateway (Launches)](#start-gateway-launches)
 - [Architecture & Data Flow](#architecture--data-flow)
 - [Setup](#setup)
 - [Automation](#automation)
@@ -44,6 +45,11 @@
     - **Linear Scale**: Logarithmic distance timeline.
     - **Radial Map (2D)**: Polar plot showing the solar system scale and spacecraft directions relative to Earth.
 - **Ping Simulation**: Visualizes the light-speed communication delay.
+
+### Start Gateway (Launches)
+- Countdown to the next major space launches worldwide.
+- Detailed mission profiles including rocket configurations, launch sites, and mission descriptions.
+- Data provided by **The Space Devs (Launch Library 2)**.
 
 ## Architecture & Data Flow
 
@@ -129,5 +135,5 @@ The project includes custom scripts and workflows to bridge external data source
 
 ### 3. Launch Library 2 (The Space Devs)
 - **Source**: `scripts/fetch-launches.ts` queries the **Launch Library 2** API for upcoming orbital launches.
-- **Schedule**: Updates every 2 hours via `update-launches.yml`.
+- **Schedule**: Updates every hour via `update-launches.yml`.
 - **Output**: `public/data/launches.json`.

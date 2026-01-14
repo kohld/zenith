@@ -2,14 +2,14 @@ import { useRef, useEffect } from 'react';
 import { VisualObject } from '../../lib/definitions';
 import { projectAzElToCartesian } from '../../utils/projection';
 
-interface SkyCanvasProps {
+interface RadarCanvasProps {
     objects: VisualObject[];
     onSelect?: (id: string | null) => void;
     selectedSatId?: string | null; // Changed from selectedSat (name)
     orbitPath?: { azimuth: number; elevation: number }[];
 }
 
-export const SkyCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: SkyCanvasProps) => { // Updated props
+export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: RadarCanvasProps) => { // Updated props
     const canvasRef = useRef<HTMLCanvasElement>(null);
 
     useEffect(() => {

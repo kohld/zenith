@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Navbar } from './components/Navbar';
-import { SkyMap } from './components/SkyView/SkyMap';
+import { OrbitalRadar } from './components/OrbitalRadar/OrbitalRadar';
 import { DeepSpaceView } from './components/DeepSpace/DeepSpaceView';
 import { LaunchGateway } from './components/Launch/LaunchGateway';
 import { Footer } from './components/Footer';
@@ -14,7 +14,7 @@ function App() {
             <Navbar currentView={view} onViewChange={setView} />
             <main className="flex-grow flex flex-col justify-start pt-20">
                 {view === 'orbital' ? (
-                    <SkyMap />
+                    <OrbitalRadar />
                 ) : view === 'deepspace' ? (
                     <DeepSpaceView />
                 ) : (

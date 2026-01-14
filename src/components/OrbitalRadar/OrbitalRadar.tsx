@@ -2,12 +2,12 @@ import { useEffect, useState } from 'react';
 import { getSatPosition, getSatellitePath } from '../../utils/orbital';
 import { getOrbitalParams } from '../../utils/orbital-params';
 import { fetchTLEs } from '../../api/celestrak';
-import { SkyCanvas } from './SkyCanvas';
+import { RadarCanvas } from './RadarCanvas';
 import { SatelliteData, SatellitePosition, VisualObject, ObserverLocation as Location, SearchResult } from '../../lib/definitions';
 
 // Default to Berlin removed. Starting with null to trigger detection.
 
-export const SkyMap = () => {
+export const OrbitalRadar = () => {
     const [satellites, setSatellites] = useState<SatelliteData[]>([]);
     const [visualObjects, setVisualObjects] = useState<VisualObject[]>([]);
 
@@ -360,7 +360,7 @@ export const SkyMap = () => {
                     </div>
                 ) : (
                     <>
-                        <SkyCanvas
+                        <RadarCanvas
                             objects={visualObjects}
                             onSelect={handleSelectSat}
                             selectedSatId={selectedSatId} // Updated Prop

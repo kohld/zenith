@@ -39,7 +39,7 @@ export interface SatelliteData {
 }
 
 /**
- * An object ready to be rendered on the SkyCanvas.
+ * An object ready to be rendered on the RadarCanvas.
  * Combines identity metadata with calculated real-time position.
  */
 export interface VisualObject {

@@ -131,29 +131,27 @@ export const LaunchGateway = () => {
                                             </div>
                                         )}
 
-                                        <div className="flex flex-wrap gap-4">
-                                            <div className="flex items-center gap-3 px-4 py-2 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm">
-                                                <div className="p-2 bg-blue-500/10 rounded-md text-blue-400">
-                                                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
-                                                    </svg>
-                                                </div>
-                                                <div>
-                                                    <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Rocket</div>
-                                                    <div className="text-lg text-slate-200 font-medium">{nextLaunch.rocket.configuration.name}</div>
-                                                </div>
+                                        <div className="flex items-center gap-3 px-4 py-2 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm w-fit">
+                                            <div className="p-2 bg-blue-500/10 rounded-md text-blue-400">
+                                                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+                                                </svg>
                                             </div>
+                                            <div>
+                                                <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Rocket</div>
+                                                <div className="text-lg text-slate-200 font-medium">{nextLaunch.rocket.configuration.name}</div>
+                                            </div>
+                                        </div>
 
-                                            <div className="flex items-center gap-3 px-4 py-2 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm">
-                                                <div className="p-2 bg-purple-500/10 rounded-md text-purple-400">
-                                                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                                                    </svg>
-                                                </div>
-                                                <div>
-                                                    <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Provider</div>
-                                                    <div className="text-lg text-slate-200 font-medium">{nextLaunch.launch_service_provider.name}</div>
-                                                </div>
+                                        <div className="flex items-center gap-3 px-4 py-2 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm w-fit">
+                                            <div className="p-2 bg-purple-500/10 rounded-md text-purple-400">
+                                                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                                </svg>
+                                            </div>
+                                            <div>
+                                                <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Provider</div>
+                                                <div className="text-lg text-slate-200 font-medium">{nextLaunch.launch_service_provider.name}</div>
                                             </div>
                                         </div>
                                     </div>
@@ -184,7 +182,7 @@ export const LaunchGateway = () => {
                                     ))}
                                 </div>
 
-                                <div className="flex flex-wrap gap-4">
+                                <div className="flex flex-col gap-4 items-start">
                                     {streamUrl ? (
                                         <a
                                             href={streamUrl}
