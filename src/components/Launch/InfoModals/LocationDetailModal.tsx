@@ -1,5 +1,6 @@
 
 import { useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { Pad } from '../../../lib/definitions';
 import { LaunchMap } from '../LaunchMap';
 
@@ -30,7 +31,7 @@ export const LocationDetailModal = ({ pad, weather, onClose }: LocationDetailMod
                 : 'text-red-500'
         : 'text-slate-500';
 
-    return (
+    return createPortal(
         <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
             {/* Backdrop */}
             <div
@@ -42,8 +43,7 @@ export const LocationDetailModal = ({ pad, weather, onClose }: LocationDetailMod
             <div className="relative w-full max-w-2xl bg-slate-900 border border-white/10 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh] animate-in fade-in zoom-in-95 duration-200">
 
                 {/* Header */}
-                <div className="relative p-6 border-b border-white/5 bg-gradient-to-r from-slate-800/50 to-slate-900/0">
-                    {/* ... header content ... */}
+                <div className="relative p-6 border-b border-white/5 bg-gradient-to-r from-amber-900/20 to-slate-900/0">
                     <button
                         onClick={onClose}
                         className="absolute top-4 right-4 p-2 rounded-full hover:bg-white/10 text-slate-400 hover:text-white transition-colors"
@@ -54,7 +54,7 @@ export const LocationDetailModal = ({ pad, weather, onClose }: LocationDetailMod
                     </button>
 
                     <div className="flex items-center gap-4 mb-2">
-                        <div className="p-3 bg-slate-500/10 rounded-xl text-slate-400">
+                        <div className="p-3 bg-amber-500/10 rounded-xl text-amber-500">
                             <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -62,7 +62,7 @@ export const LocationDetailModal = ({ pad, weather, onClose }: LocationDetailMod
                         </div>
                         <div>
                             <h2 className="text-xl font-bold text-white">{pad.location.name}</h2>
-                            <div className="flex items-center gap-2 text-sm text-slate-400 font-mono">
+                            <div className="flex items-center gap-2 text-sm text-amber-500/80 font-mono">
                                 <span>{pad.name}</span>
                                 {pad.country_code && (
                                     <>
@@ -127,7 +127,6 @@ export const LocationDetailModal = ({ pad, weather, onClose }: LocationDetailMod
                     {/* Location Description */}
                     {pad.location.description && (
                         <div className="mb-6">
-                            <h3 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Location Info</h3>
                             <p className="text-slate-300 text-sm leading-relaxed">
                                 {pad.location.description}
                             </p>
@@ -137,7 +136,7 @@ export const LocationDetailModal = ({ pad, weather, onClose }: LocationDetailMod
                     {/* Pad Description (if distinctive) */}
                     {pad.description && pad.description !== pad.location.description && (
                         <div className="mb-6">
-                            <h3 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-2">Pad Info</h3>
+                            <h3 className="text-xs font-bold text-amber-500/70 uppercase tracking-widest mb-2">Pad Info</h3>
                             <p className="text-slate-300 text-sm leading-relaxed">
                                 {pad.description}
                             </p>
@@ -172,14 +171,9 @@ export const LocationDetailModal = ({ pad, weather, onClose }: LocationDetailMod
                         />
                     </div>
 
-                    {/* Map Image (Satellite/Aerial View) -> Optional 
-                       The API provides `map_image` which is often a static map. 
-                       Since we use an interactive map, we might display this as a "Satellite View" if different?
-                       Usually the interactive map is better, so skipping for now to rely on LaunchMap.
-                    */}
-
                 </div>
             </div>
-        </div>
+        </div>,
+        document.body
     );
 };

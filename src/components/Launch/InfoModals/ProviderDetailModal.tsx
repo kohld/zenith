@@ -1,5 +1,6 @@
 
 import { useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { LaunchServiceProvider } from '../../../lib/definitions';
 
 interface ProviderDetailModalProps {
@@ -22,7 +23,7 @@ export const ProviderDetailModal = ({ provider, onClose }: ProviderDetailModalPr
     const success = provider.successful_launches || 0;
     const rate = total > 0 ? Math.round((success / total) * 100) : 0;
 
-    return (
+    return createPortal(
         <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
             {/* Backdrop */}
             <div
@@ -123,6 +124,7 @@ export const ProviderDetailModal = ({ provider, onClose }: ProviderDetailModalPr
 
                 </div>
             </div>
-        </div>
+        </div>,
+        document.body
     );
 };

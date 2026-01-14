@@ -1,6 +1,8 @@
 
 import { useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { RocketConfiguration } from '../../../lib/definitions';
+import { RocketSizeComparator } from './RocketSizeComparator';
 
 interface RocketDetailModalProps {
     rocket: RocketConfiguration;
@@ -17,7 +19,7 @@ export const RocketDetailModal = ({ rocket, onClose }: RocketDetailModalProps) =
         return () => window.removeEventListener('keydown', handleEsc);
     }, [onClose]);
 
-    return (
+    return createPortal(
         <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
             {/* Backdrop */}
             <div
@@ -88,6 +90,17 @@ export const RocketDetailModal = ({ rocket, onClose }: RocketDetailModalProps) =
                         </div>
                     </div>
 
+                    {/* Size Comparator */}
+                    {(rocket.length && rocket.diameter) && (
+                        <div className="mt-6 border-t border-white/10 pt-4">
+                            <RocketSizeComparator
+                                length={rocket.length}
+                                diameter={rocket.diameter}
+                                name={rocket.full_name}
+                            />
+                        </div>
+                    )}
+
                     {rocket.manufacturer && (
                         <div className="mt-6 border-t border-white/10 pt-4">
                             <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-3">Manufacturer</h3>
@@ -104,6 +117,7 @@ export const RocketDetailModal = ({ rocket, onClose }: RocketDetailModalProps) =
                     )}
                 </div>
             </div>
-        </div>
+        </div>,
+        document.body
     );
 };

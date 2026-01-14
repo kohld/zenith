@@ -117,9 +117,9 @@ export const LaunchDetailModal = ({ launch, onClose }: LaunchDetailModalProps) =
 
                         <div
                             onClick={() => setActiveModal('location')}
-                            className="flex items-center gap-3 px-4 py-3 rounded-lg bg-white/5 border border-white/10 cursor-pointer hover:bg-white/10 hover:border-slate-500/50 transition-all select-none group"
+                            className="flex items-center gap-3 px-4 py-3 rounded-lg bg-white/5 border border-white/10 cursor-pointer hover:bg-white/10 hover:border-amber-500/50 transition-all select-none group"
                         >
-                            <div className="p-2 bg-slate-700/50 rounded-md text-slate-300 group-hover:scale-110 transition-transform">
+                            <div className="p-2 bg-amber-500/10 rounded-md text-amber-400 group-hover:scale-110 transition-transform">
                                 <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
