@@ -241,6 +241,28 @@ export interface LaunchServiceProvider {
     url: string;
     name: string;
     type: string;
+    country_code: string;
+    description?: string;
+    administrator?: string;
+    founding_year?: string;
+    launchers?: string;
+    total_launch_count?: number;
+    successful_launches?: number;
+    failed_launches?: number;
+    image_url?: string;
+    logo_url?: string;
+    info_url?: string;
+    wiki_url?: string;
+    pad_turnaround?: string;
+    mission_patches?: MissionPatch[];
+}
+
+export interface MissionPatch {
+    id: number;
+    name: string;
+    priority: number;
+    image_url: string;
+    agency_id: number | null;
 }
 
 export interface RocketConfiguration {
@@ -250,6 +272,16 @@ export interface RocketConfiguration {
     family: string;
     full_name: string;
     variant: string;
+    description?: string;
+    length?: number;
+    diameter?: number;
+    launch_mass?: number;
+    to_thrust?: number;
+    leo_capacity?: number;
+    gto_capacity?: number;
+    manufacturer?: LaunchServiceProvider;
+    image_url?: string;
+    wiki_url?: string;
 }
 
 export interface Rocket {
@@ -269,21 +301,32 @@ export interface Mission {
     } | null;
 }
 
+export interface Location {
+    id: number;
+    url: string;
+    name: string;
+    country_code: string;
+    description?: string;
+    map_image?: string;
+    timezone_name?: string;
+    total_launch_count?: number;
+    total_landing_count?: number;
+}
+
 export interface Pad {
     id: number;
     url: string;
     agency_id: number | null;
     name: string;
+    description?: string;
     map_url: string | null;
     latitude: string;
     longitude: string;
-    location: {
-        id: number;
-        url: string;
-        name: string;
-        country_code: string;
-    };
+    location: Location;
     country_code: string;
+    map_image?: string;
+    total_launch_count?: number;
+    orbital_launch_attempt_count?: number;
 }
 
 export interface Launch {
@@ -323,6 +366,7 @@ export interface Launch {
     agency_launch_attempt_count_year: number | null;
     vidURLs: VidURL[]; // Deprecated field but often present
     vid_urls?: VidURL[]; // Correct field name may vary, mapping to consistent interface
+    mission_patches?: MissionPatch[];
 }
 
 /**

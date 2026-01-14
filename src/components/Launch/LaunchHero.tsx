@@ -1,7 +1,11 @@
 
+import { useState } from 'react';
 import { Launch } from '../../lib/definitions';
 import { getStatusColor } from './utils';
-import { LaunchMap } from './LaunchMap';
+import { MissionPatch } from './MissionPatch';
+import { RocketDetailModal } from './InfoModals/RocketDetailModal';
+import { ProviderDetailModal } from './InfoModals/ProviderDetailModal';
+import { LocationDetailModal } from './InfoModals/LocationDetailModal';
 
 interface LaunchHeroProps {
     nextLaunch: Launch | null;
@@ -9,9 +13,13 @@ interface LaunchHeroProps {
 }
 
 export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
+    const [activeModal, setActiveModal] = useState<'rocket' | 'provider' | 'location' | null>(null);
     const allVideos = [...(nextLaunch?.vidURLs || []), ...(nextLaunch?.vid_urls || [])];
     const bestVideo = allVideos.sort((a, b) => b.priority - a.priority)[0];
     const streamUrl = bestVideo?.url;
+
+    // Get patch (priority sorted)
+    const patch = nextLaunch?.mission_patches?.sort((a, b) => b.priority - a.priority)[0];
 
     return (
         <div className="flex-grow relative overflow-hidden rounded-2xl border border-white/10 bg-slate-900/50 backdrop-blur-md p-8 sm:p-12 shadow-2xl flex flex-col justify-center">
@@ -56,7 +64,7 @@ export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
                         </p>
                     )}
 
-                    {/* Details & Map Row - Stretch Alignment for Equal Height */}
+                    {/* Details & Patch Row */}
                     <div className="flex flex-col xl:flex-row gap-6 justify-between items-stretch mb-8">
                         {/* Left Side: Info Boxes Group */}
                         <div className="flex-grow flex flex-col justify-between gap-4">
@@ -74,40 +82,52 @@ export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
                                 </div>
                             )}
 
-                            <div className="flex items-center gap-3 px-4 py-2 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm w-fit">
-                                <div className="p-2 bg-blue-500/10 rounded-md text-blue-400">
+                            <div
+                                onClick={() => setActiveModal('rocket')}
+                                className="flex items-center gap-3 px-4 py-2 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm w-fit cursor-pointer hover:bg-white/10 hover:border-blue-500/30 transition-all select-none group"
+                            >
+                                <div className="p-2 bg-blue-500/10 rounded-md text-blue-400 group-hover:scale-110 transition-transform">
                                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
                                     </svg>
                                 </div>
                                 <div>
-                                    <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Rocket</div>
+                                    <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold group-hover:text-blue-400 transition-colors">Rocket</div>
                                     <div className="text-lg text-slate-200 font-medium">{nextLaunch.rocket.configuration.name}</div>
                                 </div>
                             </div>
 
-                            <div className="flex items-center gap-3 px-4 py-2 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm w-fit">
-                                <div className="p-2 bg-purple-500/10 rounded-md text-purple-400">
+                            <div
+                                onClick={() => setActiveModal('provider')}
+                                className="flex items-center gap-3 px-4 py-2 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm w-fit cursor-pointer hover:bg-white/10 hover:border-purple-500/30 transition-all select-none group"
+                            >
+                                <div className="p-2 bg-purple-500/10 rounded-md text-purple-400 group-hover:scale-110 transition-transform">
                                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                                     </svg>
                                 </div>
                                 <div>
-                                    <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Provider</div>
+                                    <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold group-hover:text-purple-400 transition-colors">Provider</div>
                                     <div className="text-lg text-slate-200 font-medium">{nextLaunch.launch_service_provider.name}</div>
                                 </div>
                             </div>
                         </div>
 
-                        {/* HERO MAP INTEGRATION - Auto Height to Match Left Side */}
-                        <div className="hidden xl:block relative z-20 pointer-events-none flex-shrink-0">
-                            <LaunchMap
-                                latitude={parseFloat(nextLaunch.pad.latitude)}
-                                longitude={parseFloat(nextLaunch.pad.longitude)}
-                                autoHeight={true}
-                                zoom={5}
-                                className="w-72 shadow-[0_8px_32px_rgba(0,0,0,0.5)] !border-white/20 h-full"
-                            />
+                        {/* MISSION PATCH - Auto Height to Match Left Side */}
+                        <div className="hidden xl:flex relative z-20 flex-shrink-0 w-72">
+                            {patch ? (
+                                <MissionPatch
+                                    patch={patch}
+                                    missionName={nextLaunch.name}
+                                    className="w-full h-full max-h-64"
+                                />
+                            ) : (
+                                <div className="w-full h-full flex items-center justify-center opacity-10">
+                                    <svg className="w-32 h-32" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                    </svg>
+                                </div>
+                            )}
                         </div>
                     </div>
 
@@ -148,7 +168,10 @@ export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
                             </button>
                         )}
 
-                        <div className="px-6 py-3 bg-white/5 border border-white/10 rounded-lg text-slate-300 font-mono text-sm flex items-center">
+                        <div
+                            onClick={() => setActiveModal('location')}
+                            className="px-6 py-3 bg-white/5 border border-white/10 rounded-lg text-slate-300 font-mono text-sm flex items-center cursor-pointer hover:bg-white/10 hover:border-slate-500/50 transition-colors select-none"
+                        >
                             <svg className="w-4 h-4 mr-2 text-slate-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -156,6 +179,26 @@ export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
                             {nextLaunch.pad.location.name}
                         </div>
                     </div>
+
+                    {/* MODALS */}
+                    {activeModal === 'rocket' && nextLaunch.rocket.configuration && (
+                        <RocketDetailModal
+                            rocket={nextLaunch.rocket.configuration}
+                            onClose={() => setActiveModal(null)}
+                        />
+                    )}
+                    {activeModal === 'provider' && nextLaunch.launch_service_provider && (
+                        <ProviderDetailModal
+                            provider={nextLaunch.launch_service_provider}
+                            onClose={() => setActiveModal(null)}
+                        />
+                    )}
+                    {activeModal === 'location' && nextLaunch.pad && (
+                        <LocationDetailModal
+                            pad={nextLaunch.pad}
+                            onClose={() => setActiveModal(null)}
+                        />
+                    )}
                 </div>
             ) : (
                 <div className="flex items-center justify-center h-full text-slate-500">No upcoming launches found.</div>
