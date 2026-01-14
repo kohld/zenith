@@ -9,7 +9,9 @@ interface LaunchHeroProps {
 }
 
 export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
-    const streamUrl = nextLaunch?.vidURLs?.[0]?.url || nextLaunch?.vid_urls?.[0]?.url;
+    const allVideos = [...(nextLaunch?.vidURLs || []), ...(nextLaunch?.vid_urls || [])];
+    const bestVideo = allVideos.sort((a, b) => b.priority - a.priority)[0];
+    const streamUrl = bestVideo?.url;
 
     return (
         <div className="flex-grow relative overflow-hidden rounded-2xl border border-white/10 bg-slate-900/50 backdrop-blur-md p-8 sm:p-12 shadow-2xl flex flex-col justify-center">
