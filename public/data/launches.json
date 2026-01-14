@@ -1,263 +1,6 @@
 {
-  "updatedAt": "2026-01-14T15:07:50.248Z",
+  "updatedAt": "2026-01-14T15:39:21.823Z",
   "launches": [
-    {
-      "id": "2e15e3c4-408b-48a2-a647-4818df4eebc4",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/2e15e3c4-408b-48a2-a647-4818df4eebc4/",
-      "slug": "long-march-8a-satnet-leo-group-18",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Long March 8A | SatNet LEO Group 18",
-      "status": {
-        "id": 3,
-        "name": "Launch Successful",
-        "abbrev": "Success",
-        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
-      },
-      "last_updated": "2026-01-13T19:27:11Z",
-      "updates": [
-        {
-          "id": 13622,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Launch success.",
-          "info_url": "https://m.weibo.cn/detail/5254793866250135",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-01-13T17:26:00Z"
-        },
-        {
-          "id": 13619,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Liftoff.",
-          "info_url": "https://www.youtube.com/watch?v=11vOFY61MQI",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-01-13T15:30:00Z"
-        },
-        {
-          "id": 13616,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Tweaked launch window per new NOTAMs.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2750255#msg2750255",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-01-12T23:54:00Z"
-        },
-        {
-          "id": 13531,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per NOTAMs; payload identities uncertain.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2748415#msg2748415",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-01-07T02:03:00Z"
-        }
-      ],
-      "net": "2026-01-13T15:25:00Z",
-      "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
-      },
-      "window_end": "2026-01-13T15:42:00Z",
-      "window_start": "2026-01-13T15:17:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 88,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-        "name": "China Aerospace Science and Technology Corporation",
-        "featured": true,
-        "type": "Government",
-        "country_code": "CHN",
-        "abbrev": "CASC",
-        "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-        "administrator": "Chairman & President: Lei Fanpei",
-        "founding_year": "1999",
-        "launchers": "Long March",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 572,
-        "consecutive_successful_launches": 114,
-        "successful_launches": 558,
-        "failed_launches": 14,
-        "pending_launches": 8,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 1,
-        "attempted_landings": 1,
-        "info_url": "https://english.spacechina.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
-      },
-      "rocket": {
-        "id": 8872,
-        "configuration": {
-          "id": 518,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/518/",
-          "name": "Long March 8A",
-          "active": true,
-          "reusable": false,
-          "description": "The Long March 8A is an orbital launch vehicle developed by the China Academy of Launch Vehicle Technology based on the Long March 8. It has an increased capability of up to 7 tonnes to a 700 km altitude sun-synchronous orbit. It implements a larger 3.35 meters diameter liquid hydrogen/liquid oxygen 2nd stage, coupled with 2 upgraded version of the YF-75D engines used on the Long March 5 (known as the YF-75H) with increased thrust to 10 tonnes each through measures such as increased turbopump speeds. \r\n\r\nThe Long March 8A can also use a larger 5.2 meters diameter payload fairing.",
-          "family": "Long March",
-          "full_name": "Long March 8A",
-          "manufacturer": {
-            "id": 88,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-            "name": "China Aerospace Science and Technology Corporation",
-            "featured": true,
-            "type": "Government",
-            "country_code": "CHN",
-            "abbrev": "CASC",
-            "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-            "administrator": "Chairman & President: Lei Fanpei",
-            "founding_year": "1999",
-            "launchers": "Long March",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 572,
-            "consecutive_successful_launches": 114,
-            "successful_launches": 558,
-            "failed_launches": 14,
-            "pending_launches": 8,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 1,
-            "attempted_landings": 1,
-            "info_url": "https://english.spacechina.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
-          },
-          "program": [],
-          "variant": "A",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 2,
-          "length": 50.5,
-          "diameter": 3.35,
-          "maiden_flight": "2025-02-11",
-          "launch_cost": null,
-          "launch_mass": 371,
-          "leo_capacity": 9800,
-          "gto_capacity": 3500,
-          "to_thrust": 4800,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
-          "info_url": null,
-          "wiki_url": "https://en.wikipedia.org/wiki/Long_March_8#CZ-8A_variant",
-          "total_launch_count": 7,
-          "consecutive_successful_launches": 7,
-          "successful_launches": 7,
-          "failed_launches": 0,
-          "pending_launches": 0,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7463,
-        "name": "SatNet LEO Group 18",
-        "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
-        "launch_designator": null,
-        "type": "Communications",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 218,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/218/",
-        "agency_id": null,
-        "name": "Commercial LC-1",
-        "description": "",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Commercial_Space_Launch_Site",
-        "map_url": "https://www.google.com/maps?q=19.597275,110.930753",
-        "latitude": "19.597275",
-        "longitude": "110.930753",
-        "location": {
-          "id": 8,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
-          "name": "Wenchang Space Launch Site, People's Republic of China",
-          "country_code": "CHN",
-          "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19° north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
-          "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 56,
-          "total_landing_count": 0
-        },
-        "country_code": "CHN",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_commercial_lc-1_20231225074041.jpg",
-        "total_launch_count": 7,
-        "orbital_launch_attempt_count": 7
-      },
-      "infoURLs": [],
-      "vidURLs": [
-        {
-          "priority": 10,
-          "source": "youtube.com",
-          "publisher": "ThatSpaceDogeGuy",
-          "title": "Watch Long March 8A Launch SatNet LEO Group 18 from Wenchang, LIVE!! (Official TSDG Broadcast)",
-          "description": "Credits: TSDG 'The Boys' Team\n-------------------------------------------------------------\nSubscribe and follow my socials for more content!!!\n▶️ Twitter/X @TestAiden [ThatSpaceDogeGuy]\n▶️ Instagram | ThatSpaceDogeGuy\n▶️ Tiktok | ThatSpaceDogeGuy\n▶️ Twitch | ThatSpaceDogeGuy\n\nReusing my footage is allowed. Unless cropped.\nIncase of cropping my screen [if the TSDG logo is not on the screen] Please put credits or in the description or on screen..",
-          "feature_image": "https://i.ytimg.com/vi/11vOFY61MQI/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=11vOFY61MQI",
-          "type": {
-            "id": 3,
-            "name": "Unofficial Webcast"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          },
-          "start_time": "2026-01-13T15:07:47Z",
-          "end_time": "2026-01-13T15:34:47Z"
-        }
-      ],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7181,
-      "location_launch_attempt_count": 56,
-      "pad_launch_attempt_count": 7,
-      "agency_launch_attempt_count": 572,
-      "orbital_launch_attempt_count_year": 8,
-      "location_launch_attempt_count_year": 1,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 2,
-      "pad_turnaround": "P18DT15H59M",
-      "mission_patches": [
-        {
-          "id": 1294,
-          "name": "CZ-8A SatNet LEO Group 18",
-          "priority": 10,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/cz-8a2520satne_mission_patch_20260113192706.png",
-          "agency": {
-            "id": 88,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-            "name": "China Aerospace Science and Technology Corporation",
-            "type": "Government"
-          }
-        }
-      ],
-      "type": "detailed"
-    },
     {
       "id": "b8d9ff2b-a972-4e50-8fff-6c189dbe34cd",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/b8d9ff2b-a972-4e50-8fff-6c189dbe34cd/",
@@ -5038,6 +4781,451 @@
       "agency_launch_attempt_count_year": 6,
       "pad_turnaround": "P26DT22H20M",
       "mission_patches": [],
+      "type": "detailed"
+    },
+    {
+      "id": "3639c1c6-1f92-4836-9eeb-fd50ef398550",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/3639c1c6-1f92-4836-9eeb-fd50ef398550/",
+      "slug": "electron-bridging-the-swarm-neonsat-1a",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Electron | Bridging The Swarm (NeonSat-1A)",
+      "status": {
+        "id": 2,
+        "name": "To Be Determined",
+        "abbrev": "TBD",
+        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+      },
+      "last_updated": "2025-12-21T07:53:53Z",
+      "updates": [
+        {
+          "id": 13430,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "No more Rocket Lab launches in 2025.",
+          "info_url": "https://x.com/RocketLab/status/2002648407660483051",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-21T07:53:00Z"
+        },
+        {
+          "id": 13347,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Reverted back to NET December TBD.",
+          "info_url": "https://rocketlabcorp.com/missions/next-mission/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-16T02:06:00Z"
+        },
+        {
+          "id": 13346,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Scrubbed for the day.",
+          "info_url": "https://www.youtube.com/watch?v=kBMyFpB9GPI",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-16T00:58:00Z"
+        },
+        {
+          "id": 13345,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Abort at engine ignition.",
+          "info_url": "https://www.youtube.com/watch?v=kBMyFpB9GPI",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-16T00:56:00Z"
+        },
+        {
+          "id": 13344,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Official Webcast by Rocket Lab has started",
+          "info_url": "https://www.youtube.com/watch?v=kBMyFpB9GPI",
+          "created_by": "LL2",
+          "created_on": "2025-12-16T00:32:00Z"
+        },
+        {
+          "id": 13336,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Rescheduled for December 16 UTC.",
+          "info_url": "https://rocketlabcorp.com/missions/launch-safety/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-15T16:20:00Z"
+        },
+        {
+          "id": 13248,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Reverted back to December TBD pending new launch date.",
+          "info_url": "https://x.com/RocketLab/status/1998932950348685558",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-11T08:26:00Z"
+        },
+        {
+          "id": 13247,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Scrubbed for the day.",
+          "info_url": "https://www.youtube.com/watch?v=ntz0PywY25c",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-11T01:15:00Z"
+        },
+        {
+          "id": 13246,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Recycled for end of window.",
+          "info_url": "https://www.youtube.com/watch?v=ntz0PywY25c",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-11T00:59:00Z"
+        },
+        {
+          "id": 13245,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Hold at T-5:43.",
+          "info_url": "https://www.youtube.com/watch?v=ntz0PywY25c",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-11T00:53:00Z"
+        },
+        {
+          "id": 13244,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Official Webcast by Rocket Lab has started",
+          "info_url": "https://www.youtube.com/watch?v=ntz0PywY25c",
+          "created_by": "LL2",
+          "created_on": "2025-12-11T00:46:00Z"
+        },
+        {
+          "id": 13241,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated T-0.",
+          "info_url": "https://x.com/rocketlab/status/1998840338547618258",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-10T19:45:00Z"
+        },
+        {
+          "id": 13222,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://x.com/rocketlab/status/1998551497748132213",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-10T00:49:00Z"
+        },
+        {
+          "id": 13214,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch window per new NOTAMs.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64026.msg2741645#msg2741645",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-09T18:55:00Z"
+        },
+        {
+          "id": 13208,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch.",
+          "info_url": "https://x.com/with_KASA/status/1998321724132086028",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-09T17:01:00Z"
+        }
+      ],
+      "net": "2026-01-31T00:00:00Z",
+      "net_precision": {
+        "id": 7,
+        "name": "Month",
+        "abbrev": "M",
+        "description": "The T-0 is expected in the given month."
+      },
+      "window_end": "2026-01-31T00:00:00Z",
+      "window_start": "2026-01-31T00:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "RL",
+        "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
+        "administrator": "CEO: Peter Beck",
+        "founding_year": "2006",
+        "launchers": "Electron",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 79,
+        "consecutive_successful_launches": 38,
+        "successful_launches": 75,
+        "failed_launches": 4,
+        "pending_launches": 42,
+        "consecutive_successful_landings": 4,
+        "successful_landings": 7,
+        "failed_landings": 2,
+        "attempted_landings": 9,
+        "info_url": "https://rocketlabcorp.com",
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
+      },
+      "rocket": {
+        "id": 8847,
+        "configuration": {
+          "id": 26,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+          "name": "Electron",
+          "active": true,
+          "reusable": false,
+          "description": "Electron is a two-stage orbital expendable launch vehicle (with an optional third stage) developed by the American aerospace company Rocket Lab. Electron is a small-lift launch vehicle designed to launch small satellites and cubesats to sun-synchronous orbit and low earth orbit. The Electron is the first orbital class rocket to use electric-pump-fed engines, powered by the 9 Rutherford engines on the first stage. It is also used as a suborbital testbed (called HASTE) for hypersonics research.",
+          "family": "",
+          "full_name": "Electron",
+          "manufacturer": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+            "name": "Rocket Lab",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "RL",
+            "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
+            "administrator": "CEO: Peter Beck",
+            "founding_year": "2006",
+            "launchers": "Electron",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 79,
+            "consecutive_successful_launches": 38,
+            "successful_launches": 75,
+            "failed_launches": 4,
+            "pending_launches": 42,
+            "consecutive_successful_landings": 4,
+            "successful_landings": 7,
+            "failed_landings": 2,
+            "attempted_landings": 9,
+            "info_url": "https://rocketlabcorp.com",
+            "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
+          },
+          "program": [],
+          "variant": "",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 3,
+          "length": 18,
+          "diameter": 1.2,
+          "maiden_flight": "2017-05-25",
+          "launch_cost": "6000000",
+          "launch_mass": 13,
+          "leo_capacity": 300,
+          "gto_capacity": null,
+          "to_thrust": 162,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+          "info_url": "https://www.rocketlabusa.com/electron/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
+          "total_launch_count": 79,
+          "consecutive_successful_launches": 38,
+          "successful_launches": 75,
+          "failed_launches": 4,
+          "pending_launches": 40,
+          "attempted_landings": 9,
+          "successful_landings": 7,
+          "failed_landings": 2,
+          "consecutive_successful_landings": 4
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7438,
+        "name": "Bridging The Swarm (NeonSat-1A)",
+        "description": "The NeonSat-1A, carrying a high-resolution optical camera, is designed to test the constellation capabilities of the South Korean government's Earth observation micro-satellite constellation NeonSat (New-space Earth Observation Satellite), in particular technology improvements identified from operations of NeonSat-1 after its launch in April 2024. These technologies will in turn be incorporated into the next 10 NeonSat under construction, as well as providing more site re-visiting capabilities along with NeonSat-1.\r\n\r\nThe NeonSat constellation is the first satellite system developed by the government using a mass-production approach for precise monitoring of the Korean Peninsula, lead by the Satellite Technology Research Center (SaTReC) at the Korea Advanced Institute of Science and Technology (KAIST), Korea’s leading university dedicated to science and technology. Designed to capture near-real time natural disaster monitoring for the Korean peninsula, KAIST’s NEONSAT constellation is a collaboration across multiple Korean academic, industry, and research institutions, including SaTReC, which is leading the program’s system design and engineering. \r\n\r\nThe NEONSAT program is funded by the Korean government’s Ministry of Science and ICT (MSIT).",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+          "id": 17,
+          "name": "Sun-Synchronous Orbit",
+          "abbrev": "SSO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 65,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/65/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1A",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
+        "location": {
+          "id": 10,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
+          "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+          "country_code": "NZL",
+          "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+          "timezone_name": "Pacific/Auckland",
+          "total_launch_count": 69,
+          "total_landing_count": 17
+        },
+        "country_code": "NZL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_65_20200803143549.jpg",
+        "total_launch_count": 35,
+        "orbital_launch_attempt_count": 35
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT2M"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT2S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 25,
+            "abbrev": "Supersonic",
+            "description": "Vehicle is supersonic"
+          },
+          "relative_time": "PT56S"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M7S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M37S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M40S"
+        },
+        {
+          "type": {
+            "id": 31,
+            "abbrev": "SES",
+            "description": "Start of the second engine"
+          },
+          "relative_time": "PT2M43S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT3M41S"
+        },
+        {
+          "type": {
+            "id": 72,
+            "abbrev": "Battery Hotswap",
+            "description": "Electron Second stages switches to a new set of batteries and jettisons the depleted ones."
+          },
+          "relative_time": "PT6M35S"
+        },
+        {
+          "type": {
+            "id": 24,
+            "abbrev": "SECO",
+            "description": "Cut-off of the second engine"
+          },
+          "relative_time": "PT9M7S"
+        },
+        {
+          "type": {
+            "id": 30,
+            "abbrev": "Kick Stage Separation",
+            "description": "Separation of the kick stage from the previous stage"
+          },
+          "relative_time": "PT9M11S"
+        },
+        {
+          "type": {
+            "id": 32,
+            "abbrev": "Kick Stage Ignition",
+            "description": "Start of the kick stage engine"
+          },
+          "relative_time": "PT51M13S"
+        },
+        {
+          "type": {
+            "id": 33,
+            "abbrev": "Kick Stage Cut-off",
+            "description": "Cut-off of the kick stage engine"
+          },
+          "relative_time": "PT53M8S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT53M58S"
+        }
+      ],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_on_the_image_20251215193751.jpg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7199,
+      "location_launch_attempt_count": 70,
+      "pad_launch_attempt_count": 36,
+      "agency_launch_attempt_count": 80,
+      "orbital_launch_attempt_count_year": 26,
+      "location_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 1,
+      "pad_turnaround": "P71DT11H17M",
+      "mission_patches": [
+        {
+          "id": 1242,
+          "name": "Bridging The Swarm Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/bridging2520th_mission_patch_20251210004831.png",
+          "agency": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+            "name": "Rocket Lab",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     }
   ]
