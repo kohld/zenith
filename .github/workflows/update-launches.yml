@@ -2,7 +2,7 @@ name: Update Upcoming Launches
 
 on:
   schedule:
-    - cron: '0 */1 * * *' # Run every hour
+    - cron: '*/30 * * * *' # Run every 30 minutes
   workflow_dispatch: # Allow manual trigger
 
 jobs:

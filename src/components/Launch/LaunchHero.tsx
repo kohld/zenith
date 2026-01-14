@@ -200,12 +200,17 @@ export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
                     {activeModal === 'location' && nextLaunch.pad && (
                         <LocationDetailModal
                             pad={nextLaunch.pad}
+                            weather={{
+                                probability: nextLaunch.probability,
+                                concerns: nextLaunch.weather_concerns
+                            }}
                             onClose={() => setActiveModal(null)}
                         />
                     )}
                     {activeModal === 'mission' && nextLaunch.mission && (
                         <MissionDetailModal
                             mission={nextLaunch.mission}
+                            updates={nextLaunch.updates}
                             timeline={nextLaunch.timeline}
                             onClose={() => setActiveModal(null)}
                         />

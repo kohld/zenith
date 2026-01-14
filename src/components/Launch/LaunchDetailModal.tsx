@@ -169,6 +169,8 @@ export const LaunchDetailModal = ({ launch, onClose }: LaunchDetailModalProps) =
                             </a>
                         </div>
                     )}
+
+
                 </div>
 
                 {/* Modals Layer */}
@@ -187,12 +189,17 @@ export const LaunchDetailModal = ({ launch, onClose }: LaunchDetailModalProps) =
                 {activeModal === 'location' && launch.pad && (
                     <LocationDetailModal
                         pad={launch.pad}
+                        weather={{
+                            probability: launch.probability,
+                            concerns: launch.weather_concerns
+                        }}
                         onClose={() => setActiveModal(null)}
                     />
                 )}
                 {activeModal === 'mission' && launch.mission && (
                     <MissionDetailModal
                         mission={launch.mission}
+                        updates={launch.updates}
                         timeline={launch.timeline}
                         onClose={() => setActiveModal(null)}
                     />

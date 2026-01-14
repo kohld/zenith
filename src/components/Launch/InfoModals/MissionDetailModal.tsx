@@ -1,9 +1,9 @@
-
-import { useEffect } from 'react';
-import { Mission, TimelineNode } from '../../../lib/definitions';
+import { useEffect, useState } from 'react';
+import { Mission, Update, TimelineNode } from '../../../lib/definitions';
 
 interface MissionDetailModalProps {
-    mission: Mission | null;
+    mission: Mission;
+    updates?: Update[];
     timeline?: TimelineNode[];
     onClose: () => void;
 }
@@ -22,7 +22,16 @@ const formatDuration = (duration: string) => {
     return `T+${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
 };
 
-export const MissionDetailModal = ({ mission, timeline, onClose }: MissionDetailModalProps) => {
+export const MissionDetailModal = ({ mission, updates, timeline, onClose }: MissionDetailModalProps) => {
+    const hasUpdates = updates && updates.length > 0;
+    const hasTimeline = timeline && timeline.length > 0;
+
+    // Default to Live Feed if available, otherwise Plan
+    const [activeTab, setActiveTab] = useState<'live' | 'plan'>(() => {
+        if (hasUpdates) return 'live';
+        return 'plan';
+    });
+
     // Handle ESC key to close
     useEffect(() => {
         const handleEsc = (e: KeyboardEvent) => {
@@ -102,13 +111,102 @@ export const MissionDetailModal = ({ mission, timeline, onClose }: MissionDetail
                         </p>
                     </div>
 
-                    {/* Timeline Section */}
-                    {timeline && timeline.length > 0 && (
-                        <div className="space-y-4 pt-4 border-t border-white/10">
-                            <div className="flex items-center gap-3 pb-2">
-                                <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest">Flight Timeline</h3>
+                    {/* Dynamic Content Area */}
+                    <div className="pt-4 border-t border-white/10">
+                        {/* Title Row & Toggle Switch */}
+                        <div className="flex items-center justify-between pb-6">
+                            <div className="flex items-center gap-3">
+                                {activeTab === 'live' ? (
+                                    <>
+                                        <span className="relative flex h-3 w-3">
+                                            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                                            <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+                                        </span>
+                                        <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest">Mission Updates</h3>
+                                    </>
+                                ) : (
+                                    <>
+                                        <div className="w-2.5 h-2.5 rounded-full bg-blue-500"></div>
+                                        <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest">Planned Timeline</h3>
+                                    </>
+                                )}
                             </div>
 
+                            {/* Toggle Switch */}
+                            {(hasUpdates && hasTimeline) && (
+                                <div className="flex bg-white/5 rounded-lg p-1 border border-white/5">
+                                    {hasUpdates && (
+                                        <button
+                                            onClick={() => setActiveTab('live')}
+                                            className={`px-3 py-1.5 rounded-md text-xs font-bold uppercase tracking-wider transition-all ${activeTab === 'live'
+                                                ? 'bg-emerald-500 text-white shadow-lg'
+                                                : 'text-slate-400 hover:text-white hover:bg-white/5'
+                                                }`}
+                                        >
+                                            Live
+                                        </button>
+                                    )}
+                                    {hasTimeline && (
+                                        <button
+                                            onClick={() => setActiveTab('plan')}
+                                            className={`px-3 py-1.5 rounded-md text-xs font-bold uppercase tracking-wider transition-all ${activeTab === 'plan'
+                                                ? 'bg-blue-600 text-white shadow-lg'
+                                                : 'text-slate-400 hover:text-white hover:bg-white/5'
+                                                }`}
+                                        >
+                                            Plan
+                                        </button>
+                                    )}
+                                </div>
+                            )}
+                        </div>
+
+                        {/* LIVE CONTENT */}
+                        {activeTab === 'live' && updates && (
+                            <div className="relative pl-4 ml-2 space-y-6 before:absolute before:left-0 before:top-2 before:bottom-2 before:w-px before:bg-slate-700">
+                                {updates.map((update) => (
+                                    <div key={update.id} className="relative pl-6">
+                                        {/* Dot */}
+                                        <div className="absolute -left-[5px] top-1 w-2.5 h-2.5 rounded-full bg-slate-900 border-2 border-emerald-500"></div>
+
+                                        <div className="flex flex-col gap-2">
+                                            <div className="flex items-center gap-2 text-xs text-slate-500 font-mono">
+                                                <span>{new Date(update.created_on).toLocaleString()}</span>
+                                                {update.created_by && <span>• by {update.created_by}</span>}
+                                            </div>
+
+                                            <div className="bg-white/5 p-4 rounded-lg border border-white/5">
+                                                <div className="flex gap-4">
+                                                    {update.profile_image && (
+                                                        <img
+                                                            src={update.profile_image}
+                                                            alt={update.created_by}
+                                                            className="w-10 h-10 rounded-full object-cover border border-white/10"
+                                                        />
+                                                    )}
+                                                    <div className="text-sm text-slate-300 leading-relaxed">
+                                                        {update.comment}
+                                                    </div>
+                                                </div>
+                                                {update.info_url && (
+                                                    <a
+                                                        href={update.info_url}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="inline-block mt-2 text-xs text-blue-400 hover:text-blue-300 transition-colors"
+                                                    >
+                                                        Source ↗
+                                                    </a>
+                                                )}
+                                            </div>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        )}
+
+                        {/* PLAN CONTENT */}
+                        {activeTab === 'plan' && timeline && (
                             <div className="relative pl-4 ml-2 space-y-6 before:absolute before:left-0 before:top-2 before:bottom-2 before:w-px before:bg-slate-700">
                                 {timeline.map((event, i) => (
                                     <div key={i} className="relative pl-6">
@@ -127,8 +225,8 @@ export const MissionDetailModal = ({ mission, timeline, onClose }: MissionDetail
                                     </div>
                                 ))}
                             </div>
-                        </div>
-                    )}
+                        )}
+                    </div>
                 </div>
             </div>
         </div>

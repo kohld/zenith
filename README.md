@@ -136,5 +136,5 @@ The project includes custom scripts and workflows to bridge external data source
 
 ### 3. Launch Library 2 (The Space Devs)
 - **Source**: `scripts/fetch-launches.ts` queries the **Launch Library 2** API for upcoming orbital launches.
-- **Schedule**: Updates every hour via `update-launches.yml`.
+- **Schedule**: Updates every 30 minutes via `update-launches.yml`.
 - **Output**: `public/data/launches.json`.

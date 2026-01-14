@@ -5,10 +5,14 @@ import { LaunchMap } from '../LaunchMap';
 
 interface LocationDetailModalProps {
     pad: Pad;
+    weather?: {
+        probability: number | null;
+        concerns: string | null;
+    };
     onClose: () => void;
 }
 
-export const LocationDetailModal = ({ pad, onClose }: LocationDetailModalProps) => {
+export const LocationDetailModal = ({ pad, weather, onClose }: LocationDetailModalProps) => {
     // Handle ESC key to close
     useEffect(() => {
         const handleEsc = (e: KeyboardEvent) => {
@@ -17,6 +21,14 @@ export const LocationDetailModal = ({ pad, onClose }: LocationDetailModalProps) 
         window.addEventListener('keydown', handleEsc);
         return () => window.removeEventListener('keydown', handleEsc);
     }, [onClose]);
+
+    // Donut Chart Helper
+    const probability = weather?.probability ?? null;
+    const probabilityColor = probability
+        ? probability >= 80 ? 'text-emerald-500'
+            : probability >= 50 ? 'text-amber-500'
+                : 'text-red-500'
+        : 'text-slate-500';
 
     return (
         <div className="fixed inset-0 z-[60] flex items-center justify-center p-4">
@@ -31,6 +43,7 @@ export const LocationDetailModal = ({ pad, onClose }: LocationDetailModalProps) 
 
                 {/* Header */}
                 <div className="relative p-6 border-b border-white/5 bg-gradient-to-r from-slate-800/50 to-slate-900/0">
+                    {/* ... header content ... */}
                     <button
                         onClick={onClose}
                         className="absolute top-4 right-4 p-2 rounded-full hover:bg-white/10 text-slate-400 hover:text-white transition-colors"
@@ -64,6 +77,53 @@ export const LocationDetailModal = ({ pad, onClose }: LocationDetailModalProps) 
 
                 {/* Body */}
                 <div className="p-6 overflow-y-auto custom-scrollbar">
+
+                    {/* Launch Conditions Widget */}
+                    {(probability !== null || weather?.concerns) && (
+                        <div className="mb-6 bg-white/5 border border-white/5 rounded-xl p-4 flex flex-col sm:flex-row items-center gap-6">
+
+                            {/* Probability Donut */}
+                            {probability !== null && (
+                                <div className="flex items-center gap-4">
+                                    <div className="relative w-16 h-16 flex items-center justify-center">
+                                        <svg className="w-full h-full transform -rotate-90">
+                                            <circle cx="32" cy="32" r="28" stroke="currentColor" strokeWidth="4" fill="transparent" className="text-slate-700" />
+                                            <circle cx="32" cy="32" r="28" stroke="currentColor" strokeWidth="4" fill="transparent"
+                                                className={probabilityColor}
+                                                strokeDasharray={`${probability * 1.75} 175`}
+                                                strokeLinecap="round"
+                                            />
+                                        </svg>
+                                        <div className="absolute inset-0 flex items-center justify-center font-bold text-sm text-white">
+                                            {probability}%
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className="text-xs text-slate-500 uppercase tracking-wider font-bold">Probability</div>
+                                        <div className={`text-lg font-bold ${probabilityColor}`}>
+                                            {probability >= 90 ? 'GO' : probability >= 50 ? 'Likely' : 'Concerning'}
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+
+                            {/* Separator */}
+                            {probability !== null && weather?.concerns && (
+                                <div className="hidden sm:block w-px h-10 bg-white/10"></div>
+                            )}
+
+                            {/* Weather Concerns */}
+                            {weather?.concerns && (
+                                <div className="flex-1 text-center sm:text-left">
+                                    <div className="text-xs text-slate-500 uppercase tracking-wider font-bold mb-1">Weather Concerns</div>
+                                    <div className="text-slate-300 text-sm italic">
+                                        "{weather.concerns}"
+                                    </div>
+                                </div>
+                            )}
+                        </div>
+                    )}
+
                     {/* Location Description */}
                     {pad.location.description && (
                         <div className="mb-6">

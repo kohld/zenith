@@ -345,6 +345,7 @@ export interface Launch {
     window_end: string;
     window_start: string;
     probability: number | null;
+    weather_concerns: string | null;
     holdreason: string | null;
     failreason: string | null;
     hashtag: string | null;
@@ -368,6 +369,16 @@ export interface Launch {
     vid_urls?: VidURL[]; // Correct field name may vary, mapping to consistent interface
     mission_patches?: MissionPatch[];
     timeline?: TimelineNode[];
+    updates?: Update[];
+}
+
+export interface Update {
+    id: number;
+    profile_image: string | null;
+    comment: string;
+    info_url: string | null;
+    created_by: string;
+    created_on: string;
 }
 
 export interface TimelineNode {
