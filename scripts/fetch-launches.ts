@@ -4,7 +4,7 @@ import { writeFile } from 'fs/promises';
 import { resolve } from 'path';
 
 // Space Devs API Endpoint
-const API_URL = "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=15";
+const API_URL = "https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=15&mode=detailed";
 const OUT_FILE = resolve(process.cwd(), 'public/data/launches.json');
 
 async function fetchLaunches() {
