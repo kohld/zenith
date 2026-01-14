@@ -52,6 +52,8 @@ jobs:
             echo "No changes in TLE data."
           else
             git add public/data/tles.txt
-            git commit -m "[AUTO] Update TLE satellite data"
+            git commit -m "[CHORE] Update TLE satellite data
+            - Sync with CelesTrak API
+            - Automated update via GitHub Action"
             git push
           fi

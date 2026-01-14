@@ -36,6 +36,8 @@ jobs:
             echo "No changes in Deep Space spacecraft data."
           else
             git add public/data/spacecraft.json
-            git commit -m "[AUTO] Update Deep Space spacecraft data"
+            git commit -m "[CHORE] Update Deep Space spacecraft data
+            - Sync with Deep Space Network API
+            - Automated update via GitHub Action"
             git push
           fi
