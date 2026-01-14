@@ -80,7 +80,7 @@ export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold group-hover:text-emerald-400 transition-colors">Type</div>
+                                        <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold group-hover:text-emerald-400 transition-colors">Mission</div>
                                         <div className="text-lg text-slate-200 font-medium">{nextLaunch.mission.type}</div>
                                     </div>
                                 </div>

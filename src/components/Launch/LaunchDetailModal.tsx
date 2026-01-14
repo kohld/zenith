@@ -79,7 +79,7 @@ export const LaunchDetailModal = ({ launch, onClose }: LaunchDetailModalProps) =
                                     </svg>
                                 </div>
                                 <div className="min-w-0">
-                                    <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold group-hover:text-emerald-400 transition-colors">Type</div>
+                                    <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold group-hover:text-emerald-400 transition-colors">Mission</div>
                                     <div className="text-white font-medium truncate">{launch.mission.type}</div>
                                 </div>
                             </div>
