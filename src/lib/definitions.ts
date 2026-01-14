@@ -367,6 +367,16 @@ export interface Launch {
     vidURLs: VidURL[]; // Deprecated field but often present
     vid_urls?: VidURL[]; // Correct field name may vary, mapping to consistent interface
     mission_patches?: MissionPatch[];
+    timeline?: TimelineNode[];
+}
+
+export interface TimelineNode {
+    type: {
+        id: number;
+        abbrev: string;
+        description: string;
+    };
+    relative_time: string; // ISO 8601 duration e.g. "PT1M12S"
 }
 
 /**

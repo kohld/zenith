@@ -6,6 +6,7 @@ import { MissionPatch } from './MissionPatch';
 import { RocketDetailModal } from './InfoModals/RocketDetailModal';
 import { ProviderDetailModal } from './InfoModals/ProviderDetailModal';
 import { LocationDetailModal } from './InfoModals/LocationDetailModal';
+import { MissionDetailModal } from './InfoModals/MissionDetailModal';
 
 interface LaunchHeroProps {
     nextLaunch: Launch | null;
@@ -13,7 +14,7 @@ interface LaunchHeroProps {
 }
 
 export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
-    const [activeModal, setActiveModal] = useState<'rocket' | 'provider' | 'location' | null>(null);
+    const [activeModal, setActiveModal] = useState<'rocket' | 'provider' | 'location' | 'mission' | null>(null);
     const allVideos = [...(nextLaunch?.vidURLs || []), ...(nextLaunch?.vid_urls || [])];
     const bestVideo = allVideos.sort((a, b) => b.priority - a.priority)[0];
     const streamUrl = bestVideo?.url;
@@ -69,14 +70,17 @@ export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
                         {/* Left Side: Info Boxes Group */}
                         <div className="flex-grow flex flex-col justify-between gap-4">
                             {nextLaunch.mission?.type && (
-                                <div className="flex items-center gap-3 px-4 py-2 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm w-fit">
-                                    <div className="p-2 bg-emerald-500/10 rounded-md text-emerald-400">
+                                <div
+                                    onClick={() => setActiveModal('mission')}
+                                    className="flex items-center gap-3 px-4 py-2 rounded-lg bg-white/5 border border-white/10 backdrop-blur-sm w-fit cursor-pointer hover:bg-white/10 hover:border-emerald-500/30 transition-all select-none group"
+                                >
+                                    <div className="p-2 bg-emerald-500/10 rounded-md text-emerald-400 group-hover:scale-110 transition-transform">
                                         <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
                                         </svg>
                                     </div>
                                     <div>
-                                        <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold">Type</div>
+                                        <div className="text-[10px] uppercase tracking-wider text-slate-500 font-bold group-hover:text-emerald-400 transition-colors">Type</div>
                                         <div className="text-lg text-slate-200 font-medium">{nextLaunch.mission.type}</div>
                                     </div>
                                 </div>
@@ -196,6 +200,13 @@ export const LaunchHero = ({ nextLaunch, timeLeft }: LaunchHeroProps) => {
                     {activeModal === 'location' && nextLaunch.pad && (
                         <LocationDetailModal
                             pad={nextLaunch.pad}
+                            onClose={() => setActiveModal(null)}
+                        />
+                    )}
+                    {activeModal === 'mission' && nextLaunch.mission && (
+                        <MissionDetailModal
+                            mission={nextLaunch.mission}
+                            timeline={nextLaunch.timeline}
                             onClose={() => setActiveModal(null)}
                         />
                     )}
