@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-15T21:37:12.758Z",
+  "updatedAt": "2026-01-15T22:05:47.980Z",
   "launches": [
     {
       "id": "8f17cfbf-7860-4ce8-acd0-75b35d57c81f",
@@ -150,7 +150,7 @@
       "mission": {
         "id": 7479,
         "name": "AlSat 3A",
-        "description": "Chinese built Earth observation satellite for the Algerian National Space Technology Centre (CNTS).",
+        "description": "Earth observation satellite built by China's CAST for the Algerian Space Agency.",
         "launch_designator": null,
         "type": "Earth Science",
         "orbit": {
@@ -229,7 +229,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-01-15T20:54:27Z",
+      "last_updated": "2026-01-15T22:02:57Z",
       "updates": [
         {
           "id": 13661,
@@ -1948,8 +1948,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-01-18T04:53:00Z",
-          "end_time": "2026-01-18T05:53:00Z"
+          "start_time": "2026-01-18T21:56:00Z",
+          "end_time": "2026-01-18T23:30:00Z"
         }
       ],
       "webcast_live": false,
@@ -2330,6 +2330,226 @@
       "agency_launch_attempt_count_year": 5,
       "pad_turnaround": "P38DT8H48M",
       "mission_patches": [],
+      "type": "detailed"
+    },
+    {
+      "id": "50a682c6-1da0-4859-a163-4182c7619178",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/50a682c6-1da0-4859-a163-4182c7619178/",
+      "slug": "electron-the-cosmos-will-see-you-now-open-cosmos-c",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Electron | The Cosmos Will See You Now (Open Cosmos Constellation Launch 1)",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-01-15T21:38:32Z",
+      "updates": [
+        {
+          "id": 13662,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://x.com/RocketLab/status/2011913794877079770",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-15T21:38:00Z"
+        },
+        {
+          "id": 13636,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch.",
+          "info_url": "https://www.open-cosmos.com/news/liechtensteins-spectrum-award-to-open-cosmos-propels-europe-in-the-space-telecommunications-infrastructure-race",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-14T16:22:00Z"
+        }
+      ],
+      "net": "2026-01-20T11:09:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "window_end": "2026-01-20T11:09:00Z",
+      "window_start": "2026-01-20T11:09:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "RL",
+        "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
+        "administrator": "CEO: Peter Beck",
+        "founding_year": "2006",
+        "launchers": "Electron",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 79,
+        "consecutive_successful_launches": 38,
+        "successful_launches": 75,
+        "failed_launches": 4,
+        "pending_launches": 43,
+        "consecutive_successful_landings": 4,
+        "successful_landings": 7,
+        "failed_landings": 2,
+        "attempted_landings": 9,
+        "info_url": "https://rocketlabcorp.com",
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
+      },
+      "rocket": {
+        "id": 8890,
+        "configuration": {
+          "id": 26,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+          "name": "Electron",
+          "active": true,
+          "reusable": false,
+          "description": "Electron is a two-stage orbital expendable launch vehicle (with an optional third stage) developed by the American aerospace company Rocket Lab. Electron is a small-lift launch vehicle designed to launch small satellites and cubesats to sun-synchronous orbit and low earth orbit. The Electron is the first orbital class rocket to use electric-pump-fed engines, powered by the 9 Rutherford engines on the first stage. It is also used as a suborbital testbed (called HASTE) for hypersonics research.",
+          "family": "",
+          "full_name": "Electron",
+          "manufacturer": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+            "name": "Rocket Lab",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "RL",
+            "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
+            "administrator": "CEO: Peter Beck",
+            "founding_year": "2006",
+            "launchers": "Electron",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 79,
+            "consecutive_successful_launches": 38,
+            "successful_launches": 75,
+            "failed_launches": 4,
+            "pending_launches": 43,
+            "consecutive_successful_landings": 4,
+            "successful_landings": 7,
+            "failed_landings": 2,
+            "attempted_landings": 9,
+            "info_url": "https://rocketlabcorp.com",
+            "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
+          },
+          "program": [],
+          "variant": "",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 3,
+          "length": 18,
+          "diameter": 1.2,
+          "maiden_flight": "2017-05-25",
+          "launch_cost": "6000000",
+          "launch_mass": 13,
+          "leo_capacity": 300,
+          "gto_capacity": null,
+          "to_thrust": 162,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+          "info_url": "https://www.rocketlabusa.com/electron/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
+          "total_launch_count": 79,
+          "consecutive_successful_launches": 38,
+          "successful_launches": 75,
+          "failed_launches": 4,
+          "pending_launches": 41,
+          "attempted_landings": 9,
+          "successful_landings": 7,
+          "failed_landings": 2,
+          "consecutive_successful_landings": 4
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7481,
+        "name": "The Cosmos Will See You Now (Open Cosmos Constellation Launch 1)",
+        "description": "First 2 satellites of UK-based Open Cosmos' secure LEO broadband constellation designed to provide independent and resilient connectivity infrastructure for Europe and the world, using high-priority Ka-band spectrum filings by the Principality of Liechtenstein.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 13,
+          "name": "Polar Orbit",
+          "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 210,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/210/",
+        "agency_id": null,
+        "name": "Unknown Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": null,
+        "latitude": "-39.260881",
+        "longitude": "177.865826",
+        "location": {
+          "id": 10,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
+          "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+          "country_code": "NZL",
+          "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+          "timezone_name": "Pacific/Auckland",
+          "total_launch_count": 69,
+          "total_landing_count": 17
+        },
+        "country_code": "NZL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_210_20230819165718.jpg",
+        "total_launch_count": 0,
+        "orbital_launch_attempt_count": 0
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7190,
+      "location_launch_attempt_count": 70,
+      "pad_launch_attempt_count": 1,
+      "agency_launch_attempt_count": 80,
+      "orbital_launch_attempt_count_year": 17,
+      "location_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 1,
+      "pad_turnaround": "P0D",
+      "mission_patches": [
+        {
+          "id": 1296,
+          "name": "F80-Open-Cosmos-Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/f80-open-cosmos_mission_patch_20260115213805.png",
+          "agency": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+            "name": "Rocket Lab",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
@@ -4847,325 +5067,6 @@
           }
         }
       ],
-      "type": "detailed"
-    },
-    {
-      "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/53769468-bfd3-45c7-a52b-46a68ed7510f/",
-      "slug": "falcon-9-block-5-bluebird-block-2-2",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | BlueBird Block 2 #2",
-      "status": {
-        "id": 2,
-        "name": "To Be Determined",
-        "abbrev": "TBD",
-        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
-      },
-      "last_updated": "2025-12-22T00:43:35Z",
-      "updates": [
-        {
-          "id": 13432,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET January.",
-          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-12-22T00:43:00Z"
-        },
-        {
-          "id": 13142,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET Q1 2026.",
-          "info_url": "https://www.businesswire.com/news/home/20251121182027/en/AST-SpaceMobile-Announces-BlueBird-6-Launch-Date-the-Largest-Commercial-Communications-Array-Ever-Deployed-in-Low-Earth-Orbit",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-12-04T22:20:00Z"
-        },
-        {
-          "id": 9202,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch.",
-          "info_url": "https://spacenews.com/ast-spacemobile-leans-on-blue-origin-to-ramp-up-satellite-launches/",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2024-11-15T07:22:00Z"
-        }
-      ],
-      "net": "2026-01-31T00:00:00Z",
-      "net_precision": {
-        "id": 7,
-        "name": "Month",
-        "abbrev": "M",
-        "description": "The T-0 is expected in the given month."
-      },
-      "window_end": "2026-01-31T00:00:00Z",
-      "window_start": "2026-01-31T00:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 121,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-        "name": "SpaceX",
-        "featured": true,
-        "type": "Commercial",
-        "country_code": "USA",
-        "abbrev": "SpX",
-        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-        "administrator": "CEO: Elon Musk",
-        "founding_year": "2002",
-        "launchers": "Falcon | Starship",
-        "spacecraft": "Dragon",
-        "launch_library_url": null,
-        "total_launch_count": 625,
-        "consecutive_successful_launches": 110,
-        "successful_launches": 610,
-        "failed_launches": 15,
-        "pending_launches": 123,
-        "consecutive_successful_landings": 109,
-        "successful_landings": 570,
-        "failed_landings": 27,
-        "attempted_landings": 596,
-        "info_url": "https://www.spacex.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
-      },
-      "rocket": {
-        "id": 8408,
-        "configuration": {
-          "id": 164,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
-          "name": "Falcon 9",
-          "active": true,
-          "reusable": true,
-          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
-          "family": "Falcon",
-          "full_name": "Falcon 9 Block 5",
-          "manufacturer": {
-            "id": 121,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-            "name": "SpaceX",
-            "featured": true,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "SpX",
-            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-            "administrator": "CEO: Elon Musk",
-            "founding_year": "2002",
-            "launchers": "Falcon | Starship",
-            "spacecraft": "Dragon",
-            "launch_library_url": null,
-            "total_launch_count": 625,
-            "consecutive_successful_launches": 110,
-            "successful_launches": 610,
-            "failed_launches": 15,
-            "pending_launches": 123,
-            "consecutive_successful_landings": 109,
-            "successful_landings": 570,
-            "failed_landings": 27,
-            "attempted_landings": 596,
-            "info_url": "https://www.spacex.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
-          },
-          "program": [
-            {
-              "id": 5,
-              "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
-              "name": "Commercial Crew Program",
-              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
-              "agencies": [
-                {
-                  "id": 80,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
-                  "name": "Boeing",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                {
-                  "id": 121,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-                  "name": "SpaceX",
-                  "type": "Commercial"
-                }
-              ],
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
-              "start_date": "2011-04-18T00:00:00Z",
-              "end_date": null,
-              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
-              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": [],
-              "type": {
-                "id": 2,
-                "name": "Human Spaceflight"
-              }
-            },
-            {
-              "id": 11,
-              "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
-              "name": "Commercial Resupply Services",
-              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
-              "agencies": [
-                {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                {
-                  "id": 257,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
-                  "name": "Northrop Grumman Space Systems",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 1020,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
-                  "name": "Sierra Nevada Corporation",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 121,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-                  "name": "SpaceX",
-                  "type": "Commercial"
-                }
-              ],
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
-              "start_date": "2008-12-23T00:00:00Z",
-              "end_date": null,
-              "info_url": null,
-              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": [],
-              "type": {
-                "id": 2,
-                "name": "Human Spaceflight"
-              }
-            }
-          ],
-          "variant": "Block 5",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 2,
-          "length": 70,
-          "diameter": 3.65,
-          "maiden_flight": "2018-05-11",
-          "launch_cost": "52000000",
-          "launch_mass": 549,
-          "leo_capacity": 22800,
-          "gto_capacity": 8300,
-          "to_thrust": 7607,
-          "apogee": 200,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
-          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-          "total_launch_count": 532,
-          "consecutive_successful_launches": 234,
-          "successful_launches": 531,
-          "failed_launches": 1,
-          "pending_launches": 104,
-          "attempted_landings": 523,
-          "successful_landings": 518,
-          "failed_landings": 5,
-          "consecutive_successful_landings": 218
-        },
-        "launcher_stage": [
-          {
-            "id": 617,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": null,
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          }
-        ],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 6996,
-        "name": "BlueBird Block 2 #2",
-        "description": "AST SpaceMobile’s Block 2 BlueBird satellites are designed to deliver up to 10 times the bandwidth capacity of the BlueBird Block 1 satellites, required to achieve 24/7 continuous cellular broadband service coverage in the United States, with beams designed to support a capacity of up to 40 MHz, enabling peak data transmission speeds up to 120 Mbps, supporting voice, full data and video applications. The Block 2 BlueBirds, featuring as large as 2400 square foot communications arrays, will be the largest satellites ever commercially deployed in Low Earth orbit once launched.\r\n\r\nThis launch will feature 4 satellites.",
-        "launch_designator": null,
-        "type": "Communications",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 80,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
-        "agency_id": 121,
-        "name": "Space Launch Complex 40",
-        "description": "",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
-        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
-        "latitude": "28.56194122",
-        "longitude": "-80.57735736",
-        "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
-          "name": "Cape Canaveral SFS, FL, USA",
-          "country_code": "USA",
-          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 1080,
-          "total_landing_count": 70
-        },
-        "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
-        "total_launch_count": 358,
-        "orbital_launch_attempt_count": 358
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240919072420.jpg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7199,
-      "location_launch_attempt_count": 1083,
-      "pad_launch_attempt_count": 361,
-      "agency_launch_attempt_count": 631,
-      "orbital_launch_attempt_count_year": 26,
-      "location_launch_attempt_count_year": 7,
-      "pad_launch_attempt_count_year": 7,
-      "agency_launch_attempt_count_year": 12,
-      "pad_turnaround": "P12DT1H56M",
-      "mission_patches": [],
       "type": "detailed"
     }
   ]
