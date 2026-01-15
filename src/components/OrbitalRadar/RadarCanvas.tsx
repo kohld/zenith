@@ -96,7 +96,7 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
 
             const cx = width / 2;
             const cy = height / 2;
-            const radius = Math.min(cx, cy) - 35;
+            const radius = Math.min(cx, cy) - 65; // Increased from 50 to 65 for more label spacing
 
             // Update Sweep Angle (based on time)
             // 0.8 rad/s -> ~7.8s per rotation (Smoother, easier to read)
@@ -156,8 +156,8 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
 
                 // Cardinal Labels
                 if (isCardinal) {
-                    const lx = cx + (radius + 15) * Math.cos(angle);
-                    const ly = cy + (radius + 15) * Math.sin(angle);
+                    const lx = cx + (radius + 22) * Math.cos(angle); // Increased from 15 to 22
+                    const ly = cy + (radius + 22) * Math.sin(angle);
                     ctx.fillStyle = 'rgba(34, 211, 238, 0.8)'; // Cyan-400
                     ctx.font = 'bold 10px Inter';
                     ctx.textAlign = 'center';

@@ -280,7 +280,7 @@ export const OrbitalRadar = () => {
             </div>
 
             {/* Main Radar Container */}
-            <div className="relative w-full max-w-[1200px] aspect-square md:aspect-[16/9] bg-slate-900 border border-slate-700/50 rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/5">
+            <div className="relative w-full max-w-[1200px] aspect-square md:aspect-[16/9] bg-slate-900 border border-slate-700/50 rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/5 p-8">
 
                 {/* 1. Header Bar (Glass Overlay) */}
                 <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-900/90 to-transparent z-20 flex items-start justify-between p-4 pointer-events-none">
