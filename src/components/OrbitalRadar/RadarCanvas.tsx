@@ -1,15 +1,20 @@
 import { useRef, useEffect } from 'react';
-import { VisualObject } from '../../lib/definitions';
+import { VisualObject, ObserverLocation, Star, ConstellationLine } from '../../lib/definitions';
 import { projectAzElToCartesian } from '../../utils/projection';
+import { raDecToAltAz } from '../../utils/astro';
 
 interface RadarCanvasProps {
     objects: VisualObject[];
     onSelect?: (id: string | null) => void;
     selectedSatId?: string | null;
     orbitPath?: { azimuth: number; elevation: number }[];
+    location?: ObserverLocation | null;
+    stars?: Star[];
+    constellations?: ConstellationLine[];
+    skyView?: boolean;
 }
 
-export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: RadarCanvasProps) => {
+export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath, location, stars = [], constellations = [], skyView = false }: RadarCanvasProps) => {
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const sweepRef = useRef(0); // Current angle of the radar sweep
 
@@ -18,23 +23,23 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
     const selectedSatIdRef = useRef(selectedSatId);
     const orbitPathRef = useRef(orbitPath);
     const onSelectRef = useRef(onSelect);
+    const locationRef = useRef(location);
+    const starsRef = useRef(stars);
+    const constellationsRef = useRef(constellations);
+    const skyViewRef = useRef(skyView);
 
     // Update refs when props change
     useEffect(() => {
         objectsRef.current = objects;
-    }, [objects]);
-
-    useEffect(() => {
         selectedSatIdRef.current = selectedSatId;
-    }, [selectedSatId]);
-
-    useEffect(() => {
         orbitPathRef.current = orbitPath;
-    }, [orbitPath]);
-
-    useEffect(() => {
         onSelectRef.current = onSelect;
-    }, [onSelect]);
+        locationRef.current = location;
+        starsRef.current = stars;
+        constellationsRef.current = constellations;
+        skyViewRef.current = skyView;
+    }, [objects, selectedSatId, orbitPath, onSelect, location, stars, constellations, skyView]);
+
 
     useEffect(() => {
         const canvas = canvasRef.current;
@@ -54,8 +59,21 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
         let lastMouseX = 0;
         let lastMouseY = 0;
 
+        // Star data cache (Calculated periodically)
+        let starAzEls: { azimuth: number; elevation: number; mag: number; name: string }[] = [];
+        let constellationLinesAzEls: { points: { azimuth: number; elevation: number }[] }[] = [];
+        let lastAstroUpdate = 0;
+        let lastLat = 0;
+        let lastLng = 0;
+        let lastSkyView = skyViewRef.current;
+
         // Sweep pulse tracking: Map<satId, timestamp when sweep touched it>
         const sweepPulses = new Map<string, number>();
+
+        // Trail history tracking: Map<satId, {x, y}[]>
+        const trailHistory = new Map<string, { x: number; y: number }[]>();
+        const MAX_TRAIL_LENGTH = isMobile ? 12 : 20;
+        let lastTrailUpdate = 0;
 
         const handleMouseMove = (e: MouseEvent) => {
             const rect = canvas.getBoundingClientRect();
@@ -90,7 +108,7 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
             let touchedId: string | null = null;
             currentObjects.forEach(sat => {
                 if (sat.position.elevation < 0) return;
-                const { x, y } = projectAzElToCartesian(sat.position.azimuth, sat.position.elevation, cx, cy, radius);
+                const { x, y } = projectAzElToCartesian(sat.position.azimuth, sat.position.elevation, cx, cy, radius, skyViewRef.current);
                 const dist = Math.hypot(x - lastMouseX, y - lastMouseY);
                 if (dist < touchTargetRadius) {
                     touchedId = sat.id;
@@ -134,8 +152,13 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
             const cy = height / 2;
             const radius = Math.min(cx, cy) - 65; // Increased from 50 to 65 for more label spacing
 
+            // Clear trails if projection mode changed (avoids "stretching" effect)
+            if (lastSkyView !== skyViewRef.current) {
+                lastSkyView = skyViewRef.current;
+                trailHistory.clear();
+            }
+
             // Update Sweep Angle (based on time)
-            // 0.8 rad/s -> ~7.8s per rotation (Smoother, easier to read)
             sweepRef.current = (sweepRef.current + 0.8 * dt) % (Math.PI * 2);
 
             // Clear
@@ -149,52 +172,163 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
             ctx.fillStyle = 'rgba(15, 23, 42, 0.6)'; // Dark Slate
             ctx.fill();
 
-            // Glowing Outer Ring
+            // --- 0. BACKGROUND STARS & CONSTELLATIONS ---
+            const observer = locationRef.current;
+            if (observer) {
+                const locationChanged = observer.lat !== lastLat || observer.lng !== lastLng;
+                const starsAvailable = starsRef.current.length > 0;
+                const needsAstroUpdate = time - lastAstroUpdate > 30000 || (starAzEls.length === 0 && starsAvailable) || locationChanged;
+
+                if (needsAstroUpdate && starsAvailable) {
+                    lastAstroUpdate = time;
+                    lastLat = observer.lat;
+                    lastLng = observer.lng;
+                    const now = new Date();
+
+                    starAzEls = starsRef.current.map(star => {
+                        const coords = raDecToAltAz(star.ra, star.dec, observer.lat, observer.lng, now);
+                        return { ...coords, mag: star.mag, name: star.name };
+                    });
+
+                    constellationLinesAzEls = constellationsRef.current.map(line => ({
+                        points: line.points.map(pt => raDecToAltAz(pt[0], pt[1], observer.lat, observer.lng, now))
+                    }));
+                }
+
+                // --- CLIP TO RADAR CIRCLE ---
+                ctx.save();
+                ctx.beginPath();
+                ctx.arc(cx, cy, radius, 0, Math.PI * 2);
+                ctx.clip();
+
+                // Draw Constellations
+                ctx.beginPath();
+                ctx.strokeStyle = 'rgba(6, 182, 212, 0.2)';
+                ctx.lineWidth = 1;
+                constellationLinesAzEls.forEach(line => {
+                    let first = true;
+                    line.points.forEach(pt => {
+                        if (pt.elevation > 0) {
+                            const { x, y } = projectAzElToCartesian(pt.azimuth, pt.elevation, cx, cy, radius, skyViewRef.current);
+                            if (first) {
+                                ctx.moveTo(x, y);
+                                first = false;
+                            } else {
+                                ctx.lineTo(x, y);
+                            }
+                        } else {
+                            first = true;
+                        }
+                    });
+                });
+                ctx.stroke();
+
+                // Draw Stars
+                starAzEls.forEach(star => {
+                    if (star.elevation > 0) {
+                        const { x, y } = projectAzElToCartesian(star.azimuth, star.elevation, cx, cy, radius, skyViewRef.current);
+                        const size = Math.max(0.6, 2.8 - star.mag * 0.4);
+                        const baseOpacity = Math.max(0.3, 0.9 - star.mag * 0.15);
+                        const twinkle = Math.sin(time / 2000 + star.azimuth) * 0.2 + 0.8;
+                        const opacity = baseOpacity * twinkle;
+
+                        ctx.fillStyle = `rgba(255, 255, 255, ${opacity})`;
+                        ctx.beginPath();
+                        ctx.arc(x, y, size, 0, Math.PI * 2);
+                        ctx.fill();
+
+                        // Labels with safety margin
+                        const labelMargin = 30;
+                        const distFromCenter = Math.hypot(x - cx, y - cy);
+                        if (star.name && distFromCenter < radius - labelMargin) {
+                            ctx.font = '500 10px "Inter", sans-serif';
+                            ctx.fillStyle = `rgba(148, 163, 184, ${opacity * 0.6})`;
+                            ctx.textAlign = 'left';
+                            ctx.fillText(star.name, x + size + 4, y + 3);
+                        }
+                    }
+                });
+
+                ctx.restore();
+            }
+
+            // --- 1.5 MOTION TRAILS ---
+            const shouldUpdateTrails = (time - lastTrailUpdate) > 1000;
+            if (shouldUpdateTrails) {
+                lastTrailUpdate = time;
+                currentObjects.forEach(sat => {
+                    const { x, y } = projectAzElToCartesian(sat.position.azimuth, sat.position.elevation, cx, cy, radius, skyViewRef.current);
+                    const history = trailHistory.get(sat.id) || [];
+                    const lastPos = history[history.length - 1];
+                    if (!lastPos || Math.hypot(x - lastPos.x, y - lastPos.y) > 0.1) {
+                        history.push({ x, y });
+                        if (history.length > MAX_TRAIL_LENGTH) history.shift();
+                        trailHistory.set(sat.id, history);
+                    }
+                });
+                if (currentObjects.length > 0) {
+                    const currentIds = new Set(currentObjects.map(s => s.id));
+                    Array.from(trailHistory.keys()).forEach(id => {
+                        if (!currentIds.has(id)) trailHistory.delete(id);
+                    });
+                }
+            }
+
+            trailHistory.forEach((history, id) => {
+                const sat = currentObjects.find(s => s.id === id);
+                if (!sat || history.length < 2) return;
+                const isSelected = id === currentSelectedSatId;
+                const isISS = sat.name.includes("ISS") || sat.name.includes("STATION");
+                const baseColor = (isISS || isSelected) ? '245, 158, 11' : '56, 189, 248';
+                ctx.lineWidth = isMobile ? 1 : 2;
+                ctx.lineCap = 'round';
+                for (let i = 0; i < history.length - 1; i++) {
+                    const alpha = Math.pow(i / history.length, 2) * 0.5;
+                    ctx.strokeStyle = `rgba(${baseColor}, ${alpha})`;
+                    ctx.beginPath();
+                    ctx.moveTo(history[i].x, history[i].y);
+                    ctx.lineTo(history[i + 1].x, history[i + 1].y);
+                    ctx.stroke();
+                }
+            });
+
+            // --- 2. GRID & LABELS ---
             ctx.beginPath();
             ctx.arc(cx, cy, radius, 0, 2 * Math.PI);
-            ctx.strokeStyle = 'rgba(6, 182, 212, 0.5)'; // Cyan
+            ctx.strokeStyle = 'rgba(6, 182, 212, 0.5)';
             ctx.lineWidth = 2;
             ctx.shadowBlur = 10;
             ctx.shadowColor = 'rgba(6, 182, 212, 0.5)';
             ctx.stroke();
-            ctx.shadowBlur = 0; // Reset
+            ctx.shadowBlur = 0;
 
-            // Inner Grid Rings (30°, 60°)
             [30, 60].forEach(el => {
                 const r = radius * (1 - el / 90);
                 ctx.beginPath();
                 ctx.arc(cx, cy, r, 0, 2 * Math.PI);
                 ctx.strokeStyle = 'rgba(6, 182, 212, 0.1)';
-                ctx.lineWidth = 1;
                 ctx.stroke();
-
-                // Label
                 ctx.fillStyle = 'rgba(6, 182, 212, 0.4)';
                 ctx.font = '9px monospace';
                 ctx.textAlign = 'center';
                 ctx.fillText(`${el}°`, cx, cy - r + 10);
             });
 
-            // Crosshairs / Azimuth Lines
-            const directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
+            const directions = skyViewRef.current ? ['N', 'NW', 'W', 'SW', 'S', 'SE', 'E', 'NE'] : ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
             for (let i = 0; i < 8; i++) {
                 const angle = (i * 45) * (Math.PI / 180) - Math.PI / 2;
                 const isCardinal = i % 2 === 0;
-
                 const tx = cx + radius * Math.cos(angle);
                 const ty = cy + radius * Math.sin(angle);
-
                 ctx.beginPath();
                 ctx.moveTo(cx, cy);
                 ctx.lineTo(tx, ty);
                 ctx.strokeStyle = isCardinal ? 'rgba(6, 182, 212, 0.15)' : 'rgba(6, 182, 212, 0.05)';
                 ctx.stroke();
-
-                // Cardinal Labels
                 if (isCardinal) {
-                    const lx = cx + (radius + 22) * Math.cos(angle); // Increased from 15 to 22
+                    const lx = cx + (radius + 22) * Math.cos(angle);
                     const ly = cy + (radius + 22) * Math.sin(angle);
-                    ctx.fillStyle = 'rgba(34, 211, 238, 0.8)'; // Cyan-400
+                    ctx.fillStyle = 'rgba(34, 211, 238, 0.8)';
                     ctx.font = 'bold 10px Inter';
                     ctx.textAlign = 'center';
                     ctx.textBaseline = 'middle';
@@ -202,219 +336,114 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
                 }
             }
 
-            // --- 2. Orbit Path (if available) ---
+            // --- 3. ORBIT PATH ---
             if (currentOrbitPath && currentOrbitPath.length > 1) {
                 ctx.beginPath();
                 let first = true;
                 currentOrbitPath.forEach(pt => {
-                    if (pt.elevation > 0) { // Only draw points above horizon
-                        const xy = projectAzElToCartesian(pt.azimuth, pt.elevation, cx, cy, radius);
-                        if (first) {
-                            ctx.moveTo(xy.x, xy.y);
-                            first = false;
-                        } else {
-                            ctx.lineTo(xy.x, xy.y);
-                        }
-                    } else {
-                        first = true; // Reset if path goes below horizon
-                    }
+                    if (pt.elevation > 0) {
+                        const xy = projectAzElToCartesian(pt.azimuth, pt.elevation, cx, cy, radius, skyViewRef.current);
+                        if (first) { ctx.moveTo(xy.x, xy.y); first = false; }
+                        else ctx.lineTo(xy.x, xy.y);
+                    } else first = true;
                 });
-                ctx.strokeStyle = 'rgba(251, 191, 36, 0.5)'; // Amber path
+                ctx.strokeStyle = 'rgba(251, 191, 36, 0.5)';
                 ctx.setLineDash([4, 4]);
                 ctx.lineWidth = 1.5;
                 ctx.stroke();
                 ctx.setLineDash([]);
             }
 
-            // --- 3. Satellites ---
-            let detectedHover: string | null = null; // Local hit detection for this frame
-
+            // --- 4. SATELLITES ---
+            let detectedHover: string | null = null;
             if (currentObjects) {
                 currentObjects.forEach(sat => {
-                    if (sat.position.elevation < 0) return; // Don't draw if below horizon
-
-                    // Convert Az/El to X/Y
-                    // Elevation: 90 is center (r=0), 0 is horizon (r=radius)
-                    const { x, y } = projectAzElToCartesian(sat.position.azimuth, sat.position.elevation, cx, cy, radius);
-
+                    if (sat.position.elevation < 0) return;
+                    const { x, y } = projectAzElToCartesian(sat.position.azimuth, sat.position.elevation, cx, cy, radius, skyViewRef.current);
                     const isSelected = sat.id === currentSelectedSatId;
                     const isISS = sat.name.includes("ISS") || sat.name.includes("STATION");
                     const isHovered = hoverSatId === sat.id;
 
-                    // Hit Detect (larger radius on mobile for easier tapping)
                     const dist = Math.hypot(x - lastMouseX, y - lastMouseY);
-                    if (dist < touchTargetRadius) {
-                        detectedHover = sat.id;
-                    }
+                    if (dist < touchTargetRadius) detectedHover = sat.id;
 
-                    // Sweep Detection: Check if sweep line is near this satellite's angle
-                    const satAngle = (sat.position.azimuth - 90) * (Math.PI / 180); // Convert to radians matching projection
+                    const satAngle = skyViewRef.current ? (270 - sat.position.azimuth) * (Math.PI / 180) : (sat.position.azimuth - 90) * (Math.PI / 180);
                     const sweepAngle = sweepRef.current;
-
-                    // Calculate angular difference (accounting for wrap-around)
                     let angleDiff = Math.abs(satAngle - sweepAngle);
                     if (angleDiff > Math.PI) angleDiff = 2 * Math.PI - angleDiff;
+                    if (angleDiff < (1.5 * Math.PI) / 180 && !sweepPulses.has(sat.id)) sweepPulses.set(sat.id, time);
 
-                    // If sweep is within ~1.5 degrees of satellite, mark it as touched
-                    const sweepThreshold = (1.5 * Math.PI) / 180; // 1.5 degrees - tighter sync
-                    if (angleDiff < sweepThreshold && !sweepPulses.has(sat.id)) {
-                        sweepPulses.set(sat.id, time);
-                    }
-
-                    // Calculate pulse intensity (fades over 1 second)
                     let pulseIntensity = 0;
                     if (sweepPulses.has(sat.id)) {
-                        const touchTime = sweepPulses.get(sat.id)!;
-                        const elapsed = time - touchTime;
-                        const pulseDuration = 1000; // 1 second
-
-                        if (elapsed < pulseDuration) {
-                            pulseIntensity = 1 - (elapsed / pulseDuration); // Fade from 1 to 0
-                        } else {
-                            sweepPulses.delete(sat.id); // Clean up old pulses
-                        }
+                        const elapsed = time - sweepPulses.get(sat.id)!;
+                        if (elapsed < 1000) pulseIntensity = 1 - (elapsed / 1000);
+                        else sweepPulses.delete(sat.id);
                     }
 
-                    // Pulse effect for selected
-                    // Larger dots on mobile for better visibility and touch targets
-                    const baseSizeISS = isMobile ? 6 : 4;
-                    const baseSizeRegular = isMobile ? 5 : 3;
-                    let size = isISS ? baseSizeISS : baseSizeRegular;
-                    let color = isISS ? '#F59E0B' : '#38bdf8'; // Amber for ISS, Sky-400 for others
-
-                    // Apply sweep pulse to non-selected satellites
-                    if (!isSelected && pulseIntensity > 0) {
-                        size += pulseIntensity * 2; // Grow by up to 2px
-                    }
-
+                    let size = isISS ? (isMobile ? 6 : 4) : (isMobile ? 5 : 3);
+                    let color = isISS ? '#F59E0B' : '#38bdf8';
+                    if (!isSelected && pulseIntensity > 0) size += pulseIntensity * 2;
                     if (isSelected) {
-                        color = '#fbbf24'; // Amber-400 for Selection
-                        size = 5;
-
-                        // Pulsing ring
+                        color = '#fbbf24'; size = 5;
                         const pulse = 10 + Math.sin(time / 200) * 4;
-                        ctx.beginPath();
-                        ctx.arc(x, y, pulse, 0, 2 * Math.PI);
-                        ctx.strokeStyle = `rgba(251, 191, 36, ${0.4 + Math.sin(time / 200) * 0.2})`; // Amber pulse
-                        ctx.stroke();
+                        ctx.beginPath(); ctx.arc(x, y, pulse, 0, 2 * Math.PI);
+                        ctx.strokeStyle = `rgba(251, 191, 36, ${0.4 + Math.sin(time / 200) * 0.2})`; ctx.stroke();
+                        ctx.beginPath(); ctx.moveTo(x - 8, y); ctx.lineTo(x - 4, y); ctx.moveTo(x + 8, y); ctx.lineTo(x + 4, y);
+                        ctx.moveTo(x, y - 8); ctx.lineTo(x, y - 4); ctx.moveTo(x, y + 8); ctx.lineTo(x, y + 4);
+                        ctx.strokeStyle = '#fbbf24'; ctx.stroke();
+                    } else if (isHovered) { color = '#FFFFFF'; size = 4; }
 
-                        // Crosshair / Reticle effect
-                        ctx.beginPath();
-                        ctx.moveTo(x - 8, y);
-                        ctx.lineTo(x - 4, y);
-                        ctx.moveTo(x + 8, y);
-                        ctx.lineTo(x + 4, y);
-                        ctx.moveTo(x, y - 8);
-                        ctx.lineTo(x, y - 4);
-                        ctx.moveTo(x, y + 8);
-                        ctx.lineTo(x, y + 4);
-                        ctx.strokeStyle = '#fbbf24';
-                        ctx.stroke();
-
-                    } else if (isHovered) {
-                        color = '#FFFFFF';
-                        size = 4;
-                    }
-
-                    // Draw Marker Body
                     ctx.beginPath();
-                    if (isISS) {
-                        // ISS Icon (Square)
-                        ctx.rect(x - 4, y - 4, 8, 8);
-                        ctx.fillStyle = '#ffffff';
-                        ctx.shadowBlur = 10;
-                        ctx.shadowColor = 'white';
-                    } else {
-                        // Generic Dot
-                        ctx.arc(x, y, size, 0, 2 * Math.PI);
-                        ctx.fillStyle = color;
-                        ctx.shadowBlur = isSelected ? 8 : 4;
-                        ctx.shadowColor = color;
-                    }
-                    ctx.fill();
-                    ctx.shadowBlur = 0;
+                    if (isISS) ctx.rect(x - 4, y - 4, 8, 8); else ctx.arc(x, y, size, 0, 2 * Math.PI);
+                    ctx.fillStyle = isISS ? '#ffffff' : color;
+                    ctx.shadowBlur = isSelected ? 8 : (isISS ? 10 : 4);
+                    ctx.shadowColor = isISS ? 'white' : color;
+                    ctx.fill(); ctx.shadowBlur = 0;
 
-                    // Draw Label
-                    // Fixed: ensure label stays close to dot
                     if (isISS || isSelected || isHovered) {
                         ctx.font = isSelected ? 'bold 11px Inter, monospace' : '9px Inter';
                         ctx.fillStyle = isSelected ? '#fbbf24' : '#ffffff';
-                        ctx.textAlign = 'left';
+                        ctx.textAlign = isSelected ? 'center' : 'left';
+                        ctx.textBaseline = isSelected ? 'top' : 'middle';
                         const text = sat.name;
                         const metrics = ctx.measureText(text);
-                        const textWidth = metrics.width;
-                        const padding = 3;
-
-                        // Position: above when selected, right otherwise
-                        let lx = x + 10;
-                        let ly = y;
-
-                        if (isSelected) {
-                            lx = x - textWidth / 2;
-                            ly = y - 22;
-                            ctx.textBaseline = 'top';
-                        } else {
-                            ctx.textBaseline = 'middle';
-                        }
-
-                        // Background box
-                        const boxHeight = 14;
+                        const lx = isSelected ? x : x + 10;
+                        const ly = isSelected ? y - 22 : y;
                         ctx.fillStyle = 'rgba(15, 23, 42, 0.9)';
-                        ctx.fillRect(lx - padding, ly - (isSelected ? padding : boxHeight / 2), textWidth + padding * 2, boxHeight);
-
-                        // Text
+                        ctx.fillRect(lx - (isSelected ? metrics.width / 2 + 3 : 3), ly - (isSelected ? 3 : 7), metrics.width + 6, 14);
                         ctx.fillStyle = isSelected ? '#fbbf24' : '#ffffff';
                         ctx.fillText(text, lx, ly);
-
-                        // Optional: Draw line to label if crowded? 
-                        // For now keep simple
                     }
                 });
             }
 
-            // Update hover state
             if (detectedHover !== hoverSatId) {
                 hoverSatId = detectedHover;
                 canvas.style.cursor = hoverSatId ? 'pointer' : 'default';
             }
 
-            // --- 4. Radar Sweep Animation ---
-
-            // Sweep Line
-            const angle = sweepRef.current;
-            const sx = cx + radius * Math.cos(angle);
-            const sy = cy + radius * Math.sin(angle);
-
-            // Gradient Sweep Sector
+            // --- 5. SWEEP ANIMATION ---
+            const sweepAngle = sweepRef.current;
             try {
-                const gradient = ctx.createConicGradient(angle, cx, cy);
+                const gradient = ctx.createConicGradient(sweepAngle, cx, cy);
                 gradient.addColorStop(0, 'rgba(6, 182, 212, 0)');
                 gradient.addColorStop(0.85, 'rgba(6, 182, 212, 0)');
                 gradient.addColorStop(1, 'rgba(6, 182, 212, 0.3)');
-
                 ctx.fillStyle = gradient;
-                ctx.beginPath();
-                ctx.arc(cx, cy, radius, 0, 2 * Math.PI);
-                ctx.fill();
-            } catch (e) {
-                // Fallback
-            }
+                ctx.beginPath(); ctx.arc(cx, cy, radius, 0, 2 * Math.PI); ctx.fill();
+            } catch (e) { }
 
-            // Bright leading line
             ctx.beginPath();
             ctx.moveTo(cx, cy);
-            ctx.lineTo(sx, sy);
-            ctx.strokeStyle = 'rgba(103, 232, 249, 0.8)'; // Cyan-200
+            ctx.lineTo(cx + radius * Math.cos(sweepAngle), cy + radius * Math.sin(sweepAngle));
+            ctx.strokeStyle = 'rgba(103, 232, 249, 0.8)';
             ctx.lineWidth = 1.5;
-            ctx.shadowColor = 'rgba(6, 182, 212, 1)';
-            ctx.shadowBlur = 10;
-            ctx.stroke();
-            ctx.shadowBlur = 0;
+            ctx.shadowColor = 'rgba(6, 182, 212, 1)'; ctx.shadowBlur = 10;
+            ctx.stroke(); ctx.shadowBlur = 0;
 
             animationFrameId = requestAnimationFrame(render);
         };
 
-        // Start Loop
         animationFrameId = requestAnimationFrame(render);
 
         return () => {
@@ -423,7 +452,7 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
             canvas.removeEventListener('click', handleClick);
             canvas.removeEventListener('touchstart', handleTouchStart);
         };
-    }, []); // Empty dependency array - loop runs forever
+    }, []);
 
     return (
         <canvas

@@ -3,7 +3,7 @@ import { getSatPosition, getSatellitePath } from '../../utils/orbital';
 import { getOrbitalParams } from '../../utils/orbital-params';
 import { fetchTLEs } from '../../api/celestrak';
 import { RadarCanvas } from './RadarCanvas';
-import { SatelliteData, SatellitePosition, VisualObject, ObserverLocation as Location, SearchResult } from '../../lib/definitions';
+import { SatelliteData, SatellitePosition, VisualObject, ObserverLocation as Location, SearchResult, Star, ConstellationLine } from '../../lib/definitions';
 
 // Default to Berlin removed. Starting with null to trigger detection.
 
@@ -15,6 +15,13 @@ export const OrbitalRadar = () => {
     const [selectedSatId, setSelectedSatId] = useState<string | null>(null); // Track ID
     const [orbitPath, setOrbitPath] = useState<SatellitePosition[]>([]);
     const [dataSource, setDataSource] = useState<'mirror' | 'fallback' | 'error'>('mirror');
+    const [projectionMode, setProjectionMode] = useState<'map' | 'sky'>('map');
+
+    // Celestial Data (Stars/Constellations)
+    const [celestialData, setCelestialData] = useState<{ stars: Star[]; constellations: ConstellationLine[] }>({
+        stars: [],
+        constellations: []
+    });
 
     // Location State
     const [location, setLocation] = useState<Location | null>(() => {
@@ -48,6 +55,22 @@ export const OrbitalRadar = () => {
             setLoading(false);
         };
         loadData();
+    }, []);
+
+    // Initial Fetch (Celestial Data)
+    useEffect(() => {
+        const loadCelestial = async () => {
+            try {
+                const res = await fetch(`${import.meta.env.BASE_URL}data/celestial.json`);
+                if (res.ok) {
+                    const celestial = await res.json();
+                    setCelestialData(celestial);
+                }
+            } catch (err) {
+                console.warn("Failed to load celestial data", err);
+            }
+        };
+        loadCelestial();
     }, []);
 
     // Save location only if valid
@@ -288,10 +311,21 @@ export const OrbitalRadar = () => {
 
                 {/* 1. Header Bar (Glass Overlay) */}
                 <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-900/90 to-transparent z-20 flex items-start justify-between p-3 md:p-4 pointer-events-none">
-                    <div className="max-w-[50%] md:max-w-none">
+                    <div className="flex items-center gap-3 max-w-[50%] md:max-w-none">
                         <div className="text-[8px] md:text-[10px] text-cyan-500/70 font-mono tracking-widest uppercase line-clamp-1 md:line-clamp-none">
                             Active Sensor Array • {location?.name || 'NO SIGNAL'}
                         </div>
+
+                        <button
+                            onClick={() => setProjectionMode(prev => prev === 'map' ? 'sky' : 'map')}
+                            className={`flex items-center gap-1.5 px-2 py-0.5 md:px-3 md:py-1 rounded-full border transition-all text-[8px] md:text-[9px] font-bold uppercase tracking-wider backdrop-blur-md pointer-events-auto ${projectionMode === 'sky'
+                                    ? 'bg-cyan-500/20 border-cyan-500/50 text-cyan-400 shadow-[0_0_10px_rgba(6,182,212,0.2)]'
+                                    : 'bg-slate-800/40 border-white/5 text-slate-500 hover:border-white/20 hover:text-slate-300'
+                                }`}
+                        >
+                            <span className={`w-1 h-1 rounded-full ${projectionMode === 'sky' ? 'bg-cyan-400 animate-pulse' : 'bg-slate-600'}`}></span>
+                            {projectionMode === 'sky' ? 'Sky View' : 'Map View'}
+                        </button>
                     </div>
 
                     {/* Search Bar (Floating) */}
@@ -370,6 +404,10 @@ export const OrbitalRadar = () => {
                             onSelect={handleSelectSat}
                             selectedSatId={selectedSatId}
                             orbitPath={orbitPath.filter(p => !p.time || p.time > new Date())}
+                            location={location}
+                            stars={celestialData.stars}
+                            constellations={celestialData.constellations}
+                            skyView={projectionMode === 'sky'}
                         />
                     )}
                 </div>

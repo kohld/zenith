@@ -17,15 +17,18 @@ export const projectAzElToCartesian = (
     elevation: number,
     centerX: number,
     centerY: number,
-    radius: number
+    radius: number,
+    skyView: boolean = false
 ): { x: number, y: number } => {
     // 1. Calculate radial distance from center (90° = 0 distance, 0° = radius distance)
     const r = radius * (1 - elevation / 90);
 
-    // 2. Convert Azimuth to math angle (0° Azimuth = North/Up = -90° in math radians)
-    // Math 0 is usually East. We want North (Up) to be -PI/2.
-    // However, in the canvas code we saw: angle = (az - 90) * (Math.PI / 180).
-    const angleRad = (azimuth - 90) * (Math.PI / 180);
+    // 2. Convert Azimuth to math angle
+    // Map View: 0° Azimuth = North/Up = -90° (270°) in math radians. East is 0° (Right).
+    // Sky View: Mirrored. North is still Up, but West is Right (0°) and East is Left (180°).
+    const angleRad = skyView
+        ? (270 - azimuth) * (Math.PI / 180)
+        : (azimuth - 90) * (Math.PI / 180);
 
     return {
         x: centerX + r * Math.cos(angleRad),

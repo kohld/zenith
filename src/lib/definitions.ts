@@ -128,6 +128,23 @@ export interface DSNTarget {
     power: number; // dBm
 }
 
+/**
+ * Celestial object (Star) with equatorial coordinates.
+ */
+export interface Star {
+    name: string;
+    ra: number;
+    dec: number;
+    mag: number;
+}
+
+/**
+ * A series of points representing a constellation outline.
+ */
+export interface ConstellationLine {
+    points: [number, number][]; // Array of [RA, Dec] pairs
+}
+
 export const SPACECRAFT_SPECS: Record<string, {
     power: string;
     antenna: string;
