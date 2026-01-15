@@ -64,8 +64,8 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
             if (hoverSatId && onSelectRef.current) {
                 onSelectRef.current(hoverSatId);
             } else if (onSelectRef.current) {
-                // Optional: Deselect if clicking empty space
-                // onSelectRef.current(null);
+                // Deselect if clicking empty space
+                onSelectRef.current(null);
             }
         };
 
