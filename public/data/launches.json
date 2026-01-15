@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-15T20:40:11.759Z",
+  "updatedAt": "2026-01-15T21:06:18.313Z",
   "launches": [
     {
       "id": "8f17cfbf-7860-4ce8-acd0-75b35d57c81f",
@@ -219,18 +219,26 @@
     {
       "id": "ea2d97bc-a834-4904-b579-6a1e1f7a9c54",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/ea2d97bc-a834-4904-b579-6a1e1f7a9c54/",
-      "slug": "ceres-1s-unknown-payload",
+      "slug": "ceres-1s-tianqi-37-40",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Ceres-1S | Unknown Payload",
+      "name": "Ceres-1S | Tianqi 37-40",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-01-15T20:19:04Z",
+      "last_updated": "2026-01-15T20:54:27Z",
       "updates": [
+        {
+          "id": 13661,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://finance.sina.com.cn/7x24/2026-01-16/doc-inhhmthz7146567.shtml",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-15T20:54:00Z"
+        },
         {
           "id": 13660,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -301,8 +309,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 23,
-        "consecutive_successful_launches": 0,
-        "successful_launches": 20,
+        "consecutive_successful_launches": 1,
+        "successful_launches": 21,
         "failed_launches": 2,
         "pending_launches": 2,
         "consecutive_successful_landings": 0,
@@ -341,8 +349,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 23,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 20,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 21,
             "failed_launches": 2,
             "pending_launches": 2,
             "consecutive_successful_landings": 0,
@@ -374,8 +382,8 @@
           "info_url": "http://www.galactic-energy.cn/index.php/En/List/cid/14",
           "wiki_url": null,
           "total_launch_count": 6,
-          "consecutive_successful_launches": 5,
-          "successful_launches": 5,
+          "consecutive_successful_launches": 6,
+          "successful_launches": 6,
           "failed_launches": 0,
           "pending_launches": 0,
           "attempted_landings": 0,
@@ -388,14 +396,14 @@
       },
       "mission": {
         "id": 7471,
-        "name": "Unknown Payload",
-        "description": "Details TBD.",
+        "name": "Tianqi 37-40",
+        "description": "4 small satellites for LEO Internet of Things (IoT) communication purposes.",
         "launch_designator": null,
-        "type": "Unknown",
+        "type": "Communications",
         "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         },
         "agencies": [],
         "info_urls": [],
@@ -796,8 +804,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 23,
-        "consecutive_successful_launches": 0,
-        "successful_launches": 20,
+        "consecutive_successful_launches": 1,
+        "successful_launches": 21,
         "failed_launches": 2,
         "pending_launches": 2,
         "consecutive_successful_landings": 0,
@@ -836,8 +844,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 23,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 20,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 21,
             "failed_launches": 2,
             "pending_launches": 2,
             "consecutive_successful_landings": 0,
