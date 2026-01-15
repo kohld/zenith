@@ -279,17 +279,17 @@ export const OrbitalRadar = () => {
                     : 'Searching for satellites...'}
             </div>
 
+            <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-6">
+                Orbital Radar
+            </h2>
+
             {/* Main Radar Container */}
             <div className="relative w-full max-w-[1200px] aspect-square md:aspect-[16/9] bg-slate-900 border border-slate-700/50 rounded-2xl md:rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/5 p-4 md:p-8">
 
                 {/* 1. Header Bar (Glass Overlay) */}
                 <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-900/90 to-transparent z-20 flex items-start justify-between p-3 md:p-4 pointer-events-none">
                     <div className="max-w-[50%] md:max-w-none">
-                        <h2 className="text-sm md:text-xl font-bold text-white flex items-center gap-2">
-                            <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-cyan-500 rounded-full animate-pulse shadow-[0_0_8px_rgba(6,182,212,0.8)]"></span>
-                            ORBITAL RADAR
-                        </h2>
-                        <div className="text-[8px] md:text-[10px] text-cyan-500/70 font-mono tracking-widest uppercase mt-0.5 line-clamp-1 md:line-clamp-none">
+                        <div className="text-[8px] md:text-[10px] text-cyan-500/70 font-mono tracking-widest uppercase line-clamp-1 md:line-clamp-none">
                             Active Sensor Array • {location?.name || 'NO SIGNAL'}
                         </div>
                     </div>
