@@ -7,7 +7,7 @@
     "missionType": "Interstellar Probe",
     "ra": 259.0988333333333,
     "dec": 12.053,
-    "date": "2026-01-15T12:46:00.745Z",
+    "date": "2026-01-15T18:45:01.538Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -18,7 +18,7 @@
     "missionType": "Interstellar Probe",
     "ra": 302.91070833333333,
     "dec": -59.20458333333334,
-    "date": "2026-01-15T12:46:01.476Z",
+    "date": "2026-01-15T18:45:02.291Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -29,7 +29,7 @@
     "missionType": "Pluto/Kuiper Belt",
     "ra": 289.7056666666667,
     "dec": -20.220805555555554,
-    "date": "2026-01-15T12:46:02.218Z",
+    "date": "2026-01-15T18:45:03.035Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -40,8 +40,17 @@
     "missionType": "Space Telescope",
     "ra": 90.92279166666667,
     "dec": 14.490388888888887,
-    "date": "2026-01-15T12:46:02.949Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-01-15T18:45:03.777Z",
+    "dsnSignal": {
+      "id": "-170",
+      "name": "JWST",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 40000,
+      "power": -120,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "Parker Solar Probe",
@@ -51,7 +60,7 @@
     "missionType": "Heliophysics",
     "ra": 307.12245833333327,
     "dec": -20.37852777777778,
-    "date": "2026-01-15T12:46:03.677Z",
+    "date": "2026-01-15T18:45:04.513Z",
     "status": "AWAITING SIGNAL"
   }
 ]
