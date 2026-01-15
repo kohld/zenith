@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-15T20:06:45.643Z",
+  "updatedAt": "2026-01-15T20:40:11.759Z",
   "launches": [
     {
       "id": "8f17cfbf-7860-4ce8-acd0-75b35d57c81f",
@@ -224,13 +224,21 @@
       "r_spacex_api_id": null,
       "name": "Ceres-1S | Unknown Payload",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
       },
-      "last_updated": "2026-01-15T19:30:18Z",
+      "last_updated": "2026-01-15T20:19:04Z",
       "updates": [
+        {
+          "id": 13660,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://www.youtube.com/watch?v=YfYp6Zs6Diw",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-15T20:17:00Z"
+        },
         {
           "id": 13659,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
@@ -264,12 +272,12 @@
           "created_on": "2026-01-09T18:32:00Z"
         }
       ],
-      "net": "2026-01-15T20:05:00Z",
+      "net": "2026-01-15T20:10:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
       "window_end": "2026-01-15T20:26:00Z",
       "window_start": "2026-01-15T19:58:00Z",
@@ -292,11 +300,11 @@
         "launchers": "Ceres-1 | Pallas-1",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 22,
+        "total_launch_count": 23,
         "consecutive_successful_launches": 0,
         "successful_launches": 20,
         "failed_launches": 2,
-        "pending_launches": 3,
+        "pending_launches": 2,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -332,11 +340,11 @@
             "launchers": "Ceres-1 | Pallas-1",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 22,
+            "total_launch_count": 23,
             "consecutive_successful_launches": 0,
             "successful_launches": 20,
             "failed_launches": 2,
-            "pending_launches": 3,
+            "pending_launches": 2,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -365,11 +373,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1s_image_20230905114324.jpeg",
           "info_url": "http://www.galactic-energy.cn/index.php/En/List/cid/14",
           "wiki_url": null,
-          "total_launch_count": 5,
+          "total_launch_count": 6,
           "consecutive_successful_launches": 5,
           "successful_launches": 5,
           "failed_launches": 0,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -412,13 +420,13 @@
           "description": "Chinese orbital launch vehicle launches supporting sea port located at Haiyang, Shandong Province, with dedicated piers and rocket/payload processing facilities for Chinese launch vehicles’ sea launches, and (as part of its expansion project) land based launch pads on artificial islands for various test vehicles and launch vehicles of private and government launch services providers.\r\n\r\nIn operation as a remote base of Taiyuan Satellite Launch Center since 2019.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_haiyang_oriental_spaceport_20251128181322.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 21,
+          "total_launch_count": 22,
           "total_landing_count": 0
         },
         "country_code": "CHN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_oriental_spaceport_mobile_launch_ship_20240529085416.jpg",
-        "total_launch_count": 7,
-        "orbital_launch_attempt_count": 7
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
       },
       "infoURLs": [],
       "vidURLs": [
@@ -440,7 +448,7 @@
             "code": "en"
           },
           "start_time": "2026-01-15T19:45:47Z",
-          "end_time": null
+          "end_time": "2026-01-15T20:18:49Z"
         },
         {
           "priority": 10,
@@ -460,10 +468,10 @@
             "code": "zn"
           },
           "start_time": "2026-01-15T19:05:22Z",
-          "end_time": null
+          "end_time": "2026-01-15T20:13:20Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1s_image_20230905114324.jpeg",
       "infographic": null,
@@ -476,7 +484,7 @@
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P67DT23H4M",
+      "pad_turnaround": "P67DT23H9M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -787,11 +795,11 @@
         "launchers": "Ceres-1 | Pallas-1",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 22,
+        "total_launch_count": 23,
         "consecutive_successful_launches": 0,
         "successful_launches": 20,
         "failed_launches": 2,
-        "pending_launches": 3,
+        "pending_launches": 2,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -827,11 +835,11 @@
             "launchers": "Ceres-1 | Pallas-1",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 22,
+            "total_launch_count": 23,
             "consecutive_successful_launches": 0,
             "successful_launches": 20,
             "failed_launches": 2,
-            "pending_launches": 3,
+            "pending_launches": 2,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -3603,13 +3611,13 @@
           "description": "Chinese orbital launch vehicle launches supporting sea port located at Haiyang, Shandong Province, with dedicated piers and rocket/payload processing facilities for Chinese launch vehicles’ sea launches, and (as part of its expansion project) land based launch pads on artificial islands for various test vehicles and launch vehicles of private and government launch services providers.\r\n\r\nIn operation as a remote base of Taiyuan Satellite Launch Center since 2019.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_haiyang_oriental_spaceport_20251128181322.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 21,
+          "total_launch_count": 22,
           "total_landing_count": 0
         },
         "country_code": "CHN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_oriental_spaceport_mobile_launch_ship_20240529085416.jpg",
-        "total_launch_count": 7,
-        "orbital_launch_attempt_count": 7
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
       },
       "infoURLs": [],
       "vidURLs": [],
