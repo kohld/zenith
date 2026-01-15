@@ -45,6 +45,10 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
         let animationFrameId: number;
         let lastTime = performance.now();
 
+        // Mobile detection
+        const isMobile = window.innerWidth < 768;
+        const touchTargetRadius = isMobile ? 30 : 10;
+
         // Hit detection state
         let hoverSatId: string | null = null;
         let lastMouseX = 0;
@@ -55,22 +59,54 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
 
         const handleMouseMove = (e: MouseEvent) => {
             const rect = canvas.getBoundingClientRect();
-            // Scale mouse coordinates to canvas's internal resolution
-            lastMouseX = (e.clientX - rect.left) * (canvas.width / rect.width);
-            lastMouseY = (e.clientY - rect.top) * (canvas.height / rect.height);
+            // Use client coordinates directly (already in CSS pixels)
+            lastMouseX = e.clientX - rect.left;
+            lastMouseY = e.clientY - rect.top;
         };
 
         const handleClick = () => {
             if (hoverSatId && onSelectRef.current) {
                 onSelectRef.current(hoverSatId);
             } else if (onSelectRef.current) {
-                // Deselect if clicking empty space
+                onSelectRef.current(null);
+            }
+        };
+
+        const handleTouchStart = (e: TouchEvent) => {
+            // Prevent scrolling when touching the radar
+            if (e.cancelable) e.preventDefault();
+
+            const rect = canvas.getBoundingClientRect();
+            lastMouseX = e.touches[0].clientX - rect.left;
+            lastMouseY = e.touches[0].clientY - rect.top;
+
+            // Immediately check for hit
+            const currentObjects = objectsRef.current;
+            const cx = rect.width / 2;
+            const cy = rect.height / 2;
+            // Radius calculation must match render loop (which uses radius = Math.min(cx, cy) - 65)
+            const radius = Math.min(cx, cy) - 65;
+
+            let touchedId: string | null = null;
+            currentObjects.forEach(sat => {
+                if (sat.position.elevation < 0) return;
+                const { x, y } = projectAzElToCartesian(sat.position.azimuth, sat.position.elevation, cx, cy, radius);
+                const dist = Math.hypot(x - lastMouseX, y - lastMouseY);
+                if (dist < touchTargetRadius) {
+                    touchedId = sat.id;
+                }
+            });
+
+            if (touchedId && onSelectRef.current) {
+                onSelectRef.current(touchedId);
+            } else if (onSelectRef.current) {
                 onSelectRef.current(null);
             }
         };
 
         canvas.addEventListener('mousemove', handleMouseMove);
         canvas.addEventListener('click', handleClick);
+        canvas.addEventListener('touchstart', handleTouchStart);
 
         const render = (time: number) => {
             // Time delta for consistent animation speed regardless of frame rate
@@ -205,9 +241,9 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
                     const isISS = sat.name.includes("ISS") || sat.name.includes("STATION");
                     const isHovered = hoverSatId === sat.id;
 
-                    // Hit Detect (Simple radius check)
+                    // Hit Detect (larger radius on mobile for easier tapping)
                     const dist = Math.hypot(x - lastMouseX, y - lastMouseY);
-                    if (dist < 10) {
+                    if (dist < touchTargetRadius) {
                         detectedHover = sat.id;
                     }
 
@@ -240,7 +276,10 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
                     }
 
                     // Pulse effect for selected
-                    let size = isISS ? 4 : 3; // Increased from 2 to 3 for better visibility
+                    // Larger dots on mobile for better visibility and touch targets
+                    const baseSizeISS = isMobile ? 6 : 4;
+                    const baseSizeRegular = isMobile ? 5 : 3;
+                    let size = isISS ? baseSizeISS : baseSizeRegular;
                     let color = isISS ? '#F59E0B' : '#38bdf8'; // Amber for ISS, Sky-400 for others
 
                     // Apply sweep pulse to non-selected satellites
@@ -382,6 +421,7 @@ export const RadarCanvas = ({ objects, onSelect, selectedSatId, orbitPath }: Rad
             cancelAnimationFrame(animationFrameId);
             canvas.removeEventListener('mousemove', handleMouseMove);
             canvas.removeEventListener('click', handleClick);
+            canvas.removeEventListener('touchstart', handleTouchStart);
         };
     }, []); // Empty dependency array - loop runs forever
 

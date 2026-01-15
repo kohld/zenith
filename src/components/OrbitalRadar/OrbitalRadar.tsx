@@ -280,24 +280,24 @@ export const OrbitalRadar = () => {
             </div>
 
             {/* Main Radar Container */}
-            <div className="relative w-full max-w-[1200px] aspect-square md:aspect-[16/9] bg-slate-900 border border-slate-700/50 rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/5 p-8">
+            <div className="relative w-full max-w-[1200px] aspect-square md:aspect-[16/9] bg-slate-900 border border-slate-700/50 rounded-2xl md:rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/5 p-4 md:p-8">
 
                 {/* 1. Header Bar (Glass Overlay) */}
-                <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-900/90 to-transparent z-20 flex items-start justify-between p-4 pointer-events-none">
-                    <div>
-                        <h2 className="text-xl font-bold text-white flex items-center gap-2">
-                            <span className="w-2 h-2 bg-cyan-500 rounded-full animate-pulse shadow-[0_0_8px_rgba(6,182,212,0.8)]"></span>
+                <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-900/90 to-transparent z-20 flex items-start justify-between p-3 md:p-4 pointer-events-none">
+                    <div className="max-w-[50%] md:max-w-none">
+                        <h2 className="text-sm md:text-xl font-bold text-white flex items-center gap-2">
+                            <span className="w-1.5 h-1.5 md:w-2 md:h-2 bg-cyan-500 rounded-full animate-pulse shadow-[0_0_8px_rgba(6,182,212,0.8)]"></span>
                             ORBITAL RADAR
                         </h2>
-                        <div className="text-[10px] text-cyan-500/70 font-mono tracking-widest uppercase mt-0.5">
+                        <div className="text-[8px] md:text-[10px] text-cyan-500/70 font-mono tracking-widest uppercase mt-0.5 line-clamp-1 md:line-clamp-none">
                             Active Sensor Array • {location?.name || 'NO SIGNAL'}
                         </div>
                     </div>
 
                     {/* Search Bar (Floating) */}
                     <div className="pointer-events-auto">
-                        <div className={`flex items-center bg-slate-800/60 backdrop-blur-md rounded-full border px-3 py-1.5 focus-within:ring-1 focus-within:ring-cyan-500/50 transition-all ${gpsError ? 'border-amber-500/50' : 'border-white/10 hover:border-white/20'}`}>
-                            <svg className={`h-4 w-4 mr-2 ${gpsError ? 'text-amber-500' : 'text-slate-400'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <div className={`flex items-center bg-slate-800/60 backdrop-blur-md rounded-full border px-2 py-1 md:px-3 md:py-1.5 focus-within:ring-1 focus-within:ring-cyan-500/50 transition-all ${gpsError ? 'border-amber-500/50' : 'border-white/10 hover:border-white/20'}`}>
+                            <svg className={`h-3 w-3 md:h-4 md:w-4 mr-1 md:mr-2 ${gpsError ? 'text-amber-500' : 'text-slate-400'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 {gpsError ? (
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
                                 ) : (
@@ -310,20 +310,20 @@ export const OrbitalRadar = () => {
                                 value={query}
                                 onChange={(e) => setQuery(e.target.value)}
                                 onFocus={() => setShowResults(true)}
-                                className="bg-transparent border-none outline-none text-xs text-white placeholder-slate-500 w-32 focus:w-48 transition-all"
+                                className="bg-transparent border-none outline-none text-[10px] md:text-xs text-white placeholder-slate-500 w-16 md:w-32 focus:w-24 md:focus:w-48 transition-all"
                             />
                             {isSearching && <div className="animate-spin h-3 w-3 border-2 border-cyan-500 rounded-full border-t-transparent mr-1"></div>}
                             {/* GPS Button */}
                             <button
                                 onClick={() => detectLocation()}
                                 disabled={isLocating}
-                                className="ml-2 p-1 rounded-full hover:bg-white/10 text-slate-400 hover:text-cyan-400 transition-colors"
+                                className="ml-1 md:ml-2 p-1 rounded-full hover:bg-white/10 text-slate-400 hover:text-cyan-400 transition-colors"
                                 title="Auto-Detect Location"
                             >
                                 {isLocating ? (
-                                    <div className="animate-spin h-3 w-3 border-2 border-cyan-500 rounded-full border-t-transparent"></div>
+                                    <div className="animate-spin h-2 w-2 md:h-3 md:w-3 border-2 border-cyan-500 rounded-full border-t-transparent"></div>
                                 ) : (
-                                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <svg className="w-2.5 h-2.5 md:w-3 md:h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                     </svg>
@@ -332,12 +332,12 @@ export const OrbitalRadar = () => {
                         </div>
                         {/* Results Dropdown */}
                         {showResults && searchResults.length > 0 && (
-                            <div className="absolute top-14 right-4 w-64 bg-slate-900/95 border border-slate-700/50 rounded-lg shadow-xl overflow-hidden max-h-60 overflow-y-auto backdrop-blur-xl z-50">
+                            <div className="absolute top-12 md:top-14 right-4 w-48 md:w-64 bg-slate-900/95 border border-slate-700/50 rounded-lg shadow-xl overflow-hidden max-h-40 md:max-h-60 overflow-y-auto backdrop-blur-xl z-50">
                                 {searchResults.map((res) => (
                                     <button
                                         key={res.place_id}
                                         onClick={() => handleSelectLocation(res)}
-                                        className="w-full text-left px-3 py-2 text-xs text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-400 transition-colors border-b border-white/5 last:border-0"
+                                        className="w-full text-left px-2 py-1.5 md:px-3 md:py-2 text-[10px] md:text-xs text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-400 transition-colors border-b border-white/5 last:border-0"
                                     >
                                         {res.display_name}
                                     </button>
@@ -374,8 +374,8 @@ export const OrbitalRadar = () => {
                     )}
                 </div>
 
-                {/* 3. HUD Overlay (Bottom-Left: Selected Target) */}
-                <div className="absolute bottom-4 left-4 z-20 max-w-sm pointer-events-none">
+                {/* 3. HUD Overlay (Desktop-Only Bottom-Left) */}
+                <div className="hidden md:block absolute bottom-4 left-4 z-20 w-auto max-w-sm pointer-events-none">
                     {selectedSatId && visualObjects.find(v => v.id === selectedSatId) ? (
                         (() => {
                             const sat = visualObjects.find(v => v.id === selectedSatId);
@@ -446,23 +446,101 @@ export const OrbitalRadar = () => {
 
                 {/* 4. System Status (Bottom-Right) */}
                 <div className="absolute bottom-4 right-4 z-20 pointer-events-none">
-                    <div className="bg-slate-900/60 backdrop-blur-md rounded-lg p-2 border border-white/5 flex items-center gap-3 text-[10px] font-mono text-slate-400">
-                        <div className="flex items-center gap-1.5">
-                            <span className={`w-1.5 h-1.5 rounded-full ${dataSource === 'mirror' ? 'bg-emerald-500' : 'bg-red-500 animate-pulse'}`}></span>
-                            {dataSource === 'mirror' ? 'CELESTRAK: LIVE' : 'CELESTRAK: OFFLINE'}
+                    <div className="bg-slate-900/60 backdrop-blur-md rounded-lg p-2 border border-white/5 flex items-center gap-2 md:gap-3 text-[8px] md:text-[10px] font-mono text-slate-400">
+                        <div className="flex items-center gap-1 md:gap-1.5">
+                            <span className={`w-1 h-1 md:w-1.5 md:h-1.5 rounded-full ${dataSource === 'mirror' ? 'bg-emerald-500' : 'bg-red-500 animate-pulse'}`}></span>
+                            <span className="line-clamp-1">{dataSource === 'mirror' ? 'LIVE' : 'OFFLINE'}</span>
                         </div>
-                        <div className="w-px h-3 bg-white/10"></div>
+                        <div className="w-px h-2 md:h-3 bg-white/10"></div>
                         <div>OBJ: {visualObjects.length}</div>
                     </div>
                 </div>
 
                 {/* Corner Accents */}
-                <div className="absolute top-0 left-0 w-16 h-16 border-l-2 border-t-2 border-cyan-500/30 rounded-tl-2xl pointer-events-none"></div>
-                <div className="absolute top-0 right-0 w-16 h-16 border-r-2 border-t-2 border-cyan-500/30 rounded-tr-2xl pointer-events-none"></div>
-                <div className="absolute bottom-0 left-0 w-16 h-16 border-l-2 border-b-2 border-cyan-500/30 rounded-bl-2xl pointer-events-none"></div>
-                <div className="absolute bottom-0 right-0 w-16 h-16 border-r-2 border-b-2 border-cyan-500/30 rounded-br-2xl pointer-events-none"></div>
+                <div className="absolute top-0 left-0 w-8 h-8 md:w-16 md:h-16 border-l-2 border-t-2 border-cyan-500/30 rounded-tl-2xl pointer-events-none"></div>
+                <div className="absolute top-0 right-0 w-8 h-8 md:w-16 md:h-16 border-r-2 border-t-2 border-cyan-500/30 rounded-tr-2xl pointer-events-none"></div>
+                <div className="absolute bottom-0 left-0 w-8 h-8 md:w-16 md:h-16 border-l-2 border-b-2 border-cyan-500/30 rounded-bl-2xl pointer-events-none"></div>
+                <div className="absolute bottom-0 right-0 w-8 h-8 md:w-16 md:h-16 border-r-2 border-b-2 border-cyan-500/30 rounded-br-2xl pointer-events-none"></div>
 
             </div >
+
+            {/* 5. Mobile HUD (Outside Radar Container) */}
+            <div className="md:hidden mt-6 w-full max-w-[1200px]">
+                {selectedSatId && visualObjects.find(v => v.id === selectedSatId) ? (
+                    (() => {
+                        const sat = visualObjects.find(v => v.id === selectedSatId);
+                        const satData = satellites.find(s => s.id === selectedSatId);
+                        const pos = sat!.position;
+                        const orbitalParams = satData ? getOrbitalParams(satData.line1, satData.line2) : null;
+
+                        return (
+                            <div className="bg-slate-800/40 backdrop-blur-md border-l-4 border-amber-500 p-5 rounded-xl shadow-2xl animate-in fade-in-up duration-500">
+                                <div className="flex justify-between items-start mb-4">
+                                    <div>
+                                        <div className="text-[10px] text-amber-500 uppercase tracking-widest font-bold mb-1">Target Locked</div>
+                                        <h3 className="text-2xl font-bold text-white">{sat!.name}</h3>
+                                    </div>
+                                    <div className="text-[10px] text-slate-500 font-mono bg-slate-900/50 px-2 py-1 rounded">ID: {sat!.id}</div>
+                                </div>
+
+                                <div className="grid grid-cols-2 gap-4 text-sm font-mono text-slate-300 mb-6">
+                                    <div className="bg-slate-900/40 p-3 rounded-lg border border-white/5">
+                                        <span className="text-slate-500 block text-[10px] uppercase mb-1">Altitude</span>
+                                        <span className="text-white font-bold">{Math.round(pos.height).toLocaleString()}</span> km
+                                    </div>
+                                    <div className="bg-slate-900/40 p-3 rounded-lg border border-white/5">
+                                        <span className="text-slate-500 block text-[10px] uppercase mb-1">Velocity</span>
+                                        <span className="text-white font-bold">{pos.velocity.toFixed(2)}</span> km/s
+                                    </div>
+                                    <div className="bg-slate-900/40 p-3 rounded-lg border border-white/5">
+                                        <span className="text-slate-500 block text-[10px] uppercase mb-1">Azimuth</span>
+                                        <span className="text-white font-bold">{pos.azimuth.toFixed(1)}</span>°
+                                    </div>
+                                    <div className="bg-slate-900/40 p-3 rounded-lg border border-white/5">
+                                        <span className="text-slate-500 block text-[10px] uppercase mb-1">Elevation</span>
+                                        <span className="text-white font-bold">{pos.elevation.toFixed(1)}</span>°
+                                    </div>
+                                </div>
+
+                                {orbitalParams && (
+                                    <div className="grid grid-cols-3 gap-3 text-[10px] text-slate-400 font-mono mb-6 bg-slate-900/20 p-3 rounded-lg">
+                                        <div>
+                                            <span className="block text-slate-600 uppercase text-[8px]">Perigee</span>
+                                            <span className="text-slate-300">{Math.round(orbitalParams.perigee).toLocaleString()} km</span>
+                                        </div>
+                                        <div>
+                                            <span className="block text-slate-600 uppercase text-[8px]">Apogee</span>
+                                            <span className="text-slate-300">{Math.round(orbitalParams.apogee).toLocaleString()} km</span>
+                                        </div>
+                                        <div>
+                                            <span className="block text-slate-600 uppercase text-[8px]">Incl</span>
+                                            <span className="text-slate-300">{orbitalParams.inclination.toFixed(1)}°</span>
+                                        </div>
+                                    </div>
+                                )}
+
+                                <a
+                                    href={`https://www.n2yo.com/satellite/?s=${sat!.id}`}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="w-full flex items-center justify-center gap-2 py-3 bg-cyan-500 hover:bg-cyan-600 text-slate-950 font-bold rounded-lg transition-colors uppercase text-xs tracking-widest shadow-lg shadow-cyan-500/20"
+                                >
+                                    Full Telemetry
+                                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    </svg>
+                                </a>
+                            </div>
+                        );
+                    })()
+                ) : (
+                    <div className="bg-slate-800/20 border border-slate-700/30 p-6 rounded-xl text-center">
+                        <div className="text-xs text-slate-500 uppercase tracking-[0.2em] font-bold mb-2">Targeting System</div>
+                        <div className="text-slate-400 text-sm">Tap a satellite on the radar for telemetry analysis</div>
+                    </div>
+                )}
+            </div>
+
         </div >
     );
 };
