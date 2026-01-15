@@ -270,10 +270,7 @@ export const OrbitalRadar = () => {
 
 
     return (
-        <div className="w-full mx-auto p-4 flex flex-col items-center animate-slide-in">
-            <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-6">
-                Orbital Radar
-            </h2>
+        <div className="w-full mx-auto p-4 flex flex-col items-center animate-slide-in relative">
 
             {/* Screen Reader Only: Live Summary */}
             <div className="sr-only" aria-live="polite">
@@ -282,196 +279,190 @@ export const OrbitalRadar = () => {
                     : 'Searching for satellites...'}
             </div>
 
-            {/* Location Search Control */}
-            <div className="relative w-full max-w-[300px] mb-6 z-20">
-                <div className={`flex items-center bg-slate-800/80 backdrop-blur-md rounded-lg border px-4 py-2 focus-within:ring-2 focus-within:ring-cyan-500/50 transition-all ${gpsError ? 'border-amber-500/50' : 'border-slate-700'}`}>
-                    <svg xmlns="http://www.w3.org/2000/svg" className={`h-5 w-5 mr-2 ${gpsError ? 'text-amber-500' : 'text-slate-400'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        {gpsError ? (
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
-                        ) : (
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        )}
-                        {!gpsError && <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />}
-                    </svg>
-                    <input
-                        type="text"
-                        placeholder={location ? location.name : "Search location..."}
-                        value={query}
-                        onChange={(e) => setQuery(e.target.value)}
-                        onFocus={() => setShowResults(true)}
-                        className="bg-transparent border-none outline-none text-sm text-white placeholder-slate-400 w-full"
-                        aria-label="Search for a location"
-                        aria-expanded={showResults}
-                        aria-controls="location-results"
-                    />
+            {/* Main Radar Container */}
+            <div className="relative w-full max-w-[1200px] aspect-square md:aspect-[16/9] bg-slate-900 border border-slate-700/50 rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/5">
 
-                    {isSearching && <div className="animate-spin h-4 w-4 border-2 border-cyan-500 rounded-full border-t-transparent mr-2"></div>}
+                {/* 1. Header Bar (Glass Overlay) */}
+                <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-slate-900/90 to-transparent z-20 flex items-start justify-between p-4 pointer-events-none">
+                    <div>
+                        <h2 className="text-xl font-bold text-white flex items-center gap-2">
+                            <span className="w-2 h-2 bg-cyan-500 rounded-full animate-pulse shadow-[0_0_8px_rgba(6,182,212,0.8)]"></span>
+                            ORBITAL RADAR
+                        </h2>
+                        <div className="text-[10px] text-cyan-500/70 font-mono tracking-widest uppercase mt-0.5">
+                            Active Sensor Array • {location?.name || 'NO SIGNAL'}
+                        </div>
+                    </div>
 
-                    {/* Manual Detect Button */}
-                    <button
-                        onClick={() => detectLocation()}
-                        disabled={isLocating}
-                        className="p-1.5 rounded-full hover:bg-slate-700 text-slate-400 hover:text-cyan-400 transition-colors ml-2"
-                        title="Auto-Detect Location"
-                    >
-                        {isLocating ? (
-                            <div className="animate-spin h-4 w-4 border-2 border-cyan-500 rounded-full border-t-transparent"></div>
-                        ) : (
-                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                    {/* Search Bar (Floating) */}
+                    <div className="pointer-events-auto">
+                        <div className={`flex items-center bg-slate-800/60 backdrop-blur-md rounded-full border px-3 py-1.5 focus-within:ring-1 focus-within:ring-cyan-500/50 transition-all ${gpsError ? 'border-amber-500/50' : 'border-white/10 hover:border-white/20'}`}>
+                            <svg className={`h-4 w-4 mr-2 ${gpsError ? 'text-amber-500' : 'text-slate-400'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                {gpsError ? (
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                                ) : (
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                )}
                             </svg>
+                            <input
+                                type="text"
+                                placeholder="Locate..."
+                                value={query}
+                                onChange={(e) => setQuery(e.target.value)}
+                                onFocus={() => setShowResults(true)}
+                                className="bg-transparent border-none outline-none text-xs text-white placeholder-slate-500 w-32 focus:w-48 transition-all"
+                            />
+                            {isSearching && <div className="animate-spin h-3 w-3 border-2 border-cyan-500 rounded-full border-t-transparent mr-1"></div>}
+                            {/* GPS Button */}
+                            <button
+                                onClick={() => detectLocation()}
+                                disabled={isLocating}
+                                className="ml-2 p-1 rounded-full hover:bg-white/10 text-slate-400 hover:text-cyan-400 transition-colors"
+                                title="Auto-Detect Location"
+                            >
+                                {isLocating ? (
+                                    <div className="animate-spin h-3 w-3 border-2 border-cyan-500 rounded-full border-t-transparent"></div>
+                                ) : (
+                                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    </svg>
+                                )}
+                            </button>
+                        </div>
+                        {/* Results Dropdown */}
+                        {showResults && searchResults.length > 0 && (
+                            <div className="absolute top-14 right-4 w-64 bg-slate-900/95 border border-slate-700/50 rounded-lg shadow-xl overflow-hidden max-h-60 overflow-y-auto backdrop-blur-xl z-50">
+                                {searchResults.map((res) => (
+                                    <button
+                                        key={res.place_id}
+                                        onClick={() => handleSelectLocation(res)}
+                                        className="w-full text-left px-3 py-2 text-xs text-slate-300 hover:bg-cyan-500/10 hover:text-cyan-400 transition-colors border-b border-white/5 last:border-0"
+                                    >
+                                        {res.display_name}
+                                    </button>
+                                ))}
+                            </div>
                         )}
-                    </button>
+                    </div>
                 </div>
 
-                {/* Results Dropdown */}
-                {showResults && searchResults.length > 0 && (
-                    <div id="location-results" role="listbox" className="absolute top-full left-0 right-0 mt-2 bg-slate-800 border border-slate-700 rounded-lg shadow-xl overflow-hidden max-h-60 overflow-y-auto">
-                        {searchResults.map((res) => (
-                            <button
-                                key={res.place_id}
-                                onClick={() => handleSelectLocation(res)}
-                                className="w-full text-left px-4 py-3 text-sm text-slate-300 hover:bg-slate-700 hover:text-white transition-colors border-b border-slate-700 last:border-0 focus:outline-none focus:bg-slate-700"
-                                role="option"
-                            >
-                                {res.display_name}
-                            </button>
-                        ))}
-                    </div>
-                )}
-            </div>
-
-            <div className="relative w-full aspect-square md:w-[50vw] md:max-w-none max-w-[600px] bg-slate-900/50 rounded-full border border-slate-700/50 backdrop-blur-sm shadow-[0_0_50px_rgba(56,189,248,0.1)] overflow-hidden">
-                {loading || !location ? (
-                    <div className="absolute inset-0 flex items-center justify-center flex-col gap-4 z-10 p-4">
-                        <div className="animate-spin h-6 w-6 border-2 border-cyan-500 rounded-full border-t-transparent"></div>
-                        <div className="text-cyan-400 text-sm text-center">
-                            {!location ? "Detecting Location..." : "Loading Orbital Data..."}
+                {/* 2. Canvas Area */}
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-slate-900/0 via-slate-900/50 to-slate-900">
+                    {loading || !location ? (
+                        <div className="flex items-center justify-center w-full h-full flex-col gap-4">
+                            <div className="animate-spin h-8 w-8 border-2 border-cyan-500 rounded-full border-t-transparent shadow-[0_0_15px_rgba(6,182,212,0.5)]"></div>
+                            <div className="text-cyan-400 text-sm font-mono animate-pulse">
+                                {!location ? "INITIALIZING GPS..." : "ACQUIRING TARGETS..."}
+                            </div>
+                            {!location && (
+                                <button
+                                    onClick={() => setLocation({ name: 'Select Location', lat: 0, lng: 0 })}
+                                    className="px-4 py-1.5 bg-slate-800 border border-slate-600 rounded text-xs text-slate-300 hover:text-white hover:border-cyan-500 transition-colors uppercase tracking-wider"
+                                >
+                                    Manual Override
+                                </button>
+                            )}
                         </div>
-                        {!location && (
-                            <button
-                                onClick={() => setLocation({ name: 'Select Location', lat: 0, lng: 0 })}
-                                className="px-3 py-1 bg-slate-800 border border-slate-700 rounded text-xs text-slate-300 hover:text-white hover:border-cyan-500 transition-colors"
-                            >
-                                Set Manually
-                            </button>
-                        )}
-                    </div>
-                ) : (
-                    <>
+                    ) : (
                         <RadarCanvas
                             objects={visualObjects}
                             onSelect={handleSelectSat}
-                            selectedSatId={selectedSatId} // Updated Prop
-                            orbitPath={orbitPath.filter(p => !p.time || p.time > new Date())} // Filter past points
+                            selectedSatId={selectedSatId}
+                            orbitPath={orbitPath.filter(p => !p.time || p.time > new Date())}
                         />
+                    )}
+                </div>
 
-                    </>
-                )}
-            </div>
+                {/* 3. HUD Overlay (Bottom-Left: Selected Target) */}
+                <div className="absolute bottom-4 left-4 z-20 max-w-sm pointer-events-none">
+                    {selectedSatId && visualObjects.find(v => v.id === selectedSatId) ? (
+                        (() => {
+                            const sat = visualObjects.find(v => v.id === selectedSatId);
+                            const satData = satellites.find(s => s.id === selectedSatId);
+                            const pos = sat!.position;
+                            const orbitalParams = satData ? getOrbitalParams(satData.line1, satData.line2) : null;
 
-            {/* Selected Satellite Data Panel (Always Visible) */}
-            <div className="w-full max-w-[600px] mt-4 p-4 bg-slate-800/80 backdrop-blur-md border border-slate-700/50 rounded-xl shadow-lg transition-all duration-300">
-                {selectedSatId && visualObjects.find(v => v.id === selectedSatId) ? (
-                    (() => {
-                        const sat = visualObjects.find(v => v.id === selectedSatId); // Find by ID
-                        const satData = satellites.find(s => s.id === selectedSatId); // Get full satellite data
-                        const pos = sat!.position;
-                        const orbitalParams = satData ? getOrbitalParams(satData.line1, satData.line2) : null;
+                            return (
+                                <div className="bg-slate-900/80 backdrop-blur-md border-l-2 border-amber-500 p-4 rounded-r-lg shadow-lg animate-in slide-in-from-left-4 duration-300 pointer-events-auto">
+                                    <div className="text-[10px] text-amber-500 uppercase tracking-widest font-bold mb-1">Target Locked</div>
+                                    <h3 className="text-lg font-bold text-white leading-none mb-2">{sat!.name}</h3>
 
-                        return (
-                            <div className="flex flex-col gap-3 animate-in fade-in duration-300">
-                                {/* Header Row */}
-                                <div className="flex flex-row items-center justify-between gap-4">
-                                    <div className="flex-shrink-0">
-                                        <div className="text-[10px] uppercase tracking-widest text-cyan-400 font-semibold mb-1">Target Lock</div>
-                                        <a
-                                            href={`https://www.n2yo.com/satellite/?s=${sat!.id}`}
-                                            target="_blank"
-                                            rel="noreferrer"
-                                            className="group flex items-center gap-2 cursor-pointer"
-                                            title={`View ${sat!.name} on N2YO.com`}
-                                        >
-                                            <span className="text-xl font-bold text-white leading-none truncate max-w-[200px] border-b border-transparent group-hover:border-cyan-500/50 transition-all">
-                                                {sat!.name}
-                                            </span>
-                                            <svg className="w-4 h-4 text-cyan-500 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                    <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-xs font-mono text-slate-300">
+                                        <div>
+                                            <span className="text-slate-500 block text-[9px] uppercase">Altitude</span>
+                                            {Math.round(pos.height).toLocaleString()} km
+                                        </div>
+                                        <div>
+                                            <span className="text-slate-500 block text-[9px] uppercase">Velocity</span>
+                                            {pos.velocity.toFixed(2)} km/s
+                                        </div>
+                                        <div>
+                                            <span className="text-slate-500 block text-[9px] uppercase">Azimuth</span>
+                                            {pos.azimuth.toFixed(1)}°
+                                        </div>
+                                        <div>
+                                            <span className="text-slate-500 block text-[9px] uppercase">Elevation</span>
+                                            {pos.elevation.toFixed(1)}°
+                                        </div>
+                                    </div>
+
+                                    {orbitalParams && (
+                                        <div className="mt-2 pt-2 border-t border-white/10 grid grid-cols-3 gap-2 text-[9px] text-slate-400 font-mono">
+                                            <div>
+                                                <span className="block text-slate-600">PERIGEE</span>
+                                                {Math.round(orbitalParams.perigee).toLocaleString()} km
+                                            </div>
+                                            <div>
+                                                <span className="block text-slate-600">APOGEE</span>
+                                                {Math.round(orbitalParams.apogee).toLocaleString()} km
+                                            </div>
+                                            <div>
+                                                <span className="block text-slate-600">INCL</span>
+                                                {orbitalParams.inclination.toFixed(1)}°
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    <div className="mt-3 pt-2 border-t border-white/10 flex items-center justify-between">
+                                        <div className="text-[9px] text-slate-500">ID: {sat!.id}</div>
+                                        <a href={`https://www.n2yo.com/satellite/?s=${sat!.id}`} target="_blank" rel="noreferrer" className="text-[9px] text-cyan-400 hover:text-white uppercase tracking-wider flex items-center gap-1 group">
+                                            Full Telemetry
+                                            <svg className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                             </svg>
                                         </a>
-                                        <div className="mt-2 text-[10px] text-slate-500 font-mono flex flex-col gap-0.5">
-                                            <span>NORAD ID: <span className="text-slate-300">{sat!.id}</span></span>
-                                            {satData?.cospar && (
-                                                <span>COSPAR: <span className="text-slate-300">{satData.cospar}</span></span>
-                                            )}
-                                            <span className="text-cyan-500/80">{sat!.type}</span>
-                                        </div>
-                                    </div>
-
-                                    <div className="h-10 w-px bg-slate-700/50 hidden sm:block" />
-
-                                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs flex-grow">
-                                        <div>
-                                            <div className="text-slate-500 mb-0.5">Altitude</div>
-                                            <div className="text-slate-200 font-mono text-sm">{Math.round(pos.height).toLocaleString()} <span className="text-[10px] text-slate-500">km</span></div>
-                                        </div>
-                                        <div>
-                                            <div className="text-slate-500 mb-0.5">Velocity</div>
-                                            <div className="text-slate-200 font-mono text-sm">{pos.velocity.toFixed(2)} <span className="text-[10px] text-slate-500">km/s</span></div>
-                                        </div>
-                                        <div>
-                                            <div className="text-slate-500 mb-0.5">Elevation</div>
-                                            <div className="text-slate-200 font-mono text-sm">{pos.elevation.toFixed(1)}°</div>
-                                        </div>
-                                        <div>
-                                            <div className="text-slate-500 mb-0.5">Azimuth</div>
-                                            <div className="text-slate-200 font-mono text-sm">{pos.azimuth.toFixed(1)}°</div>
-                                        </div>
                                     </div>
                                 </div>
-
-                                {/* Orbital Parameters Row */}
-                                {orbitalParams && (
-                                    <div className="pt-2 border-t border-slate-700/30">
-                                        <div className="text-[10px] text-slate-500 mb-1">Orbit</div>
-                                        <div className="text-sm text-slate-300 font-mono">
-                                            {Math.round(orbitalParams.perigee)} × {Math.round(orbitalParams.apogee)} km; {orbitalParams.inclination.toFixed(1)}°
-                                        </div>
-                                    </div>
-                                )}
-                            </div>
-                        );
-                    })()
-                ) : (
-                    <div className="flex flex-col items-center justify-center py-8 text-slate-500 animate-in fade-in duration-300">
-                        <div className="flex items-center gap-2 mb-1">
-                            <div className="w-2 h-2 rounded-full bg-cyan-500/50 animate-pulse"></div>
-                            <span className="text-xs font-medium uppercase tracking-widest">Radar Active</span>
+                            );
+                        })()
+                    ) : (
+                        <div className="bg-slate-900/60 backdrop-blur-sm border-l-2 border-slate-600 p-3 rounded-r-lg">
+                            <div className="text-[10px] text-slate-500 uppercase tracking-widest font-bold">System Ready</div>
+                            <div className="text-xs text-slate-400">Select a target to view telemetry</div>
                         </div>
-                        <p className="text-sm">Select a satellite to view telemetry</p>
-                    </div>
-                )}
-            </div>
+                    )}
+                </div>
 
-            {location && (
-                <div className="mt-4 text-center text-slate-400 text-sm">
-                    <p>Showing {visualObjects.length} bright satellites above <span className="text-cyan-400 font-medium">{location.name}</span>.</p>
-                    <div className="text-xs text-slate-500 mt-1 flex items-center justify-center gap-3">
-                        <span>Lat: {location.lat.toFixed(2)}°</span>
-                        <span>Lng: {location.lng.toFixed(2)}°</span>
-                        <span className="w-px h-3 bg-slate-700"></span>
-                        {/* Status Bubble Indicator */}
-                        <div className="flex items-center gap-1.5" title={dataSource === 'mirror' ? 'Data Source: Primary Mirror (Active)' : 'Data Source: Fallback (Primary Limit Reached)'}>
-                            <span aria-hidden="true">Data: CelesTrak</span>
-                            <span className={`w-2 h-2 rounded-full ${dataSource === 'mirror' ? 'bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.5)]' : 'bg-red-500 animate-pulse shadow-[0_0_8px_rgba(239,68,68,0.5)]'}`}></span>
-                            <span className="sr-only">
-                                {dataSource === 'mirror' ? 'System Status: Nominal, using primary mirror.' : 'System Status: Degraded, using fallback data.'}
-                            </span>
+                {/* 4. System Status (Bottom-Right) */}
+                <div className="absolute bottom-4 right-4 z-20 pointer-events-none">
+                    <div className="bg-slate-900/60 backdrop-blur-md rounded-lg p-2 border border-white/5 flex items-center gap-3 text-[10px] font-mono text-slate-400">
+                        <div className="flex items-center gap-1.5">
+                            <span className={`w-1.5 h-1.5 rounded-full ${dataSource === 'mirror' ? 'bg-emerald-500' : 'bg-red-500 animate-pulse'}`}></span>
+                            {dataSource === 'mirror' ? 'CELESTRAK: LIVE' : 'CELESTRAK: OFFLINE'}
                         </div>
+                        <div className="w-px h-3 bg-white/10"></div>
+                        <div>OBJ: {visualObjects.length}</div>
                     </div>
                 </div>
-            )}
-        </div>
+
+                {/* Corner Accents */}
+                <div className="absolute top-0 left-0 w-16 h-16 border-l-2 border-t-2 border-cyan-500/30 rounded-tl-2xl pointer-events-none"></div>
+                <div className="absolute top-0 right-0 w-16 h-16 border-r-2 border-t-2 border-cyan-500/30 rounded-tr-2xl pointer-events-none"></div>
+                <div className="absolute bottom-0 left-0 w-16 h-16 border-l-2 border-b-2 border-cyan-500/30 rounded-bl-2xl pointer-events-none"></div>
+                <div className="absolute bottom-0 right-0 w-16 h-16 border-r-2 border-b-2 border-cyan-500/30 rounded-br-2xl pointer-events-none"></div>
+
+            </div >
+        </div >
     );
 };

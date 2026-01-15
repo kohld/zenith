@@ -53,7 +53,7 @@ export const MissionDetailModal = ({ mission, updates, timeline, onClose }: Miss
             ></div>
 
             {/* Modal Content */}
-            <div className="relative w-full max-w-2xl bg-slate-900 border border-white/10 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh] animate-in fade-in zoom-in-95 duration-200">
+            <div className="relative w-full max-w-4xl bg-slate-900 border border-white/10 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh] animate-in fade-in zoom-in-95 duration-200">
 
                 {/* Header - Matching Other Modals */}
                 <div className="relative p-6 border-b border-white/5 bg-gradient-to-r from-emerald-900/20 to-slate-900/0">
