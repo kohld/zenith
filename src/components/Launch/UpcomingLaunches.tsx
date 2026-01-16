@@ -8,9 +8,19 @@ interface UpcomingLaunchesProps {
 }
 
 export const UpcomingLaunches = ({ launches, onSelectLaunch }: UpcomingLaunchesProps) => {
+    const list = launches.slice(1, 6); // Show exactly 5 more launches
+
+    if (list.length === 0) {
+        return (
+            <div className="p-8 rounded-xl bg-slate-800/20 border border-dashed border-white/5 flex flex-col items-center justify-center text-center">
+                <span className="text-slate-500 text-xs mb-1 italic">End of filtered schedule</span>
+            </div>
+        );
+    }
+
     return (
-        <div className="flex-grow space-y-4">
-            {launches.slice(1, 6).map((launch) => (
+        <div className={`flex-grow flex flex-col h-full ${list.length === 5 ? 'justify-between' : 'gap-4'}`}>
+            {list.map((launch) => (
                 <div
                     key={launch.id}
                     onClick={() => onSelectLaunch(launch)}
