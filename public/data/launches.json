@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-17T23:35:21.421Z",
+  "updatedAt": "2026-01-18T00:25:37.302Z",
   "launches": [
     {
       "id": "7650a17a-cc52-4597-bd1a-0951d7389a95",
@@ -957,8 +957,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-16T16:41:15Z",
+      "last_updated": "2026-01-18T00:12:18Z",
       "updates": [
+        {
+          "id": 13710,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Jan 18 at 22:06 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-6-100",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-18T00:12:00Z"
+        },
         {
           "id": 13668,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -992,12 +1000,12 @@
           "created_on": "2026-01-08T16:35:00Z"
         }
       ],
-      "net": "2026-01-18T22:04:00Z",
+      "net": "2026-01-18T22:06:10Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-01-19T02:04:00Z",
       "window_start": "2026-01-18T22:04:00Z",
@@ -1325,6 +1333,46 @@
         }
       ],
       "vidURLs": [
+        {
+          "priority": 7,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - Starlink 6-100 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+          "description": "Launch Date:  January 18, 2026\nLaunch Time: 5:04 p.m. EST, 2204 UTC, 23:04 CET\nLaunch Window:  Open until 9:04 p.m. EST\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink 6-100\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1080 - Turnaround 59 days)\nFlight for the Booster: 24\nPrevious Flights of the Booster: 23 -Ax-2, Euclid, Ax-3, CRS-30, SES ASTRA 1P, NG-21, and 17 Starlink missions \nDroneship: A Shortfall Of Gravitas\n\nPrice: $69,75 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nSpaceX’s Falcon...",
+          "feature_image": "https://i.ytimg.com/vi/hx5Zw8HB7xE/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=hx5Zw8HB7xE",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-01-18T21:54:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Falcon 9 launches Starlink 6-100",
+          "description": "Current T0: January 18th at 5:04PM EST (22:04 UTC)\n\nMission: Falcon 9 launch of 29 Starlink v2 Mini satellites into orbit.\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO)\n\n\n⚡ Become a member of NASASpaceflight's channel for exclusive discord access, fast turnaround clips, and other exclusive benefits. Your support helps us continue our 24/7 coverage. ⚡\n\n🔍 If you are interested in using footage captured by this stream, please review our content use policy: https://www.nasaspaceflight.com/content-use-policy/\n\n#SpaceX #Starlink #Falcon9 #Starlink1223 #LEO #SatelliteInternet #SpaceXLaunch #GlobalInternet #HighSpeedInternet #RocketLaunch #StarlinkMission #NextGenSatellites #SpaceTechnology\n\n LDAPAABJRG2UMCU3 ...",
+          "feature_image": "https://i.ytimg.com/vi/wrP2tmrfVzY/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=wrP2tmrfVzY",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-01-18T21:04:00Z",
+          "end_time": null
+        },
         {
           "priority": 10,
           "source": "x.com",
