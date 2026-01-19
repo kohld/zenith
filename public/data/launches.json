@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-19T18:08:18.232Z",
+  "updatedAt": "2026-01-19T18:45:41.539Z",
   "launches": [
     {
       "id": "13979f7e-c835-4813-860f-915c8ce9e784",
@@ -689,7 +689,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-01-19T09:35:39Z",
+      "last_updated": "2026-01-19T18:31:10Z",
       "updates": [
         {
           "id": 13719,
@@ -896,7 +896,15 @@
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 5,
       "pad_turnaround": "P38DT8H48M",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1299,
+          "name": "CZ-12 SatNet LEO Group 19",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/cz-122520satne_mission_patch_20260119183106.png",
+          "agency": null
+        }
+      ],
       "type": "detailed"
     },
     {
