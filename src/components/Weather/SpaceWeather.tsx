@@ -22,7 +22,8 @@ export const SpaceWeather = () => {
 
 
     useEffect(() => {
-        fetch(`${import.meta.env.BASE_URL}data/aurora.json`)
+        const cacheBuster = Date.now();
+        fetch(`${import.meta.env.BASE_URL}data/aurora.json?t=${cacheBuster}`)
             .then(res => res.json())
             .then(data => {
                 setForecastData(data);
@@ -63,6 +64,25 @@ export const SpaceWeather = () => {
     const threshold = location ? getVisibilityThreshold(location.lat) : 5;
     const isVisibleNow = currentKp ? currentKp.kp >= threshold : false;
 
+    const groupedForecast = useMemo(() => {
+        if (!forecastData) return {};
+        
+        const now = new Date();
+        const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        
+        return forecastData.forecast.reduce((acc, entry) => {
+            const entryDate = new Date(entry.time);
+            const dateKey = entry.time.split(' ')[0];
+            
+            // Only include entries from today onwards
+            if (entryDate >= today) {
+                if (!acc[dateKey]) acc[dateKey] = [];
+                acc[dateKey].push(entry);
+            }
+            return acc;
+        }, {} as Record<string, KpEntry[]>);
+    }, [forecastData]);
+
     // Search Logic (Subset of OrbitalRadar logic for consistency)
     useEffect(() => {
         if (query.length < 3) {
@@ -100,14 +120,6 @@ export const SpaceWeather = () => {
 
 
     if (loading) return <div className="flex items-center justify-center h-64"><div className="animate-spin h-8 w-8 border-2 border-emerald-500 rounded-full border-t-transparent"></div></div>;
-
-    const groupedForecast = forecastData ? forecastData.forecast.reduce((acc, entry) => {
-        const date = entry.time.split(' ')[0];
-        if (!acc[date]) acc[date] = [];
-        acc[date].push(entry);
-        return acc;
-    }, {} as Record<string, KpEntry[]>) : {};
-
 
     return (
         <div className="w-full max-w-5xl mx-auto p-4 flex flex-col items-center animate-slide-in">
@@ -236,7 +248,7 @@ export const SpaceWeather = () => {
 
             <div className="mt-12 w-full h-px bg-white/5"></div>
             <div className="mt-6 text-[10px] text-slate-500 font-mono text-center">
-                DATA SOURCE: NOAA SPACE WEATHER PREDICTION CENTER (SWPC) • UPDATED: {new Date(forecastData?.updatedAt || '').toLocaleString()}
+                DATA SOURCE: NOAA SPACE WEATHER PREDICTION CENTER (SWPC) • UPDATED: {forecastData?.updatedAt ? new Date(forecastData.updatedAt).toLocaleString() : 'N/A'}
             </div>
         </div>
     );
