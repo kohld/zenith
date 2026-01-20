@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-20T11:07:33.562Z",
+  "updatedAt": "2026-01-20T11:38:27.686Z",
   "launches": [
     {
       "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
@@ -14,7 +14,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-16T12:02:10Z",
+      "last_updated": "2026-01-20T11:27:36Z",
       "updates": [
         {
           "id": 13665,
@@ -260,7 +260,7 @@
           "id": 1298,
           "name": "Onward and Upward Patch",
           "priority": 10,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/onward2520and_mission_patch_20260116120108.png",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/onward2520and_mission_patch_20260120112758.png",
           "agency": {
             "id": 1046,
             "url": "https://ll.thespacedevs.com/2.2.0/agencies/1046/",
@@ -843,7 +843,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-16T16:20:03Z",
+      "last_updated": "2026-01-20T11:26:21Z",
       "updates": [
         {
           "id": 13667,
@@ -1642,7 +1642,25 @@
         "total_launch_count": 37,
         "orbital_launch_attempt_count": 0
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": null,
+          "title": null,
+          "description": null,
+          "feature_image": null,
+          "url": "https://www.blueorigin.com/news/new-shepard-ns-38-mission",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
@@ -1658,7 +1676,20 @@
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
       "pad_turnaround": "P33DT15M",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1300,
+          "name": "NS-38 Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/ns-382520patch_mission_patch_20260120112617.png",
+          "agency": {
+            "id": 141,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/141/",
+            "name": "Blue Origin",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
