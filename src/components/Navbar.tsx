@@ -1,8 +1,8 @@
 
 
 interface NavbarProps {
-    currentView: 'orbital' | 'deepspace' | 'gateway';
-    onViewChange: (view: 'orbital' | 'deepspace' | 'gateway') => void;
+    currentView: 'orbital' | 'deepspace' | 'gateway' | 'weather';
+    onViewChange: (view: 'orbital' | 'deepspace' | 'gateway' | 'weather') => void;
 }
 
 export const Navbar = ({ currentView, onViewChange }: NavbarProps) => {
@@ -22,6 +22,16 @@ export const Navbar = ({ currentView, onViewChange }: NavbarProps) => {
                             >
                                 <span className="md:hidden">Orbital</span>
                                 <span className="hidden md:inline">Orbital Radar</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button
+                                onClick={() => onViewChange('weather')}
+                                className={`text-base md:text-lg font-semibold py-1 px-2 md:py-2 rounded md:p-0 transition-colors ${currentView === 'weather' ? 'text-emerald-400' : 'text-slate-300 hover:text-white'}`}
+                                aria-current={currentView === 'weather' ? 'page' : undefined}
+                            >
+                                <span className="md:hidden">Weather</span>
+                                <span className="hidden md:inline">Space Weather</span>
                             </button>
                         </li>
                         <li>

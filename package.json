@@ -29,7 +29,10 @@
     "start": "vite",
     "build": "tsc -b && vite build",
     "type-check": "tsc --noEmit",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "data:fetch-launches": "bun scripts/fetch-launches.ts",
+    "data:fetch-aurora": "bun scripts/fetch-aurora.ts",
+    "data:sync": "bun run data:fetch-launches && bun run data:fetch-aurora"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.18",

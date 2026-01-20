@@ -1,0 +1,43 @@
+name: Update Aurora Forecast
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Run every 12 hours
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-aurora:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install --frozen-lockfile
+
+      - name: Fetch Aurora Data
+        run: bun run scripts/fetch-aurora.ts
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check if there are changes
+          if git diff --quiet public/data/aurora.json; then
+            echo "No changes in aurora forecast data."
+          else
+            git add public/data/aurora.json
+            git commit -m "[CHORE] Update aurora forecast data
+            - Sync with NOAA Space Weather API
+            - Automated update via GitHub Action"
+            git push
+          fi

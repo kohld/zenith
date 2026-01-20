@@ -429,3 +429,18 @@ export interface LaunchData {
     updatedAt: string;
     launches: Launch[];
 }
+
+/**
+ * Aurora and Space Weather Data
+ */
+export interface KpEntry {
+    time: string;
+    kp: number;
+    status: 'observed' | 'estimated' | 'predicted';
+    scale: string | null;
+}
+
+export interface AuroraForecast {
+    updatedAt: string;
+    forecast: KpEntry[];
+}
