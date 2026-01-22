@@ -32,7 +32,8 @@
     "preview": "vite preview",
     "data:fetch-launches": "bun scripts/fetch-launches.ts",
     "data:fetch-aurora": "bun scripts/fetch-aurora.ts",
-    "data:sync": "bun run data:fetch-launches && bun run data:fetch-aurora"
+    "data:sync": "bun run data:fetch-launches && bun run data:fetch-aurora",
+    "agent:run": "bun agents/zenith-intelligence-agent.ts"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.18",
@@ -47,6 +48,7 @@
     "vite": "^7.2.4"
   },
   "dependencies": {
+    "openai": "^4.77.0",
     "pigeon-maps": "^0.22.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",

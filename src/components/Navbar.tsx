@@ -1,15 +1,15 @@
 
 
 interface NavbarProps {
-    currentView: 'orbital' | 'deepspace' | 'gateway' | 'weather';
-    onViewChange: (view: 'orbital' | 'deepspace' | 'gateway' | 'weather') => void;
+    currentView: 'dashboard' | 'orbital' | 'deepspace' | 'gateway' | 'weather';
+    onViewChange: (view: 'dashboard' | 'orbital' | 'deepspace' | 'gateway' | 'weather') => void;
 }
 
 export const Navbar = ({ currentView, onViewChange }: NavbarProps) => {
     return (
         <nav className="fixed w-full z-50 top-0 start-0 border-b border-white/10 bg-slate-900/80 backdrop-blur-md" aria-label="Main Navigation">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-                <a href="#" onClick={(e) => { e.preventDefault(); onViewChange('orbital'); }} className="flex items-center space-x-3 rtl:space-x-reverse">
+                <a href="#" onClick={(e) => { e.preventDefault(); onViewChange('dashboard'); }} className="flex items-center space-x-3 rtl:space-x-reverse">
                     <span className="self-center text-2xl font-bold whitespace-nowrap bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Zenith</span>
                 </a>
                 <div className="flex md:w-auto items-center gap-4" id="navbar-default">

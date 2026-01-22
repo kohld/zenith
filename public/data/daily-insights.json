@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-01-22T09:18:30.933Z",
+  "daily_summary": {
+    "headline": "Exciting Day in Space: Rocket Launches and Aurora Opportunities",
+    "top_events": [
+      {
+        "rank": 1,
+        "title": "Rocket Lab's Electron Launch",
+        "description": "Launch of the first two satellites for Open Cosmos' LEO broadband constellation.",
+        "importance": 5,
+        "date": "2026-01-22T10:52:00Z",
+        "type": "launch",
+        "action": "Watch live stream for best experience."
+      },
+      {
+        "rank": 2,
+        "title": "Blue Origin's New Shepard Crewed Flight",
+        "description": "Suborbital flight with six private astronauts onboard.",
+        "importance": 5,
+        "date": "2026-01-22T16:00:00Z",
+        "type": "launch",
+        "action": "Follow live updates and watch the landing."
+      },
+      {
+        "rank": 3,
+        "title": "Aurora Viewing Opportunity",
+        "description": "Potential G1 geomagnetic storm with aurora visibility at high latitudes.",
+        "importance": 4.67,
+        "date": "2026-01-22",
+        "type": "aurora",
+        "action": "Check sky conditions if you're at high latitudes."
+      }
+    ],
+    "statistics": {
+      "total_launches_this_week": 5,
+      "crewed_missions": 1,
+      "historic_events": 0,
+      "aurora_opportunities": 1
+    }
+  },
+  "alerts": [],
+  "aurora_insights": {
+    "opportunities": [
+      {
+        "date": "2026-01-22",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-01-22 12:00:00",
+          "end": "2026-01-22 12:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-01-22",
+      "time": "12:00-12:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
+    },
+    "total_viewing_hours": 0
+  },
+  "special_events": [],
+  "agent_metadata": {
+    "model": "gpt-4o",
+    "total_launches_analyzed": 5,
+    "total_aurora_entries_analyzed": 21,
+    "processing_time_seconds": 0,
+    "iterations": 2
+  }
+}

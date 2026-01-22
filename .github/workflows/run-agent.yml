@@ -1,0 +1,56 @@
+name: Run Zenith Intelligence Agent
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # Every 12 hours
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+      
+      - name: Install dependencies
+        run: bun install
+      
+      - name: Run Zenith Intelligence Agent
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: bun run agents/zenith-intelligence-agent.ts
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code public/data/daily-insights.json || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --exit-code public/data/enriched-launches.json || echo "changed=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push enriched data
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add public/data/daily-insights.json
+          git add public/data/enriched-launches.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "[AGENT] Update enriched data - $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+      
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: agent-output
+          path: |
+            public/data/daily-insights.json
+            public/data/enriched-launches.json
+          retention-days: 7
