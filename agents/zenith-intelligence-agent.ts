@@ -8,6 +8,8 @@ const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY
 });
 
+const MODEL_NAME = process.env.MODEL_NAME || 'gpt-4.1';
+
 const tools = [
     analyzeLaunchTool,
     evaluateAuroraTool,
@@ -106,7 +108,7 @@ Return JSON: {enrichedLaunches, auroraInsights, dailySummary, alerts, specialEve
         ];
         
         let response = await openai.chat.completions.create({
-            model: 'gpt-4o',
+            model: MODEL_NAME,
             messages,
             tools: tools.map(t => ({ type: 'function' as const, function: t })),
             tool_choice: 'auto',
@@ -167,7 +169,7 @@ Return JSON: {enrichedLaunches, auroraInsights, dailySummary, alerts, specialEve
             }
             
             response = await openai.chat.completions.create({
-                model: 'gpt-4o',
+                model: MODEL_NAME,
                 messages,
                 tools: tools.map(t => ({ type: 'function' as const, function: t })),
                 tool_choice: 'auto',
@@ -213,7 +215,7 @@ Return JSON: {enrichedLaunches, auroraInsights, dailySummary, alerts, specialEve
             },
             special_events: enrichedData.specialEvents || [],
             agent_metadata: {
-                model: 'gpt-4o',
+                model: MODEL_NAME,
                 total_launches_analyzed: upcomingLaunches.length,
                 total_aurora_entries_analyzed: relevantAuroraData.length,
                 processing_time_seconds: 0,
