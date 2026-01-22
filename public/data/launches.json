@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-22T02:47:13.648Z",
+  "updatedAt": "2026-01-22T03:36:12.958Z",
   "launches": [
     {
       "id": "18292387-fbeb-43ac-97a0-1ade50bd68f1",
@@ -14,8 +14,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-22T01:28:37Z",
+      "last_updated": "2026-01-22T03:33:49Z",
       "updates": [
+        {
+          "id": 13743,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Jan 22 at 04:51 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-30",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-22T03:33:00Z"
+        },
+        {
+          "id": 13742,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.spacex.com/launches/sl-17-30",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-22T03:07:00Z"
+        },
         {
           "id": 13740,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -49,7 +65,7 @@
           "created_on": "2026-01-08T22:09:00Z"
         }
       ],
-      "net": "2026-01-22T04:09:00Z",
+      "net": "2026-01-22T04:51:09Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -383,6 +399,46 @@
       ],
       "vidURLs": [
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - Starlink 17-30 - SLC-4E - Vandenberg SFB - Space Affairs Live",
+          "description": "Launch Date: January 21, 2026\nLaunch Time: 8:09 p.m. PST (January 22, 0409 UTC, 05:09 CET)\nLaunch Window: Open 10:43 p.m. PST\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled\n\nMission: Starlink Group 17-30\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1093 - Turnaround time 40 days)\nFlight for the Booster: 10\nPrevious Flights of the Booster: 9 - SDA T1TL-B, SDA T1TL-C, and seven Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $69,75 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nSpaceX’s Falcon 9 is ta...",
+          "feature_image": "https://i.ytimg.com/vi/_-1AZpYZ9s8/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=_-1AZpYZ9s8",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-01-22T03:59:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Watch Live: SpaceX to launch 25 Starlink satellites on Falcon 9 rocket from Vandenberg, California",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 25 Starlink v2 mini internet relay satellites. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Wednesday, Jan. 21 at 8:51 p.m. PST (11:51 p.m. EST / 0451 UTC).\n\nThe first-stage booster, tail number B1093, launching for a tenth time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-30 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.co...",
+          "feature_image": "https://i.ytimg.com/vi/cmsTf8XwhlQ/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=cmsTf8XwhlQ",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-01-22T04:21:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -399,7 +455,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-01-22T04:02:00Z",
+          "start_time": "2026-01-22T04:44:00Z",
           "end_time": "2026-01-22T10:02:00Z"
         }
       ],
@@ -6105,11 +6161,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7203,
+      "orbital_launch_attempt_count": 7202,
       "location_launch_attempt_count": 859,
       "pad_launch_attempt_count": 245,
       "agency_launch_attempt_count": 635,
-      "orbital_launch_attempt_count_year": 30,
+      "orbital_launch_attempt_count_year": 29,
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 7,
       "agency_launch_attempt_count_year": 16,
@@ -7992,15 +8048,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton-m_image_20191211081456.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7207,
+      "orbital_launch_attempt_count": 7206,
       "location_launch_attempt_count": 1560,
       "pad_launch_attempt_count": 93,
       "agency_launch_attempt_count": 198,
-      "orbital_launch_attempt_count_year": 34,
+      "orbital_launch_attempt_count_year": 33,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P1102DT14H47M8S",
+      "pad_turnaround": "P1102DT23H43M8S",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -9041,11 +9097,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kairos_image_20240216144656.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7209,
+      "orbital_launch_attempt_count": 7208,
       "location_launch_attempt_count": 3,
       "pad_launch_attempt_count": 3,
       "agency_launch_attempt_count": 3,
-      "orbital_launch_attempt_count_year": 36,
+      "orbital_launch_attempt_count_year": 35,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -20056,8 +20112,8 @@
             "previous_flight": null
           },
           {
-            "id": 870,
-            "type": "Core",
+            "id": 871,
+            "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
@@ -20080,8 +20136,8 @@
             "previous_flight": null
           },
           {
-            "id": 871,
-            "type": "Strap-On Booster",
+            "id": 870,
+            "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
