@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-22T15:10:09.366Z",
+  "updatedAt": "2026-01-22T15:43:49.935Z",
   "launches": [
     {
       "id": "18292387-fbeb-43ac-97a0-1ade50bd68f1",
@@ -1129,7 +1129,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-21T19:59:10Z",
+      "last_updated": "2026-01-22T15:18:19Z",
       "updates": [
         {
           "id": 13736,
@@ -1271,27 +1271,27 @@
           {
             "id": 873,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 17,
             "launcher": {
-              "id": 144,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/144/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown NS",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/none_image_20231212212416.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 90,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/90/",
+              "details": "New Shepard vehicle #4 is the fourth flight vehicle of the New Shepard suborbital rocket. It was used for Blue Origin's first crewed launches.",
+              "flight_proven": true,
+              "serial_number": "NS-4",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/90_image_20210412202510.jpeg",
+              "successful_landings": 16,
+              "attempted_landings": 16,
+              "flights": 16,
+              "last_launch_date": "2025-10-08T13:40:27Z",
+              "first_launch_date": "2021-01-14T17:19:00Z"
             },
             "landing": {
               "id": 1766,
               "attempt": true,
               "success": null,
-              "description": "The New Shepard booster will land back on the landing pad.",
+              "description": "The New Shepard booster NS-4 will land back on the landing pad.",
               "downrange_distance": 3.2,
               "location": {
                 "id": 11,
@@ -1318,9 +1318,12 @@
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-10-08T13:40:27Z",
+            "turn_around_time_days": 106,
+            "previous_flight": {
+              "id": "a7d60abb-c22d-41fe-9c17-35dbdd7f8029",
+              "name": "New Shepard | NS-36"
+            }
           }
         ],
         "spacecraft_stage": {
@@ -1802,21 +1805,21 @@
             }
           ],
           "spacecraft": {
-            "id": 608,
-            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/608/",
-            "name": "Unknown RSS",
-            "serial_number": "TBD",
+            "id": 453,
+            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/453/",
+            "name": "RSS First Step",
+            "serial_number": "2.0-2",
             "is_placeholder": false,
             "in_space": false,
-            "time_in_space": "P0D",
+            "time_in_space": "PT2H32M50S",
             "time_docked": "P0D",
-            "flights_count": 0,
-            "mission_ends_count": 0,
+            "flights_count": 15,
+            "mission_ends_count": 15,
             "status": {
               "id": 1,
               "name": "Active"
             },
-            "description": "The specific spacecraft for this launch is currently unknown.",
+            "description": "First Blue Origin New Shepard Crew Capsule 2.0 to carry human passengers. This capsule is outfitted with improvements to environmental features such as acoustics and temperature regulation inside the capsule, crew display panels, and speakers with a microphone and push-to-talk button at each seat.",
             "spacecraft_config": {
               "id": 21,
               "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/21/",
@@ -1864,7 +1867,7 @@
             "id": 1767,
             "attempt": true,
             "success": null,
-            "description": "The RSS capsule will land at Blue Origin's Corn Ranch facility.",
+            "description": "The RSS First Step capsule will land at Blue Origin's Corn Ranch facility.",
             "downrange_distance": null,
             "location": {
               "id": 28,
@@ -1955,8 +1958,29 @@
           }
         }
       ],
-      "vidURLs": [],
-      "webcast_live": false,
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Blue Origin",
+          "title": "New Shepard Mission NS-38 Webcast",
+          "description": "Blue Origin’s 38th New Shepard flight and 17th crewed mission will liftoff from Launch Site One in West Texas on Thursday, Jan. 22.\nLearn more: https://www.blueorigin.com/news/new-shepard-ns-38-mission",
+          "feature_image": "https://i.ytimg.com/vi/-T_hA6mPiIY/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=-T_hA6mPiIY",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-01-22T15:16:02Z",
+          "end_time": null
+        }
+      ],
+      "webcast_live": true,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
       "infographic": null,
@@ -2553,13 +2577,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | GPS III SV09",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-20T19:33:08Z",
+      "last_updated": "2026-01-22T15:39:55Z",
       "updates": [
+        {
+          "id": 13755,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/gpsiii9",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-22T15:39:00Z"
+        },
         {
           "id": 13723,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -2617,15 +2649,15 @@
           "created_on": "2023-06-09T14:03:02Z"
         }
       ],
-      "net": "2026-01-26T04:38:00Z",
+      "net": "2026-01-26T04:46:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-01-26T05:56:00Z",
-      "window_start": "2026-01-26T04:38:00Z",
+      "window_end": "2026-01-26T05:01:00Z",
+      "window_start": "2026-01-26T04:46:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -2811,35 +2843,35 @@
           {
             "id": 875,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 5,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 197,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/197/",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1096",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1096_landing_a_image_20251219190526.jpg",
+              "successful_landings": 4,
+              "attempted_landings": 4,
+              "flights": 4,
+              "last_launch_date": "2025-12-09T19:16:25Z",
+              "first_launch_date": "2025-07-16T06:30:00Z"
             },
             "landing": {
               "id": 1799,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on one of two East Coast ASDS after its flight.",
+              "description": "The Falcon 9 first stage B1096 will land on ASDS ASOG after its 5th flight.",
               "downrange_distance": 570,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 140
               },
               "type": {
                 "id": 1,
@@ -2848,9 +2880,12 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2025-12-09T19:16:25Z",
+            "turn_around_time_days": 47,
+            "previous_flight": {
+              "id": "c203e807-0955-4e32-abfe-d5c71cdf5c31",
+              "name": "Falcon 9 Block 5 | NROL-77"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -2927,7 +2962,25 @@
         "total_launch_count": 359,
         "orbital_launch_attempt_count": 359
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/gpsiii9",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
@@ -2967,7 +3020,7 @@
       "location_launch_attempt_count_year": 6,
       "pad_launch_attempt_count_year": 6,
       "agency_launch_attempt_count_year": 11,
-      "pad_turnaround": "P7DT5H6M20S",
+      "pad_turnaround": "P7DT5H14M20S",
       "mission_patches": [],
       "type": "detailed"
     },
