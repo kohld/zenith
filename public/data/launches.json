@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-22T16:09:42.695Z",
+  "updatedAt": "2026-01-22T16:45:48.793Z",
   "launches": [
     {
       "id": "18292387-fbeb-43ac-97a0-1ade50bd68f1",
@@ -1124,13 +1124,29 @@
       "r_spacex_api_id": null,
       "name": "New Shepard | NS-38",
       "status": {
-        "id": 5,
-        "name": "On Hold",
-        "abbrev": "Hold",
-        "description": "The countdown has been paused, but the launch can still happen within the launch window."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
       },
-      "last_updated": "2026-01-22T16:03:47Z",
+      "last_updated": "2026-01-22T16:26:19Z",
       "updates": [
+        {
+          "id": 13760,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://www.youtube.com/watch?v=-T_hA6mPiIY",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-22T16:26:00Z"
+        },
+        {
+          "id": 13759,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.youtube.com/watch?v=-T_hA6mPiIY",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-22T16:24:00Z"
+        },
         {
           "id": 13758,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1180,7 +1196,7 @@
           "created_on": "2026-01-09T22:00:00Z"
         }
       ],
-      "net": "2026-01-22T16:05:00Z",
+      "net": "2026-01-22T16:25:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
@@ -1208,15 +1224,15 @@
         "launchers": "New Shepard | New Glenn",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 39,
+        "total_launch_count": 40,
         "consecutive_successful_launches": 16,
         "successful_launches": 38,
         "failed_launches": 1,
-        "pending_launches": 6,
-        "consecutive_successful_landings": 10,
+        "pending_launches": 5,
+        "consecutive_successful_landings": 0,
         "successful_landings": 36,
         "failed_landings": 3,
-        "attempted_landings": 39,
+        "attempted_landings": 40,
         "info_url": "https://www.blueorigin.com/",
         "wiki_url": "https://en.wikipedia.org/wiki/Blue_Origin",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_logo_20190207032427.png",
@@ -1248,15 +1264,15 @@
             "launchers": "New Shepard | New Glenn",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 39,
+            "total_launch_count": 40,
             "consecutive_successful_launches": 16,
             "successful_launches": 38,
             "failed_launches": 1,
-            "pending_launches": 6,
-            "consecutive_successful_landings": 10,
+            "pending_launches": 5,
+            "consecutive_successful_landings": 0,
             "successful_landings": 36,
             "failed_landings": 3,
-            "attempted_landings": 39,
+            "attempted_landings": 40,
             "info_url": "https://www.blueorigin.com/",
             "wiki_url": "https://en.wikipedia.org/wiki/Blue_Origin",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_logo_20190207032427.png",
@@ -1281,15 +1297,15 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new2520shepard_image_20190207032624.jpeg",
           "info_url": "https://www.blueorigin.com/new-shepard/",
           "wiki_url": "https://en.wikipedia.org/wiki/New_Shepard",
-          "total_launch_count": 37,
+          "total_launch_count": 38,
           "consecutive_successful_launches": 14,
           "successful_launches": 36,
           "failed_launches": 1,
-          "pending_launches": 1,
-          "attempted_landings": 37,
-          "successful_landings": 35,
+          "pending_launches": 0,
+          "attempted_landings": 38,
+          "successful_landings": 36,
           "failed_landings": 2,
-          "consecutive_successful_landings": 14
+          "consecutive_successful_landings": 15
         },
         "launcher_stage": [
           {
@@ -1305,17 +1321,17 @@
               "serial_number": "NS-4",
               "status": "active",
               "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/90_image_20210412202510.jpeg",
-              "successful_landings": 16,
+              "successful_landings": 17,
               "attempted_landings": 17,
               "flights": 16,
-              "last_launch_date": "2026-01-22T16:05:00Z",
+              "last_launch_date": "2026-01-22T16:25:00Z",
               "first_launch_date": "2021-01-14T17:19:00Z"
             },
             "landing": {
               "id": 1766,
               "attempt": true,
-              "success": null,
-              "description": "The New Shepard booster NS-4 will land back on the landing pad.",
+              "success": true,
+              "description": "The New Shepard booster NS-4 has landed back on the landing pad.",
               "downrange_distance": 3.2,
               "location": {
                 "id": 11,
@@ -1330,8 +1346,8 @@
                   "description": "Corn Ranch, commonly referred to as Launch Site One (LSO), is a spaceport owned and operated by Blue Origin which is located approximately 30 miles north of the town of Van Horn, Texas, United States.",
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_29_20200803142436.jpg",
                   "timezone_name": "America/Chicago",
-                  "total_launch_count": 37,
-                  "total_landing_count": 37
+                  "total_launch_count": 38,
+                  "total_landing_count": 38
                 },
                 "successful_landings": 32
               },
@@ -1371,8 +1387,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M50S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1391,8 +1407,8 @@
                 "bio": "International real estate developer and investor",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/alain_fernandez_image_20260116170455.jpg",
                 "wiki": null,
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             },
             {
@@ -1410,8 +1426,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M51S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1430,8 +1446,8 @@
                 "bio": "Entrepreneur, technologist, and world traveler.",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/alberto_guti25_image_20260116170918.jpg",
                 "wiki": null,
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             },
             {
@@ -1449,8 +1465,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M52S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1469,8 +1485,8 @@
                 "bio": "Retired U.S. Air Force Colonel, former F-15 fighter pilot, and past Commander of the 157th Combat Operations Squadron, with multiple overseas combat deployments",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jim_hendren_por_image_20260116171206.jpg",
                 "wiki": "https://en.wikipedia.org/wiki/Jim_Hendren",
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             },
             {
@@ -1488,8 +1504,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M53S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1508,8 +1524,8 @@
                 "bio": "Blue Origin’s Director of New Shepard Launch Operations, with a B.S. in Engineering Physics from the University of Kansas and a Ph.D. from the University of Colorado at Boulder in Aerospace Engineering Sciences in the Astrodynamics and Satellite Navigation focus area.",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/laura_stiles_po_image_20260120194708.jpg",
                 "wiki": null,
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             },
             {
@@ -1527,8 +1543,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M49S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1547,8 +1563,8 @@
                 "bio": "Retired board-certified obstetrician/gynecologist.",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/linda_edwards_p_image_20260116170251.jpg",
                 "wiki": null,
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             },
             {
@@ -1566,8 +1582,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M47S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1586,8 +1602,8 @@
                 "bio": "Former owner and CEO of Ace Asphalt",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/timothy_drexler_image_20260116165921.jpg",
                 "wiki": null,
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             }
           ],
@@ -1608,8 +1624,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M50S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1628,8 +1644,8 @@
                 "bio": "International real estate developer and investor",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/alain_fernandez_image_20260116170455.jpg",
                 "wiki": null,
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             },
             {
@@ -1647,8 +1663,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M51S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1667,8 +1683,8 @@
                 "bio": "Entrepreneur, technologist, and world traveler.",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/alberto_guti25_image_20260116170918.jpg",
                 "wiki": null,
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             },
             {
@@ -1686,8 +1702,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M52S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1706,8 +1722,8 @@
                 "bio": "Retired U.S. Air Force Colonel, former F-15 fighter pilot, and past Commander of the 157th Combat Operations Squadron, with multiple overseas combat deployments",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jim_hendren_por_image_20260116171206.jpg",
                 "wiki": "https://en.wikipedia.org/wiki/Jim_Hendren",
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             },
             {
@@ -1725,8 +1741,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M53S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1745,8 +1761,8 @@
                 "bio": "Blue Origin’s Director of New Shepard Launch Operations, with a B.S. in Engineering Physics from the University of Kansas and a Ph.D. from the University of Colorado at Boulder in Aerospace Engineering Sciences in the Astrodynamics and Satellite Navigation focus area.",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/laura_stiles_po_image_20260120194708.jpg",
                 "wiki": null,
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             },
             {
@@ -1764,8 +1780,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M49S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1784,8 +1800,8 @@
                 "bio": "Retired board-certified obstetrician/gynecologist.",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/linda_edwards_p_image_20260116170251.jpg",
                 "wiki": null,
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             },
             {
@@ -1803,8 +1819,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": false,
-                "time_in_space": "P0D",
+                "in_space": true,
+                "time_in_space": "PT13M47S",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1823,8 +1839,8 @@
                 "bio": "Former owner and CEO of Ace Asphalt",
                 "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/timothy_drexler_image_20260116165921.jpg",
                 "wiki": null,
-                "last_flight": null,
-                "first_flight": null
+                "last_flight": "2026-01-22T16:25:00Z",
+                "first_flight": "2026-01-22T16:25:00Z"
               }
             }
           ],
@@ -1834,10 +1850,10 @@
             "name": "RSS First Step",
             "serial_number": "2.0-2",
             "is_placeholder": false,
-            "in_space": false,
-            "time_in_space": "PT2H32M50S",
+            "in_space": true,
+            "time_in_space": "PT2H46M6S",
             "time_docked": "P0D",
-            "flights_count": 15,
+            "flights_count": 16,
             "mission_ends_count": 15,
             "status": {
               "id": 1,
@@ -1890,8 +1906,8 @@
           "landing": {
             "id": 1767,
             "attempt": true,
-            "success": null,
-            "description": "The RSS First Step capsule will land at Blue Origin's Corn Ranch facility.",
+            "success": true,
+            "description": "The RSS First Step capsule has landed at Blue Origin's Corn Ranch facility.",
             "downrange_distance": null,
             "location": {
               "id": 28,
@@ -1906,8 +1922,8 @@
                 "description": "Corn Ranch, commonly referred to as Launch Site One (LSO), is a spaceport owned and operated by Blue Origin which is located approximately 30 miles north of the town of Van Horn, Texas, United States.",
                 "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_29_20200803142436.jpg",
                 "timezone_name": "America/Chicago",
-                "total_launch_count": 37,
-                "total_landing_count": 37
+                "total_launch_count": 38,
+                "total_landing_count": 38
               },
               "successful_landings": 40
             },
@@ -1955,12 +1971,12 @@
           "description": "Corn Ranch, commonly referred to as Launch Site One (LSO), is a spaceport owned and operated by Blue Origin which is located approximately 30 miles north of the town of Van Horn, Texas, United States.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_29_20200803142436.jpg",
           "timezone_name": "America/Chicago",
-          "total_launch_count": 37,
-          "total_landing_count": 37
+          "total_launch_count": 38,
+          "total_landing_count": 38
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_90_20200803143233.jpg",
-        "total_launch_count": 37,
+        "total_launch_count": 38,
         "orbital_launch_attempt_count": 0
       },
       "infoURLs": [
@@ -2017,7 +2033,7 @@
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P33DT1H50M",
+      "pad_turnaround": "P33DT2H10M",
       "mission_patches": [
         {
           "id": 1300,
@@ -9422,15 +9438,15 @@
         "launchers": "New Shepard | New Glenn",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 39,
+        "total_launch_count": 40,
         "consecutive_successful_launches": 16,
         "successful_launches": 38,
         "failed_launches": 1,
-        "pending_launches": 6,
-        "consecutive_successful_landings": 10,
+        "pending_launches": 5,
+        "consecutive_successful_landings": 0,
         "successful_landings": 36,
         "failed_landings": 3,
-        "attempted_landings": 39,
+        "attempted_landings": 40,
         "info_url": "https://www.blueorigin.com/",
         "wiki_url": "https://en.wikipedia.org/wiki/Blue_Origin",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_logo_20190207032427.png",
@@ -9462,15 +9478,15 @@
             "launchers": "New Shepard | New Glenn",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 39,
+            "total_launch_count": 40,
             "consecutive_successful_launches": 16,
             "successful_launches": 38,
             "failed_launches": 1,
-            "pending_launches": 6,
-            "consecutive_successful_landings": 10,
+            "pending_launches": 5,
+            "consecutive_successful_landings": 0,
             "successful_landings": 36,
             "failed_landings": 3,
-            "attempted_landings": 39,
+            "attempted_landings": 40,
             "info_url": "https://www.blueorigin.com/",
             "wiki_url": "https://en.wikipedia.org/wiki/Blue_Origin",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_logo_20190207032427.png",
