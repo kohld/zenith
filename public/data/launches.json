@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-21T23:39:22.498Z",
+  "updatedAt": "2026-01-22T00:24:58.406Z",
   "launches": [
     {
       "id": "18292387-fbeb-43ac-97a0-1ade50bd68f1",
@@ -581,7 +581,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-21T21:59:55Z",
+      "last_updated": "2026-01-21T23:44:41Z",
       "updates": [
         {
           "id": 13737,
@@ -780,10 +780,170 @@
         "total_launch_count": 0,
         "orbital_launch_attempt_count": 0
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "rocketlabcorp.com",
+          "title": "The Cosmos Will See You Now",
+          "description": "\"The Cosmos Will See You Now\" is a dedicated launch on Electron for Open Cosmos, a U.K.-based space technology company.",
+          "feature_image": null,
+          "url": "https://rocketlabcorp.com/missions/launches/the-cosmos-will-see-you-now/",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Rocket Lab",
+          "title": "Rocket Lab - 'The Cosmos Will See You Now' Launch",
+          "description": "",
+          "feature_image": "https://i.ytimg.com/vi/jNX7oNUpvE8/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=jNX7oNUpvE8",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-01-22T10:30:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT2M"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT2S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 25,
+            "abbrev": "Supersonic",
+            "description": "Vehicle is supersonic"
+          },
+          "relative_time": "PT56S"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M7S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M25S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M28S"
+        },
+        {
+          "type": {
+            "id": 31,
+            "abbrev": "SES",
+            "description": "Start of the second engine"
+          },
+          "relative_time": "PT2M31S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT3M11S"
+        },
+        {
+          "type": {
+            "id": 72,
+            "abbrev": "Battery Hotswap",
+            "description": "Electron Second stages switches to a new set of batteries and jettisons the depleted ones."
+          },
+          "relative_time": "PT6M24S"
+        },
+        {
+          "type": {
+            "id": 24,
+            "abbrev": "SECO",
+            "description": "Cut-off of the second engine"
+          },
+          "relative_time": "PT8M59S"
+        },
+        {
+          "type": {
+            "id": 30,
+            "abbrev": "Kick Stage Separation",
+            "description": "Separation of the kick stage from the previous stage"
+          },
+          "relative_time": "PT9M4S"
+        },
+        {
+          "type": {
+            "id": 32,
+            "abbrev": "Kick Stage Ignition",
+            "description": "Start of the kick stage engine"
+          },
+          "relative_time": "PT1H4M13S"
+        },
+        {
+          "type": {
+            "id": 33,
+            "abbrev": "Kick Stage Cut-off",
+            "description": "Cut-off of the kick stage engine"
+          },
+          "relative_time": "PT1H8M57S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT1H9M47S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
@@ -4790,8 +4950,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-20T19:53:44Z",
+      "last_updated": "2026-01-22T00:16:46Z",
       "updates": [
+        {
+          "id": 13738,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Jan 31 at 23:30 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-6-103",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-22T00:16:00Z"
+        },
         {
           "id": 13726,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -4801,15 +4969,15 @@
           "created_on": "2026-01-20T19:53:00Z"
         }
       ],
-      "net": "2026-01-31T23:37:00Z",
+      "net": "2026-01-31T23:30:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-02-01T03:37:00Z",
-      "window_start": "2026-01-31T23:37:00Z",
+      "window_end": "2026-02-01T03:30:00Z",
+      "window_start": "2026-01-31T23:30:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
