@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-22T16:45:48.793Z",
+  "updatedAt": "2026-01-22T17:10:34.413Z",
   "launches": [
     {
       "id": "18292387-fbeb-43ac-97a0-1ade50bd68f1",
@@ -1124,13 +1124,21 @@
       "r_spacex_api_id": null,
       "name": "New Shepard | NS-38",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-01-22T16:26:19Z",
+      "last_updated": "2026-01-22T17:07:13Z",
       "updates": [
+        {
+          "id": 13761,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Mission complete.",
+          "info_url": "https://www.youtube.com/watch?v=-T_hA6mPiIY",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-22T16:54:00Z"
+        },
         {
           "id": 13760,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1225,12 +1233,12 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 40,
-        "consecutive_successful_launches": 16,
-        "successful_launches": 38,
+        "consecutive_successful_launches": 17,
+        "successful_launches": 39,
         "failed_launches": 1,
         "pending_launches": 5,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 36,
+        "consecutive_successful_landings": 11,
+        "successful_landings": 37,
         "failed_landings": 3,
         "attempted_landings": 40,
         "info_url": "https://www.blueorigin.com/",
@@ -1265,12 +1273,12 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 40,
-            "consecutive_successful_launches": 16,
-            "successful_launches": 38,
+            "consecutive_successful_launches": 17,
+            "successful_launches": 39,
             "failed_launches": 1,
             "pending_launches": 5,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 36,
+            "consecutive_successful_landings": 11,
+            "successful_landings": 37,
             "failed_landings": 3,
             "attempted_landings": 40,
             "info_url": "https://www.blueorigin.com/",
@@ -1298,8 +1306,8 @@
           "info_url": "https://www.blueorigin.com/new-shepard/",
           "wiki_url": "https://en.wikipedia.org/wiki/New_Shepard",
           "total_launch_count": 38,
-          "consecutive_successful_launches": 14,
-          "successful_launches": 36,
+          "consecutive_successful_launches": 15,
+          "successful_launches": 37,
           "failed_launches": 1,
           "pending_launches": 0,
           "attempted_landings": 38,
@@ -1323,7 +1331,7 @@
               "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/90_image_20210412202510.jpeg",
               "successful_landings": 17,
               "attempted_landings": 17,
-              "flights": 16,
+              "flights": 17,
               "last_launch_date": "2026-01-22T16:25:00Z",
               "first_launch_date": "2021-01-14T17:19:00Z"
             },
@@ -1369,7 +1377,7 @@
         "spacecraft_stage": {
           "id": 902,
           "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/902/",
-          "mission_end": null,
+          "mission_end": "2026-01-22T16:36:00Z",
           "destination": "Suborbital",
           "launch_crew": [
             {
@@ -1387,8 +1395,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M50S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1426,8 +1434,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M51S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1465,8 +1473,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M52S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1504,8 +1512,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M53S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1543,8 +1551,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M49S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1582,8 +1590,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M47S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1624,8 +1632,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M50S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1663,8 +1671,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M51S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1702,8 +1710,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M52S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1741,8 +1749,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M53S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1780,8 +1788,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M49S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1819,8 +1827,8 @@
                   "id": 3,
                   "name": "Private"
                 },
-                "in_space": true,
-                "time_in_space": "PT13M47S",
+                "in_space": false,
+                "time_in_space": "PT11M",
                 "status": {
                   "id": 14,
                   "name": "Occasional Spaceflight"
@@ -1850,11 +1858,11 @@
             "name": "RSS First Step",
             "serial_number": "2.0-2",
             "is_placeholder": false,
-            "in_space": true,
-            "time_in_space": "PT2H46M6S",
+            "in_space": false,
+            "time_in_space": "PT2H43M50S",
             "time_docked": "P0D",
             "flights_count": 16,
-            "mission_ends_count": 15,
+            "mission_ends_count": 16,
             "status": {
               "id": 1,
               "name": "Active"
@@ -2004,7 +2012,7 @@
           "source": "youtube.com",
           "publisher": "Blue Origin",
           "title": "New Shepard Mission NS-38 Webcast",
-          "description": "Blue Origin’s 38th New Shepard flight and 17th crewed mission will liftoff from Launch Site One in West Texas on Thursday, Jan. 22.\nLearn more: https://www.blueorigin.com/news/new-shepard-ns-38-mission",
+          "description": "On Jan. 22, Blue Origin successfully completed its 38th New Shepard mission and 17th human flight from Launch Site One in West Texas. The crew included: Tim Drexler, Linda Edwards, Alain Fernandez, Alberto Gutiérrez, Jim Hendren, and Laura Stiles. To date, New Shepard has flown 98 humans (92 individuals) into space. \nLearn more: https://www.blueorigin.com/news/new-shepard-ns-38-mission",
           "feature_image": "https://i.ytimg.com/vi/-T_hA6mPiIY/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=-T_hA6mPiIY",
           "type": {
@@ -2017,10 +2025,10 @@
             "code": "en"
           },
           "start_time": "2026-01-22T15:16:02Z",
-          "end_time": null
+          "end_time": "2026-01-22T17:06:48Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
       "infographic": null,
@@ -9439,12 +9447,12 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 40,
-        "consecutive_successful_launches": 16,
-        "successful_launches": 38,
+        "consecutive_successful_launches": 17,
+        "successful_launches": 39,
         "failed_launches": 1,
         "pending_launches": 5,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 36,
+        "consecutive_successful_landings": 11,
+        "successful_landings": 37,
         "failed_landings": 3,
         "attempted_landings": 40,
         "info_url": "https://www.blueorigin.com/",
@@ -9479,12 +9487,12 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 40,
-            "consecutive_successful_launches": 16,
-            "successful_launches": 38,
+            "consecutive_successful_launches": 17,
+            "successful_launches": 39,
             "failed_launches": 1,
             "pending_launches": 5,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 36,
+            "consecutive_successful_landings": 11,
+            "successful_landings": 37,
             "failed_landings": 3,
             "attempted_landings": 40,
             "info_url": "https://www.blueorigin.com/",
