@@ -17,7 +17,7 @@ export const Navbar = ({ currentView, onViewChange }: NavbarProps) => {
                         <li>
                             <button
                                 onClick={() => onViewChange('orbital')}
-                                className={`text-base md:text-lg font-semibold py-1 px-2 md:py-2 rounded md:p-0 transition-colors ${currentView === 'orbital' ? 'text-cyan-400' : 'text-slate-300 hover:text-white'}`}
+                                className={`text-base md:text-lg font-semibold py-1 px-2 md:py-2 rounded md:p-0 transition-colors ${currentView === 'orbital' ? 'text-amber-400' : 'text-slate-300 hover:text-white'}`}
                                 aria-current={currentView === 'orbital' ? 'page' : undefined}
                             >
                                 <span className="md:hidden">Orbital</span>

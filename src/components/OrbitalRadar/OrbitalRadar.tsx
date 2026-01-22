@@ -302,7 +302,7 @@ export const OrbitalRadar = () => {
                     : 'Searching for satellites...'}
             </div>
 
-            <h2 className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent mb-6">
+            <h2 className="text-2xl font-bold bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent mb-6">
                 Orbital Radar
             </h2>
 
