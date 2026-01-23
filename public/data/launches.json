@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-23T19:08:42.784Z",
+  "updatedAt": "2026-01-23T19:36:45.064Z",
   "launches": [
     {
       "id": "90a7b825-ea15-41a2-a9d3-eb532a37e499",
@@ -1225,8 +1225,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-23T17:03:43Z",
+      "last_updated": "2026-01-23T19:18:52Z",
       "updates": [
+        {
+          "id": 13773,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 55% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20GPS%20III-9%20L-3%20Forecast%20-%2026%20Jan%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-23T19:18:00Z"
+        },
         {
           "id": 13767,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1309,8 +1317,8 @@
       },
       "window_end": "2026-01-27T04:57:00Z",
       "window_start": "2026-01-27T04:42:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 55,
+      "weather_concerns": "Liftoff Winds",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
