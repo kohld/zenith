@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-23T18:08:25.126Z",
+  "updatedAt": "2026-01-23T18:45:53.073Z",
   "launches": [
     {
       "id": "90a7b825-ea15-41a2-a9d3-eb532a37e499",
@@ -1655,7 +1655,112 @@
         }
       ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M12S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M29S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M32S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M40S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT3M29S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M10S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M39S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M5S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT8M10S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M34S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT1H3M30S"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT1H4M18S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT1H29M19S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [
