@@ -1,0 +1,48 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: zenith-frontend
+    container_name: zenith-app
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    env_file:
+      - .env
+    tty: true
+
+  sync:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: zenith-sync
+    container_name: zenith-sync
+    profiles:
+      - tools
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    command: ["bun", "run", "data:sync"]
+    env_file:
+      - .env
+
+  agent:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: zenith-agent
+    container_name: zenith-agent
+    profiles:
+      - tools
+    volumes:
+      - .:/app
+      - node_modules:/app/node_modules
+    command: ["bun", "run", "agent:run"]
+    env_file:
+      - .env
+
+volumes:
+  node_modules:

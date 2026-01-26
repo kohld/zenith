@@ -24,6 +24,7 @@
   - [Launch Gateway](#launch-gateway)
 - [Architecture & Data Flow](#architecture--data-flow)
 - [Setup](#setup)
+- [Docker Setup](#docker-setup)
 - [Automation](#automation)
   - [1. NASA JPL Horizons (Deep Space)](#1-nasa-jpl-horizons-deep-space)
   - [2. CelesTrak (LEO Satellites)](#2-celestrak-leo-satellites)
@@ -160,6 +161,25 @@ bun start
 # Build for production
 bun run build
 ```
+
+## Docker Setup
+
+Alternatively to a local Bun installation, you can run the entire Zenith ecosystem using Docker Compose. This is highly recommended for testing the data automation pipeline in a consistent environment.
+
+### 1. Start Frontend
+By default, only the Vite dev server starts:
+```bash
+docker compose up
+```
+The application will be available at: [http://localhost:5173/zenith/](http://localhost:5173/zenith/)
+
+### 2. Run Automation Tools
+Sync data or run the AI agent on demand using Docker profiles:
+- **Data Sync:** `docker compose run --rm sync`
+- **AI Agent:** `docker compose run --rm agent`
+
+> [!TIP]
+> Use `docker compose --profile tools up` to start the frontend and run all automation tools once.
 
 ## Automation
 
