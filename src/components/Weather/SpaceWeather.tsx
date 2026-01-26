@@ -6,6 +6,8 @@ import { AuroraForecast, KpEntry, ObserverLocation as Location, SearchResult } f
 export const SpaceWeather = () => {
     const [forecastData, setForecastData] = useState<AuroraForecast | null>(null);
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState<string | null>(null);
+    const [isStale, setIsStale] = useState(false);
     const [location, setLocation] = useState<Location | null>(() => {
         try {
             const saved = localStorage.getItem('zenith_location');
@@ -24,13 +26,28 @@ export const SpaceWeather = () => {
     useEffect(() => {
         const cacheBuster = Date.now();
         fetch(`${import.meta.env.BASE_URL}data/aurora.json?t=${cacheBuster}`)
-            .then(res => res.json())
+            .then(res => {
+                if (!res.ok) throw new Error(`HTTP ${res.status}: Failed to fetch aurora data`);
+                return res.json();
+            })
             .then(data => {
                 setForecastData(data);
+
+                // Check if data is stale (older than 24 hours)
+                if (data.updatedAt) {
+                    const lastUpdate = new Date(data.updatedAt);
+                    const now = new Date();
+                    const hoursSinceUpdate = (now.getTime() - lastUpdate.getTime()) / (1000 * 60 * 60);
+                    if (hoursSinceUpdate > 24) {
+                        setIsStale(true);
+                    }
+                }
+
                 setLoading(false);
             })
             .catch(err => {
                 console.error("Failed to load aurora data", err);
+                setError(err.message || "Unknown error loading forecast data.");
                 setLoading(false);
             });
     }, []);
@@ -66,14 +83,14 @@ export const SpaceWeather = () => {
 
     const groupedForecast = useMemo(() => {
         if (!forecastData) return {};
-        
+
         const now = new Date();
         const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-        
+
         return forecastData.forecast.reduce((acc, entry) => {
             const entryDate = new Date(entry.time);
             const dateKey = entry.time.split(' ')[0];
-            
+
             // Only include entries from today onwards
             if (entryDate >= today) {
                 if (!acc[dateKey]) acc[dateKey] = [];
@@ -140,13 +157,13 @@ export const SpaceWeather = () => {
 
                         <div className="flex flex-col items-center text-center">
                             <div className={`text-6xl font-bold mb-2 ${isVisibleNow ? 'text-emerald-400 drop-shadow-[0_0_15px_rgba(52,211,153,0.5)]' : 'text-slate-600'}`}>
-                                Kp {currentKp?.kp.toFixed(1) || '--'}
+                                Kp {currentKp ? currentKp.kp.toFixed(1) : '--'}
                             </div>
                             <div className={`text-sm font-medium px-4 py-1.5 rounded-full border mb-8 ${isVisibleNow
                                 ? 'bg-emerald-500/20 border-emerald-500/50 text-emerald-400'
                                 : 'bg-slate-800/50 border-white/5 text-slate-500'
                                 }`}>
-                                {isVisibleNow ? 'Aurora Likely Visible' : 'Low Probability'}
+                                {!currentKp ? 'No Data' : isVisibleNow ? 'Aurora Likely Visible' : 'Low Probability'}
                             </div>
                         </div>
 
@@ -173,39 +190,63 @@ export const SpaceWeather = () => {
                         3-Day Forecast
                     </h3>
                     <div className="flex flex-col gap-6">
-                        {Object.entries(groupedForecast).slice(0, 3).map(([date, entries]) => (
-                            <div key={date} className="flex flex-col gap-3">
-                                <h4 className="text-xs font-bold text-slate-500 uppercase tracking-[0.2em] flex items-center gap-2">
-                                    <span className="w-1 h-1 bg-emerald-500 rounded-full"></span>
-                                    {new Date(date).toLocaleDateString(undefined, { weekday: 'long', day: '2-digit', month: 'long' })}
-                                </h4>
-                                <div className="grid grid-cols-4 md:grid-cols-8 gap-2">
-                                    {entries.map((entry, idx) => {
-                                        const time = entry.time.split(' ')[1].substring(0, 5);
-                                        const isHigh = entry.kp >= threshold;
-                                        return (
-                                            <div
-                                                key={idx}
-                                                className={`p-2 rounded-lg border flex flex-col items-center transition-all ${isHigh
-                                                    ? 'bg-emerald-500/10 border-emerald-500/40'
-                                                    : 'bg-slate-800/20 border-white/5'
-                                                    }`}
-                                            >
-                                                <div className="text-[10px] text-slate-500 mb-1 font-mono">{time}</div>
-                                                <div className={`text-base font-bold ${isHigh ? 'text-emerald-400' : 'text-slate-300'}`}>
-                                                    {entry.kp.toFixed(1)}
-                                                </div>
-                                                {entry.scale && (
-                                                    <div className="text-[8px] bg-red-900/30 text-red-400 px-1 rounded mt-1 font-bold">
-                                                        {entry.scale}
-                                                    </div>
-                                                )}
-                                            </div>
-                                        );
-                                    })}
-                                </div>
+                        {error ? (
+                            <div className="p-8 rounded-2xl bg-red-500/5 border border-red-500/20 text-center">
+                                <p className="text-red-400 text-sm mb-2">Failed to load forecast data</p>
+                                <p className="text-slate-500 text-xs italic">{error}</p>
                             </div>
-                        ))}
+                        ) : Object.keys(groupedForecast).length > 0 ? (
+                            Object.entries(groupedForecast).slice(0, 3).map(([date, entries]) => (
+                                <div key={date} className="flex flex-col gap-3">
+                                    <h4 className="text-xs font-bold text-slate-500 uppercase tracking-[0.2em] flex items-center gap-2">
+                                        <span className="w-1 h-1 bg-emerald-500 rounded-full"></span>
+                                        {new Date(date).toLocaleDateString(undefined, { weekday: 'long', day: '2-digit', month: 'long' })}
+                                    </h4>
+                                    <div className="grid grid-cols-4 md:grid-cols-8 gap-2">
+                                        {entries.map((entry, idx) => {
+                                            const time = entry.time.split(' ')[1].substring(0, 5);
+                                            const isHigh = entry.kp >= threshold;
+                                            return (
+                                                <div
+                                                    key={idx}
+                                                    className={`p-2 rounded-lg border flex flex-col items-center transition-all ${isHigh
+                                                        ? 'bg-emerald-500/10 border-emerald-500/40'
+                                                        : 'bg-slate-800/20 border-white/5'
+                                                        }`}
+                                                >
+                                                    <div className="text-[10px] text-slate-500 mb-1 font-mono">{time}</div>
+                                                    <div className={`text-base font-bold ${isHigh ? 'text-emerald-400' : 'text-slate-300'}`}>
+                                                        {entry.kp.toFixed(1)}
+                                                    </div>
+                                                    {entry.scale && (
+                                                        <div className="text-[8px] bg-red-900/30 text-red-400 px-1 rounded mt-1 font-bold">
+                                                            {entry.scale}
+                                                        </div>
+                                                    )}
+                                                </div>
+                                            );
+                                        })}
+                                    </div>
+                                </div>
+                            ))
+                        ) : (
+                            <div className="p-12 rounded-2xl bg-slate-800/20 border border-white/5 text-center flex flex-col items-center justify-center min-h-[300px]">
+                                <svg className="w-12 h-12 text-slate-700 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <h4 className="text-slate-400 font-bold mb-2">No Upcoming Forecast</h4>
+                                <p className="text-slate-500 text-xs max-w-xs mx-auto leading-relaxed">
+                                    There are currently no upcoming aurora forecast data points available for your location from the data source.
+                                </p>
+                                {isStale && (
+                                    <div className="mt-6 px-4 py-2 rounded-lg bg-amber-500/10 border border-amber-500/20">
+                                        <p className="text-amber-500 text-[10px] font-bold uppercase tracking-wider">
+                                            Data source is stale
+                                        </p>
+                                    </div>
+                                )}
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>
