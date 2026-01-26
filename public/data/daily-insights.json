@@ -1,81 +1,66 @@
 {
-  "generated_at": "2026-01-22T10:16:04.019Z",
+  "generated_at": "2026-01-26T09:20:39.966Z",
   "daily_summary": {
-    "headline": "Blue Origin's Crewed Suborbital Flight Highlights the Day",
+    "headline": "SpaceX GPS III SV09 Launch Highlights a Day of Steady Space Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "New Shepard NS-38 Crewed Suborbital Launch",
-        "description": "Blue Origin launches its 17th crewed New Shepard flight, carrying six private astronauts on a suborbital journey.",
-        "importance": 8,
-        "date": "2026-01-22T16:00:00Z",
+        "title": "SpaceX Falcon 9 launches GPS III SV09 for US Space Force",
+        "description": "A Falcon 9 Block 5 rocket launches the ninth GPS III navigation satellite, enhancing global positioning capabilities. The mission is notable for its national security significance and the use of a flight-proven booster.",
+        "importance": 5,
+        "date": "2026-01-27T04:42:23Z",
         "type": "launch",
-        "action": "Watch the livestream or follow updates for this crewed space tourism mission."
+        "action": "Watch the official SpaceX webcast for live coverage."
       },
       {
         "rank": 2,
-        "title": "Rocket Lab Electron Launches Open Cosmos Constellation",
-        "description": "Rocket Lab's Electron launches the first two satellites for Open Cosmos' secure LEO broadband constellation, supporting European connectivity.",
-        "importance": 6,
-        "date": "2026-01-22T10:52:00Z",
-        "type": "launch",
-        "action": "Tune in to Rocket Lab's webcast for this commercial satellite deployment."
+        "title": "Aurora G1 Storm Opportunity (Kp 4.67) on Jan 28",
+        "description": "A minor geomagnetic storm may bring aurora visibility to high latitudes (65°+). Best viewing window is from 00:00 to 21:00 UTC on January 28.",
+        "importance": 4,
+        "date": "2026-01-28T00:00:00Z",
+        "type": "aurora",
+        "action": "Check northern skies if you are at high latitude."
       },
       {
         "rank": 3,
-        "title": "Minor Aurora Opportunity (G1) at High Latitudes",
-        "description": "A minor geomagnetic storm (Kp 4.67, G1) may provide aurora visibility for observers above 65° latitude.",
-        "importance": 4,
-        "date": "2026-01-22T12:00:00Z",
-        "type": "aurora",
-        "action": "Check northern skies if you are at high latitudes; low probability for Central Europe."
+        "title": "Rocket Lab Electron to Launch NeonSat-1A",
+        "description": "Rocket Lab's Electron will launch the NeonSat-1A Earth observation satellite for South Korea, supporting disaster monitoring and satellite technology development.",
+        "importance": 5,
+        "date": "2026-01-28T00:55:39Z",
+        "type": "launch",
+        "action": "Watch Rocket Lab's webcast for mission updates."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
-      "crewed_missions": 1,
+      "crewed_missions": 0,
       "historic_events": 0,
       "aurora_opportunities": 1
     }
   },
-  "alerts": [
-    {
-      "type": "launch",
-      "priority": "high",
-      "title": "Blue Origin New Shepard NS-38 Crewed Launch",
-      "message": "Blue Origin is launching its 17th crewed New Shepard flight with six private astronauts. Significant for commercial space tourism.",
-      "action_required": "Watch the livestream or follow updates for real-time coverage.",
-      "expires_at": "2026-01-22T21:30:00Z",
-      "tags": [
-        "crewed",
-        "Blue Origin",
-        "tourism",
-        "high-priority"
-      ]
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-01-22",
+        "date": "2026-01-28",
         "max_kp": 4.67,
         "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-01-22 12:00:00",
-          "end": "2026-01-22 12:00:00"
+          "start": "2026-01-28 00:00:00",
+          "end": "2026-01-28 21:00:00"
         },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for observers above 65°. Worth checking if conditions are optimal."
+        "duration_hours": 21,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-01-22",
-      "time": "12:00-12:00 UTC",
+      "date": "2026-01-28",
+      "time": "00:00-21:00 UTC",
       "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
-    "total_viewing_hours": 0
+    "total_viewing_hours": 21
   },
   "special_events": [],
   "agent_metadata": {

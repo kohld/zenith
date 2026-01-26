@@ -8,7 +8,7 @@ const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY
 });
 
-const MODEL_NAME = process.env.MODEL_NAME || 'gpt-4.1';
+const MODEL_NAME = process.env.MODEL_NAME || 'gpt-4o';
 
 const tools = [
     analyzeLaunchTool,
@@ -70,23 +70,23 @@ const tools = [
 export async function runZenithAgent() {
     console.log('Starting Zenith Intelligence Agent...');
     console.log(`Timestamp: ${new Date().toISOString()}`);
-    
+
     try {
         const SYSTEM_PROMPT = await readFile('./agents/prompts/system-prompt.md', 'utf-8');
         const launchesData = JSON.parse(await readFile('./public/data/launches.json', 'utf-8'));
         const auroraData: AuroraForecast = JSON.parse(await readFile('./public/data/aurora.json', 'utf-8'));
-        
+
         const now = new Date();
         const upcomingLaunches = launchesData.launches
             .filter((l: Launch) => new Date(l.net) > now)
             .slice(0, 5);
-        
+
         const relevantAuroraData = auroraData.forecast
             .filter(entry => new Date(entry.time) > now)
             .slice(0, 24);
-        
+
         console.log(`Analyzing ${upcomingLaunches.length} launches and ${relevantAuroraData.length} aurora entries...`);
-        
+
         const userMessage = `
 Analyze space data for ${now.toISOString().split('T')[0]}:
 
@@ -106,7 +106,7 @@ Return JSON: {enrichedLaunches, auroraInsights, dailySummary, alerts, specialEve
             { role: 'system', content: SYSTEM_PROMPT },
             { role: 'user', content: userMessage }
         ];
-        
+
         let response = await openai.chat.completions.create({
             model: MODEL_NAME,
             messages,
@@ -115,24 +115,26 @@ Return JSON: {enrichedLaunches, auroraInsights, dailySummary, alerts, specialEve
             temperature: 0.3,
             response_format: { type: 'json_object' }
         });
-        
+
         let iterationCount = 0;
         const maxIterations = 20;
-        
+
         while (response.choices[0].finish_reason === 'tool_calls' && iterationCount < maxIterations) {
             iterationCount++;
             const toolCalls = response.choices[0].message.tool_calls || [];
-            
+
             console.log(`Processing ${toolCalls.length} tool calls (iteration ${iterationCount})...`);
-            
+
             messages.push(response.choices[0].message);
-            
+
             for (const toolCall of toolCalls) {
+                if (toolCall.type !== 'function') continue;
+
                 const functionName = toolCall.function.name;
                 const functionArgs = JSON.parse(toolCall.function.arguments);
-                
+
                 let functionResult;
-                
+
                 try {
                     switch (functionName) {
                         case 'analyze_launch':
@@ -160,14 +162,14 @@ Return JSON: {enrichedLaunches, auroraInsights, dailySummary, alerts, specialEve
                     functionResult = { error: String(error) };
                     console.error(`  ✗ Error in ${functionName}:`, error);
                 }
-                
+
                 messages.push({
                     role: 'tool',
                     tool_call_id: toolCall.id,
                     content: JSON.stringify(functionResult)
                 });
             }
-            
+
             response = await openai.chat.completions.create({
                 model: MODEL_NAME,
                 messages,
@@ -177,19 +179,19 @@ Return JSON: {enrichedLaunches, auroraInsights, dailySummary, alerts, specialEve
                 response_format: { type: 'json_object' }
             });
         }
-        
+
         if (iterationCount >= maxIterations) {
             console.warn('Warning: Reached maximum iterations');
         }
-        
+
         const finalContent = response.choices[0].message.content;
         if (!finalContent) {
             throw new Error('No final response from agent');
         }
-        
+
         console.log('Parsing final response...');
         const enrichedData = JSON.parse(finalContent);
-        
+
         const output = {
             generated_at: new Date().toISOString(),
             daily_summary: enrichedData.dailySummary || {
@@ -222,12 +224,12 @@ Return JSON: {enrichedLaunches, auroraInsights, dailySummary, alerts, specialEve
                 iterations: iterationCount
             }
         };
-        
+
         await writeFile(
             './public/data/daily-insights.json',
             JSON.stringify(output, null, 2)
         );
-        
+
         if (enrichedData.enrichedLaunches && enrichedData.enrichedLaunches.length > 0) {
             const enrichedLaunchesData = {
                 generated_at: new Date().toISOString(),
@@ -241,15 +243,15 @@ Return JSON: {enrichedLaunches, auroraInsights, dailySummary, alerts, specialEve
                     };
                 })
             };
-            
+
             await writeFile(
                 './public/data/enriched-launches.json',
                 JSON.stringify(enrichedLaunchesData, null, 2)
             );
-            
+
             console.log('Saved enriched launches data');
         }
-        
+
         console.log('Agent completed successfully');
         console.log(`Results:`);
         console.log(`   - Analyzed ${upcomingLaunches.length} launches`);
@@ -257,14 +259,14 @@ Return JSON: {enrichedLaunches, auroraInsights, dailySummary, alerts, specialEve
         console.log(`   - Generated ${output.alerts.length} alerts`);
         console.log(`   - Top events: ${output.daily_summary.top_events.length}`);
         console.log(`Output saved to: public/data/daily-insights.json`);
-        
+
     } catch (error) {
         console.error('Agent failed:', error);
         throw error;
     }
 }
 
-if (require.main === module) {
+if (import.meta.main) {
     runZenithAgent()
         .then(() => process.exit(0))
         .catch((error) => {

@@ -2,7 +2,7 @@ name: Run Zenith Intelligence Agent
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # Every 12 hours
+    - cron: '15 */12 * * *'  # 15 minutes past the hour every 12 hours (offset from Aurora)
   workflow_dispatch:  # Manual trigger
 
 permissions:
@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
