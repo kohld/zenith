@@ -37,7 +37,9 @@
 - **Engine:** React 19, TypeScript
 - **Build:** Vite 7
 - **Styling:** Tailwind CSS v4
-- **Runtime:** Bun
+- **Runtime:** Bun 1.x (1.3+ in Docker)
+- **Intelligence:** OpenAI (gpt-4.1)
+- **Infrastructure:** Docker Compose
 
 ## Features
 
