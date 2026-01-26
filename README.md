@@ -178,6 +178,12 @@ Sync data or run the AI agent on demand using Docker profiles:
 - **Data Sync:** `docker compose run --rm sync`
 - **AI Agent:** `docker compose run --rm agent`
 
+### 3. Cleanup & Reset
+To stop all containers and remove persistent volumes (e.g., to solve permission issues):
+```bash
+docker compose down -v
+```
+
 > [!TIP]
 > Use `docker compose --profile tools up` to start the frontend and run all automation tools once.
 
