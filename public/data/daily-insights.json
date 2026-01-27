@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-01-26T09:20:39.966Z",
+  "generated_at": "2026-01-27T00:46:58.617Z",
   "daily_summary": {
-    "headline": "SpaceX GPS III SV09 Launch Highlights a Day of Steady Space Activity",
+    "headline": "Exciting Day for Space Enthusiasts: GPS III Launch and Aurora Opportunities!",
     "top_events": [
       {
         "rank": 1,
-        "title": "SpaceX Falcon 9 launches GPS III SV09 for US Space Force",
-        "description": "A Falcon 9 Block 5 rocket launches the ninth GPS III navigation satellite, enhancing global positioning capabilities. The mission is notable for its national security significance and the use of a flight-proven booster.",
-        "importance": 5,
-        "date": "2026-01-27T04:42:23Z",
+        "title": "SpaceX Falcon 9 GPS III SV09 Launch",
+        "description": "Launch of the GPS III SV09 satellite by SpaceX, enhancing global navigation capabilities.",
+        "importance": 8,
+        "date": "2026-01-28T04:38:00Z",
         "type": "launch",
-        "action": "Watch the official SpaceX webcast for live coverage."
+        "action": "Watch live stream and follow updates."
       },
       {
         "rank": 2,
-        "title": "Aurora G1 Storm Opportunity (Kp 4.67) on Jan 28",
-        "description": "A minor geomagnetic storm may bring aurora visibility to high latitudes (65°+). Best viewing window is from 00:00 to 21:00 UTC on January 28.",
-        "importance": 4,
-        "date": "2026-01-28T00:00:00Z",
+        "title": "Aurora Viewing Opportunity",
+        "description": "Potential aurora activity with a Kp index of 4.67, visible at high latitudes.",
+        "importance": 7,
+        "date": "2026-01-28",
         "type": "aurora",
-        "action": "Check northern skies if you are at high latitude."
+        "action": "Check local conditions and prepare for aurora viewing."
       },
       {
         "rank": 3,
-        "title": "Rocket Lab Electron to Launch NeonSat-1A",
-        "description": "Rocket Lab's Electron will launch the NeonSat-1A Earth observation satellite for South Korea, supporting disaster monitoring and satellite technology development.",
+        "title": "Rocket Lab Electron Launch",
+        "description": "Rocket Lab's Electron rocket launching the NeonSat-1A for Earth observation.",
         "importance": 5,
         "date": "2026-01-28T00:55:39Z",
         "type": "launch",
-        "action": "Watch Rocket Lab's webcast for mission updates."
+        "action": "Follow live stream and mission updates."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 2
     }
   },
   "alerts": [],
@@ -52,6 +52,18 @@
         },
         "duration_hours": 21,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-01-29",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-01-29 21:00:00",
+          "end": "2026-01-29 21:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
@@ -64,9 +76,9 @@
   },
   "special_events": [],
   "agent_metadata": {
-    "model": "gpt-4.1",
+    "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 21,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
