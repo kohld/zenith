@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-01-28T00:44:43.551Z",
+  "generated_at": "2026-01-28T12:26:59.316Z",
   "daily_summary": {
-    "headline": "Exciting Day for Space Enthusiasts: GPS III Launch and Aurora Opportunities",
+    "headline": "SpaceX Starlink Launches and Aurora Opportunities Highlight the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | GPS III SV09 Launch",
-        "description": "SpaceX is set to launch the GPS III SV09 satellite for the US Space Force, enhancing global navigation capabilities.",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-19",
+        "description": "SpaceX is set to launch a batch of 25 Starlink satellites into low Earth orbit. This mission supports the expansion of the Starlink internet constellation.",
         "importance": 5,
-        "date": "2026-01-28T04:38:17Z",
+        "date": "2026-01-29",
         "type": "launch",
-        "action": "Watch live stream for real-time coverage."
+        "action": "Watch live stream for launch details."
       },
       {
         "rank": 2,
         "title": "Aurora Viewing Opportunity",
-        "description": "A G1 geomagnetic storm may provide aurora visibility at high latitudes, with the best viewing window from 12:00 to 21:00 UTC.",
+        "description": "A G1 geomagnetic storm may provide aurora visibility at high latitudes, particularly above 65° latitude.",
         "importance": 4,
         "date": "2026-01-28",
         "type": "aurora",
-        "action": "Check local conditions and head to dark, northern locations for best viewing."
+        "action": "Check local conditions and prepare for aurora viewing."
       },
       {
         "rank": 3,
-        "title": "Starlink Group 17-19 Launch",
-        "description": "SpaceX continues its Starlink mission with the launch of another batch of satellites, expanding global internet coverage.",
+        "title": "Electron | Bridging The Swarm (NeonSat-1A)",
+        "description": "Rocket Lab's Electron rocket is scheduled to launch the NeonSat-1A, testing constellation capabilities for Earth observation.",
         "importance": 5,
-        "date": "2026-01-29T15:17:00Z",
+        "date": "2026-01-30",
         "type": "launch",
-        "action": "Follow the live stream for updates."
+        "action": "Follow updates for launch confirmation."
       }
     ],
     "statistics": {
@@ -47,10 +47,10 @@
         "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-01-28 12:00:00",
+          "start": "2026-01-28 15:00:00",
           "end": "2026-01-28 21:00:00"
         },
-        "duration_hours": 9,
+        "duration_hours": 6,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       },
       {
@@ -68,17 +68,17 @@
     ],
     "best_window": {
       "date": "2026-01-28",
-      "time": "12:00-21:00 UTC",
+      "time": "15:00-21:00 UTC",
       "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
-    "total_viewing_hours": 9
+    "total_viewing_hours": 6
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
