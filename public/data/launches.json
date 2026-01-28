@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-28T19:10:07.987Z",
+  "updatedAt": "2026-01-28T19:41:22.819Z",
   "launches": [
     {
       "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
@@ -1796,8 +1796,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-26T01:52:59Z",
+      "last_updated": "2026-01-28T19:31:08Z",
       "updates": [
+        {
+          "id": 13813,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 95% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%206-101%20L-1%20Forecast%20-%2029%20Jan%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-28T19:31:00Z"
+        },
         {
           "id": 13768,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1832,8 +1840,8 @@
       },
       "window_end": "2026-01-30T08:00:00Z",
       "window_start": "2026-01-30T04:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 95,
+      "weather_concerns": "Thick Cloud Layers Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -2373,7 +2381,7 @@
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 7,
       "agency_launch_attempt_count_year": 13,
-      "pad_turnaround": "P1DT23H21M43S",
+      "pad_turnaround": "P1DT23H6M44S",
       "mission_patches": [
         {
           "id": 7,
