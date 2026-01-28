@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-01-27T12:27:17.231Z",
+  "generated_at": "2026-01-28T00:44:43.551Z",
   "daily_summary": {
-    "headline": "Exciting Space Events on the Horizon",
+    "headline": "Exciting Day for Space Enthusiasts: GPS III Launch and Aurora Opportunities",
     "top_events": [
       {
         "rank": 1,
-        "title": "G1 Geomagnetic Storm Potential",
-        "description": "A G1 geomagnetic storm is predicted on January 28, offering a chance for aurora sightings at high latitudes.",
-        "importance": 7,
-        "date": "2026-01-28",
-        "type": "aurora",
-        "action": "Check aurora forecasts and plan for potential sightings at high latitudes."
+        "title": "Falcon 9 Block 5 | GPS III SV09 Launch",
+        "description": "SpaceX is set to launch the GPS III SV09 satellite for the US Space Force, enhancing global navigation capabilities.",
+        "importance": 5,
+        "date": "2026-01-28T04:38:17Z",
+        "type": "launch",
+        "action": "Watch live stream for real-time coverage."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 Launch",
-        "description": "SpaceX's Falcon 9 Block 5 is set to launch the GPS III SV09 satellite, enhancing global navigation systems.",
-        "importance": 5,
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 geomagnetic storm may provide aurora visibility at high latitudes, with the best viewing window from 12:00 to 21:00 UTC.",
+        "importance": 4,
         "date": "2026-01-28",
-        "type": "launch",
-        "action": "Watch the live stream of the launch for real-time updates."
+        "type": "aurora",
+        "action": "Check local conditions and head to dark, northern locations for best viewing."
       },
       {
         "rank": 3,
-        "title": "Electron Rocket Launch",
-        "description": "Rocket Lab's Electron rocket will launch the NeonSat-1A, contributing to Earth observation capabilities.",
+        "title": "Starlink Group 17-19 Launch",
+        "description": "SpaceX continues its Starlink mission with the launch of another batch of satellites, expanding global internet coverage.",
         "importance": 5,
-        "date": "2026-01-27",
+        "date": "2026-01-29T15:17:00Z",
         "type": "launch",
-        "action": "Follow the launch updates and watch the live stream."
+        "action": "Follow the live stream for updates."
       }
     ],
     "statistics": {
@@ -47,10 +47,10 @@
         "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-01-28 00:00:00",
+          "start": "2026-01-28 12:00:00",
           "end": "2026-01-28 21:00:00"
         },
-        "duration_hours": 21,
+        "duration_hours": 9,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       },
       {
@@ -68,17 +68,17 @@
     ],
     "best_window": {
       "date": "2026-01-28",
-      "time": "00:00-21:00 UTC",
+      "time": "12:00-21:00 UTC",
       "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
-    "total_viewing_hours": 21
+    "total_viewing_hours": 9
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
