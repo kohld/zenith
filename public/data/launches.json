@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-29T21:08:50.172Z",
+  "updatedAt": "2026-01-29T21:41:19.565Z",
   "launches": [
     {
       "id": "5b32bfe3-2816-4a86-bf82-710d0b3660d2",
@@ -1163,8 +1163,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-01-29T20:08:08Z",
+      "last_updated": "2026-01-29T21:24:32Z",
       "updates": [
+        {
+          "id": 13827,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Jan 30 at 05:51 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-6-101",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-01-29T21:24:00Z"
+        },
         {
           "id": 13824,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1214,7 +1222,7 @@
           "created_on": "2026-01-20T19:53:00Z"
         }
       ],
-      "net": "2026-01-30T04:24:09Z",
+      "net": "2026-01-30T05:51:40Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -1592,7 +1600,7 @@
           "source": "youtube.com",
           "publisher": "NASASpaceflight",
           "title": "SpaceX Falcon 9 launches Starlink 6-101",
-          "description": "Launch Window: January 29th from 11PM to 3AM EST (04:00-08:00 UTC on the 30th)\nCurrent T0: January 29th at 11:24:09PM EST (04:24:09 UTC on the 30th)\n\nMission: Falcon 9 launch of 29 Starlink v2 Mini satellites into orbit.\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO); \nBooster: B1095-5; 59d 20h 39min 59s turnaround\nBooster history: Starlink Group 12-15, Starlink Group 10-56, Starlink Group 10-52, and Starlink Group 6-86.\nBooster recovery: Just Read The Instructions (JRTI)\nFairing recovery: Bob\nRocket trajectory: Southeast passing northeast of the Bahamas.\nPayload mass: Approximately 17 tonnes\nStats:\n  - SpaceX's 622nd launch overall.\n  - SpaceX's 13th launch of the year.\n  - SpaceX's 13th launch of the ...",
+          "description": "Launch Window: January 29th from 11PM to 3AM EST (04:00-08:00 UTC on the 30th)\nCurrent T0: January 30th at 12:51:40AM EST \n\nMission: Falcon 9 launch of 29 Starlink v2 Mini satellites into orbit.\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO); \nBooster: B1095-5; 59d 22h 7min 30s turnaround\nBooster history: Starlink Group 12-15, Starlink Group 10-56, Starlink Group 10-52, and Starlink Group 6-86.\nBooster recovery: Just Read The Instructions (JRTI)\nFairing recovery: Bob\nRocket trajectory: Southeast passing northeast of the Bahamas.\nPayload mass: Approximately 17 tonnes\nStats:\n  - SpaceX's 622nd launch overall.\n  - SpaceX's 13th launch of the year.\n  - SpaceX's 13th launch of the month.\n  - Earth's X orbita...",
           "feature_image": "https://i.ytimg.com/vi/RkzvH0cGREk/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=RkzvH0cGREk",
           "type": {
@@ -1604,7 +1612,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-01-30T03:24:00Z",
+          "start_time": "2026-01-30T06:51:00Z",
           "end_time": null
         },
         {
@@ -1784,7 +1792,7 @@
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 7,
       "agency_launch_attempt_count_year": 13,
-      "pad_turnaround": "P1DT23H30M53S",
+      "pad_turnaround": "P2DT58M24S",
       "mission_patches": [
         {
           "id": 7,
@@ -6118,21 +6126,21 @@
             }
           ],
           "spacecraft": {
-            "id": 595,
-            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/595/",
-            "name": "Crew Dragon Grace",
-            "serial_number": "C213",
+            "id": 551,
+            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/551/",
+            "name": "Crew Dragon Freedom",
+            "serial_number": "C212",
             "is_placeholder": false,
             "in_space": false,
-            "time_in_space": "P20DT2H58M8S",
-            "time_docked": "P18DT44M",
-            "flights_count": 1,
-            "mission_ends_count": 1,
+            "time_in_space": "P372DT14H50M27S",
+            "time_docked": "P365DT4H42M11S",
+            "flights_count": 4,
+            "mission_ends_count": 4,
             "status": {
               "id": 1,
               "name": "Active"
             },
-            "description": "Crew Dragon spacecraft first used for Axiom-4.",
+            "description": "Crew Dragon spacecraft first used for Crew-4.",
             "spacecraft_config": {
               "id": 6,
               "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/6/",
@@ -6180,7 +6188,7 @@
             "id": 1749,
             "attempt": true,
             "success": null,
-            "description": "The Crew Dragon Grace capsule will splash down in the Pacific Ocean.",
+            "description": "The Crew Dragon Freedom capsule will splash down in the Pacific Ocean.",
             "downrange_distance": null,
             "location": {
               "id": 18,
