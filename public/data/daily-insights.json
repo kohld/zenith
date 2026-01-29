@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-01-29T00:50:17.627Z",
+  "generated_at": "2026-01-29T12:28:12.876Z",
   "daily_summary": {
-    "headline": "Routine Space Day with Aurora Hints",
+    "headline": "Routine SpaceX Starlink Deployments Dominate the Day",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | Starlink Group 17-19",
-        "description": "A batch of 25 satellites for the Starlink mega-constellation.",
+        "description": "SpaceX's Falcon 9 Block 5 is set to launch the Starlink Group 17-19 from Vandenberg SFB, CA, USA. This mission involves deploying a batch of Starlink satellites for global internet coverage.",
         "importance": 5,
-        "date": "2026-01-29",
+        "date": "2026-01-29T16:42:10Z",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Watch live stream for launch and deployment."
       },
       {
         "rank": 2,
-        "title": "Aurora Forecast",
-        "description": "Possible aurora activity at high latitudes with Kp 4.67.",
-        "importance": 4,
-        "date": "2026-01-29",
-        "type": "aurora",
-        "action": "Check sky conditions if at high latitude"
+        "title": "Electron | Bridging The Swarm (NeonSat-1A)",
+        "description": "Rocket Lab's Electron rocket will launch the NeonSat-1A to test Earth observation capabilities for the South Korean government.",
+        "importance": 5,
+        "date": "2026-01-30T00:55:39Z",
+        "type": "launch",
+        "action": "Follow updates and watch the launch online."
       },
       {
         "rank": 3,
-        "title": "Electron | Bridging The Swarm (NeonSat-1A)",
-        "description": "Testing constellation capabilities of South Korean government's Earth observation micro-satellite.",
+        "title": "Falcon 9 Block 5 | Starlink Group 6-101",
+        "description": "Another batch of Starlink satellites will be launched by SpaceX's Falcon 9 from Cape Canaveral SFS, FL, USA.",
         "importance": 5,
-        "date": "2026-01-29",
+        "date": "2026-01-30T04:01:50Z",
         "type": "launch",
-        "action": "Follow updates"
+        "action": "Tune in to the live stream for real-time coverage."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-01-29",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-01-29 03:00:00",
-          "end": "2026-01-29 15:00:00"
-        },
-        "duration_hours": 12,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-01-29",
-      "time": "03:00-15:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
-    },
-    "total_viewing_hours": 12
+    "opportunities": [],
+    "best_window": null,
+    "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
