@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-29T16:46:59.377Z",
+  "updatedAt": "2026-01-29T17:15:15.531Z",
   "launches": [
     {
       "id": "5b32bfe3-2816-4a86-bf82-710d0b3660d2",
@@ -13066,7 +13066,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2025-12-18T07:04:06Z",
+      "last_updated": "2026-01-29T17:06:18Z",
       "updates": [
         {
           "id": 12865,
@@ -13249,7 +13249,20 @@
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
       "pad_turnaround": "P335DT10H23M",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1302,
+          "name": "FLTA007_patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/flta007_patch_mission_patch_20260129170614.png",
+          "agency": {
+            "id": 265,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/265/",
+            "name": "Firefly Aerospace",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
