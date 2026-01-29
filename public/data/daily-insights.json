@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-01-28T12:26:59.316Z",
+  "generated_at": "2026-01-29T00:50:17.627Z",
   "daily_summary": {
-    "headline": "SpaceX Starlink Launches and Aurora Opportunities Highlight the Day",
+    "headline": "Routine Space Day with Aurora Hints",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | Starlink Group 17-19",
-        "description": "SpaceX is set to launch a batch of 25 Starlink satellites into low Earth orbit. This mission supports the expansion of the Starlink internet constellation.",
+        "description": "A batch of 25 satellites for the Starlink mega-constellation.",
         "importance": 5,
         "date": "2026-01-29",
         "type": "launch",
-        "action": "Watch live stream for launch details."
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G1 geomagnetic storm may provide aurora visibility at high latitudes, particularly above 65° latitude.",
+        "title": "Aurora Forecast",
+        "description": "Possible aurora activity at high latitudes with Kp 4.67.",
         "importance": 4,
-        "date": "2026-01-28",
+        "date": "2026-01-29",
         "type": "aurora",
-        "action": "Check local conditions and prepare for aurora viewing."
+        "action": "Check sky conditions if at high latitude"
       },
       {
         "rank": 3,
         "title": "Electron | Bridging The Swarm (NeonSat-1A)",
-        "description": "Rocket Lab's Electron rocket is scheduled to launch the NeonSat-1A, testing constellation capabilities for Earth observation.",
+        "description": "Testing constellation capabilities of South Korean government's Earth observation micro-satellite.",
         "importance": 5,
-        "date": "2026-01-30",
+        "date": "2026-01-29",
         "type": "launch",
-        "action": "Follow updates for launch confirmation."
+        "action": "Follow updates"
       }
     ],
     "statistics": {
@@ -42,43 +42,31 @@
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-01-28",
+        "date": "2026-01-29",
         "max_kp": 4.67,
         "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-01-28 15:00:00",
-          "end": "2026-01-28 21:00:00"
+          "start": "2026-01-29 03:00:00",
+          "end": "2026-01-29 15:00:00"
         },
-        "duration_hours": 6,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-01-29",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-01-29 21:00:00",
-          "end": "2026-01-29 21:00:00"
-        },
-        "duration_hours": 0,
+        "duration_hours": 12,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-01-28",
-      "time": "15:00-21:00 UTC",
+      "date": "2026-01-29",
+      "time": "03:00-15:00 UTC",
       "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
-    "total_viewing_hours": 6
+    "total_viewing_hours": 12
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
