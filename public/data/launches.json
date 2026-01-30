@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-01-30T16:12:18.100Z",
+  "updatedAt": "2026-01-30T16:46:29.554Z",
   "launches": [
     {
       "id": "5b32bfe3-2816-4a86-bf82-710d0b3660d2",
@@ -6046,28 +6046,28 @@
           {
             "id": 258,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 2,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 240,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/240/",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1101",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 1,
+              "last_launch_date": "2026-01-04T06:48:10Z",
+              "first_launch_date": "2026-01-04T06:48:10Z"
             },
             "landing": {
               "id": 286,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will attempt to land back at the launch site after this flight.",
-              "downrange_distance": 14.6,
+              "description": "The Falcon 9 first stage B1101 will attempt to land back at the launch site after its 2nd flight.",
+              "downrange_distance": 0.4,
               "location": {
                 "id": 62,
                 "name": "Landing Zone  at SLC-40",
@@ -6093,9 +6093,12 @@
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2026-01-04T06:48:10Z",
+            "turn_around_time_days": 38,
+            "previous_flight": {
+              "id": "ae315ab0-ecda-4c54-99c6-0a8818f55b0d",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-88"
+            }
           }
         ],
         "spacecraft_stage": {
@@ -6637,11 +6640,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7203,
+      "orbital_launch_attempt_count": 7204,
       "location_launch_attempt_count": 1086,
       "pad_launch_attempt_count": 364,
       "agency_launch_attempt_count": 638,
-      "orbital_launch_attempt_count_year": 30,
+      "orbital_launch_attempt_count_year": 31,
       "location_launch_attempt_count_year": 10,
       "pad_launch_attempt_count_year": 10,
       "agency_launch_attempt_count_year": 19,
