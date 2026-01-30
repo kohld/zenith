@@ -7,17 +7,8 @@
     "missionType": "Interstellar Probe",
     "ra": 259.1689583333333,
     "dec": 12.083,
-    "date": "2026-01-30T06:46:37.844Z",
-    "dsnSignal": {
-      "id": "-31",
-      "name": "VGR1",
-      "upSignal": false,
-      "downSignal": true,
-      "dataRate": 160,
-      "power": -160,
-      "frequency": 0
-    },
-    "status": "DOWNLINK ACTIVE"
+    "date": "2026-01-30T12:46:52.009Z",
+    "status": "AWAITING SIGNAL"
   },
   {
     "name": "Voyager 2",
@@ -27,7 +18,7 @@
     "missionType": "Interstellar Probe",
     "ra": 303.1197916666667,
     "dec": -59.196194444444444,
-    "date": "2026-01-30T06:46:38.553Z",
+    "date": "2026-01-30T12:46:52.715Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -38,7 +29,7 @@
     "missionType": "Pluto/Kuiper Belt",
     "ra": 289.951875,
     "dec": -20.187277777777776,
-    "date": "2026-01-30T06:46:39.280Z",
+    "date": "2026-01-30T12:46:53.430Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -49,8 +40,17 @@
     "missionType": "Space Telescope",
     "ra": 100.08420833333334,
     "dec": 19.01786111111111,
-    "date": "2026-01-30T06:46:39.995Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-01-30T12:46:54.139Z",
+    "dsnSignal": {
+      "id": "-170",
+      "name": "JWST",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 0,
+      "power": -140,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "Parker Solar Probe",
@@ -60,7 +60,7 @@
     "missionType": "Heliophysics",
     "ra": 319.92608333333334,
     "dec": -17.035861111111114,
-    "date": "2026-01-30T06:46:40.715Z",
+    "date": "2026-01-30T12:46:54.878Z",
     "status": "AWAITING SIGNAL"
   }
 ]
