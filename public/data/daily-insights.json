@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-01-30T12:27:40.854Z",
+  "generated_at": "2026-01-31T00:48:11.235Z",
   "daily_summary": {
-    "headline": "Artemis II and Starlink Launches Dominate the Day",
+    "headline": "Routine Launch Day with Minimal Aurora Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "Artemis II Crewed Mission",
-        "description": "The Artemis II mission is set to send a crew of 4 astronauts on a lunar flyby, marking a significant milestone in NASA's Artemis program.",
-        "importance": 10,
-        "date": "2026-02-07T02:41:00Z",
+        "title": "Long March 2C Launch",
+        "description": "Launch of Long March 2C carrying an unknown payload from Jiuquan Satellite Launch Center.",
+        "importance": 5,
+        "date": "2026-01-31T04:00:00Z",
         "type": "launch",
-        "action": "Watch the live stream and follow the mission updates."
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Starlink Group 17-32 Deployment",
-        "description": "SpaceX's Falcon 9 will deploy a batch of 25 Starlink satellites, expanding the global internet constellation.",
-        "importance": 5,
-        "date": "2026-02-02T15:17:00Z",
-        "type": "launch",
-        "action": "Tune in to the live webcast for the launch."
-      },
-      {
-        "rank": 3,
         "title": "Soyuz 2.1a/Fregat-M Launch",
-        "description": "A Soyuz 2.1a rocket will launch a classified payload for the Russian military from Plesetsk Cosmodrome.",
+        "description": "Launch of Soyuz 2.1a/Fregat-M carrying a classified payload from Plesetsk Cosmodrome.",
         "importance": 5,
         "date": "2026-02-02T15:00:00Z",
         "type": "launch",
-        "action": "Follow updates from Russian Space Forces."
+        "action": "Watch live stream"
+      },
+      {
+        "rank": 3,
+        "title": "Falcon 9 Block 5 Starlink Launch",
+        "description": "Launch of Falcon 9 Block 5 carrying Starlink Group 17-32 from Vandenberg SFB.",
+        "importance": 5,
+        "date": "2026-02-02T15:17:00Z",
+        "type": "launch",
+        "action": "Watch live stream"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
-      "crewed_missions": 1,
-      "historic_events": 1,
+      "crewed_missions": 0,
+      "historic_events": 0,
       "aurora_opportunities": 0
     }
   },
@@ -48,7 +48,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
