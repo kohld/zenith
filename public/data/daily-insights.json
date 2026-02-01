@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-02-01T01:00:05.399Z",
+  "generated_at": "2026-02-01T12:26:52.958Z",
   "daily_summary": {
-    "headline": "Routine Launches and Low Aurora Activity",
+    "headline": "Routine Launches and Quiet Skies",
     "top_events": [
       {
         "rank": 1,
         "title": "Soyuz 2.1a/Fregat-M Launch",
-        "description": "A government/top secret mission by the Russian Space Forces using the Soyuz 2.1a/Fregat-M rocket from Plesetsk Cosmodrome.",
+        "description": "Launch of a classified payload by the Russian Space Forces.",
         "importance": 5,
         "date": "2026-02-02T15:00:00Z",
         "type": "launch",
-        "action": "Watch live stream for updates."
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Starlink Group 17-32 Launch",
-        "description": "SpaceX's Falcon 9 Block 5 will launch a batch of 25 Starlink satellites from Vandenberg SFB, CA, USA.",
+        "title": "Falcon 9 Starlink Launch",
+        "description": "Deployment of Starlink satellites by SpaceX.",
         "importance": 5,
         "date": "2026-02-02T15:17:00Z",
         "type": "launch",
-        "action": "Tune in to SpaceX's live webcast."
+        "action": "Watch live stream"
       },
       {
         "rank": 3,
-        "title": "Starlink Group 6-103 Launch",
-        "description": "Another SpaceX Falcon 9 Block 5 launch for the Starlink mega-constellation, scheduled from Cape Canaveral SFS, FL, USA.",
-        "importance": 5,
-        "date": "2026-02-03T22:12:00Z",
-        "type": "launch",
-        "action": "Follow the live stream for real-time coverage."
+        "title": "Aurora Forecast",
+        "description": "Low geomagnetic activity expected, minimal aurora visibility.",
+        "importance": 1,
+        "date": "2026-02-01",
+        "type": "aurora",
+        "action": "No action required"
       }
     ],
     "statistics": {
@@ -48,7 +48,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 16,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
