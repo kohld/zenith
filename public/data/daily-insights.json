@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-01-26T09:20:39.966Z",
+  "generated_at": "2026-02-02T00:53:27.524Z",
   "daily_summary": {
-    "headline": "SpaceX GPS III SV09 Launch Highlights a Day of Steady Space Activity",
+    "headline": "Routine Launches and Low Aurora Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "SpaceX Falcon 9 launches GPS III SV09 for US Space Force",
-        "description": "A Falcon 9 Block 5 rocket launches the ninth GPS III navigation satellite, enhancing global positioning capabilities. The mission is notable for its national security significance and the use of a flight-proven booster.",
+        "title": "Soyuz 2.1a/Fregat-M Launch",
+        "description": "Launch of a classified payload for the Russian military.",
         "importance": 5,
-        "date": "2026-01-27T04:42:23Z",
+        "date": "2026-02-02",
         "type": "launch",
-        "action": "Watch the official SpaceX webcast for live coverage."
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Aurora G1 Storm Opportunity (Kp 4.67) on Jan 28",
-        "description": "A minor geomagnetic storm may bring aurora visibility to high latitudes (65°+). Best viewing window is from 00:00 to 21:00 UTC on January 28.",
-        "importance": 4,
-        "date": "2026-01-28T00:00:00Z",
-        "type": "aurora",
-        "action": "Check northern skies if you are at high latitude."
+        "title": "Falcon 9 Starlink Group 17-32 Launch",
+        "description": "Deployment of 25 Starlink satellites.",
+        "importance": 5,
+        "date": "2026-02-02",
+        "type": "launch",
+        "action": "Watch live stream"
       },
       {
         "rank": 3,
-        "title": "Rocket Lab Electron to Launch NeonSat-1A",
-        "description": "Rocket Lab's Electron will launch the NeonSat-1A Earth observation satellite for South Korea, supporting disaster monitoring and satellite technology development.",
+        "title": "Falcon 9 Starlink Group 6-103 Launch",
+        "description": "Deployment of 29 Starlink satellites.",
         "importance": 5,
-        "date": "2026-01-28T00:55:39Z",
+        "date": "2026-02-03",
         "type": "launch",
-        "action": "Watch Rocket Lab's webcast for mission updates."
+        "action": "Watch live stream"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-01-28",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-01-28 00:00:00",
-          "end": "2026-01-28 21:00:00"
-        },
-        "duration_hours": 21,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-01-28",
-      "time": "00:00-21:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
-    },
-    "total_viewing_hours": 21
+    "opportunities": [],
+    "best_window": null,
+    "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
-    "model": "gpt-4.1",
+    "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 21,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
