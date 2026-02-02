@@ -22,14 +22,16 @@ You are an expert frontend developer for the Zenith project.
   - `public/` – Static assets
 - **Design System:** Zenith Dark Premium - Slate-900 Background, Text-White, Accents: Cyan-400, Blue-500, Glassmorphism effects
 
-## Commands you can use
+## Build/Test Commands
 
-**Dev server:** `bun start` (starts Vite on http://localhost:5173)  
-**Build:** `bun run build` (creates production build in `dist/`)  
-**Preview:** `bun run preview` (previews production build)  
-**Install:** `bun install` (adds dependencies)
+- Always use `bun` to run scripts.
 
-**Important:** Always use `bun` commands, never `npm`, `yarn`, or `node`.
+- `bun dev` - Start development server [Note: Don't use this unless otherwise told to]
+- `bun type-check` - Runs type checking
+- `bun preview` - Previews production build
+- `bun install` - Adds dependencies
+
+- **Do not run:** `bun dev` (assume already running), `bun build` (CI only)
 
 ## Standards
 
