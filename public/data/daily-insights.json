@@ -1,59 +1,58 @@
 {
-  "generated_at": "2026-02-03T09:07:26.382Z",
+  "generated_at": "2026-02-03T12:29:31.882Z",
   "daily_summary": {
-    "headline": "Chinese Spaceplane and G1 Aurora: A Day of Steady Space Activity",
+    "headline": "Aurora and Routine Launches Dominate the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Long March 2F/G | Chinese Reusable Space Vehicle (probable 4th flight)",
-        "description": "Potential 4th flight of China's secretive reusable spaceplane, a rare and technologically significant mission.",
+        "title": "G1 Geomagnetic Storm",
+        "description": "A G1 geomagnetic storm is expected on February 5th, offering potential aurora visibility down to 60° latitude.",
         "importance": 8,
-        "date": "2026-02-07T03:55:00Z",
-        "type": "launch",
-        "action": "Follow updates for mission details and possible reentry sightings."
+        "date": "2026-02-05",
+        "type": "aurora",
+        "action": "Check skies if you're at high latitudes."
       },
       {
         "rank": 2,
-        "title": "G1 Geomagnetic Storm Opportunity",
-        "description": "Kp 5 (G1) aurora forecast for Feb 5, offering a good chance for aurora viewing at high latitudes (≥60°).",
-        "importance": 7,
-        "date": "2026-02-05T21:00:00Z",
-        "type": "aurora",
-        "action": "Prepare for aurora photography if skies are clear."
+        "title": "Routine Starlink Launches",
+        "description": "Multiple Falcon 9 launches for Starlink satellite deployments are scheduled, maintaining the expansion of the constellation.",
+        "importance": 5,
+        "date": "2026-02-03",
+        "type": "launch",
+        "action": "Watch live streams for the latest launches."
       },
       {
         "rank": 3,
-        "title": "Falcon 9 | Starlink Group 6-103",
-        "description": "Routine SpaceX Starlink launch, supporting global internet coverage. Notable for rapid booster reuse.",
+        "title": "Chinese Reusable Space Vehicle Launch",
+        "description": "Launch of a Chinese reusable space vehicle, details are top secret but significant for China's space capabilities.",
         "importance": 5,
-        "date": "2026-02-05T21:20:00Z",
+        "date": "2026-02-07",
         "type": "launch",
-        "action": "Watch the live stream for booster landing and Starlink deployment."
+        "action": "Follow updates for any new information."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
-      "historic_events": 1,
+      "historic_events": 0,
       "aurora_opportunities": 1
     }
   },
   "alerts": [
     {
-      "type": "launch",
+      "type": "aurora",
       "priority": "high",
-      "title": "Chinese Reusable Space Vehicle Launch",
-      "message": "The Long March 2F/G is scheduled to launch China's reusable spaceplane (probable 4th flight), a rare and technologically significant mission. Details about the payload remain classified.",
-      "action_required": "Follow updates for mission details and possible reentry sightings.",
-      "expires_at": "2026-02-07T06:00:00Z",
+      "title": "G1 Geomagnetic Storm Alert",
+      "message": "A G1 geomagnetic storm is expected on February 5th, offering potential aurora visibility down to 60° latitude.",
+      "action_required": "Check skies if you're at high latitudes and conditions are clear.",
+      "expires_at": "2026-02-06T00:00:00Z",
       "tags": [
-        "rare",
-        "spaceplane",
-        "China",
-        "historic",
-        "high-priority"
+        "aurora",
+        "G1",
+        "geomagnetic_storm",
+        "high_latitude"
       ],
-      "id": "alert_1770109557610_vufxm5prg"
+      "id": "alert_1770121700561_yhdzf6alk"
     }
   ],
   "aurora_insights": {
@@ -69,6 +68,18 @@
         },
         "duration_hours": 3,
         "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-02-06",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-02-06 00:00:00",
+          "end": "2026-02-06 00:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
@@ -81,9 +92,9 @@
   },
   "special_events": [],
   "agent_metadata": {
-    "model": "gpt-4.1",
+    "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 21,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 3
   }
