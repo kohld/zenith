@@ -1,55 +1,90 @@
 {
-  "generated_at": "2026-02-02T12:27:22.755Z",
+  "generated_at": "2026-02-03T09:07:26.382Z",
   "daily_summary": {
-    "headline": "Routine Day for Space Launches and Aurora Viewing",
+    "headline": "Chinese Spaceplane and G1 Aurora: A Day of Steady Space Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "Soyuz 2.1a/Fregat-M Launch",
-        "description": "A standard mission by the Russian Space Forces with an unknown payload.",
-        "importance": 5,
-        "date": "2026-02-02",
+        "title": "Long March 2F/G | Chinese Reusable Space Vehicle (probable 4th flight)",
+        "description": "Potential 4th flight of China's secretive reusable spaceplane, a rare and technologically significant mission.",
+        "importance": 8,
+        "date": "2026-02-07T03:55:00Z",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Follow updates for mission details and possible reentry sightings."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Starlink Launch",
-        "description": "SpaceX's routine Starlink satellite deployment.",
-        "importance": 5,
-        "date": "2026-02-02",
-        "type": "launch",
-        "action": "Watch live stream"
+        "title": "G1 Geomagnetic Storm Opportunity",
+        "description": "Kp 5 (G1) aurora forecast for Feb 5, offering a good chance for aurora viewing at high latitudes (≥60°).",
+        "importance": 7,
+        "date": "2026-02-05T21:00:00Z",
+        "type": "aurora",
+        "action": "Prepare for aurora photography if skies are clear."
       },
       {
         "rank": 3,
-        "title": "Low Aurora Activity",
-        "description": "Minimal aurora activity expected, not visible from Central Europe.",
-        "importance": 1,
-        "date": "2026-02-02",
-        "type": "aurora",
-        "action": "No action required"
+        "title": "Falcon 9 | Starlink Group 6-103",
+        "description": "Routine SpaceX Starlink launch, supporting global internet coverage. Notable for rapid booster reuse.",
+        "importance": 5,
+        "date": "2026-02-05T21:20:00Z",
+        "type": "launch",
+        "action": "Watch the live stream for booster landing and Starlink deployment."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
-      "historic_events": 0,
-      "aurora_opportunities": 0
+      "historic_events": 1,
+      "aurora_opportunities": 1
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "launch",
+      "priority": "high",
+      "title": "Chinese Reusable Space Vehicle Launch",
+      "message": "The Long March 2F/G is scheduled to launch China's reusable spaceplane (probable 4th flight), a rare and technologically significant mission. Details about the payload remain classified.",
+      "action_required": "Follow updates for mission details and possible reentry sightings.",
+      "expires_at": "2026-02-07T06:00:00Z",
+      "tags": [
+        "rare",
+        "spaceplane",
+        "China",
+        "historic",
+        "high-priority"
+      ],
+      "id": "alert_1770109557610_vufxm5prg"
+    }
+  ],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
-    "total_viewing_hours": 0
+    "opportunities": [
+      {
+        "date": "2026-02-05",
+        "max_kp": 5,
+        "storm_level": "G1",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-02-05 18:00:00",
+          "end": "2026-02-05 21:00:00"
+        },
+        "duration_hours": 3,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      }
+    ],
+    "best_window": {
+      "date": "2026-02-05",
+      "time": "18:00-21:00 UTC",
+      "kp": 5,
+      "visibility_range": "Down to 60° latitude"
+    },
+    "total_viewing_hours": 3
   },
   "special_events": [],
   "agent_metadata": {
-    "model": "gpt-4o",
+    "model": "gpt-4.1",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 21,
     "processing_time_seconds": 0,
-    "iterations": 1
+    "iterations": 3
   }
 }
