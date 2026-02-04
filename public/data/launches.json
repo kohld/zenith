@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-04T17:47:12.701Z",
+  "updatedAt": "2026-02-04T18:18:17.641Z",
   "launches": [
     {
       "id": "a9fd7757-9a51-4607-845d-d830673c4486",
@@ -3898,8 +3898,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-04T15:34:18Z",
+      "last_updated": "2026-02-04T18:13:45Z",
       "updates": [
+        {
+          "id": 13884,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch window for February 15 (based on webcast start time).",
+          "info_url": "https://www.spacex.com/launches/sl-17-13",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-04T18:13:00Z"
+        },
         {
           "id": 13883,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -3917,15 +3925,15 @@
           "created_on": "2026-01-29T20:03:00Z"
         }
       ],
-      "net": "2026-02-15T00:00:00Z",
+      "net": "2026-02-15T08:00:00Z",
       "net_precision": {
-        "id": 5,
-        "name": "Day",
-        "abbrev": "DAY",
-        "description": "The T-0 is expected on the given day."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-02-15T00:00:00Z",
-      "window_start": "2026-02-15T00:00:00Z",
+      "window_end": "2026-02-15T12:00:00Z",
+      "window_start": "2026-02-15T08:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -4149,7 +4157,7 @@
               }
             },
             "previous_flight_date": "2026-01-17T04:39:51Z",
-            "turn_around_time_days": 28,
+            "turn_around_time_days": 29,
             "previous_flight": {
               "id": "1cdbe42e-22bb-470e-9107-edcc4c902ee5",
               "name": "Falcon 9 Block 5 | NROL-105"
@@ -4507,7 +4515,7 @@
       "location_launch_attempt_count_year": 10,
       "pad_launch_attempt_count_year": 10,
       "agency_launch_attempt_count_year": 19,
-      "pad_turnaround": "P3DT9H53M",
+      "pad_turnaround": "P3DT17H53M",
       "mission_patches": [
         {
           "id": 7,
