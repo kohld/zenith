@@ -1,58 +1,58 @@
 {
-  "generated_at": "2026-02-03T12:29:31.882Z",
+  "generated_at": "2026-02-04T00:50:35.651Z",
   "daily_summary": {
-    "headline": "Aurora and Routine Launches Dominate the Day",
+    "headline": "Exciting Aurora and Space Launches Await",
     "top_events": [
       {
         "rank": 1,
-        "title": "G1 Geomagnetic Storm",
-        "description": "A G1 geomagnetic storm is expected on February 5th, offering potential aurora visibility down to 60° latitude.",
-        "importance": 8,
+        "title": "Aurora G1 Storm",
+        "description": "A G1 geomagnetic storm is expected on February 5th, offering a good chance to view auroras at latitudes as low as 60°.",
+        "importance": 7,
         "date": "2026-02-05",
         "type": "aurora",
-        "action": "Check skies if you're at high latitudes."
+        "action": "Plan to observe auroras if you're at a high latitude."
       },
       {
         "rank": 2,
-        "title": "Routine Starlink Launches",
-        "description": "Multiple Falcon 9 launches for Starlink satellite deployments are scheduled, maintaining the expansion of the constellation.",
-        "importance": 5,
-        "date": "2026-02-03",
+        "title": "Falcon 9 Block 5 | Crew-12",
+        "description": "SpaceX's Crew-12 mission is set to launch soon, continuing the vital crew rotation for the ISS.",
+        "importance": 8,
+        "date": "2026-02-11",
         "type": "launch",
-        "action": "Watch live streams for the latest launches."
+        "action": "Watch the live stream for this important crewed mission."
       },
       {
         "rank": 3,
-        "title": "Chinese Reusable Space Vehicle Launch",
-        "description": "Launch of a Chinese reusable space vehicle, details are top secret but significant for China's space capabilities.",
-        "importance": 5,
+        "title": "Long March 2F/G | Chinese Reusable Space Vehicle",
+        "description": "China's Long March 2F/G will launch a reusable space vehicle, marking a significant step in reusable space technology.",
+        "importance": 7,
         "date": "2026-02-07",
         "type": "launch",
-        "action": "Follow updates for any new information."
+        "action": "Follow updates on this innovative mission."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
-      "crewed_missions": 0,
+      "crewed_missions": 1,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 2
     }
   },
   "alerts": [
     {
       "type": "aurora",
       "priority": "high",
-      "title": "G1 Geomagnetic Storm Alert",
-      "message": "A G1 geomagnetic storm is expected on February 5th, offering potential aurora visibility down to 60° latitude.",
-      "action_required": "Check skies if you're at high latitudes and conditions are clear.",
+      "title": "Aurora G1 Storm Alert",
+      "message": "A G1 geomagnetic storm is expected on February 5th, with auroras visible down to 60° latitude. This is a great opportunity for aurora enthusiasts.",
+      "action_required": "Prepare for aurora viewing if you are at high latitudes and ensure clear skies.",
       "expires_at": "2026-02-06T00:00:00Z",
       "tags": [
         "aurora",
         "G1",
-        "geomagnetic_storm",
-        "high_latitude"
+        "storm",
+        "high-priority"
       ],
-      "id": "alert_1770121700561_yhdzf6alk"
+      "id": "alert_1770166160657_5fjprh95l"
     }
   ],
   "aurora_insights": {
@@ -76,9 +76,9 @@
         "probability": "Low (30-50%)",
         "time_window": {
           "start": "2026-02-06 00:00:00",
-          "end": "2026-02-06 00:00:00"
+          "end": "2026-02-06 21:00:00"
         },
-        "duration_hours": 0,
+        "duration_hours": 21,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
@@ -88,13 +88,13 @@
       "kp": 5,
       "visibility_range": "Down to 60° latitude"
     },
-    "total_viewing_hours": 3
+    "total_viewing_hours": 24
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 3
   }
