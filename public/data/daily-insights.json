@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-02-04T12:29:42.352Z",
+  "generated_at": "2026-02-05T12:29:46.008Z",
   "daily_summary": {
-    "headline": "Exciting Aurora and Space Launches Await!",
+    "headline": "Exciting Aurora and Routine Launches Await",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Alert: G1 Storm Expected",
-        "description": "A G1 geomagnetic storm is predicted, offering a good chance to see auroras at latitudes down to 60°.",
-        "importance": 8,
+        "title": "Aurora Activity Peaks",
+        "description": "A G1-class geomagnetic storm offers a good viewing opportunity for auroras, especially for observers at high latitudes.",
+        "importance": 7,
         "date": "2026-02-05",
         "type": "aurora",
-        "action": "Plan to observe the aurora if you're in a high-latitude area."
+        "action": "Check skies if you're above 60° latitude."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 | Crew-12",
-        "description": "SpaceX's Crew-12 mission is set to launch, carrying astronauts to the ISS.",
-        "importance": 8,
-        "date": "2026-02-11",
+        "title": "Routine Falcon 9 Launch",
+        "description": "SpaceX's Falcon 9 launches another batch of Starlink satellites, continuing its mission to expand global internet coverage.",
+        "importance": 5,
+        "date": "2026-02-07",
         "type": "launch",
-        "action": "Watch the live stream of this significant crewed mission."
+        "action": "Watch live stream for launch details."
       },
       {
         "rank": 3,
-        "title": "Vulcan VC4S | USSF-87",
-        "description": "United Launch Alliance's Vulcan rocket will launch a top-secret mission for the US Space Force.",
-        "importance": 7,
-        "date": "2026-02-12",
+        "title": "Chinese Reusable Space Vehicle Launch",
+        "description": "China's Long March 2F/G rocket launches a top-secret space vehicle, marking another step in reusable space technology.",
+        "importance": 5,
+        "date": "2026-02-07",
         "type": "launch",
-        "action": "Follow updates for this classified mission."
+        "action": "Follow updates for mission insights."
       }
     ],
     "statistics": {
@@ -38,23 +38,7 @@
       "aurora_opportunities": 2
     }
   },
-  "alerts": [
-    {
-      "type": "aurora",
-      "priority": "high",
-      "title": "Aurora Alert: G1 Storm Expected",
-      "message": "A G1 geomagnetic storm is predicted for February 5th, offering a good chance to see auroras at latitudes down to 60°.",
-      "action_required": "Plan to observe the aurora if you're in a high-latitude area.",
-      "expires_at": "2026-02-06T00:00:00Z",
-      "tags": [
-        "aurora",
-        "G1",
-        "geomagnetic_storm",
-        "high_latitude"
-      ],
-      "id": "alert_1770208118217_45c6a1n8g"
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
     "opportunities": [
       {
@@ -96,6 +80,6 @@
     "total_launches_analyzed": 5,
     "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
-    "iterations": 3
+    "iterations": 2
   }
 }
