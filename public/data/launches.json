@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-05T23:07:48.478Z",
+  "updatedAt": "2026-02-05T23:39:48.814Z",
   "launches": [
     {
       "id": "726f22bb-8a58-482e-82e8-b2a88e08fc7e",
@@ -9,13 +9,21 @@
       "r_spacex_api_id": null,
       "name": "Soyuz 2.1b/Fregat-M | Kosmos (Unknown Payload)",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-02-05T19:30:34Z",
+      "last_updated": "2026-02-05T23:17:54Z",
       "updates": [
+        {
+          "id": 13893,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://tass.ru/kosmos/26364845",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-05T23:17:00Z"
+        },
         {
           "id": 13892,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -78,8 +86,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 148,
-        "consecutive_successful_launches": 59,
-        "successful_launches": 139,
+        "consecutive_successful_launches": 60,
+        "successful_launches": 140,
         "failed_launches": 8,
         "pending_launches": 1,
         "consecutive_successful_landings": 0,
@@ -151,8 +159,8 @@
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/Soyuz-2",
           "total_launch_count": 35,
-          "consecutive_successful_launches": 34,
-          "successful_launches": 34,
+          "consecutive_successful_launches": 35,
+          "successful_launches": 35,
           "failed_launches": 0,
           "pending_launches": 2,
           "attempted_landings": 0,
@@ -179,16 +187,16 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 48,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/48/",
+        "id": 85,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/85/",
         "agency_id": 163,
-        "name": "Unknown Pad",
-        "description": null,
+        "name": "43/4 (43R)",
+        "description": "",
         "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Plesetsk_Cosmodrome",
-        "map_url": "https://www.google.com/maps?q=62.925556,40.577778",
-        "latitude": "62.925556",
-        "longitude": "40.577778",
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=62.92883,40.457098",
+        "latitude": "62.92883",
+        "longitude": "40.457098",
         "location": {
           "id": 6,
           "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
@@ -201,9 +209,9 @@
           "total_landing_count": 0
         },
         "country_code": "RUS",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_48_20200803143459.jpg",
-        "total_launch_count": 1,
-        "orbital_launch_attempt_count": 1
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_85_20200803143554.jpg",
+        "total_launch_count": 326,
+        "orbital_launch_attempt_count": 326
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -214,13 +222,13 @@
       "program": [],
       "orbital_launch_attempt_count": 7199,
       "location_launch_attempt_count": 1681,
-      "pad_launch_attempt_count": 1,
+      "pad_launch_attempt_count": 326,
       "agency_launch_attempt_count": 148,
       "orbital_launch_attempt_count_year": 26,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P0D",
+      "pad_turnaround": "P42DT4H48M",
       "mission_patches": [],
       "type": "detailed"
     },
