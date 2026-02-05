@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-05T14:20:35.896Z",
+  "updatedAt": "2026-02-05T14:47:00.132Z",
   "launches": [
     {
       "id": "a9fd7757-9a51-4607-845d-d830673c4486",
@@ -6461,32 +6461,32 @@
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 192,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/192/",
+              "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
+              "flight_proven": true,
+              "serial_number": "B1092",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1092_landing_a_image_20250325084800.jpg",
+              "successful_landings": 9,
+              "attempted_landings": 9,
+              "flights": 9,
+              "last_launch_date": "2025-12-15T05:25:10Z",
+              "first_launch_date": "2025-02-27T03:34:20Z"
             },
             "landing": {
               "id": 1754,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land on one of two East Coast ASDS after its flight.",
+              "description": "The Falcon 9 first stage B1092 will land on ASDS JRTI after its 10th flight.",
               "downrange_distance": 605,
               "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
+                "id": 3,
+                "name": "Just Read the Instructions",
+                "abbrev": "JRTI",
+                "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Atlantic Ocean.",
                 "location": null,
-                "successful_landings": 0
+                "successful_landings": 148
               },
               "type": {
                 "id": 1,
@@ -6575,6 +6575,23 @@
         "orbital_launch_attempt_count": 361
       },
       "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-10-36",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        },
         {
           "priority": 10,
           "source": "spacex.com",
