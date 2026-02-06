@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-05T12:29:46.008Z",
+  "generated_at": "2026-02-06T00:50:09.520Z",
   "launches": [
     {
       "id": "a9fd7757-9a51-4607-845d-d830673c4486",
@@ -199,7 +199,20 @@
       "pad_turnaround": "P73DT23H43M15S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "a9fd7757-9a51-4607-845d-d830673c4486",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "5fd638a9-8676-4981-b398-18db6fb4e2be",
@@ -839,7 +852,281 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "5fd638a9-8676-4981-b398-18db6fb4e2be",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
+    },
+    {
+      "id": "b7c38b80-6ce7-4ab0-8010-19ee11e26fc5",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/b7c38b80-6ce7-4ab0-8010-19ee11e26fc5/",
+      "slug": "smart-dragon-3-unknown-payload",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Smart Dragon 3 | Unknown Payload",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-02-05T16:07:38Z",
+      "updates": [
+        {
+          "id": 13891,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Rescheduled for February 11 per new NOTAMs.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2757200#msg2757200",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-05T16:07:00Z"
+        },
+        {
+          "id": 13728,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Reverted back to NET January TBD per cancellation of NOTAMs.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64067.msg2752344#msg2752344",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-20T20:03:00Z"
+        },
+        {
+          "id": 13633,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET January 25 per new NOTAM, to be confirmed.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2750729#msg2750729",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-14T01:57:00Z"
+        },
+        {
+          "id": 13530,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET January 20 per new NOTAMs, to be confirmed.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2748400#msg2748400",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-01-07T01:56:00Z"
+        },
+        {
+          "id": 13479,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch apparently delayed with launch ship observed to have left its launch location, to be confirmed.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64067.msg2746542#msg2746542",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-27T19:38:00Z"
+        },
+        {
+          "id": 13467,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Delayed to December 29 per new NOTAMs.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2746187#msg2746187",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-25T13:26:00Z"
+        },
+        {
+          "id": 13439,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch per NOTAMs; Payload identity uncertain.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2745524#msg2745524",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-22T15:53:00Z"
+        }
+      ],
+      "net": "2026-02-11T06:30:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "window_end": "2026-02-11T06:47:00Z",
+      "window_start": "2026-02-11T06:26:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 272,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/272/",
+        "name": "China Rocket Co. Ltd.",
+        "featured": false,
+        "type": "Commercial",
+        "country_code": "CHN",
+        "abbrev": "CHNR",
+        "description": "China Rocket Co. Ltd. is a spinoff of China’s state-owned launch vehicle manufacturer using a “commercial business model”.",
+        "administrator": null,
+        "founding_year": null,
+        "launchers": "",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 9,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 9,
+        "failed_launches": 0,
+        "pending_launches": 1,
+        "consecutive_successful_landings": 0,
+        "successful_landings": 0,
+        "failed_landings": 0,
+        "attempted_landings": 0,
+        "info_url": null,
+        "wiki_url": null,
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520rocket2520co.2520ltd._logo_20221001084159.png",
+        "image_url": null,
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china_rocket_co_image_20240922154013.jpg"
+      },
+      "rocket": {
+        "id": 8861,
+        "configuration": {
+          "id": 484,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/484/",
+          "name": "Smart Dragon 3",
+          "active": true,
+          "reusable": false,
+          "description": "Smart Dragon-3 is a solid fuel orbital rocket designed by a subsidiary of the state-owned CASC group built for the commercial market.",
+          "family": "Smart Dragon",
+          "full_name": "Smart Dragon 3",
+          "manufacturer": {
+            "id": 272,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/272/",
+            "name": "China Rocket Co. Ltd.",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "CHN",
+            "abbrev": "CHNR",
+            "description": "China Rocket Co. Ltd. is a spinoff of China’s state-owned launch vehicle manufacturer using a “commercial business model”.",
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 9,
+            "consecutive_successful_launches": 9,
+            "successful_launches": 9,
+            "failed_launches": 0,
+            "pending_launches": 1,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": null,
+            "wiki_url": null,
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520rocket2520co.2520ltd._logo_20221001084159.png",
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china_rocket_co_image_20240922154013.jpg"
+          },
+          "program": [],
+          "variant": "",
+          "alias": "",
+          "min_stage": null,
+          "max_stage": null,
+          "length": 32,
+          "diameter": 2.64,
+          "maiden_flight": "2022-12-09",
+          "launch_cost": null,
+          "launch_mass": 140,
+          "leo_capacity": null,
+          "gto_capacity": null,
+          "to_thrust": null,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
+          "info_url": null,
+          "wiki_url": null,
+          "total_launch_count": 8,
+          "consecutive_successful_launches": 8,
+          "successful_launches": 8,
+          "failed_launches": 0,
+          "pending_launches": 1,
+          "attempted_landings": 0,
+          "successful_landings": 0,
+          "failed_landings": 0,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7452,
+        "name": "Unknown Payload",
+        "description": "Possibly an Earth observation satellite for the Pakistan government's SUPARCO, details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 251,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/251/",
+        "agency_id": 88,
+        "name": "South China Sea (launch location 3)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=21.366667,112.116667",
+        "latitude": "21.366667",
+        "longitude": "112.116667",
+        "location": {
+          "id": 185,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/185/",
+          "name": "Haiyang Oriental Spaceport",
+          "country_code": "CHN",
+          "description": "Chinese orbital launch vehicle launches supporting sea port located at Haiyang, Shandong Province, with dedicated piers and rocket/payload processing facilities for Chinese launch vehicles’ sea launches, and (as part of its expansion project) land based launch pads on artificial islands for various test vehicles and launch vehicles of private and government launch services providers.\r\n\r\nIn operation as a remote base of Taiyuan Satellite Launch Center since 2019.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_haiyang_oriental_spaceport_20251128181322.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 22,
+          "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_south_china_sea_2528launch_location_32529_20260116130538.jpg",
+        "total_launch_count": 0,
+        "orbital_launch_attempt_count": 0
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7202,
+      "location_launch_attempt_count": 23,
+      "pad_launch_attempt_count": 1,
+      "agency_launch_attempt_count": 10,
+      "orbital_launch_attempt_count_year": 29,
+      "location_launch_attempt_count_year": 2,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 1,
+      "pad_turnaround": "P0D",
+      "mission_patches": [],
+      "type": "detailed",
+      "ai_enrichment": {
+        "launch_id": "b7c38b80-6ce7-4ab0-8010-19ee11e26fc5",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
@@ -1709,7 +1996,20 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "d9c4e13d-abab-4ddc-9821-710a81d54e57",
@@ -2365,309 +2665,20 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
-    },
-    {
-      "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/550f778d-6c2d-41fc-b182-6f0cd8feda93/",
-      "slug": "vulcan-vc4s-ussf-87",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Vulcan VC4S | USSF-87",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-02-04T18:19:26Z",
-      "updates": [
-        {
-          "id": 13885,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch window.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=60381.msg2756999#msg2756999",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-02-04T18:19:00Z"
+      "ai_enrichment": {
+        "launch_id": "d9c4e13d-abab-4ddc-9821-710a81d54e57",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        {
-          "id": 13789,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Delayed to NET February 12.",
-          "info_url": "https://x.com/ulalaunch/status/2015857172262113772",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-01-26T18:40:00Z"
-        },
-        {
-          "id": 13537,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Changed rocket configuration.",
-          "info_url": "https://x.com/ulalaunch/status/2006400750763598051",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-01-07T15:21:00Z"
-        },
-        {
-          "id": 13536,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET February 2.",
-          "info_url": "https://x.com/ulalaunch/status/2008901868844642771",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-01-07T15:18:00Z"
-        },
-        {
-          "id": 13500,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET January.",
-          "info_url": "https://x.com/ulalaunch/status/2006400750763598051",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-12-31T17:20:00Z"
-        },
-        {
-          "id": 13061,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "No more ULA (Vulcan) launches for 2025.",
-          "info_url": "https://arstechnica.com/space/2025/11/ula-aimed-to-launch-up-to-10-vulcan-rockets-this-year-it-will-fly-just-once/",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-11-26T23:52:00Z"
-        },
-        {
-          "id": 9278,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET early 2025.",
-          "info_url": "https://breakingdefense.com/2024/11/ulas-vulcan-may-forfeit-planned-space-force-launches-this-year/",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2024-11-22T10:17:00Z"
-        },
-        {
-          "id": 8751,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET late 2024.",
-          "info_url": "https://x.com/dpoddolphinpro/status/1841558631344709658",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2024-10-03T01:25:00Z"
-        },
-        {
-          "id": 8228,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Reportedly targeting December",
-          "info_url": "https://x.com/StephenClark1/status/1820181812976427505",
-          "created_by": "Nosu",
-          "created_on": "2024-08-04T20:20:04Z"
-        },
-        {
-          "id": 7956,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET late 2024.",
-          "info_url": "https://x.com/thesheetztweetz/status/1805998566642475136",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2024-06-26T16:18:51Z"
-        }
-      ],
-      "net": "2026-02-12T08:00:00Z",
-      "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
-      },
-      "window_end": "2026-02-12T12:50:00Z",
-      "window_start": "2026-02-12T08:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 124,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
-        "name": "United Launch Alliance",
-        "featured": true,
-        "type": "Commercial",
-        "country_code": "USA",
-        "abbrev": "ULA",
-        "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
-        "administrator": "Interim CEO: John Elbon",
-        "founding_year": "2006",
-        "launchers": "Atlas | Delta | Vulcan",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 170,
-        "consecutive_successful_launches": 170,
-        "successful_launches": 170,
-        "failed_launches": 0,
-        "pending_launches": 41,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 0,
-        "attempted_landings": 0,
-        "info_url": "https://www.ulalaunch.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/United_Launch_Alliance",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg"
-      },
-      "rocket": {
-        "id": 7859,
-        "configuration": {
-          "id": 516,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/516/",
-          "name": "Vulcan VC4S",
-          "active": true,
-          "reusable": false,
-          "description": "Vulcan Centaur is a two-stage-to-orbit, heavy-lift launch vehicle under development by United Launch Alliance (ULA) since 2014. It is principally designed to meet launch demands for the U.S. government's National Security Space Launch (NSSL) program for use by the United States Space Force and U.S. intelligence agencies for national security satellite launches. It will replace both of ULA's existing launchers (Atlas V and Delta IV Heavy) in this role, as these launchers are retiring.",
-          "family": "Vulcan",
-          "full_name": "Vulcan VC4S",
-          "manufacturer": {
-            "id": 124,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
-            "name": "United Launch Alliance",
-            "featured": true,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "ULA",
-            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
-            "administrator": "Interim CEO: John Elbon",
-            "founding_year": "2006",
-            "launchers": "Atlas | Delta | Vulcan",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 170,
-            "consecutive_successful_launches": 170,
-            "successful_launches": 170,
-            "failed_launches": 0,
-            "pending_launches": 41,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.ulalaunch.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/United_Launch_Alliance",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg"
-          },
-          "program": [],
-          "variant": "VC4S",
-          "alias": "",
-          "min_stage": null,
-          "max_stage": null,
-          "length": null,
-          "diameter": null,
-          "maiden_flight": "2025-08-13",
-          "launch_cost": null,
-          "launch_mass": null,
-          "leo_capacity": null,
-          "gto_capacity": null,
-          "to_thrust": null,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc4s_v-0_image_20250812014341.jpeg",
-          "info_url": "https://www.ulalaunch.com/rockets/vulcan-centaur",
-          "wiki_url": "https://en.wikipedia.org/wiki/Vulcan_Centaur",
-          "total_launch_count": 1,
-          "consecutive_successful_launches": 1,
-          "successful_launches": 1,
-          "failed_launches": 0,
-          "pending_launches": 2,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 6367,
-        "name": "USSF-87",
-        "description": "USSF-87 will launch two identical Geosynchronous Space Situational Awareness Program (GSSAP) satellites GSSAP-7 and GSSAP-8 directly to a near-geosynchronous orbit approximately 36,000 km above the equator.\r\n\r\nData from the GSSAP will uniquely contribute to timely and accurate orbital predictions, further enabling space flight safety including satellite collision avoidance.",
-        "launch_designator": null,
-        "type": "Government/Top Secret",
-        "orbit": {
-          "id": 1,
-          "name": "Geostationary Orbit",
-          "abbrev": "Direct-GEO"
-        },
-        "agencies": [
-          {
-            "id": 1041,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1041/",
-            "name": "United States Space Force",
-            "featured": false,
-            "type": "Government",
-            "country_code": "USA",
-            "abbrev": "USSF",
-            "description": "The United States Space Force (USSF) is the space service branch of the U.S. Armed Forces, one of the eight U.S. uniformed services.",
-            "administrator": null,
-            "founding_year": "2019",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.spaceforce.mil/",
-            "wiki_url": "https://en.wikipedia.org/wiki/United_States_Space_Force",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520space2520force_logo_20221102113048.png",
-            "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_states_s_image_20250916065613.jpg"
-          }
-        ],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 29,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
-        "agency_id": null,
-        "name": "Space Launch Complex 41",
-        "description": "",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
-        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
-        "latitude": "28.58341025",
-        "longitude": "-80.58303644",
-        "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
-          "name": "Cape Canaveral SFS, FL, USA",
-          "country_code": "USA",
-          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 1083,
-          "total_landing_count": 70
-        },
-        "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
-        "total_launch_count": 120,
-        "orbital_launch_attempt_count": 120
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc4s_v-0_image_20250812014341.jpeg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7203,
-      "location_launch_attempt_count": 1085,
-      "pad_launch_attempt_count": 121,
-      "agency_launch_attempt_count": 171,
-      "orbital_launch_attempt_count_year": 30,
-      "location_launch_attempt_count_year": 9,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P57DT23H32M",
-      "mission_patches": [],
-      "type": "detailed",
-      "ai_enrichment": null
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     }
   ]
 }
