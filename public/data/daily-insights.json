@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-02-06T00:50:09.519Z",
+  "generated_at": "2026-02-06T12:28:34.900Z",
   "daily_summary": {
-    "headline": "Exciting Space Events and Aurora Opportunities",
+    "headline": "Exciting Space Events on the Horizon",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A potential G1 geomagnetic storm on February 8, 2026, with a Kp index of 4.67, offers a chance for aurora sightings at high latitudes.",
+        "title": "Aurora Opportunity",
+        "description": "A G1 level geomagnetic storm is expected, offering potential aurora visibility at high latitudes.",
         "importance": 7,
-        "date": "2026-02-08",
+        "date": "2026-02-06",
         "type": "aurora",
-        "action": "Check visibility conditions in northern regions."
+        "action": "Check visibility conditions and prepare for aurora viewing."
       },
       {
         "rank": 2,
         "title": "Long March 2F/G Launch",
-        "description": "Launch of the Chinese Reusable Space Vehicle, a top-secret mission, scheduled for February 7, 2026.",
+        "description": "Launch of the Chinese Reusable Space Vehicle, a significant step in reusable space technology.",
         "importance": 5,
         "date": "2026-02-07",
         "type": "launch",
-        "action": "Watch live stream for updates."
+        "action": "Watch the live stream for updates on this reusable vehicle test."
       },
       {
         "rank": 3,
-        "title": "SpaceX Starlink Launch",
-        "description": "SpaceX's Falcon 9 Block 5 will launch Starlink Group 17-33 on February 7, 2026, contributing to the global internet constellation.",
+        "title": "Falcon 9 Block 5 Starlink Launch",
+        "description": "Deployment of Starlink satellites to enhance global internet coverage.",
         "importance": 5,
         "date": "2026-02-07",
         "type": "launch",
-        "action": "Follow live stream for coverage."
+        "action": "Tune in to the live stream to watch the deployment."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
-      "crewed_missions": 0,
+      "crewed_missions": 1,
       "historic_events": 0,
       "aurora_opportunities": 3
     }
@@ -42,6 +42,18 @@
   "aurora_insights": {
     "opportunities": [
       {
+        "date": "2026-02-06",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-02-06 21:00:00",
+          "end": "2026-02-06 21:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
         "date": "2026-02-08",
         "max_kp": 4.67,
         "storm_level": "G1",
@@ -49,18 +61,6 @@
         "time_window": {
           "start": "2026-02-08 00:00:00",
           "end": "2026-02-08 00:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-02-06",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-02-06 03:00:00",
-          "end": "2026-02-06 03:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
@@ -79,8 +79,8 @@
       }
     ],
     "best_window": {
-      "date": "2026-02-08",
-      "time": "00:00-00:00 UTC",
+      "date": "2026-02-06",
+      "time": "21:00-21:00 UTC",
       "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
@@ -90,7 +90,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
