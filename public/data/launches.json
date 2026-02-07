@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-07T19:38:08.331Z",
+  "updatedAt": "2026-02-07T20:06:20.512Z",
   "launches": [
     {
       "id": "a9fd7757-9a51-4607-845d-d830673c4486",
@@ -2586,26 +2586,26 @@
             "id": 882,
             "type": "Core",
             "reused": true,
-            "launcher_flight_number": 22,
+            "launcher_flight_number": 3,
             "launcher": {
-              "id": 124,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/124/",
-              "details": "Launched Crew-7 on its first flight.",
+              "id": 239,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/239/",
+              "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
               "flight_proven": true,
-              "serial_number": "B1081",
+              "serial_number": "B1100",
               "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/124_image_20230827172435.jpeg",
-              "successful_landings": 21,
-              "attempted_landings": 21,
-              "flights": 21,
-              "last_launch_date": "2026-01-03T02:09:16Z",
-              "first_launch_date": "2023-08-26T07:27:27Z"
+              "image_url": null,
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2026-01-17T04:39:51Z",
+              "first_launch_date": "2025-11-23T08:48:00Z"
             },
             "landing": {
               "id": 1807,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage B1081 will land on ASDS OCISLY after its 22nd flight.",
+              "description": "The Falcon 9 first stage B1100 will land on ASDS OCISLY after its 3rd flight.",
               "downrange_distance": 574,
               "location": {
                 "id": 1,
@@ -2622,11 +2622,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2026-01-03T02:09:16Z",
-            "turn_around_time_days": 39,
+            "previous_flight_date": "2026-01-17T04:39:51Z",
+            "turn_around_time_days": 25,
             "previous_flight": {
-              "id": "63ddb2d1-8369-4681-8a50-e95819150382",
-              "name": "Falcon 9 Block 5 | CSG-3"
+              "id": "1cdbe42e-22bb-470e-9107-edcc4c902ee5",
+              "name": "Falcon 9 Block 5 | NROL-105"
             }
           }
         ],
@@ -2981,7 +2981,7 @@
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 9,
       "agency_launch_attempt_count_year": 17,
-      "pad_turnaround": "P3DT20H46M",
+      "pad_turnaround": "P3DT17H8M51S",
       "mission_patches": [
         {
           "id": 7,
@@ -5007,26 +5007,26 @@
             "id": 883,
             "type": "Core",
             "reused": true,
-            "launcher_flight_number": 3,
+            "launcher_flight_number": 22,
             "launcher": {
-              "id": 239,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/239/",
-              "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
+              "id": 124,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/124/",
+              "details": "Launched Crew-7 on its first flight.",
               "flight_proven": true,
-              "serial_number": "B1100",
+              "serial_number": "B1081",
               "status": "active",
-              "image_url": null,
-              "successful_landings": 2,
-              "attempted_landings": 2,
-              "flights": 2,
-              "last_launch_date": "2026-01-17T04:39:51Z",
-              "first_launch_date": "2025-11-23T08:48:00Z"
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/124_image_20230827172435.jpeg",
+              "successful_landings": 21,
+              "attempted_landings": 21,
+              "flights": 21,
+              "last_launch_date": "2026-01-03T02:09:16Z",
+              "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "landing": {
               "id": 1808,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage B1100 will land on ASDS OCISLY after its 3rd flight.",
+              "description": "The Falcon 9 first stage B1081 will land on ASDS OCISLY after its 22nd flight.",
               "downrange_distance": 574,
               "location": {
                 "id": 1,
@@ -5043,11 +5043,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2026-01-17T04:39:51Z",
-            "turn_around_time_days": 28,
+            "previous_flight_date": "2026-01-03T02:09:16Z",
+            "turn_around_time_days": 42,
             "previous_flight": {
-              "id": "1cdbe42e-22bb-470e-9107-edcc4c902ee5",
-              "name": "Falcon 9 Block 5 | NROL-105"
+              "id": "63ddb2d1-8369-4681-8a50-e95819150382",
+              "name": "Falcon 9 Block 5 | CSG-3"
             }
           }
         ],
@@ -5686,26 +5686,26 @@
             "id": 859,
             "type": "Core",
             "reused": true,
-            "launcher_flight_number": 10,
+            "launcher_flight_number": 26,
             "launcher": {
-              "id": 192,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/192/",
-              "details": "Falcon 9 booster debuting on Starlink Group 12-13.",
+              "id": 116,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/116/",
+              "details": "Falcon 9 Block 5 booster first used for the Crew-5 mission.",
               "flight_proven": true,
-              "serial_number": "B1092",
+              "serial_number": "B1077",
               "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1092_landing_a_image_20250325084800.jpg",
-              "successful_landings": 9,
-              "attempted_landings": 9,
-              "flights": 9,
-              "last_launch_date": "2025-12-15T05:25:10Z",
-              "first_launch_date": "2025-02-27T03:34:20Z"
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/116_image_20240201065853.jpg",
+              "successful_landings": 25,
+              "attempted_landings": 25,
+              "flights": 25,
+              "last_launch_date": "2025-12-02T22:18:50Z",
+              "first_launch_date": "2022-10-05T16:00:57Z"
             },
             "landing": {
               "id": 1754,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage B1092 will land on ASDS JRTI after its 10th flight.",
+              "description": "The Falcon 9 first stage B1077 will land on ASDS JRTI after its 26th flight.",
               "downrange_distance": 605,
               "location": {
                 "id": 3,
@@ -5722,11 +5722,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2025-12-15T05:25:10Z",
-            "turn_around_time_days": 64,
+            "previous_flight_date": "2025-12-02T22:18:50Z",
+            "turn_around_time_days": 76,
             "previous_flight": {
-              "id": "49e52470-1dd4-45a9-b549-cfb417031823",
-              "name": "Falcon 9 Block 5 | Starlink Group 6-82"
+              "id": "d1ee3587-a7f7-455c-9dc3-1624352262b4",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-95"
             }
           }
         ],
@@ -6317,34 +6317,34 @@
             "id": 880,
             "type": "Core",
             "reused": true,
-            "launcher_flight_number": 26,
+            "launcher_flight_number": 33,
             "launcher": {
-              "id": 116,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/116/",
-              "details": "Falcon 9 Block 5 booster first used for the Crew-5 mission.",
+              "id": 101,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/101/",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-22 mission.",
               "flight_proven": true,
-              "serial_number": "B1077",
+              "serial_number": "B1067",
               "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/116_image_20240201065853.jpg",
-              "successful_landings": 25,
-              "attempted_landings": 25,
-              "flights": 25,
-              "last_launch_date": "2025-12-02T22:18:50Z",
-              "first_launch_date": "2022-10-05T16:00:57Z"
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1067_landing_o_image_20250912153830.jpeg",
+              "successful_landings": 32,
+              "attempted_landings": 32,
+              "flights": 32,
+              "last_launch_date": "2025-12-08T22:26:10Z",
+              "first_launch_date": "2021-06-03T17:29:15Z"
             },
             "landing": {
               "id": 1805,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage B1077 will land on ASDS JRTI after its 26th flight.",
+              "description": "The Falcon 9 first stage B1067 will land on ASDS JRTI after its 33rd flight.",
               "downrange_distance": 600,
               "location": {
-                "id": 3,
-                "name": "Just Read the Instructions",
-                "abbrev": "JRTI",
-                "description": "Third (Marmac 303) ASDS barge, Just Read the Instructions (JRTI) is currently used to recover Falcon 9 and Heavy boosters in the Atlantic Ocean.",
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 148
+                "successful_landings": 141
               },
               "type": {
                 "id": 1,
@@ -6353,11 +6353,11 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2025-12-02T22:18:50Z",
-            "turn_around_time_days": 79,
+            "previous_flight_date": "2025-12-08T22:26:10Z",
+            "turn_around_time_days": 73,
             "previous_flight": {
-              "id": "d1ee3587-a7f7-455c-9dc3-1624352262b4",
-              "name": "Falcon 9 Block 5 | Starlink Group 6-95"
+              "id": "c1fb73cf-ad9a-4305-bd11-d61fff369afe",
+              "name": "Falcon 9 Block 5 | Starlink Group 6-92"
             }
           }
         ],
