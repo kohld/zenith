@@ -1,58 +1,46 @@
 {
-  "generated_at": "2026-02-06T12:28:34.900Z",
+  "generated_at": "2026-02-07T12:27:42.222Z",
   "daily_summary": {
-    "headline": "Exciting Space Events on the Horizon",
+    "headline": "SpaceX Crew-12 and Starlink Launches Highlight the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Opportunity",
-        "description": "A G1 level geomagnetic storm is expected, offering potential aurora visibility at high latitudes.",
-        "importance": 7,
-        "date": "2026-02-06",
-        "type": "aurora",
-        "action": "Check visibility conditions and prepare for aurora viewing."
+        "title": "Falcon 9 Block 5 | Crew-12",
+        "description": "SpaceX's Crew-12 mission to the ISS with international astronauts on board.",
+        "importance": 8,
+        "date": "2026-02-11",
+        "type": "launch",
+        "action": "Watch live on SpaceX's official webcast."
       },
       {
         "rank": 2,
-        "title": "Long March 2F/G Launch",
-        "description": "Launch of the Chinese Reusable Space Vehicle, a significant step in reusable space technology.",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-33",
+        "description": "Deployment of 25 Starlink satellites for global internet coverage.",
         "importance": 5,
         "date": "2026-02-07",
         "type": "launch",
-        "action": "Watch the live stream for updates on this reusable vehicle test."
+        "action": "Watch live on SpaceX's official webcast."
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Block 5 Starlink Launch",
-        "description": "Deployment of Starlink satellites to enhance global internet coverage.",
-        "importance": 5,
-        "date": "2026-02-07",
-        "type": "launch",
-        "action": "Tune in to the live stream to watch the deployment."
+        "title": "Aurora Viewing Opportunity",
+        "description": "G1 geomagnetic storm expected, offering aurora visibility at high latitudes.",
+        "importance": 4,
+        "date": "2026-02-08",
+        "type": "aurora",
+        "action": "Check viewing conditions if you are at high latitudes."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 1,
       "historic_events": 0,
-      "aurora_opportunities": 3
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
     "opportunities": [
-      {
-        "date": "2026-02-06",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-02-06 21:00:00",
-          "end": "2026-02-06 21:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
       {
         "date": "2026-02-08",
         "max_kp": 4.67,
@@ -64,27 +52,15 @@
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-02-07",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-02-07 00:00:00",
-          "end": "2026-02-07 21:00:00"
-        },
-        "duration_hours": 21,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-02-06",
-      "time": "21:00-21:00 UTC",
+      "date": "2026-02-08",
+      "time": "00:00-00:00 UTC",
       "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
-    "total_viewing_hours": 21
+    "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
