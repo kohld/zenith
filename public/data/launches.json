@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-07T16:44:26.842Z",
+  "updatedAt": "2026-02-07T17:08:50.739Z",
   "launches": [
     {
       "id": "a9fd7757-9a51-4607-845d-d830673c4486",
@@ -221,8 +221,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-07T13:53:10Z",
+      "last_updated": "2026-02-07T17:06:01Z",
       "updates": [
+        {
+          "id": 13904,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Feb 07 at 20:58 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-33",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-07T17:06:00Z"
+        },
         {
           "id": 13903,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -256,7 +264,7 @@
           "created_on": "2026-01-26T18:16:00Z"
         }
       ],
-      "net": "2026-02-07T20:41:41Z",
+      "net": "2026-02-07T20:58:09Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -886,7 +894,7 @@
       "location_launch_attempt_count_year": 8,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 15,
-      "pad_turnaround": "P5DT4H54M30S",
+      "pad_turnaround": "P5DT5H10M58S",
       "mission_patches": [
         {
           "id": 7,
@@ -1163,7 +1171,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-07T14:56:40Z",
+      "last_updated": "2026-02-07T17:06:24Z",
       "updates": [
         {
           "id": 13887,
@@ -1902,7 +1910,25 @@
         "total_launch_count": 361,
         "orbital_launch_attempt_count": 361
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/crew12",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [
         {
           "priority": 10,
