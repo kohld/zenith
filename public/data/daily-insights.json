@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-02-07T12:27:42.222Z",
+  "generated_at": "2026-02-08T01:05:30.693Z",
   "daily_summary": {
-    "headline": "SpaceX Crew-12 and Starlink Launches Highlight the Day",
+    "headline": "Crewed Mission Takes Center Stage Amidst Routine Launches",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | Crew-12",
-        "description": "SpaceX's Crew-12 mission to the ISS with international astronauts on board.",
+        "description": "A crewed mission to the International Space Station as part of NASA's Commercial Crew Program.",
         "importance": 8,
         "date": "2026-02-11",
         "type": "launch",
-        "action": "Watch live on SpaceX's official webcast."
+        "action": "Watch live stream for historic crewed mission."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-33",
-        "description": "Deployment of 25 Starlink satellites for global internet coverage.",
-        "importance": 5,
-        "date": "2026-02-07",
+        "title": "Vulcan VC4S | USSF-87",
+        "description": "Launch of two GSSAP satellites for space situational awareness.",
+        "importance": 7,
+        "date": "2026-02-12",
         "type": "launch",
-        "action": "Watch live on SpaceX's official webcast."
+        "action": "Follow updates for military satellite launch."
       },
       {
         "rank": 3,
-        "title": "Aurora Viewing Opportunity",
-        "description": "G1 geomagnetic storm expected, offering aurora visibility at high latitudes.",
-        "importance": 4,
-        "date": "2026-02-08",
-        "type": "aurora",
-        "action": "Check viewing conditions if you are at high latitudes."
+        "title": "Proton-M/Blok DM-03 | Elektro-L No.5",
+        "description": "Launch of a meteorological satellite for Earth observation.",
+        "importance": 6,
+        "date": "2026-02-12",
+        "type": "launch",
+        "action": "Monitor weather satellite deployment."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 1,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-02-08",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-02-08 00:00:00",
-          "end": "2026-02-08 00:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-02-08",
-      "time": "00:00-00:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
-    },
+    "opportunities": [],
+    "best_window": null,
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
