@@ -1,302 +1,6 @@
 {
-  "updatedAt": "2026-02-08T03:06:10.015Z",
+  "updatedAt": "2026-02-08T04:21:28.637Z",
   "launches": [
-    {
-      "id": "a9fd7757-9a51-4607-845d-d830673c4486",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/a9fd7757-9a51-4607-845d-d830673c4486/",
-      "slug": "long-march-2fg-chinese-reusable-space-vehicle-4",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Long March 2F/G | Chinese Reusable Space Vehicle",
-      "status": {
-        "id": 3,
-        "name": "Launch Successful",
-        "abbrev": "Success",
-        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
-      },
-      "last_updated": "2026-02-07T16:21:24Z",
-      "updates": [
-        {
-          "id": 13902,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Launch success (launch time is approximate).",
-          "info_url": "https://m.weibo.cn/detail/5263664991178855",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-02-07T04:44:00Z"
-        },
-        {
-          "id": 13867,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per NOTAMs; Payload and launch vehicle identities extremely uncertain.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2756137#msg2756137",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-02-02T20:09:00Z"
-        }
-      ],
-      "net": "2026-02-07T03:58:00Z",
-      "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
-      },
-      "window_end": "2026-02-07T04:07:00Z",
-      "window_start": "2026-02-07T03:48:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 88,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-        "name": "China Aerospace Science and Technology Corporation",
-        "featured": true,
-        "type": "Government",
-        "country_code": "CHN",
-        "abbrev": "CASC",
-        "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-        "administrator": "Chairman & President: Lei Fanpei",
-        "founding_year": "1999",
-        "launchers": "Long March",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 577,
-        "consecutive_successful_launches": 3,
-        "successful_launches": 562,
-        "failed_launches": 15,
-        "pending_launches": 9,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 1,
-        "attempted_landings": 1,
-        "info_url": "https://english.spacechina.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
-      },
-      "rocket": {
-        "id": 8911,
-        "configuration": {
-          "id": 84,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/84/",
-          "name": "Long March 2F/G",
-          "active": true,
-          "reusable": false,
-          "description": "The Long March 2F is a Chinese orbital carrier rocket, part of the Long March 2 rocket family. Designed to launch the crewed Shenzhou spacecraft, the Long March 2F is a human-rated two-stage version of the Long March 2E rocket, which in turn was based on the Long March 2C launch vehicle. It is launched from complex SLS at the Jiuquan Satellite Launch Center.\r\n\r\nThe Long March 2F/G version includes longer boosters for increased lift capability, among other improvements.",
-          "family": "Long March",
-          "full_name": "Long March 2F/G",
-          "manufacturer": {
-            "id": 88,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-            "name": "China Aerospace Science and Technology Corporation",
-            "featured": true,
-            "type": "Government",
-            "country_code": "CHN",
-            "abbrev": "CASC",
-            "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-            "administrator": "Chairman & President: Lei Fanpei",
-            "founding_year": "1999",
-            "launchers": "Long March",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 577,
-            "consecutive_successful_launches": 3,
-            "successful_launches": 562,
-            "failed_launches": 15,
-            "pending_launches": 9,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 1,
-            "attempted_landings": 1,
-            "info_url": "https://english.spacechina.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
-          },
-          "program": [],
-          "variant": "F/G",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 2,
-          "length": 62,
-          "diameter": 3.35,
-          "maiden_flight": "2011-10-31",
-          "launch_cost": null,
-          "launch_mass": 464,
-          "leo_capacity": 8399,
-          "gto_capacity": null,
-          "to_thrust": null,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_20251129175823.jpg",
-          "info_url": null,
-          "wiki_url": "https://en.wikipedia.org/wiki/Long_March_2F/G",
-          "total_launch_count": 21,
-          "consecutive_successful_launches": 21,
-          "successful_launches": 21,
-          "failed_launches": 0,
-          "pending_launches": 2,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": {
-          "id": 903,
-          "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/903/",
-          "mission_end": null,
-          "destination": "Low Earth Orbit",
-          "launch_crew": [],
-          "onboard_crew": [],
-          "landing_crew": [],
-          "spacecraft": {
-            "id": 560,
-            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/560/",
-            "name": "Chinese Reusable Space Vehicle",
-            "serial_number": null,
-            "is_placeholder": false,
-            "in_space": true,
-            "time_in_space": "P545DT7H24M1S",
-            "time_docked": "P0D",
-            "flights_count": 4,
-            "mission_ends_count": 3,
-            "status": {
-              "id": 1,
-              "name": "Active"
-            },
-            "description": "First Chinese reusable spacecraft, apparently a spaceplane with wings per a photo taken by a US satellite. No public information of it is available.\r\n\r\nIts official name is \"Chongfu Shiyong Shiyan Hangtian Qi\", meaning \"Reusable Experimental Spacecraft\".\r\n\r\nNote: It is unknown how many flight vehicles have been built and flown.",
-            "spacecraft_config": {
-              "id": 31,
-              "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/31/",
-              "name": "Chinese Reusable Space Vehicle",
-              "type": {
-                "id": 3,
-                "name": "Spaceplane"
-              },
-              "agency": {
-                "id": 88,
-                "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-                "name": "China Aerospace Science and Technology Corporation",
-                "featured": true,
-                "type": "Government",
-                "country_code": "CHN",
-                "abbrev": "CASC",
-                "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-                "administrator": "Chairman & President: Lei Fanpei",
-                "founding_year": "1999",
-                "launchers": "Long March",
-                "spacecraft": "",
-                "parent": null,
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png"
-              },
-              "in_use": true,
-              "capability": "Reusable technology demonstration test bed for orbital and re-entry operations.",
-              "history": "First launched on September 4, 2020 and landed two days later. Launched again on August 4, 2022.",
-              "details": "The Chinese reusable experimental spacecraft is the first Chinese reusable spacecraft.",
-              "maiden_flight": "2020-09-04",
-              "height": null,
-              "diameter": null,
-              "human_rated": false,
-              "crew_capacity": null,
-              "payload_capacity": null,
-              "payload_return_capacity": null,
-              "flight_life": "Multiple months",
-              "image_url": null,
-              "nation_url": null,
-              "wiki_link": "https://en.wikipedia.org/wiki/Chinese_reusable_experimental_spacecraft",
-              "info_link": ""
-            }
-          },
-          "landing": {
-            "id": 1810,
-            "attempt": false,
-            "success": null,
-            "description": "The reusable space plane will land on the Lop Nur dried salt lake.",
-            "downrange_distance": null,
-            "location": {
-              "id": 30,
-              "name": "Lop Nur Airbase",
-              "abbrev": "LNA",
-              "description": "Military airbase located on a dried salt lake in the Xinjiang Uygur Autonomous Region, China.",
-              "location": null,
-              "successful_landings": 3
-            },
-            "type": {
-              "id": 6,
-              "name": "Horizontal Landing",
-              "abbrev": "HL",
-              "description": "Horizontal landing on a runway or flat surface."
-            }
-          },
-          "docking_events": []
-        }
-      },
-      "mission": {
-        "id": 7502,
-        "name": "Chinese Reusable Space Vehicle",
-        "description": "4th flight of the Chinese spaceplane capable of returning to Earth.",
-        "launch_designator": null,
-        "type": "Government/Top Secret",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 37,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/37/",
-        "agency_id": null,
-        "name": "Launch Area 91 (SLS-1 / 921)",
-        "description": "",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Launch_Area_4",
-        "map_url": "https://www.google.com/maps?q=40.957893,100.290944",
-        "latitude": "40.957893",
-        "longitude": "100.290944",
-        "location": {
-          "id": 17,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
-          "name": "Jiuquan Satellite Launch Center, People's Republic of China",
-          "country_code": "CHN",
-          "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
-          "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 277,
-          "total_landing_count": 2
-        },
-        "country_code": "CHN",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_37_20200803143603.jpg",
-        "total_launch_count": 28,
-        "orbital_launch_attempt_count": 28
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_20251129175823.jpg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7200,
-      "location_launch_attempt_count": 277,
-      "pad_launch_attempt_count": 28,
-      "agency_launch_attempt_count": 577,
-      "orbital_launch_attempt_count_year": 27,
-      "location_launch_attempt_count_year": 4,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 7,
-      "pad_turnaround": "P73DT23H46M15S",
-      "mission_patches": [],
-      "type": "detailed"
-    },
     {
       "id": "5fd638a9-8676-4981-b398-18db6fb4e2be",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/5fd638a9-8676-4981-b398-18db6fb4e2be/",
@@ -599,7 +303,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 176
+                "successful_landings": 177
               },
               "type": {
                 "id": 1,
@@ -2726,7 +2430,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 176
+                "successful_landings": 177
               },
               "type": {
                 "id": 1,
@@ -5147,7 +4851,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 176
+                "successful_landings": 177
               },
               "type": {
                 "id": 1,
@@ -6377,7 +6081,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 176
+                "successful_landings": 177
               },
               "type": {
                 "id": 1,
@@ -22920,7 +22624,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 176
+                "successful_landings": 177
               },
               "type": {
                 "id": 1,
@@ -23264,7 +22968,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 176
+                "successful_landings": 177
               },
               "type": {
                 "id": 1,
@@ -23608,7 +23312,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 176
+                "successful_landings": 177
               },
               "type": {
                 "id": 1,
@@ -23952,7 +23656,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 176
+                "successful_landings": 177
               },
               "type": {
                 "id": 1,
@@ -24296,7 +24000,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 176
+                "successful_landings": 177
               },
               "type": {
                 "id": 1,
@@ -24640,7 +24344,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 176
+                "successful_landings": 177
               },
               "type": {
                 "id": 1,
@@ -32944,6 +32648,330 @@
       "pad_launch_attempt_count_year": 35,
       "agency_launch_attempt_count_year": 83,
       "pad_turnaround": "P61D",
+      "mission_patches": [],
+      "type": "detailed"
+    },
+    {
+      "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/ce1317de-ec94-4479-9b28-38ebf11f13ae/",
+      "slug": "falcon-9-block-5-telesat-lightspeed-1",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+      "status": {
+        "id": 2,
+        "name": "To Be Determined",
+        "abbrev": "TBD",
+        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+      },
+      "last_updated": "2025-11-06T10:41:03Z",
+      "updates": [
+        {
+          "id": 12784,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "NET December 2026",
+          "info_url": "https://spacenews.com/telesat-eyes-december-2026-for-lightspeed-pathfinder-debut/",
+          "created_by": "Nosu",
+          "created_on": "2025-11-06T10:41:00Z"
+        },
+        {
+          "id": 10687,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET late 2026.",
+          "info_url": "https://www.telesat.com/wp-content/uploads/2025/03/final-032725-Telesat-Canada-4Q24-Financial-Results-4550783.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-04-10T05:28:00Z"
+        },
+        {
+          "id": 5117,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Adding launch",
+          "info_url": "https://www.telesat.com/press/press-releases/telesat-and-spacex-announce-14-launch-agreement-for-advanced-telesat-lightspeed-leo-satellites/",
+          "created_by": "Nosu",
+          "created_on": "2023-09-11T12:38:47Z"
+        }
+      ],
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": {
+        "id": 7,
+        "name": "Month",
+        "abbrev": "M",
+        "description": "The T-0 is expected in the given month."
+      },
+      "window_end": "2026-12-31T00:00:00Z",
+      "window_start": "2026-12-31T00:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": null,
+        "total_launch_count": 634,
+        "consecutive_successful_launches": 119,
+        "successful_launches": 619,
+        "failed_launches": 15,
+        "pending_launches": 124,
+        "consecutive_successful_landings": 118,
+        "successful_landings": 579,
+        "failed_landings": 27,
+        "attempted_landings": 605,
+        "info_url": "https://www.spacex.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+      },
+      "rocket": {
+        "id": 8004,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "active": true,
+          "reusable": true,
+          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "manufacturer": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 634,
+            "consecutive_successful_launches": 119,
+            "successful_launches": 619,
+            "failed_launches": 15,
+            "pending_launches": 124,
+            "consecutive_successful_landings": 118,
+            "successful_landings": 579,
+            "failed_landings": 27,
+            "attempted_landings": 605,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_image_20190207032501.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_nation_20230531064544.jpg"
+          },
+          "program": [
+            {
+              "id": 5,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+              "name": "Commercial Crew Program",
+              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+              "agencies": [
+                {
+                  "id": 80,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                  "name": "Boeing",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+              "start_date": "2011-04-18T00:00:00Z",
+              "end_date": null,
+              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            },
+            {
+              "id": 11,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+              "name": "Commercial Resupply Services",
+              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+              "agencies": [
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 257,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                  "name": "Northrop Grumman Space Systems",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 1020,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                  "name": "Sierra Nevada Corporation",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+              "start_date": "2008-12-23T00:00:00Z",
+              "end_date": null,
+              "info_url": null,
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            }
+          ],
+          "variant": "Block 5",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 2,
+          "length": 70,
+          "diameter": 3.65,
+          "maiden_flight": "2018-05-11",
+          "launch_cost": "52000000",
+          "launch_mass": 549,
+          "leo_capacity": 22800,
+          "gto_capacity": 8300,
+          "to_thrust": 7607,
+          "apogee": 200,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+          "total_launch_count": 541,
+          "consecutive_successful_launches": 243,
+          "successful_launches": 540,
+          "failed_launches": 1,
+          "pending_launches": 105,
+          "attempted_landings": 532,
+          "successful_landings": 527,
+          "failed_landings": 5,
+          "consecutive_successful_landings": 227
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 6540,
+        "name": "Telesat Lightspeed 1",
+        "description": "Up to 18 satellites manufactured by MDA for Canadian satellite operator Telesat's Lightspeed constellation.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 208,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/208/",
+            "name": "Telesat",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "CAN",
+            "abbrev": "TELE",
+            "description": "Telesat, formerly Telesat Canada, is a Canadian satellite communications company founded on May 2, 1969.",
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.telesat.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Telesat",
+            "logo_url": null,
+            "image_url": null,
+            "nation_url": null
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 72,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/",
+        "agency_id": null,
+        "name": "Unknown Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
+        "latitude": "28.458",
+        "longitude": "-80.528",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "timezone_name": "America/New_York",
+          "total_launch_count": 1083,
+          "total_landing_count": 70
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_72_20200803143403.jpg",
+        "total_launch_count": 0,
+        "orbital_launch_attempt_count": 0
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7408,
+      "location_launch_attempt_count": 1151,
+      "pad_launch_attempt_count": 31,
+      "agency_launch_attempt_count": 702,
+      "orbital_launch_attempt_count_year": 235,
+      "location_launch_attempt_count_year": 75,
+      "pad_launch_attempt_count_year": 31,
+      "agency_launch_attempt_count_year": 83,
+      "pad_turnaround": "P31D",
       "mission_patches": [],
       "type": "detailed"
     }
