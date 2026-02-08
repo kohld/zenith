@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-08T17:08:42.736Z",
+  "updatedAt": "2026-02-08T17:42:10.680Z",
   "launches": [
     {
       "id": "5fd638a9-8676-4981-b398-18db6fb4e2be",
@@ -988,7 +988,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-07T17:06:24Z",
+      "last_updated": "2026-02-08T17:13:55Z",
       "updates": [
         {
           "id": 13887,
@@ -1234,7 +1234,7 @@
               "flight_proven": true,
               "serial_number": "B1101",
               "status": "active",
-              "image_url": null,
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1101_at_slc-40_image_20260208171031.jpg",
               "successful_landings": 1,
               "attempted_landings": 1,
               "flights": 1,
@@ -2047,7 +2047,7 @@
           "relative_time": "PT10M25S"
         }
       ],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_20260208171226.jpg",
       "infographic": null,
       "program": [
         {
@@ -2145,6 +2145,18 @@
       "agency_launch_attempt_count_year": 16,
       "pad_turnaround": "P12DT3H39M4S",
       "mission_patches": [
+        {
+          "id": 1303,
+          "name": "Crew-12",
+          "priority": 9,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/crew-12_mission_patch_20260208171350.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        },
         {
           "id": 1288,
           "name": "Crew-12",
