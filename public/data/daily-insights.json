@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-02-08T12:27:12.204Z",
+  "generated_at": "2026-02-09T00:55:31.928Z",
   "daily_summary": {
-    "headline": "Crewed Mission and Aurora Opportunities Highlight the Day",
+    "headline": "Crewed Mission and Starlink Launches Highlight the Day",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | Crew-12",
         "description": "SpaceX Crew-12 is the twelfth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
         "importance": 8,
-        "date": "2026-02-11",
+        "date": "2026-02-11T11:01:04Z",
         "type": "launch",
         "action": "Watch live on NASA's official webcast."
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G1 geomagnetic storm may provide aurora visibility at high latitudes.",
-        "importance": 5,
-        "date": "2026-02-08",
-        "type": "aurora",
-        "action": "Check sky conditions if you are above 65° latitude."
+        "title": "Falcon 9 Block 5 | Starlink Group 17-34",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "importance": 7,
+        "date": "2026-02-11T14:07:00Z",
+        "type": "launch",
+        "action": "Follow the live stream on SpaceX's official page."
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-34",
-        "description": "Launch of a batch of 24 satellites for the Starlink mega-constellation.",
-        "importance": 5,
-        "date": "2026-02-11",
+        "title": "Vulcan VC4S | USSF-87",
+        "description": "USSF-87 will launch two identical Geosynchronous Space Situational Awareness Program (GSSAP) satellites directly to a near-geosynchronous orbit.",
+        "importance": 7,
+        "date": "2026-02-12T08:00:00Z",
         "type": "launch",
-        "action": "Follow SpaceX's official webcast for live coverage."
+        "action": "Stay updated with ULA's official announcements."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 1,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-02-08",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-02-08 21:00:00",
-          "end": "2026-02-08 21:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-02-08",
-      "time": "21:00-21:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
-    },
+    "opportunities": [],
+    "best_window": null,
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
