@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-10T08:49:28.859Z",
+  "updatedAt": "2026-02-10T09:23:26.937Z",
   "launches": [
     {
       "id": "d9c4e13d-abab-4ddc-9821-710a81d54e57",
@@ -924,7 +924,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-09T21:44:05Z",
+      "last_updated": "2026-02-10T08:57:54Z",
       "updates": [
         {
           "id": 13914,
@@ -1201,7 +1201,25 @@
         "total_launch_count": 120,
         "orbital_launch_attempt_count": 120
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "ulalaunch.com",
+          "title": "Vulcan USSF-87",
+          "description": "A United Launch Alliance (ULA) Vulcan rocket will deliver national security spacecraft directly to geosynchronous orbit for the U.S. Space Force Space Systems Command on the USSF-87 mission. Liftoff will occur from Space Launch Complex-41 at Cape Canaveral Space Force Station in Florida. \n\n\n\nLaunch ...",
+          "feature_image": null,
+          "url": "https://www.ulalaunch.com/missions/next-launch/vulcan-ussf-87",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [
         {
           "priority": 10,
@@ -1225,7 +1243,80 @@
         }
       ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT4.9S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "PT1S"
+        },
+        {
+          "type": {
+            "id": 25,
+            "abbrev": "Supersonic",
+            "description": "Vehicle is supersonic"
+          },
+          "relative_time": "PT47.2S"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M2.5S"
+        },
+        {
+          "type": {
+            "id": 77,
+            "abbrev": "SRB Separation",
+            "description": "The solid rocket boosters are separated from the launcher."
+          },
+          "relative_time": "PT1M37.2S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT4M57.5S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT5M3.5S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT5M13.5S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT5M21.5S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc4s_v-0_image_20250812014341.jpeg",
       "infographic": null,
       "program": [],
@@ -2353,7 +2444,7 @@
           "source": "youtube.com",
           "publisher": "European Space Agency, ESA",
           "title": "Launch of Crew-12 with Sophie Adenot | εpsilon mission (Official English broadcast)",
-          "description": "Watch the launch of ESA astronaut Sophie Adenot to the International Space Station (ISS) on Crew-12. A SpaceX Falcon 9 rocket will lift off from Space Launch Complex 40 at NASA’s Kennedy Space Center in Florida, USA, no earlier than Wednesday 11 February 2026 at 11:00 GMT/12:00 CET (06:00 local time).\n \nSophie will fly as Mission Specialist 1 on the Dragon spacecraft. The other Crew-12 members are NASA astronauts Jessica Meir and Jack Hathaway, respectively commander and pilot of the mission, and Roscosmos cosmonaut Andrei Fedyaev, Mission Specialist 2.\n \nThe French ESA astronaut is the first of her class, the Hoppers, to fly. Only two years and ten months separate the start of her astronaut training from the launch of her first long-duration mission – a record!  Sophie has chosen the...",
+          "description": "Watch the launch of ESA astronaut Sophie Adenot to the International Space Station (ISS) on Crew-12. A SpaceX Falcon 9 rocket will lift off from Space Launch Complex 40 at NASA’s Kennedy Space Center in Florida, USA, no earlier than Wednesday 12 February 2026 at 10:38 GMT/11:38 CET (5:38 local time).\n \nSophie will fly as Mission Specialist 1 on the Dragon spacecraft. The other Crew-12 members are NASA astronauts Jessica Meir and Jack Hathaway, respectively commander and pilot of the mission, and Roscosmos cosmonaut Andrei Fedyaev, Mission Specialist 2.\n \nThe French ESA astronaut is the first of her class, the Hoppers, to fly. Only two years and ten months separate the start of her astronaut training from the launch of her first long-duration mission – a record!  Sophie has chosen the ...",
           "feature_image": "https://i.ytimg.com/vi/V_5RWX-GsQo/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=V_5RWX-GsQo",
           "type": {
@@ -2373,7 +2464,7 @@
           "source": "youtube.com",
           "publisher": "European Space Agency, ESA",
           "title": "Lancement de Crew-12 avec Sophie Adenot | mission εpsilon (Retransmission officielle en français)",
-          "description": "Suivez en direct le lancement de l’astronaute de l’ESA Sophie Adenot à destination de la Station spatiale internationale (ISS) à bord de Crew‑12. Un lanceur Falcon 9 de SpaceX décollera du complexe de lancement spatial SLC‑40 du Centre spatial Kennedy de la NASA situé en Floride, aux États‑Unis, au plus tôt le mercredi 11 février 2026 à 11h00 GMT/12h00 CET (06:00 heure locale).\n \nSophie volera en tant que spécialiste de mission 1 à bord du véhicule Dragon. Les autres membres de Crew‑12 sont les astronautes de la NASA Jessica Meir et Jack Hathaway, respectivement commandante et pilote de la mission, et le cosmonaute de Roscosmos Andreï Fediaïev, spécialiste de mission 2.\n \nL’astronaute française de l’ESA est la première de sa promotion, les Hoppers, à voler. Deux ans et dix mois seulem...",
+          "description": "Suivez en direct le lancement de l’astronaute de l’ESA Sophie Adenot à destination de la Station spatiale internationale (ISS) à bord de Crew‑12. Un lanceur Falcon 9 de SpaceX décollera du complexe de lancement spatial SLC‑40 du Centre spatial Kennedy de la NASA situé en Floride, aux États‑Unis, au plus tôt le mercredi 12 février 2026 à 10h38 GMT/11h38 CET (05:38 heure locale).\n \nSophie volera en tant que spécialiste de mission 1 à bord du véhicule Dragon. Les autres membres de Crew‑12 sont les astronautes de la NASA Jessica Meir et Jack Hathaway, respectivement commandante et pilote de la mission, et le cosmonaute de Roscosmos Andreï Fediaïev, spécialiste de mission 2.\n \nL’astronaute française de l’ESA est la première de sa promotion, les Hoppers, à voler. Deux ans et dix mois seulem...",
           "feature_image": "https://i.ytimg.com/vi/6jtNmOArHCE/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=6jtNmOArHCE",
           "type": {
@@ -2457,17 +2548,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -2746,7 +2837,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-10T08:44:26Z",
+      "last_updated": "2026-02-10T08:51:00Z",
       "updates": [
         {
           "id": 13846,
@@ -3164,7 +3255,20 @@
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
       "pad_turnaround": "P57DT11H43M2S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1304,
+          "name": "VA267 Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/va2672520patch_mission_patch_20260210085056.png",
+          "agency": {
+            "id": 115,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+            "name": "Arianespace",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
@@ -4204,17 +4308,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -4236,17 +4340,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -5466,17 +5570,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -5756,7 +5860,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Firefly_Aerospace",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_logo_20220826094423.jpg",
         "image_url": null,
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_nation_20230531050520.jpg"
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_aerospa_image_20260210090130.png"
       },
       "rocket": {
         "id": 8795,
@@ -5796,7 +5900,7 @@
             "wiki_url": "https://en.wikipedia.org/wiki/Firefly_Aerospace",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_logo_20220826094423.jpg",
             "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_nation_20230531050520.jpg"
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_aerospa_image_20260210090130.png"
           },
           "program": [],
           "variant": "",
@@ -7910,7 +8014,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Skyroot_Aerospace",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skyroot_aerospa_image_20251115042548.png",
         "image_url": null,
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skyroot_aerospa_image_20251115042548.png"
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skyroot_aerospa_image_20260210085909.jpg"
       },
       "rocket": {
         "id": 8799,
@@ -7950,7 +8054,7 @@
             "wiki_url": "https://en.wikipedia.org/wiki/Skyroot_Aerospace",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skyroot_aerospa_image_20251115042548.png",
             "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skyroot_aerospa_image_20251115042548.png"
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skyroot_aerospa_image_20260210085909.jpg"
           },
           "program": [],
           "variant": "",
@@ -19829,7 +19933,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Firefly_Aerospace",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_logo_20220826094423.jpg",
         "image_url": null,
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_nation_20230531050520.jpg"
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_aerospa_image_20260210090130.png"
       },
       "rocket": {
         "id": 8383,
@@ -19869,7 +19973,7 @@
             "wiki_url": "https://en.wikipedia.org/wiki/Firefly_Aerospace",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_logo_20220826094423.jpg",
             "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_nation_20230531050520.jpg"
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_aerospa_image_20260210090130.png"
           },
           "program": [],
           "variant": "Block 2",
@@ -29046,7 +29150,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Firefly_Aerospace",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_logo_20220826094423.jpg",
         "image_url": null,
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_nation_20230531050520.jpg"
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_aerospa_image_20260210090130.png"
       },
       "rocket": {
         "id": 8362,
@@ -29086,7 +29190,7 @@
             "wiki_url": "https://en.wikipedia.org/wiki/Firefly_Aerospace",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_logo_20220826094423.jpg",
             "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_nation_20230531050520.jpg"
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_aerospa_image_20260210090130.png"
           },
           "program": [],
           "variant": "Block 2",
@@ -30460,7 +30564,7 @@
         "wiki_url": "https://en.wikipedia.org/wiki/Firefly_Aerospace",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_logo_20220826094423.jpg",
         "image_url": null,
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_nation_20230531050520.jpg"
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_aerospa_image_20260210090130.png"
       },
       "rocket": {
         "id": 8548,
@@ -30500,7 +30604,7 @@
             "wiki_url": "https://en.wikipedia.org/wiki/Firefly_Aerospace",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_logo_20220826094423.jpg",
             "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly2520aerospace_nation_20230531050520.jpg"
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_aerospa_image_20260210090130.png"
           },
           "program": [],
           "variant": "Block 2",
