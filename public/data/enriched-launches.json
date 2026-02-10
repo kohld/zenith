@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-10T00:59:33.438Z",
+  "generated_at": "2026-02-10T12:34:40.462Z",
   "launches": [
     {
       "id": "d9c4e13d-abab-4ddc-9821-710a81d54e57",
@@ -913,11 +913,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7204,
+      "orbital_launch_attempt_count": 7203,
       "location_launch_attempt_count": 23,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 10,
-      "orbital_launch_attempt_count_year": 31,
+      "orbital_launch_attempt_count_year": 30,
       "location_launch_attempt_count_year": 2,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -952,7 +952,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-09T21:44:05Z",
+      "last_updated": "2026-02-10T08:57:54Z",
       "updates": [
         {
           "id": 13914,
@@ -1229,7 +1229,25 @@
         "total_launch_count": 120,
         "orbital_launch_attempt_count": 120
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "ulalaunch.com",
+          "title": "Vulcan USSF-87",
+          "description": "A United Launch Alliance (ULA) Vulcan rocket will deliver national security spacecraft directly to geosynchronous orbit for the U.S. Space Force Space Systems Command on the USSF-87 mission. Liftoff will occur from Space Launch Complex-41 at Cape Canaveral Space Force Station in Florida. \n\n\n\nLaunch ...",
+          "feature_image": null,
+          "url": "https://www.ulalaunch.com/missions/next-launch/vulcan-ussf-87",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [
         {
           "priority": 10,
@@ -1253,7 +1271,80 @@
         }
       ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT4.9S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "PT1S"
+        },
+        {
+          "type": {
+            "id": 25,
+            "abbrev": "Supersonic",
+            "description": "Vehicle is supersonic"
+          },
+          "relative_time": "PT47.2S"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M2.5S"
+        },
+        {
+          "type": {
+            "id": 77,
+            "abbrev": "SRB Separation",
+            "description": "The solid rocket boosters are separated from the launcher."
+          },
+          "relative_time": "PT1M37.2S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT4M57.5S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT5M3.5S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT5M13.5S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT5M21.5S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc4s_v-0_image_20250812014341.jpeg",
       "infographic": null,
       "program": [],
@@ -1558,11 +1649,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/proton-m_image_20191211081456.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7206,
+      "orbital_launch_attempt_count": 7205,
       "location_launch_attempt_count": 1560,
       "pad_launch_attempt_count": 93,
       "agency_launch_attempt_count": 198,
-      "orbital_launch_attempt_count_year": 33,
+      "orbital_launch_attempt_count_year": 32,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -2409,7 +2500,7 @@
           "source": "youtube.com",
           "publisher": "European Space Agency, ESA",
           "title": "Launch of Crew-12 with Sophie Adenot | εpsilon mission (Official English broadcast)",
-          "description": "Watch the launch of ESA astronaut Sophie Adenot to the International Space Station (ISS) on Crew-12. A SpaceX Falcon 9 rocket will lift off from Space Launch Complex 40 at NASA’s Kennedy Space Center in Florida, USA, no earlier than Wednesday 11 February 2026 at 11:00 GMT/12:00 CET (06:00 local time).\n \nSophie will fly as Mission Specialist 1 on the Dragon spacecraft. The other Crew-12 members are NASA astronauts Jessica Meir and Jack Hathaway, respectively commander and pilot of the mission, and Roscosmos cosmonaut Andrei Fedyaev, Mission Specialist 2.\n \nThe French ESA astronaut is the first of her class, the Hoppers, to fly. Only two years and ten months separate the start of her astronaut training from the launch of her first long-duration mission – a record!  Sophie has chosen the...",
+          "description": "Watch the launch of ESA astronaut Sophie Adenot to the International Space Station (ISS) on Crew-12. A SpaceX Falcon 9 rocket will lift off from Space Launch Complex 40 at NASA’s Kennedy Space Center in Florida, USA, no earlier than Wednesday 12 February 2026 at 10:38 GMT/11:38 CET (5:38 local time).\n \nSophie will fly as Mission Specialist 1 on the Dragon spacecraft. The other Crew-12 members are NASA astronauts Jessica Meir and Jack Hathaway, respectively commander and pilot of the mission, and Roscosmos cosmonaut Andrei Fedyaev, Mission Specialist 2.\n \nThe French ESA astronaut is the first of her class, the Hoppers, to fly. Only two years and ten months separate the start of her astronaut training from the launch of her first long-duration mission – a record!  Sophie has chosen the ...",
           "feature_image": "https://i.ytimg.com/vi/V_5RWX-GsQo/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=V_5RWX-GsQo",
           "type": {
@@ -2429,7 +2520,7 @@
           "source": "youtube.com",
           "publisher": "European Space Agency, ESA",
           "title": "Lancement de Crew-12 avec Sophie Adenot | mission εpsilon (Retransmission officielle en français)",
-          "description": "Suivez en direct le lancement de l’astronaute de l’ESA Sophie Adenot à destination de la Station spatiale internationale (ISS) à bord de Crew‑12. Un lanceur Falcon 9 de SpaceX décollera du complexe de lancement spatial SLC‑40 du Centre spatial Kennedy de la NASA situé en Floride, aux États‑Unis, au plus tôt le mercredi 11 février 2026 à 11h00 GMT/12h00 CET (06:00 heure locale).\n \nSophie volera en tant que spécialiste de mission 1 à bord du véhicule Dragon. Les autres membres de Crew‑12 sont les astronautes de la NASA Jessica Meir et Jack Hathaway, respectivement commandante et pilote de la mission, et le cosmonaute de Roscosmos Andreï Fediaïev, spécialiste de mission 2.\n \nL’astronaute française de l’ESA est la première de sa promotion, les Hoppers, à voler. Deux ans et dix mois seulem...",
+          "description": "Suivez en direct le lancement de l’astronaute de l’ESA Sophie Adenot à destination de la Station spatiale internationale (ISS) à bord de Crew‑12. Un lanceur Falcon 9 de SpaceX décollera du complexe de lancement spatial SLC‑40 du Centre spatial Kennedy de la NASA situé en Floride, aux États‑Unis, au plus tôt le mercredi 12 février 2026 à 10h38 GMT/11h38 CET (05:38 heure locale).\n \nSophie volera en tant que spécialiste de mission 1 à bord du véhicule Dragon. Les autres membres de Crew‑12 sont les astronautes de la NASA Jessica Meir et Jack Hathaway, respectivement commandante et pilote de la mission, et le cosmonaute de Roscosmos Andreï Fediaïev, spécialiste de mission 2.\n \nL’astronaute française de l’ESA est la première de sa promotion, les Hoppers, à voler. Deux ans et dix mois seulem...",
           "feature_image": "https://i.ytimg.com/vi/6jtNmOArHCE/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=6jtNmOArHCE",
           "type": {
