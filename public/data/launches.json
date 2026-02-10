@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-10T08:18:38.426Z",
+  "updatedAt": "2026-02-10T08:49:28.859Z",
   "launches": [
     {
       "id": "d9c4e13d-abab-4ddc-9821-710a81d54e57",
@@ -2457,17 +2457,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -2746,7 +2746,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-09T18:07:50Z",
+      "last_updated": "2026-02-10T08:44:26Z",
       "updates": [
         {
           "id": 13846,
@@ -3045,7 +3045,88 @@
         }
       ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT7S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 77,
+            "abbrev": "SRB Separation",
+            "description": "The solid rocket boosters are separated from the launcher."
+          },
+          "relative_time": "PT2M25S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT3M11S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT7M43S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT7M52S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT1H11M"
+        },
+        {
+          "type": {
+            "id": 78,
+            "abbrev": "Payload Deployment Sequence Start",
+            "description": "Start of the payload deployment sequence"
+          },
+          "relative_time": "PT1H29M"
+        },
+        {
+          "type": {
+            "id": 79,
+            "abbrev": "Payload Deployment Sequence End",
+            "description": "End of the payload deployment sequence."
+          },
+          "relative_time": "PT1H54M"
+        },
+        {
+          "type": {
+            "id": 80,
+            "abbrev": "SES-3",
+            "description": "Third start of the second engine"
+          },
+          "relative_time": "PT2H42M"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_6_image_20240125142128.jpeg",
       "infographic": null,
       "program": [
@@ -4123,17 +4204,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
