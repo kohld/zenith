@@ -1,55 +1,73 @@
 {
-  "generated_at": "2026-02-10T12:34:40.461Z",
+  "generated_at": "2026-02-11T00:58:57.791Z",
   "daily_summary": {
-    "headline": "Space Events on February 10, 2026",
+    "headline": "SpaceX Starlink Launch Highlights a Busy Day in Space",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | Crew-12",
-        "description": "SpaceX Crew-12 is the twelfth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
-        "importance": 8,
-        "date": "2026-02-12",
+        "title": "SpaceX Falcon 9 Launches Starlink Group 17-34",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation launched from Vandenberg Space Force Base, California.",
+        "importance": 5,
+        "date": "2026-02-11",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Watch live stream for real-time coverage."
       },
       {
         "rank": 2,
-        "title": "Vulcan VC4S | USSF-87",
-        "description": "USSF-87 will launch two identical Geosynchronous Space Situational Awareness Program (GSSAP) satellites directly to a near-geosynchronous orbit.",
-        "importance": 7,
-        "date": "2026-02-12",
-        "type": "launch",
-        "action": "Watch live stream"
+        "title": "Aurora Viewing Opportunity",
+        "description": "Potential aurora activity with Kp index reaching 4.67, visible at high latitudes.",
+        "importance": 4,
+        "date": "2026-02-11",
+        "type": "aurora",
+        "action": "Check visibility if located above 65° latitude."
       },
       {
         "rank": 3,
-        "title": "Proton-M/Blok DM-03 | Elektro-L No.5",
-        "description": "Launch of a meteorological satellite for the Russian Federal Space Agency.",
-        "importance": 6,
+        "title": "Smart Dragon 3 Launch Delayed",
+        "description": "The launch of Smart Dragon 3 carrying an unknown payload has been delayed to February 12.",
+        "importance": 3,
         "date": "2026-02-12",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Stay updated for rescheduled launch time."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
-      "crewed_missions": 1,
+      "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-02-11",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-02-11 03:00:00",
+          "end": "2026-02-11 03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-02-11",
+      "time": "03:00-03:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
-    "iterations": 1
+    "iterations": 2
   }
 }
