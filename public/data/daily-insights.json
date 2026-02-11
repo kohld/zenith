@@ -1,73 +1,22 @@
 {
-  "generated_at": "2026-02-11T00:58:57.791Z",
+  "generated_at": "2026-02-11T12:32:35.237Z",
   "daily_summary": {
-    "headline": "SpaceX Starlink Launch Highlights a Busy Day in Space",
-    "top_events": [
-      {
-        "rank": 1,
-        "title": "SpaceX Falcon 9 Launches Starlink Group 17-34",
-        "description": "A batch of 24 satellites for the Starlink mega-constellation launched from Vandenberg Space Force Base, California.",
-        "importance": 5,
-        "date": "2026-02-11",
-        "type": "launch",
-        "action": "Watch live stream for real-time coverage."
-      },
-      {
-        "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "Potential aurora activity with Kp index reaching 4.67, visible at high latitudes.",
-        "importance": 4,
-        "date": "2026-02-11",
-        "type": "aurora",
-        "action": "Check visibility if located above 65° latitude."
-      },
-      {
-        "rank": 3,
-        "title": "Smart Dragon 3 Launch Delayed",
-        "description": "The launch of Smart Dragon 3 carrying an unknown payload has been delayed to February 12.",
-        "importance": 3,
-        "date": "2026-02-12",
-        "type": "launch",
-        "action": "Stay updated for rescheduled launch time."
-      }
-    ],
-    "statistics": {
-      "total_launches_this_week": 5,
-      "crewed_missions": 0,
-      "historic_events": 0,
-      "aurora_opportunities": 1
-    }
+    "headline": "No significant space events today",
+    "top_events": [],
+    "statistics": {}
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-02-11",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-02-11 03:00:00",
-          "end": "2026-02-11 03:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-02-11",
-      "time": "03:00-03:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
-    },
+    "opportunities": [],
+    "best_window": null,
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
-    "iterations": 2
+    "iterations": 1
   }
 }
