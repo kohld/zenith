@@ -1,9 +1,42 @@
 {
-  "generated_at": "2026-02-11T12:32:35.237Z",
+  "generated_at": "2026-02-12T00:54:09.263Z",
   "daily_summary": {
-    "headline": "No significant space events today",
-    "top_events": [],
-    "statistics": {}
+    "headline": "Exciting Day for Space Enthusiasts: Multiple Launches Scheduled",
+    "top_events": [
+      {
+        "rank": 1,
+        "title": "Vulcan VC4S | USSF-87",
+        "description": "Launch of two GSSAP satellites for the U.S. Space Force.",
+        "importance": 8,
+        "date": "2026-02-12T08:30:00Z",
+        "type": "launch",
+        "action": "Watch live stream"
+      },
+      {
+        "rank": 2,
+        "title": "Ariane 64 | Amazon Leo (LE-01)",
+        "description": "Deployment of Amazon's Leo satellites for global broadband.",
+        "importance": 7,
+        "date": "2026-02-12T16:45:00Z",
+        "type": "launch",
+        "action": "Watch live stream"
+      },
+      {
+        "rank": 3,
+        "title": "Proton-M/Blok DM-03 | Elektro-L No.5",
+        "description": "Launch of a meteorological satellite for Earth observation.",
+        "importance": 6,
+        "date": "2026-02-12T08:52:15Z",
+        "type": "launch",
+        "action": "Watch live stream"
+      }
+    ],
+    "statistics": {
+      "total_launches_this_week": 5,
+      "crewed_missions": 1,
+      "historic_events": 0,
+      "aurora_opportunities": 0
+    }
   },
   "alerts": [],
   "aurora_insights": {
@@ -15,8 +48,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
-    "iterations": 1
+    "iterations": 2
   }
 }
