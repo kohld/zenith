@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-12T18:22:24.020Z",
+  "updatedAt": "2026-02-12T18:49:10.481Z",
   "launches": [
     {
       "id": "b7c38b80-6ce7-4ab0-8010-19ee11e26fc5",
@@ -1199,13 +1199,21 @@
       "r_spacex_api_id": null,
       "name": "Ariane 64 | Amazon Leo (LE-01)",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-02-12T16:45:45Z",
+      "last_updated": "2026-02-12T18:48:27Z",
       "updates": [
+        {
+          "id": 13948,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success, all satellites have been deployed.",
+          "info_url": "https://www.youtube.com/watch?v=lUr3ygqFkAY",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-12T18:42:00Z"
+        },
         {
           "id": 13945,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1308,8 +1316,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 325,
-        "consecutive_successful_launches": 12,
-        "successful_launches": 309,
+        "consecutive_successful_launches": 13,
+        "successful_launches": 310,
         "failed_launches": 15,
         "pending_launches": 30,
         "consecutive_successful_landings": 0,
@@ -1369,7 +1377,7 @@
           "max_stage": 2,
           "length": 63,
           "diameter": 5.4,
-          "maiden_flight": null,
+          "maiden_flight": "2026-02-12",
           "launch_cost": "90000000",
           "launch_mass": 860,
           "leo_capacity": 21650,
@@ -1381,8 +1389,8 @@
           "info_url": "http://www.arianespace.com/wp-content/uploads/2017/02/Ariane6_Users-Manual_February2017.pdf",
           "wiki_url": "https://en.wikipedia.org/wiki/Ariane_6",
           "total_launch_count": 1,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
           "failed_launches": 0,
           "pending_launches": 15,
           "attempted_landings": 0,
@@ -1503,7 +1511,7 @@
             "code": "en"
           },
           "start_time": "2026-02-12T15:57:51Z",
-          "end_time": null
+          "end_time": "2026-02-12T18:48:04Z"
         },
         {
           "priority": 11,
@@ -1523,10 +1531,10 @@
             "code": "fr"
           },
           "start_time": "2026-02-12T15:57:47Z",
-          "end_time": null
+          "end_time": "2026-02-12T18:48:08Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [
         {
           "type": {
@@ -19093,8 +19101,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 325,
-        "consecutive_successful_launches": 12,
-        "successful_launches": 309,
+        "consecutive_successful_launches": 13,
+        "successful_launches": 310,
         "failed_launches": 15,
         "pending_launches": 30,
         "consecutive_successful_landings": 0,
@@ -29001,8 +29009,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 325,
-        "consecutive_successful_launches": 12,
-        "successful_launches": 309,
+        "consecutive_successful_launches": 13,
+        "successful_launches": 310,
         "failed_launches": 15,
         "pending_launches": 30,
         "consecutive_successful_landings": 0,
@@ -29227,8 +29235,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 325,
-        "consecutive_successful_launches": 12,
-        "successful_launches": 309,
+        "consecutive_successful_launches": 13,
+        "successful_launches": 310,
         "failed_launches": 15,
         "pending_launches": 30,
         "consecutive_successful_landings": 0,
@@ -29288,7 +29296,7 @@
           "max_stage": 2,
           "length": 63,
           "diameter": 5.4,
-          "maiden_flight": null,
+          "maiden_flight": "2026-02-12",
           "launch_cost": "90000000",
           "launch_mass": 860,
           "leo_capacity": 21650,
@@ -29300,8 +29308,8 @@
           "info_url": "http://www.arianespace.com/wp-content/uploads/2017/02/Ariane6_Users-Manual_February2017.pdf",
           "wiki_url": "https://en.wikipedia.org/wiki/Ariane_6",
           "total_launch_count": 1,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
           "failed_launches": 0,
           "pending_launches": 15,
           "attempted_landings": 0,
@@ -32910,8 +32918,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 325,
-        "consecutive_successful_launches": 12,
-        "successful_launches": 309,
+        "consecutive_successful_launches": 13,
+        "successful_launches": 310,
         "failed_launches": 15,
         "pending_launches": 30,
         "consecutive_successful_landings": 0,
