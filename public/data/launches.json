@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-12T19:25:41.884Z",
+  "updatedAt": "2026-02-12T19:48:14.143Z",
   "launches": [
     {
       "id": "b7c38b80-6ce7-4ab0-8010-19ee11e26fc5",
@@ -1683,8 +1683,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-12T14:18:47Z",
+      "last_updated": "2026-02-12T19:43:41Z",
       "updates": [
+        {
+          "id": 13949,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Adjusted T-0",
+          "info_url": "https://www.spacex.com/launches/crew12",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-02-12T19:44:00Z"
+        },
         {
           "id": 13942,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1758,15 +1766,15 @@
           "created_on": "2025-11-20T22:54:00Z"
         }
       ],
-      "net": "2026-02-13T10:15:00Z",
+      "net": "2026-02-13T10:15:56Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2026-02-13T10:15:00Z",
-      "window_start": "2026-02-13T10:15:00Z",
+      "window_end": "2026-02-13T10:15:56Z",
+      "window_start": "2026-02-13T10:15:56Z",
       "probability": 90,
       "weather_concerns": "Cumulus Cloud Rule, Flight Through Precipitation",
       "holdreason": "",
@@ -2958,7 +2966,7 @@
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 17,
-      "pad_turnaround": "P14DT2H53M",
+      "pad_turnaround": "P14DT2H53M56S",
       "mission_patches": [
         {
           "id": 1303,
