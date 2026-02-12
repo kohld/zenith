@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-12T16:22:50.792Z",
+  "updatedAt": "2026-02-12T16:49:36.005Z",
   "launches": [
     {
       "id": "d9c4e13d-abab-4ddc-9821-710a81d54e57",
@@ -1934,13 +1934,29 @@
       "r_spacex_api_id": null,
       "name": "Ariane 64 | Amazon Leo (LE-01)",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
       },
-      "last_updated": "2026-02-12T15:58:32Z",
+      "last_updated": "2026-02-12T16:45:45Z",
       "updates": [
+        {
+          "id": 13945,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://www.youtube.com/watch?v=lUr3ygqFkAY",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-12T16:45:00Z"
+        },
+        {
+          "id": 13944,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.youtube.com/watch?v=lUr3ygqFkAY",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-12T16:25:00Z"
+        },
         {
           "id": 13943,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
@@ -1998,12 +2014,12 @@
           "created_on": "2025-01-10T14:23:00Z"
         }
       ],
-      "net": "2026-02-12T16:45:00Z",
+      "net": "2026-02-12T16:45:30Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-02-12T17:13:00Z",
       "window_start": "2026-02-12T16:45:00Z",
@@ -2026,11 +2042,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 324,
+        "total_launch_count": 325,
         "consecutive_successful_launches": 12,
         "successful_launches": 309,
         "failed_launches": 15,
-        "pending_launches": 31,
+        "pending_launches": 30,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -2099,11 +2115,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_6_image_20240125142128.jpeg",
           "info_url": "http://www.arianespace.com/wp-content/uploads/2017/02/Ariane6_Users-Manual_February2017.pdf",
           "wiki_url": "https://en.wikipedia.org/wiki/Ariane_6",
-          "total_launch_count": 0,
+          "total_launch_count": 1,
           "consecutive_successful_launches": 0,
           "successful_launches": 0,
           "failed_launches": 0,
-          "pending_launches": 16,
+          "pending_launches": 15,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -2176,13 +2192,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 330,
+          "total_launch_count": 331,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
-        "total_launch_count": 5,
-        "orbital_launch_attempt_count": 5
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
       },
       "infoURLs": [
         {
@@ -2364,7 +2380,7 @@
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P57DT11H43M2S",
+      "pad_turnaround": "P57DT11H43M32S",
       "mission_patches": [
         {
           "id": 1304,
@@ -17402,7 +17418,7 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 330,
+          "total_launch_count": 331,
           "total_landing_count": 0
         },
         "country_code": "GUF",
@@ -19811,11 +19827,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 324,
+        "total_launch_count": 325,
         "consecutive_successful_launches": 12,
         "successful_launches": 309,
         "failed_launches": 15,
-        "pending_launches": 31,
+        "pending_launches": 30,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -19961,13 +19977,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 330,
+          "total_launch_count": 331,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
-        "total_launch_count": 5,
-        "orbital_launch_attempt_count": 5
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -29120,7 +29136,7 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 330,
+          "total_launch_count": 331,
           "total_landing_count": 0
         },
         "country_code": "GUF",
@@ -29719,11 +29735,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 324,
+        "total_launch_count": 325,
         "consecutive_successful_launches": 12,
         "successful_launches": 309,
         "failed_launches": 15,
-        "pending_launches": 31,
+        "pending_launches": 30,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -29839,13 +29855,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 330,
+          "total_launch_count": 331,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
-        "total_launch_count": 5,
-        "orbital_launch_attempt_count": 5
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
       },
       "infoURLs": [
         {
@@ -29945,11 +29961,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 324,
+        "total_launch_count": 325,
         "consecutive_successful_launches": 12,
         "successful_launches": 309,
         "failed_launches": 15,
-        "pending_launches": 31,
+        "pending_launches": 30,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -30018,11 +30034,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_6_image_20240125142128.jpeg",
           "info_url": "http://www.arianespace.com/wp-content/uploads/2017/02/Ariane6_Users-Manual_February2017.pdf",
           "wiki_url": "https://en.wikipedia.org/wiki/Ariane_6",
-          "total_launch_count": 0,
+          "total_launch_count": 1,
           "consecutive_successful_launches": 0,
           "successful_launches": 0,
           "failed_launches": 0,
-          "pending_launches": 16,
+          "pending_launches": 15,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -30065,13 +30081,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 330,
+          "total_launch_count": 331,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
-        "total_launch_count": 5,
-        "orbital_launch_attempt_count": 5
+        "total_launch_count": 6,
+        "orbital_launch_attempt_count": 6
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -33628,11 +33644,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 324,
+        "total_launch_count": 325,
         "consecutive_successful_launches": 12,
         "successful_launches": 309,
         "failed_launches": 15,
-        "pending_launches": 31,
+        "pending_launches": 30,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -33807,7 +33823,7 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 330,
+          "total_launch_count": 331,
           "total_landing_count": 0
         },
         "country_code": "GUF",
