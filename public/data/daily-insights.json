@@ -1,54 +1,72 @@
 {
-  "generated_at": "2026-02-12T00:54:09.263Z",
+  "generated_at": "2026-02-13T12:28:37.280Z",
   "daily_summary": {
-    "headline": "Exciting Day for Space Enthusiasts: Multiple Launches Scheduled",
+    "headline": "Aurora Alert and Routine Starlink Launches",
     "top_events": [
       {
         "rank": 1,
-        "title": "Vulcan VC4S | USSF-87",
-        "description": "Launch of two GSSAP satellites for the U.S. Space Force.",
-        "importance": 8,
-        "date": "2026-02-12T08:30:00Z",
-        "type": "launch",
-        "action": "Watch live stream"
+        "title": "Aurora Opportunity",
+        "description": "A G1 level geomagnetic storm is predicted, offering a chance to view auroras at high latitudes.",
+        "importance": 7,
+        "date": "2026-02-15",
+        "type": "aurora",
+        "action": "Check aurora forecasts and prepare for viewing at high latitudes."
       },
       {
         "rank": 2,
-        "title": "Ariane 64 | Amazon Leo (LE-01)",
-        "description": "Deployment of Amazon's Leo satellites for global broadband.",
-        "importance": 7,
-        "date": "2026-02-12T16:45:00Z",
+        "title": "Starlink Group 17-13 Launch",
+        "description": "Routine launch of Starlink satellites by SpaceX.",
+        "importance": 5,
+        "date": "2026-02-14",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Watch live stream for coverage."
       },
       {
         "rank": 3,
-        "title": "Proton-M/Blok DM-03 | Elektro-L No.5",
-        "description": "Launch of a meteorological satellite for Earth observation.",
-        "importance": 6,
-        "date": "2026-02-12T08:52:15Z",
+        "title": "Firefly Alpha Test Flight",
+        "description": "Firefly Alpha's test flight to validate key systems.",
+        "importance": 5,
+        "date": "2026-02-19",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Follow updates for test flight results."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
-      "crewed_missions": 1,
+      "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-02-15",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-02-15 09:00:00",
+          "end": "2026-02-15 09:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-02-15",
+      "time": "09:00-09:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
