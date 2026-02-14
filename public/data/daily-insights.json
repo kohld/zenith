@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-02-13T12:28:37.280Z",
+  "generated_at": "2026-02-14T00:51:33.618Z",
   "daily_summary": {
-    "headline": "Aurora Alert and Routine Starlink Launches",
+    "headline": "Aurora Opportunities and Routine Launches Dominate the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Opportunity",
-        "description": "A G1 level geomagnetic storm is predicted, offering a chance to view auroras at high latitudes.",
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 geomagnetic storm is expected, providing potential aurora visibility at high latitudes.",
         "importance": 7,
         "date": "2026-02-15",
         "type": "aurora",
-        "action": "Check aurora forecasts and prepare for viewing at high latitudes."
+        "action": "Check viewing conditions if you're at high latitudes."
       },
       {
         "rank": 2,
-        "title": "Starlink Group 17-13 Launch",
-        "description": "Routine launch of Starlink satellites by SpaceX.",
+        "title": "Routine Starlink Launch",
+        "description": "SpaceX Falcon 9 will launch another batch of Starlink satellites.",
         "importance": 5,
         "date": "2026-02-14",
         "type": "launch",
-        "action": "Watch live stream for coverage."
+        "action": "Watch the live stream for the launch."
       },
       {
         "rank": 3,
         "title": "Firefly Alpha Test Flight",
-        "description": "Firefly Alpha's test flight to validate key systems.",
+        "description": "Firefly Alpha's test flight for system validation.",
         "importance": 5,
-        "date": "2026-02-19",
+        "date": "2026-02-21",
         "type": "launch",
-        "action": "Follow updates for test flight results."
+        "action": "Monitor for updates on this test flight."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 2
     }
   },
   "alerts": [],
@@ -47,26 +47,38 @@
         "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-02-15 09:00:00",
-          "end": "2026-02-15 09:00:00"
+          "start": "2026-02-15 03:00:00",
+          "end": "2026-02-15 21:00:00"
         },
-        "duration_hours": 0,
+        "duration_hours": 18,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-02-16",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-02-16 00:00:00",
+          "end": "2026-02-16 06:00:00"
+        },
+        "duration_hours": 6,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
       "date": "2026-02-15",
-      "time": "09:00-09:00 UTC",
+      "time": "03:00-21:00 UTC",
       "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
-    "total_viewing_hours": 0
+    "total_viewing_hours": 24
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
