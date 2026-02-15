@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-02-15T00:56:46.530Z",
+  "generated_at": "2026-02-15T12:27:12.035Z",
   "daily_summary": {
-    "headline": "Starlink Launches and Aurora Opportunities Dominate the Day",
+    "headline": "Aurora Alert and Starlink Launches Dominate the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-13 Launch",
-        "description": "SpaceX's Falcon 9 is set to launch the Starlink Group 17-13 mission from Vandenberg SFB, CA, USA, deploying 24 satellites for the Starlink mega-constellation.",
-        "importance": 5,
-        "date": "2026-02-15T01:59:59Z",
-        "type": "launch",
-        "action": "Watch live stream for optimal viewing."
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 geomagnetic storm is expected, providing a good aurora viewing opportunity for observers at high latitudes.",
+        "importance": 7,
+        "date": "2026-02-16",
+        "type": "aurora",
+        "action": "Check for auroras if you're at or above 60° latitude."
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G1 level geomagnetic storm offers potential aurora visibility above 65° latitude.",
+        "title": "Falcon 9 Block 5 | Starlink Group 6-103",
+        "description": "Routine Starlink satellite deployment by SpaceX.",
         "importance": 5,
-        "date": "2026-02-15",
-        "type": "aurora",
-        "action": "Check local conditions and prepare for possible aurora sightings."
+        "date": "2026-02-16",
+        "type": "launch",
+        "action": "Watch live stream for launch coverage."
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Block 5 | Starlink Group 6-103 Launch",
-        "description": "SpaceX's Falcon 9 will launch Starlink Group 6-103 from Cape Canaveral SFS, FL, USA, deploying 29 satellites for the Starlink mega-constellation.",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-25",
+        "description": "Another Starlink deployment scheduled by SpaceX.",
         "importance": 5,
-        "date": "2026-02-16T05:00:00Z",
+        "date": "2026-02-18",
         "type": "launch",
-        "action": "Watch live stream for optimal viewing."
+        "action": "Follow live updates and stream."
       }
     ],
     "statistics": {
@@ -42,43 +42,43 @@
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-02-15",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-02-15 03:00:00",
-          "end": "2026-02-15 21:00:00"
-        },
-        "duration_hours": 18,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
         "date": "2026-02-16",
-        "max_kp": 4.67,
+        "max_kp": 5,
         "storm_level": "G1",
-        "probability": "Low (30-50%)",
+        "probability": "Moderate (50-70%)",
         "time_window": {
           "start": "2026-02-16 00:00:00",
           "end": "2026-02-16 06:00:00"
         },
         "duration_hours": 6,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-02-15",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-02-15 18:00:00",
+          "end": "2026-02-15 18:00:00"
+        },
+        "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-02-15",
-      "time": "03:00-21:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
+      "date": "2026-02-16",
+      "time": "00:00-06:00 UTC",
+      "kp": 5,
+      "visibility_range": "Down to 60° latitude"
     },
-    "total_viewing_hours": 24
+    "total_viewing_hours": 6
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
