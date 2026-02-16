@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-15T12:27:12.036Z",
+  "generated_at": "2026-02-16T00:54:09.811Z",
   "launches": [
     {
       "id": "a0ed15aa-4d23-48ac-a712-950228663b43",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-10T19:07:11Z",
+      "last_updated": "2026-02-15T23:08:26Z",
       "updates": [
+        {
+          "id": 13971,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Feb 16 at 05:34 UTC\r\n(Launch weather update per https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%206-103%20L-1%20Forecast%20-%2016%20Feb%20Launch.pdf, 20% GO)",
+          "info_url": "https://www.spacex.com/launches/sl-6-103",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-15T15:36:00Z"
+        },
         {
           "id": 13921,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -105,17 +113,17 @@
           "created_on": "2026-01-20T19:53:00Z"
         }
       ],
-      "net": "2026-02-16T05:00:00Z",
+      "net": "2026-02-16T05:34:20Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-02-16T09:00:00Z",
       "window_start": "2026-02-16T05:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 20,
+      "weather_concerns": "Cumulus Cloud Rule, Surface Electric Fields Rule, Anvil Cloud Rules",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -439,6 +447,46 @@
       ],
       "vidURLs": [
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket to launch 29 Starlink internet satellites from Cape Canaveral",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for Elon Musk's Starlink internet service. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Monday, February 16, at 12:34:20 a.m. EST (0534:20 UTC). The first-stage booster for this mission, B1090, launching for a 10th time, will land on SpaceX's drone ship 'A Short Fall of Gravitas', stationed in the Atlantic Ocean, roughly 8.5 minutes after leaving the launch pad.\n\nThe mission, designated Starlink 6-103, will take a south-easterly trajectory on departure from Florida's Space Coast.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nVideos like this are made possible by the support of our memb...",
+          "feature_image": "https://i.ytimg.com/vi/aj2DA2z-YNQ/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=aj2DA2z-YNQ",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-02-16T04:34:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Falcon 9 launches Starlink 6-103",
+          "description": "Launch Window: February 16th from 12AM to 4AM EST (05:00-09:00 UTC)\nCurrent T0: February 16th at 12:34:20AM EST (05:34:20 UTC)\n\nMission: Falcon 9 launch of 29 Starlink v2 Mini satellites into orbit.\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO); 257x270km 43º orbit\nBooster: B1090-10; 85d 21h 40min 30s turnaround\nBooster history: O3b mPOWER E, Crew-10, Bandwagon-3, SL 6-67, SL 10-18, O3b mPOWER D, CRS-33, SL 10-59, SL 6-79.\nBooster recovery: A Shortfall Of Gravitas (ASOG)\nFairing recovery: Doug\nRocket trajectory: Southeast passing northeast of the Bahamas.\nPayload mass: Approximately 17 tonnes\nStats:\n  - SpaceX's 628th launch overall.\n  - SpaceX's 19th launch of the year.\n  - SpaceX's 6th launch of the ...",
+          "feature_image": "https://i.ytimg.com/vi/92mWUeQCT4k/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=92mWUeQCT4k",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-02-16T04:30:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -455,7 +503,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-02-16T04:53:00Z",
+          "start_time": "2026-02-16T05:27:00Z",
           "end_time": "2026-02-16T07:53:00Z"
         }
       ],
@@ -615,7 +663,7 @@
       "location_launch_attempt_count_year": 10,
       "pad_launch_attempt_count_year": 9,
       "agency_launch_attempt_count_year": 19,
-      "pad_turnaround": "P2DT18H44M4S",
+      "pad_turnaround": "P2DT19H18M24S",
       "mission_patches": [
         {
           "id": 7,
@@ -634,23 +682,31 @@
       "ai_enrichment": {
         "launch_id": "a0ed15aa-4d23-48ac-a712-950228663b43",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "29 Starlink satellites",
+          "Falcon 9 Block 5",
+          "Launch from Cape Canaveral"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Watch live stream for launch coverage."
+        "tags": [
+          "Starlink",
+          "SpaceX",
+          "Communications"
+        ],
+        "user_recommendation": "Watch live stream for coverage."
       }
     },
     {
       "id": "7442d6d7-91a1-4c30-a759-3a6c16ce896c",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/7442d6d7-91a1-4c30-a759-3a6c16ce896c/",
       "slug": "falcon-9-block-5-starlink-group-17-25",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=7442d6d7-91a1-4c30-a759-3a6c16ce896c",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 17-25",
       "status": {
@@ -659,7 +715,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-07T20:18:27Z",
+      "last_updated": "2026-02-15T17:03:13Z",
       "updates": [
         {
           "id": 13906,
@@ -1279,16 +1335,24 @@
       "ai_enrichment": {
         "launch_id": "7442d6d7-91a1-4c30-a759-3a6c16ce896c",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "25 Starlink satellites",
+          "Falcon 9 Block 5",
+          "Launch from Vandenberg"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Follow live updates and stream."
+        "tags": [
+          "Starlink",
+          "SpaceX",
+          "Communications"
+        ],
+        "user_recommendation": "Watch live stream for coverage."
       }
     },
     {
@@ -1721,8 +1785,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-02-17T21:53:00Z",
-          "end_time": "2026-02-17T23:53:00Z"
+          "start_time": "2026-02-18T21:53:00Z",
+          "end_time": "2026-02-18T23:54:00Z"
         }
       ],
       "webcast_live": false,
@@ -1900,16 +1964,24 @@
       "ai_enrichment": {
         "launch_id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "29 Starlink satellites",
+          "Falcon 9 Block 5",
+          "Launch from Cape Canaveral"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Follow live updates and stream."
+        "tags": [
+          "Starlink",
+          "SpaceX",
+          "Communications"
+        ],
+        "user_recommendation": "Watch live stream for coverage."
       }
     },
     {
@@ -2150,23 +2222,30 @@
       "ai_enrichment": {
         "launch_id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
-        "key_facts": [],
+        "reasoning": "Test flight for Firefly Alpha.",
+        "key_facts": [
+          "Test flight",
+          "Firefly Alpha",
+          "Validation of new systems"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Follow live updates and stream."
+        "tags": [
+          "Test Flight",
+          "Firefly Aerospace"
+        ],
+        "user_recommendation": "Monitor for updates on test results."
       }
     },
     {
       "id": "742daf86-0810-4df5-8a7d-1ff72a14e261",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/742daf86-0810-4df5-8a7d-1ff72a14e261/",
       "slug": "falcon-9-block-5-starlink-group-17-26",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=742daf86-0810-4df5-8a7d-1ff72a14e261",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 17-26",
       "status": {
@@ -2175,7 +2254,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-11T17:41:10Z",
+      "last_updated": "2026-02-15T17:03:16Z",
       "updates": [
         {
           "id": 13932,
@@ -2795,16 +2874,24 @@
       "ai_enrichment": {
         "launch_id": "742daf86-0810-4df5-8a7d-1ff72a14e261",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "25 Starlink satellites",
+          "Falcon 9 Block 5",
+          "Launch from Vandenberg"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Follow live updates and stream."
+        "tags": [
+          "Starlink",
+          "SpaceX",
+          "Communications"
+        ],
+        "user_recommendation": "Watch live stream for coverage."
       }
     }
   ]
