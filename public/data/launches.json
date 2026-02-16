@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-16T03:05:40.268Z",
+  "updatedAt": "2026-02-16T04:18:26.412Z",
   "launches": [
     {
       "id": "a0ed15aa-4d23-48ac-a712-950228663b43",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-16T01:14:10Z",
+      "last_updated": "2026-02-16T03:19:54Z",
       "updates": [
+        {
+          "id": 13973,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Feb 16 at 06:54 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-6-103",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-16T03:19:00Z"
+        },
         {
           "id": 13972,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -121,7 +129,7 @@
           "created_on": "2026-01-20T19:53:00Z"
         }
       ],
-      "net": "2026-02-16T05:35:20Z",
+      "net": "2026-02-16T06:54:40Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -459,7 +467,7 @@
           "source": "youtube.com",
           "publisher": "Spaceflight Now",
           "title": "Live: SpaceX Falcon 9 rocket to launch 29 Starlink internet satellites from Cape Canaveral",
-          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for Elon Musk's Starlink internet service. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Monday, February 16, at 12:35:20 a.m. EST (0535:20 UTC). The first-stage booster for this mission, B1090, launching for a 10th time, will land on SpaceX's drone ship 'A Short Fall of Gravitas', stationed in the Atlantic Ocean, roughly 8.5 minutes after leaving the launch pad.\n\nThe mission, designated Starlink 6-103, will take a south-easterly trajectory on departure from Florida's Space Coast.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nVideos like this are made possible by the support of our memb...",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for Elon Musk's Starlink internet service. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Monday, February 16, at 1:54:40 a.m. EST (0654:40 UTC). The first-stage booster for this mission, B1090, launching for a 10th time, will land on SpaceX's drone ship 'A Short Fall of Gravitas', stationed in the Atlantic Ocean, roughly 8.5 minutes after leaving the launch pad.\n\nThe mission, designated Starlink 6-103, will take a south-easterly trajectory on departure from Florida's Space Coast.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nVideos like this are made possible by the support of our membe...",
           "feature_image": "https://i.ytimg.com/vi/aj2DA2z-YNQ/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=aj2DA2z-YNQ",
           "type": {
@@ -471,7 +479,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-02-16T04:35:00Z",
+          "start_time": "2026-02-16T05:54:00Z",
           "end_time": null
         },
         {
@@ -491,7 +499,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-02-16T04:34:00Z",
+          "start_time": "2026-02-16T05:55:00Z",
           "end_time": null
         },
         {
@@ -671,7 +679,7 @@
       "location_launch_attempt_count_year": 10,
       "pad_launch_attempt_count_year": 9,
       "agency_launch_attempt_count_year": 19,
-      "pad_turnaround": "P2DT19H19M24S",
+      "pad_turnaround": "P2DT20H38M44S",
       "mission_patches": [
         {
           "id": 7,
@@ -25135,50 +25143,6 @@
         },
         "launcher_stage": [
           {
-            "id": 418,
-            "type": "Strap-On Booster",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1215,
-              "attempt": true,
-              "success": null,
-              "description": "the sidebooster will attempt to land at the launch site after launch.",
-              "downrange_distance": null,
-              "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 417,
             "type": "Core",
             "reused": null,
@@ -25216,6 +25180,50 @@
                 "name": "Autonomous Spaceport Drone Ship",
                 "abbrev": "ASDS",
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
+            "id": 418,
+            "type": "Strap-On Booster",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 117,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown FH",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1215,
+              "attempt": true,
+              "success": null,
+              "description": "the sidebooster will attempt to land at the launch site after launch.",
+              "downrange_distance": null,
+              "location": {
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
             "previous_flight_date": null,
