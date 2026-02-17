@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-17T00:53:31.482Z",
+  "generated_at": "2026-02-17T12:30:15.215Z",
   "launches": [
     {
       "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
@@ -610,15 +610,21 @@
       "ai_enrichment": {
         "launch_id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "Falcon 9 Block 5",
+          "Starlink Group 10-36"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "Starlink",
+          "SpaceX"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -1020,17 +1026,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -1263,15 +1269,21 @@
       "ai_enrichment": {
         "launch_id": "7442d6d7-91a1-4c30-a759-3a6c16ce896c",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "Falcon 9 Block 5",
+          "Starlink Group 17-25"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "Starlink",
+          "SpaceX"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -1513,16 +1525,22 @@
       "ai_enrichment": {
         "launch_id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Test flight for system validation.",
+        "key_facts": [
+          "Firefly Alpha",
+          "Stairway to Seven"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Standard mission"
+        "tags": [
+          "Test Flight",
+          "Firefly Aerospace"
+        ],
+        "user_recommendation": "Monitor updates for test flight results."
       }
     },
     {
@@ -1875,7 +1893,7 @@
                 "abbrev": "ASOG",
                 "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 141
+                "successful_landings": 142
               },
               "type": {
                 "id": 1,
@@ -2182,15 +2200,21 @@
       "ai_enrichment": {
         "launch_id": "49532577-7d26-49df-ada3-12a85bb8189e",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "Falcon 9 Block 5",
+          "Starlink Group 6-104"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "Starlink",
+          "SpaceX"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -2592,17 +2616,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -2835,15 +2859,21 @@
       "ai_enrichment": {
         "launch_id": "742daf86-0810-4df5-8a7d-1ff72a14e261",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "Falcon 9 Block 5",
+          "Starlink Group 17-26"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "Starlink",
+          "SpaceX"
+        ],
         "user_recommendation": "Standard mission"
       }
     }

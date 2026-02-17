@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-02-17T00:53:31.481Z",
+  "generated_at": "2026-02-17T12:30:15.214Z",
   "daily_summary": {
-    "headline": "Starlink Launches and Aurora Opportunities Highlight the Day",
+    "headline": "Routine Launches and Quiet Aurora Forecast",
     "top_events": [
       {
         "rank": 1,
-        "title": "Starlink Group 10-36 Launch",
-        "description": "SpaceX's Falcon 9 Block 5 is set to launch the Starlink Group 10-36 mission. This mission will deploy 29 satellites for the Starlink mega-constellation, enhancing global internet coverage.",
+        "title": "Falcon 9 Block 5 | Starlink Group 10-36",
+        "description": "SpaceX's Falcon 9 Block 5 is set to launch the Starlink Group 10-36, continuing the expansion of the Starlink satellite constellation.",
         "importance": 5,
-        "date": "2026-02-18T22:00:00Z",
+        "date": "2026-02-18",
         "type": "launch",
-        "action": "Watch the live stream for the launch."
+        "action": "Watch live stream for launch details."
       },
       {
         "rank": 2,
         "title": "Aurora Viewing Opportunity",
-        "description": "A G1-level geomagnetic storm is expected, providing a potential aurora viewing opportunity for observers at high latitudes.",
-        "importance": 5,
-        "date": "2026-02-17",
+        "description": "A minor geomagnetic storm may allow aurora viewing at high latitudes, with a Kp index of 4.",
+        "importance": 4,
+        "date": "2026-02-18",
         "type": "aurora",
-        "action": "Check the sky for auroras if you're at a high latitude."
+        "action": "Check local conditions for aurora visibility."
       },
       {
         "rank": 3,
-        "title": "Firefly Alpha Test Flight",
-        "description": "Firefly Aerospace's Firefly Alpha is scheduled for a test flight named 'Stairway to Seven'. This flight aims to validate key systems after a previous launch failure.",
+        "title": "Firefly Alpha | Stairway to Seven",
+        "description": "Firefly Aerospace's test flight of the Firefly Alpha rocket aims to validate key systems ahead of future upgrades.",
         "importance": 5,
-        "date": "2026-02-21T00:20:00Z",
+        "date": "2026-02-21",
         "type": "launch",
-        "action": "Follow updates on the test flight."
+        "action": "Monitor updates for test flight results."
       }
     ],
     "statistics": {
@@ -42,31 +42,31 @@
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-02-17",
-        "max_kp": 4.67,
-        "storm_level": "G1",
+        "date": "2026-02-18",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-02-17 03:00:00",
-          "end": "2026-02-17 09:00:00"
+          "start": "2026-02-18 03:00:00",
+          "end": "2026-02-18 03:00:00"
         },
-        "duration_hours": 6,
+        "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-02-17",
-      "time": "03:00-09:00 UTC",
-      "kp": 4.67,
+      "date": "2026-02-18",
+      "time": "03:00-03:00 UTC",
+      "kp": 4,
       "visibility_range": "Above 65° latitude"
     },
-    "total_viewing_hours": 6
+    "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
