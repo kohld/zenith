@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-02-16T12:30:16.301Z",
+  "generated_at": "2026-02-17T00:53:31.481Z",
   "daily_summary": {
-    "headline": "Routine Launches and Mild Aurora Activity",
+    "headline": "Starlink Launches and Aurora Opportunities Highlight the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-25",
-        "description": "Launch of 25 Starlink satellites for internet constellation.",
+        "title": "Starlink Group 10-36 Launch",
+        "description": "SpaceX's Falcon 9 Block 5 is set to launch the Starlink Group 10-36 mission. This mission will deploy 29 satellites for the Starlink mega-constellation, enhancing global internet coverage.",
         "importance": 5,
-        "date": "2026-02-18T08:00:00Z",
+        "date": "2026-02-18T22:00:00Z",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Watch the live stream for the launch."
       },
       {
         "rank": 2,
-        "title": "Aurora Opportunity",
-        "description": "Mild aurora activity expected at high latitudes.",
-        "importance": 4,
-        "date": "2026-02-16",
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1-level geomagnetic storm is expected, providing a potential aurora viewing opportunity for observers at high latitudes.",
+        "importance": 5,
+        "date": "2026-02-17",
         "type": "aurora",
-        "action": "Check viewing conditions"
+        "action": "Check the sky for auroras if you're at a high latitude."
       },
       {
         "rank": 3,
-        "title": "Firefly Alpha | Stairway to Seven",
-        "description": "Test flight for Firefly Alpha's return to flight.",
+        "title": "Firefly Alpha Test Flight",
+        "description": "Firefly Aerospace's Firefly Alpha is scheduled for a test flight named 'Stairway to Seven'. This flight aims to validate key systems after a previous launch failure.",
         "importance": 5,
         "date": "2026-02-21T00:20:00Z",
         "type": "launch",
-        "action": "Monitor updates"
+        "action": "Follow updates on the test flight."
       }
     ],
     "statistics": {
@@ -42,31 +42,31 @@
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-02-16",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
+        "date": "2026-02-17",
+        "max_kp": 4.67,
+        "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-02-16 15:00:00",
-          "end": "2026-02-16 15:00:00"
+          "start": "2026-02-17 03:00:00",
+          "end": "2026-02-17 09:00:00"
         },
-        "duration_hours": 0,
+        "duration_hours": 6,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-02-16",
-      "time": "15:00-15:00 UTC",
-      "kp": 4,
+      "date": "2026-02-17",
+      "time": "03:00-09:00 UTC",
+      "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
-    "total_viewing_hours": 0
+    "total_viewing_hours": 6
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
