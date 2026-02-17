@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-17T14:47:27.548Z",
+  "updatedAt": "2026-02-17T15:20:00.262Z",
   "launches": [
     {
       "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-13T14:24:11Z",
+      "last_updated": "2026-02-17T15:07:06Z",
       "updates": [
+        {
+          "id": 13988,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, >95% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%2010-36%20L-1%20Forecast%20-%2018%20Feb%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-17T15:07:00Z"
+        },
         {
           "id": 13960,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -90,7 +98,7 @@
       },
       "window_end": "2026-02-19T02:00:00Z",
       "window_start": "2026-02-18T22:00:00Z",
-      "probability": null,
+      "probability": 99,
       "weather_concerns": null,
       "holdreason": "",
       "failreason": "",
@@ -7235,15 +7243,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7411,
-      "location_launch_attempt_count": 1153,
-      "pad_launch_attempt_count": 31,
-      "agency_launch_attempt_count": 706,
-      "orbital_launch_attempt_count_year": 238,
-      "location_launch_attempt_count_year": 77,
-      "pad_launch_attempt_count_year": 31,
-      "agency_launch_attempt_count_year": 87,
-      "pad_turnaround": "P31D",
+      "orbital_launch_attempt_count": 7224,
+      "location_launch_attempt_count": 1091,
+      "pad_launch_attempt_count": 1,
+      "agency_launch_attempt_count": 647,
+      "orbital_launch_attempt_count_year": 51,
+      "location_launch_attempt_count_year": 15,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 28,
+      "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
     },
