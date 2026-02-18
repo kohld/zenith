@@ -1,73 +1,55 @@
 {
-  "generated_at": "2026-02-18T00:53:53.662Z",
+  "generated_at": "2026-02-18T12:29:03.440Z",
   "daily_summary": {
-    "headline": "Routine SpaceX Starlink Launches Dominate the Day",
+    "headline": "SpaceX Starlink Launches Dominate the Day",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | Starlink Group 10-36",
-        "description": "Launch of 29 Starlink satellites for global internet coverage.",
+        "description": "SpaceX is launching another batch of Starlink satellites, continuing to expand their internet constellation.",
         "importance": 5,
-        "date": "2026-02-18",
+        "date": "2026-02-19",
         "type": "launch",
-        "action": "Watch live stream for booster landing."
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
         "title": "Falcon 9 Block 5 | Starlink Group 17-25",
-        "description": "Deployment of 25 Starlink satellites to expand the constellation.",
+        "description": "Another Starlink launch by SpaceX, showcasing their rapid launch cadence.",
         "importance": 5,
         "date": "2026-02-20",
         "type": "launch",
-        "action": "Follow live updates on SpaceX's official channel."
+        "action": "Watch live stream"
       },
       {
         "rank": 3,
-        "title": "Aurora Viewing Opportunity",
-        "description": "Potential aurora visibility at high latitudes due to Kp 4 activity.",
-        "importance": 4,
-        "date": "2026-02-18",
-        "type": "aurora",
-        "action": "Check local conditions for aurora sightings."
+        "title": "HASTE | That's Not A Knife (DART AE)",
+        "description": "Rocket Lab's suborbital test for hypersonic research, a unique mission in the launch schedule.",
+        "importance": 5,
+        "date": "2026-02-23",
+        "type": "launch",
+        "action": "Watch live stream"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-02-18",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-02-18 03:00:00",
-          "end": "2026-02-18 03:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-02-18",
-      "time": "03:00-03:00 UTC",
-      "kp": 4,
-      "visibility_range": "Above 65° latitude"
-    },
+    "opportunities": [],
+    "best_window": null,
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
-    "iterations": 2
+    "iterations": 1
   }
 }
