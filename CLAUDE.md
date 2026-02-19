@@ -114,6 +114,7 @@ export const Card = ({ title, children }: CardProps) => {
 [.agents/skills/karpathy-guidelines/SKILL.md](.agents/skills/karpathy-guidelines/SKILL.md)
 - Meta-principles for avoiding common LLM coding mistakes
 - Think before coding, simplicity first, surgical changes, goal-driven execution
+
 ## Additional resources
 
 For more information about Bun APIs, read the documentation in `node_modules/bun-types/docs/**.md`.
