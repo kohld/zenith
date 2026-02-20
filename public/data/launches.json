@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-20T19:43:15.387Z",
+  "updatedAt": "2026-02-20T20:08:23.931Z",
   "launches": [
     {
       "id": "57cc5e9e-97c2-4833-8bcd-e4e62ce63ec6",
@@ -1122,8 +1122,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-02-21T07:53:00Z",
-          "end_time": "2026-02-21T09:54:00Z"
+          "start_time": "2026-02-21T08:53:00Z",
+          "end_time": "2026-02-21T11:54:00Z"
         }
       ],
       "webcast_live": false,
@@ -1392,8 +1392,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-12T20:09:10Z",
+      "last_updated": "2026-02-20T19:59:25Z",
       "updates": [
+        {
+          "id": 14019,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, >95% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%206-104%20L-1%20Forecast%20-%2021%20Feb%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-20T19:59:00Z"
+        },
         {
           "id": 13950,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1516,7 +1524,7 @@
       },
       "window_end": "2026-02-22T06:04:00Z",
       "window_start": "2026-02-22T02:04:00Z",
-      "probability": null,
+      "probability": 99,
       "weather_concerns": null,
       "holdreason": "",
       "failreason": "",
