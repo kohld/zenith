@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-20T12:28:19.717Z",
+  "generated_at": "2026-02-21T00:50:17.749Z",
   "launches": [
     {
       "id": "7442d6d7-91a1-4c30-a759-3a6c16ce896c",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-18T18:53:15Z",
+      "last_updated": "2026-02-20T17:36:09Z",
       "updates": [
+        {
+          "id": 14018,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Now targeting Feb 21 at 09:00 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-25",
+          "created_by": "Nosu",
+          "created_on": "2026-02-20T17:36:00Z"
+        },
         {
           "id": 13999,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -49,12 +57,12 @@
           "created_on": "2026-02-07T20:18:00Z"
         }
       ],
-      "net": "2026-02-21T08:00:00Z",
+      "net": "2026-02-21T09:00:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-02-21T12:00:00Z",
       "window_start": "2026-02-21T08:00:00Z",
@@ -399,8 +407,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-02-21T07:53:00Z",
-          "end_time": "2026-02-21T09:54:00Z"
+          "start_time": "2026-02-21T08:53:00Z",
+          "end_time": "2026-02-21T11:54:00Z"
         }
       ],
       "webcast_live": false,
@@ -639,7 +647,7 @@
       "location_launch_attempt_count_year": 11,
       "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 21,
-      "pad_turnaround": "P6DT6H1S",
+      "pad_turnaround": "P6DT7H1S",
       "mission_patches": [
         {
           "id": 7,
@@ -658,10 +666,11 @@
       "ai_enrichment": {
         "launch_id": "7442d6d7-91a1-4c30-a759-3a6c16ce896c",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment.",
+        "reasoning": "Standard mission for Starlink satellite deployment.",
         "key_facts": [
-          "Falcon 9 Block 5",
-          "Starlink Group 17-25"
+          "Launch of 25 Starlink satellites",
+          "Falcon 9 Block 5 rocket",
+          "Launch from Vandenberg SFB, CA, USA"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -671,9 +680,10 @@
         },
         "tags": [
           "Starlink",
-          "SpaceX"
+          "SpaceX",
+          "Communications"
         ],
-        "user_recommendation": "Watch live stream for routine Starlink deployment."
+        "user_recommendation": "Watch live stream for a routine but impressive launch."
       }
     },
     {
@@ -689,8 +699,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-12T20:09:10Z",
+      "last_updated": "2026-02-20T19:59:25Z",
       "updates": [
+        {
+          "id": 14019,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, >95% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%206-104%20L-1%20Forecast%20-%2021%20Feb%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-20T19:59:00Z"
+        },
         {
           "id": 13950,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -813,7 +831,7 @@
       },
       "window_end": "2026-02-22T06:04:00Z",
       "window_start": "2026-02-22T02:04:00Z",
-      "probability": null,
+      "probability": 99,
       "weather_concerns": null,
       "holdreason": "",
       "failreason": "",
@@ -1333,10 +1351,11 @@
       "ai_enrichment": {
         "launch_id": "49532577-7d26-49df-ada3-12a85bb8189e",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment.",
+        "reasoning": "Standard mission for Starlink satellite deployment.",
         "key_facts": [
-          "Falcon 9 Block 5",
-          "Starlink Group 6-104"
+          "Launch of 28 Starlink satellites",
+          "Falcon 9 Block 5 rocket",
+          "Launch from Cape Canaveral SFS, FL, USA"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1346,9 +1365,10 @@
         },
         "tags": [
           "Starlink",
-          "SpaceX"
+          "SpaceX",
+          "Communications"
         ],
-        "user_recommendation": "Watch live stream for routine Starlink deployment."
+        "user_recommendation": "Watch live stream for a routine but impressive launch."
       }
     },
     {
@@ -2008,10 +2028,11 @@
       "ai_enrichment": {
         "launch_id": "742daf86-0810-4df5-8a7d-1ff72a14e261",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment.",
+        "reasoning": "Standard mission for Starlink satellite deployment.",
         "key_facts": [
-          "Falcon 9 Block 5",
-          "Starlink Group 17-26"
+          "Launch of 25 Starlink satellites",
+          "Falcon 9 Block 5 rocket",
+          "Launch from Vandenberg SFB, CA, USA"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -2021,9 +2042,10 @@
         },
         "tags": [
           "Starlink",
-          "SpaceX"
+          "SpaceX",
+          "Communications"
         ],
-        "user_recommendation": "Watch live stream for routine Starlink deployment."
+        "user_recommendation": "Watch live stream for a routine but impressive launch."
       }
     },
     {
@@ -2294,10 +2316,11 @@
       "ai_enrichment": {
         "launch_id": "3785d31d-770f-4622-b7e4-a683dbd34c39",
         "importance_score": 5,
-        "reasoning": "Routine government mission.",
+        "reasoning": "Suborbital test mission for hypersonic research.",
         "key_facts": [
-          "HASTE",
-          "DART AE"
+          "Payload is a scramjet-powered hypersonic vehicle",
+          "Launch by Rocket Lab",
+          "Launch from Wallops Flight Facility, Virginia, USA"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -2306,10 +2329,11 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "Government",
-          "Rocket Lab"
+          "Hypersonic",
+          "Rocket Lab",
+          "Suborbital"
         ],
-        "user_recommendation": "Watch live stream for routine government mission."
+        "user_recommendation": "Watch live stream for a unique hypersonic test."
       }
     },
     {
@@ -2945,10 +2969,11 @@
       "ai_enrichment": {
         "launch_id": "db5c6392-a8b5-4f97-8a38-cc147f086f00",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment.",
+        "reasoning": "Standard mission for Starlink satellite deployment.",
         "key_facts": [
-          "Falcon 9 Block 5",
-          "Starlink Group 6-110"
+          "Launch of 29 Starlink satellites",
+          "Falcon 9 Block 5 rocket",
+          "Launch from Cape Canaveral SFS, FL, USA"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -2958,9 +2983,10 @@
         },
         "tags": [
           "Starlink",
-          "SpaceX"
+          "SpaceX",
+          "Communications"
         ],
-        "user_recommendation": "Watch live stream for routine Starlink deployment."
+        "user_recommendation": "Watch live stream for a routine but impressive launch."
       }
     }
   ]
