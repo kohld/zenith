@@ -1,46 +1,58 @@
 {
-  "generated_at": "2026-02-22T00:54:10.783Z",
+  "generated_at": "2026-02-22T12:26:35.209Z",
   "daily_summary": {
-    "headline": "Exciting Space Activities Await: Launches and Aurora Insights",
+    "headline": "Exciting Day for Space Enthusiasts: Multiple Launches and Aurora Opportunities",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Forecast: G1 Storm Expected",
-        "description": "A G1 geomagnetic storm is predicted, offering potential aurora visibility at high latitudes.",
-        "importance": 8,
-        "date": "2026-02-23",
-        "type": "aurora",
-        "action": "Check aurora visibility at high latitudes."
-      },
-      {
-        "rank": 2,
-        "title": "SpaceX Starlink Launch",
-        "description": "Routine launch of Starlink satellites by SpaceX, continuing the expansion of the satellite internet constellation.",
-        "importance": 5,
-        "date": "2026-02-22",
-        "type": "launch",
-        "action": "Watch live stream for launch details."
-      },
-      {
-        "rank": 3,
-        "title": "Rocket Lab's HASTE Mission",
-        "description": "Rocket Lab's HASTE mission with a hypersonic vehicle payload, marking another step in hypersonic research.",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-26 Launch",
+        "description": "SpaceX is launching a batch of 25 Starlink satellites to enhance global internet coverage.",
         "importance": 5,
         "date": "2026-02-24",
         "type": "launch",
-        "action": "Follow updates for mission insights."
+        "action": "Watch the live stream for a glimpse of the future of global internet."
+      },
+      {
+        "rank": 2,
+        "title": "HASTE | That's Not A Knife (DART AE) Launch",
+        "description": "Rocket Lab's suborbital launch for hypersonic vehicle testing.",
+        "importance": 5,
+        "date": "2026-02-24",
+        "type": "launch",
+        "action": "Follow the updates for insights into hypersonic technology."
+      },
+      {
+        "rank": 3,
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 geomagnetic storm offers a chance to view auroras at high latitudes.",
+        "importance": 5,
+        "date": "2026-02-22",
+        "type": "aurora",
+        "action": "Check the skies if you're at a high latitude."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 2
     }
   },
   "alerts": [],
   "aurora_insights": {
     "opportunities": [
+      {
+        "date": "2026-02-22",
+        "max_kp": 5,
+        "storm_level": "G1",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-02-22 15:00:00",
+          "end": "2026-02-22 15:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
       {
         "date": "2026-02-23",
         "max_kp": 4.67,
@@ -55,10 +67,10 @@
       }
     ],
     "best_window": {
-      "date": "2026-02-23",
-      "time": "03:00-03:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
+      "date": "2026-02-22",
+      "time": "15:00-15:00 UTC",
+      "kp": 5,
+      "visibility_range": "Down to 60° latitude"
     },
     "total_viewing_hours": 0
   },
@@ -66,7 +78,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
