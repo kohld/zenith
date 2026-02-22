@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-22T03:04:41.585Z",
+  "updatedAt": "2026-02-22T04:17:25.001Z",
   "launches": [
     {
       "id": "7442d6d7-91a1-4c30-a759-3a6c16ce896c",
@@ -764,13 +764,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 6-104",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
       },
-      "last_updated": "2026-02-22T02:48:23Z",
+      "last_updated": "2026-02-22T04:16:09Z",
       "updates": [
+        {
+          "id": 14061,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://x.com/i/broadcasts/1LyGBXondXMxN",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-22T03:47:00Z"
+        },
         {
           "id": 14059,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1121,8 +1129,8 @@
             "landing": {
               "id": 1805,
               "attempt": true,
-              "success": null,
-              "description": "The Falcon 9 first stage B1067 will land on ASDS ASOG after its 33rd flight.",
+              "success": true,
+              "description": "The Falcon 9 first stage B1067 has landed on ASDS ASOG after its 33rd flight.",
               "downrange_distance": 600,
               "location": {
                 "id": 17,
@@ -1244,11 +1252,11 @@
         {
           "priority": 7,
           "source": "youtube.com",
-          "publisher": "SPACE AFFAIRS",
-          "title": "GO! - SpaceX - Falcon 9 - Starlink 6-104 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
-          "description": "Launch Date:  February 21, 2026\nLaunch Time: 9:04 p.m. EST (February 22, 0204 UTC, 03:04 CET)\nLaunch Window:  Open until Feb 22, 1:04 a.m. EST\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Southeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink 6-104\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1077 - Turnaround 66 days)\nFlight for the Booster: 26\nPrevious Flights of the Booster: 25 -   Crew-5, GPS III Space Vehicle 06, Inmarsat I6-F2, CRS-28, Intelsat G-37, NG-20, TD7, and 18 Starlink missions\nDroneship: Just Read The Instructions\n\nPrice: $69,75 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: D...",
-          "feature_image": "https://i.ytimg.com/vi/KX_7fcjr6SY/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=KX_7fcjr6SY",
+          "publisher": "The Space Devs",
+          "title": "SpaceX Starlink Group 6-104",
+          "description": "On Sunday February 22, 2026, SpaceX launched the Starlink Group 6-104 mission with a Falcon 9 Block 5 from Space Launch Complex 40 at Cape Canaveral SFS, FL, USA.\n\nDescription generated from the Launch Library 2 API.\n——————————————————————\nObject in the Launch Library 2 API: https://ll.thespacedevs.com/2.3.0/launches/49532577-7d26-49df-ada3-12a85bb8189e/?format=json\nRelated news in the Spaceflight News API: https://api.spaceflightnewsapi.net/v4/articles/?launch=49532577-7d26-49df-ada3-12a85bb8189e\n——————————————————————\n\nRehosted on YouTube by The Space Devs.\nSupport our work on https://www.patreon.com/TheSpaceDevs\n——————————————————————\nWebsite: https://thespacedevs.com\nX: https://x.com/thespacedevs\nDiscord: https://discord.com/invite/p7ntkNA\n——————————————————————\n\nOriginal video: h...",
+          "feature_image": "https://i.ytimg.com/vi/-srWsTXjGq0/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=-srWsTXjGq0",
           "type": {
             "id": 4,
             "name": "Unofficial Re-stream"
@@ -1258,8 +1266,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-02-22T01:54:00Z",
-          "end_time": null
+          "start_time": "2026-02-22T04:05:10Z",
+          "end_time": "2026-02-22T04:22:22Z"
         },
         {
           "priority": 8,
@@ -1279,7 +1287,7 @@
             "code": "en"
           },
           "start_time": "2026-02-22T02:47:41Z",
-          "end_time": null
+          "end_time": "2026-02-22T04:15:32Z"
         },
         {
           "priority": 9,
@@ -1299,7 +1307,7 @@
             "code": "en"
           },
           "start_time": "2026-02-22T02:49:30Z",
-          "end_time": null
+          "end_time": "2026-02-22T04:13:20Z"
         },
         {
           "priority": 10,
@@ -1318,11 +1326,11 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-02-22T03:40:00Z",
-          "end_time": "2026-02-22T04:40:00Z"
+          "start_time": "2026-02-22T03:39:55Z",
+          "end_time": "2026-02-22T03:57:08Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [
         {
           "type": {
@@ -3030,7 +3038,7 @@
       "location_launch_attempt_count_year": 13,
       "pad_launch_attempt_count_year": 12,
       "agency_launch_attempt_count_year": 24,
-      "pad_turnaround": "P2DT18H52M",
+      "pad_turnaround": "P2DT17H8M50S",
       "mission_patches": [
         {
           "id": 7,
@@ -8117,11 +8125,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7229,
+      "orbital_launch_attempt_count": 7227,
       "location_launch_attempt_count": 868,
       "pad_launch_attempt_count": 253,
       "agency_launch_attempt_count": 649,
-      "orbital_launch_attempt_count_year": 56,
+      "orbital_launch_attempt_count_year": 54,
       "location_launch_attempt_count_year": 16,
       "pad_launch_attempt_count_year": 15,
       "agency_launch_attempt_count_year": 30,
@@ -8777,11 +8785,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7246,
+      "orbital_launch_attempt_count": 7245,
       "location_launch_attempt_count": 872,
       "pad_launch_attempt_count": 257,
       "agency_launch_attempt_count": 654,
-      "orbital_launch_attempt_count_year": 73,
+      "orbital_launch_attempt_count_year": 72,
       "location_launch_attempt_count_year": 20,
       "pad_launch_attempt_count_year": 19,
       "agency_launch_attempt_count_year": 35,
@@ -11074,11 +11082,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7246,
+      "orbital_launch_attempt_count": 7245,
       "location_launch_attempt_count": 872,
       "pad_launch_attempt_count": 257,
       "agency_launch_attempt_count": 654,
-      "orbital_launch_attempt_count_year": 73,
+      "orbital_launch_attempt_count_year": 72,
       "location_launch_attempt_count_year": 20,
       "pad_launch_attempt_count_year": 19,
       "agency_launch_attempt_count_year": 35,
@@ -12069,11 +12077,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kinetica_2_grou_image_20260116124018.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7246,
+      "orbital_launch_attempt_count": 7245,
       "location_launch_attempt_count": 280,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 12,
-      "orbital_launch_attempt_count_year": 73,
+      "orbital_launch_attempt_count_year": 72,
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -13468,11 +13476,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7246,
+      "orbital_launch_attempt_count": 7245,
       "location_launch_attempt_count": 1095,
       "pad_launch_attempt_count": 123,
       "agency_launch_attempt_count": 173,
-      "orbital_launch_attempt_count_year": 73,
+      "orbital_launch_attempt_count_year": 72,
       "location_launch_attempt_count_year": 19,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 3,
@@ -29408,11 +29416,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_20240820080542.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7295,
+      "orbital_launch_attempt_count": 7294,
       "location_launch_attempt_count": 9,
       "pad_launch_attempt_count": 6,
       "agency_launch_attempt_count": 9,
-      "orbital_launch_attempt_count_year": 122,
+      "orbital_launch_attempt_count_year": 121,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
