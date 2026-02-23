@@ -1,58 +1,46 @@
 {
-  "generated_at": "2026-02-22T12:26:35.209Z",
+  "generated_at": "2026-02-23T00:53:54.521Z",
   "daily_summary": {
-    "headline": "Exciting Day for Space Enthusiasts: Multiple Launches and Aurora Opportunities",
+    "headline": "Routine Launches and Minor Aurora Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-26 Launch",
-        "description": "SpaceX is launching a batch of 25 Starlink satellites to enhance global internet coverage.",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-26",
+        "description": "A routine launch of 25 Starlink satellites by SpaceX using Falcon 9 Block 5.",
         "importance": 5,
         "date": "2026-02-24",
         "type": "launch",
-        "action": "Watch the live stream for a glimpse of the future of global internet."
+        "action": "Watch live stream for booster landing."
       },
       {
         "rank": 2,
-        "title": "HASTE | That's Not A Knife (DART AE) Launch",
-        "description": "Rocket Lab's suborbital launch for hypersonic vehicle testing.",
+        "title": "HASTE | That's Not A Knife (DART AE)",
+        "description": "Rocket Lab's suborbital test flight for a hypersonic vehicle developed by the US Department of Defense.",
         "importance": 5,
         "date": "2026-02-24",
         "type": "launch",
-        "action": "Follow the updates for insights into hypersonic technology."
+        "action": "Follow updates for hypersonic vehicle tests."
       },
       {
         "rank": 3,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G1 geomagnetic storm offers a chance to view auroras at high latitudes.",
-        "importance": 5,
-        "date": "2026-02-22",
+        "title": "Aurora Forecast",
+        "description": "Minor aurora activity expected with a Kp index of 4.67, visible at high latitudes.",
+        "importance": 4,
+        "date": "2026-02-23",
         "type": "aurora",
-        "action": "Check the skies if you're at a high latitude."
+        "action": "Check for aurora visibility if at high latitude."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 2
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
     "opportunities": [
-      {
-        "date": "2026-02-22",
-        "max_kp": 5,
-        "storm_level": "G1",
-        "probability": "Moderate (50-70%)",
-        "time_window": {
-          "start": "2026-02-22 15:00:00",
-          "end": "2026-02-22 15:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
       {
         "date": "2026-02-23",
         "max_kp": 4.67,
@@ -67,10 +55,10 @@
       }
     ],
     "best_window": {
-      "date": "2026-02-22",
-      "time": "15:00-15:00 UTC",
-      "kp": 5,
-      "visibility_range": "Down to 60° latitude"
+      "date": "2026-02-23",
+      "time": "03:00-03:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
     },
     "total_viewing_hours": 0
   },
@@ -78,7 +66,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
