@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-24T03:03:27.686Z",
+  "updatedAt": "2026-02-24T04:17:29.059Z",
   "launches": [
     {
       "id": "db5c6392-a8b5-4f97-8a38-cc147f086f00",
@@ -6751,15 +6751,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7227,
+      "orbital_launch_attempt_count": 7226,
       "location_launch_attempt_count": 868,
       "pad_launch_attempt_count": 253,
-      "agency_launch_attempt_count": 649,
-      "orbital_launch_attempt_count_year": 54,
+      "agency_launch_attempt_count": 650,
+      "orbital_launch_attempt_count_year": 53,
       "location_launch_attempt_count_year": 16,
       "pad_launch_attempt_count_year": 15,
-      "agency_launch_attempt_count_year": 30,
-      "pad_turnaround": "P25DT13H2M",
+      "agency_launch_attempt_count_year": 31,
+      "pad_turnaround": "P24DT3H",
       "mission_patches": [
         {
           "id": 761,
@@ -8586,11 +8586,11 @@
       "orbital_launch_attempt_count": null,
       "location_launch_attempt_count": 21,
       "pad_launch_attempt_count": 1,
-      "agency_launch_attempt_count": 654,
+      "agency_launch_attempt_count": 655,
       "orbital_launch_attempt_count_year": null,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 35,
+      "agency_launch_attempt_count_year": 36,
       "pad_turnaround": "P0D",
       "mission_patches": [
         {
@@ -12364,11 +12364,11 @@
         }
       ],
       "orbital_launch_attempt_count": 7245,
-      "location_launch_attempt_count": 1095,
+      "location_launch_attempt_count": 1096,
       "pad_launch_attempt_count": 123,
       "agency_launch_attempt_count": 173,
       "orbital_launch_attempt_count_year": 72,
-      "location_launch_attempt_count_year": 19,
+      "location_launch_attempt_count_year": 20,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 3,
       "pad_turnaround": "P46DT14H38M",
@@ -15241,13 +15241,13 @@
         }
       ],
       "orbital_launch_attempt_count": 7253,
-      "location_launch_attempt_count": 1099,
+      "location_launch_attempt_count": 1100,
       "pad_launch_attempt_count": 2,
-      "agency_launch_attempt_count": 656,
+      "agency_launch_attempt_count": 657,
       "orbital_launch_attempt_count_year": 80,
-      "location_launch_attempt_count_year": 23,
+      "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 37,
+      "agency_launch_attempt_count_year": 38,
       "pad_turnaround": "P58D",
       "mission_patches": [],
       "type": "detailed"
@@ -18299,11 +18299,11 @@
       "orbital_launch_attempt_count": 7280,
       "location_launch_attempt_count": 886,
       "pad_launch_attempt_count": 267,
-      "agency_launch_attempt_count": 670,
+      "agency_launch_attempt_count": 671,
       "orbital_launch_attempt_count_year": 107,
       "location_launch_attempt_count_year": 34,
       "pad_launch_attempt_count_year": 29,
-      "agency_launch_attempt_count_year": 51,
+      "agency_launch_attempt_count_year": 52,
       "pad_turnaround": "P91D",
       "mission_patches": [],
       "type": "detailed"
@@ -24687,50 +24687,6 @@
         },
         "launcher_stage": [
           {
-            "id": 418,
-            "type": "Strap-On Booster",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1215,
-              "attempt": true,
-              "success": null,
-              "description": "the sidebooster will attempt to land at the launch site after launch.",
-              "downrange_distance": null,
-              "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 417,
             "type": "Core",
             "reused": null,
@@ -24768,6 +24724,50 @@
                 "name": "Autonomous Spaceport Drone Ship",
                 "abbrev": "ASDS",
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
+            "id": 418,
+            "type": "Strap-On Booster",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 117,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown FH",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1215,
+              "attempt": true,
+              "success": null,
+              "description": "the sidebooster will attempt to land at the launch site after launch.",
+              "downrange_distance": null,
+              "location": {
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
               }
             },
             "previous_flight_date": null,
