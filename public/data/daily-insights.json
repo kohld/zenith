@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-02-24T12:31:30.874Z",
+  "generated_at": "2026-02-25T00:55:23.038Z",
   "daily_summary": {
-    "headline": "SpaceX Dominates with Starlink Launches",
+    "headline": "Routine Launches and Low Aurora Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | Starlink Group 6-110",
-        "description": "Launch of 29 Starlink satellites for global internet coverage.",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-26",
+        "description": "Launch of 25 Starlink satellites for SpaceX's internet constellation.",
         "importance": 5,
-        "date": "2026-02-24T21:04:10Z",
+        "date": "2026-02-25",
         "type": "launch",
-        "action": "Watch live stream for booster landing."
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-26",
-        "description": "Another batch of Starlink satellites to enhance network.",
+        "title": "HASTE | That's Not A Knife (DART AE)",
+        "description": "Hypersonic test mission for the US Department of Defense.",
         "importance": 5,
-        "date": "2026-02-25T14:00:00Z",
+        "date": "2026-02-25",
         "type": "launch",
-        "action": "Follow live updates for launch success."
+        "action": "Watch live stream"
       },
       {
         "rank": 3,
-        "title": "Aurora Viewing Opportunity",
-        "description": "Possible aurora at high latitudes with Kp 4.",
-        "importance": 4,
+        "title": "Aurora Forecast",
+        "description": "Low geomagnetic activity, minimal aurora visibility.",
+        "importance": 3,
         "date": "2026-02-25",
         "type": "aurora",
-        "action": "Check skies if at high latitudes."
+        "action": "No special viewing recommended"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-02-25",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-02-25 03:00:00",
-          "end": "2026-02-25 03:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-02-25",
-      "time": "03:00-03:00 UTC",
-      "kp": 4,
-      "visibility_range": "Above 65° latitude"
-    },
+    "opportunities": [],
+    "best_window": null,
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
