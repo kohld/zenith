@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-25T00:55:23.038Z",
+  "generated_at": "2026-02-25T12:30:27.419Z",
   "launches": [
     {
       "id": "742daf86-0810-4df5-8a7d-1ff72a14e261",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-24T23:15:14Z",
+      "last_updated": "2026-02-25T11:39:51Z",
       "updates": [
+        {
+          "id": 14092,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Feb 25 at 14:17 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-26",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-02-25T11:39:00Z"
+        },
         {
           "id": 14090,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -65,7 +73,7 @@
           "created_on": "2026-02-11T17:39:00Z"
         }
       ],
-      "net": "2026-02-25T14:12:50Z",
+      "net": "2026-02-25T14:17:49Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -415,8 +423,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-02-25T13:53:00Z",
-          "end_time": "2026-02-25T15:54:00Z"
+          "start_time": "2026-02-25T14:06:00Z",
+          "end_time": "2026-02-25T16:54:00Z"
         }
       ],
       "webcast_live": false,
@@ -655,7 +663,7 @@
       "location_launch_attempt_count_year": 12,
       "pad_launch_attempt_count_year": 12,
       "agency_launch_attempt_count_year": 24,
-      "pad_turnaround": "P4DT5H8M31S",
+      "pad_turnaround": "P4DT5H13M30S",
       "mission_patches": [
         {
           "id": 7,
@@ -674,10 +682,11 @@
       "ai_enrichment": {
         "launch_id": "742daf86-0810-4df5-8a7d-1ff72a14e261",
         "importance_score": 5,
-        "reasoning": "Standard mission for Starlink satellite deployment.",
+        "reasoning": "Standard mission for deploying Starlink satellites.",
         "key_facts": [
-          "Launch of 25 Starlink satellites",
-          "Part of SpaceX's internet constellation"
+          "Deploying 25 Starlink satellites",
+          "Using Falcon 9 Block 5",
+          "Launch from Vandenberg SFB, CA, USA"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -687,7 +696,8 @@
         },
         "tags": [
           "Starlink",
-          "SpaceX"
+          "SpaceX",
+          "Communications"
         ],
         "user_recommendation": "Watch live stream"
       }
@@ -705,7 +715,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-24T17:19:24Z",
+      "last_updated": "2026-02-25T00:31:05Z",
       "updates": [
         {
           "id": 14084,
@@ -961,7 +971,28 @@
           }
         }
       ],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Rocket Lab",
+          "title": "Rocket Lab | HASTE - 'That's Not A Knife' Launch",
+          "description": "",
+          "feature_image": "https://i.ytimg.com/vi/-MXAzzSgRFE/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=-MXAzzSgRFE",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-02-25T20:30:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
@@ -996,8 +1027,8 @@
         "importance_score": 5,
         "reasoning": "Hypersonic test mission for the US Department of Defense.",
         "key_facts": [
-          "Hypersonic test mission",
-          "US Department of Defense"
+          "Scramjet-powered hypersonic vehicle",
+          "Launch from Wallops Flight Facility, Virginia, USA"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1007,7 +1038,8 @@
         },
         "tags": [
           "Hypersonic",
-          "Defense"
+          "Defense",
+          "Rocket Lab"
         ],
         "user_recommendation": "Watch live stream"
       }
@@ -1642,7 +1674,7 @@
       "location_launch_attempt_count_year": 14,
       "pad_launch_attempt_count_year": 13,
       "agency_launch_attempt_count_year": 25,
-      "pad_turnaround": "P2DT12H47M50S",
+      "pad_turnaround": "P2DT10H47M50S",
       "mission_patches": [
         {
           "id": 7,
@@ -1661,10 +1693,11 @@
       "ai_enrichment": {
         "launch_id": "aeccc82e-4a01-46dc-a893-1d6d098973e2",
         "importance_score": 5,
-        "reasoning": "Standard mission for Starlink satellite deployment.",
+        "reasoning": "Standard mission for deploying Starlink satellites.",
         "key_facts": [
-          "Launch of 29 Starlink satellites",
-          "Part of SpaceX's internet constellation"
+          "Deploying 29 Starlink satellites",
+          "Using Falcon 9 Block 5",
+          "Launch from Cape Canaveral SFS, FL, USA"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1674,7 +1707,8 @@
         },
         "tags": [
           "Starlink",
-          "SpaceX"
+          "SpaceX",
+          "Communications"
         ],
         "user_recommendation": "Watch live stream"
       }
@@ -1888,10 +1922,10 @@
       "ai_enrichment": {
         "launch_id": "6d2beb1a-6869-4505-9fc1-a4aa224178e2",
         "importance_score": 5,
-        "reasoning": "Launch details and payload are unknown.",
+        "reasoning": "Launch details are currently unknown.",
         "key_facts": [
-          "Unknown payload",
-          "Chinese Long March 7A rocket"
+          "Long March 7A rocket",
+          "Launch from Wenchang Space Launch Site, China"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1900,10 +1934,11 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
+          "China",
           "Long March",
-          "China"
+          "Unknown Payload"
         ],
-        "user_recommendation": "Watch live stream"
+        "user_recommendation": "Monitor for updates"
       }
     },
     {
@@ -2162,8 +2197,8 @@
         "importance_score": 5,
         "reasoning": "Test flight for Firefly Alpha's return-to-flight.",
         "key_facts": [
-          "Test flight",
-          "Firefly Alpha"
+          "Test flight for Firefly Alpha",
+          "Launch from Vandenberg SFB, CA, USA"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -2172,8 +2207,9 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
+          "Firefly Alpha",
           "Test Flight",
-          "Firefly"
+          "Vandenberg"
         ],
         "user_recommendation": "Watch live stream"
       }
