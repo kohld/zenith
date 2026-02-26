@@ -1,335 +1,6 @@
 {
-  "updatedAt": "2026-02-26T15:19:50.996Z",
+  "updatedAt": "2026-02-26T15:48:28.131Z",
   "launches": [
-    {
-      "id": "3785d31d-770f-4622-b7e4-a683dbd34c39",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/3785d31d-770f-4622-b7e4-a683dbd34c39/",
-      "slug": "haste-thats-not-a-knife-dart-ae",
-      "flightclub_url": "https://flightclub.io/result?llId=3785d31d-770f-4622-b7e4-a683dbd34c39",
-      "r_spacex_api_id": null,
-      "name": "HASTE | That's Not A Knife (DART AE)",
-      "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
-      },
-      "last_updated": "2026-02-25T19:57:43Z",
-      "updates": [
-        {
-          "id": 14098,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Scrubbed for the day.",
-          "info_url": "https://x.com/rocketlab/status/2026747764894466499",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-02-25T19:57:00Z"
-        },
-        {
-          "id": 14084,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Tweaked launch window.",
-          "info_url": "https://x.com/EShoreSpaceflt/status/2026300956980244711",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-02-24T17:19:00Z"
-        },
-        {
-          "id": 14075,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Delayed to NET February 25.",
-          "info_url": "https://www.fly.faa.gov/adv/adv_spt",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-02-23T20:42:00Z"
-        },
-        {
-          "id": 14010,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Delayed to NET February 24 per marine navigation notices.",
-          "info_url": "https://www.navcen.uscg.gov/msi",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-02-19T17:50:00Z"
-        },
-        {
-          "id": 13996,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Tweaked launch window.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64385.msg2761633#msg2761633",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-02-18T15:03:00Z"
-        },
-        {
-          "id": 13952,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "GO for launch (launch window per https://x.com/eshorespaceflt/status/2021981194892484681).",
-          "info_url": "https://x.com/rocketlab/status/2022061165917155629",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-02-12T21:45:00Z"
-        },
-        {
-          "id": 5657,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Adding flight NET Q1 2025",
-          "info_url": "https://www.businesswire.com/news/home/20231108422546/en/Rocket-Lab-Adds-New-HASTE-Launch-from-Virginia-for-the-Department-of-Defense%E2%80%99s-Defense-Innovation-Unit",
-          "created_by": "Nosu",
-          "created_on": "2023-11-10T17:59:22Z"
-        }
-      ],
-      "net": "2026-02-26T21:00:00Z",
-      "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
-      },
-      "window_end": "2026-02-27T00:45:00Z",
-      "window_start": "2026-02-26T21:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 147,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
-        "name": "Rocket Lab",
-        "featured": true,
-        "type": "Commercial",
-        "country_code": "USA",
-        "abbrev": "RL",
-        "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
-        "administrator": "CEO: Peter Beck",
-        "founding_year": "2006",
-        "launchers": "Electron",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 81,
-        "consecutive_successful_launches": 40,
-        "successful_launches": 77,
-        "failed_launches": 4,
-        "pending_launches": 40,
-        "consecutive_successful_landings": 4,
-        "successful_landings": 7,
-        "failed_landings": 2,
-        "attempted_landings": 9,
-        "info_url": "https://rocketlabcorp.com",
-        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
-      },
-      "rocket": {
-        "id": 8093,
-        "configuration": {
-          "id": 26,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
-          "name": "Electron",
-          "active": true,
-          "reusable": false,
-          "description": "Electron is a two-stage orbital expendable launch vehicle (with an optional third stage) developed by the American aerospace company Rocket Lab. Electron is a small-lift launch vehicle designed to launch small satellites and cubesats to sun-synchronous orbit and low earth orbit. The Electron is the first orbital class rocket to use electric-pump-fed engines, powered by the 9 Rutherford engines on the first stage. It is also used as a suborbital testbed (called HASTE) for hypersonics research.",
-          "family": "",
-          "full_name": "Electron",
-          "manufacturer": {
-            "id": 147,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
-            "name": "Rocket Lab",
-            "featured": true,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "RL",
-            "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
-            "administrator": "CEO: Peter Beck",
-            "founding_year": "2006",
-            "launchers": "Electron",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 81,
-            "consecutive_successful_launches": 40,
-            "successful_launches": 77,
-            "failed_launches": 4,
-            "pending_launches": 40,
-            "consecutive_successful_landings": 4,
-            "successful_landings": 7,
-            "failed_landings": 2,
-            "attempted_landings": 9,
-            "info_url": "https://rocketlabcorp.com",
-            "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
-          },
-          "program": [],
-          "variant": "",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 3,
-          "length": 18,
-          "diameter": 1.2,
-          "maiden_flight": "2017-05-25",
-          "launch_cost": "6000000",
-          "launch_mass": 13,
-          "leo_capacity": 300,
-          "gto_capacity": null,
-          "to_thrust": 162,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-          "info_url": "https://www.rocketlabusa.com/electron/",
-          "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 81,
-          "consecutive_successful_launches": 40,
-          "successful_launches": 77,
-          "failed_launches": 4,
-          "pending_launches": 38,
-          "attempted_landings": 9,
-          "successful_landings": 7,
-          "failed_landings": 2,
-          "consecutive_successful_landings": 4
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 6648,
-        "name": "That's Not A Knife (DART AE)",
-        "description": "Payload is a scramjet-powered hypersonic vehicle developed by by Australian company Hypersonix.",
-        "launch_designator": null,
-        "type": "Government/Top Secret",
-        "orbit": {
-          "id": 15,
-          "name": "Suborbital",
-          "abbrev": "Sub"
-        },
-        "agencies": [
-          {
-            "id": 1025,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1025/",
-            "name": "United States Departement of Defense",
-            "featured": false,
-            "type": "Government",
-            "country_code": "USA",
-            "abbrev": "DoD",
-            "description": "The DoD is a government agency in the United States. It is in charge of coordinating and supervising all agencies and functions of the government directly related to national security and the United States Armed Forces.",
-            "administrator": null,
-            "founding_year": "1947",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.defense.gov",
-            "wiki_url": "https://en.wikipedia.org/wiki/United_States_Department_of_Defense",
-            "logo_url": null,
-            "image_url": null,
-            "nation_url": null
-          }
-        ],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 79,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/79/",
-        "agency_id": 147,
-        "name": "Rocket Lab Launch Complex 2 (Launch Area 0 C)",
-        "description": "",
-        "info_url": null,
-        "wiki_url": null,
-        "map_url": "https://www.google.com/maps?q=37.833262,-75.488235",
-        "latitude": "37.833262",
-        "longitude": "-75.488235",
-        "location": {
-          "id": 21,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/21/",
-          "name": "Wallops Flight Facility, Virginia, USA",
-          "country_code": "USA",
-          "description": "Wallops Flight Facility is a rocket launch site on Wallops Island on the Eastern Shore of Virginia, United States, just east of the Delmarva Peninsula and north-northeast of Norfolk. The facility is operated by the Goddard Space Flight Center in Greenbelt, Maryland, and primarily serves to support science and exploration missions for NASA and other federal agencies. WFF includes an extensively instrumented range to support launches of more than a dozen types of sounding rockets; small expendable suborbital and orbital rockets; high-altitude balloon flights carrying scientific instruments for atmospheric and astronomical research; and, using its Research Airport, flight tests of aeronautical research aircraft, including uncrewed aerial vehicles.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_21_20200803142423.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 84,
-          "total_landing_count": 0
-        },
-        "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_79_20200803143607.jpg",
-        "total_launch_count": 10,
-        "orbital_launch_attempt_count": 4
-      },
-      "infoURLs": [
-        {
-          "priority": 10,
-          "source": "rocketlabcorp.com",
-          "title": "That's Not A Knife",
-          "description": "Rocket Lab will launch a HASTE hypersonic test mission for the US Department of Defense's Defense Innovation Unit (DIU) in 2026 for its HyCat program, an initiative to provide the DIU with valuable hypersonic test data for future hypersonic programs. The mission will deploy a scram-jet powered vehic...",
-          "feature_image": null,
-          "url": "https://rocketlabcorp.com/missions/launches/thats-not-a-knife/",
-          "type": {
-            "id": 1,
-            "name": "Official Page"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          }
-        }
-      ],
-      "vidURLs": [
-        {
-          "priority": 10,
-          "source": "youtube.com",
-          "publisher": "Rocket Lab",
-          "title": "Rocket Lab | HASTE - 'That's Not A Knife' Launch",
-          "description": "",
-          "feature_image": "https://i.ytimg.com/vi/-MXAzzSgRFE/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=-MXAzzSgRFE",
-          "type": {
-            "id": 1,
-            "name": "Official Webcast"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          },
-          "start_time": "2026-02-25T20:30:00Z",
-          "end_time": null
-        }
-      ],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": null,
-      "location_launch_attempt_count": 85,
-      "pad_launch_attempt_count": 11,
-      "agency_launch_attempt_count": 82,
-      "orbital_launch_attempt_count_year": null,
-      "location_launch_attempt_count_year": 1,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 3,
-      "pad_turnaround": "P70DT15H57M",
-      "mission_patches": [
-        {
-          "id": 1307,
-          "name": "That’s Not A Knife Patch",
-          "priority": 10,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/that25e22580_mission_patch_20260212214421.png",
-          "agency": {
-            "id": 147,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
-            "name": "Rocket Lab",
-            "type": "Commercial"
-          }
-        }
-      ],
-      "type": "detailed"
-    },
     {
       "id": "aeccc82e-4a01-46dc-a893-1d6d098973e2",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/aeccc82e-4a01-46dc-a893-1d6d098973e2/",
@@ -986,6 +657,343 @@
       "type": "detailed"
     },
     {
+      "id": "3785d31d-770f-4622-b7e4-a683dbd34c39",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/3785d31d-770f-4622-b7e4-a683dbd34c39/",
+      "slug": "haste-thats-not-a-knife-dart-ae",
+      "flightclub_url": "https://flightclub.io/result?llId=3785d31d-770f-4622-b7e4-a683dbd34c39",
+      "r_spacex_api_id": null,
+      "name": "HASTE | That's Not A Knife (DART AE)",
+      "status": {
+        "id": 8,
+        "name": "To Be Confirmed",
+        "abbrev": "TBC",
+        "description": "Awaiting official confirmation - current date is known with some certainty."
+      },
+      "last_updated": "2026-02-26T15:45:36Z",
+      "updates": [
+        {
+          "id": 14101,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET February 27, to be confirmed.",
+          "info_url": "https://www.fly.faa.gov/adv/adv_spt",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-26T15:45:00Z"
+        },
+        {
+          "id": 14098,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Scrubbed for the day.",
+          "info_url": "https://x.com/rocketlab/status/2026747764894466499",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-25T19:57:00Z"
+        },
+        {
+          "id": 14084,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked launch window.",
+          "info_url": "https://x.com/EShoreSpaceflt/status/2026300956980244711",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-24T17:19:00Z"
+        },
+        {
+          "id": 14075,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Delayed to NET February 25.",
+          "info_url": "https://www.fly.faa.gov/adv/adv_spt",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-23T20:42:00Z"
+        },
+        {
+          "id": 14010,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Delayed to NET February 24 per marine navigation notices.",
+          "info_url": "https://www.navcen.uscg.gov/msi",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-19T17:50:00Z"
+        },
+        {
+          "id": 13996,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked launch window.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64385.msg2761633#msg2761633",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-18T15:03:00Z"
+        },
+        {
+          "id": 13952,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch (launch window per https://x.com/eshorespaceflt/status/2021981194892484681).",
+          "info_url": "https://x.com/rocketlab/status/2022061165917155629",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-12T21:45:00Z"
+        },
+        {
+          "id": 5657,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Adding flight NET Q1 2025",
+          "info_url": "https://www.businesswire.com/news/home/20231108422546/en/Rocket-Lab-Adds-New-HASTE-Launch-from-Virginia-for-the-Department-of-Defense%E2%80%99s-Defense-Innovation-Unit",
+          "created_by": "Nosu",
+          "created_on": "2023-11-10T17:59:22Z"
+        }
+      ],
+      "net": "2026-02-27T21:00:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "window_end": "2026-02-28T00:45:00Z",
+      "window_start": "2026-02-27T21:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "RL",
+        "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
+        "administrator": "CEO: Peter Beck",
+        "founding_year": "2006",
+        "launchers": "Electron",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 81,
+        "consecutive_successful_launches": 40,
+        "successful_launches": 77,
+        "failed_launches": 4,
+        "pending_launches": 40,
+        "consecutive_successful_landings": 4,
+        "successful_landings": 7,
+        "failed_landings": 2,
+        "attempted_landings": 9,
+        "info_url": "https://rocketlabcorp.com",
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
+      },
+      "rocket": {
+        "id": 8093,
+        "configuration": {
+          "id": 26,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+          "name": "Electron",
+          "active": true,
+          "reusable": false,
+          "description": "Electron is a two-stage orbital expendable launch vehicle (with an optional third stage) developed by the American aerospace company Rocket Lab. Electron is a small-lift launch vehicle designed to launch small satellites and cubesats to sun-synchronous orbit and low earth orbit. The Electron is the first orbital class rocket to use electric-pump-fed engines, powered by the 9 Rutherford engines on the first stage. It is also used as a suborbital testbed (called HASTE) for hypersonics research.",
+          "family": "",
+          "full_name": "Electron",
+          "manufacturer": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+            "name": "Rocket Lab",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "RL",
+            "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
+            "administrator": "CEO: Peter Beck",
+            "founding_year": "2006",
+            "launchers": "Electron",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 81,
+            "consecutive_successful_launches": 40,
+            "successful_launches": 77,
+            "failed_launches": 4,
+            "pending_launches": 40,
+            "consecutive_successful_landings": 4,
+            "successful_landings": 7,
+            "failed_landings": 2,
+            "attempted_landings": 9,
+            "info_url": "https://rocketlabcorp.com",
+            "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
+          },
+          "program": [],
+          "variant": "",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 3,
+          "length": 18,
+          "diameter": 1.2,
+          "maiden_flight": "2017-05-25",
+          "launch_cost": "6000000",
+          "launch_mass": 13,
+          "leo_capacity": 300,
+          "gto_capacity": null,
+          "to_thrust": 162,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+          "info_url": "https://www.rocketlabusa.com/electron/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
+          "total_launch_count": 81,
+          "consecutive_successful_launches": 40,
+          "successful_launches": 77,
+          "failed_launches": 4,
+          "pending_launches": 38,
+          "attempted_landings": 9,
+          "successful_landings": 7,
+          "failed_landings": 2,
+          "consecutive_successful_landings": 4
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 6648,
+        "name": "That's Not A Knife (DART AE)",
+        "description": "Payload is a scramjet-powered hypersonic vehicle developed by by Australian company Hypersonix.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+          "id": 15,
+          "name": "Suborbital",
+          "abbrev": "Sub"
+        },
+        "agencies": [
+          {
+            "id": 1025,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1025/",
+            "name": "United States Departement of Defense",
+            "featured": false,
+            "type": "Government",
+            "country_code": "USA",
+            "abbrev": "DoD",
+            "description": "The DoD is a government agency in the United States. It is in charge of coordinating and supervising all agencies and functions of the government directly related to national security and the United States Armed Forces.",
+            "administrator": null,
+            "founding_year": "1947",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.defense.gov",
+            "wiki_url": "https://en.wikipedia.org/wiki/United_States_Department_of_Defense",
+            "logo_url": null,
+            "image_url": null,
+            "nation_url": null
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 79,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/79/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 2 (Launch Area 0 C)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": "https://www.google.com/maps?q=37.833262,-75.488235",
+        "latitude": "37.833262",
+        "longitude": "-75.488235",
+        "location": {
+          "id": 21,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/21/",
+          "name": "Wallops Flight Facility, Virginia, USA",
+          "country_code": "USA",
+          "description": "Wallops Flight Facility is a rocket launch site on Wallops Island on the Eastern Shore of Virginia, United States, just east of the Delmarva Peninsula and north-northeast of Norfolk. The facility is operated by the Goddard Space Flight Center in Greenbelt, Maryland, and primarily serves to support science and exploration missions for NASA and other federal agencies. WFF includes an extensively instrumented range to support launches of more than a dozen types of sounding rockets; small expendable suborbital and orbital rockets; high-altitude balloon flights carrying scientific instruments for atmospheric and astronomical research; and, using its Research Airport, flight tests of aeronautical research aircraft, including uncrewed aerial vehicles.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_21_20200803142423.jpg",
+          "timezone_name": "America/New_York",
+          "total_launch_count": 84,
+          "total_landing_count": 0
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_79_20200803143607.jpg",
+        "total_launch_count": 10,
+        "orbital_launch_attempt_count": 4
+      },
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "rocketlabcorp.com",
+          "title": "That's Not A Knife",
+          "description": "Rocket Lab will launch a HASTE hypersonic test mission for the US Department of Defense's Defense Innovation Unit (DIU) in 2026 for its HyCat program, an initiative to provide the DIU with valuable hypersonic test data for future hypersonic programs. The mission will deploy a scram-jet powered vehic...",
+          "feature_image": null,
+          "url": "https://rocketlabcorp.com/missions/launches/thats-not-a-knife/",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Rocket Lab",
+          "title": "Rocket Lab | HASTE - 'That's Not A Knife' Launch",
+          "description": "",
+          "feature_image": "https://i.ytimg.com/vi/-MXAzzSgRFE/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=-MXAzzSgRFE",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-02-25T20:30:00Z",
+          "end_time": null
+        }
+      ],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": null,
+      "location_launch_attempt_count": 85,
+      "pad_launch_attempt_count": 11,
+      "agency_launch_attempt_count": 82,
+      "orbital_launch_attempt_count_year": null,
+      "location_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 3,
+      "pad_turnaround": "P71DT15H57M",
+      "mission_patches": [
+        {
+          "id": 1307,
+          "name": "That’s Not A Knife Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/that25e22580_mission_patch_20260212214421.png",
+          "agency": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+            "name": "Rocket Lab",
+            "type": "Commercial"
+          }
+        }
+      ],
+      "type": "detailed"
+    },
+    {
       "id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/3f6de963-7197-48aa-a49f-6c944cbf85e9/",
       "slug": "firefly-alpha-stairway-to-seven",
@@ -998,8 +1006,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-18T15:05:42Z",
+      "last_updated": "2026-02-26T15:44:07Z",
       "updates": [
+        {
+          "id": 14100,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Delayed to NET February 28 PST due to launch site weather.",
+          "info_url": "https://x.com/fireflyspace/status/2027027370943692800",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-26T15:44:00Z"
+        },
         {
           "id": 13997,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1049,15 +1065,15 @@
           "created_on": "2025-11-12T21:23:00Z"
         }
       ],
-      "net": "2026-02-28T00:50:00Z",
+      "net": "2026-03-01T00:50:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-02-28T04:58:00Z",
-      "window_start": "2026-02-28T00:50:00Z",
+      "window_end": "2026-03-01T04:58:00Z",
+      "window_start": "2026-03-01T00:50:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1220,7 +1236,7 @@
       "location_launch_attempt_count_year": 13,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P304DT11H13M",
+      "pad_turnaround": "P305DT11H13M",
       "mission_patches": [
         {
           "id": 1302,
