@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-27T21:42:23.010Z",
+  "updatedAt": "2026-02-27T22:06:24.886Z",
   "launches": [
     {
       "id": "aeccc82e-4a01-46dc-a893-1d6d098973e2",
@@ -728,13 +728,21 @@
       "r_spacex_api_id": null,
       "name": "HASTE | That's Not A Knife (DART AE)",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 5,
+        "name": "On Hold",
+        "abbrev": "Hold",
+        "description": "The countdown has been paused, but the launch can still happen within the launch window."
       },
-      "last_updated": "2026-02-27T21:24:23Z",
+      "last_updated": "2026-02-27T21:48:46Z",
       "updates": [
+        {
+          "id": 14118,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Hold at T-2:55.",
+          "info_url": "https://www.youtube.com/watch?v=tQru-Ol7DWU",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-27T21:48:00Z"
+        },
         {
           "id": 14117,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
@@ -833,7 +841,7 @@
       },
       "window_end": "2026-02-28T00:45:00Z",
       "window_start": "2026-02-27T21:00:00Z",
-      "probability": null,
+      "probability": 90,
       "weather_concerns": null,
       "holdreason": "",
       "failreason": "",
