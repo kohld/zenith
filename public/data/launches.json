@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-02-27T22:41:22.428Z",
+  "updatedAt": "2026-02-27T23:07:25.003Z",
   "launches": [
     {
       "id": "aeccc82e-4a01-46dc-a893-1d6d098973e2",
@@ -728,13 +728,21 @@
       "r_spacex_api_id": null,
       "name": "HASTE | That's Not A Knife (DART AE)",
       "status": {
-        "id": 5,
-        "name": "On Hold",
-        "abbrev": "Hold",
-        "description": "The countdown has been paused, but the launch can still happen within the launch window."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-27T21:48:46Z",
+      "last_updated": "2026-02-27T22:52:45Z",
       "updates": [
+        {
+          "id": 14120,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.youtube.com/watch?v=tQru-Ol7DWU",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-27T22:52:00Z"
+        },
         {
           "id": 14118,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -832,7 +840,7 @@
           "created_on": "2023-11-10T17:59:22Z"
         }
       ],
-      "net": "2026-02-27T21:50:00Z",
+      "net": "2026-02-27T23:30:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
@@ -1072,7 +1080,7 @@
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 3,
-      "pad_turnaround": "P71DT16H47M",
+      "pad_turnaround": "P71DT18H27M",
       "mission_patches": [
         {
           "id": 1307,
@@ -1102,8 +1110,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-26T15:44:07Z",
+      "last_updated": "2026-02-27T22:55:12Z",
       "updates": [
+        {
+          "id": 14121,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked launch window.",
+          "info_url": "https://x.com/FireflySpace/status/2027517169014051228",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-27T22:55:00Z"
+        },
         {
           "id": 14100,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1168,7 +1184,7 @@
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-03-01T04:58:00Z",
+      "window_end": "2026-03-01T02:50:00Z",
       "window_start": "2026-03-01T00:50:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -1317,8 +1333,47 @@
         "total_launch_count": 98,
         "orbital_launch_attempt_count": 98
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "fireflyspace.com",
+          "title": "Alpha FLTA007",
+          "description": "Alpha FLTA007 is a return to flight mission that will launch from SLC-2 at the Vandenberg Space Force Base.",
+          "feature_image": null,
+          "url": "https://fireflyspace.com/missions/alpha-flta007/",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Firefly Aerospace",
+          "title": "Alpha Flight 7 \"Stairway To Seven\"",
+          "description": "Alpha Flight 7 is the last flown in the rocket’s current configuration and serves as a test flight with the primary goal to achieve nominal first and second stage performance.\n\nFlight 7 will test and validate key systems ahead of Firefly’s Block II configuration upgrade on Flight 8 that’s designed to enhance reliability and manufacturability across the vehicle. The Block II configuration includes a 7-foot increase to Alpha’s length, consolidated batteries and avionics built in house, an enhanced thermal protection system, and stronger carbon composite structures built with automated machinery.\n\nThe subsystems tested on Flight 7, including the in-house avionics and thermal improvements, will allow Firefly to gain flight heritage and validate lessons learned ahead of the full configurat...",
+          "feature_image": "https://i.ytimg.com/vi/nyVbmoRXcvc/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=nyVbmoRXcvc",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-03-01T00:30:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_20240605174156.jpeg",
@@ -1514,7 +1569,7 @@
       "mission": {
         "id": 7443,
         "name": "Flight 3",
-        "description": "Third flight of the KAIROS launch vehicle. \r\n\r\n4 satellites will be on board:\r\n\r\n* TATARA-1R\r\n* SC-Sat1a\r\n* HErO\r\n* AETS-1",
+        "description": "Third flight of the KAIROS launch vehicle. \r\n\r\n5 satellites will be on board:\r\n\r\n* TATARA-1R\r\n* SC-Sat1a\r\n* HErO\r\n* AETS-1\r\n* Nutsat-3 (TASA/Taiwan)",
         "launch_designator": null,
         "type": "Test Flight",
         "orbit": {
@@ -4804,7 +4859,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-27T18:38:40Z",
+      "last_updated": "2026-02-27T22:56:27Z",
       "updates": [
         {
           "id": 14115,
@@ -5362,7 +5417,20 @@
       "pad_launch_attempt_count_year": 16,
       "agency_launch_attempt_count_year": 31,
       "pad_turnaround": "P5DT20H16M",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1308,
+          "name": "EchoStar XXV Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/echostar2520xx_mission_patch_20260227225623.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
