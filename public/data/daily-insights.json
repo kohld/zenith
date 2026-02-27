@@ -1,54 +1,72 @@
 {
-  "generated_at": "2026-02-26T12:31:07.961Z",
+  "generated_at": "2026-02-27T00:52:46.901Z",
   "daily_summary": {
-    "headline": "Quiet Day in Space: Routine Launches and Low Aurora Activity",
+    "headline": "Exciting Launch Day and Aurora Opportunities",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | Starlink Group 6-108",
-        "description": "SpaceX's Falcon 9 is set to launch a batch of 29 Starlink satellites, continuing the expansion of their global internet constellation.",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "importance": 5,
-        "date": "2026-02-27",
+        "date": "2026-02-27T10:20:50Z",
         "type": "launch",
-        "action": "Watch the live stream for a glimpse of the launch."
+        "action": "Watch the live stream for real-time updates."
       },
       {
         "rank": 2,
         "title": "HASTE | That's Not A Knife (DART AE)",
-        "description": "Rocket Lab's HASTE mission for the US Department of Defense is a hypersonic test flight, contributing to future hypersonic programs.",
+        "description": "Payload is a scramjet-powered hypersonic vehicle developed by Australian company Hypersonix.",
         "importance": 5,
-        "date": "2026-02-26",
+        "date": "2026-02-27T21:00:00Z",
         "type": "launch",
-        "action": "Check updates for possible launch window changes."
+        "action": "Watch the live stream for real-time updates."
       },
       {
         "rank": 3,
-        "title": "Firefly Alpha | Stairway to Seven",
-        "description": "Firefly Aerospace's test flight aims to validate key systems for future upgrades, marking an important step in their development program.",
-        "importance": 5,
-        "date": "2026-02-28",
-        "type": "launch",
-        "action": "Follow the mission for insights into Firefly's technology advancements."
+        "title": "Aurora Viewing Opportunity",
+        "description": "Possible aurora at high latitudes with Kp 4.33, best for northern locations (65°+).",
+        "importance": 4,
+        "date": "2026-03-01",
+        "type": "aurora",
+        "action": "Check sky conditions if you're in a high latitude area."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
-    "total_viewing_hours": 0
+    "opportunities": [
+      {
+        "date": "2026-03-01",
+        "max_kp": 4.33,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-03-01 03:00:00",
+          "end": "2026-03-01 06:00:00"
+        },
+        "duration_hours": 3,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-03-01",
+      "time": "03:00-06:00 UTC",
+      "kp": 4.33,
+      "visibility_range": "Above 65° latitude"
+    },
+    "total_viewing_hours": 3
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
