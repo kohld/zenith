@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-02-28T00:46:44.360Z",
+  "generated_at": "2026-02-28T12:26:25.454Z",
   "launches": [
     {
       "id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/3f6de963-7197-48aa-a49f-6c944cbf85e9/",
       "slug": "firefly-alpha-stairway-to-seven",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=3f6de963-7197-48aa-a49f-6c944cbf85e9",
       "r_spacex_api_id": null,
       "name": "Firefly Alpha | Stairway to Seven",
       "status": {
@@ -14,7 +14,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-27T22:55:12Z",
+      "last_updated": "2026-02-28T10:02:36Z",
       "updates": [
         {
           "id": 14121,
@@ -307,26 +307,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
-        "importance_score": 5,
-        "reasoning": "Test flight for Firefly Alpha, important for validating new systems.",
-        "key_facts": [
-          "Return-to-flight mission after April 2025 failure",
-          "Tests Block II subsystems"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "test flight",
-          "Firefly Alpha"
-        ],
-        "user_recommendation": "Watch live stream for test flight insights."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "cd4bb934-0652-4425-9a5c-bbe5e467ade4",
@@ -341,7 +322,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-02-28T00:09:46Z",
+      "last_updated": "2026-02-28T04:27:09Z",
       "updates": [
         {
           "id": 14109,
@@ -533,7 +514,28 @@
         "orbital_launch_attempt_count": 2
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "和歌山県庁成長産業推進課",
+          "title": "【3/1 配信】カイロスロケット３号機打上げライブ配信",
+          "description": "カイロスロケット３号機の打上げの様子を生配信します。",
+          "feature_image": "https://i.ytimg.com/vi/iGTpmpSdGNk/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=iGTpmpSdGNk",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 6,
+            "name": "Japanese",
+            "code": "jp"
+          },
+          "start_time": "2026-03-01T01:00:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kairos_image_20240216144656.jpeg",
@@ -563,26 +565,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "cd4bb934-0652-4425-9a5c-bbe5e467ade4",
-        "importance_score": 5,
-        "reasoning": "Third flight of KAIROS, testing new capabilities.",
-        "key_facts": [
-          "Five satellites onboard",
-          "Sun-Synchronous Orbit"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "test flight",
-          "KAIROS"
-        ],
-        "user_recommendation": "Watch live stream for satellite deployment."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "887eb3dc-ead1-4fef-87a1-b490e780f43a",
@@ -1246,26 +1229,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "887eb3dc-ead1-4fef-87a1-b490e780f43a",
-        "importance_score": 5,
-        "reasoning": "Routine Starlink deployment, contributing to global internet.",
-        "key_facts": [
-          "25 Starlink satellites",
-          "Low Earth Orbit"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "Starlink",
-          "SpaceX"
-        ],
-        "user_recommendation": "Follow live stream for real-time updates."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "3f71a8a7-118f-460c-953b-984de24aba5c",
@@ -1881,15 +1845,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7218,
+      "orbital_launch_attempt_count": 7219,
       "location_launch_attempt_count": 1091,
       "pad_launch_attempt_count": 368,
       "agency_launch_attempt_count": 646,
-      "orbital_launch_attempt_count_year": 45,
+      "orbital_launch_attempt_count_year": 46,
       "location_launch_attempt_count_year": 15,
       "pad_launch_attempt_count_year": 14,
       "agency_launch_attempt_count_year": 27,
-      "pad_turnaround": "P2DT13H46M10S",
+      "pad_turnaround": "P2DT11H50M50S",
       "mission_patches": [
         {
           "id": 7,
@@ -1905,26 +1869,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "3f71a8a7-118f-460c-953b-984de24aba5c",
-        "importance_score": 5,
-        "reasoning": "Routine Starlink deployment, contributing to global internet.",
-        "key_facts": [
-          "29 Starlink satellites",
-          "Low Earth Orbit"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "Starlink",
-          "SpaceX"
-        ],
-        "user_recommendation": "Follow live stream for real-time updates."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "5d5e17f4-292b-45f6-ab53-05437cf63ce0",
@@ -2188,7 +2133,7 @@
                 "abbrev": "ASOG",
                 "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
                 "location": null,
-                "successful_landings": 143
+                "successful_landings": 144
               },
               "type": {
                 "id": 1,
@@ -2548,11 +2493,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7219,
+      "orbital_launch_attempt_count": 7220,
       "location_launch_attempt_count": 1092,
       "pad_launch_attempt_count": 369,
       "agency_launch_attempt_count": 647,
-      "orbital_launch_attempt_count_year": 46,
+      "orbital_launch_attempt_count_year": 47,
       "location_launch_attempt_count_year": 16,
       "pad_launch_attempt_count_year": 15,
       "agency_launch_attempt_count_year": 28,
@@ -2572,26 +2517,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "5d5e17f4-292b-45f6-ab53-05437cf63ce0",
-        "importance_score": 5,
-        "reasoning": "Routine Starlink deployment, contributing to global internet.",
-        "key_facts": [
-          "29 Starlink satellites",
-          "Low Earth Orbit"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "Starlink",
-          "SpaceX"
-        ],
-        "user_recommendation": "Follow live stream for real-time updates."
-      }
+      "ai_enrichment": null
     }
   ]
 }
