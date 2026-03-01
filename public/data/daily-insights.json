@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-03-01T00:58:56.566Z",
+  "generated_at": "2026-03-01T12:27:09.688Z",
   "daily_summary": {
-    "headline": "Exciting Launch Day with Aurora Opportunities",
+    "headline": "Routine Launches and Low Aurora Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "KAIROS Flight 3",
-        "description": "Third flight of the KAIROS launch vehicle carrying 5 satellites, including TATARA-1R and Nutsat-3.",
+        "title": "Falcon 9 Block 5 | Starlink Group 10-41",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "importance": 5,
-        "date": "2026-03-01T02:00:00Z",
+        "date": "2026-03-02T00:34:00Z",
         "type": "launch",
-        "action": "Watch live stream for updates."
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-23",
-        "description": "Launch of 25 Starlink satellites for global internet coverage.",
+        "title": "Firefly Alpha | Stairway to Seven",
+        "description": "Firefly Alpha's Flight 7 will be a test flight and return-To-Flight for the launch vehicle after its April 2025 launch failure. It will test and validate key systems ahead of Firefly’s Block II configuration upgrade on Flight 8.",
         "importance": 5,
-        "date": "2026-03-01T09:55:50Z",
+        "date": "2026-03-02T00:50:00Z",
         "type": "launch",
-        "action": "Follow live coverage for booster landing."
+        "action": "Watch live stream"
       },
       {
         "rank": 3,
-        "title": "Aurora Viewing Opportunity",
-        "description": "Potential aurora visibility with Kp 4.33, best seen from high latitudes.",
-        "importance": 4,
-        "date": "2026-03-01",
-        "type": "aurora",
-        "action": "Check local conditions and prepare for photography."
+        "title": "KAIROS | Flight 3",
+        "description": "Third flight of the KAIROS launch vehicle, carrying 5 satellites.",
+        "importance": 5,
+        "date": "2026-03-04T02:00:00Z",
+        "type": "launch",
+        "action": "Watch live stream"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-03-01",
-        "max_kp": 4.33,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-03-01 03:00:00",
-          "end": "2026-03-01 06:00:00"
-        },
-        "duration_hours": 3,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-03-01",
-      "time": "03:00-06:00 UTC",
-      "kp": 4.33,
-      "visibility_range": "Above 65° latitude"
-    },
-    "total_viewing_hours": 3
+    "opportunities": [],
+    "best_window": null,
+    "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
