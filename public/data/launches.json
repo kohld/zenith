@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-02T03:01:39.646Z",
+  "updatedAt": "2026-03-02T04:16:54.364Z",
   "launches": [
     {
       "id": "887eb3dc-ead1-4fef-87a1-b490e780f43a",
@@ -14,7 +14,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-03-01T11:19:55Z",
+      "last_updated": "2026-03-02T04:13:32Z",
       "updates": [
         {
           "id": 14139,
@@ -752,13 +752,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 10-41",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-03-02T02:57:10Z",
+      "last_updated": "2026-03-02T04:07:14Z",
       "updates": [
+        {
+          "id": 14146,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://x.com/spacex/status/2028319772467745137",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-02T04:07:00Z"
+        },
         {
           "id": 14145,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1021,8 +1029,8 @@
             "landing": {
               "id": 1816,
               "attempt": true,
-              "success": null,
-              "description": "The Falcon 9 first stage B1078 will land on ASDS JRTI after its 26th flight.",
+              "success": true,
+              "description": "The Falcon 9 first stage B1078 has landed on ASDS JRTI after its 26th flight.",
               "downrange_distance": 605,
               "location": {
                 "id": 3,
@@ -1143,12 +1151,12 @@
       "vidURLs": [
         {
           "priority": 7,
-          "source": "youtube.com",
-          "publisher": "SPACE AFFAIRS",
-          "title": "NO LIVE STREAM - SpaceX - Falcon 9 - Starlink 10-41 - SLC-40 - CSFS",
-          "description": "Launch Date:  March 1, 2026 EST\nLaunch Time: 9:56 p.m. EST (March 2, 0256 UTC, 03:56 CET)\nLaunch Window:  Open until 11:07 a.m. EST\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Northeast\nLaunch Status: Scheduled and announced\n\nAttention: we will not broadcast this launch, maybe we will do a replay tomorrow if that is your all wish. \n\nMission: Starlink 10-41\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1078 - Turnaround 48 days)\nFlight for the Booster: 26\nPrevious Flights of the Booster: 25 - Crew-6, SES O3b mPOWER-B, USSF-124, Bluebird 1-5, Nusantara Lima (PSN N5), and 20 Starlink missions\nDroneship: Just Read The Instructions\n\nPrice: $69,75 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\n...",
-          "feature_image": "https://i.ytimg.com/vi/r5-ZINc8f18/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=r5-ZINc8f18",
+          "source": null,
+          "publisher": "The Space Devs",
+          "title": "SpaceX Starlink Group 10-41",
+          "description": "On Monday March 02, 2026 at 02:56 UTC, SpaceX launched the Starlink Group 10-41 mission with a Falcon 9 Block 5 from Space Launch Complex 40 at Cape Canaveral SFS, FL, USA.\n\nDescription generated from the Launch Library 2 API.\n——————————————————————\nObject in the Launch Library 2 API: https://ll.thespacedevs.com/2.3.0/launches/3f71a8a7-118f-460c-953b-984de24aba5c/?format=json\nRelated news in the Spaceflight News API: https://api.spaceflightnewsapi.net/v4/articles/?launch=3f71a8a7-118f-460c-953b-984de24aba5c\n——————————————————————\n\nRehosted on YouTube by The Space Devs.\nSupport our work on https://www.patreon.com/TheSpaceDevs\n——————————————————————\nWebsite: https://thespacedevs.com\nX: https://x.com/thespacedevs\nDiscord: https://discord.com/invite/p7ntkNA\n——————————————————————\n\nOrigina...",
+          "feature_image": "https://i.ytimg.com/vi/9Cy1Z6La8ac/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=9Cy1Z6La8ac",
           "type": {
             "id": 4,
             "name": "Unofficial Re-stream"
@@ -1158,7 +1166,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-03-02T02:46:00Z",
+          "start_time": null,
           "end_time": null
         },
         {
@@ -6664,11 +6672,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7226,
+      "orbital_launch_attempt_count": 7227,
       "location_launch_attempt_count": 1561,
       "pad_launch_attempt_count": 427,
       "agency_launch_attempt_count": 339,
-      "orbital_launch_attempt_count_year": 53,
+      "orbital_launch_attempt_count_year": 54,
       "location_launch_attempt_count_year": 2,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -6917,11 +6925,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7227,
+      "orbital_launch_attempt_count": 7228,
       "location_launch_attempt_count": 72,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 83,
-      "orbital_launch_attempt_count_year": 54,
+      "orbital_launch_attempt_count_year": 55,
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 4,
@@ -7279,11 +7287,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7228,
+      "orbital_launch_attempt_count": 7229,
       "location_launch_attempt_count": 870,
       "pad_launch_attempt_count": 255,
       "agency_launch_attempt_count": 653,
-      "orbital_launch_attempt_count_year": 55,
+      "orbital_launch_attempt_count_year": 56,
       "location_launch_attempt_count_year": 18,
       "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 34,
