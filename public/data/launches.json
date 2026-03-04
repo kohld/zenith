@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-04T06:17:57.255Z",
+  "updatedAt": "2026-03-04T06:47:15.656Z",
   "launches": [
     {
       "id": "5d5e17f4-292b-45f6-ab53-05437cf63ce0",
@@ -732,13 +732,21 @@
       "r_spacex_api_id": null,
       "name": "KAIROS | Flight 3",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-04T02:17:11Z",
+      "last_updated": "2026-03-04T06:33:18Z",
       "updates": [
+        {
+          "id": 14159,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Rescheduled for March 5.",
+          "info_url": "https://x.com/Kairos_SPACEONE/status/2029082355684807041",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-04T06:33:00Z"
+        },
         {
           "id": 14158,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -828,7 +836,7 @@
           "created_on": "2025-12-10T13:16:00Z"
         }
       ],
-      "net": "2026-03-05T02:00:00Z",
+      "net": "2026-03-05T02:10:00Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -836,7 +844,7 @@
         "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-03-05T02:20:00Z",
-      "window_start": "2026-03-05T02:00:00Z",
+      "window_start": "2026-03-05T02:10:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -860,7 +868,7 @@
         "consecutive_successful_launches": 0,
         "successful_launches": 0,
         "failed_launches": 2,
-        "pending_launches": 0,
+        "pending_launches": 1,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -900,7 +908,7 @@
             "consecutive_successful_launches": 0,
             "successful_launches": 0,
             "failed_launches": 2,
-            "pending_launches": 0,
+            "pending_launches": 1,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -933,7 +941,7 @@
           "consecutive_successful_launches": 0,
           "successful_launches": 0,
           "failed_launches": 2,
-          "pending_launches": 0,
+          "pending_launches": 1,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -990,10 +998,10 @@
           "priority": 10,
           "source": "youtube.com",
           "publisher": "和歌山県庁成長産業推進課",
-          "title": "【3/4 配信】カイロスロケット３号機打上げライブ配信",
+          "title": "【3/5 配信】カイロスロケット３号機打上げライブ配信",
           "description": "カイロスロケット３号機の打上げの様子を生配信します。",
-          "feature_image": "https://i.ytimg.com/vi/a2csvYZGdik/maxresdefault.jpg",
-          "url": "https://www.youtube.com/watch?v=a2csvYZGdik",
+          "feature_image": "https://i.ytimg.com/vi/ZGaimti4hCE/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=ZGaimti4hCE",
           "type": {
             "id": 1,
             "name": "Official Webcast"
@@ -1003,28 +1011,8 @@
             "name": "Japanese",
             "code": "jp"
           },
-          "start_time": "2026-03-04T00:55:17Z",
-          "end_time": "2026-03-04T02:15:49Z"
-        },
-        {
-          "priority": 11,
-          "source": "youtube.com",
-          "publisher": "NVS",
-          "title": "2026.3.4 11:00 カイロスロケット3号機 再打上げライブ配信 SPACE ONE KAIROS ROCKET F3 Re-launch",
-          "description": "打上げ予定日（Launch Date）：2026.3.4\n打上げ予定時刻（Launch Time）： 11:00'00\"　+0900 (JST)\n打上げ可能時間帯（Window）：11:00'00\"～11:20'00\"　+0900 (JST)\n予備期間（Preliminary duration）：2026.3.5～2026.3.25\n\nこのチャンネルのメンバーになって特典にアクセスしてください:\nhttps://www.youtube.com/channel/UCDkGOo9VQFjijIDZJidoNmg/join",
-          "feature_image": "https://i.ytimg.com/vi/NriTWyJIYio/maxresdefault.jpg",
-          "url": "https://www.youtube.com/watch?v=NriTWyJIYio",
-          "type": {
-            "id": 3,
-            "name": "Unofficial Webcast"
-          },
-          "language": {
-            "id": 6,
-            "name": "Japanese",
-            "code": "jp"
-          },
-          "start_time": "2026-03-04T01:29:41Z",
-          "end_time": "2026-03-04T02:16:59Z"
+          "start_time": "2026-03-05T01:00:00Z",
+          "end_time": null
         }
       ],
       "webcast_live": false,
@@ -1097,7 +1085,7 @@
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P442D",
+      "pad_turnaround": "P442DT10M",
       "mission_patches": [
         {
           "id": 1309,
