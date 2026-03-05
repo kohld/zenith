@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-03-04T12:27:34.792Z",
+  "generated_at": "2026-03-05T00:53:03.712Z",
   "daily_summary": {
-    "headline": "Aurora Alert: Best Viewing on March 6",
+    "headline": "Exciting Space Day: KAIROS Flight 3 and Aurora Watch",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A potential aurora event with Kp 4.33 is expected on March 6, best visible above 65° latitude.",
-        "importance": 7,
-        "date": "2026-03-06",
-        "type": "aurora",
-        "action": "Check conditions and prepare for viewing."
+        "title": "KAIROS Flight 3",
+        "description": "Third flight of the KAIROS launch vehicle carrying 5 satellites.",
+        "importance": 5,
+        "date": "2026-03-05T02:10:00Z",
+        "type": "launch",
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "KAIROS Flight 3",
-        "description": "Third flight of the KAIROS launch vehicle carrying 5 satellites to Sun-Synchronous Orbit.",
-        "importance": 5,
-        "date": "2026-03-05",
-        "type": "launch",
-        "action": "Watch live stream for the launch."
+        "title": "Aurora Opportunity",
+        "description": "Possible aurora at high latitudes with Kp 4.67.",
+        "importance": 6,
+        "date": "2026-03-06",
+        "type": "aurora",
+        "action": "Check conditions for viewing"
       },
       {
         "rank": 3,
-        "title": "Starlink Group 17-18",
-        "description": "SpaceX's Falcon 9 Block 5 will launch a batch of 25 Starlink satellites into Low Earth Orbit.",
+        "title": "Falcon 9 Starlink Group 17-18",
+        "description": "Launch of 25 Starlink satellites.",
         "importance": 5,
-        "date": "2026-03-07",
+        "date": "2026-03-07T10:58:00Z",
         "type": "launch",
-        "action": "Follow live updates and watch the launch online."
+        "action": "Watch live stream"
       }
     ],
     "statistics": {
-      "total_launches_this_week": 6,
+      "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
       "aurora_opportunities": 1
@@ -43,30 +43,30 @@
     "opportunities": [
       {
         "date": "2026-03-06",
-        "max_kp": 4.33,
-        "storm_level": "G0 (Quiet)",
+        "max_kp": 4.67,
+        "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-03-06 00:00:00",
+          "start": "2026-03-06 15:00:00",
           "end": "2026-03-06 21:00:00"
         },
-        "duration_hours": 21,
+        "duration_hours": 6,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
       "date": "2026-03-06",
-      "time": "00:00-21:00 UTC",
-      "kp": 4.33,
+      "time": "15:00-21:00 UTC",
+      "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
-    "total_viewing_hours": 21
+    "total_viewing_hours": 6
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
