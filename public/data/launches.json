@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-05T20:13:47.167Z",
+  "updatedAt": "2026-03-05T20:45:45.734Z",
   "launches": [
     {
       "id": "cd4bb934-0652-4425-9a5c-bbe5e467ade4",
@@ -14,7 +14,7 @@
         "abbrev": "Failure",
         "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
       },
-      "last_updated": "2026-03-05T02:49:41Z",
+      "last_updated": "2026-03-05T20:20:16Z",
       "updates": [
         {
           "id": 14168,
@@ -149,7 +149,7 @@
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
-      "failreason": "Rocket apparently lost control at around 1st stage separation; FTS activated.",
+      "failreason": "AFTS activated at T+68.8 seconds, cause under investigation with possibility of mis-activation.",
       "hashtag": null,
       "launch_service_provider": {
         "id": 1083,
@@ -436,7 +436,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-05T20:05:10Z",
+      "last_updated": "2026-03-05T20:13:44Z",
       "updates": [
         {
           "id": 14174,
@@ -623,10 +623,10 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 185,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/185/",
+        "id": 65,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/65/",
         "agency_id": 147,
-        "name": "Rocket Lab Launch Complex 1B",
+        "name": "Rocket Lab Launch Complex 1A",
         "description": "",
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
@@ -645,9 +645,9 @@
           "total_landing_count": 17
         },
         "country_code": "NZL",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_185_20200803143540.jpg",
-        "total_launch_count": 34,
-        "orbital_launch_attempt_count": 34
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_65_20200803143549.jpg",
+        "total_launch_count": 37,
+        "orbital_launch_attempt_count": 37
       },
       "infoURLs": [
         {
@@ -697,13 +697,13 @@
       "program": [],
       "orbital_launch_attempt_count": 7220,
       "location_launch_attempt_count": 72,
-      "pad_launch_attempt_count": 35,
+      "pad_launch_attempt_count": 38,
       "agency_launch_attempt_count": 83,
       "orbital_launch_attempt_count_year": 47,
       "location_launch_attempt_count_year": 3,
-      "pad_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 4,
-      "pad_turnaround": "P74DT17H17M",
+      "pad_turnaround": "P34DT22H31M21S",
       "mission_patches": [
         {
           "id": 1310,
