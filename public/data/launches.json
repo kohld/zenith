@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-05T19:53:21.389Z",
+  "updatedAt": "2026-03-05T20:13:47.167Z",
   "launches": [
     {
       "id": "cd4bb934-0652-4425-9a5c-bbe5e467ade4",
@@ -429,15 +429,23 @@
       "slug": "electron-insight-at-speed-is-a-friend-indeed-black",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Electron | Insight at Speed is a Friend Indeed (BlackSky Gen-3 4)",
+      "name": "Electron | Insight At Speed Is A Friend Indeed (BlackSky Gen-3 4)",
       "status": {
         "id": 1,
         "name": "Go for Launch",
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-05T19:01:02Z",
+      "last_updated": "2026-03-05T20:05:10Z",
       "updates": [
+        {
+          "id": 14174,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 80% GO.",
+          "info_url": "https://x.com/rocketlab/status/2029648764408058083",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-05T20:05:00Z"
+        },
         {
           "id": 14171,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -464,7 +472,7 @@
       },
       "window_end": "2026-03-05T23:53:00Z",
       "window_start": "2026-03-05T23:53:00Z",
-      "probability": null,
+      "probability": 80,
       "weather_concerns": null,
       "holdreason": "",
       "failreason": "",
@@ -571,7 +579,7 @@
       },
       "mission": {
         "id": 6504,
-        "name": "Insight at Speed is a Friend Indeed (BlackSky Gen-3 4)",
+        "name": "Insight At Speed Is A Friend Indeed (BlackSky Gen-3 4)",
         "description": "Note: Payload and customer identities were not publicly announced.\r\n\r\n4th of the BlackSky Gen-3 high resolution Earth-imaging satellites.",
         "launch_designator": null,
         "type": "Earth Science",
@@ -641,7 +649,25 @@
         "total_launch_count": 34,
         "orbital_launch_attempt_count": 34
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "rocketlabcorp.com",
+          "title": "Insight At Speed Is A Friend Indeed",
+          "description": "“Insight At Speed Is A Friend Indeed” is a dedicated Electron mission to deploy a single commercial satellite to a 470 km low Earth orbit. The satellite will also deployed from a Rocket Lab Motorized Lightband, a separation system for satellites with 100% mission success that showcases the streamlin...",
+          "feature_image": null,
+          "url": "https://rocketlabcorp.com/missions/launches/insight-at-speed-is-a-friend-indeed/",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [
         {
           "priority": 10,
@@ -683,7 +709,7 @@
           "id": 1310,
           "name": "Insight at Speed is a Friend Indeed Patch",
           "priority": 10,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/insight2520at_mission_patch_20260305190049.jpeg",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/insight2520at_mission_patch_20260305200645.png",
           "agency": {
             "id": 147,
             "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
