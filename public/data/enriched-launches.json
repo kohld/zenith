@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-07T00:49:53.336Z",
+  "generated_at": "2026-03-07T12:26:54.616Z",
   "launches": [
     {
       "id": "12e62caf-f4aa-4f28-a3bd-f9c8a44b707d",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-06T18:08:43Z",
+      "last_updated": "2026-03-07T12:08:25Z",
       "updates": [
+        {
+          "id": 14191,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Mar 07 at 14:55 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-18",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-03-07T12:08:00Z"
+        },
         {
           "id": 14185,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -57,7 +65,7 @@
           "created_on": "2026-02-19T16:46:00Z"
         }
       ],
-      "net": "2026-03-07T14:33:30Z",
+      "net": "2026-03-07T14:55:19Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -703,7 +711,28 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "12e62caf-f4aa-4f28-a3bd-f9c8a44b707d",
+        "importance_score": 5,
+        "reasoning": "Routine commercial launch for Starlink satellite deployment.",
+        "key_facts": [
+          "SpaceX Falcon 9 Block 5",
+          "Starlink Group 17-18",
+          "Launch from Vandenberg SFB, CA, USA"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "Starlink",
+          "SpaceX",
+          "Commercial"
+        ],
+        "user_recommendation": "Watch live stream for launch visuals."
+      }
     },
     {
       "id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
@@ -1026,7 +1055,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-03-02T00:30:00Z",
+          "start_time": "2026-03-10T00:30:00Z",
           "end_time": null
         }
       ],
@@ -1132,7 +1161,27 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
+        "importance_score": 5,
+        "reasoning": "Test flight for Firefly Alpha's return-to-flight mission.",
+        "key_facts": [
+          "Firefly Alpha",
+          "Stairway to Seven",
+          "Test flight for system validation"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "Test Flight",
+          "Firefly Aerospace"
+        ],
+        "user_recommendation": "Watch live stream for test flight updates."
+      }
     },
     {
       "id": "8701f102-a33e-450b-87b1-660679aab736",
@@ -1720,7 +1769,28 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "8701f102-a33e-450b-87b1-660679aab736",
+        "importance_score": 5,
+        "reasoning": "Routine commercial launch for EchoStar satellite deployment.",
+        "key_facts": [
+          "SpaceX Falcon 9 Block 5",
+          "EchoStar 25",
+          "Launch from Cape Canaveral SFS, FL, USA"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "EchoStar",
+          "SpaceX",
+          "Commercial"
+        ],
+        "user_recommendation": "Watch live stream for launch visuals."
+      }
     },
     {
       "id": "d44f47c7-5e3e-40fb-9d10-b6e851acf81a",
@@ -2352,7 +2422,7 @@
       "location_launch_attempt_count_year": 16,
       "pad_launch_attempt_count_year": 15,
       "agency_launch_attempt_count_year": 31,
-      "pad_turnaround": "P4D",
+      "pad_turnaround": "P3DT20H24M30S",
       "mission_patches": [
         {
           "id": 7,
@@ -2368,7 +2438,28 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "d44f47c7-5e3e-40fb-9d10-b6e851acf81a",
+        "importance_score": 5,
+        "reasoning": "Routine commercial launch for Starlink satellite deployment.",
+        "key_facts": [
+          "SpaceX Falcon 9 Block 5",
+          "Starlink Group 17-31",
+          "Launch from Vandenberg SFB, CA, USA"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "Starlink",
+          "SpaceX",
+          "Commercial"
+        ],
+        "user_recommendation": "Watch live stream for launch visuals."
+      }
     },
     {
       "id": "6f2868b8-1000-48e5-893b-700c1371b4fb",
@@ -3008,7 +3099,28 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "6f2868b8-1000-48e5-893b-700c1371b4fb",
+        "importance_score": 5,
+        "reasoning": "Routine commercial launch for Starlink satellite deployment.",
+        "key_facts": [
+          "SpaceX Falcon 9 Block 5",
+          "Starlink Group 10-48",
+          "Launch from Cape Canaveral SFS, FL, USA"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "Starlink",
+          "SpaceX",
+          "Commercial"
+        ],
+        "user_recommendation": "Watch live stream for launch visuals."
+      }
     }
   ]
 }
