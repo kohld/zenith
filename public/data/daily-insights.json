@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-03-06T12:27:32.992Z",
+  "generated_at": "2026-03-07T00:49:53.336Z",
   "daily_summary": {
-    "headline": "Exciting Space Events and Aurora Opportunities",
+    "headline": "Routine Launches and Low Aurora Activity",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | Starlink Group 17-18",
-        "description": "Launch of a batch of 25 satellites for the Starlink mega-constellation.",
+        "description": "A routine launch of 25 Starlink satellites for SpaceX's internet constellation.",
         "importance": 5,
-        "date": "2026-03-07T10:58:00Z",
+        "date": "2026-03-07T14:33:30Z",
         "type": "launch",
-        "action": "Watch the live stream for real-time updates."
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "Potential aurora viewing with a Kp index of 4.67, best visible above 65° latitude.",
-        "importance": 5,
-        "date": "2026-03-06",
-        "type": "aurora",
-        "action": "Check northern skies during the evening."
-      },
-      {
-        "rank": 3,
         "title": "Firefly Alpha | Stairway to Seven",
-        "description": "Test flight for Firefly Alpha, testing key systems ahead of Block II upgrade.",
+        "description": "Test flight for Firefly Alpha's Flight 7, aiming to validate key systems.",
         "importance": 5,
         "date": "2026-03-10T00:50:00Z",
         "type": "launch",
-        "action": "Follow updates for potential rescheduling."
+        "action": "Follow updates"
+      },
+      {
+        "rank": 3,
+        "title": "Aurora Forecast",
+        "description": "Low geomagnetic activity with no significant aurora viewing opportunities.",
+        "importance": 3,
+        "date": "2026-03-07",
+        "type": "aurora",
+        "action": "No special action needed"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-03-06",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-03-06 15:00:00",
-          "end": "2026-03-06 21:00:00"
-        },
-        "duration_hours": 6,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-03-06",
-      "time": "15:00-21:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
-    },
-    "total_viewing_hours": 6
+    "opportunities": [],
+    "best_window": null,
+    "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
