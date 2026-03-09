@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-09T00:53:22.880Z",
+  "generated_at": "2026-03-09T12:29:29.199Z",
   "launches": [
     {
       "id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
@@ -428,20 +428,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
+      "ai_enrichment": null
     },
     {
       "id": "8701f102-a33e-450b-87b1-660679aab736",
@@ -456,8 +443,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-08T16:29:12Z",
+      "last_updated": "2026-03-09T08:23:17Z",
       "updates": [
+        {
+          "id": 14206,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Mar 10 at 03:15 UTC",
+          "info_url": "https://www.spacex.com/launches/echostarxxv",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-03-09T08:23:00Z"
+        },
         {
           "id": 14205,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -499,12 +494,12 @@
           "created_on": "2025-06-22T09:02:00Z"
         }
       ],
-      "net": "2026-03-10T03:14:00Z",
+      "net": "2026-03-10T03:15:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-03-10T05:43:00Z",
       "window_start": "2026-03-10T03:14:00Z",
@@ -875,17 +870,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -1061,7 +1056,7 @@
       "location_launch_attempt_count_year": 17,
       "pad_launch_attempt_count_year": 16,
       "agency_launch_attempt_count_year": 30,
-      "pad_turnaround": "P5DT16H21M40S",
+      "pad_turnaround": "P5DT16H22M40S",
       "mission_patches": [
         {
           "id": 1308,
@@ -1077,20 +1072,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "8701f102-a33e-450b-87b1-660679aab736",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
+      "ai_enrichment": null
     },
     {
       "id": "6f2868b8-1000-48e5-893b-700c1371b4fb",
@@ -1494,7 +1476,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-03-12T12:10:00Z",
+          "start_time": "2026-03-12T09:51:00Z",
           "end_time": "2026-03-12T13:10:00Z"
         }
       ],
@@ -1750,20 +1732,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "6f2868b8-1000-48e5-893b-700c1371b4fb",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
+      "ai_enrichment": null
     },
     {
       "id": "d44f47c7-5e3e-40fb-9d10-b6e851acf81a",
@@ -2035,7 +2004,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 182
+                "successful_landings": 183
               },
               "type": {
                 "id": 1,
@@ -2439,20 +2408,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "d44f47c7-5e3e-40fb-9d10-b6e851acf81a",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
+      "ai_enrichment": null
     },
     {
       "id": "f5df8e48-7612-4757-bd1b-cdb5b5a1936b",
@@ -2852,17 +2808,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -3092,20 +3048,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "f5df8e48-7612-4757-bd1b-cdb5b5a1936b",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
+      "ai_enrichment": null
     }
   ]
 }
