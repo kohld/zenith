@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-09T22:08:24.804Z",
+  "updatedAt": "2026-03-09T22:43:17.046Z",
   "launches": [
     {
       "id": "8701f102-a33e-450b-87b1-660679aab736",
@@ -4366,18 +4366,26 @@
     {
       "id": "36dd2ab6-b454-40c5-8707-7d38c69cf226",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/36dd2ab6-b454-40c5-8707-7d38c69cf226/",
-      "slug": "electron-strix-launch-8",
+      "slug": "electron-eight-days-a-week-strix-launch-8",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Electron | StriX Launch 8",
+      "name": "Electron | Eight Days A Week (StriX Launch 8)",
       "status": {
         "id": 1,
         "name": "Go for Launch",
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-09T13:23:42Z",
+      "last_updated": "2026-03-09T22:21:23Z",
       "updates": [
+        {
+          "id": 14217,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://x.com/RocketLab/status/2031132054721790444",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-09T22:21:00Z"
+        },
         {
           "id": 14209,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -4519,7 +4527,7 @@
       },
       "mission": {
         "id": 6845,
-        "name": "StriX Launch 8",
+        "name": "Eight Days A Week (StriX Launch 8)",
         "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
         "launch_designator": null,
         "type": "Earth Science",
@@ -4589,23 +4597,54 @@
         "total_launch_count": 0,
         "orbital_launch_attempt_count": 0
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "rocketlabcorp.com",
+          "title": "Eight Days A Week",
+          "description": "The \"Eight Days A Week\" mission will be the eighth Synspective launch on Electron to build out the company's synthetic aperture radar (SAR) imaging constellation over Japan that provides data for urban development planning, construction and infrastructure monitoring, and disaster response.",
+          "feature_image": null,
+          "url": "https://rocketlabcorp.com/missions/launches/eight-days-a-week/",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7230,
+      "orbital_launch_attempt_count": 7229,
       "location_launch_attempt_count": 73,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 84,
-      "orbital_launch_attempt_count_year": 57,
+      "orbital_launch_attempt_count_year": 56,
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 5,
       "pad_turnaround": "P0D",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1311,
+          "name": "Eight Days A Week Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/eight2520days_mission_patch_20260309222032.webp",
+          "agency": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+            "name": "Rocket Lab",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
