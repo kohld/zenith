@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-11T15:47:32.767Z",
+  "updatedAt": "2026-03-11T16:20:20.346Z",
   "launches": [
     {
       "id": "6f2868b8-1000-48e5-893b-700c1371b4fb",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-08T16:29:37Z",
+      "last_updated": "2026-03-11T16:14:25Z",
       "updates": [
+        {
+          "id": 14238,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 90% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%2010-48%20L-1%20Forecast%20-%2012%20MAR%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-11T16:14:00Z"
+        },
         {
           "id": 14149,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -42,8 +50,8 @@
       },
       "window_end": "2026-03-12T14:00:00Z",
       "window_start": "2026-03-12T10:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 90,
+      "weather_concerns": "Thick Cloud Layers Rule, Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
