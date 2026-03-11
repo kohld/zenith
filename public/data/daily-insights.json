@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-03-11T00:49:43.449Z",
+  "generated_at": "2026-03-11T12:29:31.477Z",
   "daily_summary": {
-    "headline": "Moderate Aurora and Routine Launches Mark the Day",
+    "headline": "Exciting Space Events on the Horizon!",
     "top_events": [
       {
         "rank": 1,
-        "title": "G1 Geomagnetic Storm Expected",
-        "description": "A G1 geomagnetic storm with Kp 5 is predicted, offering a good viewing opportunity for auroras, especially for observers above 60° latitude.",
-        "importance": 7,
+        "title": "Aurora Alert: G1 Storm Predicted",
+        "description": "A G1 geomagnetic storm is predicted on March 13, offering a good viewing opportunity for aurora enthusiasts at high latitudes.",
+        "importance": 8,
         "date": "2026-03-13",
         "type": "aurora",
-        "action": "Check for clear skies and plan for aurora viewing."
+        "action": "Prepare for aurora viewing if you're located above 60° latitude."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 Launches Starlink Group 10-48",
-        "description": "SpaceX's Falcon 9 Block 5 is set to launch the Starlink Group 10-48, continuing the expansion of the Starlink satellite constellation.",
+        "title": "SpaceX Falcon 9 Launch: Starlink Group 10-48",
+        "description": "SpaceX is set to launch a batch of 29 Starlink satellites, enhancing global internet coverage.",
         "importance": 5,
         "date": "2026-03-12",
         "type": "launch",
-        "action": "Watch the live stream for the launch."
+        "action": "Watch the live stream for the latest updates."
       },
       {
         "rank": 3,
-        "title": "Long March 8A Launch with Unknown Payload",
-        "description": "China's Long March 8A rocket is scheduled to launch with an undisclosed payload, marking another step in their space program.",
+        "title": "Long March 8A Launch: Unknown Payload",
+        "description": "China's Long March 8A rocket will launch an unknown payload, continuing its space exploration efforts.",
         "importance": 5,
         "date": "2026-03-12",
         "type": "launch",
-        "action": "Follow updates for more information on the payload."
+        "action": "Stay tuned for more details on the mission."
       }
     ],
     "statistics": {
@@ -38,7 +38,22 @@
       "aurora_opportunities": 1
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "aurora",
+      "priority": "high",
+      "title": "Aurora Alert: G1 Storm Predicted",
+      "message": "A G1 geomagnetic storm is predicted on March 13, offering a good viewing opportunity for aurora enthusiasts at high latitudes.",
+      "action_required": "Prepare for aurora viewing if you're located above 60° latitude.",
+      "expires_at": "2026-03-13T21:00:00Z",
+      "tags": [
+        "aurora",
+        "G1",
+        "high-priority"
+      ],
+      "id": "alert_1773232114122_3kvei8ixr"
+    }
+  ],
   "aurora_insights": {
     "opportunities": [
       {
@@ -66,8 +81,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
-    "iterations": 2
+    "iterations": 3
   }
 }
