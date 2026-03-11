@@ -1,54 +1,72 @@
 {
-  "generated_at": "2026-03-10T12:28:52.420Z",
+  "generated_at": "2026-03-11T00:49:43.449Z",
   "daily_summary": {
-    "headline": "Routine Space Day with Multiple Launches",
+    "headline": "Moderate Aurora and Routine Launches Mark the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Firefly Alpha | Stairway to Seven",
-        "description": "Firefly Alpha's return-to-flight mission testing key systems for future upgrades.",
-        "importance": 5,
-        "date": "2026-03-11T00:50:00Z",
-        "type": "launch",
-        "action": "Watch live stream for test flight insights."
+        "title": "G1 Geomagnetic Storm Expected",
+        "description": "A G1 geomagnetic storm with Kp 5 is predicted, offering a good viewing opportunity for auroras, especially for observers above 60° latitude.",
+        "importance": 7,
+        "date": "2026-03-13",
+        "type": "aurora",
+        "action": "Check for clear skies and plan for aurora viewing."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 | Starlink Group 10-48",
-        "description": "SpaceX's routine Starlink satellite deployment for global internet coverage.",
+        "title": "Falcon 9 Block 5 Launches Starlink Group 10-48",
+        "description": "SpaceX's Falcon 9 Block 5 is set to launch the Starlink Group 10-48, continuing the expansion of the Starlink satellite constellation.",
         "importance": 5,
-        "date": "2026-03-12T10:00:00Z",
+        "date": "2026-03-12",
         "type": "launch",
-        "action": "Follow live updates for satellite deployment."
+        "action": "Watch the live stream for the launch."
       },
       {
         "rank": 3,
-        "title": "Long March 8A | Unknown Payload",
-        "description": "Chinese Long March 8A launch with undisclosed payload.",
+        "title": "Long March 8A Launch with Unknown Payload",
+        "description": "China's Long March 8A rocket is scheduled to launch with an undisclosed payload, marking another step in their space program.",
         "importance": 5,
-        "date": "2026-03-12T19:45:00Z",
+        "date": "2026-03-12",
         "type": "launch",
-        "action": "Monitor for updates on payload details."
+        "action": "Follow updates for more information on the payload."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
-    "total_viewing_hours": 0
+    "opportunities": [
+      {
+        "date": "2026-03-13",
+        "max_kp": 5,
+        "storm_level": "G1",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-03-13 15:00:00",
+          "end": "2026-03-13 21:00:00"
+        },
+        "duration_hours": 6,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      }
+    ],
+    "best_window": {
+      "date": "2026-03-13",
+      "time": "15:00-21:00 UTC",
+      "kp": 5,
+      "visibility_range": "Down to 60° latitude"
+    },
+    "total_viewing_hours": 6
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
