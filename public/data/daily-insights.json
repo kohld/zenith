@@ -1,57 +1,57 @@
 {
-  "generated_at": "2026-03-11T12:29:31.477Z",
+  "generated_at": "2026-03-12T00:47:19.110Z",
   "daily_summary": {
-    "headline": "Exciting Space Events on the Horizon!",
+    "headline": "Aurora Alert and Multiple Launches Highlight March 12, 2026",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Alert: G1 Storm Predicted",
-        "description": "A G1 geomagnetic storm is predicted on March 13, offering a good viewing opportunity for aurora enthusiasts at high latitudes.",
+        "title": "G1 Geomagnetic Storm Alert",
+        "description": "A G1 geomagnetic storm is expected on March 13, providing a good opportunity for aurora viewing at high latitudes.",
         "importance": 8,
         "date": "2026-03-13",
         "type": "aurora",
-        "action": "Prepare for aurora viewing if you're located above 60° latitude."
+        "action": "Prepare for aurora viewing if located at high latitudes."
       },
       {
         "rank": 2,
-        "title": "SpaceX Falcon 9 Launch: Starlink Group 10-48",
-        "description": "SpaceX is set to launch a batch of 29 Starlink satellites, enhancing global internet coverage.",
-        "importance": 5,
+        "title": "Firefly Alpha Test Flight",
+        "description": "Firefly Alpha's 'Stairway to Seven' test flight marks a significant step in validating new systems before the Block II upgrade.",
+        "importance": 7,
         "date": "2026-03-12",
         "type": "launch",
-        "action": "Watch the live stream for the latest updates."
+        "action": "Watch live stream for updates on the test flight."
       },
       {
         "rank": 3,
-        "title": "Long March 8A Launch: Unknown Payload",
-        "description": "China's Long March 8A rocket will launch an unknown payload, continuing its space exploration efforts.",
-        "importance": 5,
+        "title": "Long March 8A Launch",
+        "description": "China's Long March 8A is set to launch with an unknown payload, showcasing its increased payload capacity.",
+        "importance": 6,
         "date": "2026-03-12",
         "type": "launch",
-        "action": "Stay tuned for more details on the mission."
+        "action": "Follow updates for potential mission details."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 2
     }
   },
   "alerts": [
     {
       "type": "aurora",
       "priority": "high",
-      "title": "Aurora Alert: G1 Storm Predicted",
-      "message": "A G1 geomagnetic storm is predicted on March 13, offering a good viewing opportunity for aurora enthusiasts at high latitudes.",
-      "action_required": "Prepare for aurora viewing if you're located above 60° latitude.",
+      "title": "G1 Geomagnetic Storm Alert",
+      "message": "A G1 geomagnetic storm is expected on March 13, providing a good opportunity for aurora viewing at high latitudes. Visibility is expected down to 60° latitude.",
+      "action_required": "Prepare for aurora viewing if located at high latitudes. Check local weather conditions for optimal viewing.",
       "expires_at": "2026-03-13T21:00:00Z",
       "tags": [
         "aurora",
         "G1",
-        "high-priority"
-      ],
-      "id": "alert_1773232114122_3kvei8ixr"
+        "geomagnetic_storm",
+        "aurora_viewing"
+      ]
     }
   ],
   "aurora_insights": {
@@ -67,6 +67,18 @@
         },
         "duration_hours": 6,
         "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-03-14",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-03-14 00:00:00",
+          "end": "2026-03-14 06:00:00"
+        },
+        "duration_hours": 6,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
@@ -75,13 +87,13 @@
       "kp": 5,
       "visibility_range": "Down to 60° latitude"
     },
-    "total_viewing_hours": 6
+    "total_viewing_hours": 12
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 3
   }
