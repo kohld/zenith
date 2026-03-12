@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-03-12T00:47:19.110Z",
+  "generated_at": "2026-03-12T12:28:35.906Z",
   "daily_summary": {
-    "headline": "Aurora Alert and Multiple Launches Highlight March 12, 2026",
+    "headline": "Aurora and Rocket Launches Dominate the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "G1 Geomagnetic Storm Alert",
-        "description": "A G1 geomagnetic storm is expected on March 13, providing a good opportunity for aurora viewing at high latitudes.",
+        "title": "Aurora Opportunity",
+        "description": "A G1-level geomagnetic storm is predicted, offering aurora visibility down to 60° latitude.",
         "importance": 8,
         "date": "2026-03-13",
         "type": "aurora",
-        "action": "Prepare for aurora viewing if located at high latitudes."
+        "action": "Check skies if you're in the viewing range."
       },
       {
         "rank": 2,
-        "title": "Firefly Alpha Test Flight",
-        "description": "Firefly Alpha's 'Stairway to Seven' test flight marks a significant step in validating new systems before the Block II upgrade.",
-        "importance": 7,
+        "title": "Long March 8A Launch",
+        "description": "Launch of Long March 8A with unknown payload from Wenchang Space Launch Site.",
+        "importance": 5,
         "date": "2026-03-12",
         "type": "launch",
-        "action": "Watch live stream for updates on the test flight."
+        "action": "Watch live stream for updates."
       },
       {
         "rank": 3,
-        "title": "Long March 8A Launch",
-        "description": "China's Long March 8A is set to launch with an unknown payload, showcasing its increased payload capacity.",
-        "importance": 6,
-        "date": "2026-03-12",
+        "title": "Falcon 9 Starlink Launch",
+        "description": "SpaceX's Falcon 9 will launch Starlink Group 10-48 from Cape Canaveral.",
+        "importance": 5,
+        "date": "2026-03-13",
         "type": "launch",
-        "action": "Follow updates for potential mission details."
+        "action": "Tune in for live coverage."
       }
     ],
     "statistics": {
@@ -43,14 +43,14 @@
       "type": "aurora",
       "priority": "high",
       "title": "G1 Geomagnetic Storm Alert",
-      "message": "A G1 geomagnetic storm is expected on March 13, providing a good opportunity for aurora viewing at high latitudes. Visibility is expected down to 60° latitude.",
-      "action_required": "Prepare for aurora viewing if located at high latitudes. Check local weather conditions for optimal viewing.",
+      "message": "A G1-level geomagnetic storm is expected on March 13, 2026, offering aurora visibility down to 60° latitude. This is a great opportunity for aurora enthusiasts, especially those in higher latitudes.",
+      "action_required": "Check local weather conditions and prepare for potential aurora sightings.",
       "expires_at": "2026-03-13T21:00:00Z",
       "tags": [
         "aurora",
         "G1",
         "geomagnetic_storm",
-        "aurora_viewing"
+        "visibility_60_latitude"
       ]
     }
   ],
@@ -93,7 +93,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 3
   }
