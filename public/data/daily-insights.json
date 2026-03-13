@@ -1,73 +1,46 @@
 {
-  "generated_at": "2026-03-12T12:28:35.906Z",
+  "generated_at": "2026-03-13T00:51:55.089Z",
   "daily_summary": {
-    "headline": "Aurora and Rocket Launches Dominate the Day",
+    "headline": "Exciting SpaceX Launches and Aurora Opportunities",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Opportunity",
-        "description": "A G1-level geomagnetic storm is predicted, offering aurora visibility down to 60° latitude.",
-        "importance": 8,
+        "title": "SpaceX Falcon 9 Block 5 Launches Starlink Group 10-48",
+        "description": "SpaceX's Falcon 9 Block 5 is set to launch the Starlink Group 10-48, adding to the Starlink mega-constellation.",
+        "importance": 5,
         "date": "2026-03-13",
-        "type": "aurora",
-        "action": "Check skies if you're in the viewing range."
+        "type": "launch",
+        "action": "Watch live stream for launch details."
       },
       {
         "rank": 2,
-        "title": "Long March 8A Launch",
-        "description": "Launch of Long March 8A with unknown payload from Wenchang Space Launch Site.",
+        "title": "Aurora Viewing Opportunity on March 14",
+        "description": "A G1 geomagnetic storm is predicted, offering potential aurora sightings at high latitudes.",
         "importance": 5,
-        "date": "2026-03-12",
-        "type": "launch",
-        "action": "Watch live stream for updates."
+        "date": "2026-03-14",
+        "type": "aurora",
+        "action": "Check visibility conditions if you're at high latitudes."
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Starlink Launch",
-        "description": "SpaceX's Falcon 9 will launch Starlink Group 10-48 from Cape Canaveral.",
+        "title": "SpaceX Falcon 9 Block 5 Launches Starlink Group 17-31",
+        "description": "Another batch of Starlink satellites will be launched by SpaceX's Falcon 9 Block 5.",
         "importance": 5,
         "date": "2026-03-13",
         "type": "launch",
-        "action": "Tune in for live coverage."
+        "action": "Tune in for the live broadcast."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 2
+      "aurora_opportunities": 1
     }
   },
-  "alerts": [
-    {
-      "type": "aurora",
-      "priority": "high",
-      "title": "G1 Geomagnetic Storm Alert",
-      "message": "A G1-level geomagnetic storm is expected on March 13, 2026, offering aurora visibility down to 60° latitude. This is a great opportunity for aurora enthusiasts, especially those in higher latitudes.",
-      "action_required": "Check local weather conditions and prepare for potential aurora sightings.",
-      "expires_at": "2026-03-13T21:00:00Z",
-      "tags": [
-        "aurora",
-        "G1",
-        "geomagnetic_storm",
-        "visibility_60_latitude"
-      ]
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
     "opportunities": [
-      {
-        "date": "2026-03-13",
-        "max_kp": 5,
-        "storm_level": "G1",
-        "probability": "Moderate (50-70%)",
-        "time_window": {
-          "start": "2026-03-13 15:00:00",
-          "end": "2026-03-13 21:00:00"
-        },
-        "duration_hours": 6,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
       {
         "date": "2026-03-14",
         "max_kp": 4.67,
@@ -79,22 +52,34 @@
         },
         "duration_hours": 6,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-03-15",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-03-15 00:00:00",
+          "end": "2026-03-15 00:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-03-13",
-      "time": "15:00-21:00 UTC",
-      "kp": 5,
-      "visibility_range": "Down to 60° latitude"
+      "date": "2026-03-14",
+      "time": "00:00-06:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
     },
-    "total_viewing_hours": 12
+    "total_viewing_hours": 6
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
-    "iterations": 3
+    "iterations": 2
   }
 }
