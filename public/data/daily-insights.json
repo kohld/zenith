@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-03-15T00:59:34.791Z",
+  "generated_at": "2026-03-15T12:26:41.163Z",
   "daily_summary": {
-    "headline": "Exciting Space Activities Await!",
+    "headline": "Routine Space Day with No Exceptional Events",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G1-level geomagnetic storm is expected, offering a chance to view auroras at high latitudes.",
-        "importance": 7,
-        "date": "2026-03-15",
-        "type": "aurora",
-        "action": "Check viewing conditions and prepare for aurora photography."
+        "title": "Long March 6A Launch",
+        "description": "Launch of Long March 6A with an unknown payload from Taiyuan Satellite Launch Center.",
+        "importance": 5,
+        "date": "2026-03-15T13:20:00Z",
+        "type": "launch",
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Long March 6A Launch",
-        "description": "China's Long March 6A rocket is set to launch with an unknown payload.",
+        "title": "Kuaizhou 1A Launch",
+        "description": "Launch of Kuaizhou 1A with an unknown payload from Jiuquan Satellite Launch Center.",
         "importance": 5,
-        "date": "2026-03-15",
+        "date": "2026-03-16T04:10:00Z",
         "type": "launch",
-        "action": "Watch the live stream for updates."
+        "action": "Watch live stream"
       },
       {
         "rank": 3,
-        "title": "Kuaizhou 1A Launch",
-        "description": "ExPace's Kuaizhou 1A rocket will launch with an unknown payload.",
+        "title": "Falcon 9 Starlink Launch",
+        "description": "Launch of Falcon 9 carrying Starlink Group 17-24 from Vandenberg SFB.",
         "importance": 5,
-        "date": "2026-03-16",
+        "date": "2026-03-17T02:37:00Z",
         "type": "launch",
-        "action": "Follow the launch for potential updates."
+        "action": "Watch live stream"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-03-15",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-03-15 03:00:00",
-          "end": "2026-03-15 09:00:00"
-        },
-        "duration_hours": 6,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-03-15",
-      "time": "03:00-09:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
-    },
-    "total_viewing_hours": 6
+    "opportunities": [],
+    "best_window": null,
+    "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
