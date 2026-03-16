@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T15:52:22.637Z",
+  "updatedAt": "2026-03-16T16:25:41.415Z",
   "launches": [
     {
       "id": "9819a575-468b-41a3-b254-fe2db68889a4",
@@ -892,8 +892,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-13T14:24:53Z",
+      "last_updated": "2026-03-16T16:00:59Z",
       "updates": [
+        {
+          "id": 14321,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 75% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%2010-46%20L-1%20Forecast%20-%2017%20Mar%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-16T16:00:00Z"
+        },
         {
           "id": 14268,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -936,8 +944,8 @@
       },
       "window_end": "2026-03-17T14:26:00Z",
       "window_start": "2026-03-17T10:26:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 75,
+      "weather_concerns": "Liftoff Winds, Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
