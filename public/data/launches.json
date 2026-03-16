@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T04:24:58.287Z",
+  "updatedAt": "2026-03-16T05:16:52.428Z",
   "launches": [
     {
       "id": "f8766455-2b03-4629-a36e-b931c8b4a6c5",
@@ -211,18 +211,26 @@
     {
       "id": "9819a575-468b-41a3-b254-fe2db68889a4",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/9819a575-468b-41a3-b254-fe2db68889a4/",
-      "slug": "kuaizhou-11-unknown-payload",
+      "slug": "kuaizhou-11-8-satellites",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Kuaizhou 11 | Unknown Payload",
+      "name": "Kuaizhou 11 | 8 satellites",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-03-15T17:31:09Z",
+      "last_updated": "2026-03-16T05:11:06Z",
       "updates": [
+        {
+          "id": 14319,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://m.weibo.cn/detail/5277081862146248",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-16T05:11:00Z"
+        },
         {
           "id": 14318,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -240,12 +248,12 @@
           "created_on": "2026-03-12T15:12:00Z"
         }
       ],
-      "net": "2026-03-16T04:10:00Z",
+      "net": "2026-03-16T04:12:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
       "window_end": "2026-03-16T04:42:00Z",
       "window_start": "2026-03-16T04:04:00Z",
@@ -268,11 +276,11 @@
         "launchers": "",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 32,
-        "consecutive_successful_launches": 3,
-        "successful_launches": 28,
+        "total_launch_count": 33,
+        "consecutive_successful_launches": 4,
+        "successful_launches": 29,
         "failed_launches": 4,
-        "pending_launches": 1,
+        "pending_launches": 0,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -308,11 +316,11 @@
             "launchers": "",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 32,
-            "consecutive_successful_launches": 3,
-            "successful_launches": 28,
+            "total_launch_count": 33,
+            "consecutive_successful_launches": 4,
+            "successful_launches": 29,
             "failed_launches": 4,
-            "pending_launches": 1,
+            "pending_launches": 0,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -341,11 +349,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_11_lif_image_20240520155835.jpg",
           "info_url": null,
           "wiki_url": null,
-          "total_launch_count": 4,
-          "consecutive_successful_launches": 3,
-          "successful_launches": 3,
+          "total_launch_count": 5,
+          "consecutive_successful_launches": 4,
+          "successful_launches": 4,
           "failed_launches": 1,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -356,14 +364,14 @@
       },
       "mission": {
         "id": 7534,
-        "name": "Unknown Payload",
-        "description": "Details TBD.",
+        "name": "8 satellites",
+        "description": "Ride-share launch of 8 satellites to sun-synchronous orbit. Details TBD.",
         "launch_designator": null,
-        "type": "Unknown",
+        "type": "Technology",
         "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "id": 17,
+          "name": "Sun-Synchronous Orbit",
+          "abbrev": "SSO"
         },
         "agencies": [],
         "info_urls": [],
@@ -388,13 +396,13 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 277,
+          "total_launch_count": 278,
           "total_landing_count": 2
         },
         "country_code": "CHN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_21_20200803143253.jpg",
-        "total_launch_count": 65,
-        "orbital_launch_attempt_count": 65
+        "total_launch_count": 66,
+        "orbital_launch_attempt_count": 66
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -411,7 +419,7 @@
       "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P58DT2M",
+      "pad_turnaround": "P58DT4M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -9632,7 +9640,7 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 277,
+          "total_launch_count": 278,
           "total_landing_count": 2
         },
         "country_code": "CHN",
@@ -9831,7 +9839,7 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 277,
+          "total_launch_count": 278,
           "total_landing_count": 2
         },
         "country_code": "CHN",
@@ -10516,7 +10524,7 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 277,
+          "total_launch_count": 278,
           "total_landing_count": 2
         },
         "country_code": "CHN",
@@ -22595,7 +22603,7 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 277,
+          "total_launch_count": 278,
           "total_landing_count": 2
         },
         "country_code": "CHN",
