@@ -1,56 +1,57 @@
 {
-  "generated_at": "2026-03-17T00:53:10.800Z",
+  "generated_at": "2026-03-17T12:34:58.997Z",
   "daily_summary": {
-    "headline": "Aurora Storm and Multiple Launches Highlight the Day",
+    "headline": "Exciting Aurora and Routine Launches Await",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Storm Predicted",
-        "description": "A geomagnetic storm with a Kp index of 6.33 is forecasted, offering a great chance to view auroras at latitudes as low as 55°.",
-        "importance": 9,
+        "title": "Aurora Viewing Opportunity",
+        "description": "High geomagnetic activity expected on March 19, with Kp index reaching 6.33. Best viewing from 03:00 to 21:00 UTC, visible down to 55° latitude.",
+        "importance": 8,
         "date": "2026-03-19",
         "type": "aurora",
-        "action": "Prepare for aurora viewing if you're in the visibility range."
+        "action": "Plan for aurora viewing if skies are clear."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Starlink Launches",
-        "description": "Multiple Falcon 9 launches are scheduled for today, deploying Starlink satellites to enhance global internet coverage.",
+        "title": "Falcon 9 Block 5 | Starlink Group 10-46",
+        "description": "Routine launch of 29 Starlink satellites by SpaceX. Scheduled for March 17, 13:27 UTC from Cape Canaveral.",
         "importance": 5,
         "date": "2026-03-17",
         "type": "launch",
-        "action": "Watch the live streams for real-time updates."
+        "action": "Watch live stream for launch coverage."
       },
       {
         "rank": 3,
-        "title": "Electron Launch for Earth Imaging",
-        "description": "Rocket Lab's Electron rocket will launch the StriX satellite for Earth imaging, contributing to urban planning and disaster response.",
+        "title": "Zhuque-2E | Unknown Payload",
+        "description": "Launch by LandSpace with an unknown payload, scheduled for March 19. Details are limited.",
         "importance": 5,
         "date": "2026-03-19",
         "type": "launch",
-        "action": "Follow the launch for insights into satellite technology."
+        "action": "Stay tuned for updates on this mysterious mission."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 2
     }
   },
   "alerts": [
     {
       "type": "aurora",
       "priority": "high",
-      "title": "Geomagnetic Storm Alert",
-      "message": "A geomagnetic storm with a Kp index of 6.33 is forecasted for March 19, offering a great chance to view auroras at latitudes as low as 55°.",
-      "action_required": "Prepare for aurora viewing if you're in the visibility range.",
+      "title": "High Geomagnetic Activity Alert",
+      "message": "A strong geomagnetic storm is expected on March 19, 2026, with Kp index reaching 6.33. This provides a great opportunity for aurora viewing, visible down to 55° latitude.",
+      "action_required": "Prepare for aurora viewing if you are in a suitable location with clear skies.",
       "expires_at": "2026-03-19T21:00:00Z",
       "tags": [
         "aurora",
+        "geomagnetic",
         "storm",
-        "Kp6.33",
-        "high-priority"
+        "viewing",
+        "alert"
       ]
     }
   ],
@@ -70,8 +71,8 @@
       },
       {
         "date": "2026-03-20",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
+        "max_kp": 4.67,
+        "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
           "start": "2026-03-20 00:00:00",
@@ -93,7 +94,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 3
   }
