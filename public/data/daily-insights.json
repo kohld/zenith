@@ -1,55 +1,100 @@
 {
-  "generated_at": "2026-03-16T12:35:32.077Z",
+  "generated_at": "2026-03-17T00:53:10.800Z",
   "daily_summary": {
-    "headline": "Routine Day in Space: Starlink Launches and Aurora Calm",
+    "headline": "Aurora Storm and Multiple Launches Highlight the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Starlink Group 17-24 Launch",
-        "description": "SpaceX's Falcon 9 Block 5 will deploy a batch of 25 Starlink satellites into low Earth orbit.",
-        "importance": 5,
-        "date": "2026-03-17T02:37:00Z",
-        "type": "launch",
-        "action": "Watch live stream"
+        "title": "Aurora Storm Predicted",
+        "description": "A geomagnetic storm with a Kp index of 6.33 is forecasted, offering a great chance to view auroras at latitudes as low as 55°.",
+        "importance": 9,
+        "date": "2026-03-19",
+        "type": "aurora",
+        "action": "Prepare for aurora viewing if you're in the visibility range."
       },
       {
         "rank": 2,
-        "title": "Starlink Group 10-46 Launch",
-        "description": "Another Falcon 9 Block 5 mission for SpaceX's Starlink constellation, deploying 29 satellites.",
+        "title": "Falcon 9 Starlink Launches",
+        "description": "Multiple Falcon 9 launches are scheduled for today, deploying Starlink satellites to enhance global internet coverage.",
         "importance": 5,
-        "date": "2026-03-17T10:26:00Z",
+        "date": "2026-03-17",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Watch the live streams for real-time updates."
       },
       {
         "rank": 3,
-        "title": "Electron 'Eight Days A Week' Launch",
-        "description": "Rocket Lab's Electron rocket will launch a synthetic aperture radar satellite for Synspective.",
+        "title": "Electron Launch for Earth Imaging",
+        "description": "Rocket Lab's Electron rocket will launch the StriX satellite for Earth imaging, contributing to urban planning and disaster response.",
         "importance": 5,
-        "date": "2026-03-19T17:45:00Z",
+        "date": "2026-03-19",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Follow the launch for insights into satellite technology."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 1
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "aurora",
+      "priority": "high",
+      "title": "Geomagnetic Storm Alert",
+      "message": "A geomagnetic storm with a Kp index of 6.33 is forecasted for March 19, offering a great chance to view auroras at latitudes as low as 55°.",
+      "action_required": "Prepare for aurora viewing if you're in the visibility range.",
+      "expires_at": "2026-03-19T21:00:00Z",
+      "tags": [
+        "aurora",
+        "storm",
+        "Kp6.33",
+        "high-priority"
+      ]
+    }
+  ],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
-    "total_viewing_hours": 0
+    "opportunities": [
+      {
+        "date": "2026-03-19",
+        "max_kp": 6.33,
+        "storm_level": "G1",
+        "probability": "High (70-90%)",
+        "time_window": {
+          "start": "2026-03-19 03:00:00",
+          "end": "2026-03-19 21:00:00"
+        },
+        "duration_hours": 18,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-03-20",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-03-20 00:00:00",
+          "end": "2026-03-20 00:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-03-19",
+      "time": "03:00-21:00 UTC",
+      "kp": 6.33,
+      "visibility_range": "Down to 55° latitude"
+    },
+    "total_viewing_hours": 18
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
-    "iterations": 2
+    "iterations": 3
   }
 }
