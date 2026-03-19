@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-19T00:37:52.502Z",
+  "updatedAt": "2026-03-19T12:18:15.719Z",
   "forecast": [
     {
       "time": "2026-03-12 00:00:00",
@@ -339,37 +339,37 @@
     },
     {
       "time": "2026-03-19 00:00:00",
+      "kp": 0.67,
+      "status": "observed",
+      "scale": null
+    },
+    {
+      "time": "2026-03-19 03:00:00",
+      "kp": 0.67,
+      "status": "observed",
+      "scale": null
+    },
+    {
+      "time": "2026-03-19 06:00:00",
+      "kp": 0.67,
+      "status": "observed",
+      "scale": null
+    },
+    {
+      "time": "2026-03-19 09:00:00",
+      "kp": 0.67,
+      "status": "observed",
+      "scale": null
+    },
+    {
+      "time": "2026-03-19 12:00:00",
       "kp": 1.67,
       "status": "estimated",
       "scale": null
     },
     {
-      "time": "2026-03-19 03:00:00",
-      "kp": 2,
-      "status": "estimated",
-      "scale": null
-    },
-    {
-      "time": "2026-03-19 06:00:00",
-      "kp": 2.33,
-      "status": "estimated",
-      "scale": null
-    },
-    {
-      "time": "2026-03-19 09:00:00",
-      "kp": 3,
-      "status": "estimated",
-      "scale": null
-    },
-    {
-      "time": "2026-03-19 12:00:00",
-      "kp": 3.33,
-      "status": "estimated",
-      "scale": null
-    },
-    {
       "time": "2026-03-19 15:00:00",
-      "kp": 4.33,
+      "kp": 3.67,
       "status": "estimated",
       "scale": null
     },
@@ -411,13 +411,13 @@
     },
     {
       "time": "2026-03-20 12:00:00",
-      "kp": 4.33,
+      "kp": 3.33,
       "status": "predicted",
       "scale": null
     },
     {
       "time": "2026-03-20 15:00:00",
-      "kp": 4,
+      "kp": 3.67,
       "status": "predicted",
       "scale": null
     },
@@ -429,15 +429,15 @@
     },
     {
       "time": "2026-03-20 21:00:00",
-      "kp": 3.33,
+      "kp": 4.67,
       "status": "predicted",
-      "scale": null
+      "scale": "G1"
     },
     {
       "time": "2026-03-21 00:00:00",
-      "kp": 4.33,
+      "kp": 4.67,
       "status": "predicted",
-      "scale": null
+      "scale": "G1"
     },
     {
       "time": "2026-03-21 03:00:00",
@@ -453,15 +453,15 @@
     },
     {
       "time": "2026-03-21 09:00:00",
-      "kp": 5,
+      "kp": 5.33,
       "status": "predicted",
       "scale": "G1"
     },
     {
       "time": "2026-03-21 12:00:00",
-      "kp": 5,
+      "kp": 4.33,
       "status": "predicted",
-      "scale": "G1"
+      "scale": null
     },
     {
       "time": "2026-03-21 15:00:00",
@@ -483,9 +483,9 @@
     },
     {
       "time": "2026-03-22 00:00:00",
-      "kp": 4.33,
+      "kp": 4.67,
       "status": "predicted",
-      "scale": null
+      "scale": "G1"
     }
   ]
 }
