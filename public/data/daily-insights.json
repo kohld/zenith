@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-18T12:35:11.385Z",
+  "generated_at": "2026-03-19T00:56:02.259Z",
   "daily_summary": {
-    "headline": "Exciting Aurora and Multiple Launches Await",
+    "headline": "Aurora Storms and Routine Launches Highlight March 19",
     "top_events": [
       {
         "rank": 1,
         "title": "Aurora Viewing Opportunity",
-        "description": "A strong geomagnetic storm (G2) is predicted with a Kp index of 6.33, offering great aurora viewing opportunities for observers down to 55° latitude.",
+        "description": "A G2 geomagnetic storm is expected, offering a good chance to view auroras at latitudes down to 55°.",
         "importance": 8,
         "date": "2026-03-19",
         "type": "aurora",
@@ -14,21 +14,21 @@
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 Launch",
-        "description": "SpaceX's Falcon 9 Block 5 will launch the Starlink Group 10-33, a batch of 29 satellites for the Starlink mega-constellation.",
+        "title": "Zhuque-2E Launch",
+        "description": "Zhuque-2E rocket launching with an unknown payload from Jiuquan Satellite Launch Center.",
         "importance": 5,
         "date": "2026-03-19",
         "type": "launch",
-        "action": "Watch live stream for launch coverage."
+        "action": "Watch live stream for updates."
       },
       {
         "rank": 3,
-        "title": "Soyuz 2.1b/Fregat-M Launch",
-        "description": "Soyuz 2.1b/Fregat-M will launch 16 Rassvet-3 satellites for broadband internet access in Russia.",
+        "title": "Falcon 9 Starlink Launch",
+        "description": "SpaceX Falcon 9 launching Starlink Group 10-33 satellites from Cape Canaveral.",
         "importance": 5,
         "date": "2026-03-19",
         "type": "launch",
-        "action": "Follow updates for launch success."
+        "action": "Follow live stream for real-time coverage."
       }
     ],
     "statistics": {
@@ -42,71 +42,83 @@
     {
       "type": "aurora",
       "priority": "high",
-      "title": "Strong Aurora Alert",
-      "message": "A strong geomagnetic storm (G2) with a Kp index of 6.33 is expected, providing excellent aurora viewing opportunities for observers down to 55° latitude.",
-      "action_required": "Check local weather conditions and plan for aurora viewing, especially if you're located above 55° latitude.",
-      "expires_at": "2026-03-19T21:00:00Z",
+      "title": "G2 Geomagnetic Storm Alert",
+      "message": "A G2 geomagnetic storm is expected on March 19, 2026, with a Kp index reaching up to 6. This provides a good opportunity for aurora viewing at latitudes down to 55°.",
+      "action_required": "Plan for aurora viewing if skies are clear.",
+      "expires_at": "2026-03-19T23:59:59Z",
       "tags": [
         "aurora",
         "G2",
-        "Kp6.33",
-        "high-priority"
+        "storm",
+        "viewing opportunity"
       ],
-      "id": "alert_1773837254791_8wlatlzjv"
+      "id": "alert_1773881696178_1jmrblquq"
     }
   ],
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-03-19",
+        "date": "2026-03-20",
         "max_kp": 6.33,
-        "storm_level": "G1",
+        "storm_level": "G2",
         "probability": "High (70-90%)",
         "time_window": {
-          "start": "2026-03-19 03:00:00",
-          "end": "2026-03-19 21:00:00"
+          "start": "2026-03-20 00:00:00",
+          "end": "2026-03-20 18:00:00"
         },
         "duration_hours": 18,
         "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
       },
       {
-        "date": "2026-03-20",
-        "max_kp": 5,
-        "storm_level": "G1",
-        "probability": "Moderate (50-70%)",
+        "date": "2026-03-21",
+        "max_kp": 6.33,
+        "storm_level": "G2",
+        "probability": "High (70-90%)",
         "time_window": {
-          "start": "2026-03-20 00:00:00",
-          "end": "2026-03-20 21:00:00"
+          "start": "2026-03-21 00:00:00",
+          "end": "2026-03-21 21:00:00"
         },
         "duration_hours": 21,
         "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
       },
       {
-        "date": "2026-03-21",
-        "max_kp": 4.67,
+        "date": "2026-03-19",
+        "max_kp": 6,
         "storm_level": "G1",
+        "probability": "High (70-90%)",
+        "time_window": {
+          "start": "2026-03-19 15:00:00",
+          "end": "2026-03-19 21:00:00"
+        },
+        "duration_hours": 6,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-03-22",
+        "max_kp": 4.33,
+        "storm_level": "G0 (Quiet)",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-03-21 00:00:00",
-          "end": "2026-03-21 00:00:00"
+          "start": "2026-03-22 00:00:00",
+          "end": "2026-03-22 00:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-03-19",
-      "time": "03:00-21:00 UTC",
+      "date": "2026-03-20",
+      "time": "00:00-18:00 UTC",
       "kp": 6.33,
       "visibility_range": "Down to 55° latitude"
     },
-    "total_viewing_hours": 39
+    "total_viewing_hours": 45
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 3
   }
