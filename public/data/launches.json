@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-20T06:47:49.778Z",
+  "updatedAt": "2026-03-20T07:22:11.621Z",
   "launches": [
     {
       "id": "890f714a-aa3c-487f-ae81-b7e654276cd5",
@@ -761,7 +761,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-18T23:21:08Z",
+      "last_updated": "2026-03-20T06:52:08Z",
       "updates": [
         {
           "id": 14358,
@@ -1009,7 +1009,28 @@
           }
         }
       ],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Rocket Lab",
+          "title": "Rocket Lab - 'Eight Days A Week' Launch",
+          "description": "",
+          "feature_image": "https://i.ytimg.com/vi/WKE08UfCMYU/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=WKE08UfCMYU",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-03-20T17:50:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
