@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T00:53:03.518Z",
+  "generated_at": "2026-03-20T12:29:09.095Z",
   "launches": [
     {
       "id": "36dd2ab6-b454-40c5-8707-7d38c69cf226",
@@ -14,7 +14,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-18T23:21:08Z",
+      "last_updated": "2026-03-20T06:52:08Z",
       "updates": [
         {
           "id": 14358,
@@ -262,17 +262,38 @@
           }
         }
       ],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Rocket Lab",
+          "title": "Rocket Lab - 'Eight Days A Week' Launch",
+          "description": "",
+          "feature_image": "https://i.ytimg.com/vi/WKE08UfCMYU/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=WKE08UfCMYU",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-03-20T17:50:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7235,
+      "orbital_launch_attempt_count": 7233,
       "location_launch_attempt_count": 73,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 84,
-      "orbital_launch_attempt_count_year": 62,
+      "orbital_launch_attempt_count_year": 60,
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 5,
@@ -296,15 +317,22 @@
         "launch_id": "36dd2ab6-b454-40c5-8707-7d38c69cf226",
         "importance_score": 5,
         "reasoning": "Standard mission with no exceptional features.",
-        "key_facts": [],
+        "key_facts": [
+          "Electron rocket",
+          "StriX satellite for Synspective",
+          "Sun-Synchronous Orbit"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Standard mission"
+        "tags": [
+          "Earth Science",
+          "Commercial"
+        ],
+        "user_recommendation": "Watch the live stream."
       }
     },
     {
@@ -945,11 +973,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7236,
+      "orbital_launch_attempt_count": 7234,
       "location_launch_attempt_count": 870,
       "pad_launch_attempt_count": 255,
       "agency_launch_attempt_count": 655,
-      "orbital_launch_attempt_count_year": 63,
+      "orbital_launch_attempt_count_year": 61,
       "location_launch_attempt_count_year": 18,
       "pad_launch_attempt_count_year": 17,
       "agency_launch_attempt_count_year": 36,
@@ -972,16 +1000,23 @@
       "ai_enrichment": {
         "launch_id": "1ca3ea18-b25b-4aad-9f6a-60a6434a8fa7",
         "importance_score": 5,
-        "reasoning": "Standard mission with no exceptional features.",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "Falcon 9 Block 5",
+          "Starlink Group 17-15",
+          "Low Earth Orbit"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Standard mission"
+        "tags": [
+          "Communications",
+          "Starlink"
+        ],
+        "user_recommendation": "Watch the live stream."
       }
     },
     {
@@ -1365,16 +1400,23 @@
       "ai_enrichment": {
         "launch_id": "cf34aee7-a118-433b-8337-05b2c6892815",
         "importance_score": 5,
-        "reasoning": "Standard mission with no exceptional features.",
-        "key_facts": [],
+        "reasoning": "Routine resupply mission to ISS.",
+        "key_facts": [
+          "Soyuz 2.1a",
+          "Progress MS-33",
+          "Low Earth Orbit"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Standard mission"
+        "tags": [
+          "Resupply",
+          "ISS"
+        ],
+        "user_recommendation": "Watch the live stream."
       }
     },
     {
@@ -1983,15 +2025,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7238,
+      "orbital_launch_attempt_count": 7236,
       "location_launch_attempt_count": 1097,
       "pad_launch_attempt_count": 374,
       "agency_launch_attempt_count": 656,
-      "orbital_launch_attempt_count_year": 65,
+      "orbital_launch_attempt_count_year": 63,
       "location_launch_attempt_count_year": 21,
       "pad_launch_attempt_count_year": 20,
       "agency_launch_attempt_count_year": 37,
-      "pad_turnaround": "P3DT4H8M",
+      "pad_turnaround": "P3DT22M50S",
       "mission_patches": [
         {
           "id": 7,
@@ -2010,16 +2052,23 @@
       "ai_enrichment": {
         "launch_id": "2ab15fcb-7a74-429d-bab0-43635b723cfd",
         "importance_score": 5,
-        "reasoning": "Standard mission with no exceptional features.",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "Falcon 9 Block 5",
+          "Starlink Group 10-62",
+          "Low Earth Orbit"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Standard mission"
+        "tags": [
+          "Communications",
+          "Starlink"
+        ],
+        "user_recommendation": "Watch the live stream."
       }
     },
     {
@@ -2209,11 +2258,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7239,
+      "orbital_launch_attempt_count": 7237,
       "location_launch_attempt_count": 24,
       "pad_launch_attempt_count": 9,
       "agency_launch_attempt_count": 11,
-      "orbital_launch_attempt_count_year": 66,
+      "orbital_launch_attempt_count_year": 64,
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 2,
@@ -2223,16 +2272,22 @@
       "ai_enrichment": {
         "launch_id": "dda0eca1-a770-43f7-ad38-43dc780d7303",
         "importance_score": 5,
-        "reasoning": "Standard mission with no exceptional features.",
-        "key_facts": [],
+        "reasoning": "Launch details are limited, standard mission.",
+        "key_facts": [
+          "Smart Dragon 3",
+          "Unknown Payload",
+          "Unknown Orbit"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Standard mission"
+        "tags": [
+          "Unknown"
+        ],
+        "user_recommendation": "Watch the live stream if available."
       }
     }
   ]
