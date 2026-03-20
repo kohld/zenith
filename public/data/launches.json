@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-20T13:53:33.707Z",
+  "updatedAt": "2026-03-20T14:19:10.436Z",
   "launches": [
     {
       "id": "890f714a-aa3c-487f-ae81-b7e654276cd5",
@@ -761,8 +761,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-20T06:52:08Z",
+      "last_updated": "2026-03-20T14:17:25Z",
       "updates": [
+        {
+          "id": 14370,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch pad assignment.",
+          "info_url": "https://x.com/RocketLab/status/2034996850819047909",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-20T14:17:00Z"
+        },
         {
           "id": 14358,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -964,16 +972,16 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 210,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/210/",
-        "agency_id": null,
-        "name": "Unknown Pad",
-        "description": null,
+        "id": 185,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/185/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1B",
+        "description": "",
         "info_url": null,
-        "wiki_url": null,
-        "map_url": null,
-        "latitude": "-39.260881",
-        "longitude": "177.865826",
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
         "location": {
           "id": 10,
           "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
@@ -986,9 +994,9 @@
           "total_landing_count": 17
         },
         "country_code": "NZL",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_210_20230819165718.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_185_20200803143540.jpg",
+        "total_launch_count": 34,
+        "orbital_launch_attempt_count": 34
       },
       "infoURLs": [
         {
@@ -1038,13 +1046,13 @@
       "program": [],
       "orbital_launch_attempt_count": 7233,
       "location_launch_attempt_count": 73,
-      "pad_launch_attempt_count": 1,
+      "pad_launch_attempt_count": 35,
       "agency_launch_attempt_count": 84,
       "orbital_launch_attempt_count_year": 60,
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 5,
-      "pad_turnaround": "P0D",
+      "pad_turnaround": "P89DT11H34M",
       "mission_patches": [
         {
           "id": 1311,
@@ -17633,11 +17641,11 @@
       "program": [],
       "orbital_launch_attempt_count": 7289,
       "location_launch_attempt_count": 77,
-      "pad_launch_attempt_count": 5,
+      "pad_launch_attempt_count": 4,
       "agency_launch_attempt_count": 88,
       "orbital_launch_attempt_count_year": 116,
       "location_launch_attempt_count_year": 8,
-      "pad_launch_attempt_count_year": 5,
+      "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 9,
       "pad_turnaround": "P5D",
       "mission_patches": [],
@@ -22197,11 +22205,11 @@
       "program": [],
       "orbital_launch_attempt_count": 7293,
       "location_launch_attempt_count": 78,
-      "pad_launch_attempt_count": 6,
+      "pad_launch_attempt_count": 5,
       "agency_launch_attempt_count": 89,
       "orbital_launch_attempt_count_year": 120,
       "location_launch_attempt_count_year": 9,
-      "pad_launch_attempt_count_year": 6,
+      "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 10,
       "pad_turnaround": "P46D",
       "mission_patches": [],
