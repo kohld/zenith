@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-21T14:42:00.760Z",
+  "updatedAt": "2026-03-21T15:07:31.843Z",
   "launches": [
     {
       "id": "36dd2ab6-b454-40c5-8707-7d38c69cf226",
@@ -1501,8 +1501,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-12T15:03:13Z",
+      "last_updated": "2026-03-21T14:56:20Z",
       "updates": [
+        {
+          "id": 14386,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Mar 22 at 14:43 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-10-62",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-03-21T14:56:00Z"
+        },
         {
           "id": 14227,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1512,12 +1520,12 @@
           "created_on": "2026-03-10T19:25:00Z"
         }
       ],
-      "net": "2026-03-22T14:43:00Z",
+      "net": "2026-03-22T14:43:50Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-03-22T18:43:00Z",
       "window_start": "2026-03-22T14:43:00Z",
@@ -2102,7 +2110,7 @@
       "location_launch_attempt_count_year": 21,
       "pad_launch_attempt_count_year": 20,
       "agency_launch_attempt_count_year": 37,
-      "pad_turnaround": "P3DT22M50S",
+      "pad_turnaround": "P3DT23M40S",
       "mission_patches": [
         {
           "id": 7,
