@@ -1,58 +1,46 @@
 {
-  "generated_at": "2026-03-21T00:49:29.254Z",
+  "generated_at": "2026-03-21T12:26:27.815Z",
   "daily_summary": {
-    "headline": "Exciting Aurora and Multiple Launches Await",
+    "headline": "Exciting Space Launches and Aurora Viewing Opportunities",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Borealis Viewing Opportunity",
-        "description": "A G2-level geomagnetic storm is expected, providing excellent aurora viewing opportunities for observers at latitudes down to 55°.",
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 geomagnetic storm is expected, providing a good chance to view auroras at high latitudes.",
         "importance": 7,
-        "date": "2026-03-21",
+        "date": "2026-03-22",
         "type": "aurora",
-        "action": "Plan your viewing session and check weather conditions."
+        "action": "Plan to view auroras if you're in high-latitude areas."
       },
       {
         "rank": 2,
-        "title": "Soyuz 2.1a Launch - Progress MS-33",
-        "description": "A routine resupply mission to the ISS, launching from Baikonur Cosmodrome.",
+        "title": "Soyuz 2.1a | Progress MS-33 Launch",
+        "description": "A Soyuz rocket will launch a resupply mission to the ISS.",
         "importance": 5,
         "date": "2026-03-22",
         "type": "launch",
-        "action": "Watch the live stream for a glimpse of the launch."
+        "action": "Watch the live stream of the launch."
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Starlink Launch",
-        "description": "SpaceX continues its Starlink satellite deployment with a Falcon 9 launch.",
+        "title": "Falcon 9 Block 5 | Starlink Group 10-62 Launch",
+        "description": "SpaceX will launch another batch of Starlink satellites.",
         "importance": 5,
         "date": "2026-03-22",
         "type": "launch",
-        "action": "Tune in to the live stream for coverage."
+        "action": "Tune in to the live stream for the launch."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 2
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
     "opportunities": [
-      {
-        "date": "2026-03-21",
-        "max_kp": 6.33,
-        "storm_level": "G2",
-        "probability": "High (70-90%)",
-        "time_window": {
-          "start": "2026-03-21 03:00:00",
-          "end": "2026-03-21 21:00:00"
-        },
-        "duration_hours": 18,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
       {
         "date": "2026-03-22",
         "max_kp": 5,
@@ -64,6 +52,18 @@
         },
         "duration_hours": 21,
         "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-03-21",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-03-21 15:00:00",
+          "end": "2026-03-21 21:00:00"
+        },
+        "duration_hours": 6,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       },
       {
         "date": "2026-03-23",
@@ -79,18 +79,18 @@
       }
     ],
     "best_window": {
-      "date": "2026-03-21",
-      "time": "03:00-21:00 UTC",
-      "kp": 6.33,
-      "visibility_range": "Down to 55° latitude"
+      "date": "2026-03-22",
+      "time": "00:00-21:00 UTC",
+      "kp": 5,
+      "visibility_range": "Down to 60° latitude"
     },
-    "total_viewing_hours": 39
+    "total_viewing_hours": 27
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
