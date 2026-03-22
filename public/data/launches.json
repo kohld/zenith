@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-22T07:18:14.106Z",
+  "updatedAt": "2026-03-22T07:44:07.924Z",
   "launches": [
     {
       "id": "cf34aee7-a118-433b-8337-05b2c6892815",
@@ -14,7 +14,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-20T21:09:41Z",
+      "last_updated": "2026-03-22T07:32:35Z",
       "updates": [
         {
           "id": 14354,
@@ -217,7 +217,76 @@
           "consecutive_successful_landings": 0
         },
         "launcher_stage": [],
-        "spacecraft_stage": null
+        "spacecraft_stage": {
+          "id": 905,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/905/",
+          "mission_end": null,
+          "destination": "ISS",
+          "launch_crew": [],
+          "onboard_crew": [],
+          "landing_crew": [],
+          "spacecraft": {
+            "id": 625,
+            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/625/",
+            "name": "Progress MS-33",
+            "serial_number": "MS-33 (No.463)",
+            "is_placeholder": false,
+            "in_space": false,
+            "time_in_space": "P0D",
+            "time_docked": "P0D",
+            "flights_count": 0,
+            "mission_ends_count": 0,
+            "status": {
+              "id": 1,
+              "name": "Active"
+            },
+            "description": "Progress MS-33 is a Progress spacecraft used by Roscosmos to resupply the International Space Station (ISS).",
+            "spacecraft_config": {
+              "id": 33,
+              "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/33/",
+              "name": "Progress-MS",
+              "type": {
+                "id": 4,
+                "name": "Cargo Resupply"
+              },
+              "agency": {
+                "id": 63,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                "featured": true,
+                "type": "Government",
+                "country_code": "RUS",
+                "abbrev": "RFSA",
+                "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
+                "administrator": "Administrator: Yuri Borisov",
+                "founding_year": "1992",
+                "launchers": "Soyuz",
+                "spacecraft": "Soyuz",
+                "parent": null,
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png"
+              },
+              "in_use": true,
+              "capability": "ISS Logistics, ISS Orbit Raising",
+              "history": "Progress-MS is an improved variant which first launched on 21 December 2015. It has the following improvements:\r\n- New external compartment that enables it to deploy satellites.\r\n- Enhanced redundancy\r\n- Improved Micrometeoroid (MMOD) protection\r\n- Luch Russian relay satellites link capabilities\r\n- GNSS autonomous navigation\r\n- Real time relative navigation\r\n- New digital radio\r\n    The Ukrainian Chezara Kvant-V on board radio system and antenna/feeder system has been replaced with a Unified Command Telemetry System (UCTS).\r\n- Replacement of the Kurs A with Kurs NA digital system.",
+              "details": "Progress is derived from the manned Soyuz spacecraft and is launched on the same vehicle, a Soyuz rocket.\r\nThe purpose of Progress is to deliver supplies needed to sustain human presence in orbit. Currently it is used as a re-supply spacecraft for the ISS.",
+              "maiden_flight": "2015-12-21",
+              "height": 7.23,
+              "diameter": 2.72,
+              "human_rated": false,
+              "crew_capacity": null,
+              "payload_capacity": 2400,
+              "payload_return_capacity": null,
+              "flight_life": "6 Months docked to ISS",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress-ms_image_20231219150735.jpeg",
+              "nation_url": null,
+              "wiki_link": "https://en.wikipedia.org/wiki/Progress_(spacecraft)#Progress_MS_(2015%E2%80%93present)",
+              "info_link": ""
+            }
+          },
+          "landing": null,
+          "docking_events": []
+        }
       },
       "mission": {
         "id": 7020,
