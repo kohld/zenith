@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-03-21T12:26:27.815Z",
+  "generated_at": "2026-03-22T00:56:12.865Z",
   "daily_summary": {
-    "headline": "Exciting Space Launches and Aurora Viewing Opportunities",
+    "headline": "Aurora and Rocket Launches Dominate the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G1 geomagnetic storm is expected, providing a good chance to view auroras at high latitudes.",
-        "importance": 7,
+        "title": "G2 Geomagnetic Storm",
+        "description": "A G2 geomagnetic storm is expected, offering a good chance to view auroras down to 60° latitude.",
+        "importance": 8,
         "date": "2026-03-22",
         "type": "aurora",
-        "action": "Plan to view auroras if you're in high-latitude areas."
+        "action": "Check for aurora visibility if you're in a high-latitude area."
       },
       {
         "rank": 2,
-        "title": "Soyuz 2.1a | Progress MS-33 Launch",
-        "description": "A Soyuz rocket will launch a resupply mission to the ISS.",
+        "title": "Soyuz 2.1a Launch",
+        "description": "Soyuz 2.1a is launching the Progress MS-33 resupply mission to the ISS.",
         "importance": 5,
         "date": "2026-03-22",
         "type": "launch",
@@ -23,8 +23,8 @@
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Block 5 | Starlink Group 10-62 Launch",
-        "description": "SpaceX will launch another batch of Starlink satellites.",
+        "title": "Falcon 9 Starlink Launch",
+        "description": "SpaceX will launch a batch of Starlink satellites, continuing its mega-constellation expansion.",
         "importance": 5,
         "date": "2026-03-22",
         "type": "launch",
@@ -35,7 +35,7 @@
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 3
     }
   },
   "alerts": [],
@@ -43,36 +43,36 @@
     "opportunities": [
       {
         "date": "2026-03-22",
+        "max_kp": 5.67,
+        "storm_level": "G2",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-03-22 03:00:00",
+          "end": "2026-03-22 21:00:00"
+        },
+        "duration_hours": 18,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-03-23",
         "max_kp": 5,
         "storm_level": "G1",
         "probability": "Moderate (50-70%)",
         "time_window": {
-          "start": "2026-03-22 00:00:00",
-          "end": "2026-03-22 21:00:00"
+          "start": "2026-03-23 00:00:00",
+          "end": "2026-03-23 03:00:00"
         },
-        "duration_hours": 21,
+        "duration_hours": 3,
         "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
       },
       {
-        "date": "2026-03-21",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-03-21 15:00:00",
-          "end": "2026-03-21 21:00:00"
-        },
-        "duration_hours": 6,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-03-23",
-        "max_kp": 4.33,
+        "date": "2026-03-24",
+        "max_kp": 4,
         "storm_level": "G0 (Quiet)",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-03-23 03:00:00",
-          "end": "2026-03-23 03:00:00"
+          "start": "2026-03-24 00:00:00",
+          "end": "2026-03-24 00:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
@@ -80,17 +80,17 @@
     ],
     "best_window": {
       "date": "2026-03-22",
-      "time": "00:00-21:00 UTC",
-      "kp": 5,
+      "time": "03:00-21:00 UTC",
+      "kp": 5.67,
       "visibility_range": "Down to 60° latitude"
     },
-    "total_viewing_hours": 27
+    "total_viewing_hours": 21
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
