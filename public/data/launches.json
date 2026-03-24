@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-24T19:25:46.634Z",
+  "updatedAt": "2026-03-24T19:49:01.615Z",
   "launches": [
     {
       "id": "b0ca3e7a-650e-4af6-bdf9-658e6e114763",
@@ -9283,8 +9283,16 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2026-03-23T17:56:16Z",
+      "last_updated": "2026-03-24T19:26:27Z",
       "updates": [
+        {
+          "id": 14422,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Targeting April 28",
+          "info_url": "https://newsroom.arianespace.com/arianespace-to-launch-another-32-amazon-leo-satellites-with-ariane-64-on-april-28-2026/",
+          "created_by": "Nosu",
+          "created_on": "2026-03-24T19:26:00Z"
+        },
         {
           "id": 14407,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -9318,15 +9326,15 @@
           "created_on": "2025-01-10T14:25:00Z"
         }
       ],
-      "net": "2026-04-30T00:00:00Z",
+      "net": "2026-04-28T00:00:00Z",
       "net_precision": {
-        "id": 7,
-        "name": "Month",
-        "abbrev": "M",
-        "description": "The T-0 is expected in the given month."
+        "id": 5,
+        "name": "Day",
+        "abbrev": "DAY",
+        "description": "The T-0 is expected on the given day."
       },
-      "window_end": "2026-04-30T00:00:00Z",
-      "window_start": "2026-04-30T00:00:00Z",
+      "window_end": "2026-04-28T00:00:00Z",
+      "window_start": "2026-04-28T00:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -9536,15 +9544,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7267,
+      "orbital_launch_attempt_count": 7264,
       "location_launch_attempt_count": 333,
       "pad_launch_attempt_count": 7,
       "agency_launch_attempt_count": 326,
-      "orbital_launch_attempt_count_year": 94,
+      "orbital_launch_attempt_count_year": 91,
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 2,
-      "pad_turnaround": "P76DT7H14M30S",
+      "pad_turnaround": "P74DT7H14M30S",
       "mission_patches": [],
       "type": "detailed"
     },
