@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-03-24T00:48:57.772Z",
+  "generated_at": "2026-03-24T12:34:05.549Z",
   "daily_summary": {
-    "headline": "Routine Launches and Minor Aurora Activity",
+    "headline": "Routine Launches and Low Aurora Activity",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | Starlink Group 17-17",
-        "description": "A standard launch of 25 Starlink satellites into low Earth orbit by SpaceX using the Falcon 9 Block 5 rocket.",
+        "description": "Launch of 25 Starlink satellites for global internet coverage.",
         "importance": 5,
-        "date": "2026-03-24T23:03:00Z",
+        "date": "2026-03-24",
         "type": "launch",
-        "action": "Watch the live stream for the launch."
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Aurora Forecast for March 24",
-        "description": "Minor geomagnetic activity with a maximum Kp index of 4.67, offering a low probability of aurora visibility at high latitudes.",
-        "importance": 4,
-        "date": "2026-03-24",
-        "type": "aurora",
-        "action": "Check conditions if located above 65° latitude."
+        "title": "Electron | Daughter Of The Stars (LEO-PNT Pathfinder A)",
+        "description": "Launch of ESA's LEO-PNT Pathfinder satellites for navigation enhancement.",
+        "importance": 5,
+        "date": "2026-03-25",
+        "type": "launch",
+        "action": "Watch live stream"
       },
       {
         "rank": 3,
-        "title": "Electron | Daughter Of The Stars (LEO-PNT Pathfinder A)",
-        "description": "Launch of two ESA Pathfinder satellites to test navigation technologies in low Earth orbit.",
+        "title": "Spectrum | Onward and Upward",
+        "description": "Second test flight of Isar Aerospace's Spectrum rocket carrying multiple cubesats.",
         "importance": 5,
-        "date": "2026-03-25T09:14:00Z",
+        "date": "2026-03-25",
         "type": "launch",
-        "action": "Follow updates for the mission."
+        "action": "Watch live stream"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-03-24",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-03-24 03:00:00",
-          "end": "2026-03-24 06:00:00"
-        },
-        "duration_hours": 3,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-03-24",
-      "time": "03:00-06:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
-    },
-    "total_viewing_hours": 3
+    "opportunities": [],
+    "best_window": null,
+    "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
