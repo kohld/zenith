@@ -1,54 +1,72 @@
 {
-  "generated_at": "2026-03-25T12:32:59.430Z",
+  "generated_at": "2026-03-26T00:57:29.182Z",
   "daily_summary": {
-    "headline": "Exciting Day for Space Launches and Aurora Viewing",
+    "headline": "Exciting SpaceX Launch and Aurora Viewing Opportunity",
     "top_events": [
       {
         "rank": 1,
-        "title": "Spectrum | Onward and Upward",
-        "description": "Second test flight of the Isar Spectrum launch vehicle, carrying 5 cubesats and 1 non-separable experiment as part of ESA's “Boost!” program.",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-17",
+        "description": "SpaceX's Falcon 9 Block 5 rocket is set to launch the Starlink Group 17-17 mission, deploying 25 satellites for the Starlink mega-constellation.",
         "importance": 5,
-        "date": "2026-03-25T20:00:00Z",
+        "date": "2026-03-26T23:03:00Z",
         "type": "launch",
-        "action": "Watch the livestream on YouTube"
+        "action": "Watch live stream for the launch."
       },
       {
         "rank": 2,
-        "title": "Long March 2C | Unknown Payload",
-        "description": "Launch of Long March 2C with an unknown payload, possibly including SuperView Neo 2-05 & 06.",
-        "importance": 5,
-        "date": "2026-03-25T22:50:00Z",
-        "type": "launch",
-        "action": "Follow updates on NASASpaceflight forum"
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 geomagnetic storm is expected, offering potential aurora visibility at high latitudes.",
+        "importance": 4.67,
+        "date": "2026-03-26",
+        "type": "aurora",
+        "action": "Check visibility conditions and prepare for aurora photography."
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-17",
-        "description": "Launch of 25 Starlink satellites for SpaceX's internet constellation.",
+        "title": "Kuaizhou 1A | Unknown Payload",
+        "description": "The Kuaizhou 1A rocket is scheduled to launch with an unknown payload from Jiuquan Satellite Launch Center.",
         "importance": 5,
-        "date": "2026-03-26T02:39:20Z",
+        "date": "2026-03-27T04:10:00Z",
         "type": "launch",
-        "action": "Watch the official webcast on SpaceX's website"
+        "action": "Follow updates for more information on the payload."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
-    "total_viewing_hours": 0
+    "opportunities": [
+      {
+        "date": "2026-03-26",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-03-26 03:00:00",
+          "end": "2026-03-26 06:00:00"
+        },
+        "duration_hours": 3,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-03-26",
+      "time": "03:00-06:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
+    },
+    "total_viewing_hours": 3
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
