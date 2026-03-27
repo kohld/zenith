@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-27T20:45:51.877Z",
+  "updatedAt": "2026-03-27T21:12:45.158Z",
   "launches": [
     {
       "id": "37dd4870-43df-4a28-9d14-0e088ddc1d2a",
@@ -1304,7 +1304,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-03-28T09:52:00Z",
+          "start_time": "2026-03-28T08:53:00Z",
           "end_time": null
         }
       ],
@@ -4199,7 +4199,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-26T08:04:06Z",
+      "last_updated": "2026-03-27T20:47:02Z",
       "updates": [
         {
           "id": 14253,
@@ -4920,11 +4920,31 @@
       "vidURLs": [
         {
           "priority": 10,
+          "source": "youtube.com",
+          "publisher": "NASA",
+          "title": "NASA's Artemis II Crew Launches To The Moon (Official Broadcast)",
+          "description": "We're sending astronauts around the Moon for the first time in 50 years. Come watch with us.\n\nNASA's Artemis II mission is scheduled to lift off from Kennedy Space Center on April 1. The two-hour launch window starts at 6:24 p.m. EDT (2224 UTC). \n\nFour astronauts — three from NASA and one from the CSA (Canadian Space Agency) — make up the Artemis II crew:\n- NASA astronaut Reid Wiseman, Artemis II commander\n- NASA astronaut Victor Glover, Artemis II pilot\n- NASA astronaut Christina Koch, Artemis II mission specialist\n- Canadian Space Agency (CSA) astronaut Jeremy Hansen, Artemis II mission specialist\n\nAfter launching into space atop NASA's Space Launch System (SLS) rocket, the crew will journey around the Moon and back in their Orion spacecraft, named Integrity, on an approximately 10-...",
+          "feature_image": "https://i.ytimg.com/vi/Tf_UjBMIzNo/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=Tf_UjBMIzNo",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-01T16:50:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 11,
           "source": "plus.nasa.gov",
           "publisher": "NASA",
           "title": "NASA’s Artemis II Crew Launches to the Moon (Official Broadcast)",
-          "description": "Artemis II is NASA’s first crewed mission under the Artemis program and will launch from the agency’s Kennedy Space Center in Florida. It will send NASA astronauts Reid Wiseman, Victor Glover, Christina Koch, and CSA (Canadian Space Agency) astronaut Jeremy Hansen on an approximately 10-day journey around the Moon. Among objectives, the agency will test the Orion spacecraft’s life support systems for the first time with people and lay the groundwork for future crewed Artemis missions.",
-          "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/03/artemis-ii-launch-night-option-r1-horizontal-program-tile-16-9-without-title.jpg",
+          "description": "Artemis II is NASA’s first crewed mission under the Artemis program and will launch from the agency’s Kennedy Space Center in Florida. It will send NASA astronauts Reid Wiseman, Victor […]",
+          "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/03/artemis-ii-launch-key-art-crew-photo-option-r1-horizontal-program-tile-16-9-without-title.jpg",
           "url": "https://plus.nasa.gov/scheduled-video/nasas-artemis-ii-crew-launches-to-the-moon-official-broadcast/",
           "type": {
             "id": 1,
@@ -4969,11 +4989,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7253,
+      "orbital_launch_attempt_count": 7252,
       "location_launch_attempt_count": 280,
       "pad_launch_attempt_count": 59,
       "agency_launch_attempt_count": 142,
-      "orbital_launch_attempt_count_year": 80,
+      "orbital_launch_attempt_count_year": 79,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -5164,7 +5184,7 @@
           "to_thrust": 7257,
           "apogee": null,
           "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-5_launch__image_20250905122547.jpg",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-5_assembl_image_20260327210910.jpeg",
           "info_url": "https://russianspaceweb.com/soyuz5-lv.html",
           "wiki_url": "https://en.wikipedia.org/wiki/Irtysh_(rocket)",
           "total_launch_count": 0,
@@ -5285,7 +5305,7 @@
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-5_launch__image_20250905122547.jpg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-5_assembl_image_20260327210910.jpeg",
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 7254,
