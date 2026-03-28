@@ -1,54 +1,72 @@
 {
-  "generated_at": "2026-03-27T12:31:16.333Z",
+  "generated_at": "2026-03-28T00:53:35.500Z",
   "daily_summary": {
-    "headline": "Quiet Day in Space: Routine Launches and Low Aurora Activity",
+    "headline": "Exciting Launches and Aurora Opportunities Await!",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | Starlink Group 10-44",
-        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-        "importance": 5,
-        "date": "2026-03-29T21:15:00Z",
+        "title": "Tianlong-3 Demo Flight",
+        "description": "First test launch of Space Pioneer’s Tianlong-3 rocket, potentially carrying satellites for the SpaceSail/G60/Qianfan LEO constellation.",
+        "importance": 8,
+        "date": "2026-03-30",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Watch live for potential breakthroughs in Chinese private spaceflight."
       },
       {
         "rank": 2,
-        "title": "Atlas V 551 | Amazon Leo (LA-05)",
-        "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access.",
-        "importance": 5,
-        "date": "2026-03-29T07:53:00Z",
-        "type": "launch",
-        "action": "Watch live stream"
+        "title": "Aurora Viewing Opportunity",
+        "description": "Possible aurora visibility at high latitudes due to increased geomagnetic activity.",
+        "importance": 7,
+        "date": "2026-03-30",
+        "type": "aurora",
+        "action": "Check conditions at 65°+ latitude for best viewing."
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Block 5 | Transporter 16 (Dedicated SSO Rideshare)",
-        "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
-        "importance": 5,
-        "date": "2026-03-30T10:20:00Z",
+        "title": "Amazon Leo (LA-05) Launch",
+        "description": "Atlas V 551 rocket to deploy 29 satellites for Amazon's broadband constellation.",
+        "importance": 6,
+        "date": "2026-03-29",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Follow the launch for advancements in global internet connectivity."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
-      "historic_events": 0,
-      "aurora_opportunities": 0
+      "historic_events": 1,
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-03-30",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-03-30 03:00:00",
+          "end": "2026-03-30 03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-03-30",
+      "time": "03:00-03:00 UTC",
+      "kp": 4,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
