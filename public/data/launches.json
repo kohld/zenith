@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-28T18:46:14.569Z",
+  "updatedAt": "2026-03-28T19:12:42.397Z",
   "launches": [
     {
       "id": "b0ca3e7a-650e-4af6-bdf9-658e6e114763",
@@ -421,8 +421,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-26T19:27:05Z",
+      "last_updated": "2026-03-28T19:06:38Z",
       "updates": [
+        {
+          "id": 14475,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 65% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%2010-44%20L-1%20Forecast%20-%2029%20Mar%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-28T19:06:00Z"
+        },
         {
           "id": 14451,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -457,8 +465,8 @@
       },
       "window_end": "2026-03-30T01:15:00Z",
       "window_start": "2026-03-29T21:15:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 65,
+      "weather_concerns": "Cumulus Cloud Rule, Liftoff Winds",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -1030,12 +1038,12 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7244,
-      "location_launch_attempt_count": 1099,
+      "orbital_launch_attempt_count": 7243,
+      "location_launch_attempt_count": 1098,
       "pad_launch_attempt_count": 375,
       "agency_launch_attempt_count": 658,
-      "orbital_launch_attempt_count_year": 71,
-      "location_launch_attempt_count_year": 23,
+      "orbital_launch_attempt_count_year": 70,
+      "location_launch_attempt_count_year": 22,
       "pad_launch_attempt_count_year": 21,
       "agency_launch_attempt_count_year": 39,
       "pad_turnaround": "P7DT6H28M",
