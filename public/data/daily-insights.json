@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-03-28T12:26:45.145Z",
+  "generated_at": "2026-03-29T01:00:39.313Z",
   "daily_summary": {
-    "headline": "Exciting Space Launches and Aurora Opportunities Await!",
+    "headline": "Exciting Day for Space Enthusiasts: Multiple Launches and Aurora Possibilities!",
     "top_events": [
       {
         "rank": 1,
-        "title": "Atlas V 551 | Amazon Leo (LA-05) Launch",
-        "description": "United Launch Alliance's Atlas V 551 rocket is set to launch Amazon Leo satellites, expanding broadband internet access globally.",
+        "title": "Falcon 9 Block 5 | Starlink Group 10-44",
+        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "importance": 5,
-        "date": "2026-03-29",
+        "date": "2026-03-29T21:15:00Z",
         "type": "launch",
-        "action": "Watch live stream for real-time updates."
+        "action": "Watch live stream for the launch from Cape Canaveral."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 | Starlink Group 10-44 Launch",
-        "description": "SpaceX's Falcon 9 will deploy another batch of Starlink satellites, enhancing global internet coverage.",
+        "title": "Falcon 9 Block 5 | Transporter 16 (Dedicated SSO Rideshare)",
+        "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
         "importance": 5,
-        "date": "2026-03-29",
+        "date": "2026-03-30T10:20:00Z",
         "type": "launch",
-        "action": "Tune in to the live webcast for launch coverage."
+        "action": "Tune in for the live stream of the rideshare mission."
       },
       {
         "rank": 3,
         "title": "Aurora Viewing Opportunity",
-        "description": "A potential aurora event with Kp index of 4 is expected, best visible at high latitudes.",
-        "importance": 3,
-        "date": "2026-03-30",
+        "description": "Possible aurora at high latitudes with a Kp index of 4.67, best for northern locations (65°+).",
+        "importance": 5,
+        "date": "2026-03-30T03:00:00Z",
         "type": "aurora",
-        "action": "Check the sky if you're in northern regions."
+        "action": "Check conditions for aurora visibility if you're in high latitude areas."
       }
     ],
     "statistics": {
@@ -43,8 +43,8 @@
     "opportunities": [
       {
         "date": "2026-03-30",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
+        "max_kp": 4.67,
+        "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
           "start": "2026-03-30 03:00:00",
@@ -57,7 +57,7 @@
     "best_window": {
       "date": "2026-03-30",
       "time": "03:00-03:00 UTC",
-      "kp": 4,
+      "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
     "total_viewing_hours": 0
@@ -66,7 +66,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
