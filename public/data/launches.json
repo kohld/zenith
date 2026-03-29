@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-29T14:44:21.967Z",
+  "updatedAt": "2026-03-29T15:10:21.407Z",
   "launches": [
     {
       "id": "fd4ba54a-df30-4318-a79b-2f9d6a38acc5",
@@ -2202,8 +2202,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-03-29T13:11:36Z",
+      "last_updated": "2026-03-29T15:08:05Z",
       "updates": [
+        {
+          "id": 14480,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 80% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/SLS%20Artemis%20II%20L-3%20Forecast%20-%201%20Apr%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-29T15:08:00Z"
+        },
         {
           "id": 14253,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -2326,8 +2334,8 @@
       },
       "window_end": "2026-04-02T00:24:00Z",
       "window_start": "2026-04-01T22:24:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 80,
+      "weather_concerns": "Cumulus Cloud Rule, Thick Cloud Layers Rule, Ground Winds",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -2970,7 +2978,7 @@
             "abbrev": "Launch team on stations",
             "description": "Launch team arrives to stations"
           },
-          "relative_time": "-P2DT1H50M"
+          "relative_time": "-P1DT22H10M"
         },
         {
           "type": {
