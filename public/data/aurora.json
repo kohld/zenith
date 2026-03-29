@@ -1,54 +1,6 @@
 {
-  "updatedAt": "2026-03-28T12:15:44.298Z",
+  "updatedAt": "2026-03-29T00:42:21.786Z",
   "forecast": [
-    {
-      "time": "2026-03-21 00:00:00",
-      "kp": 7,
-      "status": "observed",
-      "scale": "G3"
-    },
-    {
-      "time": "2026-03-21 03:00:00",
-      "kp": 6,
-      "status": "observed",
-      "scale": "G2"
-    },
-    {
-      "time": "2026-03-21 06:00:00",
-      "kp": 5,
-      "status": "observed",
-      "scale": "G1"
-    },
-    {
-      "time": "2026-03-21 09:00:00",
-      "kp": 4,
-      "status": "observed",
-      "scale": null
-    },
-    {
-      "time": "2026-03-21 12:00:00",
-      "kp": 3,
-      "status": "observed",
-      "scale": null
-    },
-    {
-      "time": "2026-03-21 15:00:00",
-      "kp": 3,
-      "status": "observed",
-      "scale": null
-    },
-    {
-      "time": "2026-03-21 18:00:00",
-      "kp": 3.67,
-      "status": "observed",
-      "scale": null
-    },
-    {
-      "time": "2026-03-21 21:00:00",
-      "kp": 3,
-      "status": "observed",
-      "scale": null
-    },
     {
       "time": "2026-03-22 00:00:00",
       "kp": 3.67,
@@ -364,73 +316,73 @@
     {
       "time": "2026-03-28 12:00:00",
       "kp": 1.67,
-      "status": "estimated",
+      "status": "observed",
       "scale": null
     },
     {
       "time": "2026-03-28 15:00:00",
-      "kp": 0.67,
-      "status": "estimated",
+      "kp": 1.67,
+      "status": "observed",
       "scale": null
     },
     {
       "time": "2026-03-28 18:00:00",
-      "kp": 0.67,
-      "status": "estimated",
+      "kp": 1.33,
+      "status": "observed",
       "scale": null
     },
     {
       "time": "2026-03-28 21:00:00",
-      "kp": 1.67,
-      "status": "estimated",
+      "kp": 3.33,
+      "status": "observed",
       "scale": null
     },
     {
       "time": "2026-03-29 00:00:00",
       "kp": 2.33,
-      "status": "predicted",
+      "status": "estimated",
       "scale": null
     },
     {
       "time": "2026-03-29 03:00:00",
-      "kp": 1.67,
-      "status": "predicted",
+      "kp": 1.33,
+      "status": "estimated",
       "scale": null
     },
     {
       "time": "2026-03-29 06:00:00",
       "kp": 1,
-      "status": "predicted",
+      "status": "estimated",
       "scale": null
     },
     {
       "time": "2026-03-29 09:00:00",
       "kp": 0.67,
-      "status": "predicted",
+      "status": "estimated",
       "scale": null
     },
     {
       "time": "2026-03-29 12:00:00",
       "kp": 1.67,
-      "status": "predicted",
+      "status": "estimated",
       "scale": null
     },
     {
       "time": "2026-03-29 15:00:00",
       "kp": 2.33,
-      "status": "predicted",
+      "status": "estimated",
       "scale": null
     },
     {
       "time": "2026-03-29 18:00:00",
       "kp": 2.67,
-      "status": "predicted",
+      "status": "estimated",
       "scale": null
     },
     {
       "time": "2026-03-29 21:00:00",
       "kp": 3,
-      "status": "predicted",
+      "status": "estimated",
       "scale": null
     },
     {
@@ -441,9 +393,9 @@
     },
     {
       "time": "2026-03-30 03:00:00",
-      "kp": 4,
+      "kp": 4.67,
       "status": "predicted",
-      "scale": null
+      "scale": "G1"
     },
     {
       "time": "2026-03-30 06:00:00",
@@ -459,7 +411,7 @@
     },
     {
       "time": "2026-03-30 12:00:00",
-      "kp": 2,
+      "kp": 2.33,
       "status": "predicted",
       "scale": null
     },
@@ -477,13 +429,61 @@
     },
     {
       "time": "2026-03-30 21:00:00",
-      "kp": 3,
+      "kp": 3.67,
       "status": "predicted",
       "scale": null
     },
     {
       "time": "2026-03-31 00:00:00",
+      "kp": 3.67,
+      "status": "predicted",
+      "scale": null
+    },
+    {
+      "time": "2026-03-31 03:00:00",
+      "kp": 3,
+      "status": "predicted",
+      "scale": null
+    },
+    {
+      "time": "2026-03-31 06:00:00",
+      "kp": 2.67,
+      "status": "predicted",
+      "scale": null
+    },
+    {
+      "time": "2026-03-31 09:00:00",
+      "kp": 2,
+      "status": "predicted",
+      "scale": null
+    },
+    {
+      "time": "2026-03-31 12:00:00",
+      "kp": 2,
+      "status": "predicted",
+      "scale": null
+    },
+    {
+      "time": "2026-03-31 15:00:00",
       "kp": 2.33,
+      "status": "predicted",
+      "scale": null
+    },
+    {
+      "time": "2026-03-31 18:00:00",
+      "kp": 2.67,
+      "status": "predicted",
+      "scale": null
+    },
+    {
+      "time": "2026-03-31 21:00:00",
+      "kp": 2.67,
+      "status": "predicted",
+      "scale": null
+    },
+    {
+      "time": "2026-04-01 00:00:00",
+      "kp": 1.67,
       "status": "predicted",
       "scale": null
     }
