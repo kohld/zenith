@@ -1,73 +1,130 @@
 {
-  "generated_at": "2026-03-30T01:00:39.442Z",
+  "generated_at": "2026-03-30T12:39:20.380Z",
   "daily_summary": {
-    "headline": "Exciting Launches and Aurora Opportunities on March 30, 2026",
+    "headline": "Artemis II and Aurora Storms Highlight a Busy Day in Space",
     "top_events": [
       {
         "rank": 1,
-        "title": "Kinetica 2 | Qingzhou Spacecraft Demo Flight",
-        "description": "First test launch of CAS Space’s Kinetica-2 rocket and Qingzhou cargo resupply spacecraft for future cargo transport to the Chinese Tiangong Space Station.",
-        "importance": 7,
-        "date": "2026-03-30T11:00:00Z",
+        "title": "Artemis II Crewed Mission",
+        "description": "The Artemis II mission is set to launch, marking the first crewed mission to the Moon in over 50 years as part of NASA's Artemis program.",
+        "importance": 10,
+        "date": "2026-04-01",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Watch live on NASA's official channels."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 | Transporter 16 (Dedicated SSO Rideshare)",
-        "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
-        "importance": 6,
-        "date": "2026-03-30T11:02:00Z",
-        "type": "launch",
-        "action": "Watch live stream"
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G2-level geomagnetic storm is predicted, offering a good chance to view auroras down to 60° latitude.",
+        "importance": 7,
+        "date": "2026-03-31",
+        "type": "aurora",
+        "action": "Check local weather and head to dark areas for the best views."
       },
       {
         "rank": 3,
-        "title": "Aurora Viewing Opportunity",
-        "description": "Possible aurora at high latitudes with a Kp index of 4.67, best visible above 65° latitude.",
-        "importance": 5,
-        "date": "2026-03-30",
-        "type": "aurora",
-        "action": "Check conditions and prepare for viewing"
+        "title": "Tianlong-3 Demo Flight",
+        "description": "The maiden flight of the Tianlong-3 rocket by Space Pioneer, a significant step for China's private space sector.",
+        "importance": 8,
+        "date": "2026-04-02",
+        "type": "launch",
+        "action": "Follow updates from Space Pioneer for live coverage."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
-      "crewed_missions": 0,
-      "historic_events": 0,
-      "aurora_opportunities": 1
+      "crewed_missions": 1,
+      "historic_events": 1,
+      "aurora_opportunities": 2
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "launch",
+      "priority": "high",
+      "title": "Artemis II Crewed Mission",
+      "message": "The Artemis II mission is set to launch, marking the first crewed mission to the Moon in over 50 years as part of NASA's Artemis program.",
+      "action_required": "Watch live on NASA's official channels.",
+      "expires_at": "2026-04-01T23:59:00Z",
+      "tags": [
+        "Artemis",
+        "NASA",
+        "Moon",
+        "crewed"
+      ],
+      "id": "alert_1774874279458_9zlsx9uhb"
+    },
+    {
+      "type": "aurora",
+      "priority": "medium",
+      "title": "Aurora Viewing Opportunity",
+      "message": "A G2-level geomagnetic storm is predicted, offering a good chance to view auroras down to 60° latitude.",
+      "action_required": "Check local weather and head to dark areas for the best views.",
+      "expires_at": "2026-03-31T23:59:00Z",
+      "tags": [
+        "aurora",
+        "G2",
+        "geomagnetic"
+      ],
+      "id": "alert_1774874279458_buf39uesp"
+    },
+    {
+      "type": "launch",
+      "priority": "medium",
+      "title": "Tianlong-3 Demo Flight",
+      "message": "The maiden flight of the Tianlong-3 rocket by Space Pioneer, a significant step for China's private space sector.",
+      "action_required": "Follow updates from Space Pioneer for live coverage.",
+      "expires_at": "2026-04-02T23:59:00Z",
+      "tags": [
+        "Tianlong-3",
+        "Space Pioneer",
+        "China",
+        "maiden flight"
+      ],
+      "id": "alert_1774874279458_i0mehoc9w"
+    }
+  ],
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-03-30",
-        "max_kp": 4.67,
+        "date": "2026-03-31",
+        "max_kp": 5.67,
         "storm_level": "G1",
-        "probability": "Low (30-50%)",
+        "probability": "Moderate (50-70%)",
         "time_window": {
-          "start": "2026-03-30 03:00:00",
-          "end": "2026-03-30 03:00:00"
+          "start": "2026-03-31 12:00:00",
+          "end": "2026-03-31 21:00:00"
         },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+        "duration_hours": 9,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-04-01",
+        "max_kp": 5,
+        "storm_level": "G1",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-04-01 00:00:00",
+          "end": "2026-04-01 09:00:00"
+        },
+        "duration_hours": 9,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
       }
     ],
     "best_window": {
-      "date": "2026-03-30",
-      "time": "03:00-03:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
+      "date": "2026-03-31",
+      "time": "12:00-21:00 UTC",
+      "kp": 5.67,
+      "visibility_range": "Down to 60° latitude"
     },
-    "total_viewing_hours": 0
+    "total_viewing_hours": 18
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
-    "iterations": 2
+    "iterations": 3
   }
 }
