@@ -1,21 +1,29 @@
 {
-  "updatedAt": "2026-03-30T11:48:37.667Z",
+  "updatedAt": "2026-03-30T12:22:12.123Z",
   "launches": [
     {
       "id": "e3b45caa-2ccc-4937-931b-780edbe58db9",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/e3b45caa-2ccc-4937-931b-780edbe58db9/",
-      "slug": "kinetica-2-demo-flight",
+      "slug": "kinetica-2-demo-flight-qingzhou-prototype-spacecra",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Kinetica 2 | Demo Flight",
+      "name": "Kinetica 2 | Demo Flight (Qingzhou Prototype Spacecraft)",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-03-30T11:28:21Z",
+      "last_updated": "2026-03-30T12:13:55Z",
       "updates": [
+        {
+          "id": 14508,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://x.com/cas_space/status/1962372762963476738",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-30T12:13:00Z"
+        },
         {
           "id": 14496,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -86,8 +94,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 12,
-        "consecutive_successful_launches": 5,
-        "successful_launches": 10,
+        "consecutive_successful_launches": 6,
+        "successful_launches": 11,
         "failed_launches": 1,
         "pending_launches": 0,
         "consecutive_successful_landings": 0,
@@ -126,8 +134,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 12,
-            "consecutive_successful_launches": 5,
-            "successful_launches": 10,
+            "consecutive_successful_launches": 6,
+            "successful_launches": 11,
             "failed_launches": 1,
             "pending_launches": 0,
             "consecutive_successful_landings": 0,
@@ -147,7 +155,7 @@
           "max_stage": 2,
           "length": 52,
           "diameter": 3.35,
-          "maiden_flight": null,
+          "maiden_flight": "2026-03-30",
           "launch_cost": null,
           "launch_mass": 625,
           "leo_capacity": 12000,
@@ -159,8 +167,8 @@
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/CAS_Space#Kinetica_2,_and_2H",
           "total_launch_count": 1,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
           "failed_launches": 0,
           "pending_launches": 0,
           "attempted_landings": 0,
@@ -173,8 +181,8 @@
       },
       "mission": {
         "id": 7414,
-        "name": "Demo Flight",
-        "description": "First test launch and mission of CAS Space’s Kinetica-2 rocket, with 3 satellites on board.",
+        "name": "Demo Flight (Qingzhou Prototype Spacecraft)",
+        "description": "First test launch and mission of CAS Space’s Kinetica-2 rocket, with 3 spacecraft on board:\r\n\r\n* New March 02/Xinzhengcheng 02 (Qingzhou Prototype Spacecraft)\r\n* New March 01/Xinzhengcheng 01 in orbit experiment laboratory\r\n* TS-01",
         "launch_designator": null,
         "type": "Test Flight",
         "orbit": {
