@@ -5,4 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
     base: '/zenith/',
     plugins: [react(), tailwindcss()],
+    worker: {
+        format: 'es',
+    },
 })
