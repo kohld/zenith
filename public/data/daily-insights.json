@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-03-30T12:39:20.380Z",
+  "generated_at": "2026-03-31T00:59:37.922Z",
   "daily_summary": {
-    "headline": "Artemis II and Aurora Storms Highlight a Busy Day in Space",
+    "headline": "Artemis II Prepares for Historic Lunar Flyby",
     "top_events": [
       {
         "rank": 1,
-        "title": "Artemis II Crewed Mission",
-        "description": "The Artemis II mission is set to launch, marking the first crewed mission to the Moon in over 50 years as part of NASA's Artemis program.",
+        "title": "SLS Block 1 | Artemis II",
+        "description": "Artemis II is the first crewed mission as part of the Artemis program. It will send a crew of 4 around the moon and return them back to Earth.",
         "importance": 10,
         "date": "2026-04-01",
         "type": "launch",
-        "action": "Watch live on NASA's official channels."
+        "action": "Watch the historic launch live on NASA's official channels."
       },
       {
         "rank": 2,
         "title": "Aurora Viewing Opportunity",
-        "description": "A G2-level geomagnetic storm is predicted, offering a good chance to view auroras down to 60° latitude.",
+        "description": "A G2 geomagnetic storm is expected, offering a good chance to view auroras at latitudes down to 60°.",
         "importance": 7,
         "date": "2026-03-31",
         "type": "aurora",
-        "action": "Check local weather and head to dark areas for the best views."
+        "action": "Check local weather and head to a dark location for the best viewing."
       },
       {
         "rank": 3,
         "title": "Tianlong-3 Demo Flight",
-        "description": "The maiden flight of the Tianlong-3 rocket by Space Pioneer, a significant step for China's private space sector.",
-        "importance": 8,
+        "description": "First test launch of Space Pioneer’s Tianlong-3 rocket, potentially carrying a batch of satellites.",
+        "importance": 7,
         "date": "2026-04-02",
         "type": "launch",
         "action": "Follow updates from Space Pioneer for live coverage."
@@ -35,53 +35,23 @@
       "total_launches_this_week": 5,
       "crewed_missions": 1,
       "historic_events": 1,
-      "aurora_opportunities": 2
+      "aurora_opportunities": 1
     }
   },
   "alerts": [
     {
       "type": "launch",
       "priority": "high",
-      "title": "Artemis II Crewed Mission",
-      "message": "The Artemis II mission is set to launch, marking the first crewed mission to the Moon in over 50 years as part of NASA's Artemis program.",
-      "action_required": "Watch live on NASA's official channels.",
-      "expires_at": "2026-04-01T23:59:00Z",
+      "title": "Artemis II Launch Alert",
+      "message": "Artemis II, the first crewed mission of the Artemis program, is set to launch. This mission will send a crew of 4 around the moon and back to Earth.",
+      "action_required": "Watch the launch live on NASA's official channels.",
+      "expires_at": "2026-04-02T00:00:00Z",
       "tags": [
         "Artemis",
         "NASA",
-        "Moon",
-        "crewed"
-      ],
-      "id": "alert_1774874279458_9zlsx9uhb"
-    },
-    {
-      "type": "aurora",
-      "priority": "medium",
-      "title": "Aurora Viewing Opportunity",
-      "message": "A G2-level geomagnetic storm is predicted, offering a good chance to view auroras down to 60° latitude.",
-      "action_required": "Check local weather and head to dark areas for the best views.",
-      "expires_at": "2026-03-31T23:59:00Z",
-      "tags": [
-        "aurora",
-        "G2",
-        "geomagnetic"
-      ],
-      "id": "alert_1774874279458_buf39uesp"
-    },
-    {
-      "type": "launch",
-      "priority": "medium",
-      "title": "Tianlong-3 Demo Flight",
-      "message": "The maiden flight of the Tianlong-3 rocket by Space Pioneer, a significant step for China's private space sector.",
-      "action_required": "Follow updates from Space Pioneer for live coverage.",
-      "expires_at": "2026-04-02T23:59:00Z",
-      "tags": [
-        "Tianlong-3",
-        "Space Pioneer",
-        "China",
-        "maiden flight"
-      ],
-      "id": "alert_1774874279458_i0mehoc9w"
+        "Historic",
+        "Crewed"
+      ]
     }
   ],
   "aurora_insights": {
@@ -89,7 +59,7 @@
       {
         "date": "2026-03-31",
         "max_kp": 5.67,
-        "storm_level": "G1",
+        "storm_level": "G2",
         "probability": "Moderate (50-70%)",
         "time_window": {
           "start": "2026-03-31 12:00:00",
@@ -123,7 +93,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 3
   }
