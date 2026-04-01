@@ -1,219 +1,6 @@
 {
-  "generated_at": "2026-04-01T01:06:13.018Z",
+  "generated_at": "2026-04-01T12:40:21.962Z",
   "launches": [
-    {
-      "id": "bc0cca05-0fb5-43ca-b648-a852d20ceaf3",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/bc0cca05-0fb5-43ca-b648-a852d20ceaf3/",
-      "slug": "soyuz-21afregat-m-meridian-m-no21l",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Soyuz 2.1a/Fregat-M | Meridian-M No.21L",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-03-27T20:33:11Z",
-      "updates": [
-        {
-          "id": 14466,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per NOTAMs; Payload identity and launch pad used uncertain.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64676.msg2772881#msg2772881",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-03-27T20:33:00Z"
-        }
-      ],
-      "net": "2026-04-01T02:00:00Z",
-      "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
-      },
-      "window_end": "2026-04-01T12:00:00Z",
-      "window_start": "2026-04-01T02:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 193,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/193/",
-        "name": "Russian Space Forces",
-        "featured": false,
-        "type": "Government",
-        "country_code": "RUS",
-        "abbrev": "VKS",
-        "description": "The Russian Space Forces are a branch of the Russian Aerospace Forces, that provides aerospace warning, air sovereignty, and protection for Russia. Having been reestablished following August 1, 2015 merger between the Russian Air Force and the Russian Aerospace Defence Forces after a 2011 dissolving of the branch. The Russian Space Forces were originally formed on August 10, 1992 and the creation of the Russian Armed Forces.",
-        "administrator": "Commander: Aleksandr Golovko",
-        "founding_year": "1992",
-        "launchers": "",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 148,
-        "consecutive_successful_launches": 60,
-        "successful_launches": 140,
-        "failed_launches": 8,
-        "pending_launches": 2,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 0,
-        "attempted_landings": 0,
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Russian_Aerospace_Forces",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520space2520forces_logo_20200805185824.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520space2520forces_image_20191210085547.png",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520space2520forces_nation_20230805154528.png"
-      },
-      "rocket": {
-        "id": 8956,
-        "configuration": {
-          "id": 45,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/45/",
-          "name": "Soyuz 2.1a/Fregat-M",
-          "active": true,
-          "reusable": false,
-          "description": "The 2.1a version includes conversion from analog to digital flight control system and uprated engines on the booster and the first stage with improved injection systems. The new digital flight control and telemetry systems allow the rocket to launch from a fixed rather than angled launch platform and adjust its heading in flight. A digital control system also enables the launch of larger commercial satellites with wider and longer payload fairings such as the ST-type fairing. These fairings introduce too much aerodynamic instability for the old analog system to handle.",
-          "family": "Soyuz",
-          "full_name": "Soyuz 2.1a Fregat-M",
-          "manufacturer": {
-            "id": 111,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/111/",
-            "name": "Progress Rocket Space Center",
-            "featured": false,
-            "type": "Commercial",
-            "country_code": "RUS",
-            "abbrev": "PRSC",
-            "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
-            "administrator": "CEO: Dmitry Baranov",
-            "founding_year": "1996",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 45,
-            "consecutive_successful_launches": 3,
-            "successful_launches": 44,
-            "failed_launches": 1,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://en.samspace.ru/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Progress_Rocket_Space_Centre",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
-            "image_url": null,
-            "nation_url": null
-          },
-          "program": [],
-          "variant": "Fregat-M",
-          "alias": "",
-          "min_stage": 3,
-          "max_stage": 3,
-          "length": 46.3,
-          "diameter": 2.95,
-          "maiden_flight": "2010-10-19",
-          "launch_cost": "80000000",
-          "launch_mass": 312,
-          "leo_capacity": 7020,
-          "gto_capacity": null,
-          "to_thrust": 4149,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1a_image_20190726062341.png",
-          "info_url": null,
-          "wiki_url": "https://en.wikipedia.org/wiki/Soyuz-2",
-          "total_launch_count": 19,
-          "consecutive_successful_launches": 9,
-          "successful_launches": 18,
-          "failed_launches": 1,
-          "pending_launches": 1,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7551,
-        "name": "Meridian-M No.21L",
-        "description": "Note: Payload identity uncertain.\r\n\r\nMeridian is a series of communications satellite for military and civilian use.",
-        "launch_designator": null,
-        "type": "Communications",
-        "orbit": {
-          "id": 0,
-          "name": "Elliptical Orbit",
-          "abbrev": "Elliptical"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 36,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/36/",
-        "agency_id": 163,
-        "name": "43/3 (43L)",
-        "description": "",
-        "info_url": null,
-        "wiki_url": null,
-        "map_url": "https://www.google.com/maps?q=62.9273,40.45",
-        "latitude": "62.9273",
-        "longitude": "40.45",
-        "location": {
-          "id": 6,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
-          "name": "Plesetsk Cosmodrome, Russian Federation",
-          "country_code": "RUS",
-          "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
-          "timezone_name": "Europe/Moscow",
-          "total_launch_count": 1682,
-          "total_landing_count": 0
-        },
-        "country_code": "RUS",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_36_20200803143534.jpg",
-        "total_launch_count": 231,
-        "orbital_launch_attempt_count": 231
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1a_image_20190726062341.png",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7246,
-      "location_launch_attempt_count": 1683,
-      "pad_launch_attempt_count": 232,
-      "agency_launch_attempt_count": 149,
-      "orbital_launch_attempt_count_year": 73,
-      "location_launch_attempt_count_year": 3,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 2,
-      "pad_turnaround": "P199DT23H50M",
-      "mission_patches": [],
-      "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "bc0cca05-0fb5-43ca-b648-a852d20ceaf3",
-        "importance_score": 5,
-        "reasoning": "Standard mission",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
-    },
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/41699701-2ef4-4b0c-ac9d-6757820cde87/",
@@ -2117,10 +1904,11 @@
       "ai_enrichment": {
         "launch_id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
         "importance_score": 10,
-        "reasoning": "First crewed mission of the Artemis program, sending astronauts on a lunar flyby.",
+        "reasoning": "The Artemis II mission is a historic crewed lunar flyby, marking NASA's first such mission in over 50 years. It tests the Orion spacecraft's systems.",
         "key_facts": [
-          "First crewed lunar flyby in 50 years",
-          "Part of NASA's Artemis program"
+          "First crewed lunar flyby in over 50 years",
+          "Tests Orion spacecraft systems",
+          "Part of the Artemis program"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -2131,10 +1919,10 @@
         "tags": [
           "Artemis",
           "NASA",
-          "LunarFlyby",
+          "CrewedMission",
           "Historic"
         ],
-        "user_recommendation": "Watch live broadcast and follow mission updates"
+        "user_recommendation": "Watch live broadcast and follow mission updates."
       }
     },
     {
@@ -2751,11 +2539,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7249,
+      "orbital_launch_attempt_count": 7248,
       "location_launch_attempt_count": 1099,
       "pad_launch_attempt_count": 376,
       "agency_launch_attempt_count": 660,
-      "orbital_launch_attempt_count_year": 76,
+      "orbital_launch_attempt_count_year": 75,
       "location_launch_attempt_count_year": 23,
       "pad_launch_attempt_count_year": 22,
       "agency_launch_attempt_count_year": 41,
@@ -2778,15 +2566,21 @@
       "ai_enrichment": {
         "launch_id": "63aa7636-d2b7-457f-a3e6-27e564e42941",
         "importance_score": 5,
-        "reasoning": "Standard mission",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
+        "key_facts": [
+          "Part of the Starlink mega-constellation",
+          "Routine satellite deployment"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "SpaceX",
+          "Starlink"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -3417,11 +3211,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7250,
+      "orbital_launch_attempt_count": 7249,
       "location_launch_attempt_count": 873,
       "pad_launch_attempt_count": 258,
       "agency_launch_attempt_count": 661,
-      "orbital_launch_attempt_count_year": 77,
+      "orbital_launch_attempt_count_year": 76,
       "location_launch_attempt_count_year": 21,
       "pad_launch_attempt_count_year": 20,
       "agency_launch_attempt_count_year": 42,
@@ -3444,15 +3238,21 @@
       "ai_enrichment": {
         "launch_id": "becc7e9c-72cc-4eb5-a638-1af4491a5729",
         "importance_score": 5,
-        "reasoning": "Standard mission",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
+        "key_facts": [
+          "Part of the Starlink mega-constellation",
+          "Routine satellite deployment"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "SpaceX",
+          "Starlink"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -3689,9 +3489,10 @@
       "ai_enrichment": {
         "launch_id": "98451321-cd10-4ca7-a0d1-4076db5fa73d",
         "importance_score": 7,
-        "reasoning": "First test launch of Space Pioneer’s Tianlong-3 rocket.",
+        "reasoning": "Maiden flight of the Tianlong-3 rocket, potentially carrying satellites for the SpaceSail constellation.",
         "key_facts": [
-          "Maiden flight of Tianlong-3"
+          "Maiden flight",
+          "Potential satellite deployment for SpaceSail"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -3700,10 +3501,352 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "MaidenFlight",
-          "SpacePioneer"
+          "Space Pioneer",
+          "Maiden Flight"
         ],
-        "user_recommendation": "Monitor for updates on maiden flight success"
+        "user_recommendation": "Monitor for updates on mission success."
+      }
+    },
+    {
+      "id": "74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4/",
+      "slug": "soyuz-5-demo-flight",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Soyuz-5 | Demo Flight",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-03-31T19:09:44Z",
+      "updates": [
+        {
+          "id": 14533,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Reverted back to NET April 3.",
+          "info_url": "https://kaztag.kz/ru/news/raketa-sunkar-vpervye-vyvezena-na-startovyy-kompleks-baykonura",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-31T19:09:00Z"
+        },
+        {
+          "id": 14522,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET April 4, to be confirmed.",
+          "info_url": "https://russianspaceweb.com/2026.html",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-30T16:31:00Z"
+        },
+        {
+          "id": 14448,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Delayed to NET April 2.",
+          "info_url": "https://kaztag.kz/ru/news/vyvoz-kazakhstanskoy-rakety-sunkar-na-startovyy-kompleks-vnov-perenesli-na-baykonure",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-26T14:35:00Z"
+        },
+        {
+          "id": 14439,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Delayed to NET March 29, TBC.",
+          "info_url": "https://kaztag.kz/ru/news/vyvoz-kazakhstanskoy-rakety-sunkar-na-startovyy-kompleks-perenesli-na-baykonure",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-25T20:00:00Z"
+        },
+        {
+          "id": 14346,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET March 27, to be confirmed.",
+          "info_url": "https://x.com/russianspaceweb/status/2033976030508052885",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-17T21:45:00Z"
+        },
+        {
+          "id": 13963,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET March 31.",
+          "info_url": "https://t.me/rt_space/1558",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-02-14T00:17:00Z"
+        },
+        {
+          "id": 13266,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Delayed till NET March.",
+          "info_url": "https://t.me/rt_space/1507",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-12T17:08:00Z"
+        },
+        {
+          "id": 13250,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Reverted back to NET December pending official updates.",
+          "info_url": "https://x.com/russianspaceweb/status/1991840120614670666",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-11T17:09:00Z"
+        },
+        {
+          "id": 12085,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch.",
+          "info_url": "https://tass.ru/kosmos/24957441",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-09-05T12:25:00Z"
+        }
+      ],
+      "net": "2026-04-03T11:00:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "window_end": "2026-04-03T11:00:00Z",
+      "window_start": "2026-04-03T11:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 103,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/103/",
+        "name": "RKK Energiya",
+        "featured": false,
+        "type": "Commercial",
+        "country_code": "RUS",
+        "abbrev": "RSC",
+        "description": "",
+        "administrator": null,
+        "founding_year": null,
+        "launchers": "",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 0,
+        "consecutive_successful_launches": 0,
+        "successful_launches": 0,
+        "failed_launches": 0,
+        "pending_launches": 1,
+        "consecutive_successful_landings": 0,
+        "successful_landings": 0,
+        "failed_landings": 0,
+        "attempted_landings": 0,
+        "info_url": "https://www.energia.ru/english/",
+        "wiki_url": "https://en.wikipedia.org/wiki/S.P._Korolev_Rocket_and_Space_Corporation_Energia",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rkk_energiya_lo_image_20250921093034.png",
+        "image_url": null,
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rkk_energiya_so_image_20250921093044.png"
+      },
+      "rocket": {
+        "id": 8701,
+        "configuration": {
+          "id": 521,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/521/",
+          "name": "Soyuz-5",
+          "active": true,
+          "reusable": false,
+          "description": "Soyuz-5, also named Irtysh is a planned Russian rocket that is being developed by JSC SRC Progress, formerly within \"Project Feniks.\" It will replace the capability of Zenit-2 and Proton Medium. It will initially be a two-stage rocket, but Soyuz 5 can be enhanced with an optional Blok DM-03 upper stage for geostationary missions.\r\n\r\nThe rocket is loosely based on the Zenit launch vehicle with a RD-171MV engine on the 1st stage, enlarged to 4.1 m in diameter, while the 2nd stage is powered by 2 RD-0124MS engines derived from engines used on the 3rd stage of the Soyuz-2.1b. The Soyuz-5 can lift 17 tonnes to a Low Earth orbit.",
+          "family": "Soyuz-5",
+          "full_name": "Soyuz-5",
+          "manufacturer": {
+            "id": 103,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/103/",
+            "name": "RKK Energiya",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "RUS",
+            "abbrev": "RSC",
+            "description": "",
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 1,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.energia.ru/english/",
+            "wiki_url": "https://en.wikipedia.org/wiki/S.P._Korolev_Rocket_and_Space_Corporation_Energia",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rkk_energiya_lo_image_20250921093034.png",
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rkk_energiya_so_image_20250921093044.png"
+          },
+          "program": [],
+          "variant": "",
+          "alias": "Irtysh",
+          "min_stage": 2,
+          "max_stage": 3,
+          "length": 65.258,
+          "diameter": 4.1,
+          "maiden_flight": null,
+          "launch_cost": null,
+          "launch_mass": 525,
+          "leo_capacity": 17000,
+          "gto_capacity": 5000,
+          "to_thrust": 7257,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-5_assembl_image_20260327210910.jpeg",
+          "info_url": "https://russianspaceweb.com/soyuz5-lv.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/Irtysh_(rocket)",
+          "total_launch_count": 0,
+          "consecutive_successful_launches": 0,
+          "successful_launches": 0,
+          "failed_launches": 0,
+          "pending_launches": 1,
+          "attempted_landings": 0,
+          "successful_landings": 0,
+          "failed_landings": 0,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7294,
+        "name": "Demo Flight",
+        "description": "Demonstration Flight for Russia's new Soyuz-5 launch vehicle, with a mass simulator on board. Details TBD.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+          "id": 15,
+          "name": "Suborbital",
+          "abbrev": "Sub"
+        },
+        "agencies": [
+          {
+            "id": 103,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/103/",
+            "name": "RKK Energiya",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "RUS",
+            "abbrev": "RSC",
+            "description": "",
+            "administrator": null,
+            "founding_year": null,
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 1,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.energia.ru/english/",
+            "wiki_url": "https://en.wikipedia.org/wiki/S.P._Korolev_Rocket_and_Space_Corporation_Energia",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rkk_energiya_lo_image_20250921093034.png",
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rkk_energiya_so_image_20250921093044.png"
+          },
+          {
+            "id": 63,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+            "name": "Russian Federal Space Agency (ROSCOSMOS)",
+            "featured": true,
+            "type": "Government",
+            "country_code": "RUS",
+            "abbrev": "RFSA",
+            "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
+            "administrator": "Administrator: Yuri Borisov",
+            "founding_year": "1992",
+            "launchers": "Soyuz",
+            "spacecraft": "Soyuz",
+            "launch_library_url": null,
+            "total_launch_count": 340,
+            "consecutive_successful_launches": 64,
+            "successful_launches": 329,
+            "failed_launches": 11,
+            "pending_launches": 2,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://en.roscosmos.ru/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 2,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/2/",
+        "agency_id": null,
+        "name": "45/1",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=45.943492,63.653014",
+        "latitude": "45.943492",
+        "longitude": "63.653014",
+        "location": {
+          "id": 15,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+          "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+          "country_code": "KAZ",
+          "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+          "timezone_name": "Asia/Qyzylorda",
+          "total_launch_count": 1561,
+          "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_2_20200803143256.jpg",
+        "total_launch_count": 46,
+        "orbital_launch_attempt_count": 46
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-5_assembl_image_20260327210910.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": null,
+      "location_launch_attempt_count": 1562,
+      "pad_launch_attempt_count": 47,
+      "agency_launch_attempt_count": 1,
+      "orbital_launch_attempt_count_year": null,
+      "location_launch_attempt_count_year": 3,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 1,
+      "pad_turnaround": "P3019DT15H59M57S",
+      "mission_patches": [],
+      "type": "detailed",
+      "ai_enrichment": {
+        "launch_id": "74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4",
+        "importance_score": 7,
+        "reasoning": "First test flight of Russia's Soyuz-5 rocket, a significant step in replacing the Zenit-2 and Proton Medium capabilities.",
+        "key_facts": [
+          "First test flight",
+          "Replacement for Zenit-2 and Proton Medium"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "Soyuz-5",
+          "Test Flight"
+        ],
+        "user_recommendation": "Stay tuned for launch outcomes and technical evaluations."
       }
     }
   ]
