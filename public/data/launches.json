@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-01T12:22:54.624Z",
+  "updatedAt": "2026-04-01T12:49:22.809Z",
   "launches": [
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
@@ -5865,13 +5865,21 @@
       "r_spacex_api_id": null,
       "name": "New Glenn | BlueBird Block 2 #2",
       "status": {
-        "id": 2,
-        "name": "To Be Determined",
-        "abbrev": "TBD",
-        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+        "id": 8,
+        "name": "To Be Confirmed",
+        "abbrev": "TBC",
+        "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2026-03-29T21:45:30Z",
+      "last_updated": "2026-04-01T12:37:43Z",
       "updates": [
+        {
+          "id": 14535,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET April 12 per air space closure notices.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=62873.msg2774307#msg2774307",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-01T12:37:00Z"
+        },
         {
           "id": 14489,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -5921,15 +5929,15 @@
           "created_on": "2024-11-15T07:22:00Z"
         }
       ],
-      "net": "2026-04-10T00:00:00Z",
+      "net": "2026-04-12T10:45:00Z",
       "net_precision": {
-        "id": 5,
-        "name": "Day",
-        "abbrev": "DAY",
-        "description": "The T-0 is expected on the given day."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-04-10T00:00:00Z",
-      "window_start": "2026-04-10T00:00:00Z",
+      "window_end": "2026-04-12T13:43:00Z",
+      "window_start": "2026-04-12T10:45:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -5953,7 +5961,7 @@
         "consecutive_successful_launches": 17,
         "successful_launches": 39,
         "failed_launches": 1,
-        "pending_launches": 5,
+        "pending_launches": 4,
         "consecutive_successful_landings": 11,
         "successful_landings": 37,
         "failed_landings": 3,
@@ -5993,7 +6001,7 @@
             "consecutive_successful_launches": 17,
             "successful_launches": 39,
             "failed_launches": 1,
-            "pending_launches": 5,
+            "pending_launches": 4,
             "consecutive_successful_landings": 11,
             "successful_landings": 37,
             "failed_landings": 3,
@@ -6026,7 +6034,7 @@
           "consecutive_successful_launches": 2,
           "successful_launches": 2,
           "failed_launches": 0,
-          "pending_launches": 5,
+          "pending_launches": 4,
           "attempted_landings": 2,
           "successful_landings": 1,
           "failed_landings": 1,
@@ -6074,7 +6082,7 @@
               }
             },
             "previous_flight_date": "2025-11-13T20:55:01Z",
-            "turn_around_time_days": 147,
+            "turn_around_time_days": 149,
             "previous_flight": {
               "id": "9c950919-5d11-4a79-a4f1-be7387678c0a",
               "name": "New Glenn | EscaPADE"
@@ -6132,15 +6140,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_th_image_20251113164507.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7257,
+      "orbital_launch_attempt_count": 7256,
       "location_launch_attempt_count": 1102,
       "pad_launch_attempt_count": 71,
       "agency_launch_attempt_count": 41,
-      "orbital_launch_attempt_count_year": 84,
+      "orbital_launch_attempt_count_year": 83,
       "location_launch_attempt_count_year": 26,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 2,
-      "pad_turnaround": "P147DT3H4M59S",
+      "pad_turnaround": "P149DT13H49M59S",
       "mission_patches": [],
       "type": "detailed"
     },
