@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-01T22:13:44.426Z",
+  "updatedAt": "2026-04-01T23:14:06.230Z",
   "launches": [
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
@@ -9,13 +9,37 @@
       "r_spacex_api_id": null,
       "name": "SLS Block 1 | Artemis II",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
       },
-      "last_updated": "2026-04-01T21:33:52Z",
+      "last_updated": "2026-04-01T22:49:09Z",
       "updates": [
+        {
+          "id": 14547,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://www.youtube.com/watch?v=Tf_UjBMIzNo",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-01T22:49:00Z"
+        },
+        {
+          "id": 14546,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.youtube.com/watch?v=Tf_UjBMIzNo",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-01T22:25:00Z"
+        },
+        {
+          "id": 14545,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Extending hold at T-10 minutes.",
+          "info_url": "https://www.youtube.com/watch?v=Tf_UjBMIzNo",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-01T22:15:00Z"
+        },
         {
           "id": 14544,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -169,7 +193,7 @@
           "created_on": "2023-03-07T17:29:04Z"
         }
       ],
-      "net": "2026-04-01T22:24:00Z",
+      "net": "2026-04-01T22:35:12Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -197,11 +221,11 @@
         "launchers": "Space Shuttle | SLS",
         "spacecraft": "Orion",
         "launch_library_url": null,
-        "total_launch_count": 141,
+        "total_launch_count": 142,
         "consecutive_successful_launches": 11,
         "successful_launches": 121,
         "failed_launches": 20,
-        "pending_launches": 6,
+        "pending_launches": 5,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -237,11 +261,11 @@
             "launchers": "Space Shuttle | SLS",
             "spacecraft": "Orion",
             "launch_library_url": null,
-            "total_launch_count": 141,
+            "total_launch_count": 142,
             "consecutive_successful_launches": 11,
             "successful_launches": 121,
             "failed_launches": 20,
-            "pending_launches": 6,
+            "pending_launches": 5,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -295,11 +319,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space_launch_sy_image_20220331082429.jpeg",
           "info_url": "https://www.nasa.gov/exploration/systems/sls/fs/sls.html",
           "wiki_url": "https://en.wikipedia.org/wiki/Space_Launch_System",
-          "total_launch_count": 1,
+          "total_launch_count": 2,
           "consecutive_successful_launches": 1,
           "successful_launches": 1,
           "failed_launches": 0,
-          "pending_launches": 2,
+          "pending_launches": 1,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -745,13 +769,13 @@
           "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 279,
+          "total_launch_count": 280,
           "total_landing_count": 0
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_4_20200803143518.jpg",
-        "total_launch_count": 58,
-        "orbital_launch_attempt_count": 57
+        "total_launch_count": 59,
+        "orbital_launch_attempt_count": 58
       },
       "infoURLs": [
         {
@@ -1909,7 +1933,7 @@
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P1232DT15H36M16S",
+      "pad_turnaround": "P1232DT15H47M28S",
       "mission_patches": [
         {
           "id": 1120,
@@ -3852,8 +3876,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-02T22:53:00Z",
-          "end_time": "2026-04-03T00:54:00Z"
+          "start_time": "2026-04-04T22:53:00Z",
+          "end_time": "2026-04-05T00:54:00Z"
         }
       ],
       "webcast_live": false,
@@ -9570,7 +9594,7 @@
           "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 279,
+          "total_launch_count": 280,
           "total_landing_count": 0
         },
         "country_code": "USA",
@@ -11904,11 +11928,11 @@
             "launchers": "Space Shuttle | SLS",
             "spacecraft": "Orion",
             "launch_library_url": null,
-            "total_launch_count": 141,
+            "total_launch_count": 142,
             "consecutive_successful_launches": 11,
             "successful_launches": 121,
             "failed_launches": 20,
-            "pending_launches": 6,
+            "pending_launches": 5,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -21246,11 +21270,11 @@
             "launchers": "Space Shuttle | SLS",
             "spacecraft": "Orion",
             "launch_library_url": null,
-            "total_launch_count": 141,
+            "total_launch_count": 142,
             "consecutive_successful_launches": 11,
             "successful_launches": 121,
             "failed_launches": 20,
-            "pending_launches": 6,
+            "pending_launches": 5,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -22039,7 +22063,7 @@
           "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 279,
+          "total_launch_count": 280,
           "total_landing_count": 0
         },
         "country_code": "USA",
@@ -22502,11 +22526,11 @@
             "launchers": "Space Shuttle | SLS",
             "spacecraft": "Orion",
             "launch_library_url": null,
-            "total_launch_count": 141,
+            "total_launch_count": 142,
             "consecutive_successful_launches": 11,
             "successful_launches": 121,
             "failed_launches": 20,
-            "pending_launches": 6,
+            "pending_launches": 5,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -23161,11 +23185,11 @@
             "launchers": "Space Shuttle | SLS",
             "spacecraft": "Orion",
             "launch_library_url": null,
-            "total_launch_count": 141,
+            "total_launch_count": 142,
             "consecutive_successful_launches": 11,
             "successful_launches": 121,
             "failed_launches": 20,
-            "pending_launches": 6,
+            "pending_launches": 5,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -24112,7 +24136,7 @@
           "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 279,
+          "total_launch_count": 280,
           "total_landing_count": 0
         },
         "country_code": "USA",
@@ -27138,11 +27162,11 @@
             "launchers": "Space Shuttle | SLS",
             "spacecraft": "Orion",
             "launch_library_url": null,
-            "total_launch_count": 141,
+            "total_launch_count": 142,
             "consecutive_successful_launches": 11,
             "successful_launches": 121,
             "failed_launches": 20,
-            "pending_launches": 6,
+            "pending_launches": 5,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -31197,7 +31221,7 @@
                 "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
                 "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
                 "timezone_name": "America/New_York",
-                "total_launch_count": 279,
+                "total_launch_count": 280,
                 "total_landing_count": 0
               },
               "successful_landings": 81
@@ -31238,11 +31262,11 @@
             "launchers": "Space Shuttle | SLS",
             "spacecraft": "Orion",
             "launch_library_url": null,
-            "total_launch_count": 141,
+            "total_launch_count": 142,
             "consecutive_successful_launches": 11,
             "successful_launches": 121,
             "failed_launches": 20,
-            "pending_launches": 6,
+            "pending_launches": 5,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
