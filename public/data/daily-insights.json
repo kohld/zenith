@@ -1,111 +1,69 @@
 {
-  "generated_at": "2026-03-31T12:39:00.117Z",
+  "generated_at": "2026-04-01T01:06:13.017Z",
   "daily_summary": {
-    "headline": "Artemis II Prepares for Historic Lunar Flyby",
+    "headline": "Artemis II: A Historic Crewed Lunar Flyby",
     "top_events": [
       {
         "rank": 1,
         "title": "SLS Block 1 | Artemis II",
-        "description": "Artemis II is the first crewed mission as part of the Artemis program, sending a crew of 4 around the moon.",
+        "description": "First crewed mission of the Artemis program, sending astronauts on a lunar flyby.",
         "importance": 10,
-        "date": "2026-04-01",
+        "date": "2026-04-01T22:24:00Z",
         "type": "launch",
-        "action": "Watch live broadcast and follow mission updates."
+        "action": "Watch live broadcast and follow mission updates"
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A strong geomagnetic storm (G2) is expected, providing a good aurora viewing opportunity at high latitudes.",
-        "importance": 8,
-        "date": "2026-03-31",
-        "type": "aurora",
-        "action": "Plan to view the aurora if you're at high latitudes."
+        "title": "Tianlong-3 | Demo Flight",
+        "description": "First test launch of Space Pioneer’s Tianlong-3 rocket.",
+        "importance": 7,
+        "date": "2026-04-03T04:00:00Z",
+        "type": "launch",
+        "action": "Monitor for updates on maiden flight success"
       },
       {
         "rank": 3,
-        "title": "Tianlong-3 Demo Flight",
-        "description": "First test launch of Space Pioneer’s Tianlong-3 rocket, potentially carrying satellites for a new constellation.",
-        "importance": 7,
-        "date": "2026-04-03",
+        "title": "Soyuz 2.1a/Fregat-M | Meridian-M No.21L",
+        "description": "Launch of a communications satellite for military and civilian use.",
+        "importance": 5,
+        "date": "2026-04-01T02:00:00Z",
         "type": "launch",
-        "action": "Follow updates on this maiden flight."
+        "action": "Follow launch updates"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 1,
       "historic_events": 1,
-      "aurora_opportunities": 3
+      "aurora_opportunities": 0
     }
   },
   "alerts": [
     {
       "type": "launch",
       "priority": "high",
-      "title": "SLS Block 1 | Artemis II Launch",
-      "message": "Artemis II is the first crewed mission as part of the Artemis program, sending a crew of 4 around the moon. This historic mission marks a significant milestone in human space exploration.",
-      "action_required": "Watch live broadcast and follow mission updates.",
+      "title": "Artemis II Launch Alert",
+      "message": "The Artemis II mission is set to launch, marking the first crewed lunar flyby in 50 years. This historic event is part of NASA's Artemis program.",
+      "action_required": "Watch the live broadcast and follow mission updates.",
       "expires_at": "2026-04-01T23:59:00Z",
       "tags": [
         "Artemis",
         "NASA",
-        "LunarMission",
+        "LunarFlyby",
         "Historic"
       ]
     }
   ],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-03-31",
-        "max_kp": 6.33,
-        "storm_level": "G2",
-        "probability": "High (70-90%)",
-        "time_window": {
-          "start": "2026-03-31 15:00:00",
-          "end": "2026-03-31 21:00:00"
-        },
-        "duration_hours": 6,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
-      {
-        "date": "2026-04-01",
-        "max_kp": 5,
-        "storm_level": "G1",
-        "probability": "Moderate (50-70%)",
-        "time_window": {
-          "start": "2026-04-01 00:00:00",
-          "end": "2026-04-01 09:00:00"
-        },
-        "duration_hours": 9,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
-      {
-        "date": "2026-04-02",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-04-02 12:00:00",
-          "end": "2026-04-02 21:00:00"
-        },
-        "duration_hours": 9,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-03-31",
-      "time": "15:00-21:00 UTC",
-      "kp": 6.33,
-      "visibility_range": "Down to 55° latitude"
-    },
-    "total_viewing_hours": 24
+    "opportunities": [],
+    "best_window": null,
+    "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 0,
     "processing_time_seconds": 0,
     "iterations": 3
   }
