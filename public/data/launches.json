@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-02T17:19:39.625Z",
+  "updatedAt": "2026-04-02T17:47:38.031Z",
   "launches": [
     {
       "id": "41699701-2ef4-4b0c-ac9d-6757820cde87",
@@ -3562,7 +3562,7 @@
           "source": null,
           "publisher": "United Launch Alliance",
           "title": "Rocket Launch: Amazon Leo 5",
-          "description": "ULA's Atlas V rocket will deliver another batch of satellites into low Earth orbit for Amazon Leo, the broadband constellation. Amazon Leo's mission is to provide fast, reliable internet to customers around the world, including those in unserved and underserved communities, using a network of more than 3,000 LEO satellites. The window opens at 3:53 a.m. EDT. \n\nGO Atlas! GO Centaur! GO Leo 5!",
+          "description": "ULA's Atlas V rocket will deliver another batch of satellites into low Earth orbit for Amazon Leo, the broadband constellation. Amazon Leo's mission is to provide fast, reliable internet to customers around the world, including those in unserved and underserved communities, using a network of more than 3,000 LEO satellites.  \n\nGO Atlas! GO Centaur! GO Leo 5!",
           "feature_image": "https://i.ytimg.com/vi/NAKuVmkp5q8/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=NAKuVmkp5q8",
           "type": {
@@ -3574,7 +3574,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-03-29T07:33:00Z",
+          "start_time": "2026-04-04T05:25:00Z",
           "end_time": null
         }
       ],
@@ -4891,7 +4891,27 @@
               "info_link": ""
             }
           },
-          "landing": null,
+          "landing": {
+            "id": 1840,
+            "attempt": false,
+            "success": null,
+            "description": "",
+            "downrange_distance": null,
+            "location": {
+              "id": 18,
+              "name": "Pacific Ocean",
+              "abbrev": "PAC",
+              "description": "Pacific Ocean",
+              "location": null,
+              "successful_landings": 50
+            },
+            "type": {
+              "id": 7,
+              "name": "Destructive Reentry",
+              "abbrev": "ATM",
+              "description": "Spacecraft burned up in the atmosphere"
+            }
+          },
           "docking_events": []
         }
       },
