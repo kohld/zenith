@@ -1,59 +1,44 @@
 {
-  "generated_at": "2026-04-01T12:40:21.962Z",
+  "generated_at": "2026-04-02T00:55:06.456Z",
   "daily_summary": {
-    "headline": "Artemis II Takes Center Stage in Space Events",
+    "headline": "Routine Day in Space: Starlink and Demo Flights Dominate",
     "top_events": [
       {
         "rank": 1,
-        "title": "SLS Block 1 | Artemis II Launch",
-        "description": "The Artemis II mission marks NASA's first crewed lunar flyby in over 50 years, testing the Orion spacecraft's systems.",
-        "importance": 10,
-        "date": "2026-04-01T22:24:00Z",
+        "title": "Falcon 9 Block 5 | Starlink Group 10-58",
+        "description": "SpaceX launches another batch of Starlink satellites to expand global internet coverage.",
+        "importance": 5,
+        "date": "2026-04-02",
         "type": "launch",
-        "action": "Watch live broadcast and follow mission updates."
+        "action": "Watch live stream for best viewing experience."
       },
       {
         "rank": 2,
-        "title": "Tianlong-3 Demo Flight",
-        "description": "Space Pioneer's Tianlong-3 rocket embarks on its maiden flight, potentially carrying satellites for the SpaceSail constellation.",
-        "importance": 7,
-        "date": "2026-04-03T04:00:00Z",
+        "title": "Tianlong-3 | Demo Flight",
+        "description": "Space Pioneer conducts a test flight of their new Tianlong-3 rocket.",
+        "importance": 5,
+        "date": "2026-04-03",
         "type": "launch",
-        "action": "Monitor for updates on mission success."
+        "action": "Follow updates for potential first flight success."
       },
       {
         "rank": 3,
-        "title": "Soyuz-5 Demo Flight",
-        "description": "Russia's Soyuz-5 rocket undergoes its first test flight, a significant step in replacing the Zenit-2 and Proton Medium capabilities.",
-        "importance": 7,
-        "date": "2026-04-03T11:00:00Z",
+        "title": "Soyuz-5 | Demo Flight",
+        "description": "Russia's new Soyuz-5 rocket undergoes a demonstration flight.",
+        "importance": 5,
+        "date": "2026-04-03",
         "type": "launch",
-        "action": "Stay tuned for launch outcomes and technical evaluations."
+        "action": "Stay tuned for results of this critical test."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
-      "crewed_missions": 1,
-      "historic_events": 1,
+      "crewed_missions": 0,
+      "historic_events": 0,
       "aurora_opportunities": 0
     }
   },
-  "alerts": [
-    {
-      "type": "launch",
-      "priority": "high",
-      "title": "Artemis II Launch Alert",
-      "message": "The Artemis II mission is set to launch today, marking NASA's first crewed lunar flyby in over 50 years. This historic mission will test the Orion spacecraft's systems.",
-      "action_required": "Watch live broadcast and follow mission updates.",
-      "expires_at": "2026-04-01T23:59:00Z",
-      "tags": [
-        "Artemis",
-        "NASA",
-        "CrewedMission",
-        "Historic"
-      ]
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
     "opportunities": [],
     "best_window": null,
@@ -65,6 +50,6 @@
     "total_launches_analyzed": 5,
     "total_aurora_entries_analyzed": 0,
     "processing_time_seconds": 0,
-    "iterations": 3
+    "iterations": 2
   }
 }
