@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-04-03T00:57:56.451Z",
+  "generated_at": "2026-04-03T12:31:32.711Z",
   "daily_summary": {
-    "headline": "Exciting Test Flights and Satellite Deployments",
+    "headline": "Exciting Rocket Launches and Aurora Insights for April 3, 2026",
     "top_events": [
       {
         "rank": 1,
-        "title": "Tianlong-3 Demo Flight",
-        "description": "First test launch of Space Pioneer’s Tianlong-3 rocket, potentially carrying satellites for a new constellation.",
-        "importance": 5,
-        "date": "2026-04-03T04:00:00Z",
+        "title": "Soyuz-5 Demo Flight",
+        "description": "Demonstration Flight for Russia's new Soyuz-5 launch vehicle.",
+        "importance": 8,
+        "date": "2026-04-04T11:00:00Z",
         "type": "launch",
-        "action": "Watch live stream for maiden flight insights."
+        "action": "Watch the live stream for this significant test flight."
       },
       {
         "rank": 2,
-        "title": "Soyuz-5 Demo Flight",
-        "description": "Demonstration flight for Russia's new Soyuz-5 launch vehicle with a mass simulator on board.",
-        "importance": 5,
-        "date": "2026-04-03T11:00:00Z",
+        "title": "Atlas V 551 | Amazon Leo (LA-05)",
+        "description": "Launch of Amazon's satellite constellation for global broadband internet.",
+        "importance": 7,
+        "date": "2026-04-04T05:45:00Z",
         "type": "launch",
-        "action": "Tune in to see the new rocket's capabilities."
+        "action": "Tune in to see the deployment of Amazon's broadband satellites."
       },
       {
         "rank": 3,
-        "title": "Atlas V 551 Amazon Leo Launch",
-        "description": "Deployment of 29 satellites for Amazon's Leo constellation, enhancing global broadband access.",
-        "importance": 5,
-        "date": "2026-04-04T05:45:00Z",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-35",
+        "description": "Deployment of 25 Starlink satellites for SpaceX's internet constellation.",
+        "importance": 6,
+        "date": "2026-04-05T23:03:00Z",
         "type": "launch",
-        "action": "Follow the launch for updates on satellite deployment."
+        "action": "Catch the live stream of SpaceX's latest Starlink mission."
       }
     ],
     "statistics": {
@@ -38,7 +38,22 @@
       "aurora_opportunities": 0
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "launch",
+      "priority": "high",
+      "title": "Soyuz-5 Demo Flight",
+      "message": "The Soyuz-5 Demo Flight is a significant test of Russia's new launch vehicle. Scheduled for April 4, 2026, at 11:00 UTC.",
+      "action_required": "Watch the live stream for this significant test flight.",
+      "expires_at": "2026-04-04T12:00:00Z",
+      "tags": [
+        "Soyuz-5",
+        "Demo Flight",
+        "Russia",
+        "Test Launch"
+      ]
+    }
+  ],
   "aurora_insights": {
     "opportunities": [],
     "best_window": null,
@@ -50,6 +65,6 @@
     "total_launches_analyzed": 5,
     "total_aurora_entries_analyzed": 0,
     "processing_time_seconds": 0,
-    "iterations": 2
+    "iterations": 3
   }
 }
