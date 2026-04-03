@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-03T12:48:31.957Z",
+  "updatedAt": "2026-04-03T13:30:36.991Z",
   "launches": [
     {
       "id": "98451321-cd10-4ca7-a0d1-4076db5fa73d",
@@ -253,7 +253,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-04-03T12:13:37Z",
+      "last_updated": "2026-04-03T13:20:56Z",
       "updates": [
         {
           "id": 14565,
@@ -445,7 +445,28 @@
         "orbital_launch_attempt_count": 232
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "The Space Devs",
+          "title": "Russian Space Forces Meridian-M No.21L",
+          "description": "On Friday April 03, 2026 at 06:28 UTC, Russian Space Forces launched the Meridian-M No.21L mission with a Soyuz 2.1a Fregat-M from 43/3 (43L) at Plesetsk Cosmodrome, Russian Federation.\n\nDescription generated from the Launch Library 2 API.\n——————————————————————\nObject in the Launch Library 2 API: https://ll.thespacedevs.com/2.3.0/launches/bc0cca05-0fb5-43ca-b648-a852d20ceaf3/\nRelated news in the Spaceflight News API: https://api.spaceflightnewsapi.net/v4/articles/?launch=bc0cca05-0fb5-43ca-b648-a852d20ceaf3\n——————————————————————\n\nRehosted on YouTube by The Space Devs.\nSupport our work on https://www.patreon.com/TheSpaceDevs\n——————————————————————\nWebsite: https://thespacedevs.com\nX: https://x.com/thespacedevs\nDiscord: https://discord.com/invite/p7ntkNA\n——————————————————————\n\nOrigin...",
+          "feature_image": "https://i.ytimg.com/vi/y8rfeYxzHwA/maxresdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=y8rfeYxzHwA",
+          "type": {
+            "id": 6,
+            "name": "Recap"
+          },
+          "language": {
+            "id": 3,
+            "name": "Russian",
+            "code": "ru"
+          },
+          "start_time": "2026-04-03T13:18:44Z",
+          "end_time": "2026-04-03T13:19:25Z"
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz25202.1a_image_20190726062341.png",
