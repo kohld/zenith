@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-03T05:58:59.398Z",
+  "updatedAt": "2026-04-03T06:38:36.328Z",
   "launches": [
     {
       "id": "63aa7636-d2b7-457f-a3e6-27e564e42941",
@@ -728,13 +728,21 @@
       "r_spacex_api_id": null,
       "name": "Tianlong-3 | Demo Flight",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
       },
-      "last_updated": "2026-03-31T07:01:50Z",
+      "last_updated": "2026-04-03T06:29:50Z",
       "updates": [
+        {
+          "id": 14562,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch failure.",
+          "info_url": "https://mp.weixin.qq.com/s/Y-W2gHQd5ZV0UGnS3M49fQ",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-03T06:29:00Z"
+        },
         {
           "id": 14531,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -776,19 +784,19 @@
           "created_on": "2025-12-01T16:44:00Z"
         }
       ],
-      "net": "2026-04-03T04:00:00Z",
+      "net": "2026-04-03T04:17:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
       "window_end": "2026-04-03T06:09:00Z",
       "window_start": "2026-04-03T03:52:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
-      "failreason": "",
+      "failreason": "Apparently failed around stage separation.",
       "hashtag": null,
       "launch_service_provider": {
         "id": 1049,
@@ -804,11 +812,11 @@
         "launchers": "Tianlong",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 1,
-        "consecutive_successful_launches": 1,
+        "total_launch_count": 2,
+        "consecutive_successful_launches": 0,
         "successful_launches": 1,
-        "failed_launches": 0,
-        "pending_launches": 1,
+        "failed_launches": 1,
+        "pending_launches": 0,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -844,11 +852,11 @@
             "launchers": "Tianlong",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 1,
-            "consecutive_successful_launches": 1,
+            "total_launch_count": 2,
+            "consecutive_successful_launches": 0,
             "successful_launches": 1,
-            "failed_launches": 0,
-            "pending_launches": 1,
+            "failed_launches": 1,
+            "pending_launches": 0,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -866,7 +874,7 @@
           "max_stage": 3,
           "length": 72,
           "diameter": 3.8,
-          "maiden_flight": null,
+          "maiden_flight": "2026-04-03",
           "launch_cost": null,
           "launch_mass": 600,
           "leo_capacity": 17000,
@@ -877,11 +885,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tianlong-3_full_image_20260330045730.jpg",
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/Tianlong-3",
-          "total_launch_count": 0,
+          "total_launch_count": 1,
           "consecutive_successful_launches": 0,
           "successful_launches": 0,
-          "failed_launches": 0,
-          "pending_launches": 1,
+          "failed_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -893,7 +901,7 @@
       "mission": {
         "id": 7413,
         "name": "Demo Flight",
-        "description": "First test launch of Space Pioneer’s Tianlong-3 rocket. Reports indicate this launch may carry a batch of satellites for the SpaceSail/G60/Qianfan LEO communication satellites constellation.",
+        "description": "First test launch of Space Pioneer’s Tianlong-3 rocket.",
         "launch_designator": null,
         "type": "Test Flight",
         "orbit": {
@@ -924,13 +932,13 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 280,
+          "total_launch_count": 281,
           "total_landing_count": 2
         },
         "country_code": "CHN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_tianlong-3_launch_pad_20251128223349.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -2031,17 +2039,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -3034,17 +3042,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -3503,7 +3511,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-02T15:25:07Z",
+      "last_updated": "2026-04-03T06:34:03Z",
       "updates": [
         {
           "id": 14369,
@@ -3559,7 +3567,7 @@
       "weather_concerns": null,
       "holdreason": "",
       "failreason": "",
-      "hashtag": null,
+      "hashtag": "VV29",
       "launch_service_provider": {
         "id": 159,
         "url": "https://ll.thespacedevs.com/2.2.0/agencies/159/",
@@ -3671,7 +3679,66 @@
           "name": "Elliptical Orbit",
           "abbrev": "Elliptical"
         },
-        "agencies": [],
+        "agencies": [
+          {
+            "id": 1106,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1106/",
+            "name": "Chinese Academy of Sciences",
+            "featured": false,
+            "type": "Government",
+            "country_code": "CHN",
+            "abbrev": "CAS",
+            "description": "The Chinese Academy of Sciences (CAS; Chinese: 中国科学院) is the national academy for natural sciences and the highest consultancy for science and technology of the People's Republic of China.",
+            "administrator": "President: Hou Jianguo",
+            "founding_year": "1949",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.cas.cn/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Chinese_Academy_of_Sciences",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china_academy_o_image_20260403063134.png",
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china_academy_o_image_20260403063203.png"
+          },
+          {
+            "id": 27,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+            "name": "European Space Agency",
+            "featured": false,
+            "type": "Multinational",
+            "country_code": "FRA,ITA,DEU,ESP,CHE,GBR,AUT,SWE,PRT,NLD,HUN,POL,DNK,CZE,ROU,NOR,FIN,GRC,EST,IRL,LUX,BEL,SVN",
+            "abbrev": "ESA",
+            "description": "The European Space Agency is an intergovernmental organisation of 22 member states. Established in 1975 and headquartered in Paris, France, ESA has a worldwide staff of about 2,000 employees.\r\n\r\nESA's space flight programme includes human spaceflight (mainly through participation in the International Space Station program); the launch and operation of unmanned exploration missions to other planets and the Moon; Earth observation, science and telecommunication; designing launch vehicles; and maintaining a major spaceport, the Guiana Space Centre at Kourou, French Guiana.",
+            "administrator": "Director General: Josef Aschbacher",
+            "founding_year": "1975",
+            "launchers": "Ariane | Vega",
+            "spacecraft": "Space Rider",
+            "launch_library_url": null,
+            "total_launch_count": 7,
+            "consecutive_successful_launches": 5,
+            "successful_launches": 6,
+            "failed_launches": 1,
+            "pending_launches": 1,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.esa.int/",
+            "wiki_url": "https://en.wikipedia.org/wiki/European_Space_Agency",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/european2520space2520agency_logo_20221130101442.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/esa_patch_float_image_20250211192109.png",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/european2520space2520agency_logo_20221130101442.png"
+          }
+        ],
         "info_urls": [],
         "vid_urls": []
       },
@@ -3702,7 +3769,25 @@
         "total_launch_count": 54,
         "orbital_launch_attempt_count": 54
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": null,
+          "title": null,
+          "description": null,
+          "feature_image": null,
+          "url": "https://www.avio.com/sites/avio.com/files/downloads/LAUNCH-KIT%20VV29%20-%20ENG.pdf",
+          "type": {
+            "id": 2,
+            "name": "Official Press Kit"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [
         {
           "priority": 10,
@@ -3726,7 +3811,80 @@
         }
       ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M24S"
+        },
+        {
+          "type": {
+            "id": 74,
+            "abbrev": "Stage 3 Separation",
+            "description": "Separation of the third stage from the second"
+          },
+          "relative_time": "PT4M31S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT4M42S"
+        },
+        {
+          "type": {
+            "id": 30,
+            "abbrev": "Kick Stage Separation",
+            "description": "Separation of the kick stage from the previous stage"
+          },
+          "relative_time": "PT7M13S"
+        },
+        {
+          "type": {
+            "id": 73,
+            "abbrev": "Kick Stage Burn",
+            "description": "The kick stage conducts an engine burn in orbit."
+          },
+          "relative_time": "PT20M23S"
+        },
+        {
+          "type": {
+            "id": 73,
+            "abbrev": "Kick Stage Burn",
+            "description": "The kick stage conducts an engine burn in orbit."
+          },
+          "relative_time": "PT52M57S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT56M24S"
+        },
+        {
+          "type": {
+            "id": 73,
+            "abbrev": "Kick Stage Burn",
+            "description": "The kick stage conducts an engine burn in orbit."
+          },
+          "relative_time": "PT2H37S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
       "infographic": null,
       "program": [],
@@ -4196,17 +4354,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -4324,17 +4482,17 @@
         },
         {
           "type": {
-            "id": 22,
-            "abbrev": "SECO-2",
-            "description": "Second cut-off of the second engine"
+            "id": 23,
+            "abbrev": "Starlink Deployment",
+            "description": "Deployment of the Starlink stack from the rocket"
           },
           "relative_time": "PT52M46S"
         },
         {
           "type": {
-            "id": 23,
-            "abbrev": "Starlink Deployment",
-            "description": "Deployment of the Starlink stack from the rocket"
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
           },
           "relative_time": "PT52M46S"
         }
@@ -4795,17 +4953,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -5729,17 +5887,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -5761,17 +5919,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -9779,7 +9937,7 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 280,
+          "total_launch_count": 281,
           "total_landing_count": 2
         },
         "country_code": "CHN",
@@ -15435,7 +15593,7 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 280,
+          "total_launch_count": 281,
           "total_landing_count": 2
         },
         "country_code": "CHN",
@@ -18877,7 +19035,7 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 280,
+          "total_launch_count": 281,
           "total_landing_count": 2
         },
         "country_code": "CHN",
@@ -30675,7 +30833,7 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 280,
+          "total_launch_count": 281,
           "total_landing_count": 2
         },
         "country_code": "CHN",
