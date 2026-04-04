@@ -1,58 +1,44 @@
 {
-  "generated_at": "2026-04-04T00:54:13.036Z",
+  "generated_at": "2026-04-04T12:26:52.873Z",
   "daily_summary": {
-    "headline": "Exciting Day of Launches with Soyuz-5 Demo Flight Leading the Way",
+    "headline": "Routine Launch Day with No Aurora Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "Soyuz-5 Demo Flight",
-        "description": "The Soyuz-5 rocket is set for its demonstration flight, marking a significant milestone in Russian space capabilities.",
-        "importance": 8,
-        "date": "2026-04-04",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-35",
+        "description": "A batch of 25 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "importance": 5,
+        "date": "2026-04-05T23:03:00Z",
         "type": "launch",
-        "action": "Watch the live stream for this historic test flight."
+        "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Atlas V 551 Launch for Amazon Leo",
-        "description": "ULA's Atlas V 551 will launch 29 satellites for Amazon's Leo constellation, enhancing global internet access.",
-        "importance": 7,
-        "date": "2026-04-04",
+        "title": "Minotaur IV | STP-S29A",
+        "description": "STP-S29A is a mission under the U.S. Department of Defense's Space Test Program (STP) that will deliver technology demonstrations to orbit.",
+        "importance": 5,
+        "date": "2026-04-07T11:30:00Z",
         "type": "launch",
-        "action": "Catch the live webcast to see the deployment of Amazon's latest satellites."
+        "action": "Watch live stream"
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Starlink Mission",
-        "description": "SpaceX continues its Starlink deployment with the launch of another batch of satellites, aiming to expand global internet coverage.",
-        "importance": 6,
-        "date": "2026-04-05",
+        "title": "Long March 8 | Unknown Payload",
+        "description": "Launch of an unknown payload, possibly SpaceSail Polar LEO communication satellites.",
+        "importance": 5,
+        "date": "2026-04-07T13:30:00Z",
         "type": "launch",
-        "action": "Tune in to the live stream to follow the mission."
+        "action": "Watch live stream"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
-      "historic_events": 1,
+      "historic_events": 0,
       "aurora_opportunities": 0
     }
   },
-  "alerts": [
-    {
-      "type": "launch",
-      "priority": "high",
-      "title": "Soyuz-5 Demo Flight",
-      "message": "The Soyuz-5 rocket is set for its demonstration flight, marking a significant milestone in Russian space capabilities.",
-      "action_required": "Watch the live stream for this historic test flight.",
-      "expires_at": "2026-04-04T12:00:00Z",
-      "tags": [
-        "Soyuz-5",
-        "Demo Flight",
-        "Historic"
-      ]
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
     "opportunities": [],
     "best_window": null,
@@ -64,6 +50,6 @@
     "total_launches_analyzed": 5,
     "total_aurora_entries_analyzed": 0,
     "processing_time_seconds": 0,
-    "iterations": 3
+    "iterations": 2
   }
 }
