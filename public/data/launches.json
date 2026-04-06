@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-06T03:08:02.351Z",
+  "updatedAt": "2026-04-06T04:29:01.175Z",
   "launches": [
     {
       "id": "becc7e9c-72cc-4eb5-a638-1af4491a5729",
@@ -9,13 +9,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 17-35",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-06T03:02:23Z",
+      "last_updated": "2026-04-06T03:39:57Z",
       "updates": [
+        {
+          "id": 14587,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Confirmed rescheduled for April 6.",
+          "info_url": "https://x.com/SpaceX/status/2040989560255996136",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-06T03:39:00Z"
+        },
         {
           "id": 14586,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -440,33 +448,13 @@
           "end_time": null
         },
         {
-          "priority": 9,
-          "source": "youtube.com",
-          "publisher": "Spaceflight Now",
-          "title": "Live: SpaceX Falcon 9 rocket launches from California with 25 Starlink internet satellites",
-          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 25 satellites for SpaceX's space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Sunday, April 5, at 7:56:19 p.m. PDT (10:56:19 p.m. EDT / 0256:19 UTC).\n\nThe first-stage booster, tail number B1103, making its first flight, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-35 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCoLdERT4-TJ82PJOHS...",
-          "feature_image": "https://i.ytimg.com/vi/yD23IGcSH50/maxresdefault.jpg",
-          "url": "https://www.youtube.com/watch?v=yD23IGcSH50",
-          "type": {
-            "id": 3,
-            "name": "Unofficial Webcast"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          },
-          "start_time": "2026-04-06T02:26:24Z",
-          "end_time": "2026-04-06T03:01:40Z"
-        },
-        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
           "title": "Starlink Mission",
           "description": "Livestream on X",
-          "feature_image": "https://pbs.twimg.com/media/HDsp9FfXoAAzCCl.jpg",
-          "url": "https://x.com/i/broadcasts/1lKQRvlyyOaGE",
+          "feature_image": "https://pbs.twimg.com/media/HFMPO7EbcAAmyAV.jpg",
+          "url": "https://x.com/i/broadcasts/1qxvvkDqRAkxB",
           "type": {
             "id": 1,
             "name": "Official Webcast"
@@ -476,8 +464,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-06T02:45:55Z",
-          "end_time": "2026-04-06T02:58:36Z"
+          "start_time": "2026-04-06T22:53:00Z",
+          "end_time": "2026-04-07T00:53:00Z"
         }
       ],
       "webcast_live": false,
@@ -3330,7 +3318,7 @@
       "location_launch_attempt_count_year": 23,
       "pad_launch_attempt_count_year": 21,
       "agency_launch_attempt_count_year": 44,
-      "pad_turnaround": "P3DT23H56M40S",
+      "pad_turnaround": "P3DT3H36M",
       "mission_patches": [
         {
           "id": 7,
@@ -20161,50 +20149,6 @@
             "previous_flight": null
           },
           {
-            "id": 417,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1214,
-              "attempt": true,
-              "success": null,
-              "description": "The center core will attempt to land on an ASDS after launch.",
-              "downrange_distance": null,
-              "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 1,
-                "name": "Autonomous Spaceport Drone Ship",
-                "abbrev": "ASDS",
-                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 419,
             "type": "Strap-On Booster",
             "reused": null,
@@ -20242,6 +20186,50 @@
                 "name": "Return to Launch Site",
                 "abbrev": "RTLS",
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
+            "id": 417,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 117,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown FH",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1214,
+              "attempt": true,
+              "success": null,
+              "description": "The center core will attempt to land on an ASDS after launch.",
+              "downrange_distance": null,
+              "location": {
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
             "previous_flight_date": null,
@@ -30944,11 +30932,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7441,
+      "orbital_launch_attempt_count": 7440,
       "location_launch_attempt_count": 116,
       "pad_launch_attempt_count": 40,
       "agency_launch_attempt_count": 111,
-      "orbital_launch_attempt_count_year": 268,
+      "orbital_launch_attempt_count_year": 267,
       "location_launch_attempt_count_year": 14,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 13,
@@ -31268,11 +31256,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7441,
+      "orbital_launch_attempt_count": 7440,
       "location_launch_attempt_count": 92,
       "pad_launch_attempt_count": 21,
       "agency_launch_attempt_count": 19,
-      "orbital_launch_attempt_count_year": 268,
+      "orbital_launch_attempt_count_year": 267,
       "location_launch_attempt_count_year": 8,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 4,
