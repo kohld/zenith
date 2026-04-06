@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-06T22:12:12.557Z",
+  "updatedAt": "2026-04-06T22:45:39.329Z",
   "launches": [
     {
       "id": "becc7e9c-72cc-4eb5-a638-1af4491a5729",
@@ -742,7 +742,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-03T18:23:45Z",
+      "last_updated": "2026-04-06T22:23:41Z",
       "updates": [
         {
           "id": 14566,
@@ -950,7 +950,28 @@
         "orbital_launch_attempt_count": 9
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "AggieSat Laboratory",
+          "title": "AGS6 Launch Livestream",
+          "description": "Watch AggieSat6 Launch on the STP-29A Mission.",
+          "feature_image": "https://i.ytimg.com/vi/d4xXy83x5ew/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=d4xXy83x5ew",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-07T09:00:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/minotaur_iv_lau_image_20240307170209.jpeg",
