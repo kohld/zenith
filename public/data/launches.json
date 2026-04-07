@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-06T23:45:40.903Z",
+  "updatedAt": "2026-04-07T00:33:53.938Z",
   "launches": [
     {
       "id": "becc7e9c-72cc-4eb5-a638-1af4491a5729",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-06T12:58:31Z",
+      "last_updated": "2026-04-07T00:05:14Z",
       "updates": [
+        {
+          "id": 14596,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Apr 07 at 02:50 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-35",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-07T00:05:00Z"
+        },
         {
           "id": 14589,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -105,7 +113,7 @@
           "created_on": "2026-03-17T14:09:00Z"
         }
       ],
-      "net": "2026-04-07T02:49:10Z",
+      "net": "2026-04-07T02:50:39Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -456,6 +464,26 @@
           "end_time": null
         },
         {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches from California with 25 Starlink internet satellites",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 25 satellites for SpaceX's space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Monday, April 6, at 10:49:10 p.m. PDT (10:49:10 p.m. EDT / 0249:10 UTC). A launch attempt on Sunday was scrubbed in the final minute due to upper level winds.\n\nThe first-stage booster, tail number B1103, making its first flight, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-35 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join t...",
+          "feature_image": "https://i.ytimg.com/vi/Je-3kOuoYgU/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=Je-3kOuoYgU",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-07T02:19:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -472,7 +500,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-07T02:39:00Z",
+          "start_time": "2026-04-07T02:40:00Z",
           "end_time": "2026-04-07T04:39:00Z"
         }
       ],
