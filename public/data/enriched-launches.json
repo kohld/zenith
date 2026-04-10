@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T00:59:27.374Z",
+  "generated_at": "2026-04-10T12:35:09.917Z",
   "launches": [
     {
       "id": "f6c9396f-5f02-49e6-a847-83e4c774e0e9",
@@ -647,11 +647,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7257,
+      "orbital_launch_attempt_count": 7255,
       "location_launch_attempt_count": 875,
       "pad_launch_attempt_count": 259,
       "agency_launch_attempt_count": 662,
-      "orbital_launch_attempt_count_year": 84,
+      "orbital_launch_attempt_count_year": 82,
       "location_launch_attempt_count_year": 23,
       "pad_launch_attempt_count_year": 21,
       "agency_launch_attempt_count_year": 43,
@@ -674,11 +674,10 @@
       "ai_enrichment": {
         "launch_id": "f6c9396f-5f02-49e6-a847-83e4c774e0e9",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment.",
+        "reasoning": "Routine Starlink satellite deployment for internet coverage.",
         "key_facts": [
-          "Falcon 9 Block 5",
-          "Starlink Group 17-21",
-          "SpaceX"
+          "Launch of 25 Starlink satellites",
+          "Part of SpaceX's global internet project"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -689,9 +688,9 @@
         "tags": [
           "Starlink",
           "SpaceX",
-          "Communications"
+          "Internet"
         ],
-        "user_recommendation": "Watch live stream for best viewing experience."
+        "user_recommendation": "Watch live stream for the latest updates."
       }
     },
     {
@@ -889,11 +888,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7258,
+      "orbital_launch_attempt_count": 7256,
       "location_launch_attempt_count": 25,
       "pad_launch_attempt_count": 2,
       "agency_launch_attempt_count": 12,
-      "orbital_launch_attempt_count_year": 85,
+      "orbital_launch_attempt_count_year": 83,
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 3,
@@ -903,20 +902,20 @@
       "ai_enrichment": {
         "launch_id": "34fbbb9b-2a86-42cc-af02-6cfe1f4236f7",
         "importance_score": 5,
-        "reasoning": "Launch with unknown payload details.",
+        "reasoning": "Launch of an unknown payload by China Rocket Co. Ltd.",
         "key_facts": [
-          "Smart Dragon 3",
-          "China Rocket Co. Ltd."
+          "Launch vehicle: Smart Dragon 3",
+          "Payload details TBD"
         ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
+          "live_stream_recommended": false,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
           "China",
-          "Unknown Payload"
+          "Smart Dragon 3"
         ],
         "user_recommendation": "Monitor updates for payload details."
       }
@@ -1841,11 +1840,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7259,
+      "orbital_launch_attempt_count": 7257,
       "location_launch_attempt_count": 1101,
       "pad_launch_attempt_count": 377,
       "agency_launch_attempt_count": 663,
-      "orbital_launch_attempt_count_year": 86,
+      "orbital_launch_attempt_count_year": 84,
       "location_launch_attempt_count_year": 25,
       "pad_launch_attempt_count_year": 23,
       "agency_launch_attempt_count_year": 44,
@@ -1868,11 +1867,10 @@
       "ai_enrichment": {
         "launch_id": "5ed6ab75-8c5b-4013-93e1-1deb56b14f1d",
         "importance_score": 5,
-        "reasoning": "Routine resupply mission to the ISS.",
+        "reasoning": "Resupply mission to the International Space Station.",
         "key_facts": [
-          "Falcon 9 Block 5",
-          "Cygnus CRS-2 NG-24",
-          "ISS"
+          "Cygnus spacecraft delivering supplies to ISS",
+          "Part of NASA's Commercial Resupply Services"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1885,7 +1883,7 @@
           "Resupply",
           "NASA"
         ],
-        "user_recommendation": "Follow NASA's live coverage."
+        "user_recommendation": "Follow mission progress and watch live stream."
       }
     },
     {
@@ -2083,37 +2081,18 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7259,
+      "orbital_launch_attempt_count": 7258,
       "location_launch_attempt_count": 282,
       "pad_launch_attempt_count": 12,
       "agency_launch_attempt_count": 13,
-      "orbital_launch_attempt_count_year": 86,
+      "orbital_launch_attempt_count_year": 85,
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 2,
       "pad_turnaround": "P124DT23H57M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "33b673eb-b25b-462a-a092-040a6875654c",
-        "importance_score": 5,
-        "reasoning": "Launch with unknown payload details.",
-        "key_facts": [
-          "Kinetica 1",
-          "CAS Space"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "China",
-          "Unknown Payload"
-        ],
-        "user_recommendation": "Monitor updates for payload details."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "5352577c-d94a-4e68-a0c8-b0b684621a4f",
@@ -2737,11 +2716,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7260,
+      "orbital_launch_attempt_count": 7259,
       "location_launch_attempt_count": 1102,
       "pad_launch_attempt_count": 378,
       "agency_launch_attempt_count": 664,
-      "orbital_launch_attempt_count_year": 87,
+      "orbital_launch_attempt_count_year": 86,
       "location_launch_attempt_count_year": 26,
       "pad_launch_attempt_count_year": 24,
       "agency_launch_attempt_count_year": 45,
@@ -2761,28 +2740,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "5352577c-d94a-4e68-a0c8-b0b684621a4f",
-        "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment.",
-        "key_facts": [
-          "Falcon 9 Block 5",
-          "Starlink Group 10-24",
-          "SpaceX"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "Starlink",
-          "SpaceX",
-          "Communications"
-        ],
-        "user_recommendation": "Watch live stream for best viewing experience."
-      }
+      "ai_enrichment": null
     }
   ]
 }
