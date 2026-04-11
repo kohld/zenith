@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T12:35:09.917Z",
+  "generated_at": "2026-04-11T00:56:40.877Z",
   "launches": [
     {
       "id": "f6c9396f-5f02-49e6-a847-83e4c774e0e9",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-06T13:11:52Z",
+      "last_updated": "2026-04-10T12:33:57Z",
       "updates": [
+        {
+          "id": 14628,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Apr 11 at 03:01 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-21",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-04-10T12:33:00Z"
+        },
         {
           "id": 14592,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -65,12 +73,12 @@
           "created_on": "2026-03-24T17:12:00Z"
         }
       ],
-      "net": "2026-04-11T02:39:00Z",
+      "net": "2026-04-11T03:01:30Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-04-11T06:39:00Z",
       "window_start": "2026-04-11T02:39:00Z",
@@ -415,7 +423,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-11T02:29:00Z",
+          "start_time": "2026-04-11T02:51:00Z",
           "end_time": "2026-04-11T04:29:00Z"
         }
       ],
@@ -655,7 +663,7 @@
       "location_launch_attempt_count_year": 23,
       "pad_launch_attempt_count_year": 21,
       "agency_launch_attempt_count_year": 43,
-      "pad_turnaround": "P3DT23H48M21S",
+      "pad_turnaround": "P4DT10M51S",
       "mission_patches": [
         {
           "id": 7,
@@ -674,23 +682,16 @@
       "ai_enrichment": {
         "launch_id": "f6c9396f-5f02-49e6-a847-83e4c774e0e9",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment for internet coverage.",
-        "key_facts": [
-          "Launch of 25 Starlink satellites",
-          "Part of SpaceX's global internet project"
-        ],
+        "reasoning": "Standard mission deploying 25 Starlink satellites for global internet coverage.",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "Starlink",
-          "SpaceX",
-          "Internet"
-        ],
-        "user_recommendation": "Watch live stream for the latest updates."
+        "tags": [],
+        "user_recommendation": "Standard mission"
       }
     },
     {
@@ -902,22 +903,16 @@
       "ai_enrichment": {
         "launch_id": "34fbbb9b-2a86-42cc-af02-6cfe1f4236f7",
         "importance_score": 5,
-        "reasoning": "Launch of an unknown payload by China Rocket Co. Ltd.",
-        "key_facts": [
-          "Launch vehicle: Smart Dragon 3",
-          "Payload details TBD"
-        ],
+        "reasoning": "Launch of a commercial payload with unspecified details.",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
-          "live_stream_recommended": false,
+          "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "China",
-          "Smart Dragon 3"
-        ],
-        "user_recommendation": "Monitor updates for payload details."
+        "tags": [],
+        "user_recommendation": "Monitor updates"
       }
     },
     {
@@ -933,8 +928,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-08T19:01:00Z",
+      "last_updated": "2026-04-10T17:55:28Z",
       "updates": [
+        {
+          "id": 14629,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Apr 11 at 11:41:21 UTC",
+          "info_url": "https://www.spacex.com/launches/ng24",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-04-10T13:05:00Z"
+        },
         {
           "id": 14614,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1032,15 +1035,15 @@
           "created_on": "2025-09-12T16:34:00Z"
         }
       ],
-      "net": "2026-04-11T11:41:00Z",
+      "net": "2026-04-11T11:41:21Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2026-04-11T11:41:00Z",
-      "window_start": "2026-04-11T11:41:00Z",
+      "window_end": "2026-04-11T11:41:21Z",
+      "window_start": "2026-04-11T11:41:21Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1511,6 +1514,26 @@
       ],
       "vidURLs": [
         {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASA",
+          "title": "NASA’s Northrop Grumman Commercial Resupply Services 24 Launch",
+          "description": "Watch the launch of a cargo spacecraft to the International Space Station, delivering supplies, new research, and a module to advance quantum science. \n\nNorthrop Grumman's uncrewed Cygnus XL is scheduled to lift off on a SpaceX Falcon 9 rocket at 7:41 a.m. EDT (1141 UTC), Saturday, April 11, from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida.\n\nFollowing launch, astronauts aboard the space station will use the Canadarm2 robotic arm to capture the Cygnus XL on Monday, April 13, before ground controllers install it to the Unity module’s Earth-facing port for cargo unloading.\n\nAbout the mission: https://www.nasa.gov/news-release/nasa-sets-coverage-for-northrop-grummans-crs-24-resupply-launch/\nUpdates: https://www.nasa.gov/blogs/commercialresupply/\n\nCredit: NASA",
+          "feature_image": "https://i.ytimg.com/vi/2i9YcxVP3yw/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=2i9YcxVP3yw",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-11T11:20:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -1848,7 +1871,7 @@
       "location_launch_attempt_count_year": 25,
       "pad_launch_attempt_count_year": 23,
       "agency_launch_attempt_count_year": 44,
-      "pad_turnaround": "P8DT23H45M50S",
+      "pad_turnaround": "P8DT23H46M11S",
       "mission_patches": [
         {
           "id": 1313,
@@ -1867,23 +1890,16 @@
       "ai_enrichment": {
         "launch_id": "5ed6ab75-8c5b-4013-93e1-1deb56b14f1d",
         "importance_score": 5,
-        "reasoning": "Resupply mission to the International Space Station.",
-        "key_facts": [
-          "Cygnus spacecraft delivering supplies to ISS",
-          "Part of NASA's Commercial Resupply Services"
-        ],
+        "reasoning": "Resupply mission to the ISS carrying essential cargo.",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "ISS",
-          "Resupply",
-          "NASA"
-        ],
-        "user_recommendation": "Follow mission progress and watch live stream."
+        "tags": [],
+        "user_recommendation": "Follow mission progress"
       }
     },
     {
@@ -2092,7 +2108,20 @@
       "pad_turnaround": "P124DT23H57M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "33b673eb-b25b-462a-a092-040a6875654c",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "5352577c-d94a-4e68-a0c8-b0b684621a4f",
@@ -2740,7 +2769,20 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "5352577c-d94a-4e68-a0c8-b0b684621a4f",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     }
   ]
 }
