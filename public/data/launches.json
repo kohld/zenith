@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-11T13:26:18.472Z",
+  "updatedAt": "2026-04-11T13:49:50.168Z",
   "launches": [
     {
       "id": "f6c9396f-5f02-49e6-a847-83e4c774e0e9",
@@ -767,18 +767,26 @@
     {
       "id": "34fbbb9b-2a86-42cc-af02-6cfe1f4236f7",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/34fbbb9b-2a86-42cc-af02-6cfe1f4236f7/",
-      "slug": "smart-dragon-3-unknown-payload",
+      "slug": "smart-dragon-3-satnet-test-satellite-2",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Smart Dragon 3 | Unknown Payload",
+      "name": "Smart Dragon 3 | SatNet test satellite",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-04-07T11:16:56Z",
+      "last_updated": "2026-04-11T13:30:23Z",
       "updates": [
+        {
+          "id": 14651,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://m.weibo.cn/detail/5286628915415499",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-11T13:30:00Z"
+        },
         {
           "id": 14601,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -796,12 +804,12 @@
           "created_on": "2026-04-04T00:12:00Z"
         }
       ],
-      "net": "2026-04-11T11:30:00Z",
+      "net": "2026-04-11T11:32:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
       "window_end": "2026-04-11T11:47:00Z",
       "window_start": "2026-04-11T11:22:00Z",
@@ -824,11 +832,11 @@
         "launchers": "",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 11,
-        "consecutive_successful_launches": 11,
-        "successful_launches": 11,
+        "total_launch_count": 12,
+        "consecutive_successful_launches": 12,
+        "successful_launches": 12,
         "failed_launches": 0,
-        "pending_launches": 1,
+        "pending_launches": 0,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -864,11 +872,11 @@
             "launchers": "",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 11,
-            "consecutive_successful_launches": 11,
-            "successful_launches": 11,
+            "total_launch_count": 12,
+            "consecutive_successful_launches": 12,
+            "successful_launches": 12,
             "failed_launches": 0,
-            "pending_launches": 1,
+            "pending_launches": 0,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -897,11 +905,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
           "info_url": null,
           "wiki_url": null,
-          "total_launch_count": 10,
-          "consecutive_successful_launches": 10,
-          "successful_launches": 10,
+          "total_launch_count": 11,
+          "consecutive_successful_launches": 11,
+          "successful_launches": 11,
           "failed_launches": 0,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -912,14 +920,14 @@
       },
       "mission": {
         "id": 7555,
-        "name": "Unknown Payload",
-        "description": "Details TBD.",
+        "name": "SatNet test satellite",
+        "description": "Officially described as \"Satellite-Internet Technology Demonstration Satellite\". Probable 1 (?) test satellite for the Chinese state-owned LEO communication satellite constellation SatNet.",
         "launch_designator": null,
-        "type": "Unknown",
+        "type": "Communications",
         "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "id": 13,
+          "name": "Polar Orbit",
+          "abbrev": "PO"
         },
         "agencies": [],
         "info_urls": [],
@@ -944,13 +952,13 @@
           "description": "Chinese orbital launch vehicle launches supporting sea port located at Haiyang, Shandong Province, with dedicated piers and rocket/payload processing facilities for Chinese launch vehicles’ sea launches, and (as part of its expansion project) land based launch pads on artificial islands for various test vehicles and launch vehicles of private and government launch services providers.\r\n\r\nIn operation as a remote base of Taiyuan Satellite Launch Center since 2019.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_haiyang_oriental_spaceport_20251128181322.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 24,
+          "total_launch_count": 25,
           "total_landing_count": 0
         },
         "country_code": "CHN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_south_china_sea_2528launch_location_32529_20260116130538.jpg",
-        "total_launch_count": 1,
-        "orbital_launch_attempt_count": 1
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 2
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -967,7 +975,7 @@
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 3,
-      "pad_turnaround": "P58DT4H53M",
+      "pad_turnaround": "P58DT4H55M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -979,13 +987,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-24 (S.S. Steven R. Nagel)",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "Launch in Flight"
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-04-11T12:51:21Z",
+      "last_updated": "2026-04-11T13:49:22Z",
       "updates": [
+        {
+          "id": 14652,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success confirmed with spacecraft solar panels deployed.",
+          "info_url": "https://x.com/Space_Station/status/2042961987248779693",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-11T13:49:00Z"
+        },
         {
           "id": 14650,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1329,7 +1345,7 @@
               "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1094_landing_o_image_20250912150803.jpeg",
               "successful_landings": 7,
               "attempted_landings": 7,
-              "flights": 6,
+              "flights": 7,
               "last_launch_date": "2026-04-11T11:41:21Z",
               "first_launch_date": "2025-04-29T02:34:10Z"
             },
@@ -20440,7 +20456,7 @@
           "description": "Chinese orbital launch vehicle launches supporting sea port located at Haiyang, Shandong Province, with dedicated piers and rocket/payload processing facilities for Chinese launch vehicles’ sea launches, and (as part of its expansion project) land based launch pads on artificial islands for various test vehicles and launch vehicles of private and government launch services providers.\r\n\r\nIn operation as a remote base of Taiyuan Satellite Launch Center since 2019.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_haiyang_oriental_spaceport_20251128181322.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 24,
+          "total_launch_count": 25,
           "total_landing_count": 0
         },
         "country_code": "CHN",
