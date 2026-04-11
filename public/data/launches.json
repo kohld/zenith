@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-11T04:17:55.137Z",
+  "updatedAt": "2026-04-11T05:06:54.747Z",
   "launches": [
     {
       "id": "f6c9396f-5f02-49e6-a847-83e4c774e0e9",
@@ -9,13 +9,29 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Starlink Group 17-21",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
       },
-      "last_updated": "2026-04-11T03:50:47Z",
+      "last_updated": "2026-04-11T05:06:13Z",
       "updates": [
+        {
+          "id": 14644,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://x.com/i/broadcasts/1aJbdbDgyXVKX",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-11T05:06:00Z"
+        },
+        {
+          "id": 14643,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Unofficial Re-stream by SPACE AFFAIRS has started",
+          "info_url": "https://www.youtube.com/watch?v=IourIC98t0Y",
+          "created_by": "LL2",
+          "created_on": "2026-04-11T04:54:00Z"
+        },
         {
           "id": 14642,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -318,9 +334,9 @@
               "status": "active",
               "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/84_image_20201122121517.jpeg",
               "successful_landings": 31,
-              "attempted_landings": 31,
+              "attempted_landings": 32,
               "flights": 31,
-              "last_launch_date": "2026-02-21T09:04:19Z",
+              "last_launch_date": "2026-04-11T05:04:19Z",
               "first_launch_date": "2020-11-21T17:17:08Z"
             },
             "landing": {
@@ -463,7 +479,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-11T04:54:00Z",
+          "start_time": "2026-04-11T04:53:55Z",
           "end_time": null
         },
         {
@@ -483,11 +499,11 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-11T04:54:00Z",
+          "start_time": "2026-04-11T04:53:55Z",
           "end_time": "2026-04-11T07:29:00Z"
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "timeline": [
         {
           "type": {
