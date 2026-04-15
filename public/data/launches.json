@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-15T11:48:49.191Z",
+  "updatedAt": "2026-04-15T12:25:23.723Z",
   "launches": [
     {
       "id": "7cb38bf5-6e8b-4325-be4e-3d226be5eada",
@@ -4591,7 +4591,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-14T17:04:13Z",
+      "last_updated": "2026-04-15T12:24:17Z",
       "updates": [
         {
           "id": 14706,
@@ -4869,7 +4869,20 @@
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 2,
       "pad_turnaround": "P74DT16H5M30S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1316,
+          "name": "VA268 Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/va2682520patch_mission_patch_20260415122412.png",
+          "agency": {
+            "id": 115,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+            "name": "Arianespace",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
