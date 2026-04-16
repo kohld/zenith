@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-16T20:18:03.797Z",
+  "updatedAt": "2026-04-16T20:46:56.219Z",
   "launches": [
     {
       "id": "a89636b5-20f0-491a-88a4-0ff26880ae77",
@@ -839,13 +839,21 @@
       "r_spacex_api_id": null,
       "name": "New Glenn | BlueBird Block 2 #2",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-15T17:35:41Z",
+      "last_updated": "2026-04-16T20:39:04Z",
       "updates": [
+        {
+          "id": 14724,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://x.com/blueorigin/status/2044877618890109429",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-16T20:39:00Z"
+        },
         {
           "id": 14717,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -950,7 +958,7 @@
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-04-19T13:43:00Z",
+      "window_end": "2026-04-19T12:45:00Z",
       "window_start": "2026-04-19T10:45:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -975,7 +983,7 @@
         "consecutive_successful_launches": 17,
         "successful_launches": 39,
         "failed_launches": 1,
-        "pending_launches": 4,
+        "pending_launches": 5,
         "consecutive_successful_landings": 11,
         "successful_landings": 37,
         "failed_landings": 3,
@@ -1015,7 +1023,7 @@
             "consecutive_successful_launches": 17,
             "successful_launches": 39,
             "failed_launches": 1,
-            "pending_launches": 4,
+            "pending_launches": 5,
             "consecutive_successful_landings": 11,
             "successful_landings": 37,
             "failed_landings": 3,
@@ -1048,7 +1056,7 @@
           "consecutive_successful_launches": 2,
           "successful_launches": 2,
           "failed_launches": 0,
-          "pending_launches": 4,
+          "pending_launches": 5,
           "attempted_landings": 2,
           "successful_landings": 1,
           "failed_landings": 1,
