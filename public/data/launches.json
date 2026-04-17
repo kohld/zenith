@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-17T16:48:22.130Z",
+  "updatedAt": "2026-04-17T17:19:53.452Z",
   "launches": [
     {
       "id": "0c69b50a-11d4-4c68-a0f6-4498d6ee713a",
@@ -444,8 +444,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-15T11:03:57Z",
+      "last_updated": "2026-04-17T17:18:16Z",
       "updates": [
+        {
+          "id": 14731,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Apr 18 at 14:33 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-22",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-17T17:18:00Z"
+        },
         {
           "id": 14611,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -455,12 +463,12 @@
           "created_on": "2026-04-07T19:24:00Z"
         }
       ],
-      "net": "2026-04-18T14:00:00Z",
+      "net": "2026-04-18T14:33:40Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-04-18T18:00:00Z",
       "window_start": "2026-04-18T14:00:00Z",
@@ -789,6 +797,26 @@
       ],
       "vidURLs": [
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - Starlink 17-22 - SLC-4E - Vandenberg SFB - Space Affairs Live",
+          "description": "Launch Date: April 18, 2026\nLaunch Time: 7:00 a.m. PDT, 1400 UTC, 16:00 CEST\nLaunch Window: Open until 11:00 a.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 17-22\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1097 - Turnaround time 41 days)\nFlight for the Booster: 8\nPrevious Flights of the Booster: 7 - Sentinel-6B, Twilight, and five Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nSpaceX’s Falcon 9 is t...",
+          "feature_image": "https://i.ytimg.com/vi/FVpZ1n7sF9I/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=FVpZ1n7sF9I",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-18T13:50:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -1037,15 +1065,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7262,
+      "orbital_launch_attempt_count": 7263,
       "location_launch_attempt_count": 877,
       "pad_launch_attempt_count": 261,
       "agency_launch_attempt_count": 666,
-      "orbital_launch_attempt_count_year": 89,
+      "orbital_launch_attempt_count_year": 90,
       "location_launch_attempt_count_year": 25,
       "pad_launch_attempt_count_year": 23,
       "agency_launch_attempt_count_year": 47,
-      "pad_turnaround": "P3DT9H30M11S",
+      "pad_turnaround": "P3DT10H3M51S",
       "mission_patches": [
         {
           "id": 7,
