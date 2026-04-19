@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-19T11:15:18.887Z",
+  "updatedAt": "2026-04-19T11:44:50.905Z",
   "launches": [
     {
       "id": "53769468-bfd3-45c7-a52b-46a68ed7510f",
@@ -9,13 +9,21 @@
       "r_spacex_api_id": null,
       "name": "New Glenn | BlueBird Block 2 #2",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
       },
-      "last_updated": "2026-04-19T11:05:06Z",
+      "last_updated": "2026-04-19T11:25:19Z",
       "updates": [
+        {
+          "id": 14745,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://www.youtube.com/watch?v=enQ_IXtfm9I",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-19T11:25:00Z"
+        },
         {
           "id": 14742,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -181,15 +189,15 @@
         "launchers": "New Shepard | New Glenn",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 40,
+        "total_launch_count": 41,
         "consecutive_successful_launches": 17,
         "successful_launches": 39,
         "failed_launches": 1,
-        "pending_launches": 5,
-        "consecutive_successful_landings": 11,
+        "pending_launches": 4,
+        "consecutive_successful_landings": 0,
         "successful_landings": 37,
         "failed_landings": 3,
-        "attempted_landings": 40,
+        "attempted_landings": 41,
         "info_url": "https://www.blueorigin.com/",
         "wiki_url": "https://en.wikipedia.org/wiki/Blue_Origin",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_logo_20190207032427.png",
@@ -221,15 +229,15 @@
             "launchers": "New Shepard | New Glenn",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 40,
+            "total_launch_count": 41,
             "consecutive_successful_launches": 17,
             "successful_launches": 39,
             "failed_launches": 1,
-            "pending_launches": 5,
-            "consecutive_successful_landings": 11,
+            "pending_launches": 4,
+            "consecutive_successful_landings": 0,
             "successful_landings": 37,
             "failed_landings": 3,
-            "attempted_landings": 40,
+            "attempted_landings": 41,
             "info_url": "https://www.blueorigin.com/",
             "wiki_url": "https://en.wikipedia.org/wiki/Blue_Origin",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_logo_20190207032427.png",
@@ -254,15 +262,15 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
           "info_url": "https://www.blueorigin.com/new-glenn/",
           "wiki_url": "https://en.wikipedia.org/wiki/New_Glenn",
-          "total_launch_count": 2,
+          "total_launch_count": 3,
           "consecutive_successful_launches": 2,
           "successful_launches": 2,
           "failed_launches": 0,
-          "pending_launches": 5,
-          "attempted_landings": 2,
-          "successful_landings": 1,
+          "pending_launches": 4,
+          "attempted_landings": 3,
+          "successful_landings": 2,
           "failed_landings": 1,
-          "consecutive_successful_landings": 1
+          "consecutive_successful_landings": 2
         },
         "launcher_stage": [
           {
@@ -278,18 +286,18 @@
               "serial_number": "GS1-SN002",
               "status": "active",
               "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gs1-sn002_on_ja_image_20251119073646.jpg",
-              "successful_landings": 1,
-              "attempted_landings": 1,
+              "successful_landings": 2,
+              "attempted_landings": 2,
               "flights": 1,
-              "last_launch_date": "2025-11-13T20:55:01Z",
+              "last_launch_date": "2026-04-19T11:25:00Z",
               "first_launch_date": "2025-11-13T20:55:01Z"
             },
             "landing": {
               "id": 1804,
               "attempt": true,
-              "success": null,
-              "description": "New Glenn booster GS1-SN002 will land on Jacklyn after its 2nd flight.",
-              "downrange_distance": null,
+              "success": true,
+              "description": "New Glenn booster GS1-SN002 has landed on Jacklyn after its 2nd flight.",
+              "downrange_distance": 630,
               "location": {
                 "id": 51,
                 "name": "Jacklyn",
@@ -349,13 +357,13 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_121_20200803143231.jpg",
-        "total_launch_count": 70,
-        "orbital_launch_attempt_count": 70
+        "total_launch_count": 71,
+        "orbital_launch_attempt_count": 71
       },
       "infoURLs": [
         {
@@ -395,7 +403,7 @@
             "code": "en"
           },
           "start_time": "2026-04-19T09:51:36Z",
-          "end_time": null
+          "end_time": "2026-04-19T11:42:21Z"
         },
         {
           "priority": 11,
@@ -685,8 +693,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-18T20:03:17Z",
+      "last_updated": "2026-04-19T11:19:37Z",
       "updates": [
+        {
+          "id": 14744,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Apr 19 at 14:35 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-22",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-19T11:19:00Z"
+        },
         {
           "id": 14737,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -728,7 +744,7 @@
           "created_on": "2026-04-07T19:24:00Z"
         }
       ],
-      "net": "2026-04-19T14:34:20Z",
+      "net": "2026-04-19T14:35:59Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -1358,7 +1374,7 @@
       "location_launch_attempt_count_year": 25,
       "pad_launch_attempt_count_year": 23,
       "agency_launch_attempt_count_year": 47,
-      "pad_turnaround": "P4DT10H4M31S",
+      "pad_turnaround": "P4DT10H6M10S",
       "mission_patches": [
         {
           "id": 7,
@@ -1752,7 +1768,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -4519,7 +4535,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -5922,7 +5938,7 @@
                   "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
-                  "total_launch_count": 1102,
+                  "total_launch_count": 1103,
                   "total_landing_count": 72
                 },
                 "successful_landings": 16
@@ -5976,7 +5992,7 @@
                   "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
-                  "total_launch_count": 1102,
+                  "total_launch_count": 1103,
                   "total_landing_count": 72
                 },
                 "successful_landings": 2
@@ -8676,7 +8692,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -11444,7 +11460,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -11698,7 +11714,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -12025,7 +12041,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -16239,7 +16255,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -21147,7 +21163,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -22498,7 +22514,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -22817,7 +22833,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -23125,7 +23141,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -23433,7 +23449,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -24047,15 +24063,15 @@
         "launchers": "New Shepard | New Glenn",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 40,
+        "total_launch_count": 41,
         "consecutive_successful_launches": 17,
         "successful_launches": 39,
         "failed_launches": 1,
-        "pending_launches": 5,
-        "consecutive_successful_landings": 11,
+        "pending_launches": 4,
+        "consecutive_successful_landings": 0,
         "successful_landings": 37,
         "failed_landings": 3,
-        "attempted_landings": 40,
+        "attempted_landings": 41,
         "info_url": "https://www.blueorigin.com/",
         "wiki_url": "https://en.wikipedia.org/wiki/Blue_Origin",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_logo_20190207032427.png",
@@ -24087,15 +24103,15 @@
             "launchers": "New Shepard | New Glenn",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 40,
+            "total_launch_count": 41,
             "consecutive_successful_launches": 17,
             "successful_launches": 39,
             "failed_launches": 1,
-            "pending_launches": 5,
-            "consecutive_successful_landings": 11,
+            "pending_launches": 4,
+            "consecutive_successful_landings": 0,
             "successful_landings": 37,
             "failed_landings": 3,
-            "attempted_landings": 40,
+            "attempted_landings": 41,
             "info_url": "https://www.blueorigin.com/",
             "wiki_url": "https://en.wikipedia.org/wiki/Blue_Origin",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_logo_20190207032427.png",
@@ -24120,15 +24136,15 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_lc_image_20240313170026.jpeg",
           "info_url": "https://www.blueorigin.com/new-glenn/",
           "wiki_url": "https://en.wikipedia.org/wiki/New_Glenn",
-          "total_launch_count": 2,
+          "total_launch_count": 3,
           "consecutive_successful_launches": 2,
           "successful_launches": 2,
           "failed_launches": 0,
-          "pending_launches": 5,
-          "attempted_landings": 2,
-          "successful_landings": 1,
+          "pending_launches": 4,
+          "attempted_landings": 3,
+          "successful_landings": 2,
           "failed_landings": 1,
-          "consecutive_successful_landings": 1
+          "consecutive_successful_landings": 2
         },
         "launcher_stage": [
           {
@@ -24144,10 +24160,10 @@
               "serial_number": "GS1-SN002",
               "status": "active",
               "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gs1-sn002_on_ja_image_20251119073646.jpg",
-              "successful_landings": 1,
-              "attempted_landings": 1,
+              "successful_landings": 2,
+              "attempted_landings": 2,
               "flights": 1,
-              "last_launch_date": "2025-11-13T20:55:01Z",
+              "last_launch_date": "2026-04-19T11:25:00Z",
               "first_launch_date": "2025-11-13T20:55:01Z"
             },
             "landing": {
@@ -24207,15 +24223,15 @@
             "launchers": "New Shepard | New Glenn",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 40,
+            "total_launch_count": 41,
             "consecutive_successful_launches": 17,
             "successful_launches": 39,
             "failed_launches": 1,
-            "pending_launches": 5,
-            "consecutive_successful_landings": 11,
+            "pending_launches": 4,
+            "consecutive_successful_landings": 0,
             "successful_landings": 37,
             "failed_landings": 3,
-            "attempted_landings": 40,
+            "attempted_landings": 41,
             "info_url": "https://www.blueorigin.com/",
             "wiki_url": "https://en.wikipedia.org/wiki/Blue_Origin",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/blue2520origin_logo_20190207032427.png",
@@ -24245,13 +24261,13 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_121_20200803143231.jpg",
-        "total_launch_count": 70,
-        "orbital_launch_attempt_count": 70
+        "total_launch_count": 71,
+        "orbital_launch_attempt_count": 71
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -26078,7 +26094,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -26923,7 +26939,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -27239,7 +27255,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -27871,7 +27887,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -28427,7 +28443,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -28730,7 +28746,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -29651,7 +29667,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
@@ -30296,7 +30312,7 @@
           "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 1102,
+          "total_launch_count": 1103,
           "total_landing_count": 72
         },
         "country_code": "USA",
