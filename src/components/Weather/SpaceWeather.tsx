@@ -88,8 +88,9 @@ export const SpaceWeather = () => {
         const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
         return forecastData.forecast.reduce((acc, entry) => {
+            if (!entry.time) return acc;
             const entryDate = new Date(entry.time);
-            const dateKey = entry.time.split(' ')[0];
+            const dateKey = entry.time.substring(0, 10);
 
             // Only include entries from today onwards
             if (entryDate >= today) {
@@ -157,7 +158,7 @@ export const SpaceWeather = () => {
 
                         <div className="flex flex-col items-center text-center">
                             <div className={`text-6xl font-bold mb-2 ${isVisibleNow ? 'text-emerald-400 drop-shadow-[0_0_15px_rgba(52,211,153,0.5)]' : 'text-slate-600'}`}>
-                                Kp {currentKp ? currentKp.kp.toFixed(1) : '--'}
+                                Kp {currentKp?.kp?.toFixed(1) ?? '--'}
                             </div>
                             <div className={`text-sm font-medium px-4 py-1.5 rounded-full border mb-8 ${isVisibleNow
                                 ? 'bg-emerald-500/20 border-emerald-500/50 text-emerald-400'
@@ -204,7 +205,7 @@ export const SpaceWeather = () => {
                                     </h4>
                                     <div className="grid grid-cols-4 md:grid-cols-8 gap-2">
                                         {entries.map((entry, idx) => {
-                                            const time = entry.time.split(' ')[1].substring(0, 5);
+                                            const time = new Date(entry.time).toTimeString().substring(0, 5);
                                             const isHigh = entry.kp >= threshold;
                                             return (
                                                 <div

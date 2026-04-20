@@ -17,16 +17,13 @@ async function fetchAurora() {
             throw new Error(`API Error: ${response.status} ${response.statusText}`);
         }
 
-        const rawData: any[][] = await response.json();
+        const rawData: any[] = await response.json();
 
-        // Skip header row
-        const rows = rawData.slice(1);
-
-        const forecast: KpEntry[] = rows.map(row => ({
-            time: row[0],
-            kp: parseFloat(row[1]),
-            status: row[2] as 'observed' | 'estimated' | 'predicted',
-            scale: row[3] || null
+        const forecast: KpEntry[] = rawData.map(entry => ({
+            time: entry.time_tag,
+            kp: parseFloat(entry.kp),
+            status: entry.observed as 'observed' | 'estimated' | 'predicted',
+            scale: entry.noaa_scale || null
         }));
 
         console.log(`✅ Received ${forecast.length} forecast data points.`);
