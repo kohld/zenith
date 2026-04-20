@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-20T20:17:07.694Z",
+  "updatedAt": "2026-04-20T20:46:50.809Z",
   "launches": [
     {
       "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
@@ -3688,7 +3688,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-20T14:27:38Z",
+      "last_updated": "2026-04-20T20:20:19Z",
       "updates": [
         {
           "id": 14756,
@@ -3910,7 +3910,28 @@
         "orbital_launch_attempt_count": 122
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "United Launch Alliance",
+          "title": "Rocket Launch: Amazon Leo 6",
+          "description": "ULA's Atlas V rocket will deliver another batch of satellites into low Earth orbit for Amazon Leo, the broadband constellation. Amazon Leo's mission is to provide fast, reliable internet to customers around the world, including those in unserved and underserved communities, using a network of more than 3,000 LEO satellites.  \n\nGO Atlas! GO Centaur! GO Leo 6!",
+          "feature_image": "https://i.ytimg.com/vi/FYTMd1XYguo/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=FYTMd1XYguo",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-28T00:32:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
@@ -3941,11 +3962,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7271,
+      "orbital_launch_attempt_count": 7272,
       "location_launch_attempt_count": 1105,
       "pad_launch_attempt_count": 123,
       "agency_launch_attempt_count": 173,
-      "orbital_launch_attempt_count_year": 98,
+      "orbital_launch_attempt_count_year": 99,
       "location_launch_attempt_count_year": 29,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 3,
