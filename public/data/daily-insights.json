@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-20T08:42:57.378Z",
+  "generated_at": "2026-04-20T12:43:25.494Z",
   "daily_summary": {
-    "headline": "Quiet Day in Space: Routine Launches and Low Aurora Activity",
+    "headline": "Quiet Day in Space: Routine Launches and Minor Aurora Activity",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | GPS III SV10",
-        "description": "SpaceX's Falcon 9 Block 5 is set to launch the GPS III SV10 satellite for the US Space Force, marking the tenth of ten GPS III missions.",
+        "description": "Launch of the tenth GPS III satellite by SpaceX for the US Space Force.",
         "importance": 5,
         "date": "2026-04-21T06:53:00Z",
         "type": "launch",
@@ -14,21 +14,21 @@
       },
       {
         "rank": 2,
-        "title": "HASTE | Bubbles",
-        "description": "Rocket Lab's sub-orbital launch under the HASTE program, details of the payload remain uncertain.",
-        "importance": 5,
-        "date": "2026-04-22T00:00:00Z",
-        "type": "launch",
-        "action": "Monitor updates for payload details."
-      },
-      {
-        "rank": 3,
         "title": "Aurora Viewing Opportunity",
-        "description": "A minor aurora event with a Kp index of 4, best viewed from latitudes above 65°.",
+        "description": "Minor aurora activity expected at high latitudes with Kp index reaching 4.",
         "importance": 4,
         "date": "2026-04-21T03:00:00Z",
         "type": "aurora",
-        "action": "Check conditions if located in high latitudes."
+        "action": "Check conditions if at high latitudes."
+      },
+      {
+        "rank": 3,
+        "title": "HASTE | Bubbles",
+        "description": "Sub-orbital launch under Rocket Lab’s HASTE program.",
+        "importance": 5,
+        "date": "2026-04-22T00:00:00Z",
+        "type": "launch",
+        "action": "Follow updates for mission details."
       }
     ],
     "statistics": {
@@ -66,7 +66,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 22,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }

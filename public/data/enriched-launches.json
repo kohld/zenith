@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T08:42:57.378Z",
+  "generated_at": "2026-04-20T12:43:25.494Z",
   "launches": [
     {
       "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
@@ -717,10 +717,11 @@
       "ai_enrichment": {
         "launch_id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
         "importance_score": 5,
-        "reasoning": "Standard GPS satellite deployment for US Space Force.",
+        "reasoning": "Standard GPS satellite deployment by SpaceX.",
         "key_facts": [
-          "Tenth of ten GPS III missions",
-          "Launch by SpaceX using Falcon 9 Block 5"
+          "Tenth GPS III mission",
+          "Operated by US Space Force",
+          "Launch vehicle: Falcon 9 Block 5"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -731,7 +732,7 @@
         "tags": [
           "GPS",
           "SpaceX",
-          "Falcon 9"
+          "USSF"
         ],
         "user_recommendation": "Watch live stream for launch details."
       }
@@ -937,10 +938,10 @@
       "ai_enrichment": {
         "launch_id": "4e074623-426a-4ab2-8729-a85200684bef",
         "importance_score": 5,
-        "reasoning": "Sub-orbital test under Rocket Lab’s HASTE program.",
+        "reasoning": "Sub-orbital test launch with unspecified payload.",
         "key_facts": [
-          "Payload identity uncertain",
-          "Launch by Rocket Lab using Electron"
+          "Rocket Lab's HASTE program",
+          "Sub-orbital mission"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -950,10 +951,9 @@
         },
         "tags": [
           "Rocket Lab",
-          "Electron",
           "HASTE"
         ],
-        "user_recommendation": "Monitor updates for payload details."
+        "user_recommendation": "Follow updates for mission details."
       }
     },
     {
@@ -1597,10 +1597,10 @@
       "ai_enrichment": {
         "launch_id": "20418dc6-1870-4018-adda-1e6156717f02",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
+        "reasoning": "Routine Starlink satellite deployment.",
         "key_facts": [
-          "Part of Starlink mega-constellation",
-          "Launch by SpaceX using Falcon 9 Block 5"
+          "Starlink Group 17-14",
+          "SpaceX's satellite internet constellation"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1610,8 +1610,7 @@
         },
         "tags": [
           "Starlink",
-          "SpaceX",
-          "Falcon 9"
+          "SpaceX"
         ],
         "user_recommendation": "Standard mission"
       }
@@ -1886,8 +1885,8 @@
         "importance_score": 5,
         "reasoning": "JAXA rideshare mission with multiple small satellites.",
         "key_facts": [
-          "Includes educational and technology demonstration satellites",
-          "Launch by Rocket Lab using Electron"
+          "JAXA rideshare",
+          "Multiple small satellites"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1897,8 +1896,7 @@
         },
         "tags": [
           "JAXA",
-          "Rocket Lab",
-          "Electron"
+          "Rocket Lab"
         ],
         "user_recommendation": "Standard mission"
       }
@@ -2112,10 +2110,10 @@
       "ai_enrichment": {
         "launch_id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
         "importance_score": 5,
-        "reasoning": "Demo flight of South Korean military small satellite launch vehicle.",
+        "reasoning": "Demo flight for South Korean military satellite launch vehicle.",
         "key_facts": [
-          "First orbital full version launch",
-          "Launch by South Korean ADD"
+          "South Korean ADD Solid-Fuel SLV",
+          "Demo flight"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -2125,8 +2123,7 @@
         },
         "tags": [
           "South Korea",
-          "ADD",
-          "Demo Flight"
+          "Military"
         ],
         "user_recommendation": "Standard mission"
       }
