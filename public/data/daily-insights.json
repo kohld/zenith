@@ -1,54 +1,72 @@
 {
-  "generated_at": "2026-04-16T01:04:50.131Z",
+  "generated_at": "2026-04-20T08:42:57.378Z",
   "daily_summary": {
-    "headline": "Routine Launch Day with No Aurora Activity",
+    "headline": "Quiet Day in Space: Routine Launches and Low Aurora Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "Long March 2D Launch",
-        "description": "Launch of an unknown payload by China Aerospace Science and Technology Corporation using Long March 2D.",
+        "title": "Falcon 9 Block 5 | GPS III SV10",
+        "description": "SpaceX's Falcon 9 Block 5 is set to launch the GPS III SV10 satellite for the US Space Force, marking the tenth of ten GPS III missions.",
         "importance": 5,
-        "date": "2026-04-17T04:10:00Z",
+        "date": "2026-04-21T06:53:00Z",
         "type": "launch",
-        "action": "Watch live stream for updates."
+        "action": "Watch live stream for launch details."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Starlink Deployment",
-        "description": "SpaceX's Falcon 9 Block 5 launching Starlink Group 17-22.",
+        "title": "HASTE | Bubbles",
+        "description": "Rocket Lab's sub-orbital launch under the HASTE program, details of the payload remain uncertain.",
         "importance": 5,
-        "date": "2026-04-18T14:00:00Z",
+        "date": "2026-04-22T00:00:00Z",
         "type": "launch",
-        "action": "Follow live stream for satellite deployment."
+        "action": "Monitor updates for payload details."
       },
       {
         "rank": 3,
-        "title": "New Glenn BlueBird Block 2",
-        "description": "Blue Origin's New Glenn launching BlueBird Block 2 #2.",
-        "importance": 5,
-        "date": "2026-04-19T10:45:00Z",
-        "type": "launch",
-        "action": "Check for updates on launch status."
+        "title": "Aurora Viewing Opportunity",
+        "description": "A minor aurora event with a Kp index of 4, best viewed from latitudes above 65°.",
+        "importance": 4,
+        "date": "2026-04-21T03:00:00Z",
+        "type": "aurora",
+        "action": "Check conditions if located in high latitudes."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-04-21T03:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-04-21T03:00:00",
+          "end": "2026-04-21T03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-04-21T03:00:00",
+      "time": "03:00-03:00 UTC",
+      "kp": 4,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 0,
+    "total_aurora_entries_analyzed": 22,
     "processing_time_seconds": 0,
     "iterations": 2
   }
