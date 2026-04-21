@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-04-21T01:03:53.920Z",
+  "generated_at": "2026-04-21T12:40:38.342Z",
   "daily_summary": {
-    "headline": "Quiet Day in Space: Routine Launches and Mild Aurora Activity",
+    "headline": "Routine Launches and Low Aurora Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | GPS III SV10",
-        "description": "A routine GPS satellite deployment by SpaceX using Falcon 9 Block 5.",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-14",
+        "description": "A batch of 25 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "importance": 5,
-        "date": "2026-04-21T06:53:25Z",
+        "date": "2026-04-23T02:00:00Z",
         "type": "launch",
-        "action": "Watch live stream for launch details."
+        "action": "Watch live stream for SpaceX's Starlink mission."
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "Mild aurora activity expected, visible above 65° latitude.",
-        "importance": 4,
-        "date": "2026-04-21T03:00:00Z",
-        "type": "aurora",
-        "action": "Check conditions at high latitudes."
+        "title": "Electron | Kakushin Rising (JAXA Rideshare)",
+        "description": "JAXA-manifested rideshare of eight separate spacecraft including educational small sats and a demonstration satellite.",
+        "importance": 5,
+        "date": "2026-04-23T03:09:00Z",
+        "type": "launch",
+        "action": "Follow updates on Rocket Lab's mission."
       },
       {
         "rank": 3,
-        "title": "Rocket Lab's HASTE | Bubbles",
-        "description": "Sub-orbital test launch by Rocket Lab, details classified.",
+        "title": "South Korean ADD Solid-Fuel SLV | Demo Flight",
+        "description": "First orbital full version launch of the South Korean military small satellite launch vehicle.",
         "importance": 5,
-        "date": "2026-04-22T00:00:00Z",
+        "date": "2026-04-25T05:00:00Z",
         "type": "launch",
-        "action": "Monitor for updates on payload details."
+        "action": "Monitor for updates on South Korea's new launch vehicle."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-04-21T03:00:00",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-04-21T03:00:00",
-          "end": "2026-04-21T03:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-04-21T03:00:00",
-      "time": "03:00-03:00 UTC",
-      "kp": 4,
-      "visibility_range": "Above 65° latitude"
-    },
+    "opportunities": [],
+    "best_window": null,
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
