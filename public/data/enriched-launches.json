@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T12:43:25.494Z",
+  "generated_at": "2026-04-21T01:03:53.921Z",
   "launches": [
     {
       "id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
@@ -14,8 +14,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-19T15:04:54Z",
+      "last_updated": "2026-04-20T18:07:10Z",
       "updates": [
+        {
+          "id": 14762,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 90% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20GPS%20III-8%20L-1%20Forecast%20-%2021%20Apr%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-20T18:07:00Z"
+        },
+        {
+          "id": 14757,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.spacex.com/launches/gpsiii8",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-20T14:28:00Z"
+        },
         {
           "id": 14750,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -81,17 +97,17 @@
           "created_on": "2023-10-31T19:31:36Z"
         }
       ],
-      "net": "2026-04-21T06:53:00Z",
+      "net": "2026-04-21T06:53:25Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-04-21T07:08:00Z",
       "window_start": "2026-04-21T06:53:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 90,
+      "weather_concerns": "Cumulus Cloud Rule, Thick Cloud Layers Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -113,7 +129,7 @@
         "consecutive_successful_launches": 151,
         "successful_launches": 651,
         "failed_launches": 15,
-        "pending_launches": 123,
+        "pending_launches": 122,
         "consecutive_successful_landings": 150,
         "successful_landings": 611,
         "failed_landings": 27,
@@ -153,7 +169,7 @@
             "consecutive_successful_launches": 151,
             "successful_launches": 651,
             "failed_launches": 15,
-            "pending_launches": 123,
+            "pending_launches": 122,
             "consecutive_successful_landings": 150,
             "successful_landings": 611,
             "failed_landings": 27,
@@ -265,7 +281,7 @@
           "consecutive_successful_launches": 275,
           "successful_launches": 572,
           "failed_launches": 1,
-          "pending_launches": 104,
+          "pending_launches": 103,
           "attempted_landings": 564,
           "successful_landings": 559,
           "failed_landings": 5,
@@ -419,7 +435,7 @@
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
           "title": "GO! - SpaceX - Falcon 9 - GPS III SV10 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
-          "description": "Launch Date:  April 21, 2026\nLaunch Time: 2:53 a.m. EDT, 0653 UTC, 08:53 CEST\nLaunch Window:  Open until 3:08 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: High Earth Orbit (HEO) \nLaunch Inclination: Northeast\nLaunch Status: Announced \n\nMission: GPS II SV10\nLaunch Provider: SpaceX\nPayload Manufracturer: Lockheed Martin\nOperator: US Space Force\nLauncher System: Falcon 9 (Booster B1095 - Turnaround time 37 days)\nFlight for the Booster: 7\nPrevious Flights of the Booster: 6 - Six Starlink missions\nDroneship: Just Read The Instructions\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nSpaceX is targe...",
+          "description": "Launch Date:  April 21, 2026\nLaunch Time: 2:53 a.m. EDT, 0653 UTC, 08:53 CEST\nLaunch Window:  Open until 3:08 a.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: High Earth Orbit (HEO) \nLaunch Inclination: Northeast\nLaunch Status: Scheduled and announced \n\nMission: GPS II SV10\nLaunch Provider: SpaceX\nPayload Manufracturer: Lockheed Martin\nOperator: US Space Force\nLauncher System: Falcon 9 (Booster B1095 - Turnaround time 37 days)\nFlight for the Booster: 7\nPrevious Flights of the Booster: 6 - Six Starlink missions\nDroneship: Just Read The Instructions\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nS...",
           "feature_image": "https://i.ytimg.com/vi/ZQA2q5dqly0/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=ZQA2q5dqly0",
           "type": {
@@ -431,7 +447,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-21T06:40:00Z",
+          "start_time": "2026-04-21T06:37:00Z",
           "end_time": null
         },
         {
@@ -471,8 +487,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-21T06:41:00Z",
-          "end_time": "2026-04-21T08:42:00Z"
+          "start_time": "2026-04-21T06:39:00Z",
+          "end_time": "2026-04-21T09:42:00Z"
         }
       ],
       "webcast_live": false,
@@ -487,17 +503,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -698,7 +714,7 @@
       "location_launch_attempt_count_year": 28,
       "pad_launch_attempt_count_year": 25,
       "agency_launch_attempt_count_year": 48,
-      "pad_turnaround": "P6DT21H19M50S",
+      "pad_turnaround": "P6DT21H20M15S",
       "mission_patches": [
         {
           "id": 1317,
@@ -717,23 +733,15 @@
       "ai_enrichment": {
         "launch_id": "2c5686ec-b0fd-4987-935d-587e3c85fa2d",
         "importance_score": 5,
-        "reasoning": "Standard GPS satellite deployment by SpaceX.",
-        "key_facts": [
-          "Tenth GPS III mission",
-          "Operated by US Space Force",
-          "Launch vehicle: Falcon 9 Block 5"
-        ],
+        "reasoning": "Routine GPS satellite deployment by SpaceX using Falcon 9 Block 5.",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "GPS",
-          "SpaceX",
-          "USSF"
-        ],
+        "tags": [],
         "user_recommendation": "Watch live stream for launch details."
       }
     },
@@ -938,22 +946,16 @@
       "ai_enrichment": {
         "launch_id": "4e074623-426a-4ab2-8729-a85200684bef",
         "importance_score": 5,
-        "reasoning": "Sub-orbital test launch with unspecified payload.",
-        "key_facts": [
-          "Rocket Lab's HASTE program",
-          "Sub-orbital mission"
-        ],
+        "reasoning": "Sub-orbital test launch by Rocket Lab, details classified.",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "Rocket Lab",
-          "HASTE"
-        ],
-        "user_recommendation": "Follow updates for mission details."
+        "tags": [],
+        "user_recommendation": "Monitor for updates on payload details."
       }
     },
     {
@@ -1020,7 +1022,7 @@
         "consecutive_successful_launches": 151,
         "successful_launches": 651,
         "failed_launches": 15,
-        "pending_launches": 123,
+        "pending_launches": 122,
         "consecutive_successful_landings": 150,
         "successful_landings": 611,
         "failed_landings": 27,
@@ -1060,7 +1062,7 @@
             "consecutive_successful_launches": 151,
             "successful_launches": 651,
             "failed_launches": 15,
-            "pending_launches": 123,
+            "pending_launches": 122,
             "consecutive_successful_landings": 150,
             "successful_landings": 611,
             "failed_landings": 27,
@@ -1172,7 +1174,7 @@
           "consecutive_successful_launches": 275,
           "successful_launches": 572,
           "failed_launches": 1,
-          "pending_launches": 104,
+          "pending_launches": 103,
           "attempted_landings": 564,
           "successful_landings": 559,
           "failed_landings": 5,
@@ -1259,7 +1261,7 @@
             "consecutive_successful_launches": 151,
             "successful_launches": 651,
             "failed_launches": 15,
-            "pending_launches": 123,
+            "pending_launches": 122,
             "consecutive_successful_landings": 150,
             "successful_landings": 611,
             "failed_landings": 27,
@@ -1354,17 +1356,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -1386,17 +1388,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -1597,22 +1599,16 @@
       "ai_enrichment": {
         "launch_id": "20418dc6-1870-4018-adda-1e6156717f02",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment.",
-        "key_facts": [
-          "Starlink Group 17-14",
-          "SpaceX's satellite internet constellation"
-        ],
+        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "Starlink",
-          "SpaceX"
-        ],
-        "user_recommendation": "Standard mission"
+        "tags": [],
+        "user_recommendation": "Watch live stream for launch details."
       }
     },
     {
@@ -1884,160 +1880,146 @@
         "launch_id": "9281afa8-140d-425b-a560-2fa59feef814",
         "importance_score": 5,
         "reasoning": "JAXA rideshare mission with multiple small satellites.",
-        "key_facts": [
-          "JAXA rideshare",
-          "Multiple small satellites"
-        ],
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "JAXA",
-          "Rocket Lab"
-        ],
-        "user_recommendation": "Standard mission"
+        "tags": [],
+        "user_recommendation": "Watch live stream for launch details."
       }
     },
     {
-      "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/",
-      "slug": "south-korean-add-solid-fuel-slv-demo-flight",
+      "id": "214b4db1-7112-4428-a999-29d2765c8306",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/214b4db1-7112-4428-a999-29d2765c8306/",
+      "slug": "long-march-2d-unknown-payload",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "South Korean ADD Solid-Fuel SLV | Demo Flight",
+      "name": "Long March 2D | Unknown Payload",
       "status": {
         "id": 1,
         "name": "Go for Launch",
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-17T02:58:11Z",
+      "last_updated": "2026-04-20T20:59:41Z",
       "updates": [
         {
-          "id": 14727,
+          "id": 14765,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Delayed to NET April 25 due to launch site weather.",
-          "info_url": "https://n.news.naver.com/article/079/0004137628?sid=102",
+          "comment": "Added launch per NOTAMs; Payload and launch vehicle identities highly uncertain.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2781699#msg2781699",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-17T02:58:00Z"
-        },
-        {
-          "id": 14654,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per NOTAMs; payload details TBD.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64752.msg2779045#msg2779045",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-11T15:26:00Z"
+          "created_on": "2026-04-20T20:59:00Z"
         }
       ],
-      "net": "2026-04-25T05:00:00Z",
+      "net": "2026-04-24T06:30:00Z",
       "net_precision": {
         "id": 2,
         "name": "Hour",
         "abbrev": "HR",
         "description": "The T-0 is accurate to the hour."
       },
-      "window_end": "2026-04-25T09:00:00Z",
-      "window_start": "2026-04-25T05:00:00Z",
+      "window_end": "2026-04-24T06:46:00Z",
+      "window_start": "2026-04-24T06:25:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
       "launch_service_provider": {
-        "id": 1079,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1079/",
-        "name": "Agency for Defense Development",
-        "featured": false,
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "featured": true,
         "type": "Government",
-        "country_code": "KOR",
-        "abbrev": "ADD",
-        "description": "The Agency for Defense Development (ADD) is the South Korean national agency for research and development in defense technology, funded by the Defense Acquisition Program Administration (DAPA). Its purpose is contributing to enforcing the national defence, to improving the national R&D capacity, and to fostering the domestic defense industry.",
-        "administrator": null,
-        "founding_year": "1970",
-        "launchers": "South Korean ADD Solid-Fuel SLV",
+        "country_code": "CHN",
+        "abbrev": "CASC",
+        "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
+        "administrator": "Chairman & President: Lei Fanpei",
+        "founding_year": "1999",
+        "launchers": "Long March",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 1,
-        "consecutive_successful_launches": 1,
-        "successful_launches": 1,
-        "failed_launches": 0,
-        "pending_launches": 1,
+        "total_launch_count": 585,
+        "consecutive_successful_launches": 11,
+        "successful_launches": 570,
+        "failed_launches": 15,
+        "pending_launches": 11,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
-        "failed_landings": 0,
-        "attempted_landings": 0,
-        "info_url": "https://www.add.re.kr/eps",
-        "wiki_url": "https://en.wikipedia.org/wiki/Agency_for_Defense_Development",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/agency2520for2520defense2520development_logo_20231204144839.png",
-        "image_url": null,
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/agency2520for2520defense2520development_nation_20231204144840.jpg"
+        "failed_landings": 1,
+        "attempted_landings": 1,
+        "info_url": "https://english.spacechina.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
       },
       "rocket": {
-        "id": 8972,
+        "id": 9009,
         "configuration": {
-          "id": 502,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/502/",
-          "name": "South Korean ADD Solid-Fuel SLV",
-          "active": false,
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/17/",
+          "name": "Long March 2D",
+          "active": true,
           "reusable": false,
-          "description": "",
-          "family": "South Korean ADD Solid-Fuel SLV",
-          "full_name": "South Korean ADD Solid-Fuel SLV",
+          "description": "The Long March 2D, also known as the Chang Zheng 2D, CZ-2D and LM-2D, is a Chinese orbital carrier rocket. It is a 2-stage carrier rocket mainly used for launching LEO and SSO satellites.",
+          "family": "Long March",
+          "full_name": "Long March 2D",
           "manufacturer": {
-            "id": 1079,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1079/",
-            "name": "Agency for Defense Development",
-            "featured": false,
+            "id": 88,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+            "name": "China Aerospace Science and Technology Corporation",
+            "featured": true,
             "type": "Government",
-            "country_code": "KOR",
-            "abbrev": "ADD",
-            "description": "The Agency for Defense Development (ADD) is the South Korean national agency for research and development in defense technology, funded by the Defense Acquisition Program Administration (DAPA). Its purpose is contributing to enforcing the national defence, to improving the national R&D capacity, and to fostering the domestic defense industry.",
-            "administrator": null,
-            "founding_year": "1970",
-            "launchers": "South Korean ADD Solid-Fuel SLV",
+            "country_code": "CHN",
+            "abbrev": "CASC",
+            "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
+            "administrator": "Chairman & President: Lei Fanpei",
+            "founding_year": "1999",
+            "launchers": "Long March",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 1,
-            "consecutive_successful_launches": 1,
-            "successful_launches": 1,
-            "failed_launches": 0,
-            "pending_launches": 1,
+            "total_launch_count": 585,
+            "consecutive_successful_launches": 11,
+            "successful_launches": 570,
+            "failed_launches": 15,
+            "pending_launches": 11,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.add.re.kr/eps",
-            "wiki_url": "https://en.wikipedia.org/wiki/Agency_for_Defense_Development",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/agency2520for2520defense2520development_logo_20231204144839.png",
-            "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/agency2520for2520defense2520development_nation_20231204144840.jpg"
+            "failed_landings": 1,
+            "attempted_landings": 1,
+            "info_url": "https://english.spacechina.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
           },
           "program": [],
-          "variant": "",
+          "variant": "D",
           "alias": "",
-          "min_stage": 4,
-          "max_stage": 4,
-          "length": null,
-          "diameter": null,
-          "maiden_flight": null,
-          "launch_cost": null,
-          "launch_mass": null,
-          "leo_capacity": 500,
-          "gto_capacity": null,
-          "to_thrust": null,
-          "apogee": null,
+          "min_stage": 1,
+          "max_stage": 2,
+          "length": 38.3,
+          "diameter": 3.35,
+          "maiden_flight": "1992-08-09",
+          "launch_cost": "30000000",
+          "launch_mass": 232,
+          "leo_capacity": 3500,
+          "gto_capacity": 0,
+          "to_thrust": 2962,
+          "apogee": 500,
           "vehicle_range": null,
-          "image_url": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
           "info_url": null,
-          "wiki_url": null,
-          "total_launch_count": 0,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
-          "failed_launches": 0,
+          "wiki_url": "https://en.wikipedia.org/wiki/Long_March_(rocket_family)",
+          "total_launch_count": 98,
+          "consecutive_successful_launches": 66,
+          "successful_launches": 97,
+          "failed_launches": 1,
           "pending_launches": 1,
           "attempted_landings": 0,
           "successful_landings": 0,
@@ -2048,84 +2030,78 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 7567,
-        "name": "Demo Flight",
-        "description": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD.",
+        "id": 7604,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
         "launch_designator": null,
-        "type": "Test Flight",
+        "type": "Unknown",
         "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
         },
         "agencies": [],
         "info_urls": [],
         "vid_urls": []
       },
       "pad": {
-        "id": 216,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/216/",
-        "agency_id": null,
-        "name": "ADD Offshore launch platform",
-        "description": "Offshore launch platform for the South Korean military small satellite launch vehicle.",
+        "id": 66,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/66/",
+        "agency_id": 17,
+        "name": "Launch Complex 3 (LC-3/LA-1)",
+        "description": "",
         "info_url": null,
-        "wiki_url": null,
-        "map_url": null,
-        "latitude": "33.216667",
-        "longitude": "126.366667",
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.247059,102.029008",
+        "latitude": "28.247059",
+        "longitude": "102.029008",
         "location": {
-          "id": 3,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
-          "name": "Sea Launch",
-          "country_code": "???",
-          "description": "",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
-          "timezone_name": "",
-          "total_launch_count": 40,
+          "id": 16,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+          "name": "Xichang Satellite Launch Center, People's Republic of China",
+          "country_code": "CHN",
+          "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 238,
           "total_landing_count": 0
         },
-        "country_code": "KOR",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_add_offshore_launch_platform_20231204142359.jpg",
-        "total_launch_count": 1,
-        "orbital_launch_attempt_count": 1
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_66_20200803143611.jpg",
+        "total_launch_count": 106,
+        "orbital_launch_attempt_count": 106
       },
       "infoURLs": [],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 7268,
-      "location_launch_attempt_count": 41,
-      "pad_launch_attempt_count": 2,
-      "agency_launch_attempt_count": 2,
+      "location_launch_attempt_count": 239,
+      "pad_launch_attempt_count": 107,
+      "agency_launch_attempt_count": 586,
       "orbital_launch_attempt_count_year": 95,
-      "location_launch_attempt_count_year": 1,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P873D",
+      "location_launch_attempt_count_year": 3,
+      "pad_launch_attempt_count_year": 2,
+      "agency_launch_attempt_count_year": 16,
+      "pad_turnaround": "P42DT7H57M",
       "mission_patches": [],
       "type": "detailed",
       "ai_enrichment": {
-        "launch_id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+        "launch_id": "214b4db1-7112-4428-a999-29d2765c8306",
         "importance_score": 5,
-        "reasoning": "Demo flight for South Korean military satellite launch vehicle.",
-        "key_facts": [
-          "South Korean ADD Solid-Fuel SLV",
-          "Demo flight"
-        ],
+        "reasoning": "Launch with unknown payload by China Aerospace.",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "South Korea",
-          "Military"
-        ],
-        "user_recommendation": "Standard mission"
+        "tags": [],
+        "user_recommendation": "Monitor for updates on payload details."
       }
     }
   ]
