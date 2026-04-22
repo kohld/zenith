@@ -1,233 +1,6 @@
 {
-  "generated_at": "2026-04-22T01:00:02.446Z",
+  "generated_at": "2026-04-22T12:39:27.551Z",
   "launches": [
-    {
-      "id": "4e074623-426a-4ab2-8729-a85200684bef",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/4e074623-426a-4ab2-8729-a85200684bef/",
-      "slug": "haste-bubbles",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "HASTE | Bubbles",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-04-22T00:28:33Z",
-      "updates": [
-        {
-          "id": 14774,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Updated approximate T-0 per local reports.",
-          "info_url": "https://x.com/eshorespaceflt/status/2046745295816421749",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-22T00:28:00Z"
-        },
-        {
-          "id": 14716,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per air space closure notices; payload identity is uncertain.",
-          "info_url": "https://twitter.com/EShoreSpaceflt/status/2044382085121548288",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-15T14:16:00Z"
-        }
-      ],
-      "net": "2026-04-22T01:15:00Z",
-      "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
-      },
-      "window_end": "2026-04-22T05:00:00Z",
-      "window_start": "2026-04-22T00:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 147,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
-        "name": "Rocket Lab",
-        "featured": true,
-        "type": "Commercial",
-        "country_code": "USA",
-        "abbrev": "RL",
-        "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
-        "administrator": "CEO: Peter Beck",
-        "founding_year": "2006",
-        "launchers": "Electron",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 86,
-        "consecutive_successful_launches": 44,
-        "successful_launches": 81,
-        "failed_launches": 4,
-        "pending_launches": 45,
-        "consecutive_successful_landings": 4,
-        "successful_landings": 7,
-        "failed_landings": 2,
-        "attempted_landings": 9,
-        "info_url": "https://rocketlabcorp.com",
-        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
-      },
-      "rocket": {
-        "id": 9007,
-        "configuration": {
-          "id": 26,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
-          "name": "Electron",
-          "active": true,
-          "reusable": false,
-          "description": "Electron is a two-stage orbital expendable launch vehicle (with an optional third stage) developed by the American aerospace company Rocket Lab. Electron is a small-lift launch vehicle designed to launch small satellites and cubesats to sun-synchronous orbit and low earth orbit. The Electron is the first orbital class rocket to use electric-pump-fed engines, powered by the 9 Rutherford engines on the first stage. It is also used as a suborbital testbed (called HASTE) for hypersonics research.",
-          "family": "",
-          "full_name": "Electron",
-          "manufacturer": {
-            "id": 147,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
-            "name": "Rocket Lab",
-            "featured": true,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "RL",
-            "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
-            "administrator": "CEO: Peter Beck",
-            "founding_year": "2006",
-            "launchers": "Electron",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 86,
-            "consecutive_successful_launches": 44,
-            "successful_launches": 81,
-            "failed_launches": 4,
-            "pending_launches": 45,
-            "consecutive_successful_landings": 4,
-            "successful_landings": 7,
-            "failed_landings": 2,
-            "attempted_landings": 9,
-            "info_url": "https://rocketlabcorp.com",
-            "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
-          },
-          "program": [],
-          "variant": "",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 3,
-          "length": 18,
-          "diameter": 1.2,
-          "maiden_flight": "2017-05-25",
-          "launch_cost": "6000000",
-          "launch_mass": 13,
-          "leo_capacity": 300,
-          "gto_capacity": null,
-          "to_thrust": 162,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-          "info_url": "https://www.rocketlabusa.com/electron/",
-          "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 86,
-          "consecutive_successful_launches": 44,
-          "successful_launches": 81,
-          "failed_launches": 4,
-          "pending_launches": 43,
-          "attempted_landings": 9,
-          "successful_landings": 7,
-          "failed_landings": 2,
-          "consecutive_successful_landings": 4
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7602,
-        "name": "Bubbles",
-        "description": "Sub-orbital launch under Rocket Lab’s Hypersonic Accelerator Suborbital Test Electron (HASTE) program, details TBD.",
-        "launch_designator": null,
-        "type": "Government/Top Secret",
-        "orbit": {
-          "id": 15,
-          "name": "Suborbital",
-          "abbrev": "Sub"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 79,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/79/",
-        "agency_id": 147,
-        "name": "Rocket Lab Launch Complex 2 (Launch Area 0 C)",
-        "description": "",
-        "info_url": null,
-        "wiki_url": null,
-        "map_url": "https://www.google.com/maps?q=37.833262,-75.488235",
-        "latitude": "37.833262",
-        "longitude": "-75.488235",
-        "location": {
-          "id": 21,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/21/",
-          "name": "Wallops Flight Facility, Virginia, USA",
-          "country_code": "USA",
-          "description": "Wallops Flight Facility is a rocket launch site on Wallops Island on the Eastern Shore of Virginia, United States, just east of the Delmarva Peninsula and north-northeast of Norfolk. The facility is operated by the Goddard Space Flight Center in Greenbelt, Maryland, and primarily serves to support science and exploration missions for NASA and other federal agencies. WFF includes an extensively instrumented range to support launches of more than a dozen types of sounding rockets; small expendable suborbital and orbital rockets; high-altitude balloon flights carrying scientific instruments for atmospheric and astronomical research; and, using its Research Airport, flight tests of aeronautical research aircraft, including uncrewed aerial vehicles.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_21_20200803142423.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 86,
-          "total_landing_count": 0
-        },
-        "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_79_20200803143607.jpg",
-        "total_launch_count": 12,
-        "orbital_launch_attempt_count": 4
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": null,
-      "location_launch_attempt_count": 86,
-      "pad_launch_attempt_count": 12,
-      "agency_launch_attempt_count": 86,
-      "orbital_launch_attempt_count_year": null,
-      "location_launch_attempt_count_year": 2,
-      "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 7,
-      "pad_turnaround": "P53D",
-      "mission_patches": [],
-      "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "4e074623-426a-4ab2-8729-a85200684bef",
-        "importance_score": 5,
-        "reasoning": "Sub-orbital launch under Rocket Lab’s Hypersonic Accelerator Suborbital Test Electron (HASTE) program. Routine mission for hypersonics research.",
-        "key_facts": [
-          "Sub-orbital launch",
-          "Hypersonics research"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "suborbital",
-          "research"
-        ],
-        "user_recommendation": "Standard mission"
-      }
-    },
     {
       "id": "20418dc6-1870-4018-adda-1e6156717f02",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/20418dc6-1870-4018-adda-1e6156717f02/",
@@ -241,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-18T18:36:28Z",
+      "last_updated": "2026-04-22T10:04:38Z",
       "updates": [
+        {
+          "id": 14780,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Now targeting Apr 23 at 02:23 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-14",
+          "created_by": "Nosu",
+          "created_on": "2026-04-22T10:04:00Z"
+        },
         {
           "id": 14736,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -260,12 +41,12 @@
           "created_on": "2026-04-09T16:35:00Z"
         }
       ],
-      "net": "2026-04-23T02:00:00Z",
+      "net": "2026-04-23T02:23:10Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-04-23T06:00:00Z",
       "window_start": "2026-04-23T02:00:00Z",
@@ -626,17 +407,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -850,7 +631,7 @@
       "location_launch_attempt_count_year": 26,
       "pad_launch_attempt_count_year": 24,
       "agency_launch_attempt_count_year": 49,
-      "pad_turnaround": "P3DT9H56M51S",
+      "pad_turnaround": "P3DT10H20M1S",
       "mission_patches": [
         {
           "id": 7,
@@ -869,10 +650,11 @@
       "ai_enrichment": {
         "launch_id": "20418dc6-1870-4018-adda-1e6156717f02",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment by SpaceX. Part of ongoing constellation expansion.",
+        "reasoning": "Standard mission for Starlink satellite deployment.",
         "key_facts": [
-          "Starlink satellite deployment",
-          "SpaceX Falcon 9"
+          "Falcon 9 Block 5",
+          "Starlink Group 17-14",
+          "Launch from Vandenberg SFB, CA, USA"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -881,10 +663,10 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "communications",
-          "routine"
+          "Starlink",
+          "SpaceX"
         ],
-        "user_recommendation": "Standard mission"
+        "user_recommendation": "Watch live stream for best experience"
       }
     },
     {
@@ -967,7 +749,7 @@
         "consecutive_successful_launches": 44,
         "successful_launches": 81,
         "failed_launches": 4,
-        "pending_launches": 45,
+        "pending_launches": 44,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -1007,7 +789,7 @@
             "consecutive_successful_launches": 44,
             "successful_launches": 81,
             "failed_launches": 4,
-            "pending_launches": 45,
+            "pending_launches": 44,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -1040,7 +822,7 @@
           "consecutive_successful_launches": 44,
           "successful_launches": 81,
           "failed_launches": 4,
-          "pending_launches": 43,
+          "pending_launches": 42,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -1155,10 +937,11 @@
       "ai_enrichment": {
         "launch_id": "9281afa8-140d-425b-a560-2fa59feef814",
         "importance_score": 5,
-        "reasoning": "JAXA-manifested rideshare mission with educational and technology demonstration satellites. Routine mission.",
+        "reasoning": "Standard mission for JAXA rideshare.",
         "key_facts": [
-          "JAXA rideshare",
-          "Technology demonstration"
+          "Electron rocket",
+          "Kakushin Rising (JAXA Rideshare)",
+          "Launch from Mahia Peninsula, New Zealand"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1167,10 +950,10 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "rideshare",
-          "technology"
+          "JAXA",
+          "Rocket Lab"
         ],
-        "user_recommendation": "Standard mission"
+        "user_recommendation": "Watch live stream for best experience"
       }
     },
     {
@@ -1229,7 +1012,7 @@
         "consecutive_successful_launches": 11,
         "successful_launches": 570,
         "failed_launches": 15,
-        "pending_launches": 11,
+        "pending_launches": 12,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 1,
@@ -1269,7 +1052,7 @@
             "consecutive_successful_launches": 11,
             "successful_launches": 570,
             "failed_launches": 15,
-            "pending_launches": 11,
+            "pending_launches": 12,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 1,
@@ -1374,10 +1157,11 @@
       "ai_enrichment": {
         "launch_id": "214b4db1-7112-4428-a999-29d2765c8306",
         "importance_score": 5,
-        "reasoning": "Launch of an unknown payload by China Aerospace Science and Technology Corporation. Routine mission.",
+        "reasoning": "Standard mission with unknown payload.",
         "key_facts": [
-          "Unknown payload",
-          "Chinese launch"
+          "Long March 2D",
+          "Unknown Payload",
+          "Launch from Xichang Satellite Launch Center, China"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1386,148 +1170,140 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "unknown",
-          "routine"
+          "CASC",
+          "China"
         ],
-        "user_recommendation": "Standard mission"
+        "user_recommendation": "Watch live stream for best experience"
       }
     },
     {
-      "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f/",
-      "slug": "south-korean-add-solid-fuel-slv-demo-flight",
+      "id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/88ab98d8-44e9-4aae-ac0f-02006a1d7ce6/",
+      "slug": "long-march-6-unknown-payload",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "South Korean ADD Solid-Fuel SLV | Demo Flight",
+      "name": "Long March 6 | Unknown Payload",
       "status": {
         "id": 1,
         "name": "Go for Launch",
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-17T02:58:11Z",
+      "last_updated": "2026-04-22T01:27:00Z",
       "updates": [
         {
-          "id": 14727,
+          "id": 14775,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Delayed to NET April 25 due to launch site weather.",
-          "info_url": "https://n.news.naver.com/article/079/0004137628?sid=102",
+          "comment": "Added launch per NOTAMs; Payload and launch vehicle identities uncertain.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2782070#msg2782070",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-17T02:58:00Z"
-        },
-        {
-          "id": 14654,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per NOTAMs; payload details TBD.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64752.msg2779045#msg2779045",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-11T15:26:00Z"
+          "created_on": "2026-04-22T01:27:00Z"
         }
       ],
-      "net": "2026-04-25T05:00:00Z",
+      "net": "2026-04-25T12:15:00Z",
       "net_precision": {
         "id": 2,
         "name": "Hour",
         "abbrev": "HR",
         "description": "The T-0 is accurate to the hour."
       },
-      "window_end": "2026-04-25T09:00:00Z",
-      "window_start": "2026-04-25T05:00:00Z",
+      "window_end": "2026-04-25T12:37:00Z",
+      "window_start": "2026-04-25T12:08:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
       "launch_service_provider": {
-        "id": 1079,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1079/",
-        "name": "Agency for Defense Development",
-        "featured": false,
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "featured": true,
         "type": "Government",
-        "country_code": "KOR",
-        "abbrev": "ADD",
-        "description": "The Agency for Defense Development (ADD) is the South Korean national agency for research and development in defense technology, funded by the Defense Acquisition Program Administration (DAPA). Its purpose is contributing to enforcing the national defence, to improving the national R&D capacity, and to fostering the domestic defense industry.",
-        "administrator": null,
-        "founding_year": "1970",
-        "launchers": "South Korean ADD Solid-Fuel SLV",
+        "country_code": "CHN",
+        "abbrev": "CASC",
+        "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
+        "administrator": "Chairman & President: Lei Fanpei",
+        "founding_year": "1999",
+        "launchers": "Long March",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 1,
-        "consecutive_successful_launches": 1,
-        "successful_launches": 1,
-        "failed_launches": 0,
-        "pending_launches": 1,
+        "total_launch_count": 585,
+        "consecutive_successful_launches": 11,
+        "successful_launches": 570,
+        "failed_launches": 15,
+        "pending_launches": 12,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
-        "failed_landings": 0,
-        "attempted_landings": 0,
-        "info_url": "https://www.add.re.kr/eps",
-        "wiki_url": "https://en.wikipedia.org/wiki/Agency_for_Defense_Development",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/agency2520for2520defense2520development_logo_20231204144839.png",
-        "image_url": null,
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/agency2520for2520defense2520development_nation_20231204144840.jpg"
+        "failed_landings": 1,
+        "attempted_landings": 1,
+        "info_url": "https://english.spacechina.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
       },
       "rocket": {
-        "id": 8972,
+        "id": 9010,
         "configuration": {
-          "id": 502,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/502/",
-          "name": "South Korean ADD Solid-Fuel SLV",
-          "active": false,
+          "id": 54,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/54/",
+          "name": "Long March 6",
+          "active": true,
           "reusable": false,
           "description": "",
-          "family": "South Korean ADD Solid-Fuel SLV",
-          "full_name": "South Korean ADD Solid-Fuel SLV",
+          "family": "Long March",
+          "full_name": "Long March 6",
           "manufacturer": {
-            "id": 1079,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1079/",
-            "name": "Agency for Defense Development",
-            "featured": false,
+            "id": 88,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+            "name": "China Aerospace Science and Technology Corporation",
+            "featured": true,
             "type": "Government",
-            "country_code": "KOR",
-            "abbrev": "ADD",
-            "description": "The Agency for Defense Development (ADD) is the South Korean national agency for research and development in defense technology, funded by the Defense Acquisition Program Administration (DAPA). Its purpose is contributing to enforcing the national defence, to improving the national R&D capacity, and to fostering the domestic defense industry.",
-            "administrator": null,
-            "founding_year": "1970",
-            "launchers": "South Korean ADD Solid-Fuel SLV",
+            "country_code": "CHN",
+            "abbrev": "CASC",
+            "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
+            "administrator": "Chairman & President: Lei Fanpei",
+            "founding_year": "1999",
+            "launchers": "Long March",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 1,
-            "consecutive_successful_launches": 1,
-            "successful_launches": 1,
-            "failed_launches": 0,
-            "pending_launches": 1,
+            "total_launch_count": 585,
+            "consecutive_successful_launches": 11,
+            "successful_launches": 570,
+            "failed_launches": 15,
+            "pending_launches": 12,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.add.re.kr/eps",
-            "wiki_url": "https://en.wikipedia.org/wiki/Agency_for_Defense_Development",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/agency2520for2520defense2520development_logo_20231204144839.png",
-            "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/agency2520for2520defense2520development_nation_20231204144840.jpg"
+            "failed_landings": 1,
+            "attempted_landings": 1,
+            "info_url": "https://english.spacechina.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
           },
           "program": [],
           "variant": "",
           "alias": "",
-          "min_stage": 4,
-          "max_stage": 4,
-          "length": null,
-          "diameter": null,
-          "maiden_flight": null,
+          "min_stage": 1,
+          "max_stage": 3,
+          "length": 29,
+          "diameter": 3.35,
+          "maiden_flight": "2015-09-19",
           "launch_cost": null,
-          "launch_mass": null,
-          "leo_capacity": 500,
+          "launch_mass": 103,
+          "leo_capacity": null,
           "gto_capacity": null,
           "to_thrust": null,
           "apogee": null,
           "vehicle_range": null,
-          "image_url": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
           "info_url": null,
-          "wiki_url": null,
-          "total_launch_count": 0,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
+          "wiki_url": "https://en.wikipedia.org/wiki/Long_March_6",
+          "total_launch_count": 14,
+          "consecutive_successful_launches": 14,
+          "successful_launches": 14,
           "failed_launches": 0,
           "pending_launches": 1,
           "attempted_landings": 0,
@@ -1539,72 +1315,73 @@
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 7567,
-        "name": "Demo Flight",
-        "description": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD.",
+        "id": 7605,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
         "launch_designator": null,
-        "type": "Test Flight",
+        "type": "Unknown",
         "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
         },
         "agencies": [],
         "info_urls": [],
         "vid_urls": []
       },
       "pad": {
-        "id": 216,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/216/",
+        "id": 113,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/113/",
         "agency_id": null,
-        "name": "ADD Offshore launch platform",
-        "description": "Offshore launch platform for the South Korean military small satellite launch vehicle.",
+        "name": "Launch Complex 16",
+        "description": null,
         "info_url": null,
         "wiki_url": null,
-        "map_url": null,
-        "latitude": "33.216667",
-        "longitude": "126.366667",
+        "map_url": "https://www.google.com/maps?q=38.868222,111.58024",
+        "latitude": "38.868222",
+        "longitude": "111.58024",
         "location": {
-          "id": 3,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/3/",
-          "name": "Sea Launch",
-          "country_code": "???",
-          "description": "",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_3_20200803142448.jpg",
-          "timezone_name": "",
-          "total_launch_count": 40,
+          "id": 19,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
+          "name": "Taiyuan Satellite Launch Center, People's Republic of China",
+          "country_code": "CHN",
+          "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 153,
           "total_landing_count": 0
         },
-        "country_code": "KOR",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_add_offshore_launch_platform_20231204142359.jpg",
-        "total_launch_count": 1,
-        "orbital_launch_attempt_count": 1
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_113_20200803143556.jpg",
+        "total_launch_count": 15,
+        "orbital_launch_attempt_count": 15
       },
       "infoURLs": [],
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/south2520korea_image_20231204145331.png",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7269,
-      "location_launch_attempt_count": 41,
-      "pad_launch_attempt_count": 2,
-      "agency_launch_attempt_count": 2,
-      "orbital_launch_attempt_count_year": 96,
-      "location_launch_attempt_count_year": 1,
+      "orbital_launch_attempt_count": 7270,
+      "location_launch_attempt_count": 154,
+      "pad_launch_attempt_count": 16,
+      "agency_launch_attempt_count": 587,
+      "orbital_launch_attempt_count_year": 97,
+      "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P873D",
+      "agency_launch_attempt_count_year": 17,
+      "pad_turnaround": "P387DT10H3M",
       "mission_patches": [],
       "type": "detailed",
       "ai_enrichment": {
-        "launch_id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+        "launch_id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
         "importance_score": 5,
-        "reasoning": "Demo flight of South Korean ADD Solid-Fuel SLV. Routine test mission.",
+        "reasoning": "Standard mission with unknown payload.",
         "key_facts": [
-          "Demo flight",
-          "South Korean military"
+          "Long March 6",
+          "Unknown Payload",
+          "Launch from Taiyuan Satellite Launch Center, China"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1613,10 +1390,338 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "demo",
-          "test"
+          "CASC",
+          "China"
         ],
-        "user_recommendation": "Standard mission"
+        "user_recommendation": "Watch live stream for best experience"
+      }
+    },
+    {
+      "id": "33eb7522-d371-4195-addb-c22aeff30c41",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/33eb7522-d371-4195-addb-c22aeff30c41/",
+      "slug": "soyuz-21a-progress-ms-34-95p",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Soyuz 2.1a | Progress MS-34 (95P)",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-04-21T15:16:02Z",
+      "updates": [
+        {
+          "id": 14759,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://forum.novosti-kosmonavtiki.ru/index.php?msg=2845826",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-20T14:40:00Z"
+        },
+        {
+          "id": 13416,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch.",
+          "info_url": "https://forum.novosti-kosmonavtiki.ru/index.php?msg=2795395",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2025-12-20T03:44:00Z"
+        }
+      ],
+      "net": "2026-04-25T22:21:47Z",
+      "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+      },
+      "window_end": "2026-04-25T22:21:47Z",
+      "window_start": "2026-04-25T22:21:47Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "featured": true,
+        "type": "Government",
+        "country_code": "RUS",
+        "abbrev": "RFSA",
+        "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
+        "administrator": "Administrator: Yuri Borisov",
+        "founding_year": "1992",
+        "launchers": "Soyuz",
+        "spacecraft": "Soyuz",
+        "launch_library_url": null,
+        "total_launch_count": 340,
+        "consecutive_successful_launches": 64,
+        "successful_launches": 329,
+        "failed_launches": 11,
+        "pending_launches": 4,
+        "consecutive_successful_landings": 0,
+        "successful_landings": 0,
+        "failed_landings": 0,
+        "attempted_landings": 0,
+        "info_url": "https://en.roscosmos.ru/",
+        "wiki_url": "https://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
+      },
+      "rocket": {
+        "id": 8859,
+        "configuration": {
+          "id": 24,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/24/",
+          "name": "Soyuz 2.1a",
+          "active": true,
+          "reusable": false,
+          "description": "The Soyuz 2.1A converted the flight control system from analog to digital, which allowed launch from fixed platforms. It also allowed big fairings and payloads.\r\nIt is currently used for crewed Soyuz and Progress flights to the ISS.",
+          "family": "Soyuz",
+          "full_name": "Soyuz 2.1a",
+          "manufacturer": {
+            "id": 111,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/111/",
+            "name": "Progress Rocket Space Center",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "RUS",
+            "abbrev": "PRSC",
+            "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
+            "administrator": "CEO: Dmitry Baranov",
+            "founding_year": "1996",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 45,
+            "consecutive_successful_launches": 3,
+            "successful_launches": 44,
+            "failed_launches": 1,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://en.samspace.ru/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Progress_Rocket_Space_Centre",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
+            "image_url": null,
+            "nation_url": null
+          },
+          "program": [],
+          "variant": "",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 3,
+          "length": 46.3,
+          "diameter": 2.95,
+          "maiden_flight": "2004-11-04",
+          "launch_cost": "80000000",
+          "launch_mass": 312,
+          "leo_capacity": 7020,
+          "gto_capacity": 2810,
+          "to_thrust": 4149,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
+          "info_url": null,
+          "wiki_url": "https://en.wikipedia.org/wiki/Soyuz-2#Soyuz-2.1a",
+          "total_launch_count": 56,
+          "consecutive_successful_launches": 49,
+          "successful_launches": 55,
+          "failed_launches": 1,
+          "pending_launches": 1,
+          "attempted_landings": 0,
+          "successful_landings": 0,
+          "failed_landings": 0,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7450,
+        "name": "Progress MS-34 (95P)",
+        "description": "Progress resupply mission to the International Space Station.",
+        "launch_designator": null,
+        "type": "Resupply",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 63,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+            "name": "Russian Federal Space Agency (ROSCOSMOS)",
+            "featured": true,
+            "type": "Government",
+            "country_code": "RUS",
+            "abbrev": "RFSA",
+            "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
+            "administrator": "Administrator: Yuri Borisov",
+            "founding_year": "1992",
+            "launchers": "Soyuz",
+            "spacecraft": "Soyuz",
+            "launch_library_url": null,
+            "total_launch_count": 340,
+            "consecutive_successful_launches": 64,
+            "successful_launches": 329,
+            "failed_launches": 11,
+            "pending_launches": 4,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://en.roscosmos.ru/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 20,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
+        "agency_id": null,
+        "name": "31/6",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
+        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
+        "latitude": "45.996034",
+        "longitude": "63.564003",
+        "location": {
+          "id": 15,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
+          "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
+          "country_code": "KAZ",
+          "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
+          "timezone_name": "Asia/Qyzylorda",
+          "total_launch_count": 1561,
+          "total_landing_count": 0
+        },
+        "country_code": "KAZ",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
+        "total_launch_count": 427,
+        "orbital_launch_attempt_count": 427
+      },
+      "infoURLs": [],
+      "vidURLs": [
+        {
+          "priority": 11,
+          "source": "plus.nasa.gov",
+          "publisher": "NASA",
+          "title": "Progress 95 Cargo Ship Launch",
+          "description": "Launch of the ISS Progress 95 Cargo Ship to the International Space Station from the Baikonur Cosmodrome in Kazakhstan (Launch is scheduled at 6:21 p.m. EDT)",
+          "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/04/progress-95-launch-key-art-r1-horizontal-program-tile-16-9-without-title.jpg",
+          "url": "https://plus.nasa.gov/scheduled-video/progress-95-cargo-ship-launch/",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-25T22:00:00Z",
+          "end_time": "2026-04-26T03:00:00Z"
+        }
+      ],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
+      "infographic": null,
+      "program": [
+        {
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/17/",
+          "name": "International Space Station",
+          "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+          "agencies": [
+            {
+              "id": 16,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
+              "name": "Canadian Space Agency",
+              "type": "Government"
+            },
+            {
+              "id": 27,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+              "name": "European Space Agency",
+              "type": "Multinational"
+            },
+            {
+              "id": 37,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+              "name": "Japan Aerospace Exploration Agency",
+              "type": "Government"
+            },
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 63,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+              "name": "Russian Federal Space Agency (ROSCOSMOS)",
+              "type": "Government"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+          "start_date": "1998-11-20T06:40:00Z",
+          "end_date": null,
+          "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 7270,
+      "location_launch_attempt_count": 1562,
+      "pad_launch_attempt_count": 428,
+      "agency_launch_attempt_count": 341,
+      "orbital_launch_attempt_count_year": 97,
+      "location_launch_attempt_count_year": 3,
+      "pad_launch_attempt_count_year": 2,
+      "agency_launch_attempt_count_year": 3,
+      "pad_turnaround": "P34DT10H21M56S",
+      "mission_patches": [],
+      "type": "detailed",
+      "ai_enrichment": {
+        "launch_id": "33eb7522-d371-4195-addb-c22aeff30c41",
+        "importance_score": 5,
+        "reasoning": "Routine resupply mission to ISS.",
+        "key_facts": [
+          "Soyuz 2.1a",
+          "Progress MS-34 (95P)",
+          "Launch from Baikonur Cosmodrome, Kazakhstan"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "Roscosmos",
+          "ISS"
+        ],
+        "user_recommendation": "Watch live stream for best experience"
       }
     }
   ]
