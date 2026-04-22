@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T12:40:38.343Z",
+  "generated_at": "2026-04-22T01:00:02.446Z",
   "launches": [
     {
       "id": "4e074623-426a-4ab2-8729-a85200684bef",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-15T14:16:05Z",
+      "last_updated": "2026-04-22T00:28:33Z",
       "updates": [
+        {
+          "id": 14774,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated approximate T-0 per local reports.",
+          "info_url": "https://x.com/eshorespaceflt/status/2046745295816421749",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-22T00:28:00Z"
+        },
         {
           "id": 14716,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -25,7 +33,7 @@
           "created_on": "2026-04-15T14:16:00Z"
         }
       ],
-      "net": "2026-04-22T00:00:00Z",
+      "net": "2026-04-22T01:15:00Z",
       "net_precision": {
         "id": 2,
         "name": "Hour",
@@ -53,7 +61,7 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 85,
+        "total_launch_count": 86,
         "consecutive_successful_launches": 44,
         "successful_launches": 81,
         "failed_launches": 4,
@@ -93,7 +101,7 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 85,
+            "total_launch_count": 86,
             "consecutive_successful_launches": 44,
             "successful_launches": 81,
             "failed_launches": 4,
@@ -126,7 +134,7 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 85,
+          "total_launch_count": 86,
           "consecutive_successful_launches": 44,
           "successful_launches": 81,
           "failed_launches": 4,
@@ -173,12 +181,12 @@
           "description": "Wallops Flight Facility is a rocket launch site on Wallops Island on the Eastern Shore of Virginia, United States, just east of the Delmarva Peninsula and north-northeast of Norfolk. The facility is operated by the Goddard Space Flight Center in Greenbelt, Maryland, and primarily serves to support science and exploration missions for NASA and other federal agencies. WFF includes an extensively instrumented range to support launches of more than a dozen types of sounding rockets; small expendable suborbital and orbital rockets; high-altitude balloon flights carrying scientific instruments for atmospheric and astronomical research; and, using its Research Airport, flight tests of aeronautical research aircraft, including uncrewed aerial vehicles.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_21_20200803142423.jpg",
           "timezone_name": "America/New_York",
-          "total_launch_count": 85,
+          "total_launch_count": 86,
           "total_landing_count": 0
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_79_20200803143607.jpg",
-        "total_launch_count": 11,
+        "total_launch_count": 12,
         "orbital_launch_attempt_count": 4
       },
       "infoURLs": [],
@@ -202,15 +210,21 @@
       "ai_enrichment": {
         "launch_id": "4e074623-426a-4ab2-8729-a85200684bef",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Sub-orbital launch under Rocket Lab’s Hypersonic Accelerator Suborbital Test Electron (HASTE) program. Routine mission for hypersonics research.",
+        "key_facts": [
+          "Sub-orbital launch",
+          "Hypersonics research"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "suborbital",
+          "research"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -855,15 +869,21 @@
       "ai_enrichment": {
         "launch_id": "20418dc6-1870-4018-adda-1e6156717f02",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment by SpaceX. Part of ongoing constellation expansion.",
+        "key_facts": [
+          "Starlink satellite deployment",
+          "SpaceX Falcon 9"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "communications",
+          "routine"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -943,7 +963,7 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 85,
+        "total_launch_count": 86,
         "consecutive_successful_launches": 44,
         "successful_launches": 81,
         "failed_launches": 4,
@@ -983,7 +1003,7 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 85,
+            "total_launch_count": 86,
             "consecutive_successful_launches": 44,
             "successful_launches": 81,
             "failed_launches": 4,
@@ -1016,7 +1036,7 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 85,
+          "total_launch_count": 86,
           "consecutive_successful_launches": 44,
           "successful_launches": 81,
           "failed_launches": 4,
@@ -1135,15 +1155,21 @@
       "ai_enrichment": {
         "launch_id": "9281afa8-140d-425b-a560-2fa59feef814",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "JAXA-manifested rideshare mission with educational and technology demonstration satellites. Routine mission.",
+        "key_facts": [
+          "JAXA rideshare",
+          "Technology demonstration"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "rideshare",
+          "technology"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -1348,15 +1374,21 @@
       "ai_enrichment": {
         "launch_id": "214b4db1-7112-4428-a999-29d2765c8306",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Launch of an unknown payload by China Aerospace Science and Technology Corporation. Routine mission.",
+        "key_facts": [
+          "Unknown payload",
+          "Chinese launch"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "unknown",
+          "routine"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -1569,15 +1601,21 @@
       "ai_enrichment": {
         "launch_id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Demo flight of South Korean ADD Solid-Fuel SLV. Routine test mission.",
+        "key_facts": [
+          "Demo flight",
+          "South Korean military"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "demo",
+          "test"
+        ],
         "user_recommendation": "Standard mission"
       }
     }
