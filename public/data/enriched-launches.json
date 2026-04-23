@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T12:39:27.551Z",
+  "generated_at": "2026-04-23T01:04:23.475Z",
   "launches": [
     {
       "id": "20418dc6-1870-4018-adda-1e6156717f02",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-22T10:04:38Z",
+      "last_updated": "2026-04-22T15:30:12Z",
       "updates": [
+        {
+          "id": 14781,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Apr 23 at 02:55 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-14",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-22T15:30:00Z"
+        },
         {
           "id": 14780,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -41,7 +49,7 @@
           "created_on": "2026-04-09T16:35:00Z"
         }
       ],
-      "net": "2026-04-23T02:23:10Z",
+      "net": "2026-04-23T02:55:20Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -375,6 +383,26 @@
       ],
       "vidURLs": [
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - Starlink 17-14 - SLC-4E - Vandenberg SFB - Space Affairs Live",
+          "description": "Launch Date: April 22, 2026 (PDT)\nLaunch Time: 7:55 p.m. PDT (April 23, 0255 UTC, 04:55 CEST)\nLaunch Window: Open 11:00 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 17-14\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1100 - Turnaround time 32 days)\nFlight for the Booster: 5\nPrevious Flights of the Booster: 4 - NROL-105 and three Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nSpaceX’s Falcon 9 is tar...",
+          "feature_image": "https://i.ytimg.com/vi/o6EVN4JrLjs/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=o6EVN4JrLjs",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-23T02:45:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -391,8 +419,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-23T01:50:00Z",
-          "end_time": "2026-04-23T03:51:00Z"
+          "start_time": "2026-04-23T02:45:00Z",
+          "end_time": "2026-04-23T05:45:00Z"
         }
       ],
       "webcast_live": false,
@@ -631,7 +659,7 @@
       "location_launch_attempt_count_year": 26,
       "pad_launch_attempt_count_year": 24,
       "agency_launch_attempt_count_year": 49,
-      "pad_turnaround": "P3DT10H20M1S",
+      "pad_turnaround": "P3DT10H52M11S",
       "mission_patches": [
         {
           "id": 7,
@@ -650,11 +678,11 @@
       "ai_enrichment": {
         "launch_id": "20418dc6-1870-4018-adda-1e6156717f02",
         "importance_score": 5,
-        "reasoning": "Standard mission for Starlink satellite deployment.",
+        "reasoning": "Routine commercial satellite deployment for Starlink.",
         "key_facts": [
-          "Falcon 9 Block 5",
+          "SpaceX Falcon 9 Block 5",
           "Starlink Group 17-14",
-          "Launch from Vandenberg SFB, CA, USA"
+          "Low Earth Orbit"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -663,10 +691,10 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "Starlink",
-          "SpaceX"
+          "SpaceX",
+          "Starlink"
         ],
-        "user_recommendation": "Watch live stream for best experience"
+        "user_recommendation": "Watch live stream for booster landing."
       }
     },
     {
@@ -682,8 +710,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-15T22:52:51Z",
+      "last_updated": "2026-04-22T21:30:41Z",
       "updates": [
+        {
+          "id": 14782,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch pad assigned.",
+          "info_url": "https://x.com/RocketLab/status/2047063341793968308",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-22T21:30:00Z"
+        },
         {
           "id": 14721,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -877,16 +913,16 @@
         "vid_urls": []
       },
       "pad": {
-        "id": 210,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/210/",
-        "agency_id": null,
-        "name": "Unknown Pad",
-        "description": null,
+        "id": 65,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/65/",
+        "agency_id": 147,
+        "name": "Rocket Lab Launch Complex 1A",
+        "description": "",
         "info_url": null,
-        "wiki_url": null,
-        "map_url": null,
-        "latitude": "-39.260881",
-        "longitude": "177.865826",
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Launch_Complex_1",
+        "map_url": "https://www.google.com/maps?q=-39.262833,177.864469",
+        "latitude": "-39.262833",
+        "longitude": "177.864469",
         "location": {
           "id": 10,
           "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
@@ -899,12 +935,33 @@
           "total_landing_count": 17
         },
         "country_code": "NZL",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_210_20230819165718.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_65_20200803143549.jpg",
+        "total_launch_count": 39,
+        "orbital_launch_attempt_count": 39
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Rocket Lab",
+          "title": "Rocket Lab - 'Kakushin Rising' Launch",
+          "description": "",
+          "feature_image": "https://i.ytimg.com/vi/R933NMzP1T0/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=R933NMzP1T0",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-23T02:45:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
@@ -912,13 +969,13 @@
       "program": [],
       "orbital_launch_attempt_count": 7267,
       "location_launch_attempt_count": 75,
-      "pad_launch_attempt_count": 1,
+      "pad_launch_attempt_count": 40,
       "agency_launch_attempt_count": 87,
       "orbital_launch_attempt_count_year": 94,
       "location_launch_attempt_count_year": 6,
-      "pad_launch_attempt_count_year": 1,
+      "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 8,
-      "pad_turnaround": "P0D",
+      "pad_turnaround": "P25DT17H55M",
       "mission_patches": [
         {
           "id": 1191,
@@ -936,12 +993,12 @@
       "type": "detailed",
       "ai_enrichment": {
         "launch_id": "9281afa8-140d-425b-a560-2fa59feef814",
-        "importance_score": 5,
-        "reasoning": "Standard mission for JAXA rideshare.",
+        "importance_score": 6,
+        "reasoning": "JAXA rideshare mission with multiple small satellites.",
         "key_facts": [
-          "Electron rocket",
-          "Kakushin Rising (JAXA Rideshare)",
-          "Launch from Mahia Peninsula, New Zealand"
+          "Rocket Lab Electron",
+          "Kakushin Rising",
+          "Sun-Synchronous Orbit"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -950,10 +1007,10 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "JAXA",
-          "Rocket Lab"
+          "Rocket Lab",
+          "JAXA"
         ],
-        "user_recommendation": "Watch live stream for best experience"
+        "user_recommendation": "Watch for innovative satellite technology demonstrations."
       }
     },
     {
@@ -1156,24 +1213,24 @@
       "type": "detailed",
       "ai_enrichment": {
         "launch_id": "214b4db1-7112-4428-a999-29d2765c8306",
-        "importance_score": 5,
-        "reasoning": "Standard mission with unknown payload.",
+        "importance_score": 4,
+        "reasoning": "Standard Long March 2D launch with unknown payload.",
         "key_facts": [
+          "China Aerospace Science and Technology Corporation",
           "Long March 2D",
-          "Unknown Payload",
-          "Launch from Xichang Satellite Launch Center, China"
+          "Unknown Payload"
         ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+          "live_stream_recommended": false,
+          "visibility_window": "N/A"
         },
         "tags": [
           "CASC",
-          "China"
+          "Long March"
         ],
-        "user_recommendation": "Watch live stream for best experience"
+        "user_recommendation": "Limited information available; follow updates for details."
       }
     },
     {
@@ -1376,24 +1433,24 @@
       "type": "detailed",
       "ai_enrichment": {
         "launch_id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
-        "importance_score": 5,
-        "reasoning": "Standard mission with unknown payload.",
+        "importance_score": 4,
+        "reasoning": "Routine Long March 6 launch with unknown payload.",
         "key_facts": [
+          "China Aerospace Science and Technology Corporation",
           "Long March 6",
-          "Unknown Payload",
-          "Launch from Taiyuan Satellite Launch Center, China"
+          "Unknown Payload"
         ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+          "live_stream_recommended": false,
+          "visibility_window": "N/A"
         },
         "tags": [
           "CASC",
-          "China"
+          "Long March"
         ],
-        "user_recommendation": "Watch live stream for best experience"
+        "user_recommendation": "Monitor for further information on payload."
       }
     },
     {
@@ -1409,7 +1466,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-21T15:16:02Z",
+      "last_updated": "2026-04-22T18:12:51Z",
       "updates": [
         {
           "id": 14759,
@@ -1617,7 +1674,27 @@
       "infoURLs": [],
       "vidURLs": [
         {
-          "priority": 11,
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "NASA",
+          "title": "Progress 95 Cargo Ship Launch",
+          "description": "We're launching three tons of food, fuel, and supplies to the International Space Station. Watch live with us.\n\nThe unpiloted Progress 95 resupply spacecraft is scheduled to lift off at 6:21 p.m. EDT (2221 UTC) on Saturday, April 25, on a Soyuz rocket from the Baikonur Cosmodrome in Kazakhstan. After liftoff, Progress 95 will travel to the space station, a trip that takes two days. Once there, it will dock autonomously to the orbiting laboratory. \n\nFor more than 25 years, people have lived and worked continuously aboard the International Space Station, advancing scientific knowledge and making research breakthroughs that aren’t possible on Earth. The space station helps NASA understand and overcome the challenges of human spaceflight, expand commercial opportunities in low Earth orbit...",
+          "feature_image": "https://i.ytimg.com/vi/7FJUz-54AX0/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=7FJUz-54AX0",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-25T22:00:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 12,
           "source": "plus.nasa.gov",
           "publisher": "NASA",
           "title": "Progress 95 Cargo Ship Launch",
@@ -1705,11 +1782,11 @@
       "ai_enrichment": {
         "launch_id": "33eb7522-d371-4195-addb-c22aeff30c41",
         "importance_score": 5,
-        "reasoning": "Routine resupply mission to ISS.",
+        "reasoning": "Progress resupply mission to the ISS.",
         "key_facts": [
-          "Soyuz 2.1a",
-          "Progress MS-34 (95P)",
-          "Launch from Baikonur Cosmodrome, Kazakhstan"
+          "Roscosmos Soyuz 2.1a",
+          "Progress MS-34",
+          "International Space Station"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1721,7 +1798,7 @@
           "Roscosmos",
           "ISS"
         ],
-        "user_recommendation": "Watch live stream for best experience"
+        "user_recommendation": "Watch live stream for ISS docking."
       }
     }
   ]
