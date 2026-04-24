@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-24T19:47:37.990Z",
+  "updatedAt": "2026-04-24T20:17:54.028Z",
   "launches": [
     {
       "id": "214b4db1-7112-4428-a999-29d2765c8306",
@@ -1890,19 +1890,19 @@
           {
             "id": 870,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
+              "id": 201,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/201/",
+              "details": "Falcon Heavy core booster.",
               "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
+              "serial_number": "B1098",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
               "last_launch_date": null,
               "first_launch_date": null
             },
@@ -1910,7 +1910,7 @@
               "id": 1835,
               "attempt": false,
               "success": null,
-              "description": "The Falcon Heavy center core will be expended.",
+              "description": "The Falcon Heavy center core B1098 will be expended.",
               "downrange_distance": null,
               "location": {
                 "id": 6,
@@ -1954,7 +1954,7 @@
               "id": 1836,
               "attempt": true,
               "success": null,
-              "description": "The Falcon Heavy side booster B1075 will land back at the launch site after its 22nd flight.",
+              "description": "The Falcon Heavy side booster B1075 will land back at the launch site at Landing Zone 2 after its 22nd flight.",
               "downrange_distance": 14.6,
               "location": {
                 "id": 5,
@@ -2011,7 +2011,7 @@
               "id": 1837,
               "attempt": true,
               "success": null,
-              "description": "The Falcon Heavy side booster B1072 will land back at the launch site after its 2nd flight.",
+              "description": "The Falcon Heavy side booster B1072 will land back at the launch site at Landing Zone 40 after its 2nd flight.",
               "downrange_distance": 5.8,
               "location": {
                 "id": 62,
@@ -5406,7 +5406,7 @@
               "id": 1849,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage B1071 will land back on its launch site at Landing Zone 4 after its 33rd flight.",
+              "description": "The Falcon 9 first stage B1071 will land back at the launch site at Landing Zone 4 after its 33rd flight.",
               "downrange_distance": 0.4,
               "location": {
                 "id": 7,
