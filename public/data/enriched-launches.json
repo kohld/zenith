@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T12:39:31.739Z",
+  "generated_at": "2026-04-24T01:06:26.735Z",
   "launches": [
     {
       "id": "214b4db1-7112-4428-a999-29d2765c8306",
@@ -188,18 +188,31 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7268,
+      "orbital_launch_attempt_count": 7269,
       "location_launch_attempt_count": 239,
       "pad_launch_attempt_count": 107,
       "agency_launch_attempt_count": 586,
-      "orbital_launch_attempt_count_year": 95,
+      "orbital_launch_attempt_count_year": 96,
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 16,
       "pad_turnaround": "P42DT7H57M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "214b4db1-7112-4428-a999-29d2765c8306",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
@@ -399,7 +412,20 @@
       "pad_turnaround": "P387DT10H3M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "33eb7522-d371-4195-addb-c22aeff30c41",
@@ -727,7 +753,20 @@
       "pad_turnaround": "P34DT10H21M56S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "33eb7522-d371-4195-addb-c22aeff30c41",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "d3a6d59f-c38d-4fcd-9f5d-b091aa14afa9",
@@ -793,7 +832,7 @@
         "consecutive_successful_launches": 153,
         "successful_launches": 653,
         "failed_launches": 15,
-        "pending_launches": 120,
+        "pending_launches": 121,
         "consecutive_successful_landings": 152,
         "successful_landings": 613,
         "failed_landings": 27,
@@ -833,7 +872,7 @@
             "consecutive_successful_launches": 153,
             "successful_launches": 653,
             "failed_launches": 15,
-            "pending_launches": 120,
+            "pending_launches": 121,
             "consecutive_successful_landings": 152,
             "successful_landings": 613,
             "failed_landings": 27,
@@ -945,7 +984,7 @@
           "consecutive_successful_launches": 277,
           "successful_launches": 574,
           "failed_launches": 1,
-          "pending_launches": 101,
+          "pending_launches": 102,
           "attempted_landings": 566,
           "successful_landings": 561,
           "failed_landings": 5,
@@ -1032,7 +1071,7 @@
             "consecutive_successful_launches": 153,
             "successful_launches": 653,
             "failed_launches": 15,
-            "pending_launches": 120,
+            "pending_launches": 121,
             "consecutive_successful_landings": 152,
             "successful_landings": 613,
             "failed_landings": 27,
@@ -1111,8 +1150,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-25T13:50:00Z",
-          "end_time": "2026-04-25T15:50:00Z"
+          "start_time": "2026-04-26T13:50:00Z",
+          "end_time": "2026-04-26T15:51:00Z"
         }
       ],
       "webcast_live": false,
@@ -1127,17 +1166,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -1367,7 +1406,20 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "d3a6d59f-c38d-4fcd-9f5d-b091aa14afa9",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
@@ -1457,7 +1509,7 @@
         "consecutive_successful_launches": 153,
         "successful_launches": 653,
         "failed_launches": 15,
-        "pending_launches": 120,
+        "pending_launches": 121,
         "consecutive_successful_landings": 152,
         "successful_landings": 613,
         "failed_landings": 27,
@@ -1497,7 +1549,7 @@
             "consecutive_successful_launches": 153,
             "successful_launches": 653,
             "failed_launches": 15,
-            "pending_launches": 120,
+            "pending_launches": 121,
             "consecutive_successful_landings": 152,
             "successful_landings": 613,
             "failed_landings": 27,
@@ -2076,7 +2128,20 @@
       "pad_turnaround": "P131DT38M50S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "4cc237b2-c61a-491e-9532-466cce81f524",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     }
   ]
 }

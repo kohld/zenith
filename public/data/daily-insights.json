@@ -1,54 +1,84 @@
 {
-  "generated_at": "2026-04-23T12:39:31.738Z",
+  "generated_at": "2026-04-24T01:06:26.735Z",
   "daily_summary": {
-    "headline": "Routine Day in Space: Standard Launches and Low Aurora Activity",
+    "headline": "Moderate Aurora Activity and Routine Launches Mark the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Soyuz 2.1a | Progress MS-34 (95P)",
-        "description": "Progress resupply mission to the International Space Station.",
-        "importance": 5,
-        "date": "2026-04-25",
-        "type": "launch",
-        "action": "Watch live stream for ISS resupply mission."
+        "title": "Aurora Forecast: Moderate Activity",
+        "description": "A G1 geomagnetic storm is predicted with a Kp index of 4.67, offering potential aurora visibility at high latitudes.",
+        "importance": 7,
+        "date": "2026-04-26T15:00:00",
+        "type": "aurora",
+        "action": "Check aurora conditions if you're at high latitudes."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-16",
-        "description": "Launch of 25 satellites for the Starlink mega-constellation.",
+        "title": "Long March 2D Launch",
+        "description": "The Long March 2D rocket is scheduled to launch with an unknown payload from China.",
         "importance": 5,
-        "date": "2026-04-26",
+        "date": "2026-04-24T06:30:00",
         "type": "launch",
-        "action": "Follow live for satellite deployment updates."
+        "action": "Watch the live stream for updates."
       },
       {
         "rank": 3,
-        "title": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
-        "description": "Launch of ViaSat-3 satellite for enhanced communication services.",
+        "title": "Falcon 9 Starlink Launch",
+        "description": "SpaceX's Falcon 9 will deploy another batch of Starlink satellites.",
         "importance": 5,
-        "date": "2026-04-27",
+        "date": "2026-04-26T14:00:00",
         "type": "launch",
-        "action": "Tune in for live coverage of this communication satellite launch."
+        "action": "Tune in to the live stream for coverage."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 2
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-04-26T15:00:00",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-04-26T15:00:00",
+          "end": "2026-04-26T15:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-04-26T18:00:00",
+        "max_kp": 4.33,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-04-26T18:00:00",
+          "end": "2026-04-26T18:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-04-26T15:00:00",
+      "time": "15:00-15:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
