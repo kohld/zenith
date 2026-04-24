@@ -1,44 +1,58 @@
 {
-  "generated_at": "2026-04-24T01:06:26.735Z",
+  "generated_at": "2026-04-24T12:40:54.965Z",
   "daily_summary": {
-    "headline": "Moderate Aurora Activity and Routine Launches Mark the Day",
+    "headline": "Exciting Space Events Await: Falcon Heavy and Aurora Opportunities",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Forecast: Moderate Activity",
-        "description": "A G1 geomagnetic storm is predicted with a Kp index of 4.67, offering potential aurora visibility at high latitudes.",
-        "importance": 7,
-        "date": "2026-04-26T15:00:00",
-        "type": "aurora",
-        "action": "Check aurora conditions if you're at high latitudes."
+        "title": "Falcon Heavy | ViaSat-3 F3 Launch",
+        "description": "SpaceX's Falcon Heavy will launch the ViaSat-3 F3 satellite, providing significant advancements in satellite internet capabilities.",
+        "importance": 8,
+        "date": "2026-04-27T14:21:00Z",
+        "type": "launch",
+        "action": "Watch the live stream on SpaceX's official page."
       },
       {
         "rank": 2,
-        "title": "Long March 2D Launch",
-        "description": "The Long March 2D rocket is scheduled to launch with an unknown payload from China.",
-        "importance": 5,
-        "date": "2026-04-24T06:30:00",
+        "title": "Soyuz-5 Demo Flight",
+        "description": "A demonstration flight for Russia's new Soyuz-5 launch vehicle, marking a significant step in Russian space capabilities.",
+        "importance": 8,
+        "date": "2026-04-26T11:00:00Z",
         "type": "launch",
-        "action": "Watch the live stream for updates."
+        "action": "Follow updates for potential live coverage."
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Starlink Launch",
-        "description": "SpaceX's Falcon 9 will deploy another batch of Starlink satellites.",
-        "importance": 5,
-        "date": "2026-04-26T14:00:00",
-        "type": "launch",
-        "action": "Tune in to the live stream for coverage."
+        "title": "G1 Geomagnetic Storm Potential",
+        "description": "A G1 geomagnetic storm is predicted, offering a chance to view auroras at higher latitudes.",
+        "importance": 6,
+        "date": "2026-04-26T15:00:00Z",
+        "type": "aurora",
+        "action": "Check aurora forecasts and prepare for potential sightings at high latitudes."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 2
+      "aurora_opportunities": 1
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "launch",
+      "priority": "high",
+      "title": "Falcon Heavy | ViaSat-3 F3 Launch",
+      "message": "SpaceX's Falcon Heavy is set to launch the ViaSat-3 F3 satellite, enhancing satellite internet capabilities. This is a significant event in the commercial space sector.",
+      "action_required": "Watch the live stream on SpaceX's official page.",
+      "expires_at": "2026-04-27T16:00:00Z",
+      "tags": [
+        "SpaceX",
+        "Falcon Heavy",
+        "Satellite Launch"
+      ]
+    }
+  ],
   "aurora_insights": {
     "opportunities": [
       {
@@ -78,8 +92,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
-    "iterations": 2
+    "iterations": 3
   }
 }
