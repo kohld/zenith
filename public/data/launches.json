@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-24T13:34:49.470Z",
+  "updatedAt": "2026-04-24T14:36:18.863Z",
   "launches": [
     {
       "id": "214b4db1-7112-4428-a999-29d2765c8306",
@@ -14,7 +14,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-04-24T07:16:29Z",
+      "last_updated": "2026-04-24T14:28:43Z",
       "updates": [
         {
           "id": 14799,
@@ -1732,7 +1732,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-22T20:03:57Z",
+      "last_updated": "2026-04-24T13:58:03Z",
       "updates": [
         {
           "id": 14758,
@@ -2424,7 +2424,20 @@
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 51,
       "pad_turnaround": "P131DT38M50S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1318,
+          "name": "Viasat-3F3",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/viasat-3f3_mission_patch_20260424135759.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
