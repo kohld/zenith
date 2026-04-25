@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-24T23:45:49.681Z",
+  "updatedAt": "2026-04-25T00:35:35.657Z",
   "launches": [
     {
       "id": "214b4db1-7112-4428-a999-29d2765c8306",
@@ -11624,7 +11624,7 @@
       "location_launch_attempt_count_year": 45,
       "pad_launch_attempt_count_year": 42,
       "agency_launch_attempt_count_year": 74,
-      "pad_turnaround": "P30D",
+      "pad_turnaround": "P54DT22H",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -16468,7 +16468,7 @@
       "location_launch_attempt_count_year": 45,
       "pad_launch_attempt_count_year": 42,
       "agency_launch_attempt_count_year": 74,
-      "pad_turnaround": "P30D",
+      "pad_turnaround": "P54DT22H",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -22137,30 +22137,6 @@
         },
         "launcher_stage": [
           {
-            "id": 918,
-            "type": "Strap-On Booster",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": null,
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 916,
             "type": "Core",
             "reused": null,
@@ -22186,6 +22162,30 @@
           },
           {
             "id": 917,
+            "type": "Strap-On Booster",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 117,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown FH",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
+            "id": 918,
             "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
