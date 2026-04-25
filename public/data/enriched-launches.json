@@ -1,219 +1,6 @@
 {
-  "generated_at": "2026-04-25T01:00:37.737Z",
+  "generated_at": "2026-04-25T12:31:13.252Z",
   "launches": [
-    {
-      "id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/88ab98d8-44e9-4aae-ac0f-02006a1d7ce6/",
-      "slug": "long-march-6-unknown-payload",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Long March 6 | Unknown Payload",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-04-22T01:27:00Z",
-      "updates": [
-        {
-          "id": 14775,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per NOTAMs; Payload and launch vehicle identities uncertain.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2782070#msg2782070",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-22T01:27:00Z"
-        }
-      ],
-      "net": "2026-04-25T12:15:00Z",
-      "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
-      },
-      "window_end": "2026-04-25T12:37:00Z",
-      "window_start": "2026-04-25T12:08:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 88,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-        "name": "China Aerospace Science and Technology Corporation",
-        "featured": true,
-        "type": "Government",
-        "country_code": "CHN",
-        "abbrev": "CASC",
-        "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-        "administrator": "Chairman & President: Lei Fanpei",
-        "founding_year": "1999",
-        "launchers": "Long March",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 586,
-        "consecutive_successful_launches": 12,
-        "successful_launches": 571,
-        "failed_launches": 15,
-        "pending_launches": 11,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 1,
-        "attempted_landings": 1,
-        "info_url": "https://english.spacechina.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
-      },
-      "rocket": {
-        "id": 9010,
-        "configuration": {
-          "id": 54,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/54/",
-          "name": "Long March 6",
-          "active": true,
-          "reusable": false,
-          "description": "",
-          "family": "Long March",
-          "full_name": "Long March 6",
-          "manufacturer": {
-            "id": 88,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-            "name": "China Aerospace Science and Technology Corporation",
-            "featured": true,
-            "type": "Government",
-            "country_code": "CHN",
-            "abbrev": "CASC",
-            "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-            "administrator": "Chairman & President: Lei Fanpei",
-            "founding_year": "1999",
-            "launchers": "Long March",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 586,
-            "consecutive_successful_launches": 12,
-            "successful_launches": 571,
-            "failed_launches": 15,
-            "pending_launches": 11,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 1,
-            "attempted_landings": 1,
-            "info_url": "https://english.spacechina.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
-          },
-          "program": [],
-          "variant": "",
-          "alias": "",
-          "min_stage": 1,
-          "max_stage": 3,
-          "length": 29,
-          "diameter": 3.35,
-          "maiden_flight": "2015-09-19",
-          "launch_cost": null,
-          "launch_mass": 103,
-          "leo_capacity": null,
-          "gto_capacity": null,
-          "to_thrust": null,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
-          "info_url": null,
-          "wiki_url": "https://en.wikipedia.org/wiki/Long_March_6",
-          "total_launch_count": 14,
-          "consecutive_successful_launches": 14,
-          "successful_launches": 14,
-          "failed_launches": 0,
-          "pending_launches": 1,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7605,
-        "name": "Unknown Payload",
-        "description": "Details TBD.",
-        "launch_designator": null,
-        "type": "Unknown",
-        "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 113,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/113/",
-        "agency_id": null,
-        "name": "Launch Complex 16",
-        "description": null,
-        "info_url": null,
-        "wiki_url": null,
-        "map_url": "https://www.google.com/maps?q=38.868222,111.58024",
-        "latitude": "38.868222",
-        "longitude": "111.58024",
-        "location": {
-          "id": 19,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/19/",
-          "name": "Taiyuan Satellite Launch Center, People's Republic of China",
-          "country_code": "CHN",
-          "description": "The Taiyuan Satellite Launch Center is a People's Republic of China space and defense launch facility. It is situated in Kelan County, Xinzhou, Shanxi Province and is the second of four launch sites having been founded in March 1966 and coming into full operation in 1968.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_19_20200803142421.jpg",
-          "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 153,
-          "total_landing_count": 0
-        },
-        "country_code": "CHN",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_113_20200803143556.jpg",
-        "total_launch_count": 15,
-        "orbital_launch_attempt_count": 15
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7270,
-      "location_launch_attempt_count": 154,
-      "pad_launch_attempt_count": 16,
-      "agency_launch_attempt_count": 587,
-      "orbital_launch_attempt_count_year": 97,
-      "location_launch_attempt_count_year": 5,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 17,
-      "pad_turnaround": "P387DT10H3M",
-      "mission_patches": [],
-      "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
-    },
     {
       "id": "33eb7522-d371-4195-addb-c22aeff30c41",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/33eb7522-d371-4195-addb-c22aeff30c41/",
@@ -543,15 +330,21 @@
       "ai_enrichment": {
         "launch_id": "33eb7522-d371-4195-addb-c22aeff30c41",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Routine resupply mission to the ISS.",
+        "key_facts": [
+          "Soyuz 2.1a rocket",
+          "Progress MS-34 resupply mission"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "resupply",
+          "ISS"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -902,17 +695,23 @@
       "type": "detailed",
       "ai_enrichment": {
         "launch_id": "74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "importance_score": 8,
+        "reasoning": "Maiden flight of the Soyuz-5 rocket, testing new capabilities.",
+        "key_facts": [
+          "Soyuz-5 rocket",
+          "Demo flight with mass simulator"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Standard mission"
+        "tags": [
+          "maiden flight",
+          "test"
+        ],
+        "user_recommendation": "Watch live for a historic demonstration of new capabilities."
       }
     },
     {
@@ -1297,7 +1096,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-26T13:50:00Z",
+          "start_time": "2026-04-26T14:14:00Z",
           "end_time": "2026-04-26T15:51:00Z"
         }
       ],
@@ -1556,15 +1355,21 @@
       "ai_enrichment": {
         "launch_id": "d3a6d59f-c38d-4fcd-9f5d-b091aa14afa9",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [
+          "Falcon 9 Block 5 rocket",
+          "Starlink Group 17-16"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "Starlink",
+          "satellite"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -2290,16 +2095,349 @@
       "type": "detailed",
       "ai_enrichment": {
         "launch_id": "4cc237b2-c61a-491e-9532-466cce81f524",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "importance_score": 8,
+        "reasoning": "Significant satellite deployment for global internet services.",
+        "key_facts": [
+          "Falcon Heavy rocket",
+          "ViaSat-3 F3 satellite"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "satellite",
+          "internet"
+        ],
+        "user_recommendation": "Catch the live stream of this significant satellite deployment."
+      }
+    },
+    {
+      "id": "7e89e423-6f47-40a0-b075-c6fc1d9cf228",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/7e89e423-6f47-40a0-b075-c6fc1d9cf228/",
+      "slug": "atlas-v-551-amazon-leo-la-06",
+      "flightclub_url": "https://flightclub.io/result?llId=7e89e423-6f47-40a0-b075-c6fc1d9cf228",
+      "r_spacex_api_id": null,
+      "name": "Atlas V 551 | Amazon Leo (LA-06)",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-04-24T17:07:24Z",
+      "updates": [
+        {
+          "id": 14801,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 75% GO.",
+          "info_url": "https://www.24live.co/live/UehqD?n=4095373797477239480",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-24T17:07:00Z"
+        },
+        {
+          "id": 14756,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch window.",
+          "info_url": "https://www.ulalaunch.com/missions/next-launch/atlas-v-amazon-leo-6",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-20T14:27:00Z"
+        },
+        {
+          "id": 14579,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET April 27.",
+          "info_url": "https://www.24live.co/live/UIspI?n=4080628605021068588",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-04T06:27:00Z"
+        },
+        {
+          "id": 14426,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET April 24.",
+          "info_url": "https://x.com/amazonleo/status/2036557545469276541",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-24T21:39:00Z"
+        },
+        {
+          "id": 14408,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET April.",
+          "info_url": "https://x.com/amazonleo/status/2036136683821842748",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-23T18:07:00Z"
+        }
+      ],
+      "net": "2026-04-28T00:52:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "window_end": "2026-04-28T01:21:00Z",
+      "window_start": "2026-04-28T00:52:00Z",
+      "probability": 75,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 124,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+        "name": "United Launch Alliance",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "ULA",
+        "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
+        "administrator": "Interim CEO: John Elbon",
+        "founding_year": "2006",
+        "launchers": "Atlas | Delta | Vulcan",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 172,
+        "consecutive_successful_launches": 172,
+        "successful_launches": 172,
+        "failed_launches": 0,
+        "pending_launches": 39,
+        "consecutive_successful_landings": 0,
+        "successful_landings": 0,
+        "failed_landings": 0,
+        "attempted_landings": 0,
+        "info_url": "https://www.ulalaunch.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/United_Launch_Alliance",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg"
+      },
+      "rocket": {
+        "id": 178,
+        "configuration": {
+          "id": 27,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/27/",
+          "name": "Atlas V 551",
+          "active": true,
+          "reusable": false,
+          "description": "Atlas V is an expendable launch system in the Atlas rocket family. It was formerly operated by Lockheed Martin and is now operated by United Launch Alliance (ULA), a joint venture with Boeing. Each Atlas V rocket uses a Russian-built RD-180 engine burning kerosene and liquid oxygen to power its first stage and an American-built RL10 engine burning liquid hydrogen and liquid oxygen to power its Centaur upper stage. The RD-180 engines are provided by RD Amross, while Aerojet Rocketdyne provides both the RL10 engines and the strap-on boosters used in some configurations. The standard payload fairing sizes are 4 or 5 meters in diameter and of various lengths. Fairings sizes as large as 7.2 m in diameter and up to 32.3 m in length have been considered. The rocket is assembled in Decatur, Alabama and Harlingen, Texas.",
+          "family": "Atlas",
+          "full_name": "Atlas V 551",
+          "manufacturer": {
+            "id": 124,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/124/",
+            "name": "United Launch Alliance",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "ULA",
+            "description": "United Launch Alliance (ULA) is a joint venture of Lockheed Martin Space Systems and Boeing Defense, Space & Security. ULA was formed in December 2006 by combining the teams at these companies which provide spacecraft launch services to the government of the United States. ULA launches from both coasts of the US. They launch their Atlas V vehicle from LC-41 in Cape Canaveral and LC-3E at Vandeberg. Their Delta IV launches from LC-37 at Cape Canaveral and LC-6 at Vandenberg.",
+            "administrator": "Interim CEO: John Elbon",
+            "founding_year": "2006",
+            "launchers": "Atlas | Delta | Vulcan",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 172,
+            "consecutive_successful_launches": 172,
+            "successful_launches": 172,
+            "failed_launches": 0,
+            "pending_launches": 39,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.ulalaunch.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/United_Launch_Alliance",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_logo_20210412195953.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_launch_a_image_20210412201210.png",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520launch2520alliance_nation_20230531043703.jpg"
+          },
+          "program": [],
+          "variant": "551",
+          "alias": "",
+          "min_stage": 1,
+          "max_stage": 2,
+          "length": 59.7,
+          "diameter": 3.8,
+          "maiden_flight": "2006-01-19",
+          "launch_cost": "153000000",
+          "launch_mass": 573,
+          "leo_capacity": 18850,
+          "gto_capacity": 8890,
+          "to_thrust": 12269,
+          "apogee": 40000,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
+          "info_url": null,
+          "wiki_url": "https://en.wikipedia.org/wiki/Atlas_V?wprov=sfla1",
+          "total_launch_count": 20,
+          "consecutive_successful_launches": 20,
+          "successful_launches": 20,
+          "failed_launches": 0,
+          "pending_launches": 3,
+          "attempted_landings": 0,
+          "successful_landings": 0,
+          "failed_landings": 0,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 5998,
+        "name": "Amazon Leo (LA-06)",
+        "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610 km and 630 km altitude.\r\n\r\n29 satellites are carried on this launch.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 1058,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1058/",
+            "name": "Amazon Leo",
+            "featured": false,
+            "type": "Private",
+            "country_code": "USA",
+            "abbrev": "Amazon",
+            "description": "Amazon Leo, formerly known as Kuiper Systems LLC and Project Kuiper, is a subsidiary of Amazon that was established in 2019 to deploy a large satellite internet constellation to provide low-latency broadband internet connectivity.",
+            "administrator": "President: Rajeev Badyal",
+            "founding_year": "2019",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://leo.amazon.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Kuiper_Systems",
+            "logo_url": null,
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/amazon_leo_soci_image_20251117075814.png"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 29,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/29/",
+        "agency_id": null,
+        "name": "Space Launch Complex 41",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_41",
+        "map_url": "https://www.google.com/maps?q=28.58341025,-80.58303644",
+        "latitude": "28.58341025",
+        "longitude": "-80.58303644",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "timezone_name": "America/New_York",
+          "total_launch_count": 1104,
+          "total_landing_count": 72
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_29_20200803143528.jpg",
+        "total_launch_count": 122,
+        "orbital_launch_attempt_count": 122
+      },
+      "infoURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "United Launch Alliance",
+          "title": "Rocket Launch: Amazon Leo 6",
+          "description": "ULA's Atlas V rocket will deliver another batch of satellites into low Earth orbit for Amazon Leo, the broadband constellation. Amazon Leo's mission is to provide fast, reliable internet to customers around the world, including those in unserved and underserved communities, using a network of more than 3,000 LEO satellites.  \n\nGO Atlas! GO Centaur! GO Leo 6!",
+          "feature_image": "https://i.ytimg.com/vi/FYTMd1XYguo/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=FYTMd1XYguo",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-28T00:32:00Z",
+          "end_time": null
+        }
+      ],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
+      "infographic": null,
+      "program": [
+        {
+          "id": 27,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/27/",
+          "name": "Amazon Leo",
+          "description": "Amazon Leo is a satellite internet constellation aimed at providing high-speed, low-latency broadband connectivity to underserved and remote areas globally. The project involves deploying a constellation of low Earth orbit (LEO) satellites to create a satellite internet network capable of delivering reliable internet access.",
+          "agencies": [
+            {
+              "id": 1058,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/1058/",
+              "name": "Amazon Leo",
+              "type": "Private"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/project2520kui_program_20231228165031.jpeg",
+          "start_date": "2023-10-16T18:06:00Z",
+          "end_date": null,
+          "info_url": "https://en.wikipedia.org/wiki/Kuiper_Systems",
+          "wiki_url": "https://aboutamazon.com/what-we-do/devices-services/project-kuiper",
+          "mission_patches": [],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 7274,
+      "location_launch_attempt_count": 1105,
+      "pad_launch_attempt_count": 123,
+      "agency_launch_attempt_count": 173,
+      "orbital_launch_attempt_count_year": 101,
+      "location_launch_attempt_count_year": 29,
+      "pad_launch_attempt_count_year": 3,
+      "agency_launch_attempt_count_year": 3,
+      "pad_turnaround": "P23DT19H6M",
+      "mission_patches": [],
+      "type": "detailed",
+      "ai_enrichment": {
+        "launch_id": "7e89e423-6f47-40a0-b075-c6fc1d9cf228",
+        "importance_score": 5,
+        "reasoning": "Routine satellite deployment for Amazon Leo.",
+        "key_facts": [
+          "Atlas V 551 rocket",
+          "Amazon Leo (LA-06)"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "satellite",
+          "internet"
+        ],
         "user_recommendation": "Standard mission"
       }
     }
