@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-04-24T12:40:54.965Z",
+  "generated_at": "2026-04-25T01:00:37.736Z",
   "daily_summary": {
-    "headline": "Exciting Space Events Await: Falcon Heavy and Aurora Opportunities",
+    "headline": "Exciting Launches and Aurora Opportunities Await!",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon Heavy | ViaSat-3 F3 Launch",
-        "description": "SpaceX's Falcon Heavy will launch the ViaSat-3 F3 satellite, providing significant advancements in satellite internet capabilities.",
+        "title": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+        "description": "A significant launch by SpaceX's Falcon Heavy, delivering the ViaSat-3 F3 satellite to geostationary transfer orbit, enhancing global communication capabilities.",
         "importance": 8,
         "date": "2026-04-27T14:21:00Z",
         "type": "launch",
-        "action": "Watch the live stream on SpaceX's official page."
+        "action": "Watch live on SpaceX's official webcast."
       },
       {
         "rank": 2,
-        "title": "Soyuz-5 Demo Flight",
+        "title": "Soyuz-5 | Demo Flight",
         "description": "A demonstration flight for Russia's new Soyuz-5 launch vehicle, marking a significant step in Russian space capabilities.",
-        "importance": 8,
+        "importance": 7,
         "date": "2026-04-26T11:00:00Z",
         "type": "launch",
-        "action": "Follow updates for potential live coverage."
+        "action": "Follow updates on Russian space agency's official channels."
       },
       {
         "rank": 3,
-        "title": "G1 Geomagnetic Storm Potential",
-        "description": "A G1 geomagnetic storm is predicted, offering a chance to view auroras at higher latitudes.",
-        "importance": 6,
-        "date": "2026-04-26T15:00:00Z",
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 geomagnetic storm could make auroras visible above 65° latitude. Best viewing time is around midnight UTC.",
+        "importance": 5,
+        "date": "2026-04-26T00:00:00Z",
         "type": "aurora",
-        "action": "Check aurora forecasts and prepare for potential sightings at high latitudes."
+        "action": "Check local conditions and prepare for possible aurora sightings."
       }
     ],
     "statistics": {
@@ -38,51 +38,37 @@
       "aurora_opportunities": 1
     }
   },
-  "alerts": [
-    {
-      "type": "launch",
-      "priority": "high",
-      "title": "Falcon Heavy | ViaSat-3 F3 Launch",
-      "message": "SpaceX's Falcon Heavy is set to launch the ViaSat-3 F3 satellite, enhancing satellite internet capabilities. This is a significant event in the commercial space sector.",
-      "action_required": "Watch the live stream on SpaceX's official page.",
-      "expires_at": "2026-04-27T16:00:00Z",
-      "tags": [
-        "SpaceX",
-        "Falcon Heavy",
-        "Satellite Launch"
-      ]
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-04-26T15:00:00",
+        "date": "2026-04-26T00:00:00",
         "max_kp": 4.67,
         "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-04-26T15:00:00",
-          "end": "2026-04-26T15:00:00"
+          "start": "2026-04-26T00:00:00",
+          "end": "2026-04-26T00:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       },
       {
-        "date": "2026-04-26T18:00:00",
+        "date": "2026-04-26T03:00:00",
         "max_kp": 4.33,
         "storm_level": "G0 (Quiet)",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-04-26T18:00:00",
-          "end": "2026-04-26T18:00:00"
+          "start": "2026-04-26T03:00:00",
+          "end": "2026-04-26T03:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-04-26T15:00:00",
-      "time": "15:00-15:00 UTC",
+      "date": "2026-04-26T00:00:00",
+      "time": "00:00-00:00 UTC",
       "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
@@ -92,8 +78,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 17,
     "processing_time_seconds": 0,
-    "iterations": 3
+    "iterations": 2
   }
 }

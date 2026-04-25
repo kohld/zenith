@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T12:40:54.966Z",
+  "generated_at": "2026-04-25T01:00:37.737Z",
   "launches": [
     {
       "id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
@@ -199,7 +199,20 @@
       "pad_turnaround": "P387DT10H3M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "33eb7522-d371-4195-addb-c22aeff30c41",
@@ -527,7 +540,20 @@
       "pad_turnaround": "P34DT10H21M56S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "33eb7522-d371-4195-addb-c22aeff30c41",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4",
@@ -874,7 +900,20 @@
       "pad_turnaround": "P3042DT15H59M57S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "d3a6d59f-c38d-4fcd-9f5d-b091aa14afa9",
@@ -1514,7 +1553,20 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "d3a6d59f-c38d-4fcd-9f5d-b091aa14afa9",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
@@ -1529,7 +1581,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-22T20:03:57Z",
+      "last_updated": "2026-04-24T13:58:03Z",
       "updates": [
         {
           "id": 14758,
@@ -1687,19 +1739,19 @@
           {
             "id": 870,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
+              "id": 201,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/201/",
+              "details": "Falcon Heavy core booster.",
               "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
+              "serial_number": "B1098",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
               "last_launch_date": null,
               "first_launch_date": null
             },
@@ -1707,7 +1759,7 @@
               "id": 1835,
               "attempt": false,
               "success": null,
-              "description": "The Falcon Heavy center core will be expended.",
+              "description": "The Falcon Heavy center core B1098 will be expended.",
               "downrange_distance": null,
               "location": {
                 "id": 6,
@@ -1751,7 +1803,7 @@
               "id": 1836,
               "attempt": true,
               "success": null,
-              "description": "The Falcon Heavy side booster B1075 will land back at the launch site after its 22nd flight.",
+              "description": "The Falcon Heavy side booster B1075 will land back at the launch site at Landing Zone 2 after its 22nd flight.",
               "downrange_distance": 14.6,
               "location": {
                 "id": 5,
@@ -1808,7 +1860,7 @@
               "id": 1837,
               "attempt": true,
               "success": null,
-              "description": "The Falcon Heavy side booster B1072 will land back at the launch site after its 2nd flight.",
+              "description": "The Falcon Heavy side booster B1072 will land back at the launch site at Landing Zone 40 after its 2nd flight.",
               "downrange_distance": 5.8,
               "location": {
                 "id": 62,
@@ -2221,9 +2273,35 @@
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 51,
       "pad_turnaround": "P131DT38M50S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1318,
+          "name": "Viasat-3F3",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/viasat-3f3_mission_patch_20260424135759.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "4cc237b2-c61a-491e-9532-466cce81f524",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     }
   ]
 }
