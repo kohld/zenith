@@ -1,86 +1,50 @@
 {
-  "generated_at": "2026-04-25T12:31:13.251Z",
+  "generated_at": "2026-04-26T01:08:26.052Z",
   "daily_summary": {
-    "headline": "Soyuz-5 Demo Flight and Falcon Heavy Lead the Day",
+    "headline": "Soyuz-5 Demo Flight and Aurora Opportunities",
     "top_events": [
       {
         "rank": 1,
         "title": "Soyuz-5 Demo Flight",
-        "description": "Demonstration Flight for Russia's new Soyuz-5 launch vehicle, with a mass simulator on board.",
-        "importance": 8,
-        "date": "2026-04-26T11:00:00Z",
+        "description": "The Soyuz-5 rocket is set for its demo flight, marking a significant step in Russian space capabilities.",
+        "importance": 5,
+        "date": "2026-04-26",
         "type": "launch",
-        "action": "Watch live for a historic demonstration of new capabilities."
+        "action": "Watch live stream for updates."
       },
       {
         "rank": 2,
-        "title": "Falcon Heavy | ViaSat-3 F3",
-        "description": "Launch of ViaSat-3 F3 satellite for high-speed internet services.",
-        "importance": 8,
-        "date": "2026-04-27T14:21:00Z",
+        "title": "Falcon 9 Starlink Launch",
+        "description": "SpaceX continues its Starlink deployment with another batch of satellites.",
+        "importance": 5,
+        "date": "2026-04-26",
         "type": "launch",
-        "action": "Catch the live stream of this significant satellite deployment."
+        "action": "Tune in to the live webcast."
       },
       {
         "rank": 3,
         "title": "Aurora Viewing Opportunity",
-        "description": "G1 storm level aurora visible at high latitudes.",
-        "importance": 5,
-        "date": "2026-04-25T21:00:00Z",
+        "description": "A G1 level geomagnetic storm may provide aurora viewing opportunities at high latitudes.",
+        "importance": 4,
+        "date": "2026-04-26",
         "type": "aurora",
-        "action": "Check conditions for possible aurora sightings at high latitudes."
+        "action": "Check local conditions for possible sightings."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
-      "historic_events": 1,
-      "aurora_opportunities": 2
+      "historic_events": 0,
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-04-25T21:00:00",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-04-25T21:00:00",
-          "end": "2026-04-25T21:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-04-26T00:00:00",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-04-26T00:00:00",
-          "end": "2026-04-26T00:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-04-25T18:00:00",
-        "max_kp": 4.33,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-04-25T18:00:00",
-          "end": "2026-04-25T18:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
         "date": "2026-04-26T03:00:00",
-        "max_kp": 4.33,
-        "storm_level": "G0 (Quiet)",
+        "max_kp": 4.67,
+        "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
           "start": "2026-04-26T03:00:00",
@@ -91,8 +55,8 @@
       }
     ],
     "best_window": {
-      "date": "2026-04-25T21:00:00",
-      "time": "21:00-21:00 UTC",
+      "date": "2026-04-26T03:00:00",
+      "time": "03:00-03:00 UTC",
       "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
@@ -102,7 +66,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }

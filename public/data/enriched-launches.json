@@ -1,353 +1,6 @@
 {
-  "generated_at": "2026-04-25T12:31:13.252Z",
+  "generated_at": "2026-04-26T01:08:26.053Z",
   "launches": [
-    {
-      "id": "33eb7522-d371-4195-addb-c22aeff30c41",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/33eb7522-d371-4195-addb-c22aeff30c41/",
-      "slug": "soyuz-21a-progress-ms-34-95p",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Soyuz 2.1a | Progress MS-34 (95P)",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-04-22T18:12:51Z",
-      "updates": [
-        {
-          "id": 14759,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Tweaked T-0.",
-          "info_url": "https://forum.novosti-kosmonavtiki.ru/index.php?msg=2845826",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-20T14:40:00Z"
-        },
-        {
-          "id": 13416,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch.",
-          "info_url": "https://forum.novosti-kosmonavtiki.ru/index.php?msg=2795395",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-12-20T03:44:00Z"
-        }
-      ],
-      "net": "2026-04-25T22:21:47Z",
-      "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
-      },
-      "window_end": "2026-04-25T22:21:47Z",
-      "window_start": "2026-04-25T22:21:47Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 63,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
-        "name": "Russian Federal Space Agency (ROSCOSMOS)",
-        "featured": true,
-        "type": "Government",
-        "country_code": "RUS",
-        "abbrev": "RFSA",
-        "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
-        "administrator": "Administrator: Yuri Borisov",
-        "founding_year": "1992",
-        "launchers": "Soyuz",
-        "spacecraft": "Soyuz",
-        "launch_library_url": null,
-        "total_launch_count": 340,
-        "consecutive_successful_launches": 64,
-        "successful_launches": 329,
-        "failed_launches": 11,
-        "pending_launches": 4,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 0,
-        "attempted_landings": 0,
-        "info_url": "https://en.roscosmos.ru/",
-        "wiki_url": "https://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
-      },
-      "rocket": {
-        "id": 8859,
-        "configuration": {
-          "id": 24,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/24/",
-          "name": "Soyuz 2.1a",
-          "active": true,
-          "reusable": false,
-          "description": "The Soyuz 2.1A converted the flight control system from analog to digital, which allowed launch from fixed platforms. It also allowed big fairings and payloads.\r\nIt is currently used for crewed Soyuz and Progress flights to the ISS.",
-          "family": "Soyuz",
-          "full_name": "Soyuz 2.1a",
-          "manufacturer": {
-            "id": 111,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/111/",
-            "name": "Progress Rocket Space Center",
-            "featured": false,
-            "type": "Commercial",
-            "country_code": "RUS",
-            "abbrev": "PRSC",
-            "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
-            "administrator": "CEO: Dmitry Baranov",
-            "founding_year": "1996",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 45,
-            "consecutive_successful_launches": 3,
-            "successful_launches": 44,
-            "failed_launches": 1,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://en.samspace.ru/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Progress_Rocket_Space_Centre",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
-            "image_url": null,
-            "nation_url": null
-          },
-          "program": [],
-          "variant": "",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 3,
-          "length": 46.3,
-          "diameter": 2.95,
-          "maiden_flight": "2004-11-04",
-          "launch_cost": "80000000",
-          "launch_mass": 312,
-          "leo_capacity": 7020,
-          "gto_capacity": 2810,
-          "to_thrust": 4149,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
-          "info_url": null,
-          "wiki_url": "https://en.wikipedia.org/wiki/Soyuz-2#Soyuz-2.1a",
-          "total_launch_count": 56,
-          "consecutive_successful_launches": 49,
-          "successful_launches": 55,
-          "failed_launches": 1,
-          "pending_launches": 1,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7450,
-        "name": "Progress MS-34 (95P)",
-        "description": "Progress resupply mission to the International Space Station.",
-        "launch_designator": null,
-        "type": "Resupply",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [
-          {
-            "id": 63,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
-            "name": "Russian Federal Space Agency (ROSCOSMOS)",
-            "featured": true,
-            "type": "Government",
-            "country_code": "RUS",
-            "abbrev": "RFSA",
-            "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
-            "administrator": "Administrator: Yuri Borisov",
-            "founding_year": "1992",
-            "launchers": "Soyuz",
-            "spacecraft": "Soyuz",
-            "launch_library_url": null,
-            "total_launch_count": 340,
-            "consecutive_successful_launches": 64,
-            "successful_launches": 329,
-            "failed_launches": 11,
-            "pending_launches": 4,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://en.roscosmos.ru/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
-          }
-        ],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 20,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/20/",
-        "agency_id": null,
-        "name": "31/6",
-        "description": "",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Baikonur_Cosmodrome_Site_31",
-        "map_url": "https://www.google.com/maps?q=45.996034,63.564003",
-        "latitude": "45.996034",
-        "longitude": "63.564003",
-        "location": {
-          "id": 15,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/15/",
-          "name": "Baikonur Cosmodrome, Republic of Kazakhstan",
-          "country_code": "KAZ",
-          "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
-          "timezone_name": "Asia/Qyzylorda",
-          "total_launch_count": 1561,
-          "total_landing_count": 0
-        },
-        "country_code": "KAZ",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
-        "total_launch_count": 427,
-        "orbital_launch_attempt_count": 427
-      },
-      "infoURLs": [],
-      "vidURLs": [
-        {
-          "priority": 10,
-          "source": "youtube.com",
-          "publisher": "NASA",
-          "title": "Progress 95 Cargo Ship Launch",
-          "description": "We're launching three tons of food, fuel, and supplies to the International Space Station. Watch live with us.\n\nThe unpiloted Progress 95 resupply spacecraft is scheduled to lift off at 6:21 p.m. EDT (2221 UTC) on Saturday, April 25, on a Soyuz rocket from the Baikonur Cosmodrome in Kazakhstan. After liftoff, Progress 95 will travel to the space station, a trip that takes two days. Once there, it will dock autonomously to the orbiting laboratory. \n\nFor more than 25 years, people have lived and worked continuously aboard the International Space Station, advancing scientific knowledge and making research breakthroughs that aren’t possible on Earth. The space station helps NASA understand and overcome the challenges of human spaceflight, expand commercial opportunities in low Earth orbit...",
-          "feature_image": "https://i.ytimg.com/vi/7FJUz-54AX0/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=7FJUz-54AX0",
-          "type": {
-            "id": 1,
-            "name": "Official Webcast"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          },
-          "start_time": "2026-04-25T22:00:00Z",
-          "end_time": null
-        },
-        {
-          "priority": 12,
-          "source": "plus.nasa.gov",
-          "publisher": "NASA",
-          "title": "Progress 95 Cargo Ship Launch",
-          "description": "Launch of the ISS Progress 95 Cargo Ship to the International Space Station from the Baikonur Cosmodrome in Kazakhstan (Launch is scheduled at 6:21 p.m. EDT)",
-          "feature_image": "https://plus.nasa.gov/wp-content/uploads/2026/04/progress-95-launch-key-art-r1-horizontal-program-tile-16-9-without-title.jpg",
-          "url": "https://plus.nasa.gov/scheduled-video/progress-95-cargo-ship-launch/",
-          "type": {
-            "id": 1,
-            "name": "Official Webcast"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          },
-          "start_time": "2026-04-25T22:00:00Z",
-          "end_time": "2026-04-26T03:00:00Z"
-        }
-      ],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
-      "infographic": null,
-      "program": [
-        {
-          "id": 17,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/17/",
-          "name": "International Space Station",
-          "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
-          "agencies": [
-            {
-              "id": 16,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
-              "name": "Canadian Space Agency",
-              "type": "Government"
-            },
-            {
-              "id": 27,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
-              "name": "European Space Agency",
-              "type": "Multinational"
-            },
-            {
-              "id": 37,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
-              "name": "Japan Aerospace Exploration Agency",
-              "type": "Government"
-            },
-            {
-              "id": 44,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-              "name": "National Aeronautics and Space Administration",
-              "type": "Government"
-            },
-            {
-              "id": 63,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
-              "name": "Russian Federal Space Agency (ROSCOSMOS)",
-              "type": "Government"
-            }
-          ],
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
-          "start_date": "1998-11-20T06:40:00Z",
-          "end_date": null,
-          "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
-          "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
-          "mission_patches": [],
-          "type": {
-            "id": 2,
-            "name": "Human Spaceflight"
-          }
-        }
-      ],
-      "orbital_launch_attempt_count": 7271,
-      "location_launch_attempt_count": 1562,
-      "pad_launch_attempt_count": 428,
-      "agency_launch_attempt_count": 341,
-      "orbital_launch_attempt_count_year": 98,
-      "location_launch_attempt_count_year": 3,
-      "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 3,
-      "pad_turnaround": "P34DT10H21M56S",
-      "mission_patches": [],
-      "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "33eb7522-d371-4195-addb-c22aeff30c41",
-        "importance_score": 5,
-        "reasoning": "Routine resupply mission to the ISS.",
-        "key_facts": [
-          "Soyuz 2.1a rocket",
-          "Progress MS-34 resupply mission"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "resupply",
-          "ISS"
-        ],
-        "user_recommendation": "Standard mission"
-      }
-    },
     {
       "id": "74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4/",
@@ -629,11 +282,11 @@
             "launchers": "Soyuz",
             "spacecraft": "Soyuz",
             "launch_library_url": null,
-            "total_launch_count": 340,
-            "consecutive_successful_launches": 64,
-            "successful_launches": 329,
+            "total_launch_count": 341,
+            "consecutive_successful_launches": 65,
+            "successful_launches": 330,
             "failed_launches": 11,
-            "pending_launches": 4,
+            "pending_launches": 3,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -667,7 +320,7 @@
           "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
           "timezone_name": "Asia/Qyzylorda",
-          "total_launch_count": 1561,
+          "total_launch_count": 1562,
           "total_landing_count": 0
         },
         "country_code": "KAZ",
@@ -695,23 +348,17 @@
       "type": "detailed",
       "ai_enrichment": {
         "launch_id": "74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4",
-        "importance_score": 8,
-        "reasoning": "Maiden flight of the Soyuz-5 rocket, testing new capabilities.",
-        "key_facts": [
-          "Soyuz-5 rocket",
-          "Demo flight with mass simulator"
-        ],
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "maiden flight",
-          "test"
-        ],
-        "user_recommendation": "Watch live for a historic demonstration of new capabilities."
+        "tags": [],
+        "user_recommendation": "Standard mission"
       }
     },
     {
@@ -727,8 +374,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-20T14:40:50Z",
+      "last_updated": "2026-04-25T19:00:00Z",
       "updates": [
+        {
+          "id": 14805,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Apr 26 at 14:36 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-16",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-25T18:59:00Z"
+        },
+        {
+          "id": 14804,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Now targeting Apr 26 at 14:24 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-16",
+          "created_by": "Nosu",
+          "created_on": "2026-04-25T17:14:00Z"
+        },
         {
           "id": 14760,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -746,12 +409,12 @@
           "created_on": "2026-04-14T17:13:00Z"
         }
       ],
-      "net": "2026-04-26T14:00:00Z",
+      "net": "2026-04-26T14:36:50Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-04-26T18:00:00Z",
       "window_start": "2026-04-26T14:00:00Z",
@@ -1144,17 +807,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -1336,7 +999,7 @@
       "location_launch_attempt_count_year": 27,
       "pad_launch_attempt_count_year": 25,
       "agency_launch_attempt_count_year": 50,
-      "pad_turnaround": "P3DT10H36M51S",
+      "pad_turnaround": "P3DT11H13M41S",
       "mission_patches": [
         {
           "id": 7,
@@ -1355,21 +1018,15 @@
       "ai_enrichment": {
         "launch_id": "d3a6d59f-c38d-4fcd-9f5d-b091aa14afa9",
         "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment.",
-        "key_facts": [
-          "Falcon 9 Block 5 rocket",
-          "Starlink Group 17-16"
-        ],
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "Starlink",
-          "satellite"
-        ],
+        "tags": [],
         "user_recommendation": "Standard mission"
       }
     },
@@ -1538,7 +1195,7 @@
           "attempted_landings": 21,
           "successful_landings": 19,
           "failed_landings": 2,
-          "consecutive_successful_landings": 14
+          "consecutive_successful_landings": 12
         },
         "launcher_stage": [
           {
@@ -2095,23 +1752,17 @@
       "type": "detailed",
       "ai_enrichment": {
         "launch_id": "4cc237b2-c61a-491e-9532-466cce81f524",
-        "importance_score": 8,
-        "reasoning": "Significant satellite deployment for global internet services.",
-        "key_facts": [
-          "Falcon Heavy rocket",
-          "ViaSat-3 F3 satellite"
-        ],
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "satellite",
-          "internet"
-        ],
-        "user_recommendation": "Catch the live stream of this significant satellite deployment."
+        "tags": [],
+        "user_recommendation": "Standard mission"
       }
     },
     {
@@ -2423,21 +2074,228 @@
       "ai_enrichment": {
         "launch_id": "7e89e423-6f47-40a0-b075-c6fc1d9cf228",
         "importance_score": 5,
-        "reasoning": "Routine satellite deployment for Amazon Leo.",
-        "key_facts": [
-          "Atlas V 551 rocket",
-          "Amazon Leo (LA-06)"
-        ],
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "satellite",
-          "internet"
-        ],
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
+    },
+    {
+      "id": "aafe107e-46d8-420c-bcb9-192069d80893",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/aafe107e-46d8-420c-bcb9-192069d80893/",
+      "slug": "soyuz-21b-16-x-rassvet-3-2",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Soyuz 2.1b | 16 x Rassvet-3",
+      "status": {
+        "id": 2,
+        "name": "To Be Determined",
+        "abbrev": "TBD",
+        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+      },
+      "last_updated": "2026-04-11T03:49:10Z",
+      "updates": [
+        {
+          "id": 14641,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch per NOTAMs; Payload and launch vehicle variant identities uncertain.\r\nLaunch expected between April 24 - 28 between 11:00-21:00 UTC daily.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64652.msg2771901#msg2771901",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-11T03:49:00Z"
+        }
+      ],
+      "net": "2026-04-30T00:00:00Z",
+      "net_precision": {
+        "id": 7,
+        "name": "Month",
+        "abbrev": "M",
+        "description": "The T-0 is expected in the given month."
+      },
+      "window_end": "2026-04-30T00:00:00Z",
+      "window_start": "2026-04-30T00:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 63,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+        "name": "Russian Federal Space Agency (ROSCOSMOS)",
+        "featured": true,
+        "type": "Government",
+        "country_code": "RUS",
+        "abbrev": "RFSA",
+        "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
+        "administrator": "Administrator: Yuri Borisov",
+        "founding_year": "1992",
+        "launchers": "Soyuz",
+        "spacecraft": "Soyuz",
+        "launch_library_url": null,
+        "total_launch_count": 341,
+        "consecutive_successful_launches": 65,
+        "successful_launches": 330,
+        "failed_launches": 11,
+        "pending_launches": 3,
+        "consecutive_successful_landings": 0,
+        "successful_landings": 0,
+        "failed_landings": 0,
+        "attempted_landings": 0,
+        "info_url": "https://en.roscosmos.ru/",
+        "wiki_url": "https://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
+      },
+      "rocket": {
+        "id": 8970,
+        "configuration": {
+          "id": 15,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/15/",
+          "name": "Soyuz 2.1b",
+          "active": true,
+          "reusable": false,
+          "description": "Soyuz-2 is the 21st-century version of the Russian Soyuz rocket. In its basic form, it is a three-stage carrier rocket for placing payloads into low Earth orbit.  The 2.1b version adds an upgraded engine (RD-0124) with improved performance to the second stage.",
+          "family": "Soyuz",
+          "full_name": "Soyuz 2.1b",
+          "manufacturer": {
+            "id": 111,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/111/",
+            "name": "Progress Rocket Space Center",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "RUS",
+            "abbrev": "PRSC",
+            "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
+            "administrator": "CEO: Dmitry Baranov",
+            "founding_year": "1996",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 45,
+            "consecutive_successful_launches": 3,
+            "successful_launches": 44,
+            "failed_launches": 1,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://en.samspace.ru/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Progress_Rocket_Space_Centre",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
+            "image_url": null,
+            "nation_url": null
+          },
+          "program": [],
+          "variant": "",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 3,
+          "length": 46.3,
+          "diameter": 2.95,
+          "maiden_flight": "2008-07-26",
+          "launch_cost": "80000000",
+          "launch_mass": 312,
+          "leo_capacity": 8200,
+          "gto_capacity": 3250,
+          "to_thrust": null,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+          "info_url": null,
+          "wiki_url": "http://en.wikipedia.org/wiki/Soyuz-2_(rocket)",
+          "total_launch_count": 23,
+          "consecutive_successful_launches": 23,
+          "successful_launches": 23,
+          "failed_launches": 0,
+          "pending_launches": 1,
+          "attempted_landings": 0,
+          "successful_landings": 0,
+          "failed_landings": 0,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7565,
+        "name": "16 x Rassvet-3",
+        "description": "Note: Payload identities uncertain.\r\n\r\nBatch of 16 Rassvet-3 Low Earth Orbit communication satellites for the Russian Byuro-1440 (Bureau 1440) constellation for broadband high-speed internet access in Russia.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 13,
+          "name": "Polar Orbit",
+          "abbrev": "PO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 48,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/48/",
+        "agency_id": 163,
+        "name": "Unknown Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Plesetsk_Cosmodrome",
+        "map_url": "https://www.google.com/maps?q=62.925556,40.577778",
+        "latitude": "62.925556",
+        "longitude": "40.577778",
+        "location": {
+          "id": 6,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
+          "name": "Plesetsk Cosmodrome, Russian Federation",
+          "country_code": "RUS",
+          "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
+          "timezone_name": "Europe/Moscow",
+          "total_launch_count": 1685,
+          "total_landing_count": 0
+        },
+        "country_code": "RUS",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_48_20200803143459.jpg",
+        "total_launch_count": 0,
+        "orbital_launch_attempt_count": 0
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7279,
+      "location_launch_attempt_count": 1686,
+      "pad_launch_attempt_count": 1,
+      "agency_launch_attempt_count": 342,
+      "orbital_launch_attempt_count_year": 106,
+      "location_launch_attempt_count_year": 6,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 4,
+      "pad_turnaround": "P0D",
+      "mission_patches": [],
+      "type": "detailed",
+      "ai_enrichment": {
+        "launch_id": "aafe107e-46d8-420c-bcb9-192069d80893",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
         "user_recommendation": "Standard mission"
       }
     }
