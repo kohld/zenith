@@ -1,72 +1,54 @@
 {
-  "generated_at": "2026-04-26T12:31:50.221Z",
+  "generated_at": "2026-04-27T01:08:47.828Z",
   "daily_summary": {
-    "headline": "Exciting Space Day: Falcon Heavy and Aurora Alert!",
+    "headline": "Falcon Heavy and Atlas V Lead the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon Heavy | ViaSat-3 F3 Launch",
-        "description": "SpaceX's Falcon Heavy is set to launch the ViaSat-3 F3 satellite, enhancing global communications.",
+        "title": "Falcon Heavy | ViaSat-3 F3",
+        "description": "Launch of Falcon Heavy carrying ViaSat-3 F3, a major communications satellite for the Asia-Pacific region.",
         "importance": 8,
-        "date": "2026-04-27",
+        "date": "2026-04-27T14:21:00Z",
         "type": "launch",
-        "action": "Watch live on SpaceX's webcast."
+        "action": "Watch live stream for spectacular booster landings."
       },
       {
         "rank": 2,
-        "title": "Aurora Alert: G1 Storm",
-        "description": "A G1 geomagnetic storm is expected, providing a good opportunity for aurora viewing at higher latitudes.",
+        "title": "Atlas V 551 | Amazon Leo (LA-06)",
+        "description": "Launch of Atlas V 551 carrying Amazon Leo satellites for global broadband internet.",
         "importance": 7,
-        "date": "2026-04-26",
-        "type": "aurora",
-        "action": "Check the skies if you're above 60° latitude."
+        "date": "2026-04-28T00:52:00Z",
+        "type": "launch",
+        "action": "Follow live updates for this significant satellite deployment."
       },
       {
         "rank": 3,
-        "title": "Atlas V 551 | Amazon Leo (LA-06)",
-        "description": "ULA's Atlas V rocket will launch Amazon's Leo satellites, expanding broadband access.",
-        "importance": 7,
-        "date": "2026-04-28",
+        "title": "Soyuz 2.1b | 16 x Rassvet-3",
+        "description": "Launch of Soyuz 2.1b with 16 Rassvet-3 satellites for Russian broadband internet.",
+        "importance": 6,
+        "date": "2026-04-30T00:00:00Z",
         "type": "launch",
-        "action": "Follow ULA's official webcast."
+        "action": "Monitor for updates on this Russian communications mission."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-04-26T21:00:00",
-        "max_kp": 5,
-        "storm_level": "G1",
-        "probability": "Moderate (50-70%)",
-        "time_window": {
-          "start": "2026-04-26T21:00:00",
-          "end": "2026-04-26T21:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      }
-    ],
-    "best_window": {
-      "date": "2026-04-26T21:00:00",
-      "time": "21:00-21:00 UTC",
-      "kp": 5,
-      "visibility_range": "Down to 60° latitude"
-    },
+    "opportunities": [],
+    "best_window": null,
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
