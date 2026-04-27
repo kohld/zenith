@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T23:45:43.672Z",
+  "updatedAt": "2026-04-27T00:39:39.447Z",
   "launches": [
     {
       "id": "d3a6d59f-c38d-4fcd-9f5d-b091aa14afa9",
@@ -921,50 +921,6 @@
         },
         "launcher_stage": [
           {
-            "id": 870,
-            "type": "Core",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 201,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/201/",
-              "details": "Falcon Heavy core booster.",
-              "flight_proven": false,
-              "serial_number": "B1098",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
-              "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1835,
-              "attempt": false,
-              "success": null,
-              "description": "The Falcon Heavy center core B1098 will be expended.",
-              "downrange_distance": null,
-              "location": {
-                "id": 6,
-                "name": "Atlantic Ocean",
-                "abbrev": "ATL",
-                "description": "Atlantic Ocean",
-                "location": null,
-                "successful_landings": 38
-              },
-              "type": {
-                "id": 8,
-                "name": "Expended",
-                "abbrev": "EXP",
-                "description": "Vehicle did not perform any landing operations after launch"
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 871,
             "type": "Strap-On Booster",
             "reused": true,
@@ -1077,6 +1033,50 @@
               "id": "ad53f165-a118-43a6-ad46-6021accdaabd",
               "name": "Falcon Heavy | GOES-U"
             }
+          },
+          {
+            "id": 870,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 201,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/201/",
+              "details": "Falcon Heavy core booster.",
+              "flight_proven": false,
+              "serial_number": "B1098",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1835,
+              "attempt": false,
+              "success": null,
+              "description": "The Falcon Heavy center core B1098 will be expended.",
+              "downrange_distance": null,
+              "location": {
+                "id": 6,
+                "name": "Atlantic Ocean",
+                "abbrev": "ATL",
+                "description": "Atlantic Ocean",
+                "location": null,
+                "successful_landings": 38
+              },
+              "type": {
+                "id": 8,
+                "name": "Expended",
+                "abbrev": "EXP",
+                "description": "Vehicle did not perform any landing operations after launch"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
           }
         ],
         "spacecraft_stage": null
