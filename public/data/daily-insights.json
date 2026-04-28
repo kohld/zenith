@@ -1,54 +1,84 @@
 {
-  "generated_at": "2026-04-27T12:52:08.359Z",
+  "generated_at": "2026-04-28T01:09:36.157Z",
   "daily_summary": {
-    "headline": "Routine Launch Day with No Exceptional Aurora Activity",
+    "headline": "Falcon Heavy and Aurora Show Potential for April 29, 2026",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon Heavy | ViaSat-3 F3",
-        "description": "SpaceX's Falcon Heavy will launch the ViaSat-3 F3 satellite to Geostationary Transfer Orbit.",
-        "importance": 5,
-        "date": "2026-04-27",
+        "title": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
+        "description": "SpaceX's Falcon Heavy is set to launch the ViaSat-3 F3 satellite, providing significant advancements in satellite broadband capabilities.",
+        "importance": 8,
+        "date": "2026-04-29T14:13:00Z",
         "type": "launch",
-        "action": "Watch live stream for best experience."
+        "action": "Watch live stream for launch and booster landing."
       },
       {
         "rank": 2,
-        "title": "Atlas V 551 | Amazon Leo (LA-06)",
-        "description": "ULA's Atlas V will deploy 29 Amazon Leo satellites to Low Earth Orbit.",
-        "importance": 5,
-        "date": "2026-04-28",
-        "type": "launch",
-        "action": "Watch live stream for best experience."
+        "title": "Aurora Viewing Opportunity",
+        "description": "A Kp index of 4 suggests a potential aurora visible at high latitudes, especially above 65° latitude.",
+        "importance": 6,
+        "date": "2026-04-29T21:00:00Z",
+        "type": "aurora",
+        "action": "Check local conditions and be ready with camera gear."
       },
       {
         "rank": 3,
-        "title": "Soyuz 2.1b | 16 x Rassvet-3",
-        "description": "Launch of 16 Rassvet-3 satellites for broadband internet access in Russia.",
-        "importance": 5,
-        "date": "2026-04-30",
+        "title": "Soyuz-5 Demo Flight",
+        "description": "The Soyuz-5 rocket is scheduled for a demonstration flight, marking a significant step for Russian space capabilities.",
+        "importance": 7,
+        "date": "2026-04-30T00:00:00Z",
         "type": "launch",
-        "action": "Watch live stream for best experience."
+        "action": "Follow updates for launch confirmation."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 2
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-04-29T21:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-04-29T21:00:00",
+          "end": "2026-04-29T21:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-04-30T00:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-04-30T00:00:00",
+          "end": "2026-04-30T00:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-04-29T21:00:00",
+      "time": "21:00-21:00 UTC",
+      "kp": 4,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 17,
     "processing_time_seconds": 0,
     "iterations": 2
   }
