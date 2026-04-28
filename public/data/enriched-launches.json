@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-28T01:09:36.158Z",
+  "generated_at": "2026-04-28T12:55:49.504Z",
   "launches": [
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
@@ -263,7 +263,7 @@
                   "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
-                  "total_launch_count": 1104,
+                  "total_launch_count": 1105,
                   "total_landing_count": 72
                 },
                 "successful_landings": 16
@@ -320,7 +320,7 @@
                   "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
                   "timezone_name": "America/New_York",
-                  "total_launch_count": 1104,
+                  "total_launch_count": 1105,
                   "total_landing_count": 72
                 },
                 "successful_landings": 2
@@ -817,7 +817,26 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "4cc237b2-c61a-491e-9532-466cce81f524",
+        "importance_score": 7,
+        "reasoning": "Falcon Heavy is a heavy-lift vehicle, and this mission enhances communication capabilities with the ViaSat-3 satellite.",
+        "key_facts": [
+          "Heavy-lift vehicle",
+          "Enhances communication"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "Falcon Heavy",
+          "Communication"
+        ],
+        "user_recommendation": "Watch live stream for the Falcon Heavy launch."
+      }
     },
     {
       "id": "aafe107e-46d8-420c-bcb9-192069d80893",
@@ -1017,7 +1036,20 @@
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "aafe107e-46d8-420c-bcb9-192069d80893",
+        "importance_score": 5,
+        "reasoning": "Routine satellite deployment with no significant new capabilities.",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4",
@@ -1372,7 +1404,26 @@
       "pad_turnaround": "P3046DT4H59M57S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4",
+        "importance_score": 6,
+        "reasoning": "Soyuz-5 demo flight marks a significant step in Russian space capabilities.",
+        "key_facts": [
+          "Demo flight",
+          "New rocket"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "Soyuz-5",
+          "Demo"
+        ],
+        "user_recommendation": "Stay updated on the Soyuz-5 demo flight developments."
+      }
     },
     {
       "id": "4aa02420-1bcb-4dd9-afa8-06d5ff89d248",
@@ -1580,7 +1631,20 @@
       "pad_turnaround": "P257DT22H43M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "4aa02420-1bcb-4dd9-afa8-06d5ff89d248",
+        "importance_score": 5,
+        "reasoning": "Routine mission with unknown payload.",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "6bfe08b4-a35d-4297-8de7-dec0eb678eb6",
@@ -2236,7 +2300,20 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "6bfe08b4-a35d-4297-8de7-dec0eb678eb6",
+        "importance_score": 5,
+        "reasoning": "Routine Starlink satellite deployment.",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     }
   ]
 }
