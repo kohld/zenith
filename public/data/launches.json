@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T23:21:34.872Z",
+  "updatedAt": "2026-04-29T23:48:06.517Z",
   "launches": [
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
@@ -907,8 +907,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-29T13:58:09Z",
+      "last_updated": "2026-04-29T23:43:05Z",
       "updates": [
+        {
+          "id": 14852,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Apr 30 at 02:42 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-36",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-29T23:43:00Z"
+        },
         {
           "id": 14841,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -958,7 +966,7 @@
           "created_on": "2026-04-14T18:25:00Z"
         }
       ],
-      "net": "2026-04-30T02:37:53Z",
+      "net": "2026-04-30T02:42:49Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -1312,6 +1320,26 @@
           "end_time": null
         },
         {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches 24 Starlink Satellites from California",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for SpaceX's space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Wednesday, April 29 at 7:37 pm PDT (10:37 pm EDT / 0237 UTC).\n\nThe first-stage booster, making its 13th flight, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-36 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCoLdERT4-TJ82PJOHSrsZLQ/join",
+          "feature_image": "https://i.ytimg.com/vi/ZD5dwj_md0c/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=ZD5dwj_md0c",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-04-30T02:07:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -1568,7 +1596,7 @@
       "location_launch_attempt_count_year": 28,
       "pad_launch_attempt_count_year": 26,
       "agency_launch_attempt_count_year": 52,
-      "pad_turnaround": "P3DT12H44S",
+      "pad_turnaround": "P3DT12H5M40S",
       "mission_patches": [
         {
           "id": 7,
