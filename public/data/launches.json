@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T14:16:10.715Z",
+  "updatedAt": "2026-04-29T15:16:37.178Z",
   "launches": [
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
@@ -260,9 +260,9 @@
           "failed_launches": 0,
           "pending_launches": 14,
           "attempted_landings": 23,
-          "successful_landings": 19,
+          "successful_landings": 21,
           "failed_landings": 2,
-          "consecutive_successful_landings": 14
+          "consecutive_successful_landings": 16
         },
         "launcher_stage": [
           {
@@ -278,7 +278,7 @@
               "serial_number": "B1075",
               "status": "active",
               "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1075_landing_o_image_20250912152358.jpeg",
-              "successful_landings": 21,
+              "successful_landings": 22,
               "attempted_landings": 22,
               "flights": 21,
               "last_launch_date": "2026-04-29T14:13:00Z",
@@ -287,14 +287,14 @@
             "landing": {
               "id": 1836,
               "attempt": true,
-              "success": null,
-              "description": "The Falcon Heavy side booster B1075 will land back at the launch site at Landing Zone 2 after its 22nd flight.",
-              "downrange_distance": 14.6,
+              "success": true,
+              "description": "The Falcon Heavy side booster B1075 has landed back at the launch site at Landing Zone 40 after its 22nd flight.",
+              "downrange_distance": 5.8,
               "location": {
-                "id": 5,
-                "name": "Landing Zone 2",
-                "abbrev": "LZ-2",
-                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
+                "id": 62,
+                "name": "Landing Zone 40",
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
                 "location": {
                   "id": 12,
                   "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
@@ -306,7 +306,7 @@
                   "total_launch_count": 1105,
                   "total_landing_count": 72
                 },
-                "successful_landings": 16
+                "successful_landings": 2
               },
               "type": {
                 "id": 2,
@@ -335,7 +335,7 @@
               "serial_number": "B1072",
               "status": "active",
               "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1072_and_b1086_image_20240626195649.jpeg",
-              "successful_landings": 1,
+              "successful_landings": 2,
               "attempted_landings": 2,
               "flights": 1,
               "last_launch_date": "2026-04-29T14:13:00Z",
@@ -344,14 +344,14 @@
             "landing": {
               "id": 1837,
               "attempt": true,
-              "success": null,
-              "description": "The Falcon Heavy side booster B1072 will land back at the launch site at Landing Zone 40 after its 2nd flight.",
-              "downrange_distance": 5.8,
+              "success": true,
+              "description": "The Falcon Heavy side booster B1072 has landed back at the launch site at Landing Zone 2 after its 2nd flight.",
+              "downrange_distance": 14.6,
               "location": {
-                "id": 62,
-                "name": "Landing Zone 40",
-                "abbrev": "LZ-40",
-                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "id": 5,
+                "name": "Landing Zone 2",
+                "abbrev": "LZ-2",
+                "description": "LZ-2 Pad located at Cape Canaveral Space Force Station at the previous LC-13. Directly next to LZ-1",
                 "location": {
                   "id": 12,
                   "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
@@ -363,7 +363,7 @@
                   "total_launch_count": 1105,
                   "total_landing_count": 72
                 },
-                "successful_landings": 2
+                "successful_landings": 16
               },
               "type": {
                 "id": 2,
@@ -564,7 +564,7 @@
           "publisher": "NASASpaceflight",
           "title": "SpaceX Falcon Heavy Launch of ViaSat-3 F3 - SECOND ATTEMPT",
           "description": "Launch Window: April 29th from 10:06AM to 11:31AM EDT (14:05-15:31 UTC)\nCurrent T0: April 29th at 10:13AM EDT (14:13 UTC)\n\nMission: Falcon Heavy launch of Viasat-3 F3 to Geosynchronous Transfer Orbit\nLaunch location: Launch Complex 39A (LC-39A), Kennedy Space Center, Earth.\nTarget orbit: Geosynchronous Transfer Orbit (GTO)\nCenter Core: B1098-1\nCenter Core history: New Booster\nCenter Core recovery: None, will be expended\nMY Side Booster: B1072-2; 670d 16h 55min turnaround\nMY Side Booster history: GOES-U\nPY Side Booster: B1075-22; 187d 4min 40s turnaround\nPY Side Booster history: SL 2-4, SDA Tranche 0A, SL 2-9, SL 5-7, SL 6-20, SL 7-3, SL 7-6, SARah-2 and SARah-3, SL 7-12, SL 7-16, SL 9-2, Transporter-11, SL 9-17, SL 9-9, SL 9-13, SL 11-3, SL 11-4, SL 11-16, SL 17-2, SL 17-9, SL 11-5.\nS...",
-          "feature_image": "https://i.ytimg.com/vi/6sDcNKbJwuo/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/6sDcNKbJwuo/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=6sDcNKbJwuo",
           "type": {
             "id": 3,
@@ -576,7 +576,7 @@
             "code": "en"
           },
           "start_time": "2026-04-29T12:13:49Z",
-          "end_time": null
+          "end_time": "2026-04-29T14:58:54Z"
         },
         {
           "priority": 10,
@@ -1280,7 +1280,7 @@
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
           "title": "GO! - SpaceX - Falcon 9 - Starlink 17-36 - SLC-4E - Vandenberg SFB - Space Affairs Live",
-          "description": "Launch Date: April 29, 2026 PDT\nLaunch Time: 7:00 p.m. PDT (April 30, 0200 UTC, 04:00 CEST)\nLaunch Window: Open until 11:00 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-36\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1071 - Turnaround time 46 days)\nFlight for the Booster: 33\nPrevious Flights of the Booster: 32 - NROL-87, NROL-85, SARah-1, SWOT, Transporter-8, Transporter-9, NROL-146, Bandwagon-2, NROL-153, NROL-192, Transporter-14, Transporter-15, and 20 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO...",
+          "description": "Launch Date: April 29, 2026 PDT\nLaunch Time: 7:37 p.m. PDT (April 30, 0237 UTC, 04:37 CEST)\nLaunch Window: Open until 11:00 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-36\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1071 - Turnaround time 46 days)\nFlight for the Booster: 33\nPrevious Flights of the Booster: 32 - NROL-87, NROL-85, SARah-1, SWOT, Transporter-8, Transporter-9, NROL-146, Bandwagon-2, NROL-153, NROL-192, Transporter-14, Transporter-15, and 20 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO...",
           "feature_image": "https://i.ytimg.com/vi/0fBYQSa73_w/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=0fBYQSa73_w",
           "type": {
@@ -1292,7 +1292,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-04-30T01:50:00Z",
+          "start_time": "2026-04-30T02:27:00Z",
           "end_time": null
         },
         {
@@ -21477,9 +21477,9 @@
           "failed_launches": 0,
           "pending_launches": 14,
           "attempted_landings": 23,
-          "successful_landings": 19,
+          "successful_landings": 21,
           "failed_landings": 2,
-          "consecutive_successful_landings": 14
+          "consecutive_successful_landings": 16
         },
         "launcher_stage": [
           {
@@ -29611,9 +29611,9 @@
           "failed_launches": 0,
           "pending_launches": 14,
           "attempted_landings": 23,
-          "successful_landings": 19,
+          "successful_landings": 21,
           "failed_landings": 2,
-          "consecutive_successful_landings": 14
+          "consecutive_successful_landings": 16
         },
         "launcher_stage": [
           {
