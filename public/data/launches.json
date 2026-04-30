@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T18:33:07.554Z",
+  "updatedAt": "2026-04-30T19:33:24.623Z",
   "launches": [
     {
       "id": "6bfe08b4-a35d-4297-8de7-dec0eb678eb6",
@@ -1307,13 +1307,21 @@
       "r_spacex_api_id": null,
       "name": "Soyuz-5 | Demo Flight",
       "status": {
-        "id": 5,
-        "name": "On Hold",
-        "abbrev": "Hold",
-        "description": "The countdown has been paused, but the launch can still happen within the launch window."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-04-30T16:34:12Z",
+      "last_updated": "2026-04-30T19:05:52Z",
       "updates": [
+        {
+          "id": 14865,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://t.me/roscosmos_gk/19845",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-30T19:05:00Z"
+        },
         {
           "id": 14864,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1459,7 +1467,7 @@
           "created_on": "2025-09-05T12:25:00Z"
         }
       ],
-      "net": "2026-04-30T11:00:00Z",
+      "net": "2026-04-30T18:00:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
@@ -1488,10 +1496,10 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 1,
-        "consecutive_successful_launches": 0,
-        "successful_launches": 0,
+        "consecutive_successful_launches": 1,
+        "successful_launches": 1,
         "failed_launches": 0,
-        "pending_launches": 1,
+        "pending_launches": 0,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -1528,10 +1536,10 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 1,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 1,
             "failed_launches": 0,
-            "pending_launches": 1,
+            "pending_launches": 0,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -1549,7 +1557,7 @@
           "max_stage": 3,
           "length": 65.258,
           "diameter": 4.1,
-          "maiden_flight": null,
+          "maiden_flight": "2026-04-30",
           "launch_cost": null,
           "launch_mass": 525,
           "leo_capacity": 17000,
@@ -1561,10 +1569,10 @@
           "info_url": "https://russianspaceweb.com/soyuz5-lv.html",
           "wiki_url": "https://en.wikipedia.org/wiki/Irtysh_(rocket)",
           "total_launch_count": 1,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
           "failed_launches": 0,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -1576,7 +1584,7 @@
       "mission": {
         "id": 7294,
         "name": "Demo Flight",
-        "description": "Demonstration Flight for Russia's new Soyuz-5 launch vehicle, with a mass simulator on board. Details TBD.",
+        "description": "Demonstration Flight for Russia's new Soyuz-5 launch vehicle, with a mass simulator on board. The launch was suborbital with the simulator splashing down in the Pacific Ocean.",
         "launch_designator": null,
         "type": "Test Flight",
         "orbit": {
@@ -1600,10 +1608,10 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 1,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 1,
             "failed_launches": 0,
-            "pending_launches": 1,
+            "pending_launches": 0,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -1689,7 +1697,7 @@
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P3046DT15H59M57S",
+      "pad_turnaround": "P3046DT22H59M57S",
       "mission_patches": [],
       "type": "detailed"
     },
