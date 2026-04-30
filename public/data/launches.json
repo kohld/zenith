@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T19:33:24.623Z",
+  "updatedAt": "2026-04-30T20:27:27.648Z",
   "launches": [
     {
       "id": "6bfe08b4-a35d-4297-8de7-dec0eb678eb6",
@@ -1312,8 +1312,16 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-04-30T19:05:52Z",
+      "last_updated": "2026-04-30T20:14:29Z",
       "updates": [
+        {
+          "id": 14866,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Official Webcast by Роскосмос ТВ has started",
+          "info_url": "https://www.youtube.com/watch?v=eeyJIut4NNA",
+          "created_by": "LL2",
+          "created_on": "2026-04-30T20:01:00Z"
+        },
         {
           "id": 14865,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1683,8 +1691,29 @@
         "orbital_launch_attempt_count": 46
       },
       "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Роскосмос ТВ",
+          "title": "Экспертный комментарий пуска ракеты «Союз-5»",
+          "description": "30 апреля в 21:00 мск с 45-й площадки Байконура состоялся пуск новой российской ракеты-носителя среднего класса «Союз-5».\n\n«Союз-5» — ракета-носитель с самым мощным в мире жидкостным ракетным двигателем.\n\nЭто первый старт ракеты нового поколения в рамках лётно-конструкторских испытаний.\n\nПервая и вторая ступени «Союза-5» отработали штатно, габаритно-массовый макет выведен на расчётную суборбитальную траекторию с последующим падением в заранее закрытом для судоходства и авиации районе в акватории Тихого океана.\n\nСайт Роскосмоса: https://www.roscosmos.ru/\nРоскосмос в социальных сетях: \nVk: https://vk.com/roscosmos\nOk: https://ok.ru/roscosmos  \nTelegram: https://t.me/roscosmos_gk \nRutube: https://rutube.ru/channel/770606/\n\nНовый telegram-канал о путешествиях на космодромы: https://t.me/c...",
+          "feature_image": "https://i.ytimg.com/vi/eeyJIut4NNA/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=eeyJIut4NNA",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 3,
+            "name": "Russian",
+            "code": "ru"
+          },
+          "start_time": "2026-04-30T20:00:42Z",
+          "end_time": null
+        }
+      ],
+      "webcast_live": true,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-5_assembl_image_20260327210910.jpeg",
       "infographic": null,
