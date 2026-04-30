@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-30T10:15:39.637Z",
+  "updatedAt": "2026-04-30T11:08:13.193Z",
   "launches": [
     {
       "id": "4cc237b2-c61a-491e-9532-466cce81f524",
@@ -1645,13 +1645,21 @@
       "r_spacex_api_id": null,
       "name": "Ariane 64 | Amazon Leo (LE-02)",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-04-30T08:58:51Z",
+      "last_updated": "2026-04-30T11:01:07Z",
       "updates": [
+        {
+          "id": 14862,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success, all satellites separated.",
+          "info_url": "https://www.youtube.com/watch?v=H0zLzwGEhcg",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-30T10:52:00Z"
+        },
         {
           "id": 14861,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1778,8 +1786,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 326,
-        "consecutive_successful_launches": 13,
-        "successful_launches": 310,
+        "consecutive_successful_launches": 14,
+        "successful_launches": 311,
         "failed_launches": 15,
         "pending_launches": 31,
         "consecutive_successful_landings": 0,
@@ -1851,8 +1859,8 @@
           "info_url": "https://www.arianespace.com/wp-content/uploads/2017/02/Ariane6_Users-Manual_February2017.pdf",
           "wiki_url": "https://en.wikipedia.org/wiki/Ariane_6",
           "total_launch_count": 2,
-          "consecutive_successful_launches": 1,
-          "successful_launches": 1,
+          "consecutive_successful_launches": 2,
+          "successful_launches": 2,
           "failed_launches": 0,
           "pending_launches": 14,
           "attempted_landings": 0,
@@ -1973,7 +1981,7 @@
             "code": "en"
           },
           "start_time": "2026-04-30T08:26:07Z",
-          "end_time": null
+          "end_time": "2026-04-30T11:00:37Z"
         },
         {
           "priority": 11,
@@ -1993,7 +2001,7 @@
             "code": "fr"
           },
           "start_time": "2026-04-30T08:26:12Z",
-          "end_time": null
+          "end_time": "2026-04-30T11:00:29Z"
         },
         {
           "priority": 12,
@@ -2013,10 +2021,10 @@
             "code": "fr"
           },
           "start_time": "2026-04-30T07:36:37Z",
-          "end_time": null
+          "end_time": "2026-04-30T11:00:25Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [
         {
           "type": {
@@ -9200,8 +9208,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 326,
-        "consecutive_successful_launches": 13,
-        "successful_launches": 310,
+        "consecutive_successful_launches": 14,
+        "successful_launches": 311,
         "failed_launches": 15,
         "pending_launches": 31,
         "consecutive_successful_landings": 0,
@@ -10131,8 +10139,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 326,
-        "consecutive_successful_launches": 13,
-        "successful_launches": 310,
+        "consecutive_successful_launches": 14,
+        "successful_launches": 311,
         "failed_launches": 15,
         "pending_launches": 31,
         "consecutive_successful_landings": 0,
@@ -10204,8 +10212,8 @@
           "info_url": "https://www.arianespace.com/wp-content/uploads/2017/02/Ariane6_Users-Manual_February2017.pdf",
           "wiki_url": "https://en.wikipedia.org/wiki/Ariane_6",
           "total_launch_count": 2,
-          "consecutive_successful_launches": 1,
-          "successful_launches": 1,
+          "consecutive_successful_launches": 2,
+          "successful_launches": 2,
           "failed_launches": 0,
           "pending_launches": 14,
           "attempted_landings": 0,
@@ -24472,8 +24480,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 326,
-        "consecutive_successful_launches": 13,
-        "successful_launches": 310,
+        "consecutive_successful_launches": 14,
+        "successful_launches": 311,
         "failed_launches": 15,
         "pending_launches": 31,
         "consecutive_successful_landings": 0,
@@ -26392,8 +26400,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 326,
-        "consecutive_successful_launches": 13,
-        "successful_launches": 310,
+        "consecutive_successful_launches": 14,
+        "successful_launches": 311,
         "failed_launches": 15,
         "pending_launches": 31,
         "consecutive_successful_landings": 0,
@@ -28137,8 +28145,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 326,
-        "consecutive_successful_launches": 13,
-        "successful_launches": 310,
+        "consecutive_successful_launches": 14,
+        "successful_launches": 311,
         "failed_launches": 15,
         "pending_launches": 31,
         "consecutive_successful_landings": 0,
@@ -30308,8 +30316,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 326,
-        "consecutive_successful_launches": 13,
-        "successful_launches": 310,
+        "consecutive_successful_launches": 14,
+        "successful_launches": 311,
         "failed_launches": 15,
         "pending_launches": 31,
         "consecutive_successful_landings": 0,
@@ -32007,8 +32015,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 326,
-        "consecutive_successful_launches": 13,
-        "successful_launches": 310,
+        "consecutive_successful_launches": 14,
+        "successful_launches": 311,
         "failed_launches": 15,
         "pending_launches": 31,
         "consecutive_successful_landings": 0,
@@ -32080,8 +32088,8 @@
           "info_url": "https://www.arianespace.com/wp-content/uploads/2017/02/Ariane6_Users-Manual_February2017.pdf",
           "wiki_url": "https://en.wikipedia.org/wiki/Ariane_6",
           "total_launch_count": 2,
-          "consecutive_successful_launches": 1,
-          "successful_launches": 1,
+          "consecutive_successful_launches": 2,
+          "successful_launches": 2,
           "failed_launches": 0,
           "pending_launches": 14,
           "attempted_landings": 0,
