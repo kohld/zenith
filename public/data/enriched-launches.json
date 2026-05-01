@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T12:51:14.002Z",
+  "generated_at": "2026-05-01T01:15:50.079Z",
   "launches": [
     {
       "id": "b3877a27-7332-47cb-ac46-12a32143081b",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-28T13:02:42Z",
+      "last_updated": "2026-04-30T21:30:50Z",
       "updates": [
+        {
+          "id": 14868,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting May 01 at 17:35 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-10-38",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-30T21:30:00Z"
+        },
         {
           "id": 14755,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -25,12 +33,12 @@
           "created_on": "2026-04-19T23:59:00Z"
         }
       ],
-      "net": "2026-05-01T17:33:00Z",
+      "net": "2026-05-01T17:35:20Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-05-01T21:33:00Z",
       "window_start": "2026-05-01T17:33:00Z",
@@ -57,7 +65,7 @@
         "consecutive_successful_launches": 156,
         "successful_launches": 656,
         "failed_launches": 15,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 156,
         "successful_landings": 617,
         "failed_landings": 27,
@@ -97,7 +105,7 @@
             "consecutive_successful_launches": 156,
             "successful_launches": 656,
             "failed_launches": 15,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 156,
             "successful_landings": 617,
             "failed_landings": 27,
@@ -209,7 +217,7 @@
           "consecutive_successful_launches": 279,
           "successful_launches": 576,
           "failed_launches": 1,
-          "pending_launches": 101,
+          "pending_launches": 102,
           "attempted_landings": 568,
           "successful_landings": 563,
           "failed_landings": 5,
@@ -296,7 +304,7 @@
             "consecutive_successful_launches": 156,
             "successful_launches": 656,
             "failed_launches": 15,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 156,
             "successful_landings": 617,
             "failed_landings": 27,
@@ -359,6 +367,46 @@
       ],
       "vidURLs": [
         {
+          "priority": 7,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - Starlink 10-38 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+          "description": "Launch Date:  May 1, 2026\nLaunch Time: 1:33 p.m. EDT, 17:33 UTC, 19:33 CEST\nLaunch Window:  Open until 5:33 p.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: LEO (Low Earth Orbit) \nLaunch Inclination: Northeast\nLaunch Status: Scheduled and announced\n\nMission: Starlink 10-38\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1069 - Turnaround 63 days)\nFlight for the Booster: 31\nPrevious Flights of the Booster: 30 - CRS-24, Eutelsat HOTBIRD 13F, OneWeb 1, SES-18 and SES-19, and 26 Starlink missions\nDroneship: A Shortfall Of Gravitas\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height 13 meters\nStages: 2\n\nSpaceX’s Fa...",
+          "feature_image": "https://i.ytimg.com/vi/j9rwoPkCxpg/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=j9rwoPkCxpg",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-05-01T17:23:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Falcon 9 launches Starlink 10-38",
+          "description": "Launch window: May 1st from 1:33PM to 5:33PM EDT (17:33-21:33 UTC)\nCurrent T0: May 1st at 1:33PM EDT (17:33 UTC)\n\nMission: Falcon 9 launch of 29 Starlink v2 Mini satellites into orbit.\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO); 251x265kkm 53.16º orbit\nBooster: B1069-31; 63d 5h 16min 50s turnaround\nPast customer missions: CRS-24, Hotbird 13F, OneWeb-15, SES-18 & SES-19, \nPast Starlink missions: 4-23, 5-3, 5-6, 5-12, 6-9, 6-19, 6-28, 6-36, 6-39, 6-47, 6-57, 10-1, 10-9, 8-10, 10-8, 6-66, 12-3, 12-21, 6-74, 12-22, 10-23, 10-29, 10-57, 10-51, 6-96, 6-108.\nSatellites launched: 805, will be 834 after this mission.\nBooster recovery: A Shortfall Of Gravitas (ASOG)\nFairing recovery: Bob\nRocket trajectory: No...",
+          "feature_image": "https://i.ytimg.com/vi/F6t613w-Pow/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=F6t613w-Pow",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-05-01T16:33:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -375,7 +423,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-05-01T17:23:00Z",
+          "start_time": "2026-05-01T17:25:00Z",
           "end_time": "2026-05-01T19:23:00Z"
         }
       ],
@@ -391,17 +439,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -615,7 +663,7 @@
       "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 26,
       "agency_launch_attempt_count_year": 53,
-      "pad_turnaround": "P10DT10H39M35S",
+      "pad_turnaround": "P10DT10H41M55S",
       "mission_patches": [
         {
           "id": 7,
@@ -631,7 +679,20 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "b3877a27-7332-47cb-ac46-12a32143081b",
+        "importance_score": 5,
+        "reasoning": "Standard mission for Starlink satellite deployment.",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "05530ccb-7184-41e7-b2e5-c090b61e0e3a",
@@ -697,7 +758,7 @@
         "consecutive_successful_launches": 156,
         "successful_launches": 656,
         "failed_launches": 15,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 156,
         "successful_landings": 617,
         "failed_landings": 27,
@@ -737,7 +798,7 @@
             "consecutive_successful_launches": 156,
             "successful_launches": 656,
             "failed_launches": 15,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 156,
             "successful_landings": 617,
             "failed_landings": 27,
@@ -849,7 +910,7 @@
           "consecutive_successful_launches": 279,
           "successful_launches": 576,
           "failed_launches": 1,
-          "pending_launches": 101,
+          "pending_launches": 102,
           "attempted_landings": 568,
           "successful_landings": 563,
           "failed_landings": 5,
@@ -1280,7 +1341,20 @@
       "pad_turnaround": "P3DT4H16M11S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "05530ccb-7184-41e7-b2e5-c090b61e0e3a",
+        "importance_score": 5,
+        "reasoning": "Standard mission for satellite deployment including CAS500-2.",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "dd82ccd7-9ab2-410a-ac41-306218015c05",
@@ -1338,7 +1412,7 @@
         "consecutive_successful_launches": 156,
         "successful_launches": 656,
         "failed_launches": 15,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 156,
         "successful_landings": 617,
         "failed_landings": 27,
@@ -1378,7 +1452,7 @@
             "consecutive_successful_launches": 156,
             "successful_launches": 656,
             "failed_launches": 15,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 156,
             "successful_landings": 617,
             "failed_landings": 27,
@@ -1490,7 +1564,7 @@
           "consecutive_successful_launches": 279,
           "successful_launches": 576,
           "failed_launches": 1,
-          "pending_launches": 101,
+          "pending_launches": 102,
           "attempted_landings": 568,
           "successful_landings": 563,
           "failed_landings": 5,
@@ -1577,7 +1651,7 @@
             "consecutive_successful_launches": 156,
             "successful_launches": 656,
             "failed_launches": 15,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 156,
             "successful_landings": 617,
             "failed_landings": 27,
@@ -1912,7 +1986,20 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "dd82ccd7-9ab2-410a-ac41-306218015c05",
+        "importance_score": 5,
+        "reasoning": "Standard mission for Starlink satellite deployment.",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "75a35be5-b3bd-4591-b978-9a876da9fa96",
@@ -1970,7 +2057,7 @@
         "consecutive_successful_launches": 156,
         "successful_launches": 656,
         "failed_launches": 15,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 156,
         "successful_landings": 617,
         "failed_landings": 27,
@@ -2010,7 +2097,7 @@
             "consecutive_successful_launches": 156,
             "successful_launches": 656,
             "failed_launches": 15,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 156,
             "successful_landings": 617,
             "failed_landings": 27,
@@ -2122,7 +2209,7 @@
           "consecutive_successful_launches": 279,
           "successful_launches": 576,
           "failed_launches": 1,
-          "pending_launches": 101,
+          "pending_launches": 102,
           "attempted_landings": 568,
           "successful_landings": 563,
           "failed_landings": 5,
@@ -2209,7 +2296,7 @@
             "consecutive_successful_launches": 156,
             "successful_launches": 656,
             "failed_launches": 15,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 156,
             "successful_landings": 617,
             "failed_landings": 27,
@@ -2304,17 +2391,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -2336,17 +2423,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -2544,7 +2631,20 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "75a35be5-b3bd-4591-b978-9a876da9fa96",
+        "importance_score": 5,
+        "reasoning": "Standard mission for Starlink satellite deployment.",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
@@ -2554,13 +2654,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-04-29T00:32:48Z",
+      "last_updated": "2026-04-30T16:25:51Z",
       "updates": [
+        {
+          "id": 14863,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://nasa-public-data.s3.amazonaws.com/iss-coords/current/ISS_OEM/ISS.OEM_J2K_EPH.txt",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-30T16:25:00Z"
+        },
         {
           "id": 14835,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -2586,15 +2694,15 @@
           "created_on": "2025-12-10T18:39:00Z"
         }
       ],
-      "net": "2026-05-12T23:00:00Z",
+      "net": "2026-05-12T23:16:34Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2026-05-12T23:00:00Z",
-      "window_start": "2026-05-12T23:00:00Z",
+      "window_end": "2026-05-12T23:16:34Z",
+      "window_start": "2026-05-12T23:16:34Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -2618,7 +2726,7 @@
         "consecutive_successful_launches": 156,
         "successful_launches": 656,
         "failed_launches": 15,
-        "pending_launches": 119,
+        "pending_launches": 120,
         "consecutive_successful_landings": 156,
         "successful_landings": 617,
         "failed_landings": 27,
@@ -2658,7 +2766,7 @@
             "consecutive_successful_launches": 156,
             "successful_launches": 656,
             "failed_launches": 15,
-            "pending_launches": 119,
+            "pending_launches": 120,
             "consecutive_successful_landings": 156,
             "successful_landings": 617,
             "failed_landings": 27,
@@ -2770,7 +2878,7 @@
           "consecutive_successful_launches": 279,
           "successful_launches": 576,
           "failed_launches": 1,
-          "pending_launches": 101,
+          "pending_launches": 102,
           "attempted_landings": 568,
           "successful_landings": 563,
           "failed_landings": 5,
@@ -3101,10 +3209,23 @@
       "location_launch_attempt_count_year": 31,
       "pad_launch_attempt_count_year": 27,
       "agency_launch_attempt_count_year": 57,
-      "pad_turnaround": "P11DT5H27M",
+      "pad_turnaround": "P11DT5H43M34S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
+        "importance_score": 5,
+        "reasoning": "Standard mission for CRS resupply to the ISS.",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     }
   ]
 }

@@ -1,54 +1,72 @@
 {
-  "generated_at": "2026-04-30T12:51:14.002Z",
+  "generated_at": "2026-05-01T01:15:50.078Z",
   "daily_summary": {
-    "headline": "Routine SpaceX Launches and Low Aurora Activity",
+    "headline": "SpaceX Starlink Launches and Aurora Opportunities",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | Starlink Group 10-38",
-        "description": "Launch of 29 Starlink satellites for internet communication.",
+        "title": "SpaceX Falcon 9 Starlink Group 10-38 Launch",
+        "description": "Launch of Falcon 9 carrying Starlink satellites from Cape Canaveral.",
         "importance": 5,
-        "date": "2026-05-01T17:33:00Z",
+        "date": "2026-05-01T17:35:20Z",
         "type": "launch",
         "action": "Watch live stream"
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 | CAS500-2 & Others",
-        "description": "Ride-share mission with multiple satellites including CAS500-2.",
+        "title": "Aurora Viewing Opportunity",
+        "description": "G1 geomagnetic storm expected, possible aurora visibility at high latitudes.",
+        "importance": 4,
+        "date": "2026-05-01T06:00:00Z",
+        "type": "aurora",
+        "action": "Check skies if at high latitude"
+      },
+      {
+        "rank": 3,
+        "title": "SpaceX Falcon 9 CAS500-2 & Others Launch",
+        "description": "Launch of Falcon 9 carrying multiple satellites including CAS500-2 from Vandenberg.",
         "importance": 5,
         "date": "2026-05-03T06:59:00Z",
         "type": "launch",
         "action": "Watch live stream"
-      },
-      {
-        "rank": 3,
-        "title": "Aurora Forecast",
-        "description": "Low geomagnetic activity, no significant aurora opportunities.",
-        "importance": 1,
-        "date": "2026-04-30",
-        "type": "aurora",
-        "action": "No action needed"
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-05-01T06:00:00",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-01T06:00:00",
+          "end": "2026-05-01T06:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-05-01T06:00:00",
+      "time": "06:00-06:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
