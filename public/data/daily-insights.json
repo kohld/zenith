@@ -1,54 +1,72 @@
 {
-  "generated_at": "2026-05-01T12:38:59.790Z",
+  "generated_at": "2026-05-02T01:06:59.821Z",
   "daily_summary": {
-    "headline": "Routine SpaceX Launches and Low Aurora Activity",
+    "headline": "Starship Test Flight and Aurora Opportunities Highlight the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "SpaceX Falcon 9 Launches Starlink Group 10-38",
-        "description": "A batch of 29 satellites for the Starlink mega-constellation launched from Cape Canaveral.",
+        "title": "Starship Flight 12",
+        "description": "12th test flight of the two-stage Starship launch vehicle. Maiden Flight of Starship V3.",
         "importance": 5,
-        "date": "2026-05-01",
+        "date": "2026-05-12",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Watch the live stream for potential historic milestones."
       },
       {
         "rank": 2,
-        "title": "SpaceX Falcon 9 Launches CAS500-2 & Others",
-        "description": "Ride-share mission with multiple satellites including CAS500-2 and Pelican satellites.",
-        "importance": 5,
+        "title": "Aurora Viewing Opportunity",
+        "description": "Possible aurora at high latitudes with a Kp index of 4.",
+        "importance": 4,
         "date": "2026-05-03",
-        "type": "launch",
-        "action": "Watch live stream"
+        "type": "aurora",
+        "action": "Check conditions for aurora visibility at high latitudes."
       },
       {
         "rank": 3,
-        "title": "SpaceX Falcon 9 Launches Starlink Group 17-29",
-        "description": "A batch of 24 satellites for the Starlink mega-constellation launched from Vandenberg.",
+        "title": "Falcon 9 Block 5 | CAS500-2 & Others",
+        "description": "Ride-share of multiple satellites including CAS500-2 and Pelican satellites.",
         "importance": 5,
-        "date": "2026-05-06",
+        "date": "2026-05-03",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Tune in for the launch to see the deployment of multiple satellites."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-05-03T06:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-03T06:00:00",
+          "end": "2026-05-03T06:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-05-03T06:00:00",
+      "time": "06:00-06:00 UTC",
+      "kp": 4,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 17,
     "processing_time_seconds": 0,
     "iterations": 2
   }
