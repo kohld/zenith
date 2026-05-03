@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T22:16:15.441Z",
+  "updatedAt": "2026-05-03T22:46:27.845Z",
   "launches": [
     {
       "id": "05530ccb-7184-41e7-b2e5-c090b61e0e3a",
@@ -17625,7 +17625,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2026-05-03T21:30:03Z",
+      "last_updated": "2026-05-03T22:16:36Z",
       "updates": [
         {
           "id": 14882,
@@ -17824,7 +17824,20 @@
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 23,
       "pad_turnaround": "P253DT11H30M",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1322,
+          "name": "Chang'e 7 Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/chang2527e252_mission_patch_20260503221633.png",
+          "agency": {
+            "id": 17,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/17/",
+            "name": "China National Space Administration",
+            "type": "Government"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
