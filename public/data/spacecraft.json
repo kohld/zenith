@@ -2,56 +2,83 @@
   {
     "name": "Voyager 1",
     "id": "-31",
-    "distanceKm": 25395177253.80972,
-    "velocityKmS": 2.5209512,
+    "distanceKm": 25395409565.644478,
+    "velocityKmS": 2.8575604,
     "missionType": "Interstellar Probe",
-    "ra": 259.146875,
-    "dec": 12.363194444444444,
-    "date": "2026-05-02T18:46:52.397Z",
-    "status": "AWAITING SIGNAL"
+    "ra": 259.14254166666666,
+    "dec": 12.365583333333333,
+    "date": "2026-05-03T01:16:11.317Z",
+    "dsnSignal": {
+      "id": "-31",
+      "name": "VGR1",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 160,
+      "power": -160,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "Voyager 2",
     "id": "-32",
-    "distanceKm": 21315258110.97223,
-    "velocityKmS": -6.7787829,
+    "distanceKm": 21314678435.779263,
+    "velocityKmS": -6.6393239,
     "missionType": "Interstellar Probe",
-    "ra": 303.82366666666667,
-    "dec": -59.48075,
-    "date": "2026-05-02T18:46:53.131Z",
-    "status": "AWAITING SIGNAL"
+    "ra": 303.82212499999997,
+    "dec": -59.48577777777778,
+    "date": "2026-05-03T01:16:12.008Z",
+    "dsnSignal": {
+      "id": "-32",
+      "name": "VGR2",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 160,
+      "power": -160,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "New Horizons",
     "id": "-98",
-    "distanceKm": 9594702848.937366,
-    "velocityKmS": -13.9722146,
+    "distanceKm": 9593503956.70003,
+    "velocityKmS": -13.7799328,
     "missionType": "Pluto/Kuiper Belt",
-    "ra": 290.54075,
-    "dec": -20.068833333333334,
-    "date": "2026-05-02T18:46:53.863Z",
+    "ra": 290.53525,
+    "dec": -20.069055555555554,
+    "date": "2026-05-03T01:16:12.725Z",
     "status": "AWAITING SIGNAL"
   },
   {
     "name": "James Webb",
     "id": "-170",
-    "distanceKm": 1622094.840966089,
-    "velocityKmS": 0.0931556,
+    "distanceKm": 1629917.1639014587,
+    "velocityKmS": 0.087896,
     "missionType": "Space Telescope",
-    "ra": 248.62495833333332,
-    "dec": -25.29988888888889,
-    "date": "2026-05-02T18:46:54.588Z",
-    "status": "AWAITING SIGNAL"
+    "ra": 249.34237499999998,
+    "dec": -25.754527777777778,
+    "date": "2026-05-03T01:16:13.439Z",
+    "dsnSignal": {
+      "id": "-170",
+      "name": "JWST",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 40000,
+      "power": -120,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "Parker Solar Probe",
     "id": "-96",
-    "distanceKm": 210063810.97152513,
-    "velocityKmS": -10.0712686,
+    "distanceKm": 209170774.1239099,
+    "velocityKmS": -10.597931,
     "missionType": "Heliophysics",
-    "ra": 11.769208333333333,
-    "dec": 3.254638888888889,
-    "date": "2026-05-02T18:46:55.310Z",
+    "ra": 12.627041666666667,
+    "dec": 3.6123055555555554,
+    "date": "2026-05-03T01:16:14.150Z",
     "status": "AWAITING SIGNAL"
   }
 ]
