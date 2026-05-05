@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T01:05:04.178Z",
+  "generated_at": "2026-05-05T12:43:42.847Z",
   "launches": [
     {
       "id": "dd82ccd7-9ab2-410a-ac41-306218015c05",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-03T18:55:54Z",
+      "last_updated": "2026-05-05T04:25:26Z",
       "updates": [
+        {
+          "id": 14889,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting May 06 at 02:35 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-29",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-05T04:25:00Z"
+        },
         {
           "id": 14795,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -25,12 +33,12 @@
           "created_on": "2026-04-23T21:10:00Z"
         }
       ],
-      "net": "2026-05-06T02:00:00Z",
+      "net": "2026-05-06T02:35:30Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-05-06T06:00:00Z",
       "window_start": "2026-05-06T02:00:00Z",
@@ -363,7 +371,7 @@
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
           "title": "GO! - SpaceX - Falcon 9 - Starlink 17-29 - SLC-4E - Vandenberg SFB - Space Affairs Live",
-          "description": "Launch Date: May 5, 2026 (PDT)\nLaunch Time: 7:00 p.m. EDT (May 6, 0200 UTC, 04:00 CEST)\nLaunch Window: Open until 11:00 a.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-29\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1081 - Turnaround time 40 days)\nFlight for the Booster: 24\nPrevious Flights of the Booster: 23 - Crew-7, CRS-29, PACE, Transporter-10, EarthCARE, NROL-186, Transporter-13, TRACERS, NROL-48, COSMO-SkyMed Second Generation FM3, and 13 Starlink missions.\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO...",
+          "description": "Launch Date: May 5, 2026 (PDT)\nLaunch Time: 7:35 p.m. EDT (May 6, 0235 UTC, 04:35 CEST)\nLaunch Window: Open until 11:00 a.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-29\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1081 - Turnaround time 40 days)\nFlight for the Booster: 24\nPrevious Flights of the Booster: 23 - Crew-7, CRS-29, PACE, Transporter-10, EarthCARE, NROL-186, Transporter-13, TRACERS, NROL-48, COSMO-SkyMed Second Generation FM3, and 13 Starlink missions.\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO...",
           "feature_image": "https://i.ytimg.com/vi/yt5DGn7No6U/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=yt5DGn7No6U",
           "type": {
@@ -375,7 +383,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-05-06T01:50:00Z",
+          "start_time": "2026-05-06T02:25:00Z",
           "end_time": null
         },
         {
@@ -635,7 +643,7 @@
       "location_launch_attempt_count_year": 30,
       "pad_launch_attempt_count_year": 28,
       "agency_launch_attempt_count_year": 55,
-      "pad_turnaround": "P2DT19H",
+      "pad_turnaround": "P2DT19H35M30S",
       "mission_patches": [
         {
           "id": 7,
@@ -651,27 +659,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "dd82ccd7-9ab2-410a-ac41-306218015c05",
-        "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
-        "key_facts": [
-          "Falcon 9 Block 5",
-          "Starlink Group 17-29",
-          "Launch from Vandenberg SFB"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "Starlink",
-          "SpaceX"
-        ],
-        "user_recommendation": "Watch live stream for launch and landing."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
@@ -982,11 +970,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7281,
+      "orbital_launch_attempt_count": 7280,
       "location_launch_attempt_count": 60,
       "pad_launch_attempt_count": 29,
       "agency_launch_attempt_count": 588,
-      "orbital_launch_attempt_count_year": 108,
+      "orbital_launch_attempt_count_year": 107,
       "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 18,
@@ -1006,27 +994,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
-        "importance_score": 5,
-        "reasoning": "Cargo resupply mission to the Chinese space station.",
-        "key_facts": [
-          "Long March 7",
-          "Tianzhou-10",
-          "Resupply mission"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "Tiangong",
-          "CASC"
-        ],
-        "user_recommendation": "Follow updates for confirmation and live coverage."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "75a35be5-b3bd-4591-b978-9a876da9fa96",
@@ -1666,27 +1634,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "75a35be5-b3bd-4591-b978-9a876da9fa96",
-        "importance_score": 5,
-        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
-        "key_facts": [
-          "Falcon 9 Block 5",
-          "Starlink Group 17-37",
-          "Launch from Vandenberg SFB"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "Starlink",
-          "SpaceX"
-        ],
-        "user_recommendation": "Watch live stream for launch and landing."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "d50ae620-be2f-4690-9f86-fbc2a194bf29",
@@ -1886,25 +1834,7 @@
       "pad_turnaround": "P33DT16H17M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "d50ae620-be2f-4690-9f86-fbc2a194bf29",
-        "importance_score": 5,
-        "reasoning": "Launch with unknown payload, typical for Chinese missions.",
-        "key_facts": [
-          "Long March 6A",
-          "Unknown Payload"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "CASC"
-        ],
-        "user_recommendation": "Monitor for updates on payload details."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
@@ -1919,7 +1849,7 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2026-05-01T16:48:32Z",
+      "last_updated": "2026-05-05T06:42:27Z",
       "updates": [
         {
           "id": 14870,
@@ -2256,42 +2186,9 @@
       "pad_launch_attempt_count_year": 30,
       "agency_launch_attempt_count_year": 57,
       "pad_turnaround": "P2DT8H15M",
-      "mission_patches": [
-        {
-          "id": 1057,
-          "name": "NROL-146",
-          "priority": 10,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/nrol-146_mission_patch_20241020111152.png",
-          "agency": {
-            "id": 181,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/181/",
-            "name": "National Reconnaissance Office",
-            "type": "Government"
-          }
-        }
-      ],
+      "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
-        "importance_score": 5,
-        "reasoning": "NROL mission, typical classified launch.",
-        "key_facts": [
-          "Falcon 9 Block 5",
-          "NROL-172",
-          "Classified mission"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "NRO",
-          "SpaceX"
-        ],
-        "user_recommendation": "Watch live stream if available."
-      }
+      "ai_enrichment": null
     }
   ]
 }
