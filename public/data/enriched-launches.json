@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T01:10:16.942Z",
+  "generated_at": "2026-05-07T12:57:17.985Z",
   "launches": [
     {
       "id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
@@ -334,7 +334,23 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
+        "importance_score": 5,
+        "reasoning": "Standard resupply mission to the Chinese Space Station.",
+        "key_facts": [
+          "Resupply mission",
+          "Chinese Space Station"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Watch live stream for updates."
+      }
     },
     {
       "id": "75a35be5-b3bd-4591-b978-9a876da9fa96",
@@ -590,7 +606,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 195
+                "successful_landings": 196
               },
               "type": {
                 "id": 1,
@@ -734,17 +750,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -974,7 +990,23 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "75a35be5-b3bd-4591-b978-9a876da9fa96",
+        "importance_score": 5,
+        "reasoning": "Deployment of 24 Starlink satellites for global internet coverage.",
+        "key_facts": [
+          "Starlink deployment",
+          "Global internet"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Follow SpaceX updates."
+      }
     },
     {
       "id": "d50ae620-be2f-4690-9f86-fbc2a194bf29",
@@ -1174,7 +1206,22 @@
       "pad_turnaround": "P33DT16H17M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "d50ae620-be2f-4690-9f86-fbc2a194bf29",
+        "importance_score": 5,
+        "reasoning": "Unknown payload mission with standard significance.",
+        "key_facts": [
+          "Unknown payload"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     },
     {
       "id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
@@ -1709,17 +1756,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -1997,7 +2044,23 @@
       "pad_turnaround": "P11DT5H10M24S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
+        "importance_score": 5,
+        "reasoning": "Routine resupply mission to the ISS.",
+        "key_facts": [
+          "Resupply mission",
+          "ISS"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Watch live stream for updates."
+      }
     },
     {
       "id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
@@ -2261,7 +2324,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 195
+                "successful_landings": 196
               },
               "type": {
                 "id": 1,
@@ -2405,17 +2468,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -2562,7 +2625,22 @@
       "pad_turnaround": "P3DT8H1M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
+        "importance_score": 5,
+        "reasoning": "Government/Top Secret mission with standard significance.",
+        "key_facts": [
+          "Top Secret mission"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
     }
   ]
 }
