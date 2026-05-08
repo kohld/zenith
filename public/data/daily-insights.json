@@ -1,84 +1,54 @@
 {
-  "generated_at": "2026-05-07T12:57:17.985Z",
+  "generated_at": "2026-05-08T01:10:17.535Z",
   "daily_summary": {
-    "headline": "Routine Space Day with Moderate Aurora Chances",
+    "headline": "Routine Launch Day with Minimal Aurora Activity",
     "top_events": [
       {
         "rank": 1,
         "title": "Long March 7 | Tianzhou-10",
-        "description": "Resupply mission to the Chinese Space Station.",
+        "description": "Routine cargo resupply mission to the Chinese Space Station.",
         "importance": 5,
-        "date": "2026-05-09T22:00:00Z",
+        "date": "2026-05-11T00:14:00Z",
         "type": "launch",
         "action": "Watch live stream for updates."
       },
       {
         "rank": 2,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-37",
-        "description": "Deployment of 24 Starlink satellites for global internet coverage.",
+        "title": "Falcon 9 Block 5 | NROL-172",
+        "description": "Launch of reconnaissance satellites for the National Reconnaissance Office.",
         "importance": 5,
-        "date": "2026-05-10T14:00:00Z",
+        "date": "2026-05-11T22:28:00Z",
         "type": "launch",
         "action": "Follow SpaceX updates."
       },
       {
         "rank": 3,
-        "title": "Aurora Viewing Opportunity",
-        "description": "Potential aurora visibility at high latitudes with Kp 4.33.",
-        "importance": 4,
-        "date": "2026-05-07T21:00:00Z",
-        "type": "aurora",
-        "action": "Check skies if at high latitude."
+        "title": "Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
+        "description": "Commercial resupply mission to the International Space Station.",
+        "importance": 5,
+        "date": "2026-05-12T23:16:34Z",
+        "type": "launch",
+        "action": "Tune in for live coverage."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 2
+      "aurora_opportunities": 0
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-05-07T21:00:00",
-        "max_kp": 4.33,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-05-07T21:00:00",
-          "end": "2026-05-07T21:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-05-08T03:00:00",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-05-08T03:00:00",
-          "end": "2026-05-08T03:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-05-07T21:00:00",
-      "time": "21:00-21:00 UTC",
-      "kp": 4.33,
-      "visibility_range": "Above 65° latitude"
-    },
+    "opportunities": [],
+    "best_window": null,
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 17,
     "processing_time_seconds": 0,
     "iterations": 2
   }
