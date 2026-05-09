@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T12:47:35.022Z",
+  "generated_at": "2026-05-09T01:09:11.596Z",
   "launches": [
     {
       "id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
@@ -342,20 +342,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
-        "importance_score": 5,
-        "reasoning": "Routine resupply mission to the Chinese Space Station.",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Watch live stream for updates."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
@@ -771,8 +758,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-05-13T21:49:00Z",
-          "end_time": "2026-05-14T00:49:00Z"
+          "start_time": "2026-05-11T22:16:00Z",
+          "end_time": "2026-05-12T00:17:00Z"
         }
       ],
       "webcast_live": false,
@@ -944,20 +931,7 @@
       "pad_turnaround": "P5DT18H28M41S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
-        "importance_score": 5,
-        "reasoning": "Launch of reconnaissance satellites for the National Reconnaissance Office.",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Watch live stream for updates."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "d50ae620-be2f-4690-9f86-fbc2a194bf29",
@@ -1157,20 +1131,7 @@
       "pad_turnaround": "P33DT16H17M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "d50ae620-be2f-4690-9f86-fbc2a194bf29",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
+      "ai_enrichment": null
     },
     {
       "id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
@@ -1185,8 +1146,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-06T18:42:23Z",
+      "last_updated": "2026-05-08T18:58:05Z",
       "updates": [
+        {
+          "id": 14919,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://nasa-public-data.s3.amazonaws.com/iss-coords/current/ISS_OEM/ISS.OEM_J2K_EPH.txt",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-08T18:58:00Z"
+        },
         {
           "id": 14863,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1220,15 +1189,15 @@
           "created_on": "2025-12-10T18:39:00Z"
         }
       ],
-      "net": "2026-05-12T23:16:34Z",
+      "net": "2026-05-12T23:16:36Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2026-05-12T23:16:34Z",
-      "window_start": "2026-05-12T23:16:34Z",
+      "window_end": "2026-05-12T23:16:36Z",
+      "window_start": "2026-05-12T23:16:36Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1705,17 +1674,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -1990,23 +1959,10 @@
       "location_launch_attempt_count_year": 31,
       "pad_launch_attempt_count_year": 27,
       "agency_launch_attempt_count_year": 57,
-      "pad_turnaround": "P11DT5H10M24S",
+      "pad_turnaround": "P11DT5H10M26S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
+      "ai_enrichment": null
     },
     {
       "id": "4aa02420-1bcb-4dd9-afa8-06d5ff89d248",
@@ -2222,20 +2178,7 @@
       "pad_turnaround": "P271DT1H43M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "4aa02420-1bcb-4dd9-afa8-06d5ff89d248",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
+      "ai_enrichment": null
     }
   ]
 }
