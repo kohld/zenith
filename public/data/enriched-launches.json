@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T01:16:32.605Z",
+  "generated_at": "2026-05-10T12:36:19.427Z",
   "launches": [
     {
       "id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
@@ -345,16 +345,22 @@
       "ai_enrichment": {
         "launch_id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
         "importance_score": 5,
-        "reasoning": "Routine resupply mission to the Chinese Space Station.",
-        "key_facts": [],
+        "reasoning": "Routine cargo resupply mission to the Chinese space station.",
+        "key_facts": [
+          "Launch vehicle: Long March 7",
+          "Mission: Tianzhou-10 resupply"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Watch live stream"
+        "tags": [
+          "resupply",
+          "Tiangong"
+        ],
+        "user_recommendation": "Standard mission"
       }
     },
     {
@@ -947,16 +953,22 @@
       "ai_enrichment": {
         "launch_id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
         "importance_score": 5,
-        "reasoning": "Launch of reconnaissance satellites for the National Reconnaissance Office.",
-        "key_facts": [],
+        "reasoning": "Government reconnaissance mission, typical for NRO.",
+        "key_facts": [
+          "Launch vehicle: Falcon 9 Block 5",
+          "Mission: NROL-172"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Watch live stream"
+        "tags": [
+          "NRO",
+          "reconnaissance"
+        ],
+        "user_recommendation": "Standard mission"
       }
     },
     {
@@ -1160,15 +1172,20 @@
       "ai_enrichment": {
         "launch_id": "d50ae620-be2f-4690-9f86-fbc2a194bf29",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Unknown payload, typical launch activity.",
+        "key_facts": [
+          "Launch vehicle: Long March 6A",
+          "Payload: Unknown"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "unknown payload"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -2004,16 +2021,22 @@
       "ai_enrichment": {
         "launch_id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
         "importance_score": 5,
-        "reasoning": "Resupply mission to the International Space Station.",
-        "key_facts": [],
+        "reasoning": "Routine resupply mission to the ISS.",
+        "key_facts": [
+          "Launch vehicle: Falcon 9 Block 5",
+          "Mission: Dragon CRS-2 SpX-34"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Watch live stream"
+        "tags": [
+          "ISS",
+          "resupply"
+        ],
+        "user_recommendation": "Standard mission"
       }
     },
     {
@@ -2233,15 +2256,20 @@
       "ai_enrichment": {
         "launch_id": "4aa02420-1bcb-4dd9-afa8-06d5ff89d248",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Unknown payload, typical launch activity.",
+        "key_facts": [
+          "Launch vehicle: Zhuque-2E",
+          "Payload: Unknown"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "unknown payload"
+        ],
         "user_recommendation": "Standard mission"
       }
     }
