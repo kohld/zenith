@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11T04:50:38.651Z",
+  "updatedAt": "2026-05-11T06:18:13.107Z",
   "launches": [
     {
       "id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
@@ -200,8 +200,8 @@
             "serial_number": "10",
             "is_placeholder": false,
             "in_space": true,
-            "time_in_space": "PT1H41M34S",
-            "time_docked": "P0D",
+            "time_in_space": "PT5H7M40S",
+            "time_docked": "PT11M12S",
             "flights_count": 1,
             "mission_ends_count": 0,
             "status": {
@@ -273,7 +273,35 @@
               "description": "Spacecraft burned up in the atmosphere"
             }
           },
-          "docking_events": []
+          "docking_events": [
+            {
+              "id": 639,
+              "spacestation": {
+                "id": 18,
+                "url": "https://ll.thespacedevs.com/2.2.0/spacestation/18/",
+                "name": "Tiangong space station",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "founded": "2021-04-29",
+                "description": "The Tiangong space station is a space station placed in Low Earth orbit between 340 and 450 km above the surface. It will be roughly one-fifth the mass of the International Space Station and about the size of the Mir space station.",
+                "orbit": "Low Earth Orbit",
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tiangong_space__image_20231031004146.png"
+              },
+              "docking": "2026-05-11T05:11:00Z",
+              "departure": null,
+              "docking_location": {
+                "id": 32,
+                "name": "Tianhe aft",
+                "spacestation": {
+                  "id": 18,
+                  "url": "https://ll.thespacedevs.com/2.2.0/spacestation/18/",
+                  "name": "Tiangong space station"
+                }
+              }
+            }
+          ]
         }
       },
       "mission": {
