@@ -1,54 +1,84 @@
 {
-  "generated_at": "2026-05-11T01:16:05.928Z",
+  "generated_at": "2026-05-11T13:19:46.219Z",
   "daily_summary": {
-    "headline": "Routine Launches and Low Aurora Activity",
+    "headline": "Exciting Space Launches and Aurora Opportunities Await!",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | NROL-172",
-        "description": "A Falcon 9 Block 5 rocket is set to launch the NROL-172 mission for the National Reconnaissance Office.",
+        "description": "A SpaceX Falcon 9 Block 5 rocket is set to launch the NROL-172 mission for the National Reconnaissance Office.",
         "importance": 5,
-        "date": "2026-05-11",
+        "date": "2026-05-12T02:13:50Z",
         "type": "launch",
-        "action": "Watch live stream for updates"
+        "action": "Watch the live stream for a glimpse of this important reconnaissance mission."
       },
       {
         "rank": 2,
-        "title": "Long March 6A | Unknown Payload",
-        "description": "China's Long March 6A rocket will launch with an undisclosed payload.",
+        "title": "Dragon CRS-2 SpX-34",
+        "description": "SpaceX's Dragon CRS-2 mission will deliver supplies to the International Space Station.",
         "importance": 5,
-        "date": "2026-05-12",
+        "date": "2026-05-12T23:16:36Z",
         "type": "launch",
-        "action": "Monitor for mission details"
+        "action": "Follow the mission updates and watch the live stream."
       },
       {
         "rank": 3,
-        "title": "Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
-        "description": "SpaceX will launch a Dragon spacecraft on a resupply mission to the ISS.",
+        "title": "Aurora Viewing Opportunity",
+        "description": "A moderate aurora is predicted with a Kp index of 4.33, visible at high latitudes.",
         "importance": 5,
-        "date": "2026-05-12",
-        "type": "launch",
-        "action": "Follow live coverage"
+        "date": "2026-05-13T00:00:00Z",
+        "type": "aurora",
+        "action": "Check the skies if you're in northern latitudes above 65°."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 2
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-05-13T00:00:00",
+        "max_kp": 4.33,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-13T00:00:00",
+          "end": "2026-05-13T00:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-05-12T21:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-12T21:00:00",
+          "end": "2026-05-12T21:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-05-13T00:00:00",
+      "time": "00:00-00:00 UTC",
+      "kp": 4.33,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
