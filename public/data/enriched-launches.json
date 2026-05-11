@@ -1,368 +1,6 @@
 {
-  "generated_at": "2026-05-10T12:36:19.427Z",
+  "generated_at": "2026-05-11T01:16:05.928Z",
   "launches": [
-    {
-      "id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/a5872822-76df-404b-93d0-9ecd7ba80a70/",
-      "slug": "long-march-7-tianzhou-10",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Long March 7 | Tianzhou-10",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-05-07T14:15:05Z",
-      "updates": [
-        {
-          "id": 14906,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET May 11 per new NOTAMs.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2786613#msg2786613",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-05-07T14:15:00Z"
-        },
-        {
-          "id": 14883,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET May 10 LT per NOTAMs, TBC.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2784161#msg2784161",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-05-03T23:09:00Z"
-        },
-        {
-          "id": 14810,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch.",
-          "info_url": "https://www.weibo.com/2196038737/QzFDXmPnh",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-25T23:02:00Z"
-        }
-      ],
-      "net": "2026-05-11T00:14:00Z",
-      "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
-      },
-      "window_end": "2026-05-11T00:29:00Z",
-      "window_start": "2026-05-11T00:05:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 88,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-        "name": "China Aerospace Science and Technology Corporation",
-        "featured": true,
-        "type": "Government",
-        "country_code": "CHN",
-        "abbrev": "CASC",
-        "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-        "administrator": "Chairman & President: Lei Fanpei",
-        "founding_year": "1999",
-        "launchers": "Long March",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 587,
-        "consecutive_successful_launches": 13,
-        "successful_launches": 572,
-        "failed_launches": 15,
-        "pending_launches": 11,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 1,
-        "attempted_landings": 1,
-        "info_url": "https://english.spacechina.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
-      },
-      "rocket": {
-        "id": 9012,
-        "configuration": {
-          "id": 100,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/100/",
-          "name": "Long March 7",
-          "active": true,
-          "reusable": false,
-          "description": "The Long March 7 is a Chinese liquid-fuelled launch vehicle of the Long March family, developed by the China Aerospace Science and Technology Corporation (CAST). It made its inaugural flight on 25 June 2016 and is used to launch Tianzhou resupply spacecraft to the Chinese Space Station.",
-          "family": "Long March",
-          "full_name": "Long March 7",
-          "manufacturer": {
-            "id": 88,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-            "name": "China Aerospace Science and Technology Corporation",
-            "featured": true,
-            "type": "Government",
-            "country_code": "CHN",
-            "abbrev": "CASC",
-            "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-            "administrator": "Chairman & President: Lei Fanpei",
-            "founding_year": "1999",
-            "launchers": "Long March",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 587,
-            "consecutive_successful_launches": 13,
-            "successful_launches": 572,
-            "failed_launches": 15,
-            "pending_launches": 11,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 1,
-            "attempted_landings": 1,
-            "info_url": "https://english.spacechina.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
-          },
-          "program": [],
-          "variant": "",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 2,
-          "length": 53.1,
-          "diameter": 3.35,
-          "maiden_flight": "2016-06-25",
-          "launch_cost": null,
-          "launch_mass": null,
-          "leo_capacity": 13500,
-          "gto_capacity": 5500,
-          "to_thrust": 7128,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_7_image_20210513083007.jpeg",
-          "info_url": null,
-          "wiki_url": "https://en.wikipedia.org/wiki/Long_March_7",
-          "total_launch_count": 9,
-          "consecutive_successful_launches": 9,
-          "successful_launches": 9,
-          "failed_launches": 0,
-          "pending_launches": 1,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": {
-          "id": 908,
-          "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/908/",
-          "mission_end": null,
-          "destination": "Tiangong Space Station",
-          "launch_crew": [],
-          "onboard_crew": [],
-          "landing_crew": [],
-          "spacecraft": {
-            "id": 627,
-            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/627/",
-            "name": "Tianzhou-10",
-            "serial_number": "10",
-            "is_placeholder": false,
-            "in_space": false,
-            "time_in_space": "P0D",
-            "time_docked": "P0D",
-            "flights_count": 0,
-            "mission_ends_count": 0,
-            "status": {
-              "id": 4,
-              "name": "Single Use"
-            },
-            "description": "Tenth operational Tianzhou spacecraft.",
-            "spacecraft_config": {
-              "id": 25,
-              "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/25/",
-              "name": "Tianzhou",
-              "type": {
-                "id": 4,
-                "name": "Cargo Resupply"
-              },
-              "agency": {
-                "id": 88,
-                "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-                "name": "China Aerospace Science and Technology Corporation",
-                "featured": true,
-                "type": "Government",
-                "country_code": "CHN",
-                "abbrev": "CASC",
-                "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-                "administrator": "Chairman & President: Lei Fanpei",
-                "founding_year": "1999",
-                "launchers": "Long March",
-                "spacecraft": "",
-                "parent": null,
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png"
-              },
-              "in_use": true,
-              "capability": "Cargo Earth Orbit Logistics",
-              "history": "The Tianzhou is a Chinese automated cargo spacecraft that was first launched on April 20, 2017 to resupply Tiangong-1. It demonstrated autonomous propellant transfer in orbit.",
-              "details": "Autonomous cargo spacecraft used to resupply the Chinese Space Station.",
-              "maiden_flight": "2017-04-20",
-              "height": 9,
-              "diameter": 3.35,
-              "human_rated": false,
-              "crew_capacity": null,
-              "payload_capacity": 6700,
-              "payload_return_capacity": null,
-              "flight_life": "180 days in orbit",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/tianzhou_image_20210513100807.jpg",
-              "nation_url": null,
-              "wiki_link": "https://en.wikipedia.org/wiki/Tianzhou_(spacecraft)",
-              "info_link": ""
-            }
-          },
-          "landing": {
-            "id": 1850,
-            "attempt": false,
-            "success": null,
-            "description": "The Tianzhou-10 spacecraft will burn up upon entering Earth's atmosphere.",
-            "downrange_distance": null,
-            "location": {
-              "id": 12,
-              "name": "Unknown",
-              "abbrev": "N/A",
-              "description": null,
-              "location": null,
-              "successful_landings": 0
-            },
-            "type": {
-              "id": 7,
-              "name": "Destructive Reentry",
-              "abbrev": "ATM",
-              "description": "Spacecraft burned up in the atmosphere"
-            }
-          },
-          "docking_events": []
-        }
-      },
-      "mission": {
-        "id": 7607,
-        "name": "Tianzhou-10",
-        "description": "Ninth cargo delivery mission to the Chinese space station.",
-        "launch_designator": null,
-        "type": "Resupply",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 176,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/176/",
-        "agency_id": null,
-        "name": "201",
-        "description": "",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
-        "map_url": "https://www.google.com/maps?q=19.618452,110.955356",
-        "latitude": "19.618452",
-        "longitude": "110.955356",
-        "location": {
-          "id": 8,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
-          "name": "Wenchang Space Launch Site, People's Republic of China",
-          "country_code": "CHN",
-          "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19° north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
-          "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 59,
-          "total_landing_count": 0
-        },
-        "country_code": "CHN",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_176_20200803143412.jpg",
-        "total_launch_count": 28,
-        "orbital_launch_attempt_count": 28
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_7_image_20210513083007.jpeg",
-      "infographic": null,
-      "program": [
-        {
-          "id": 19,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/19/",
-          "name": "Tiangong space station",
-          "description": "The Tiangong space station is a space station placed in Low Earth orbit between 340 and 450 km above the surface.",
-          "agencies": [
-            {
-              "id": 88,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-              "name": "China Aerospace Science and Technology Corporation",
-              "type": "Government"
-            }
-          ],
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/chinese2520spa_program_20210608105528.png",
-          "start_date": "2021-04-29T03:23:00Z",
-          "end_date": null,
-          "info_url": null,
-          "wiki_url": "https://en.wikipedia.org/wiki/Tiangong_space_station",
-          "mission_patches": [],
-          "type": {
-            "id": 2,
-            "name": "Human Spaceflight"
-          }
-        }
-      ],
-      "orbital_launch_attempt_count": 7280,
-      "location_launch_attempt_count": 60,
-      "pad_launch_attempt_count": 29,
-      "agency_launch_attempt_count": 588,
-      "orbital_launch_attempt_count_year": 107,
-      "location_launch_attempt_count_year": 5,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 18,
-      "pad_turnaround": "P131DT1H34M",
-      "mission_patches": [
-        {
-          "id": 1319,
-          "name": "Tianzhou-10 Patch",
-          "priority": 10,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/tianzhou-10252_mission_patch_20260425231523.png",
-          "agency": {
-            "id": 17,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/17/",
-            "name": "China National Space Administration",
-            "type": "Government"
-          }
-        }
-      ],
-      "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "a5872822-76df-404b-93d0-9ecd7ba80a70",
-        "importance_score": 5,
-        "reasoning": "Routine cargo resupply mission to the Chinese space station.",
-        "key_facts": [
-          "Launch vehicle: Long March 7",
-          "Mission: Tianzhou-10 resupply"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "resupply",
-          "Tiangong"
-        ],
-        "user_recommendation": "Standard mission"
-      }
-    },
     {
       "id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2/",
@@ -953,21 +591,15 @@
       "ai_enrichment": {
         "launch_id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
         "importance_score": 5,
-        "reasoning": "Government reconnaissance mission, typical for NRO.",
-        "key_facts": [
-          "Launch vehicle: Falcon 9 Block 5",
-          "Mission: NROL-172"
-        ],
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "NRO",
-          "reconnaissance"
-        ],
+        "tags": [],
         "user_recommendation": "Standard mission"
       }
     },
@@ -1027,7 +659,7 @@
         "consecutive_successful_launches": 13,
         "successful_launches": 572,
         "failed_launches": 15,
-        "pending_launches": 11,
+        "pending_launches": 12,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 1,
@@ -1067,7 +699,7 @@
             "consecutive_successful_launches": 13,
             "successful_launches": 572,
             "failed_launches": 15,
-            "pending_launches": 11,
+            "pending_launches": 12,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 1,
@@ -1172,20 +804,15 @@
       "ai_enrichment": {
         "launch_id": "d50ae620-be2f-4690-9f86-fbc2a194bf29",
         "importance_score": 5,
-        "reasoning": "Unknown payload, typical launch activity.",
-        "key_facts": [
-          "Launch vehicle: Long March 6A",
-          "Payload: Unknown"
-        ],
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "unknown payload"
-        ],
+        "tags": [],
         "user_recommendation": "Standard mission"
       }
     },
@@ -2021,21 +1648,15 @@
       "ai_enrichment": {
         "launch_id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
         "importance_score": 5,
-        "reasoning": "Routine resupply mission to the ISS.",
-        "key_facts": [
-          "Launch vehicle: Falcon 9 Block 5",
-          "Mission: Dragon CRS-2 SpX-34"
-        ],
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "ISS",
-          "resupply"
-        ],
+        "tags": [],
         "user_recommendation": "Standard mission"
       }
     },
@@ -2256,20 +1877,228 @@
       "ai_enrichment": {
         "launch_id": "4aa02420-1bcb-4dd9-afa8-06d5ff89d248",
         "importance_score": 5,
-        "reasoning": "Unknown payload, typical launch activity.",
-        "key_facts": [
-          "Launch vehicle: Zhuque-2E",
-          "Payload: Unknown"
-        ],
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [
-          "unknown payload"
-        ],
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
+    },
+    {
+      "id": "4d70f2c0-953e-4fbc-b579-3c901c06a158",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/4d70f2c0-953e-4fbc-b579-3c901c06a158/",
+      "slug": "kinetica-1-unknown-payload",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Kinetica 1 | Unknown Payload",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-05-09T08:02:30Z",
+      "updates": [
+        {
+          "id": 14923,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch per NOTAMs; Payload and launch vehicle identities uncertain.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2787188#msg2787188",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-09T08:02:00Z"
+        }
+      ],
+      "net": "2026-05-15T04:30:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "window_end": "2026-05-15T04:50:00Z",
+      "window_start": "2026-05-15T04:24:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 1040,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1040/",
+        "name": "CAS Space",
+        "featured": false,
+        "type": "Commercial",
+        "country_code": "CHN",
+        "abbrev": "CAS",
+        "description": "CAS Space is a spin-off company from the Chinese Academy of Sciences (CAS) that is operating and plans to operate various launch vehicles of the Zhongke series.",
+        "administrator": null,
+        "founding_year": "2018",
+        "launchers": "Zhongke",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 13,
+        "consecutive_successful_launches": 7,
+        "successful_launches": 12,
+        "failed_launches": 1,
+        "pending_launches": 1,
+        "consecutive_successful_landings": 0,
+        "successful_landings": 0,
+        "failed_landings": 0,
+        "attempted_landings": 0,
+        "info_url": "https://cas-space.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/CAS_Space",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cas2520space_logo_20220727081352.png",
+        "image_url": null,
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cas2520space_nation_20230604193435.png"
+      },
+      "rocket": {
+        "id": 9019,
+        "configuration": {
+          "id": 483,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/483/",
+          "name": "Kinetica 1",
+          "active": true,
+          "reusable": false,
+          "description": "Kinetica 1 (also known as Lijian-1, Chinese: 力箭一号) is a Chinese solid-propellant light launch vehicle. It is capable of placing about 2 tons into low earth orbit and 1.5 tons into sun-synchronous orbit. It is developed by CAS Space, a subsidiary of the Chinese Academy of Sciences. Kinetica 1 is a light launcher whose first stage seems to be derived from the DF-31 long-range intercontinental ballistic missile. It is 30 m high and has a diameter of 2.65 m, with a liftoff mass of 135 t. It's the largest Chinese solid propellant launcher to date, with four stages with a thrust of 200, 100, 50 and 10 tons respectively. The fairing has a diameter of 3.35 meters.",
+          "family": "",
+          "full_name": "Kinetica 1",
+          "manufacturer": {
+            "id": 1040,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1040/",
+            "name": "CAS Space",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "CHN",
+            "abbrev": "CAS",
+            "description": "CAS Space is a spin-off company from the Chinese Academy of Sciences (CAS) that is operating and plans to operate various launch vehicles of the Zhongke series.",
+            "administrator": null,
+            "founding_year": "2018",
+            "launchers": "Zhongke",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 13,
+            "consecutive_successful_launches": 7,
+            "successful_launches": 12,
+            "failed_launches": 1,
+            "pending_launches": 1,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://cas-space.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/CAS_Space",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cas2520space_logo_20220727081352.png",
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cas2520space_nation_20230604193435.png"
+          },
+          "program": [],
+          "variant": "",
+          "alias": "",
+          "min_stage": 4,
+          "max_stage": 4,
+          "length": 30,
+          "diameter": 2.65,
+          "maiden_flight": "2022-07-27",
+          "launch_cost": null,
+          "launch_mass": 135,
+          "leo_capacity": 2000,
+          "gto_capacity": null,
+          "to_thrust": 1961,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+          "info_url": "https://en.cas-space.com/index/index/technology",
+          "wiki_url": null,
+          "total_launch_count": 12,
+          "consecutive_successful_launches": 6,
+          "successful_launches": 11,
+          "failed_launches": 1,
+          "pending_launches": 1,
+          "attempted_landings": 0,
+          "successful_landings": 0,
+          "failed_landings": 0,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7614,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 151,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/151/",
+        "agency_id": null,
+        "name": "Launch Area 130",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.8182,100.22514",
+        "latitude": "40.8182",
+        "longitude": "100.22514",
+        "location": {
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+          "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+          "country_code": "CHN",
+          "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 283,
+          "total_landing_count": 2
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_151_20200803143425.jpg",
+        "total_launch_count": 12,
+        "orbital_launch_attempt_count": 12
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7285,
+      "location_launch_attempt_count": 285,
+      "pad_launch_attempt_count": 13,
+      "agency_launch_attempt_count": 14,
+      "orbital_launch_attempt_count_year": 112,
+      "location_launch_attempt_count_year": 12,
+      "pad_launch_attempt_count_year": 2,
+      "agency_launch_attempt_count_year": 3,
+      "pad_turnaround": "P31DT27M",
+      "mission_patches": [],
+      "type": "detailed",
+      "ai_enrichment": {
+        "launch_id": "4d70f2c0-953e-4fbc-b579-3c901c06a158",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
         "user_recommendation": "Standard mission"
       }
     }
