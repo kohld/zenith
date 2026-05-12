@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T18:12:58.748Z",
+  "updatedAt": "2026-05-12T19:09:50.877Z",
   "launches": [
     {
       "id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
@@ -889,7 +889,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-11T23:49:01Z",
+      "last_updated": "2026-05-12T18:58:19Z",
       "updates": [
         {
           "id": 14935,
@@ -1719,7 +1719,20 @@
       "pad_launch_attempt_count_year": 27,
       "agency_launch_attempt_count_year": 57,
       "pad_turnaround": "P11DT5H10M21S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1323,
+          "name": "SpX-34",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/spx-34_mission_patch_20260512185813.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
