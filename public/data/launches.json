@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T20:08:54.830Z",
+  "updatedAt": "2026-05-12T21:02:03.460Z",
   "launches": [
     {
       "id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
@@ -889,8 +889,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-12T18:58:19Z",
+      "last_updated": "2026-05-12T20:34:19Z",
       "updates": [
+        {
+          "id": 14946,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Confirmed rescheduled to May 13.",
+          "info_url": "https://www.spacex.com/launches/crs-34",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-12T20:34:00Z"
+        },
+        {
+          "id": 14944,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Scrubbed for the day.",
+          "info_url": "https://x.com/spaceflightnow/status/2054294573057462528",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-12T20:21:00Z"
+        },
         {
           "id": 14935,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -948,17 +964,17 @@
           "created_on": "2025-12-10T18:39:00Z"
         }
       ],
-      "net": "2026-05-12T23:16:31Z",
+      "net": "2026-05-13T22:50:00Z",
       "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-05-12T23:16:31Z",
-      "window_start": "2026-05-12T23:16:31Z",
-      "probability": 35,
-      "weather_concerns": "Cumulus Cloud Rule, Anvil Cloud Rules, Surface Electric Fields Rule",
+      "window_end": "2026-05-13T22:50:00Z",
+      "window_start": "2026-05-13T22:50:00Z",
+      "probability": 65,
+      "weather_concerns": "Cumulus Cloud Rule, Anvil Cloud Rules, Flight Through Precipitation",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -1190,7 +1206,7 @@
               }
             },
             "previous_flight_date": "2026-01-28T04:53:16Z",
-            "turn_around_time_days": 104,
+            "turn_around_time_days": 105,
             "previous_flight": {
               "id": "98f70f28-397a-4c0d-aeb2-e7f8a88e0323",
               "name": "Falcon 9 Block 5 | GPS III SV09"
@@ -1397,8 +1413,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-05-12T23:00:00Z",
-          "end_time": "2026-05-13T02:56:00Z"
+          "start_time": "2026-05-13T22:30:00Z",
+          "end_time": "2026-05-14T02:00:00Z"
         },
         {
           "priority": 11,
@@ -1417,8 +1433,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-05-12T23:00:00Z",
-          "end_time": "2026-05-13T01:00:00Z"
+          "start_time": "2026-05-13T22:30:00Z",
+          "end_time": "2026-05-14T01:00:00Z"
         }
       ],
       "webcast_live": false,
@@ -1718,7 +1734,7 @@
       "location_launch_attempt_count_year": 31,
       "pad_launch_attempt_count_year": 27,
       "agency_launch_attempt_count_year": 57,
-      "pad_turnaround": "P11DT5H10M21S",
+      "pad_turnaround": "P12DT4H43M50S",
       "mission_patches": [
         {
           "id": 1323,
@@ -5697,290 +5713,6 @@
       "type": "detailed"
     },
     {
-      "id": "156a9e46-01b5-46f4-818e-ea563c71c5fe",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/156a9e46-01b5-46f4-818e-ea563c71c5fe/",
-      "slug": "electron-viva-la-strix-strix-launch-9",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Electron | Viva La StriX (StriX Launch 9)",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-05-02T18:20:49Z",
-      "updates": [
-        {
-          "id": 14867,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "GO for launch.",
-          "info_url": "https://rocketlabcorp.com/missions/launches/viva-la-strix-2/",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-30T21:28:00Z"
-        },
-        {
-          "id": 14856,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET May 22.",
-          "info_url": "https://x.com/synspective/status/2049745566947848234",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-30T07:42:00Z"
-        },
-        {
-          "id": 14456,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET May.",
-          "info_url": "https://contents.xj-storage.jp/xcontents/AS04951/4d97286f/e868/435a/bcb6/5c12a41a25b0/S100XUO9.pdf",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-03-27T00:28:00Z"
-        },
-        {
-          "id": 7858,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Adding launch TBD 2025-2027",
-          "info_url": "https://www.businesswire.com/news/home/20240617700318/en/Rocket-Lab-Signs-Record-Deal-for-10-Electron-Launches-with-Synspective",
-          "created_by": "Nosu",
-          "created_on": "2024-06-18T07:42:07Z"
-        }
-      ],
-      "net": "2026-05-22T09:30:00Z",
-      "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
-      },
-      "window_end": "2026-05-22T09:30:00Z",
-      "window_start": "2026-05-22T09:30:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 147,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
-        "name": "Rocket Lab",
-        "featured": true,
-        "type": "Commercial",
-        "country_code": "USA",
-        "abbrev": "RL",
-        "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
-        "administrator": "CEO: Peter Beck",
-        "founding_year": "2006",
-        "launchers": "Electron",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 87,
-        "consecutive_successful_launches": 46,
-        "successful_launches": 83,
-        "failed_launches": 4,
-        "pending_launches": 43,
-        "consecutive_successful_landings": 4,
-        "successful_landings": 7,
-        "failed_landings": 2,
-        "attempted_landings": 9,
-        "info_url": "https://rocketlabcorp.com",
-        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
-      },
-      "rocket": {
-        "id": 8265,
-        "configuration": {
-          "id": 26,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
-          "name": "Electron",
-          "active": true,
-          "reusable": false,
-          "description": "Electron is a two-stage orbital expendable launch vehicle (with an optional third stage) developed by the American aerospace company Rocket Lab. Electron is a small-lift launch vehicle designed to launch small satellites and cubesats to sun-synchronous orbit and low earth orbit. The Electron is the first orbital class rocket to use electric-pump-fed engines, powered by the 9 Rutherford engines on the first stage. It is also used as a suborbital testbed (called HASTE) for hypersonics research.",
-          "family": "",
-          "full_name": "Electron",
-          "manufacturer": {
-            "id": 147,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
-            "name": "Rocket Lab",
-            "featured": true,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "RL",
-            "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
-            "administrator": "CEO: Peter Beck",
-            "founding_year": "2006",
-            "launchers": "Electron",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 87,
-            "consecutive_successful_launches": 46,
-            "successful_launches": 83,
-            "failed_launches": 4,
-            "pending_launches": 43,
-            "consecutive_successful_landings": 4,
-            "successful_landings": 7,
-            "failed_landings": 2,
-            "attempted_landings": 9,
-            "info_url": "https://rocketlabcorp.com",
-            "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
-          },
-          "program": [],
-          "variant": "",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 3,
-          "length": 18,
-          "diameter": 1.2,
-          "maiden_flight": "2017-05-25",
-          "launch_cost": "6000000",
-          "launch_mass": 13,
-          "leo_capacity": 300,
-          "gto_capacity": null,
-          "to_thrust": 162,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-          "info_url": "https://www.rocketlabusa.com/electron/",
-          "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 87,
-          "consecutive_successful_launches": 46,
-          "successful_launches": 83,
-          "failed_launches": 4,
-          "pending_launches": 41,
-          "attempted_landings": 9,
-          "successful_landings": 7,
-          "failed_landings": 2,
-          "consecutive_successful_landings": 4
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 6846,
-        "name": "Viva La StriX (StriX Launch 9)",
-        "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
-        "launch_designator": null,
-        "type": "Earth Science",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [
-          {
-            "id": 1071,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1071/",
-            "name": "Synspective",
-            "featured": false,
-            "type": "Private",
-            "country_code": "JPN",
-            "abbrev": "",
-            "description": "Synspective was established with the aim to integrate SAR satellite technology in society through the agility of a start-up company. Synspective derives its name from the company concept of “Synthetic Data for Perspective on Sustainable Development.",
-            "administrator": "CEO: Dr. Motoyuki Arai",
-            "founding_year": "2018",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://synspective.com/",
-            "wiki_url": null,
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/synspective_log_image_20240325082018.png",
-            "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/synspective_nation_20240228091738.jpg"
-          }
-        ],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 210,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/210/",
-        "agency_id": null,
-        "name": "Unknown Pad",
-        "description": null,
-        "info_url": null,
-        "wiki_url": null,
-        "map_url": null,
-        "latitude": "-39.260881",
-        "longitude": "177.865826",
-        "location": {
-          "id": 10,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
-          "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-          "country_code": "NZL",
-          "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
-          "timezone_name": "Pacific/Auckland",
-          "total_launch_count": 75,
-          "total_landing_count": 17
-        },
-        "country_code": "NZL",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_210_20230819165718.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
-      },
-      "infoURLs": [
-        {
-          "priority": 10,
-          "source": "rocketlabcorp.com",
-          "title": "Viva La StriX",
-          "description": "\"Viva La StriX\" is a dedicated Electron launch with a single StriX Earth observation satellite for Synspective, a Japan-based commercial constellation operator.",
-          "feature_image": null,
-          "url": "https://rocketlabcorp.com/missions/launches/viva-la-strix-2/",
-          "type": {
-            "id": 1,
-            "name": "Official Page"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          }
-        }
-      ],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7293,
-      "location_launch_attempt_count": 76,
-      "pad_launch_attempt_count": 1,
-      "agency_launch_attempt_count": 88,
-      "orbital_launch_attempt_count_year": 120,
-      "location_launch_attempt_count_year": 7,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 9,
-      "pad_turnaround": "P0D",
-      "mission_patches": [
-        {
-          "id": 1320,
-          "name": "Viva La Strix Patch",
-          "priority": 10,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/viva2520la252_mission_patch_20260430212754.png",
-          "agency": {
-            "id": 147,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
-            "name": "Rocket Lab",
-            "type": "Commercial"
-          }
-        }
-      ],
-      "type": "detailed"
-    },
-    {
       "id": "ef65c43b-faf9-4adb-9155-289eaabdd097",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/ef65c43b-faf9-4adb-9155-289eaabdd097/",
       "slug": "falcon-9-block-5-starlink-group-10-31",
@@ -5993,8 +5725,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-12T20:04:18Z",
+      "last_updated": "2026-05-12T20:23:08Z",
       "updates": [
+        {
+          "id": 14945,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting May 22 at 09:04 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-10-31",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-12T20:23:00Z"
+        },
         {
           "id": 14892,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -6004,15 +5744,15 @@
           "created_on": "2026-05-05T15:13:00Z"
         }
       ],
-      "net": "2026-05-22T11:00:00Z",
+      "net": "2026-05-22T09:04:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-05-22T15:00:00Z",
-      "window_start": "2026-05-22T11:00:00Z",
+      "window_end": "2026-05-22T13:04:00Z",
+      "window_start": "2026-05-22T09:04:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -6586,15 +6326,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7294,
+      "orbital_launch_attempt_count": 7293,
       "location_launch_attempt_count": 1109,
       "pad_launch_attempt_count": 383,
       "agency_launch_attempt_count": 681,
-      "orbital_launch_attempt_count_year": 121,
+      "orbital_launch_attempt_count_year": 120,
       "location_launch_attempt_count_year": 33,
       "pad_launch_attempt_count_year": 29,
       "agency_launch_attempt_count_year": 62,
-      "pad_turnaround": "P4DT22H10M",
+      "pad_turnaround": "P4DT20H14M",
       "mission_patches": [
         {
           "id": 7,
@@ -6605,6 +6345,290 @@
             "id": 121,
             "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
             "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
+      "type": "detailed"
+    },
+    {
+      "id": "156a9e46-01b5-46f4-818e-ea563c71c5fe",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/156a9e46-01b5-46f4-818e-ea563c71c5fe/",
+      "slug": "electron-viva-la-strix-strix-launch-9",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Electron | Viva La StriX (StriX Launch 9)",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-05-02T18:20:49Z",
+      "updates": [
+        {
+          "id": 14867,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://rocketlabcorp.com/missions/launches/viva-la-strix-2/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-30T21:28:00Z"
+        },
+        {
+          "id": 14856,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET May 22.",
+          "info_url": "https://x.com/synspective/status/2049745566947848234",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-30T07:42:00Z"
+        },
+        {
+          "id": 14456,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET May.",
+          "info_url": "https://contents.xj-storage.jp/xcontents/AS04951/4d97286f/e868/435a/bcb6/5c12a41a25b0/S100XUO9.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-03-27T00:28:00Z"
+        },
+        {
+          "id": 7858,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Adding launch TBD 2025-2027",
+          "info_url": "https://www.businesswire.com/news/home/20240617700318/en/Rocket-Lab-Signs-Record-Deal-for-10-Electron-Launches-with-Synspective",
+          "created_by": "Nosu",
+          "created_on": "2024-06-18T07:42:07Z"
+        }
+      ],
+      "net": "2026-05-22T09:30:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "window_end": "2026-05-22T09:30:00Z",
+      "window_start": "2026-05-22T09:30:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 147,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+        "name": "Rocket Lab",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "RL",
+        "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
+        "administrator": "CEO: Peter Beck",
+        "founding_year": "2006",
+        "launchers": "Electron",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 87,
+        "consecutive_successful_launches": 46,
+        "successful_launches": 83,
+        "failed_launches": 4,
+        "pending_launches": 43,
+        "consecutive_successful_landings": 4,
+        "successful_landings": 7,
+        "failed_landings": 2,
+        "attempted_landings": 9,
+        "info_url": "https://rocketlabcorp.com",
+        "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
+      },
+      "rocket": {
+        "id": 8265,
+        "configuration": {
+          "id": 26,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/26/",
+          "name": "Electron",
+          "active": true,
+          "reusable": false,
+          "description": "Electron is a two-stage orbital expendable launch vehicle (with an optional third stage) developed by the American aerospace company Rocket Lab. Electron is a small-lift launch vehicle designed to launch small satellites and cubesats to sun-synchronous orbit and low earth orbit. The Electron is the first orbital class rocket to use electric-pump-fed engines, powered by the 9 Rutherford engines on the first stage. It is also used as a suborbital testbed (called HASTE) for hypersonics research.",
+          "family": "",
+          "full_name": "Electron",
+          "manufacturer": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+            "name": "Rocket Lab",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "RL",
+            "description": "Rocket Lab is an American aerospace manufacturer with a wholly owned New Zealand subsidiary. The company develops lightweight, cost-effective commercial rocket launch services. The Electron Program was founded on the premise that small payloads such as CubeSats require dedicated small launch vehicles and flexibility not currently offered by traditional rocket systems. Its rocket, the Electron, is a light-weight rocket and is now operating commercially. The company is also producing a variety of spacecrafts and spacecrafts components.",
+            "administrator": "CEO: Peter Beck",
+            "founding_year": "2006",
+            "launchers": "Electron",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 87,
+            "consecutive_successful_launches": 46,
+            "successful_launches": 83,
+            "failed_launches": 4,
+            "pending_launches": 43,
+            "consecutive_successful_landings": 4,
+            "successful_landings": 7,
+            "failed_landings": 2,
+            "attempted_landings": 9,
+            "info_url": "https://rocketlabcorp.com",
+            "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_logo_20220218075411.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_image_20190207032456.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/rocket2520lab2520ltd_nation_20230531050352.jpg"
+          },
+          "program": [],
+          "variant": "",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 3,
+          "length": 18,
+          "diameter": 1.2,
+          "maiden_flight": "2017-05-25",
+          "launch_cost": "6000000",
+          "launch_mass": 13,
+          "leo_capacity": 300,
+          "gto_capacity": null,
+          "to_thrust": 162,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+          "info_url": "https://www.rocketlabusa.com/electron/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
+          "total_launch_count": 87,
+          "consecutive_successful_launches": 46,
+          "successful_launches": 83,
+          "failed_launches": 4,
+          "pending_launches": 41,
+          "attempted_landings": 9,
+          "successful_landings": 7,
+          "failed_landings": 2,
+          "consecutive_successful_landings": 4
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 6846,
+        "name": "Viva La StriX (StriX Launch 9)",
+        "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
+        "launch_designator": null,
+        "type": "Earth Science",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 1071,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1071/",
+            "name": "Synspective",
+            "featured": false,
+            "type": "Private",
+            "country_code": "JPN",
+            "abbrev": "",
+            "description": "Synspective was established with the aim to integrate SAR satellite technology in society through the agility of a start-up company. Synspective derives its name from the company concept of “Synthetic Data for Perspective on Sustainable Development.",
+            "administrator": "CEO: Dr. Motoyuki Arai",
+            "founding_year": "2018",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://synspective.com/",
+            "wiki_url": null,
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/synspective_log_image_20240325082018.png",
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/synspective_nation_20240228091738.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 210,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/210/",
+        "agency_id": null,
+        "name": "Unknown Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": null,
+        "map_url": null,
+        "latitude": "-39.260881",
+        "longitude": "177.865826",
+        "location": {
+          "id": 10,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/10/",
+          "name": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+          "country_code": "NZL",
+          "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
+          "timezone_name": "Pacific/Auckland",
+          "total_launch_count": 75,
+          "total_landing_count": 17
+        },
+        "country_code": "NZL",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_210_20230819165718.jpg",
+        "total_launch_count": 0,
+        "orbital_launch_attempt_count": 0
+      },
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "rocketlabcorp.com",
+          "title": "Viva La StriX",
+          "description": "\"Viva La StriX\" is a dedicated Electron launch with a single StriX Earth observation satellite for Synspective, a Japan-based commercial constellation operator.",
+          "feature_image": null,
+          "url": "https://rocketlabcorp.com/missions/launches/viva-la-strix-2/",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7293,
+      "location_launch_attempt_count": 76,
+      "pad_launch_attempt_count": 1,
+      "agency_launch_attempt_count": 88,
+      "orbital_launch_attempt_count_year": 120,
+      "location_launch_attempt_count_year": 7,
+      "pad_launch_attempt_count_year": 1,
+      "agency_launch_attempt_count_year": 9,
+      "pad_turnaround": "P0D",
+      "mission_patches": [
+        {
+          "id": 1320,
+          "name": "Viva La Strix Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/viva2520la252_mission_patch_20260430212754.png",
+          "agency": {
+            "id": 147,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/147/",
+            "name": "Rocket Lab",
             "type": "Commercial"
           }
         }
