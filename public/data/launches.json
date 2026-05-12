@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T21:54:42.648Z",
+  "updatedAt": "2026-05-12T22:29:04.801Z",
   "launches": [
     {
       "id": "24f0b5b1-f573-4cc9-8898-1eb7fd5cc0f2",
@@ -889,8 +889,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-12T20:34:19Z",
+      "last_updated": "2026-05-12T22:11:55Z",
       "updates": [
+        {
+          "id": 14950,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 60% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20CRS-34%20L-1%20Day%20Forecast%20-%2013%20May%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-12T22:11:00Z"
+        },
         {
           "id": 14946,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -973,7 +981,7 @@
       },
       "window_end": "2026-05-13T22:50:00Z",
       "window_start": "2026-05-13T22:50:00Z",
-      "probability": 65,
+      "probability": 60,
       "weather_concerns": "Cumulus Cloud Rule, Anvil Cloud Rules, Flight Through Precipitation",
       "holdreason": "",
       "failreason": "",
@@ -1435,6 +1443,46 @@
           },
           "start_time": "2026-05-13T22:30:00Z",
           "end_time": "2026-05-14T01:00:00Z"
+        },
+        {
+          "priority": 12,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches NASA Space Station cargo mission from Cape Canaveral",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket with a Cargo Dragon on a space station resupply mission for NASA. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Wednesday, May 13, at 6:50 p.m. EDT (2250 UTC). The first-stage booster, which is making its sixth flight, will return to land at Cape Canaveral Space Force Station at SpaceX's LZ-40, adjacent to the launch pad, less than eight minutes into flight.\n\nThe mission, designated CRS-34,  will carry cargo to the International Space Station for NASA. The Falcon 9 will head away from Florida's Space Coast on a north-easterly trajectory.\n\nCommentary will be provided by Spaceflight Now's Will Robinson-Smith, starting approximately on hour prior to liftoff.\n\nVideos like this are made p...",
+          "feature_image": "https://i.ytimg.com/vi/2kHxvJ8266I/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=2kHxvJ8266I",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-05-13T21:50:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 13,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Falcon 9 Launches CRS-34 to the ISS",
+          "description": "SpaceX Falcon 9 launches CRS-34 Dragon resupply mission to the ISS.\n\nInstantaneous launch window: May 12th at 7:16:31PM EDT (23:16:31 UTC)\n\nMission: Falcon 9 of the SpaceX CRS-24 mission to the International Space Station\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Low-Earth Orbit (LEO); 51.6º orbital inclination\nBooster: B1096-6; 104d 18h 23min 15s turnaround\nBooster History: LF-01, IMAP, Starlink 6-87, NROL-77, GPS-III SV09. \nBooster Recovery: Landing Zone 40 (LZ-40)\nCapsule: C209-6; 352d 17h 32min 31s turnaround\nCapsule History: CRS-22, CRS-24, CRS-27, CRS-30, CRS-32. \nRocket trajectory: Northeast flying parallel to the US east coast\nPayload mass onboard Dragon: 2948kg (6,500lbs)\nStats:\n  - SpaceX's 666th launch overal...",
+          "feature_image": "https://i.ytimg.com/vi/S9k4ipwHRzs/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=S9k4ipwHRzs",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-05-13T21:50:00Z",
+          "end_time": null
         }
       ],
       "webcast_live": false,
