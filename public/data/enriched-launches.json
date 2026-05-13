@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T01:14:41.565Z",
+  "generated_at": "2026-05-13T13:03:32.708Z",
   "launches": [
     {
       "id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
@@ -630,17 +630,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -934,11 +934,11 @@
       "ai_enrichment": {
         "launch_id": "e60aa241-1f2c-4459-ba94-2f576c3e5632",
         "importance_score": 7,
-        "reasoning": "This is a resupply mission to the ISS, which is significant for ongoing space operations.",
+        "reasoning": "This is a significant resupply mission to the ISS, carrying essential supplies and scientific payloads.",
         "key_facts": [
-          "Falcon 9 Block 5",
-          "Dragon CRS-2 SpX-34",
-          "Resupply mission to ISS"
+          "34th commercial resupply mission to the ISS",
+          "Operated by SpaceX under NASA contract",
+          "Launch from Cape Canaveral"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -947,11 +947,11 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "SpaceX",
+          "resupply",
           "ISS",
-          "Resupply"
+          "SpaceX"
         ],
-        "user_recommendation": "Watch live on SpaceX's official webcast."
+        "user_recommendation": "Watch live stream for real-time updates."
       }
     },
     {
@@ -1179,10 +1179,11 @@
       "ai_enrichment": {
         "launch_id": "4aa02420-1bcb-4dd9-afa8-06d5ff89d248",
         "importance_score": 5,
-        "reasoning": "Launch of Zhuque-2E with an unknown payload. Standard mission with no significant public interest.",
+        "reasoning": "Launch of Zhuque-2E with unknown payload, showcasing China's commercial space capabilities.",
         "key_facts": [
-          "Zhuque-2E",
-          "Unknown Payload"
+          "Launch by LandSpace",
+          "Zhuque-2E rocket",
+          "Unknown payload"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1191,10 +1192,10 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "LandSpace",
-          "China"
+          "China",
+          "commercial"
         ],
-        "user_recommendation": "Follow updates for potential live coverage."
+        "user_recommendation": "Monitor updates for launch success."
       }
     },
     {
@@ -1398,10 +1399,10 @@
       "ai_enrichment": {
         "launch_id": "4d70f2c0-953e-4fbc-b579-3c901c06a158",
         "importance_score": 5,
-        "reasoning": "Kinetica 1 launch with unknown payload. Routine mission with no significant public interest.",
+        "reasoning": "Launch by CAS Space with unknown payload, part of China's growing space activities.",
         "key_facts": [
-          "Kinetica 1",
-          "Unknown Payload"
+          "Kinetica 1 rocket",
+          "Unknown payload"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -1410,8 +1411,8 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "CAS Space",
-          "China"
+          "China",
+          "CAS Space"
         ],
         "user_recommendation": "Standard mission"
       }
@@ -1686,7 +1687,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 196
+                "successful_landings": 197
               },
               "type": {
                 "id": 1,
@@ -2073,10 +2074,10 @@
       "ai_enrichment": {
         "launch_id": "75a35be5-b3bd-4591-b978-9a876da9fa96",
         "importance_score": 5,
-        "reasoning": "Starlink satellite deployment, part of a routine series of launches.",
+        "reasoning": "Routine Starlink satellite deployment by SpaceX.",
         "key_facts": [
-          "Falcon 9 Block 5",
-          "Starlink Group 17-37"
+          "Starlink Group 17-37",
+          "Deployment of 24 satellites"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -2085,8 +2086,8 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "SpaceX",
-          "Starlink"
+          "Starlink",
+          "SpaceX"
         ],
         "user_recommendation": "Standard mission"
       }
@@ -2278,11 +2279,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_20240315183218.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7288,
+      "orbital_launch_attempt_count": 7287,
       "location_launch_attempt_count": 61,
       "pad_launch_attempt_count": 10,
       "agency_launch_attempt_count": 590,
-      "orbital_launch_attempt_count_year": 115,
+      "orbital_launch_attempt_count_year": 114,
       "location_launch_attempt_count_year": 6,
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 20,
@@ -2292,10 +2293,10 @@
       "ai_enrichment": {
         "launch_id": "aef8f8ea-522b-4bdb-9d57-212bbe981946",
         "importance_score": 5,
-        "reasoning": "Long March 8 launch with unknown payload. Routine mission with no significant public interest.",
+        "reasoning": "Launch of Long March 8 with unknown payload, part of China's space program.",
         "key_facts": [
-          "Long March 8",
-          "Unknown Payload"
+          "Long March 8 rocket",
+          "Unknown payload"
         ],
         "viewing_info": {
           "visible_from_europe": false,
@@ -2304,8 +2305,8 @@
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
         "tags": [
-          "CASC",
-          "China"
+          "China",
+          "Long March"
         ],
         "user_recommendation": "Standard mission"
       }

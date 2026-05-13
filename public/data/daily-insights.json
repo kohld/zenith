@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-05-13T01:14:41.564Z",
+  "generated_at": "2026-05-13T13:03:32.707Z",
   "daily_summary": {
-    "headline": "SpaceX CRS-34 Launch and Aurora Opportunities",
+    "headline": "SpaceX CRS-34 and Aurora Opportunities Highlight the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "SpaceX Falcon 9 CRS-34 Launch",
-        "description": "SpaceX is set to launch the Falcon 9 Block 5 with the Dragon CRS-2 SpX-34 mission, a resupply mission to the ISS.",
+        "title": "SpaceX Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
+        "description": "SpaceX launches its 34th commercial resupply mission to the ISS, carrying essential supplies and scientific payloads.",
         "importance": 7,
         "date": "2026-05-13T22:50:50Z",
         "type": "launch",
-        "action": "Watch live on SpaceX's official webcast."
+        "action": "Watch live stream for real-time updates."
       },
       {
         "rank": 2,
         "title": "Aurora Viewing Opportunity",
-        "description": "A G1 geomagnetic storm is predicted, offering potential aurora visibility at high latitudes.",
-        "importance": 6,
+        "description": "A G2 geomagnetic storm is predicted, offering a good chance to view auroras at latitudes down to 60°.",
+        "importance": 7,
         "date": "2026-05-15T03:00:00Z",
         "type": "aurora",
-        "action": "Check conditions and prepare for aurora viewing in northern regions."
+        "action": "Check skies and head to a dark location for best viewing."
       },
       {
         "rank": 3,
         "title": "Zhuque-2E Launch",
-        "description": "LandSpace's Zhuque-2E rocket is scheduled for launch with an unknown payload.",
+        "description": "LandSpace's Zhuque-2E rocket is set to launch with an unknown payload, showcasing China's growing commercial space capabilities.",
         "importance": 5,
         "date": "2026-05-14T03:00:00Z",
         "type": "launch",
-        "action": "Follow updates for potential live coverage."
+        "action": "Monitor updates for launch success."
       }
     ],
     "statistics": {
@@ -43,12 +43,36 @@
     "opportunities": [
       {
         "date": "2026-05-15T03:00:00",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
+        "max_kp": 5.67,
+        "storm_level": "G2",
+        "probability": "Moderate (50-70%)",
         "time_window": {
           "start": "2026-05-15T03:00:00",
           "end": "2026-05-15T03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-05-16T00:00:00",
+        "max_kp": 4.33,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-16T00:00:00",
+          "end": "2026-05-16T00:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-05-15T00:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-15T00:00:00",
+          "end": "2026-05-15T00:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
@@ -81,8 +105,8 @@
     "best_window": {
       "date": "2026-05-15T03:00:00",
       "time": "03:00-03:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
+      "kp": 5.67,
+      "visibility_range": "Down to 60° latitude"
     },
     "total_viewing_hours": 0
   },
@@ -90,7 +114,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
