@@ -1,44 +1,60 @@
 {
-  "generated_at": "2026-05-14T01:15:35.137Z",
+  "generated_at": "2026-05-14T12:56:09.200Z",
   "daily_summary": {
-    "headline": "Moderate Aurora Activity and Routine Launches",
+    "headline": "Exciting Aurora and SpaceX Launches Await",
     "top_events": [
       {
         "rank": 1,
-        "title": "Moderate Aurora Activity Expected",
-        "description": "A G2 geomagnetic storm is predicted with a Kp index of 5.67, offering a good viewing opportunity for high-latitude observers.",
-        "importance": 7,
-        "date": "2026-05-15T03:00:00",
+        "title": "Aurora Alert: G2 Storm Expected",
+        "description": "A G2 geomagnetic storm is predicted, offering a good chance for aurora viewing at latitudes down to 60°.",
+        "importance": 8,
+        "date": "2026-05-15",
         "type": "aurora",
-        "action": "Check skies if you're above 60° latitude."
+        "action": "Prepare for aurora viewing if skies are clear."
       },
       {
         "rank": 2,
-        "title": "Zhuque-2E Launch",
-        "description": "The Zhuque-2E rocket is set to launch with an unknown payload from Jiuquan Satellite Launch Center, China.",
+        "title": "SpaceX Falcon 9 Starlink Launch",
+        "description": "SpaceX is set to launch another batch of Starlink satellites, continuing its mission to expand global internet coverage.",
         "importance": 5,
-        "date": "2026-05-14T03:00:00",
+        "date": "2026-05-15",
         "type": "launch",
-        "action": "Watch live stream for updates."
+        "action": "Watch the live stream for launch details."
       },
       {
         "rank": 3,
-        "title": "Kinetica 1 Launch",
-        "description": "Kinetica 1 rocket will launch with an unknown payload from Jiuquan Satellite Launch Center, China.",
+        "title": "SpaceX Dragon CRS-2 SpX-34 Resupply Mission",
+        "description": "SpaceX's Dragon spacecraft will deliver supplies to the International Space Station, supporting ongoing scientific research.",
         "importance": 5,
-        "date": "2026-05-15T04:30:00",
+        "date": "2026-05-15",
         "type": "launch",
-        "action": "Watch live stream for updates."
+        "action": "Follow the mission progress online."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 6
+      "aurora_opportunities": 5
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "aurora",
+      "priority": "high",
+      "title": "G2 Geomagnetic Storm Alert",
+      "message": "A G2 geomagnetic storm is expected on 2026-05-15, providing a good opportunity for aurora viewing at latitudes down to 60°.",
+      "action_required": "Prepare for aurora viewing if skies are clear.",
+      "expires_at": "2026-05-15T06:00:00Z",
+      "tags": [
+        "aurora",
+        "G2",
+        "storm",
+        "viewing"
+      ],
+      "id": "alert_1778763298278_4nxeul354"
+    }
+  ],
   "aurora_insights": {
     "opportunities": [
       {
@@ -126,8 +142,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
-    "iterations": 2
+    "iterations": 3
   }
 }

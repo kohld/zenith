@@ -1,243 +1,6 @@
 {
-  "generated_at": "2026-05-14T01:15:35.138Z",
+  "generated_at": "2026-05-14T12:56:09.200Z",
   "launches": [
-    {
-      "id": "4aa02420-1bcb-4dd9-afa8-06d5ff89d248",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/4aa02420-1bcb-4dd9-afa8-06d5ff89d248/",
-      "slug": "zhuque-2e-unknown-payload",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Zhuque-2E | Unknown Payload",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-05-12T03:34:16Z",
-      "updates": [
-        {
-          "id": 14939,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Delayed to May 14 per new NOTAMs.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2787862#msg2787862",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-05-12T03:34:00Z"
-        },
-        {
-          "id": 14907,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Rescheduled for May 13 per new NOTAMs.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2786619#msg2786619",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-05-07T14:17:00Z"
-        },
-        {
-          "id": 14359,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Apparently scrubbed for the day.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64578.msg2770108#msg2770108",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-03-19T05:25:00Z"
-        },
-        {
-          "id": 14333,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per NOTAMs; Launch vehicle and payload identities uncertain. (see also https://x.com/raz_liu/status/2033756082590658783)",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2769046#msg2769046",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-03-17T04:13:00Z"
-        }
-      ],
-      "net": "2026-05-14T03:00:00Z",
-      "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
-      },
-      "window_end": "2026-05-14T05:08:00Z",
-      "window_start": "2026-05-14T02:52:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 259,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/259/",
-        "name": "LandSpace",
-        "featured": false,
-        "type": "Commercial",
-        "country_code": "CHN",
-        "abbrev": "LS",
-        "description": "LandSpace is a Chinese private space launch company based in Beijing. It was founded in 2015 by Tsinghua University alumni Zhang Changwu.",
-        "administrator": "Founder: Zhang Changwu",
-        "founding_year": "2015",
-        "launchers": "",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 8,
-        "consecutive_successful_launches": 1,
-        "successful_launches": 5,
-        "failed_launches": 3,
-        "pending_launches": 1,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 1,
-        "attempted_landings": 1,
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/LandSpace",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/landspace_logo_20220822100731.png",
-        "image_url": null,
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/landspace_nation_20230702184353.png"
-      },
-      "rocket": {
-        "id": 8944,
-        "configuration": {
-          "id": 519,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/519/",
-          "name": "Zhuque-2E",
-          "active": true,
-          "reusable": false,
-          "description": "Zhuque-2E (E stands for “enhanced”) is a medium-sized rocket powered by liquid oxygen and methane capable of lifting 6,000 kg of payload into a 200 km low Earth orbit, or 4,000 kg of payload into a 500 km Sun-synchronous orbit. It differs from the baseline Zhuque-2 in using enhanced TQ-12A engines on the 1st stage with higher thrust and specific impulse than the original TQ-12, and a new TQ-15A engine on the 2nd stage that has a moveable nozzle.",
-          "family": "Zhuque",
-          "full_name": "Zhuque-2E",
-          "manufacturer": {
-            "id": 259,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/259/",
-            "name": "LandSpace",
-            "featured": false,
-            "type": "Commercial",
-            "country_code": "CHN",
-            "abbrev": "LS",
-            "description": "LandSpace is a Chinese private space launch company based in Beijing. It was founded in 2015 by Tsinghua University alumni Zhang Changwu.",
-            "administrator": "Founder: Zhang Changwu",
-            "founding_year": "2015",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 8,
-            "consecutive_successful_launches": 1,
-            "successful_launches": 5,
-            "failed_launches": 3,
-            "pending_launches": 1,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 1,
-            "attempted_landings": 1,
-            "info_url": null,
-            "wiki_url": "https://en.wikipedia.org/wiki/LandSpace",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/landspace_logo_20220822100731.png",
-            "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/landspace_nation_20230702184353.png"
-          },
-          "program": [],
-          "variant": "2E",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 2,
-          "length": 49.5,
-          "diameter": 3.35,
-          "maiden_flight": "2024-11-27",
-          "launch_cost": null,
-          "launch_mass": 229,
-          "leo_capacity": 6000,
-          "gto_capacity": null,
-          "to_thrust": 2880,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhunque_2e_on_t_image_20241216101643.jpg",
-          "info_url": "https://www.landspace.com/en/product.html",
-          "wiki_url": "https://en.wikipedia.org/wiki/Zhuque-2",
-          "total_launch_count": 3,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 2,
-          "failed_launches": 1,
-          "pending_launches": 1,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7539,
-        "name": "Unknown Payload",
-        "description": "Details TBD.",
-        "launch_designator": null,
-        "type": "Unknown",
-        "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 9,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/9/",
-        "agency_id": 259,
-        "name": "Launch Area 96A",
-        "description": "",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/LandSpace",
-        "map_url": "https://www.google.com/maps?q=40.91491,100.245488",
-        "latitude": "40.91491",
-        "longitude": "100.245488",
-        "location": {
-          "id": 17,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
-          "name": "Jiuquan Satellite Launch Center, People's Republic of China",
-          "country_code": "CHN",
-          "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
-          "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 283,
-          "total_landing_count": 2
-        },
-        "country_code": "CHN",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_9_20200803143341.jpg",
-        "total_launch_count": 6,
-        "orbital_launch_attempt_count": 6
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhunque_2e_on_t_image_20241216101643.jpg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7284,
-      "location_launch_attempt_count": 284,
-      "pad_launch_attempt_count": 7,
-      "agency_launch_attempt_count": 9,
-      "orbital_launch_attempt_count_year": 111,
-      "location_launch_attempt_count_year": 11,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P272DT1H43M",
-      "mission_patches": [],
-      "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "4aa02420-1bcb-4dd9-afa8-06d5ff89d248",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Standard mission"
-      }
-    },
     {
       "id": "4d70f2c0-953e-4fbc-b579-3c901c06a158",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/4d70f2c0-953e-4fbc-b579-3c901c06a158/",
@@ -410,7 +173,7 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 283,
+          "total_launch_count": 284,
           "total_landing_count": 2
         },
         "country_code": "CHN",
@@ -425,11 +188,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7285,
+      "orbital_launch_attempt_count": 7284,
       "location_launch_attempt_count": 285,
       "pad_launch_attempt_count": 13,
       "agency_launch_attempt_count": 14,
-      "orbital_launch_attempt_count_year": 112,
+      "orbital_launch_attempt_count_year": 111,
       "location_launch_attempt_count_year": 12,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 3,
@@ -2257,6 +2020,675 @@
       "type": "detailed",
       "ai_enrichment": {
         "launch_id": "aef8f8ea-522b-4bdb-9d57-212bbe981946",
+        "importance_score": 5,
+        "reasoning": "Unable to analyze launch due to missing data",
+        "key_facts": [],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Standard mission"
+      }
+    },
+    {
+      "id": "7ba18bcb-c711-4329-9fc1-7ac017fadfff",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/7ba18bcb-c711-4329-9fc1-7ac017fadfff/",
+      "slug": "falcon-9-block-5-starlink-group-17-42",
+      "flightclub_url": "https://flightclub.io/result?llId=7ba18bcb-c711-4329-9fc1-7ac017fadfff",
+      "r_spacex_api_id": null,
+      "name": "Falcon 9 Block 5 | Starlink Group 17-42",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-05-12T20:04:13Z",
+      "updates": [
+        {
+          "id": 14915,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting May 19 at 02:11 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-42",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-07T22:26:00Z"
+        },
+        {
+          "id": 14913,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting May 18 at 02:11 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-42",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-07T20:14:00Z"
+        },
+        {
+          "id": 14890,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Delayed to NET May 17 UTC.",
+          "info_url": "https://www.spacex.com/launches/sl-17-42",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-05T15:05:00Z"
+        },
+        {
+          "id": 14886,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch.",
+          "info_url": "https://www.spacex.com/launches/sl-17-42",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-04T15:18:00Z"
+        }
+      ],
+      "net": "2026-05-19T02:11:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "window_end": "2026-05-19T06:11:00Z",
+      "window_start": "2026-05-19T02:11:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": null,
+        "total_launch_count": 675,
+        "consecutive_successful_launches": 160,
+        "successful_launches": 660,
+        "failed_launches": 15,
+        "pending_launches": 120,
+        "consecutive_successful_landings": 160,
+        "successful_landings": 621,
+        "failed_landings": 27,
+        "attempted_landings": 647,
+        "info_url": "https://www.spacex.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+      },
+      "rocket": {
+        "id": 9017,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "active": true,
+          "reusable": true,
+          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "manufacturer": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 675,
+            "consecutive_successful_launches": 160,
+            "successful_launches": 660,
+            "failed_launches": 15,
+            "pending_launches": 120,
+            "consecutive_successful_landings": 160,
+            "successful_landings": 621,
+            "failed_landings": 27,
+            "attempted_landings": 647,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+          },
+          "program": [
+            {
+              "id": 5,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+              "name": "Commercial Crew Program",
+              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+              "agencies": [
+                {
+                  "id": 80,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                  "name": "Boeing",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+              "start_date": "2011-04-18T00:00:00Z",
+              "end_date": null,
+              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            },
+            {
+              "id": 11,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+              "name": "Commercial Resupply Services",
+              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+              "agencies": [
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 257,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                  "name": "Northrop Grumman Space Systems",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 1020,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                  "name": "Sierra Nevada Corporation",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+              "start_date": "2008-12-23T00:00:00Z",
+              "end_date": null,
+              "info_url": null,
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            }
+          ],
+          "variant": "Block 5",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 2,
+          "length": 70,
+          "diameter": 3.65,
+          "maiden_flight": "2018-05-11",
+          "launch_cost": "52000000",
+          "launch_mass": 549,
+          "leo_capacity": 22800,
+          "gto_capacity": 8300,
+          "to_thrust": 7607,
+          "apogee": 200,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+          "total_launch_count": 581,
+          "consecutive_successful_launches": 283,
+          "successful_launches": 580,
+          "failed_launches": 1,
+          "pending_launches": 102,
+          "attempted_landings": 572,
+          "successful_landings": 567,
+          "failed_landings": 5,
+          "consecutive_successful_landings": 267
+        },
+        "launcher_stage": [
+          {
+            "id": 928,
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 6,
+            "launcher": {
+              "id": 239,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/239/",
+              "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
+              "flight_proven": true,
+              "serial_number": "B1100",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 5,
+              "attempted_landings": 5,
+              "flights": 5,
+              "last_launch_date": "2026-04-23T03:23:09Z",
+              "first_launch_date": "2025-11-23T08:48:00Z"
+            },
+            "landing": {
+              "id": 1855,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage B1100 will land on ASDS OCISLY after its 6th flight.",
+              "downrange_distance": 574,
+              "location": {
+                "id": 1,
+                "name": "Of Course I Still Love You",
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "location": null,
+                "successful_landings": 197
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": "2026-04-23T03:23:09Z",
+            "turn_around_time_days": 25,
+            "previous_flight": {
+              "id": "20418dc6-1870-4018-adda-1e6156717f02",
+              "name": "Falcon 9 Block 5 | Starlink Group 17-14"
+            }
+          }
+        ],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7612,
+        "name": "Starlink Group 17-42",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "launch_designator": null,
+        "type": "Communications",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 675,
+            "consecutive_successful_launches": 160,
+            "successful_launches": 660,
+            "failed_launches": 15,
+            "pending_launches": 120,
+            "consecutive_successful_landings": 160,
+            "successful_landings": 621,
+            "failed_landings": 27,
+            "attempted_landings": 647,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+          "name": "Vandenberg SFB, CA, USA",
+          "country_code": "USA",
+          "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "timezone_name": "America/Los_Angeles",
+          "total_launch_count": 883,
+          "total_landing_count": 34
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 267,
+        "orbital_launch_attempt_count": 267
+      },
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-17-42",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starlink Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/HHe9IoOWwAAINn2.jpg",
+          "url": "https://x.com/i/broadcasts/1wxWjaEgZOkJQ",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-05-16T02:01:00Z",
+          "end_time": "2026-05-16T03:30:00Z"
+        }
+      ],
+      "webcast_live": false,
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M8S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M26S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M29S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M36S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT2M57S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT5M59S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M23S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT7M56S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M19S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M40S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT52M30S"
+        },
+        {
+          "type": {
+            "id": 22,
+            "abbrev": "SECO-2",
+            "description": "Second cut-off of the second engine"
+          },
+          "relative_time": "PT52M31S"
+        },
+        {
+          "type": {
+            "id": 23,
+            "abbrev": "Starlink Deployment",
+            "description": "Deployment of the Starlink stack from the rocket"
+          },
+          "relative_time": "PT1H1M21S"
+        }
+      ],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+      "infographic": null,
+      "program": [
+        {
+          "id": 25,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/25/",
+          "name": "Starlink",
+          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
+          "start_date": "2018-02-22T14:17:00Z",
+          "end_date": null,
+          "info_url": "https://starlink.com",
+          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
+          "mission_patches": [
+            {
+              "id": 7,
+              "name": "Space X Starlink Mission Patch",
+              "priority": 10,
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "type": "Commercial"
+              }
+            }
+          ],
+          "type": {
+            "id": 3,
+            "name": "Communication Constellation"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 7288,
+      "location_launch_attempt_count": 885,
+      "pad_launch_attempt_count": 269,
+      "agency_launch_attempt_count": 678,
+      "orbital_launch_attempt_count_year": 115,
+      "location_launch_attempt_count_year": 33,
+      "pad_launch_attempt_count_year": 31,
+      "agency_launch_attempt_count_year": 59,
+      "pad_turnaround": "P3DT12H11M",
+      "mission_patches": [
+        {
+          "id": 7,
+          "name": "Space X Starlink Mission Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
+      "type": "detailed",
+      "ai_enrichment": {
+        "launch_id": "7ba18bcb-c711-4329-9fc1-7ac017fadfff",
         "importance_score": 5,
         "reasoning": "Unable to analyze launch due to missing data",
         "key_facts": [],
