@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-05-13T13:03:32.707Z",
+  "generated_at": "2026-05-14T01:15:35.137Z",
   "daily_summary": {
-    "headline": "SpaceX CRS-34 and Aurora Opportunities Highlight the Day",
+    "headline": "Moderate Aurora Activity and Routine Launches",
     "top_events": [
       {
         "rank": 1,
-        "title": "SpaceX Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
-        "description": "SpaceX launches its 34th commercial resupply mission to the ISS, carrying essential supplies and scientific payloads.",
+        "title": "Moderate Aurora Activity Expected",
+        "description": "A G2 geomagnetic storm is predicted with a Kp index of 5.67, offering a good viewing opportunity for high-latitude observers.",
         "importance": 7,
-        "date": "2026-05-13T22:50:50Z",
-        "type": "launch",
-        "action": "Watch live stream for real-time updates."
+        "date": "2026-05-15T03:00:00",
+        "type": "aurora",
+        "action": "Check skies if you're above 60° latitude."
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G2 geomagnetic storm is predicted, offering a good chance to view auroras at latitudes down to 60°.",
-        "importance": 7,
-        "date": "2026-05-15T03:00:00Z",
-        "type": "aurora",
-        "action": "Check skies and head to a dark location for best viewing."
+        "title": "Zhuque-2E Launch",
+        "description": "The Zhuque-2E rocket is set to launch with an unknown payload from Jiuquan Satellite Launch Center, China.",
+        "importance": 5,
+        "date": "2026-05-14T03:00:00",
+        "type": "launch",
+        "action": "Watch live stream for updates."
       },
       {
         "rank": 3,
-        "title": "Zhuque-2E Launch",
-        "description": "LandSpace's Zhuque-2E rocket is set to launch with an unknown payload, showcasing China's growing commercial space capabilities.",
+        "title": "Kinetica 1 Launch",
+        "description": "Kinetica 1 rocket will launch with an unknown payload from Jiuquan Satellite Launch Center, China.",
         "importance": 5,
-        "date": "2026-05-14T03:00:00Z",
+        "date": "2026-05-15T04:30:00",
         "type": "launch",
-        "action": "Monitor updates for launch success."
+        "action": "Watch live stream for updates."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 6
     }
   },
   "alerts": [],
@@ -49,6 +49,18 @@
         "time_window": {
           "start": "2026-05-15T03:00:00",
           "end": "2026-05-15T03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-05-16T03:00:00",
+        "max_kp": 5,
+        "storm_level": "G1",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-05-16T03:00:00",
+          "end": "2026-05-16T03:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
@@ -114,7 +126,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
     "iterations": 2
   }
