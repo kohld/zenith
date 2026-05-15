@@ -1,60 +1,44 @@
 {
-  "generated_at": "2026-05-14T12:56:09.200Z",
+  "generated_at": "2026-05-15T01:14:09.202Z",
   "daily_summary": {
-    "headline": "Exciting Aurora and SpaceX Launches Await",
+    "headline": "Aurora and SpaceX Resupply Highlight the Day",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Alert: G2 Storm Expected",
-        "description": "A G2 geomagnetic storm is predicted, offering a good chance for aurora viewing at latitudes down to 60°.",
+        "title": "Falcon 9 Block 5 | Dragon CRS-2 SpX-34",
+        "description": "SpaceX's 34th commercial resupply mission to the ISS, supporting critical science and research.",
         "importance": 8,
-        "date": "2026-05-15",
-        "type": "aurora",
-        "action": "Prepare for aurora viewing if skies are clear."
+        "date": "2026-05-15T22:05:00Z",
+        "type": "launch",
+        "action": "Watch live stream for launch and docking coverage."
       },
       {
         "rank": 2,
-        "title": "SpaceX Falcon 9 Starlink Launch",
-        "description": "SpaceX is set to launch another batch of Starlink satellites, continuing its mission to expand global internet coverage.",
-        "importance": 5,
-        "date": "2026-05-15",
-        "type": "launch",
-        "action": "Watch the live stream for launch details."
+        "title": "Aurora Viewing Opportunity",
+        "description": "Moderate geomagnetic storm (G2) with Kp 5.67 offers aurora visibility down to 60° latitude.",
+        "importance": 7,
+        "date": "2026-05-15T03:00:00Z",
+        "type": "aurora",
+        "action": "Check skies for aurora visibility if you're in high-latitude regions."
       },
       {
         "rank": 3,
-        "title": "SpaceX Dragon CRS-2 SpX-34 Resupply Mission",
-        "description": "SpaceX's Dragon spacecraft will deliver supplies to the International Space Station, supporting ongoing scientific research.",
+        "title": "Kinetica 1 | Unknown Payload",
+        "description": "Launch of a Chinese solid-propellant light launch vehicle, Kinetica 1, by CAS Space.",
         "importance": 5,
-        "date": "2026-05-15",
+        "date": "2026-05-15T04:30:00Z",
         "type": "launch",
-        "action": "Follow the mission progress online."
+        "action": "Follow updates for mission details and outcomes."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 5
+      "aurora_opportunities": 1
     }
   },
-  "alerts": [
-    {
-      "type": "aurora",
-      "priority": "high",
-      "title": "G2 Geomagnetic Storm Alert",
-      "message": "A G2 geomagnetic storm is expected on 2026-05-15, providing a good opportunity for aurora viewing at latitudes down to 60°.",
-      "action_required": "Prepare for aurora viewing if skies are clear.",
-      "expires_at": "2026-05-15T06:00:00Z",
-      "tags": [
-        "aurora",
-        "G2",
-        "storm",
-        "viewing"
-      ],
-      "id": "alert_1778763298278_4nxeul354"
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
     "opportunities": [
       {
@@ -82,6 +66,18 @@
         "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
       },
       {
+        "date": "2026-05-17T03:00:00",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-17T03:00:00",
+          "end": "2026-05-17T03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
         "date": "2026-05-16T00:00:00",
         "max_kp": 4.33,
         "storm_level": "G0 (Quiet)",
@@ -89,18 +85,6 @@
         "time_window": {
           "start": "2026-05-16T00:00:00",
           "end": "2026-05-16T00:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-05-15T00:00:00",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-05-15T00:00:00",
-          "end": "2026-05-15T00:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
@@ -142,8 +126,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
-    "iterations": 3
+    "iterations": 2
   }
 }
