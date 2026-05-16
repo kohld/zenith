@@ -1,88 +1,49 @@
 {
-  "generated_at": "2026-05-15T12:56:23.266Z",
+  "generated_at": "2026-05-16T01:09:20.768Z",
   "daily_summary": {
-    "headline": "Aurora and SpaceX Launches Highlight May 15th",
+    "headline": "Exciting Space Events Await: Starship Test and Aurora Displays",
     "top_events": [
       {
         "rank": 1,
-        "title": "Aurora Forecast: G2 Storm",
-        "description": "A G2 geomagnetic storm is expected, providing a good opportunity for aurora viewing at high latitudes.",
+        "title": "Starship | Flight 12",
+        "description": "12th test flight of the two-stage Starship launch vehicle. Maiden Flight of Starship V3.",
         "importance": 8,
-        "date": "2026-05-15",
+        "date": "2026-05-19T22:30:00Z",
+        "type": "launch",
+        "action": "Watch live for groundbreaking test flight."
+      },
+      {
+        "rank": 2,
+        "title": "Aurora Viewing Opportunity",
+        "description": "G1 geomagnetic storm expected, visible to 60° latitude.",
+        "importance": 5,
+        "date": "2026-05-16T03:00:00Z",
         "type": "aurora",
         "action": "Check skies if you're above 60° latitude."
       },
       {
-        "rank": 2,
-        "title": "SpaceX Dragon CRS-2 SpX-34 Launch",
-        "description": "SpaceX's Falcon 9 is set to launch the Dragon CRS-2 SpX-34 mission to the ISS, carrying supplies and scientific instruments.",
-        "importance": 7,
-        "date": "2026-05-15",
-        "type": "launch",
-        "action": "Watch live stream for launch coverage."
-      },
-      {
         "rank": 3,
-        "title": "Starlink Group 17-37 Launch",
-        "description": "SpaceX will launch another batch of Starlink satellites, continuing the expansion of its internet constellation.",
-        "importance": 6,
-        "date": "2026-05-16",
+        "title": "Vega-C | SMILE Mission",
+        "description": "Launch of the Solar wind Magnetosphere Ionosphere Link Explorer (SMILE) to study Earth's magnetosphere.",
+        "importance": 7,
+        "date": "2026-05-19T03:52:00Z",
         "type": "launch",
-        "action": "Follow live updates for launch details."
+        "action": "Follow the mission for insights into Earth's magnetic shield."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 5
+      "aurora_opportunities": 1
     }
   },
-  "alerts": [
-    {
-      "type": "aurora",
-      "priority": "high",
-      "title": "G2 Geomagnetic Storm Alert",
-      "message": "A G2 geomagnetic storm is expected on May 15th, providing a good opportunity for aurora viewing at high latitudes. Visibility may extend down to 60° latitude.",
-      "action_required": "Check skies if you're above 60° latitude and conditions are clear.",
-      "expires_at": "2026-05-16T00:00:00Z",
-      "tags": [
-        "aurora",
-        "G2",
-        "high-latitude",
-        "viewing-opportunity"
-      ]
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-05-15T21:00:00",
-        "max_kp": 5.67,
-        "storm_level": "G2",
-        "probability": "Moderate (50-70%)",
-        "time_window": {
-          "start": "2026-05-15T21:00:00",
-          "end": "2026-05-15T21:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
-      {
-        "date": "2026-05-15T18:00:00",
-        "max_kp": 5,
-        "storm_level": "G1",
-        "probability": "Moderate (50-70%)",
-        "time_window": {
-          "start": "2026-05-15T18:00:00",
-          "end": "2026-05-15T18:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
-      {
         "date": "2026-05-16T03:00:00",
-        "max_kp": 5,
+        "max_kp": 5.33,
         "storm_level": "G1",
         "probability": "Moderate (50-70%)",
         "time_window": {
@@ -91,6 +52,18 @@
         },
         "duration_hours": 0,
         "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-05-16T06:00:00",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-16T06:00:00",
+          "end": "2026-05-16T06:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       },
       {
         "date": "2026-05-17T03:00:00",
@@ -105,34 +78,70 @@
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       },
       {
-        "date": "2026-05-15T15:00:00",
+        "date": "2026-05-16T09:00:00",
         "max_kp": 4.33,
         "storm_level": "G0 (Quiet)",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-05-15T15:00:00",
-          "end": "2026-05-15T15:00:00"
+          "start": "2026-05-16T09:00:00",
+          "end": "2026-05-16T09:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       },
       {
-        "date": "2026-05-16T00:00:00",
+        "date": "2026-05-16T18:00:00",
         "max_kp": 4.33,
         "storm_level": "G0 (Quiet)",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-05-16T00:00:00",
-          "end": "2026-05-16T00:00:00"
+          "start": "2026-05-16T18:00:00",
+          "end": "2026-05-16T18:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-05-16T21:00:00",
+        "max_kp": 4.33,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-16T21:00:00",
+          "end": "2026-05-16T21:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-05-16T12:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-16T12:00:00",
+          "end": "2026-05-16T12:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-05-16T15:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-16T15:00:00",
+          "end": "2026-05-16T15:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-05-15T21:00:00",
-      "time": "21:00-21:00 UTC",
-      "kp": 5.67,
+      "date": "2026-05-16T03:00:00",
+      "time": "03:00-03:00 UTC",
+      "kp": 5.33,
       "visibility_range": "Down to 60° latitude"
     },
     "total_viewing_hours": 0
@@ -141,8 +150,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
-    "iterations": 3
+    "iterations": 2
   }
 }
