@@ -1,66 +1,54 @@
 {
-  "generated_at": "2026-05-16T01:09:20.768Z",
+  "generated_at": "2026-05-16T12:38:28.744Z",
   "daily_summary": {
-    "headline": "Exciting Space Events Await: Starship Test and Aurora Displays",
+    "headline": "Starship Test Flight and Aurora Opportunities",
     "top_events": [
       {
         "rank": 1,
         "title": "Starship | Flight 12",
         "description": "12th test flight of the two-stage Starship launch vehicle. Maiden Flight of Starship V3.",
         "importance": 8,
-        "date": "2026-05-19T22:30:00Z",
+        "date": "2026-05-19",
         "type": "launch",
-        "action": "Watch live for groundbreaking test flight."
+        "action": "Watch live for a historic test flight."
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "G1 geomagnetic storm expected, visible to 60° latitude.",
-        "importance": 5,
-        "date": "2026-05-16T03:00:00Z",
-        "type": "aurora",
-        "action": "Check skies if you're above 60° latitude."
+        "title": "Vega-C | Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
+        "description": "Joint mission between ESA and the Chinese Academy of Sciences to investigate Earth's magnetosphere.",
+        "importance": 7,
+        "date": "2026-05-19",
+        "type": "launch",
+        "action": "Follow the mission for groundbreaking scientific insights."
       },
       {
         "rank": 3,
-        "title": "Vega-C | SMILE Mission",
-        "description": "Launch of the Solar wind Magnetosphere Ionosphere Link Explorer (SMILE) to study Earth's magnetosphere.",
-        "importance": 7,
-        "date": "2026-05-19T03:52:00Z",
-        "type": "launch",
-        "action": "Follow the mission for insights into Earth's magnetic shield."
+        "title": "Aurora Viewing Opportunity",
+        "description": "G1 level aurora forecasted with Kp 4.67 at 18:00 UTC on May 16.",
+        "importance": 5,
+        "date": "2026-05-16",
+        "type": "aurora",
+        "action": "Check the skies at high latitudes for potential aurora."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
-      "historic_events": 0,
-      "aurora_opportunities": 1
+      "historic_events": 1,
+      "aurora_opportunities": 2
     }
   },
   "alerts": [],
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-05-16T03:00:00",
-        "max_kp": 5.33,
-        "storm_level": "G1",
-        "probability": "Moderate (50-70%)",
-        "time_window": {
-          "start": "2026-05-16T03:00:00",
-          "end": "2026-05-16T03:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
-      {
-        "date": "2026-05-16T06:00:00",
+        "date": "2026-05-16T18:00:00",
         "max_kp": 4.67,
         "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-05-16T06:00:00",
-          "end": "2026-05-16T06:00:00"
+          "start": "2026-05-16T18:00:00",
+          "end": "2026-05-16T18:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
@@ -78,30 +66,6 @@
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       },
       {
-        "date": "2026-05-16T09:00:00",
-        "max_kp": 4.33,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-05-16T09:00:00",
-          "end": "2026-05-16T09:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-05-16T18:00:00",
-        "max_kp": 4.33,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-05-16T18:00:00",
-          "end": "2026-05-16T18:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
         "date": "2026-05-16T21:00:00",
         "max_kp": 4.33,
         "storm_level": "G0 (Quiet)",
@@ -109,18 +73,6 @@
         "time_window": {
           "start": "2026-05-16T21:00:00",
           "end": "2026-05-16T21:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-05-16T12:00:00",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-05-16T12:00:00",
-          "end": "2026-05-16T12:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
@@ -139,10 +91,10 @@
       }
     ],
     "best_window": {
-      "date": "2026-05-16T03:00:00",
-      "time": "03:00-03:00 UTC",
-      "kp": 5.33,
-      "visibility_range": "Down to 60° latitude"
+      "date": "2026-05-16T18:00:00",
+      "time": "18:00-18:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
     },
     "total_viewing_hours": 0
   },
@@ -150,7 +102,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
     "iterations": 2
   }
