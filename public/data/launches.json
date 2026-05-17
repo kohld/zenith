@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-16T23:47:36.682Z",
+  "updatedAt": "2026-05-17T00:47:09.283Z",
   "launches": [
     {
       "id": "aef8f8ea-522b-4bdb-9d57-212bbe981946",
@@ -6597,11 +6597,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520ii_image_20190825171642.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7302,
+      "orbital_launch_attempt_count": 7303,
       "location_launch_attempt_count": 104,
       "pad_launch_attempt_count": 33,
       "agency_launch_attempt_count": 100,
-      "orbital_launch_attempt_count_year": 129,
+      "orbital_launch_attempt_count_year": 130,
       "location_launch_attempt_count_year": 2,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 2,
@@ -6812,14 +6812,14 @@
       "image": null,
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7302,
+      "orbital_launch_attempt_count": 7303,
       "location_launch_attempt_count": 63,
       "pad_launch_attempt_count": 6,
-      "agency_launch_attempt_count": 592,
-      "orbital_launch_attempt_count_year": 129,
+      "agency_launch_attempt_count": 593,
+      "orbital_launch_attempt_count_year": 130,
       "location_launch_attempt_count_year": 8,
       "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 22,
+      "agency_launch_attempt_count_year": 23,
       "pad_turnaround": "P131DT16H12M",
       "mission_patches": [],
       "type": "detailed"
@@ -7760,11 +7760,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7302,
+      "orbital_launch_attempt_count": 7303,
       "location_launch_attempt_count": 2,
       "pad_launch_attempt_count": 2,
       "agency_launch_attempt_count": 2,
-      "orbital_launch_attempt_count_year": 129,
+      "orbital_launch_attempt_count_year": 130,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -28554,50 +28554,6 @@
             "previous_flight": null
           },
           {
-            "id": 417,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1214,
-              "attempt": true,
-              "success": null,
-              "description": "The center core will attempt to land on an ASDS after launch.",
-              "downrange_distance": null,
-              "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 1,
-                "name": "Autonomous Spaceport Drone Ship",
-                "abbrev": "ASDS",
-                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 418,
             "type": "Strap-On Booster",
             "reused": null,
@@ -28635,6 +28591,50 @@
                 "name": "Return to Launch Site",
                 "abbrev": "RTLS",
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
+            "id": 417,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 117,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown FH",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1214,
+              "attempt": true,
+              "success": null,
+              "description": "The center core will attempt to land on an ASDS after launch.",
+              "downrange_distance": null,
+              "location": {
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
             "previous_flight_date": null,
