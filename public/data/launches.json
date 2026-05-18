@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-18T09:16:06.073Z",
+  "updatedAt": "2026-05-18T10:50:38.532Z",
   "launches": [
     {
       "id": "aef8f8ea-522b-4bdb-9d57-212bbe981946",
@@ -274,7 +274,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-17T14:16:49Z",
+      "last_updated": "2026-05-18T09:37:16Z",
       "updates": [
         {
           "id": 14794,
@@ -551,11 +551,11 @@
       "infoURLs": [
         {
           "priority": 10,
-          "source": "esa.int",
-          "title": "Smile Launch Kit",
-          "description": null,
+          "source": "avio.com",
+          "title": "Launch Kit VV29",
+          "description": "Launch Kit VV29",
           "feature_image": null,
-          "url": "https://esamultimedia.esa.int/docs/science/Smile_Launch_Kit_EN.pdf",
+          "url": "https://www.avio.com/press-kit/launch-kit-vv29",
           "type": {
             "id": 2,
             "name": "Official Press Kit"
@@ -568,11 +568,11 @@
         },
         {
           "priority": 10,
-          "source": "avio.com",
-          "title": "VV29 Launch Kit",
+          "source": "esa.int",
+          "title": "Smile Launch Kit",
           "description": null,
           "feature_image": null,
-          "url": "https://www.avio.com/sites/avio.com/files/downloads/LAUNCH-KIT%20VV29%20-%20ENG.pdf",
+          "url": "https://esamultimedia.esa.int/docs/science/Smile_Launch_Kit_EN.pdf",
           "type": {
             "id": 2,
             "name": "Official Press Kit"
@@ -754,6 +754,18 @@
       "agency_launch_attempt_count_year": 1,
       "pad_turnaround": "P168DT10H30M35S",
       "mission_patches": [
+        {
+          "id": 1326,
+          "name": "VV29 Patch",
+          "priority": 9,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/vv292520patch_mission_patch_20260518093614.png",
+          "agency": {
+            "id": 159,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/159/",
+            "name": "Avio S.p.A",
+            "type": "Commercial"
+          }
+        },
         {
           "id": 1314,
           "name": "Smile Patch",
@@ -2603,8 +2615,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-05-22T10:50:00Z",
-          "end_time": "2026-05-22T11:50:00Z"
+          "start_time": "2026-05-21T09:16:00Z",
+          "end_time": "2026-05-21T11:16:00Z"
         }
       ],
       "webcast_live": false,
