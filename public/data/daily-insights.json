@@ -1,61 +1,58 @@
 {
-  "generated_at": "2026-05-17T12:38:35.610Z",
+  "generated_at": "2026-05-18T01:19:23.619Z",
   "daily_summary": {
-    "headline": "Exciting Space Events and Aurora Opportunities",
+    "headline": "Exciting Space Events and Aurora Opportunities on the Horizon",
     "top_events": [
       {
         "rank": 1,
-        "title": "Starship Flight 12",
-        "description": "Maiden flight of Starship V3, testing new technologies for future Mars missions.",
-        "importance": 8,
-        "date": "2026-05-19",
+        "title": "Vega-C Launch with SMILE Mission",
+        "description": "The Vega-C rocket will launch the Solar wind Magnetosphere Ionosphere Link Explorer (SMILE), a joint mission between ESA and the Chinese Academy of Sciences, to study Earth's magnetosphere.",
+        "importance": 5,
+        "date": "2026-05-19T03:52:00Z",
         "type": "launch",
-        "action": "Watch live for groundbreaking technology tests."
+        "action": "Watch live stream for insights into Earth's protective shield."
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "G1 geomagnetic storm expected, visible to 60° latitude.",
-        "importance": 7,
-        "date": "2026-05-18",
-        "type": "aurora",
-        "action": "Check skies for aurora activity if you're at high latitudes."
+        "title": "Starship Flight 12 Test Launch",
+        "description": "SpaceX's Starship Flight 12 will test new technologies for the Starship reusable launch vehicle, including payload deployment and heat shield analysis.",
+        "importance": 5,
+        "date": "2026-05-20T22:30:00Z",
+        "type": "launch",
+        "action": "Follow the test flight for groundbreaking technology demonstrations."
       },
       {
         "rank": 3,
-        "title": "Vega-C SMILE Mission",
-        "description": "Launch of the SMILE mission to study Earth's magnetosphere.",
-        "importance": 6,
-        "date": "2026-05-19",
-        "type": "launch",
-        "action": "Follow the mission for insights into Earth's space environment."
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 geomagnetic storm may create aurora visible to those at higher latitudes, with the best viewing opportunity on May 19 at 03:00 UTC.",
+        "importance": 5,
+        "date": "2026-05-19T03:00:00Z",
+        "type": "aurora",
+        "action": "Check skies if you're above 60° latitude for potential aurora sightings."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
-      "historic_events": 1,
+      "historic_events": 0,
       "aurora_opportunities": 2
     }
   },
-  "alerts": [
-    {
-      "type": "launch",
-      "priority": "high",
-      "title": "Starship Flight 12 - Maiden Flight",
-      "message": "The maiden flight of Starship V3 is scheduled for May 19, 2026. This test flight will demonstrate new technologies crucial for future Mars missions.",
-      "action_required": "Watch live for groundbreaking technology tests.",
-      "expires_at": "2026-05-19T23:59:59Z",
-      "tags": [
-        "Starship",
-        "SpaceX",
-        "Maiden Flight",
-        "Mars"
-      ]
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
     "opportunities": [
+      {
+        "date": "2026-05-19T03:00:00",
+        "max_kp": 5.33,
+        "storm_level": "G1",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-05-19T03:00:00",
+          "end": "2026-05-19T03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
       {
         "date": "2026-05-18T15:00:00",
         "max_kp": 5,
@@ -79,12 +76,24 @@
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-05-18T18:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-05-18T18:00:00",
+          "end": "2026-05-18T18:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-05-18T15:00:00",
-      "time": "15:00-15:00 UTC",
-      "kp": 5,
+      "date": "2026-05-19T03:00:00",
+      "time": "03:00-03:00 UTC",
+      "kp": 5.33,
       "visibility_range": "Down to 60° latitude"
     },
     "total_viewing_hours": 0
@@ -93,8 +102,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
-    "iterations": 3
+    "iterations": 2
   }
 }
