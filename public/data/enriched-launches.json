@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T01:19:23.619Z",
+  "generated_at": "2026-05-18T13:37:45.748Z",
   "launches": [
     {
       "id": "b31313da-ee5d-42b2-9a27-20cc18105276",
@@ -14,7 +14,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-17T14:16:49Z",
+      "last_updated": "2026-05-18T09:37:16Z",
       "updates": [
         {
           "id": 14794,
@@ -291,11 +291,11 @@
       "infoURLs": [
         {
           "priority": 10,
-          "source": "esa.int",
-          "title": "Smile Launch Kit",
-          "description": null,
+          "source": "avio.com",
+          "title": "Launch Kit VV29",
+          "description": "Launch Kit VV29",
           "feature_image": null,
-          "url": "https://esamultimedia.esa.int/docs/science/Smile_Launch_Kit_EN.pdf",
+          "url": "https://www.avio.com/press-kit/launch-kit-vv29",
           "type": {
             "id": 2,
             "name": "Official Press Kit"
@@ -308,11 +308,11 @@
         },
         {
           "priority": 10,
-          "source": "avio.com",
-          "title": "VV29 Launch Kit",
+          "source": "esa.int",
+          "title": "Smile Launch Kit",
           "description": null,
           "feature_image": null,
-          "url": "https://www.avio.com/sites/avio.com/files/downloads/LAUNCH-KIT%20VV29%20-%20ENG.pdf",
+          "url": "https://esamultimedia.esa.int/docs/science/Smile_Launch_Kit_EN.pdf",
           "type": {
             "id": 2,
             "name": "Official Press Kit"
@@ -495,6 +495,18 @@
       "pad_turnaround": "P168DT10H30M35S",
       "mission_patches": [
         {
+          "id": 1326,
+          "name": "VV29 Patch",
+          "priority": 9,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/vv292520patch_mission_patch_20260518093614.png",
+          "agency": {
+            "id": 159,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/159/",
+            "name": "Avio S.p.A",
+            "type": "Commercial"
+          }
+        },
+        {
           "id": 1314,
           "name": "Smile Patch",
           "priority": 10,
@@ -510,17 +522,25 @@
       "type": "detailed",
       "ai_enrichment": {
         "launch_id": "b31313da-ee5d-42b2-9a27-20cc18105276",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "importance_score": 7,
+        "reasoning": "The Vega-C launch of the SMILE mission is significant due to its scientific objectives in studying Earth's magnetosphere, involving collaboration between ESA and the Chinese Academy of Sciences.",
+        "key_facts": [
+          "Joint mission between ESA and CAS",
+          "Focus on Earth's magnetosphere interaction with solar wind",
+          "Launch from Guiana Space Centre, French Guiana"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Standard mission"
+        "tags": [
+          "ESA",
+          "CAS",
+          "Scientific Mission"
+        ],
+        "user_recommendation": "Tune in for live coverage and mission insights."
       }
     },
     {
@@ -1188,15 +1208,22 @@
       "ai_enrichment": {
         "launch_id": "7ba18bcb-c711-4329-9fc1-7ac017fadfff",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Routine Starlink deployment by SpaceX, contributing to the expansion of the satellite internet constellation.",
+        "key_facts": [
+          "Part of the Starlink mega-constellation",
+          "Launch from Vandenberg SFB, CA, USA"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "SpaceX",
+          "Starlink",
+          "Communications"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -1982,17 +2009,25 @@
       "type": "detailed",
       "ai_enrichment": {
         "launch_id": "ed83366c-872c-4484-97c1-bc74832304fc",
-        "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "importance_score": 8,
+        "reasoning": "Starship Flight 12 is a significant test flight for SpaceX's Starship V3, featuring new technology and design improvements.",
+        "key_facts": [
+          "Maiden flight of Starship V3",
+          "Test of new Raptor 3 engines",
+          "Launch from SpaceX Starbase, TX, USA"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
-        "user_recommendation": "Standard mission"
+        "tags": [
+          "SpaceX",
+          "Starship",
+          "Test Flight"
+        ],
+        "user_recommendation": "Watch live for groundbreaking technology demonstration."
       }
     },
     {
@@ -2385,8 +2420,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-05-22T10:50:00Z",
-          "end_time": "2026-05-22T11:50:00Z"
+          "start_time": "2026-05-21T09:16:00Z",
+          "end_time": "2026-05-21T11:16:00Z"
         }
       ],
       "webcast_live": false,
@@ -2617,11 +2652,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7290,
+      "orbital_launch_attempt_count": 7289,
       "location_launch_attempt_count": 1108,
       "pad_launch_attempt_count": 382,
       "agency_launch_attempt_count": 679,
-      "orbital_launch_attempt_count_year": 117,
+      "orbital_launch_attempt_count_year": 116,
       "location_launch_attempt_count_year": 32,
       "pad_launch_attempt_count_year": 28,
       "agency_launch_attempt_count_year": 60,
@@ -2644,15 +2679,22 @@
       "ai_enrichment": {
         "launch_id": "ef65c43b-faf9-4adb-9155-289eaabdd097",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Another routine Starlink launch, part of SpaceX's ongoing efforts to expand its satellite internet service.",
+        "key_facts": [
+          "Part of the Starlink mega-constellation",
+          "Launch from Cape Canaveral SFS, FL, USA"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "SpaceX",
+          "Starlink",
+          "Communications"
+        ],
         "user_recommendation": "Standard mission"
       }
     },
@@ -2942,15 +2984,22 @@
       "ai_enrichment": {
         "launch_id": "156a9e46-01b5-46f4-818e-ea563c71c5fe",
         "importance_score": 5,
-        "reasoning": "Unable to analyze launch due to missing data",
-        "key_facts": [],
+        "reasoning": "Launch of a synthetic aperture radar satellite for Earth observation by Synspective, contributing to commercial satellite imaging capabilities.",
+        "key_facts": [
+          "Synspective's Earth observation satellite",
+          "Launch from Rocket Lab Launch Complex 1, New Zealand"
+        ],
         "viewing_info": {
           "visible_from_europe": false,
           "best_viewing_distance_km": 50,
           "live_stream_recommended": true,
           "visibility_window": "10 minutes before to 5 minutes after liftoff"
         },
-        "tags": [],
+        "tags": [
+          "Rocket Lab",
+          "Earth Observation",
+          "Commercial"
+        ],
         "user_recommendation": "Standard mission"
       }
     }
