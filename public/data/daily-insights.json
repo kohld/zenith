@@ -1,58 +1,44 @@
 {
-  "generated_at": "2026-05-18T13:37:45.747Z",
+  "generated_at": "2026-05-19T01:19:27.903Z",
   "daily_summary": {
-    "headline": "Exciting Space Events on the Horizon",
+    "headline": "Exciting Space Events on May 19, 2026",
     "top_events": [
       {
         "rank": 1,
-        "title": "Starship Flight 12",
-        "description": "12th test flight of the two-stage Starship launch vehicle. Maiden Flight of Starship V3.",
-        "importance": 8,
-        "date": "2026-05-20",
-        "type": "launch",
-        "action": "Watch live for groundbreaking technology demonstration."
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 geomagnetic storm with a Kp index of 5.33 offers a good aurora viewing opportunity for observers above 60° latitude.",
+        "importance": 7,
+        "date": "2026-05-19T03:00:00",
+        "type": "aurora",
+        "action": "Check the skies if you're in high latitudes."
       },
       {
         "rank": 2,
-        "title": "Vega-C Launch with SMILE Mission",
-        "description": "Vega-C launches the Solar wind Magnetosphere Ionosphere Link Explorer (SMILE) to study Earth's magnetosphere.",
-        "importance": 7,
-        "date": "2026-05-19",
+        "title": "Vega-C Launch - SMILE Mission",
+        "description": "The Vega-C rocket will launch the Solar wind Magnetosphere Ionosphere Link Explorer (SMILE) to study Earth's magnetosphere.",
+        "importance": 5,
+        "date": "2026-05-19T03:52:00",
         "type": "launch",
-        "action": "Tune in for live coverage and mission insights."
+        "action": "Watch the live stream for this scientific mission."
       },
       {
         "rank": 3,
-        "title": "Aurora Viewing Opportunity",
-        "description": "G1 level geomagnetic storm expected, visible to 60° latitude.",
-        "importance": 6,
-        "date": "2026-05-19",
-        "type": "aurora",
-        "action": "Check the skies if you're in a high-latitude area."
+        "title": "Starlink Group 17-42 Launch",
+        "description": "SpaceX's Falcon 9 will launch a batch of 24 Starlink satellites to expand the internet constellation.",
+        "importance": 5,
+        "date": "2026-05-20T02:11:00",
+        "type": "launch",
+        "action": "Tune into the live stream for the launch."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
-      "historic_events": 1,
-      "aurora_opportunities": 2
+      "historic_events": 0,
+      "aurora_opportunities": 1
     }
   },
-  "alerts": [
-    {
-      "type": "launch",
-      "priority": "high",
-      "title": "Starship Flight 12",
-      "message": "12th test flight of the two-stage Starship launch vehicle. Maiden Flight of Starship V3.",
-      "action_required": "Watch live for groundbreaking technology demonstration.",
-      "expires_at": "2026-05-21T00:00:00Z",
-      "tags": [
-        "Starship",
-        "SpaceX",
-        "Test Flight"
-      ]
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
     "opportunities": [
       {
@@ -63,18 +49,6 @@
         "time_window": {
           "start": "2026-05-19T03:00:00",
           "end": "2026-05-19T03:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
-      {
-        "date": "2026-05-18T15:00:00",
-        "max_kp": 5,
-        "storm_level": "G1",
-        "probability": "Moderate (50-70%)",
-        "time_window": {
-          "start": "2026-05-18T15:00:00",
-          "end": "2026-05-18T15:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
@@ -92,8 +66,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 20,
+    "total_aurora_entries_analyzed": 24,
     "processing_time_seconds": 0,
-    "iterations": 3
+    "iterations": 2
   }
 }
