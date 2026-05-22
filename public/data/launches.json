@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-22T03:11:32.509Z",
+  "updatedAt": "2026-05-22T04:51:03.817Z",
   "launches": [
     {
       "id": "ef65c43b-faf9-4adb-9155-289eaabdd097",
@@ -757,7 +757,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-21T04:24:09Z",
+      "last_updated": "2026-05-22T03:59:17Z",
       "updates": [
         {
           "id": 15017,
@@ -1005,7 +1005,28 @@
           }
         }
       ],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": null,
+          "publisher": "Rocket Lab",
+          "title": "Rocket Lab - 'Viva La StriX' Launch",
+          "description": "",
+          "feature_image": "https://i.ytimg.com/vi/oyrrCpLFU88/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=oyrrCpLFU88",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-05-22T09:10:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
