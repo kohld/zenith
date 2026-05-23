@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T08:16:58.718Z",
+  "updatedAt": "2026-05-23T09:11:06.487Z",
   "launches": [
     {
       "id": "156a9e46-01b5-46f4-818e-ea563c71c5fe",
@@ -362,13 +362,21 @@
       "r_spacex_api_id": null,
       "name": "Starship | Flight 12",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-05-23T01:19:51Z",
+      "last_updated": "2026-05-23T08:59:13Z",
       "updates": [
+        {
+          "id": 15084,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Successful liftoff and ascent of Starship and Super Heavy, placing Ship 39 on a valid suborbital trajectory",
+          "info_url": "https://www.spacex.com/launches/starship-flight-12",
+          "created_by": "Nosu",
+          "created_on": "2026-05-23T08:40:00Z"
+        },
         {
           "id": 15046,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -715,11 +723,11 @@
             "launcher": {
               "id": 243,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/243/",
-              "details": "First Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. Planned for usage on the 12th Starship flight test, replacing Booster 18 written off during ground testing in November 2025.",
+              "details": "First Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. Used on the 12th Starship flight test, replacing Booster 18 written off during ground testing in November 2025. It was lost after stage separation, having completed an off-nominal boostback burn with fewer engines than planned.",
               "flight_proven": false,
               "serial_number": "Booster 19",
-              "status": "active",
-              "image_url": null,
+              "status": "destroyed",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_during_image_20260523090008.jpg",
               "successful_landings": 0,
               "attempted_landings": 1,
               "flights": 0,
@@ -729,8 +737,8 @@
             "landing": {
               "id": 1859,
               "attempt": true,
-              "success": null,
-              "description": "The Super Heavy Booster 19 will make a planned splashdown near the launch site.",
+              "success": false,
+              "description": "The Super Heavy Booster 19 was lost after stage separation, having performed an off-nominal boostback burn with fewer engines than planned.",
               "downrange_distance": null,
               "location": {
                 "id": 16,
@@ -755,7 +763,7 @@
         "spacecraft_stage": {
           "id": 895,
           "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/895/",
-          "mission_end": null,
+          "mission_end": "2026-05-22T23:36:59Z",
           "destination": "Suborbital",
           "launch_crew": [],
           "onboard_crew": [],
@@ -772,10 +780,10 @@
             "flights_count": 1,
             "mission_ends_count": 0,
             "status": {
-              "id": 4,
-              "name": "Single Use"
+              "id": 3,
+              "name": "Destroyed"
             },
-            "description": "First V3 Starship planned to fly on flight 12.",
+            "description": "First V3 Starship, that flew on the 12th Starship test flight. Despite the loss of a Raptor Vacuum engine at ignition, it performed an extended ascent burn, reached a valid trajectory, and successfully reentered the atmosphere to splash down softly on target in the Indian Ocean. Lost in an explosion just after the soft splashdown.",
             "spacecraft_config": {
               "id": 46,
               "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/46/",
@@ -822,8 +830,8 @@
           "landing": {
             "id": 1757,
             "attempt": true,
-            "success": null,
-            "description": "A landing and splashdown in the Indian Ocean is expected",
+            "success": true,
+            "description": "Ship 39 successfully performed a soft splashdown in the Indian Ocean, after which it exploded.",
             "downrange_distance": null,
             "location": {
               "id": 32,
@@ -1295,7 +1303,7 @@
           "relative_time": "PT1H5M26S"
         }
       ],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_liftof_image_20260523085855.jpg",
       "infographic": null,
       "program": [
         {
