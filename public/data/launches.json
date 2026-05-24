@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T11:30:56.222Z",
+  "updatedAt": "2026-05-24T12:27:03.945Z",
   "launches": [
     {
       "id": "a0e0f590-1cb4-4b6b-845c-0087633af132",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-18T06:43:38Z",
+      "last_updated": "2026-05-24T11:51:28Z",
       "updates": [
+        {
+          "id": 15088,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Unofficial Webcast by CGTN has started",
+          "info_url": "https://www.youtube.com/watch?v=cY7Jh93Cyic",
+          "created_by": "LL2",
+          "created_on": "2026-05-24T12:00:00Z"
+        },
         {
           "id": 14991,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -228,8 +236,69 @@
         "orbital_launch_attempt_count": 28
       },
       "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
+      "vidURLs": [
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "CGTN",
+          "title": "Live: Special coverage of China's Shenzhou-23 crewed spacecraft launch",
+          "description": "China launches its Shenzhou-23 crewed spacecraft from the Jiuquan Satellite Launch Center in northwest China. Chinese astronauts Zhu Yangzhu, Zhang Zhiyuan and Lai Ka-ying carry out the mission, with Zhu as the commander. #SpaceChina",
+          "feature_image": "https://i.ytimg.com/vi/cY7Jh93Cyic/hqdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=cY7Jh93Cyic",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-05-24T11:59:42Z",
+          "end_time": null
+        },
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Associated Press",
+          "title": "LIVE: China to launch astronauts to Tiangong space station on Shenzhou-23 spacecraft",
+          "description": "Watch live as China launches a crew of three astronauts to its Tiangong space station on Shenzhou-23 spacecraft from the Jiuquan Satellite Launch Center. The crew includes Lai Ka-ying, who is the first astronaut from Hong Kong, along with astronauts Zhu Yangzhu and Zhang Zhiyuan.\n\n#china #space #live",
+          "feature_image": "https://i.ytimg.com/vi/pm_odSrHYy0/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=pm_odSrHYy0",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-05-24T11:38:52Z",
+          "end_time": null
+        },
+        {
+          "priority": 11,
+          "source": "youtube.com",
+          "publisher": "CCTV Video News Agency",
+          "title": "LIVE: Special Coverage of China's Shenzhou-23 Crewed Spacecraft Launch",
+          "description": "China launches its Shenzhou-23 crewed spacecraft from the Jiuquan Satellite Launch Center in northwest China. Chinese astronauts Zhu Yangzhu, Zhang Zhiyuan and Lai Ka-ying carry out the mission, with Zhu as the commander.\n\nWelcome to subscribe us on: \nFacebook: https://www.facebook.com/NewsContent.CCTVPLUS\nTwitter: https://twitter.com/CCTV_Plus\nLinkedIn: https://www.linkedin.com/company/cctv-news-content\nInstagram: https://www.instagram.com/cctv_video_news_agency/\nTikTok: https://www.tiktok.com/@cctv_plus\n\nVideo on Demand: www.cctvplus.com\nIf you are in demand of this video footage, please contact with our business development team via email: service@cctvplus.com, newmedia@cctvplus.com",
+          "feature_image": "https://i.ytimg.com/vi/SFvZ-gvWQeo/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=SFvZ-gvWQeo",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-05-24T12:13:48Z",
+          "end_time": null
+        }
+      ],
+      "webcast_live": true,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_20251129175823.jpg",
       "infographic": null,
