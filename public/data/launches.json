@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T15:51:58.683Z",
+  "updatedAt": "2026-05-24T16:23:57.939Z",
   "launches": [
     {
       "id": "a0e0f590-1cb4-4b6b-845c-0087633af132",
@@ -466,7 +466,7 @@
           "publisher": "CGTN",
           "title": "Live: Special coverage of China's Shenzhou-23 crewed spacecraft launch",
           "description": "China launches its Shenzhou-23 crewed spacecraft at 23:08 Beijing Time (15:08 GMT) from the Jiuquan Satellite Launch Center in northwest China. Chinese astronauts Zhu Yangzhu, Zhang Zhiyuan and Li Jiaying, also known as Lai Ka-ying in Cantonese, carry out the mission, with Zhu as the commander.",
-          "feature_image": "https://i.ytimg.com/vi/cY7Jh93Cyic/hqdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/cY7Jh93Cyic/hqdefault.jpg",
           "url": "https://www.youtube.com/watch?v=cY7Jh93Cyic",
           "type": {
             "id": 1,
@@ -613,8 +613,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-05-23T19:03:48Z",
+      "last_updated": "2026-05-24T16:21:33Z",
       "updates": [
+        {
+          "id": 15092,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting May 25 at 11:48 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-10-47",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-24T16:21:00Z"
+        },
         {
           "id": 15086,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -640,12 +648,12 @@
           "created_on": "2026-05-15T15:30:00Z"
         }
       ],
-      "net": "2026-05-25T11:41:00Z",
+      "net": "2026-05-25T11:48:04Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-05-25T15:41:00Z",
       "window_start": "2026-05-25T11:41:00Z",
@@ -1230,7 +1238,7 @@
       "location_launch_attempt_count_year": 33,
       "pad_launch_attempt_count_year": 29,
       "agency_launch_attempt_count_year": 61,
-      "pad_turnaround": "P4DT1H36M40S",
+      "pad_turnaround": "P4DT1H43M44S",
       "mission_patches": [
         {
           "id": 7,
@@ -1666,7 +1674,7 @@
           "publisher": "SpaceX",
           "title": "Starlink Mission",
           "description": "Livestream on X",
-          "feature_image": null,
+          "feature_image": "https://pbs.twimg.com/media/HHFzuQQXkAAhA-l.jpg",
           "url": "https://x.com/i/broadcasts/1rGmqoeWkBkGy",
           "type": {
             "id": 1,
