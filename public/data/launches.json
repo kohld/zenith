@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-29T22:56:38.889Z",
+  "updatedAt": "2026-05-29T23:34:59.824Z",
   "launches": [
     {
       "id": "384fb817-2a18-46ec-b294-613c08ecea52",
@@ -756,13 +756,37 @@
       "r_spacex_api_id": null,
       "name": "Atlas V 551 | Amazon Leo (LA-07)",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 5,
+        "name": "On Hold",
+        "abbrev": "Hold",
+        "description": "The countdown has been paused, but the launch can still happen within the launch window."
       },
-      "last_updated": "2026-05-29T21:09:46Z",
+      "last_updated": "2026-05-29T23:29:58Z",
       "updates": [
+        {
+          "id": 15134,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Hold due to launch site weather.",
+          "info_url": "https://www.youtube.com/watch?v=hRddOJJzB7A",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-29T23:29:00Z"
+        },
+        {
+          "id": 15133,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Official Webcast by United Launch Alliance has started",
+          "info_url": "https://www.youtube.com/watch?v=hRddOJJzB7A",
+          "created_by": "LL2",
+          "created_on": "2026-05-29T23:15:00Z"
+        },
+        {
+          "id": 15132,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://24live.co/live/UmozY?n=4120997715307385172",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-05-29T23:11:00Z"
+        },
         {
           "id": 15129,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -828,7 +852,7 @@
           "created_on": "2026-04-03T23:45:00Z"
         }
       ],
-      "net": "2026-05-29T23:33:30Z",
+      "net": "2026-05-29T23:45:00Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -837,7 +861,7 @@
       },
       "window_end": "2026-05-30T00:02:30Z",
       "window_start": "2026-05-29T23:33:30Z",
-      "probability": 30,
+      "probability": 45,
       "weather_concerns": "Cumulus Cloud Rule, Anvil Cloud Rules, Surface Electric Fields Rule",
       "holdreason": "",
       "failreason": "",
@@ -1051,7 +1075,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-05-29T23:13:00Z",
+          "start_time": "2026-05-29T23:12:36Z",
           "end_time": null
         },
         {
@@ -1078,7 +1102,7 @@
           "priority": 12,
           "source": "youtube.com",
           "publisher": "NASASpaceflight",
-          "title": "New Glenn RUD aftermath, Starship, and perhaps an Atlas V launch - The Flame Trench",
+          "title": "ULA Launches Penultimate Atlas V 551 (LA-07) + The Flame Trench",
           "description": "Join us for episode 98 of \"The Flame Trench\" discussing the New Glenn RUD, Starship Flight 12, and potentially a live Atlas V launch!\n\nLaunch Window: May 29th from 7:33:30PM to 8:02:30PM EDT (23:33:30-00:02:30 UTC)\nCurrent T0: May 29th at 7:33:30PM EDT (23:33:30 UTC)\n\nMission: Atlas V 551 launch of a batch of 29 Amazon Leo satellites into orbit.\nLaunch location: Space Launch Complex 41 (SLC-41), Cape Canaveral Space Force Station, Earth. \nTarget orbit: Low-Earth Orbit (LEO); ~450km circular orbit at 51.9º inclination\nBooster: AV-113\nConfiguration: 551\n  - 5 meter wide, medium length version payload fairing\n  - 5 GEM 63 solid rocket motors\n  - 1 RL10C-1-1 engine on Centaur\n  - Nicknamed \"Bruiser\"\nRocket trajectory: Northeast flying parallel to the US east coast.\nPayload mass: ~16800kg ...",
           "feature_image": "https://i.ytimg.com/vi/Cu4tIY6fQko/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=Cu4tIY6fQko",
@@ -1246,7 +1270,7 @@
       "location_launch_attempt_count_year": 35,
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 4,
-      "pad_turnaround": "P31DT22H40M",
+      "pad_turnaround": "P31DT22H51M30S",
       "mission_patches": [],
       "type": "detailed"
     },
