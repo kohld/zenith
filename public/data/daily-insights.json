@@ -1,55 +1,145 @@
 {
-  "generated_at": "2026-05-26T01:17:44.281Z",
+  "generated_at": "2026-06-08T13:50:53.556Z",
   "daily_summary": {
-    "headline": "Routine Launches and Calm Skies",
+    "headline": "Aurora and Launches Light Up the Sky",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-37",
-        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-        "importance": 5,
-        "date": "2026-05-26T14:00:00Z",
-        "type": "launch",
-        "action": "Watch live stream for a glimpse of advanced reusable rocket technology."
+        "title": "G3 Aurora Storm",
+        "description": "A G3 geomagnetic storm is expected, offering aurora visibility at 52° latitude.",
+        "importance": 8,
+        "date": "2026-06-08",
+        "type": "aurora",
+        "action": "Prepare for aurora viewing and photography."
       },
       {
         "rank": 2,
-        "title": "Long March 7A | Unknown Payload",
-        "description": "Launch of an unknown payload by China Aerospace Science and Technology Corporation.",
+        "title": "Zhuque-2E Block 2 Launch",
+        "description": "LandSpace's Zhuque-2E Block 2 rocket will launch with an unknown payload from Jiuquan Satellite Launch Center.",
         "importance": 5,
-        "date": "2026-05-26T16:15:00Z",
+        "date": "2026-06-09",
         "type": "launch",
-        "action": "Follow updates for potential insights into China's space activities."
+        "action": "Watch the live stream for this operational mission."
       },
       {
         "rank": 3,
-        "title": "Aurora Forecast",
-        "description": "No significant aurora activity expected.",
-        "importance": 1,
-        "date": "2026-05-26",
-        "type": "aurora",
-        "action": "No action needed."
+        "title": "Falcon 9 Starlink Launch",
+        "description": "SpaceX's Falcon 9 will launch a batch of Starlink satellites from Vandenberg SFB.",
+        "importance": 5,
+        "date": "2026-06-10",
+        "type": "launch",
+        "action": "Watch the live stream for this operational mission."
       }
     ],
     "statistics": {
-      "total_launches_this_week": 2,
+      "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 7
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-06-08T15:00:00",
+        "max_kp": 6.67,
+        "storm_level": "G3",
+        "probability": "High (70-90%)",
+        "time_window": {
+          "start": "2026-06-08T15:00:00",
+          "end": "2026-06-08T15:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-06-08T21:00:00",
+        "max_kp": 5.67,
+        "storm_level": "G2",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-06-08T21:00:00",
+          "end": "2026-06-08T21:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-06-09T00:00:00",
+        "max_kp": 5.67,
+        "storm_level": "G2",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-06-09T00:00:00",
+          "end": "2026-06-09T00:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-06-08T18:00:00",
+        "max_kp": 5.33,
+        "storm_level": "G1",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-06-08T18:00:00",
+          "end": "2026-06-08T18:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-06-09T03:00:00",
+        "max_kp": 5.33,
+        "storm_level": "G1",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-06-09T03:00:00",
+          "end": "2026-06-09T03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
+      {
+        "date": "2026-06-09T06:00:00",
+        "max_kp": 4.33,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-06-09T06:00:00",
+          "end": "2026-06-09T06:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-06-09T21:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-06-09T21:00:00",
+          "end": "2026-06-09T21:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-06-08T15:00:00",
+      "time": "15:00-15:00 UTC",
+      "kp": 6.67,
+      "visibility_range": "Down to 55° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 24,
+    "total_aurora_entries_analyzed": 20,
     "processing_time_seconds": 0,
-    "iterations": 2
+    "iterations": 4
   }
 }
