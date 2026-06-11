@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T21:17:10.993Z",
+  "updatedAt": "2026-06-11T22:12:07.164Z",
   "launches": [
     {
       "id": "2670e4f1-d58b-4787-9c3f-f9eb03349513",
@@ -994,17 +994,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -1994,17 +1994,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -4122,17 +4122,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -4154,17 +4154,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -4341,7 +4341,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-06-05T14:28:08Z",
+      "last_updated": "2026-06-11T21:45:51Z",
       "updates": [
         {
           "id": 15207,
@@ -4573,7 +4573,88 @@
       "infoURLs": [],
       "vidURLs": [],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT7S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 77,
+            "abbrev": "SRB Separation",
+            "description": "The solid rocket boosters are separated from the launcher."
+          },
+          "relative_time": "PT2M21S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT3M11S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT7M51S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT7M59S"
+        },
+        {
+          "type": {
+            "id": 21,
+            "abbrev": "SES-2",
+            "description": "Second start of the second engine"
+          },
+          "relative_time": "PT1H8M"
+        },
+        {
+          "type": {
+            "id": 78,
+            "abbrev": "Payload Deployment Sequence Start",
+            "description": "Start of the payload deployment sequence"
+          },
+          "relative_time": "PT1H26M"
+        },
+        {
+          "type": {
+            "id": 79,
+            "abbrev": "Payload Deployment Sequence End",
+            "description": "End of the payload deployment sequence."
+          },
+          "relative_time": "PT1H51M"
+        },
+        {
+          "type": {
+            "id": 80,
+            "abbrev": "SES-3",
+            "description": "Third start of the second engine"
+          },
+          "relative_time": "PT2H40M"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_20260213070745.jpg",
       "infographic": null,
       "program": [
@@ -5989,17 +6070,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -7995,7 +8076,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2026-06-11T16:11:31Z",
+      "last_updated": "2026-06-11T21:49:02Z",
       "updates": [
         {
           "id": 14917,
@@ -8181,7 +8262,80 @@
       "infoURLs": [],
       "vidURLs": [],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "PT5S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT1M19S"
+        },
+        {
+          "type": {
+            "id": 31,
+            "abbrev": "SES",
+            "description": "Start of the second engine"
+          },
+          "relative_time": "PT1M35S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT2M17S"
+        },
+        {
+          "type": {
+            "id": 24,
+            "abbrev": "SECO",
+            "description": "Cut-off of the second engine"
+          },
+          "relative_time": "PT2M50S"
+        },
+        {
+          "type": {
+            "id": 75,
+            "abbrev": "Stage 3 Ignition",
+            "description": "Third stage engine ignites."
+          },
+          "relative_time": "PT6M35S"
+        },
+        {
+          "type": {
+            "id": 76,
+            "abbrev": "Stage 3 Cutoff",
+            "description": "Third stage engine shuts down."
+          },
+          "relative_time": "PT7M44S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT12M44S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
       "infographic": null,
       "program": [],
