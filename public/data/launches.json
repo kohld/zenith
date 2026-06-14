@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T03:13:17.417Z",
+  "updatedAt": "2026-06-14T05:08:39.768Z",
   "launches": [
     {
       "id": "ffc0aee1-fdd7-4638-b098-9d0c01b40663",
@@ -5092,8 +5092,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-06-10T22:40:37Z",
+      "last_updated": "2026-06-14T03:37:34Z",
       "updates": [
+        {
+          "id": 15272,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Jun 24 at 02:48 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-45",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-06-14T03:37:00Z"
+        },
         {
           "id": 15246,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -5111,15 +5119,15 @@
           "created_on": "2026-06-10T18:48:00Z"
         }
       ],
-      "net": "2026-06-24T11:00:00Z",
+      "net": "2026-06-24T02:48:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-06-24T15:00:00Z",
-      "window_start": "2026-06-24T11:00:00Z",
+      "window_end": "2026-06-24T04:48:00Z",
+      "window_start": "2026-06-24T02:48:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -5343,7 +5351,7 @@
               }
             },
             "previous_flight_date": "2026-05-06T03:59:19Z",
-            "turn_around_time_days": 49,
+            "turn_around_time_days": 48,
             "previous_flight": {
               "id": "dd82ccd7-9ab2-410a-ac41-306218015c05",
               "name": "Falcon 9 Block 5 | Starlink Group 17-29"
@@ -5516,7 +5524,7 @@
       "location_launch_attempt_count_year": 41,
       "pad_launch_attempt_count_year": 39,
       "agency_launch_attempt_count_year": 76,
-      "pad_turnaround": "P3DT21H",
+      "pad_turnaround": "P3DT12H48M",
       "mission_patches": [
         {
           "id": 7,
