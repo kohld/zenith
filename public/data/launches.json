@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T11:36:27.809Z",
+  "updatedAt": "2026-06-17T13:19:27.104Z",
   "launches": [
     {
       "id": "756a042f-3da8-4a21-bb42-5996fc148050",
@@ -1141,13 +1141,45 @@
       "r_spacex_api_id": null,
       "name": "Ariane 64 Block 2 | Amazon Leo (LE-03)",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "The launch vehicle has lifted off from the launchpad."
       },
-      "last_updated": "2026-06-17T11:32:48Z",
+      "last_updated": "2026-06-17T12:23:03Z",
       "updates": [
+        {
+          "id": 15303,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://www.youtube.com/watch?v=GFyhszzyiJA",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-06-17T12:23:00Z"
+        },
+        {
+          "id": 15302,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.youtube.com/watch?v=GFyhszzyiJA",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-06-17T12:14:00Z"
+        },
+        {
+          "id": 15301,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Hold at T-01:08.",
+          "info_url": "https://www.youtube.com/watch?v=GFyhszzyiJA",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-06-17T11:53:00Z"
+        },
+        {
+          "id": 15300,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.youtube.com/watch?v=GFyhszzyiJA",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-06-17T11:46:00Z"
+        },
         {
           "id": 15299,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
@@ -1197,15 +1229,15 @@
           "created_on": "2022-04-06T07:19:27Z"
         }
       ],
-      "net": "2026-06-17T11:53:00Z",
+      "net": "2026-06-17T12:21:52Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2026-06-17T12:22:00Z",
-      "window_start": "2026-06-17T11:53:00Z",
+      "window_end": "2026-06-17T12:22:22Z",
+      "window_start": "2026-06-17T11:53:22Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1225,11 +1257,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 326,
+        "total_launch_count": 327,
         "consecutive_successful_launches": 14,
         "successful_launches": 311,
         "failed_launches": 15,
-        "pending_launches": 29,
+        "pending_launches": 28,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -1246,7 +1278,7 @@
           "id": 512,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/512/",
           "name": "Ariane 64",
-          "active": false,
+          "active": true,
           "reusable": false,
           "description": "",
           "family": "Ariane",
@@ -1298,11 +1330,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_20260213070745.jpg",
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/Ariane_6",
-          "total_launch_count": 0,
+          "total_launch_count": 1,
           "consecutive_successful_launches": 0,
           "successful_launches": 0,
           "failed_launches": 0,
-          "pending_launches": 2,
+          "pending_launches": 1,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -1375,13 +1407,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 333,
+          "total_launch_count": 334,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
-        "total_launch_count": 7,
-        "orbital_launch_attempt_count": 7
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
       },
       "infoURLs": [
         {
@@ -1469,7 +1501,7 @@
           "publisher": "NASASpaceflight",
           "title": "Ariane 6 Debuts New Booster Upgrade launching Amazon Leo (LE-03)",
           "description": "Launch Window: June 17, 11:53 - 12:22 UTC / 08:53 - 09:22 GFT (French Guiana)\n\nThis mission deploys the largest batch yet for Amazon's Project Kuiper competitor constellation, marking the debut of the upgraded P160C solid rocket boosters on the powerful Ariane 64 configuration. Follow the full countdown, liftoff, stage separation, and satellite deployment as Europe’s new heavy-lift launcher continues building out Amazon’s broadband megaconstellation.\n\n⚡ Become a member of NASASpaceflight's channel for exclusive discord access, fast turnaround clips, and other exclusive benefits. Your support helps us continue our 24/7 coverage. ⚡\n\n🔍 If you are interested in using footage captured by this stream, please review our content use policy: https://www.nasaspaceflight.com/content-use-policy/\n...",
-          "feature_image": "https://i.ytimg.com/vi/oZ1pzt4VFFc/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/oZ1pzt4VFFc/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=oZ1pzt4VFFc",
           "type": {
             "id": 3,
@@ -1481,15 +1513,15 @@
             "code": "en"
           },
           "start_time": "2026-06-17T10:54:53Z",
-          "end_time": null
+          "end_time": "2026-06-17T12:44:31Z"
         },
         {
           "priority": 14,
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
-          "title": "Arianespace - Ariane 64 - Amazon Leo (LE-03) - ELA-4 - Guiana SC, French Guiana - Space Affairs Live",
+          "title": "Arianespace - Ariane 64 - Amazon Leo (LE-03) - ELA-4 - Guiana SC, French Guiana - June 17, 2026",
           "description": "Launch Date: June 17, 2026 \nLaunch Time:  08:53 GFT, 1153 UTC, 13:53 CET\nLaunch Window: Open until 09:22 GFT\nLaunch Site: ELV-4 - Guiana Space Centre - French Guiana\nTargeted Orbit: LEO (Low Earth Orbit) \nPayload mass: 19,200 kg (42,240 lbs)\nLaunch Inclination: Northeast\nLaunch Status: Nominal Orbit Insertion\n\nMission: Amazon Leo (LE-01)\nLaunch Provider: Arianespace\nLaunch Contractor: Kuiper Systems LLC\nPayload Manufacturer: Amazon (Kuiper Systems LLC)\nLauncher System: Ariane 64 (Core Stage plus 4 Strap-On Boosters)\n\nPrice: $106 million (without payload)\nDiameter: 5,4 m\nHeight: 62 meters\nPayload to Orbit: 21,650 kg LEO / 11,500 kg GTO\nLift-Off Thrust: 15,370 kilonewtons\nFairing: Diameter 5,4 meters / Height 20 meters\nStages: 2\n\nOn this VA269 LE-03 mission, the P160C will enable Ariane...",
-          "feature_image": "https://i.ytimg.com/vi/hlpgvkRyZIs/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/hlpgvkRyZIs/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=hlpgvkRyZIs",
           "type": {
             "id": 4,
@@ -1501,7 +1533,7 @@
             "code": "en"
           },
           "start_time": "2026-06-17T11:00:01Z",
-          "end_time": null
+          "end_time": "2026-06-17T12:46:00Z"
         }
       ],
       "webcast_live": true,
@@ -1655,7 +1687,7 @@
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 3,
-      "pad_turnaround": "P48DT2H55M45S",
+      "pad_turnaround": "P48DT3H24M37S",
       "mission_patches": [
         {
           "id": 1327,
@@ -12699,11 +12731,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 326,
+        "total_launch_count": 327,
         "consecutive_successful_launches": 14,
         "successful_launches": 311,
         "failed_launches": 15,
-        "pending_launches": 29,
+        "pending_launches": 28,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -12819,13 +12851,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 333,
+          "total_launch_count": 334,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
-        "total_launch_count": 7,
-        "orbital_launch_attempt_count": 7
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -14680,7 +14712,7 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 333,
+          "total_launch_count": 334,
           "total_landing_count": 0
         },
         "country_code": "GUF",
@@ -19773,11 +19805,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 326,
+        "total_launch_count": 327,
         "consecutive_successful_launches": 14,
         "successful_launches": 311,
         "failed_launches": 15,
-        "pending_launches": 29,
+        "pending_launches": 28,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -19893,13 +19925,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 333,
+          "total_launch_count": 334,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
-        "total_launch_count": 7,
-        "orbital_launch_attempt_count": 7
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
       },
       "infoURLs": [
         {
@@ -22069,7 +22101,7 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 333,
+          "total_launch_count": 334,
           "total_landing_count": 0
         },
         "country_code": "GUF",
@@ -23635,11 +23667,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 326,
+        "total_launch_count": 327,
         "consecutive_successful_launches": 14,
         "successful_launches": 311,
         "failed_launches": 15,
-        "pending_launches": 29,
+        "pending_launches": 28,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -23785,13 +23817,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 333,
+          "total_launch_count": 334,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
-        "total_launch_count": 7,
-        "orbital_launch_attempt_count": 7
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -26200,11 +26232,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 326,
+        "total_launch_count": 327,
         "consecutive_successful_launches": 14,
         "successful_launches": 311,
         "failed_launches": 15,
-        "pending_launches": 29,
+        "pending_launches": 28,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -26221,7 +26253,7 @@
           "id": 512,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/512/",
           "name": "Ariane 64",
-          "active": false,
+          "active": true,
           "reusable": false,
           "description": "",
           "family": "Ariane",
@@ -26273,11 +26305,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_20260213070745.jpg",
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/Ariane_6",
-          "total_launch_count": 0,
+          "total_launch_count": 1,
           "consecutive_successful_launches": 0,
           "successful_launches": 0,
           "failed_launches": 0,
-          "pending_launches": 2,
+          "pending_launches": 1,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -26350,13 +26382,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 333,
+          "total_launch_count": 334,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
-        "total_launch_count": 7,
-        "orbital_launch_attempt_count": 7
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -27093,11 +27125,11 @@
         "launchers": "Ariane | Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 326,
+        "total_launch_count": 327,
         "consecutive_successful_launches": 14,
         "successful_launches": 311,
         "failed_launches": 15,
-        "pending_launches": 29,
+        "pending_launches": 28,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -27199,13 +27231,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 333,
+          "total_launch_count": 334,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_67_20200803143559.jpg",
-        "total_launch_count": 7,
-        "orbital_launch_attempt_count": 7
+        "total_launch_count": 8,
+        "orbital_launch_attempt_count": 8
       },
       "infoURLs": [
         {
