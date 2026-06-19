@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T03:12:38.476Z",
+  "updatedAt": "2026-06-19T05:15:10.827Z",
   "launches": [
     {
       "id": "5d4099bf-a0be-4f54-b236-b6ab3aed4146",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-06-18T16:06:03Z",
+      "last_updated": "2026-06-19T05:08:47Z",
       "updates": [
+        {
+          "id": 15317,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Jun 19 at 08:50 UTC",
+          "info_url": "https://www.spacex.com/launches/nrol179",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-06-19T05:08:00Z"
+        },
         {
           "id": 15306,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -41,12 +49,12 @@
           "created_on": "2026-06-09T12:40:00Z"
         }
       ],
-      "net": "2026-06-19T08:40:00Z",
+      "net": "2026-06-19T08:50:40Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-06-19T09:15:00Z",
       "window_start": "2026-06-19T08:40:00Z",
@@ -619,7 +627,7 @@
       "location_launch_attempt_count_year": 39,
       "pad_launch_attempt_count_year": 37,
       "agency_launch_attempt_count_year": 73,
-      "pad_turnaround": "P3DT17H5M25S",
+      "pad_turnaround": "P3DT17H16M5S",
       "mission_patches": [
         {
           "id": 1057,
@@ -1018,8 +1026,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-06-20T13:50:00Z",
-          "end_time": "2026-06-20T15:50:00Z"
+          "start_time": "2026-06-21T14:26:00Z",
+          "end_time": "2026-06-21T16:27:00Z"
         }
       ],
       "webcast_live": false,
@@ -1305,13 +1313,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Project Starfall Demonstration Mission",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-06-18T16:45:46Z",
+      "last_updated": "2026-06-19T05:14:42Z",
       "updates": [
+        {
+          "id": 15318,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/starfalldemo",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-06-19T05:12:00Z"
+        },
         {
           "id": 15316,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1336,7 +1352,7 @@
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-06-23T12:26:00Z",
+      "window_end": "2026-06-23T11:43:00Z",
       "window_start": "2026-06-23T10:43:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -1523,26 +1539,49 @@
           {
             "id": 949,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 29,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 120,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/120/",
+              "details": "Falcon 9 Block 5 booster first used for the Crew-6 mission.",
+              "flight_proven": true,
+              "serial_number": "B1078",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1078_landing_o_image_20250912151734.jpeg",
+              "successful_landings": 28,
+              "attempted_landings": 28,
+              "flights": 28,
+              "last_launch_date": "2026-05-25T11:48:04Z",
+              "first_launch_date": "2023-03-02T05:34:14Z"
             },
-            "landing": null,
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "landing": {
+              "id": 1877,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage B1078 will land on ASDS ASOG after its 29th flight.",
+              "downrange_distance": null,
+              "location": {
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "location": null,
+                "successful_landings": 157
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": "2026-05-25T11:48:04Z",
+            "turn_around_time_days": 28,
+            "previous_flight": {
+              "id": "e6159040-124e-4a2a-91db-41f5a48acfd8",
+              "name": "Falcon 9 Block 5 | Starlink Group 10-47"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -1589,8 +1628,47 @@
         "total_launch_count": 388,
         "orbital_launch_attempt_count": 388
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/starfalldemo",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starfall Demo Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/HLJWsyXaAAAdY9p.jpg",
+          "url": "https://x.com/i/broadcasts/1qGoNNmPYeBKv",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-06-23T10:31:00Z",
+          "end_time": "2026-06-23T13:31:00Z"
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
