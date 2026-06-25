@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T01:44:43.364Z",
+  "updatedAt": "2026-06-25T03:10:49.009Z",
   "launches": [
     {
       "id": "a4fb0d1a-2655-4552-b950-f2f6340ef85a",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-06-24T06:11:34Z",
+      "last_updated": "2026-06-25T03:01:37Z",
       "updates": [
+        {
+          "id": 15351,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Jun 25 at 03:30 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-45",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-06-25T01:56:00Z"
+        },
         {
           "id": 15350,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -57,7 +65,7 @@
           "created_on": "2026-06-10T18:48:00Z"
         }
       ],
-      "net": "2026-06-25T03:19:21Z",
+      "net": "2026-06-25T03:30:38Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -391,6 +399,46 @@
       ],
       "vidURLs": [
         {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - Starlink 17-45 - SLC-4E - Vandenberg SFB - Space Affairs Live",
+          "description": "Launch Date: June 24, 2026 PDT\nLaunch Time: 8:30 p.m. PDT (June 25, 0330 UTC, 05:30 CEST)\nLaunch Window: Open until 9:48 p.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Starlink Group 17-45\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1081 - Turnaround time 49 days)\nFlight for the Booster: 25\nPrevious Flights of the Booster: 24 - Crew-7, CRS-29, PACE, Transporter-10, EarthCARE, NROL-186, Transporter-13, TRACERS, NROL-48, COSMO-SkyMED Second Generation FM3, and 14 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GT...",
+          "feature_image": "https://i.ytimg.com/vi/5Qw6nsZ6CXw/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=5Qw6nsZ6CXw",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-06-25T03:20:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches 24 Starlink satellites from California",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Wednesday, June 24, at 8:30 p.m. PDT (11:30 p.m. EDT / 0330 UTC).\n\nThe first-stage booster, serial number B1081, launching for a 25th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-45 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCoLdER...",
+          "feature_image": "https://i.ytimg.com/vi/xcNChtlCdOU/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=xcNChtlCdOU",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-06-25T03:00:59Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -407,11 +455,11 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-06-25T03:09:00Z",
-          "end_time": "2026-06-25T04:09:00Z"
+          "start_time": "2026-06-25T03:20:00Z",
+          "end_time": "2026-06-25T04:30:00Z"
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
       "infographic": null,
@@ -454,15 +502,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7323,
+      "orbital_launch_attempt_count": 7324,
       "location_launch_attempt_count": 893,
       "pad_launch_attempt_count": 277,
       "agency_launch_attempt_count": 695,
-      "orbital_launch_attempt_count_year": 150,
+      "orbital_launch_attempt_count_year": 151,
       "location_launch_attempt_count_year": 41,
       "pad_launch_attempt_count_year": 39,
       "agency_launch_attempt_count_year": 76,
-      "pad_turnaround": "P3DT10H40M15S",
+      "pad_turnaround": "P3DT10H51M32S",
       "mission_patches": [
         {
           "id": 7,
