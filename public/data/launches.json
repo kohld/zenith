@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T16:43:08.195Z",
+  "updatedAt": "2026-06-26T17:35:48.260Z",
   "launches": [
     {
       "id": "add0a5be-1cf0-49cb-975a-e8c8e18d37ec",
@@ -14,8 +14,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-06-26T16:28:06Z",
+      "last_updated": "2026-06-26T17:15:50Z",
       "updates": [
+        {
+          "id": 15381,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Official Webcast by Rocket Lab has started",
+          "info_url": "https://www.youtube.com/watch?v=mD-rTeRXx8o",
+          "created_by": "LL2",
+          "created_on": "2026-06-26T17:15:00Z"
+        },
+        {
+          "id": 15380,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "New T-0 17:43 UTC due to weather. This is the last opportunity for today.",
+          "info_url": "https://x.com/RocketLab/status/2070553298084712730",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-06-26T17:04:00Z"
+        },
         {
           "id": 15379,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -81,14 +97,14 @@
           "created_on": "2024-06-18T07:43:20Z"
         }
       ],
-      "net": "2026-06-26T17:23:00Z",
+      "net": "2026-06-26T17:43:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-06-26T17:23:00Z",
+      "window_end": "2026-06-26T17:43:00Z",
       "window_start": "2026-06-26T16:45:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -304,11 +320,11 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-06-26T17:00:00Z",
+          "start_time": "2026-06-26T17:15:36Z",
           "end_time": null
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
@@ -321,7 +337,7 @@
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 12,
-      "pad_turnaround": "P35DT7H50M",
+      "pad_turnaround": "P35DT8H10M",
       "mission_patches": [
         {
           "id": 1328,
@@ -2047,8 +2063,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-06-26T11:50:09Z",
+      "last_updated": "2026-06-26T17:26:04Z",
       "updates": [
+        {
+          "id": 15382,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Refined T-0.",
+          "info_url": "https://science.nasa.gov/missions/swift/swift-boost-mission/partners-nasa-ready-for-june-launch-of-swift-boost-mission/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-06-26T17:26:00Z"
+        },
         {
           "id": 15375,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -2098,12 +2122,12 @@
           "created_on": "2025-11-19T16:01:00Z"
         }
       ],
-      "net": "2026-06-30T07:30:00Z",
+      "net": "2026-06-30T10:23:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
       "window_end": "2026-06-30T13:28:00Z",
       "window_start": "2026-06-30T07:30:00Z",
@@ -2401,7 +2425,7 @@
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 2,
-      "pad_turnaround": "P5129DT15H29M23S",
+      "pad_turnaround": "P5129DT18H22M23S",
       "mission_patches": [
         {
           "id": 1329,
