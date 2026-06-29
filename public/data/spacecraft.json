@@ -7,21 +7,10 @@
     "missionType": "Interstellar Probe",
     "ra": 258.8405416666667,
     "dec": 12.418472222222222,
-    "date": "2026-06-29T13:53:34.249Z",
-    "status": "AWAITING SIGNAL"
-  },
-  {
-    "name": "Voyager 2",
-    "id": "-32",
-    "distanceKm": 21316194245.496998,
-    "velocityKmS": 9.5288646,
-    "missionType": "Interstellar Probe",
-    "ra": 303.41341666666665,
-    "dec": -59.742916666666666,
-    "date": "2026-06-29T13:53:34.920Z",
+    "date": "2026-06-29T19:11:23.573Z",
     "dsnSignal": {
-      "id": "-32",
-      "name": "VGR2",
+      "id": "-31",
+      "name": "VGR1",
       "upSignal": false,
       "downSignal": true,
       "dataRate": 160,
@@ -31,6 +20,17 @@
     "status": "DOWNLINK ACTIVE"
   },
   {
+    "name": "Voyager 2",
+    "id": "-32",
+    "distanceKm": 21316194245.496998,
+    "velocityKmS": 9.5288646,
+    "missionType": "Interstellar Probe",
+    "ra": 303.41341666666665,
+    "dec": -59.742916666666666,
+    "date": "2026-06-29T19:11:24.235Z",
+    "status": "AWAITING SIGNAL"
+  },
+  {
     "name": "New Horizons",
     "id": "-98",
     "distanceKm": 9571174540.64644,
@@ -38,8 +38,17 @@
     "missionType": "Pluto/Kuiper Belt",
     "ra": 289.88854166666664,
     "dec": -20.134,
-    "date": "2026-06-29T13:53:35.600Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-06-29T19:11:24.913Z",
+    "dsnSignal": {
+      "id": "-98",
+      "name": "NHPC",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 890.3,
+      "power": -170,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "James Webb",
@@ -49,17 +58,8 @@
     "missionType": "Space Telescope",
     "ra": 263.62666666666667,
     "dec": -34.658722222222224,
-    "date": "2026-06-29T13:53:36.283Z",
-    "dsnSignal": {
-      "id": "-170",
-      "name": "JWST",
-      "upSignal": false,
-      "downSignal": true,
-      "dataRate": 28000000,
-      "power": -91,
-      "frequency": 0
-    },
-    "status": "DOWNLINK ACTIVE"
+    "date": "2026-06-29T19:11:25.591Z",
+    "status": "AWAITING SIGNAL"
   },
   {
     "name": "Parker Solar Probe",
@@ -69,7 +69,7 @@
     "missionType": "Heliophysics",
     "ra": 63.820458333333335,
     "dec": 18.6045,
-    "date": "2026-06-29T13:53:36.955Z",
+    "date": "2026-06-29T19:11:26.266Z",
     "status": "AWAITING SIGNAL"
   }
 ]
