@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T00:53:24.072Z",
+  "updatedAt": "2026-06-29T01:47:34.379Z",
   "launches": [
     {
       "id": "0740c699-9877-4331-8aef-4e29ea6281c0",
@@ -295,7 +295,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 206
+                "successful_landings": 207
               },
               "type": {
                 "id": 1,
@@ -733,7 +733,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-06-28T07:52:53Z",
+      "last_updated": "2026-06-29T01:25:09Z",
       "updates": [
         {
           "id": 15422,
@@ -1108,7 +1108,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-06-29T01:25:00Z",
+          "start_time": "2026-06-29T01:24:27Z",
           "end_time": null
         },
         {
@@ -1128,11 +1128,11 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-06-29T02:10:00Z",
-          "end_time": "2026-06-29T07:10:00Z"
+          "start_time": "2026-06-29T02:13:00Z",
+          "end_time": "2026-06-29T06:10:00Z"
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "timeline": [
         {
           "type": {
@@ -2686,7 +2686,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 206
+                "successful_landings": 207
               },
               "type": {
                 "id": 1,
@@ -5662,7 +5662,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 206
+                "successful_landings": 207
               },
               "type": {
                 "id": 1,
@@ -10692,30 +10692,6 @@
         },
         "launcher_stage": [
           {
-            "id": 916,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": null,
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 917,
             "type": "Strap-On Booster",
             "reused": null,
@@ -10742,6 +10718,30 @@
           {
             "id": 918,
             "type": "Strap-On Booster",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 117,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown FH",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
+            "id": 916,
+            "type": "Core",
             "reused": null,
             "launcher_flight_number": null,
             "launcher": {
@@ -21689,7 +21689,7 @@
             "previous_flight": null
           },
           {
-            "id": 419,
+            "id": 418,
             "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
@@ -21708,7 +21708,7 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1216,
+              "id": 1215,
               "attempt": true,
               "success": null,
               "description": "the sidebooster will attempt to land at the launch site after launch.",
@@ -21733,7 +21733,7 @@
             "previous_flight": null
           },
           {
-            "id": 418,
+            "id": 419,
             "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
@@ -21752,7 +21752,7 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1215,
+              "id": 1216,
               "attempt": true,
               "success": null,
               "description": "the sidebooster will attempt to land at the launch site after launch.",
@@ -31170,7 +31170,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 206
+                "successful_landings": 207
               },
               "type": {
                 "id": 1,
@@ -31514,7 +31514,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 206
+                "successful_landings": 207
               },
               "type": {
                 "id": 1,
@@ -31858,7 +31858,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 206
+                "successful_landings": 207
               },
               "type": {
                 "id": 1,
@@ -32202,7 +32202,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 206
+                "successful_landings": 207
               },
               "type": {
                 "id": 1,
