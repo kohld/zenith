@@ -7,21 +7,10 @@
     "missionType": "Interstellar Probe",
     "ra": 258.8247083333333,
     "dec": 12.416305555555557,
-    "date": "2026-07-02T14:36:44.505Z",
-    "status": "AWAITING SIGNAL"
-  },
-  {
-    "name": "Voyager 2",
-    "id": "-32",
-    "distanceKm": 21318811102.65572,
-    "velocityKmS": 10.6659539,
-    "missionType": "Interstellar Probe",
-    "ra": 303.37879166666664,
-    "dec": -59.752694444444444,
-    "date": "2026-07-02T14:36:45.174Z",
+    "date": "2026-07-02T19:59:08.697Z",
     "dsnSignal": {
-      "id": "-32",
-      "name": "VGR2",
+      "id": "-31",
+      "name": "VGR1",
       "upSignal": false,
       "downSignal": true,
       "dataRate": 160,
@@ -31,6 +20,17 @@
     "status": "DOWNLINK ACTIVE"
   },
   {
+    "name": "Voyager 2",
+    "id": "-32",
+    "distanceKm": 21318811102.65572,
+    "velocityKmS": 10.6659539,
+    "missionType": "Interstellar Probe",
+    "ra": 303.37879166666664,
+    "dec": -59.752694444444444,
+    "date": "2026-07-02T19:59:09.422Z",
+    "status": "AWAITING SIGNAL"
+  },
+  {
     "name": "New Horizons",
     "id": "-98",
     "distanceKm": 9573325223.920565,
@@ -38,7 +38,7 @@
     "missionType": "Pluto/Kuiper Belt",
     "ra": 289.84304166666664,
     "dec": -20.139527777777776,
-    "date": "2026-07-02T14:36:45.856Z",
+    "date": "2026-07-02T19:59:10.150Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -49,17 +49,8 @@
     "missionType": "Space Telescope",
     "ra": 264.3322083333333,
     "dec": -34.27513888888889,
-    "date": "2026-07-02T14:36:46.544Z",
-    "dsnSignal": {
-      "id": "-170",
-      "name": "JWST",
-      "upSignal": false,
-      "downSignal": true,
-      "dataRate": 40000,
-      "power": -120,
-      "frequency": 0
-    },
-    "status": "DOWNLINK ACTIVE"
+    "date": "2026-07-02T19:59:10.879Z",
+    "status": "AWAITING SIGNAL"
   },
   {
     "name": "Parker Solar Probe",
@@ -69,7 +60,7 @@
     "missionType": "Heliophysics",
     "ra": 63.850249999999996,
     "dec": 18.27425,
-    "date": "2026-07-02T14:36:47.218Z",
+    "date": "2026-07-02T19:59:11.603Z",
     "status": "AWAITING SIGNAL"
   }
 ]
