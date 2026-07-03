@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T08:33:53.903Z",
+  "updatedAt": "2026-07-03T11:30:56.091Z",
   "launches": [
     {
       "id": "f596ad48-881e-47d6-806d-113c6dd97427",
@@ -9,13 +9,21 @@
       "r_spacex_api_id": null,
       "name": "Pegasus XL | Swift Boost Mission",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-07-03T02:09:47Z",
+      "last_updated": "2026-07-03T10:50:54Z",
       "updates": [
+        {
+          "id": 15472,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Launched and reached orbit.",
+          "info_url": "https://science.nasa.gov/blogs/swift/2026/07/03/mission-to-boost-nasas-swift-launches-from-marshall-islands/",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-07-03T10:50:00Z"
+        },
         {
           "id": 15470,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -141,11 +149,11 @@
         "launchers": "Antares | Minotaur | Pegasus",
         "spacecraft": "Cygnus",
         "launch_library_url": null,
-        "total_launch_count": 16,
-        "consecutive_successful_launches": 16,
-        "successful_launches": 16,
+        "total_launch_count": 17,
+        "consecutive_successful_launches": 17,
+        "successful_launches": 17,
         "failed_launches": 0,
-        "pending_launches": 2,
+        "pending_launches": 1,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -214,11 +222,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/Pegasus_(rocket)",
-          "total_launch_count": 31,
-          "consecutive_successful_launches": 25,
-          "successful_launches": 28,
+          "total_launch_count": 32,
+          "consecutive_successful_launches": 26,
+          "successful_launches": 29,
           "failed_launches": 3,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -320,13 +328,13 @@
           "description": "",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_20_20200803142433.jpg",
           "timezone_name": "",
-          "total_launch_count": 51,
+          "total_launch_count": 52,
           "total_landing_count": 0
         },
         "country_code": "MHL",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_59_20200803143427.jpg",
-        "total_launch_count": 4,
-        "orbital_launch_attempt_count": 4
+        "total_launch_count": 5,
+        "orbital_launch_attempt_count": 5
       },
       "infoURLs": [],
       "vidURLs": [],
