@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T15:58:26.365Z",
+  "updatedAt": "2026-07-12T17:08:22.439Z",
   "launches": [
     {
       "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
@@ -669,8 +669,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-06T17:38:54Z",
+      "last_updated": "2026-07-12T16:24:22Z",
       "updates": [
+        {
+          "id": 15535,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 95% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%2010-45%20L-2%20Forecast%20-%2014%20Jul%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-12T16:24:00Z"
+        },
         {
           "id": 15495,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -689,8 +697,8 @@
       },
       "window_end": "2026-07-14T11:15:00Z",
       "window_start": "2026-07-14T07:15:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 95,
+      "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
