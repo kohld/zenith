@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-14T12:10:17.686Z",
+  "updatedAt": "2026-07-14T14:23:43.617Z",
   "launches": [
     {
       "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
@@ -1484,8 +1484,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-13T18:40:11Z",
+      "last_updated": "2026-07-14T13:18:22Z",
       "updates": [
+        {
+          "id": 15559,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Official Webcast by NASA has started",
+          "info_url": "https://www.youtube.com/watch?v=SwhPXxNtdoc",
+          "created_by": "LL2",
+          "created_on": "2026-07-14T13:45:00Z"
+        },
         {
           "id": 15548,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -2086,7 +2094,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-07-14T13:45:00Z",
+          "start_time": "2026-07-14T13:44:19Z",
           "end_time": null
         },
         {
@@ -2108,9 +2116,29 @@
           },
           "start_time": "2026-07-14T13:45:00Z",
           "end_time": "2026-07-14T16:00:00Z"
+        },
+        {
+          "priority": 12,
+          "source": "youtube.com",
+          "publisher": "Роскосмос ТВ",
+          "title": "Трансляция запуска корабля «Союз МС‑29»",
+          "description": "14 июля с космодрома Байконур запланирован запуск корабля «Союз МС‑29». В экипаже — космонавты Роскосмоса Пётр Дубров и Анна Кикина, а также астронавт NASA Анил Менон. \n\nСайт Роскосмоса: https://www.roscosmos.ru/\nРоскосмос в социальных сетях: \nVk: https://vk.com/roscosmos\nOk: https://ok.ru/roscosmos  \nTelegram: https://t.me/roscosmos_gk \nRutube: https://rutube.ru/channel/770606/\n\n\n#Роскосмос  #РоскосмосТВ",
+          "feature_image": "https://i.ytimg.com/vi/d_CsFH3uIbc/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=d_CsFH3uIbc",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 3,
+            "name": "Russian",
+            "code": "ru"
+          },
+          "start_time": "2026-07-14T13:17:42Z",
+          "end_time": null
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
       "infographic": null,
