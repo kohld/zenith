@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T15:08:31.488Z",
+  "updatedAt": "2026-07-16T16:47:55.846Z",
   "launches": [
     {
       "id": "d9adedc4-8fa1-4a36-84f9-43b8893a6865",
@@ -419,7 +419,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-07-16T19:36:00Z",
+          "start_time": "2026-07-16T20:02:00Z",
           "end_time": null
         },
         {
@@ -647,8 +647,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-16T04:43:44Z",
+      "last_updated": "2026-07-16T16:03:30Z",
       "updates": [
+        {
+          "id": 15572,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.spacex.com/launches/starship-flight-13",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-16T16:03:00Z"
+        },
+        {
+          "id": 15571,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.spacex.com/launches/starship-flight-13",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-16T15:29:00Z"
+        },
         {
           "id": 15534,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -692,10 +708,10 @@
       ],
       "net": "2026-07-16T22:45:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-07-17T00:15:00Z",
       "window_start": "2026-07-16T22:45:00Z",
@@ -1114,6 +1130,26 @@
           },
           "start_time": "2026-07-16T19:45:00Z",
           "end_time": null
+        },
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Starship's Thirteenth Flight Test",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/HNWqJ_TXcAADsAJ.jpg",
+          "url": "https://x.com/i/broadcasts/1MKgNNXAZdmxL",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-07-16T22:10:00Z",
+          "end_time": "2026-07-17T02:15:00Z"
         },
         {
           "priority": 11,
@@ -1642,7 +1678,7 @@
           "to_thrust": 1200,
           "apogee": null,
           "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_artist_image_20251115043247.jpg",
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_on_lau_image_20260716153145.jpg",
           "info_url": "https://www.skyroot.in/",
           "wiki_url": "https://en.wikipedia.org/wiki/Vikram_(rocket_family)",
           "total_launch_count": 0,
@@ -1704,7 +1740,7 @@
       "vidURLs": [],
       "webcast_live": false,
       "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_artist_image_20251115043247.jpg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_on_lau_image_20260716153145.jpg",
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 7344,
