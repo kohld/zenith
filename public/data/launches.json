@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T19:05:01.022Z",
+  "updatedAt": "2026-07-18T20:11:44.574Z",
   "launches": [
     {
       "id": "10fa7952-f00b-4292-80a2-4207e208844e",
@@ -9,13 +9,21 @@
       "r_spacex_api_id": null,
       "name": "Vikram-I | Demo Flight",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "Launch in Flight"
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-07-18T07:32:51Z",
+      "last_updated": "2026-07-18T19:56:38Z",
       "updates": [
+        {
+          "id": 15599,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=63469.msg2806921#msg2806921",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-18T19:56:00Z"
+        },
         {
           "id": 15597,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -174,8 +182,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 1,
-        "consecutive_successful_launches": 0,
-        "successful_launches": 0,
+        "consecutive_successful_launches": 1,
+        "successful_launches": 1,
         "failed_launches": 0,
         "pending_launches": 0,
         "consecutive_successful_landings": 0,
@@ -214,8 +222,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 1,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 1,
             "failed_launches": 0,
             "pending_launches": 0,
             "consecutive_successful_landings": 0,
@@ -235,7 +243,7 @@
           "max_stage": 4,
           "length": 20,
           "diameter": 1.7,
-          "maiden_flight": null,
+          "maiden_flight": "2026-07-18",
           "launch_cost": null,
           "launch_mass": null,
           "leo_capacity": 350,
@@ -247,8 +255,8 @@
           "info_url": "https://www.skyroot.in/",
           "wiki_url": "https://en.wikipedia.org/wiki/Vikram_(rocket_family)",
           "total_launch_count": 1,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
           "failed_launches": 0,
           "pending_launches": 0,
           "attempted_landings": 0,
