@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T06:03:35.936Z",
+  "updatedAt": "2026-07-18T08:18:19.948Z",
   "launches": [
     {
       "id": "10fa7952-f00b-4292-80a2-4207e208844e",
@@ -9,13 +9,37 @@
       "r_spacex_api_id": null,
       "name": "Vikram-I | Demo Flight",
       "status": {
-        "id": 5,
-        "name": "On Hold",
-        "abbrev": "Hold",
-        "description": "The countdown has been paused, but the launch can still happen within the launch window."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "Launch in Flight"
       },
-      "last_updated": "2026-07-18T05:57:37Z",
+      "last_updated": "2026-07-18T07:32:51Z",
       "updates": [
+        {
+          "id": 15597,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Payloads deployed",
+          "info_url": "https://www.youtube.com/watch?v=-lLd1cI7v0U",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-07-18T06:54:00Z"
+        },
+        {
+          "id": 15596,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Liftoff!",
+          "info_url": "https://www.youtube.com/watch?v=-lLd1cI7v0U",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-07-18T06:36:00Z"
+        },
+        {
+          "id": 15595,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.youtube.com/watch?v=-lLd1cI7v0U",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-18T06:16:00Z"
+        },
         {
           "id": 15594,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -121,7 +145,7 @@
           "created_on": "2025-11-15T04:39:00Z"
         }
       ],
-      "net": "2026-07-18T06:01:00Z",
+      "net": "2026-07-18T06:35:30Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -149,11 +173,11 @@
         "launchers": "",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 0,
+        "total_launch_count": 1,
         "consecutive_successful_launches": 0,
         "successful_launches": 0,
         "failed_launches": 0,
-        "pending_launches": 1,
+        "pending_launches": 0,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -189,11 +213,11 @@
             "launchers": "",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 0,
+            "total_launch_count": 1,
             "consecutive_successful_launches": 0,
             "successful_launches": 0,
             "failed_launches": 0,
-            "pending_launches": 1,
+            "pending_launches": 0,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -222,11 +246,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_on_lau_image_20260717052522.jpg",
           "info_url": "https://www.skyroot.in/",
           "wiki_url": "https://en.wikipedia.org/wiki/Vikram_(rocket_family)",
-          "total_launch_count": 0,
+          "total_launch_count": 1,
           "consecutive_successful_launches": 0,
           "successful_launches": 0,
           "failed_launches": 0,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -269,13 +293,13 @@
           "description": "Satish Dhawan Space Centre – SDSC (formerly Sriharikota Range – SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
           "timezone_name": "Asia/Kolkata",
-          "total_launch_count": 103,
+          "total_launch_count": 104,
           "total_landing_count": 0
         },
         "country_code": "IND",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_50_20200803143457.jpg",
-        "total_launch_count": 63,
-        "orbital_launch_attempt_count": 62
+        "total_launch_count": 64,
+        "orbital_launch_attempt_count": 63
       },
       "infoURLs": [
         {
@@ -303,8 +327,8 @@
           "publisher": "Skyroot Aerospace",
           "title": "Vikram-1 | Test Flight-1 | Skyroot | Mission Aagaman| India's First Private Orbital Rocket Launch",
           "description": "Welcome to the live coverage of Mission Aagaman — the maiden test flight of Vikram-1, India’s first privately developed orbital launch vehicle.\n\nThe livestream begins at approximately 10:20 AM IST, bringing you behind the scenes from the Mission Control Centre as the final countdown unfolds. Lift-off is targeted for 11:30 AM IST, subject to weather and launch readiness.\n\nDesigned and built by Skyroot Aerospace, Vikram-1 represents years of engineering, testing and innovation. This mission aims to validate the launch vehicle’s end-to-end orbital capability while carrying customer payloads and demonstrating technologies that will power future commercial missions.\n\nMission Highlights\n🚀 Live countdown and launch coverage\n🛰️ Real-time mission updates and flight milestones\n🎙️ Commentary fro...",
-          "feature_image": "https://i.ytimg.com/vi/-lLd1cI7v0U/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=-lLd1cI7v0U",
+          "feature_image": "https://i.ytimg.com/vi/2KKZbSX9SgI/maxresdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=2KKZbSX9SgI",
           "type": {
             "id": 1,
             "name": "Official Webcast"
@@ -314,8 +338,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-07-18T04:44:57Z",
-          "end_time": null
+          "start_time": "2026-07-18T07:26:32Z",
+          "end_time": "2026-07-18T09:38:28Z"
         },
         {
           "priority": 11,
@@ -335,10 +359,10 @@
             "code": "en"
           },
           "start_time": "2026-07-18T04:48:12Z",
-          "end_time": "2026-07-19T04:45:00Z"
+          "end_time": "2026-07-18T07:12:52Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [
         {
           "type": {
@@ -456,7 +480,7 @@
       "location_launch_attempt_count_year": 2,
       "pad_launch_attempt_count_year": 2,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P187DT1H12M30S",
+      "pad_turnaround": "P187DT1H47M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -1616,8 +1640,8 @@
           "priority": 7,
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
-          "title": "TBD - SpaceX - Starship - Starship Flight 13 - Pad 2 - Starbase, TX - Space Affairs Live",
-          "description": "Launch Date: TBD July 20, 2026\nLaunch Time: 3:45 p.m. PDT, 5:45 p.m. CDT, 6:45 p.m. EDT, 2245 UTC (July 21, 00:45 CEST)\nLaunch Window: 90 minutes, open until 8:15 p.m. CDT\nStatus: Scrubbed on July 16 because of a hold signal from the Heavy Booster short after engine ignition. Teams at SpaceX will look into the issue; the schedule is TBD.\nTwo Raptor engines will be replaced; SpaceX hopes to fly in early next week. \n\nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Prototype) - (Vehicles: Starship 20  & Booster 20)\nMission: Starship Test Flight 13 - Suborbital\nFlight: 1st flight for Super Heavy Booster 20 - 1st flight for Starship 40\nLaunch Location: Pad 2, Starbase, Texas, USA\n\nThe thirteenth flight test of Starship is preparing to launch as soon as Thursday, July 16. The...",
+          "title": "GO! - SpaceX - Starship - Starship Flight 13 - Pad 2 - Starbase, TX - Space Affairs Live",
+          "description": "Launch Date: July 20, 2026\nLaunch Time: 3:45 p.m. PDT, 5:45 p.m. CDT, 6:45 p.m. EDT, 2245 UTC (July 21, 00:45 CEST)\nLaunch Window: 90 minutes, open until 8:15 p.m. CDT\nStatus: Scheduled and announced. Two Raptor engines have been replaced after the scrub on July 16. \nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Prototype) - (Vehicles: Starship 20  & Booster 20)\nMission: Starship Test Flight 13 - Suborbital\nFlight: 1st flight for Super Heavy Booster 20 - 1st flight for Starship 40\nLaunch Location: Pad 2, Starbase, Texas, USA\n\nThe thirteenth flight test of Starship is preparing to launch as soon as Thursday, July 16. The 90-minute launch window will open at 5:45 p.m. CDT, 2245 UTC (July 17, 00:45 CEST)\nAs with all developmental testing, the schedule is dynamic and like...",
           "feature_image": "https://i.ytimg.com/vi/0EnOQCjgq4E/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=0EnOQCjgq4E",
           "type": {
@@ -5760,7 +5784,7 @@
           "description": "Satish Dhawan Space Centre – SDSC (formerly Sriharikota Range – SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
           "timezone_name": "Asia/Kolkata",
-          "total_launch_count": 103,
+          "total_launch_count": 104,
           "total_landing_count": 0
         },
         "country_code": "IND",
@@ -15238,7 +15262,7 @@
           "description": "Satish Dhawan Space Centre – SDSC (formerly Sriharikota Range – SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
           "timezone_name": "Asia/Kolkata",
-          "total_launch_count": 103,
+          "total_launch_count": 104,
           "total_landing_count": 0
         },
         "country_code": "IND",
