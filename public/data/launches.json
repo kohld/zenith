@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T09:40:48.327Z",
+  "updatedAt": "2026-07-20T12:14:59.676Z",
   "launches": [
     {
       "id": "e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc",
@@ -420,7 +420,7 @@
             "code": "en"
           },
           "start_time": "2026-07-20T14:26:00Z",
-          "end_time": "2026-07-21T14:26:00Z"
+          "end_time": "2026-07-20T17:30:00Z"
         }
       ],
       "webcast_live": false,
@@ -6773,7 +6773,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2026-06-25T12:08:36Z",
+      "last_updated": "2026-07-20T11:53:38Z",
       "updates": [
         {
           "id": 15208,
@@ -6957,7 +6957,37 @@
           "name": "Geostationary Transfer Orbit",
           "abbrev": "GTO"
         },
-        "agencies": [],
+        "agencies": [
+          {
+            "id": 232,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/232/",
+            "name": "European Organisation for the Exploitation of Meteorological Satellites",
+            "featured": false,
+            "type": "Multinational",
+            "country_code": "AUT,BEL,BGR,HRV,CZE,DNK,EST,FIN,FRA,DEU,GRC,HUN,IRL,ISL,ITA,LVA,LTU,LUX,NLD,NOR,POL,PRT,ROU,SVK,SVN,ESP,SWE,CHE,TUR,GBR",
+            "abbrev": "EUMETSAT",
+            "description": "The European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT) is an intergovernmental organisation created through an international convention agreed by a current total of 30 European Member States.\r\n\r\nEUMETSAT's primary objective is to establish, maintain and exploit European systems of operational meteorological satellites. EUMETSAT is responsible for the launch and operation of the satellites and for delivering satellite data to end-users as well as contributing to the operational monitoring of climate and the detection of global climate changes.",
+            "administrator": null,
+            "founding_year": "1986",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.eumetsat.int/",
+            "wiki_url": "https://en.wikipedia.org/wiki/EUMETSAT",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/eumetsat_logo_image_20250723121030.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/eumetsat_hq_image_20250723121241.jpg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/eumetsat_social_image_20250723121041.jpg"
+          }
+        ],
         "info_urls": [],
         "vid_urls": []
       },
@@ -7004,7 +7034,20 @@
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 4,
       "pad_turnaround": "P70DT11H38M8S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1333,
+          "name": "VA270 Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/va2702520patch_mission_patch_20260720115333.png",
+          "agency": {
+            "id": 115,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+            "name": "Arianespace",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
