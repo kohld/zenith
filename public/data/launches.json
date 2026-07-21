@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T21:19:41.871Z",
+  "updatedAt": "2026-07-21T22:26:17.934Z",
   "launches": [
     {
       "id": "e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc",
@@ -787,10 +787,26 @@
         "id": 6,
         "name": "Launch in Flight",
         "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "description": "Launch in Flight"
       },
-      "last_updated": "2026-07-21T21:15:28Z",
+      "last_updated": "2026-07-21T22:25:23Z",
       "updates": [
+        {
+          "id": 15627,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "All spacecraft have separated.",
+          "info_url": "https://x.com/spacex/status/2079693472185901120",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-21T22:25:00Z"
+        },
+        {
+          "id": 15626,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Unofficial Re-stream by SPACE AFFAIRS has started",
+          "info_url": "https://www.youtube.com/watch?v=BEhu74LtIb0",
+          "created_by": "LL2",
+          "created_on": "2026-07-21T21:35:00Z"
+        },
         {
           "id": 15625,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1095,10 +1111,10 @@
             "launcher": {
               "id": 105,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/105/",
-              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission.",
+              "details": "Falcon 9 Block 5 booster first used for the CRS-24 mission. Expended during the launch of the MRV-MEP mission.",
               "flight_proven": true,
               "serial_number": "B1069",
-              "status": "active",
+              "status": "expended",
               "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1069_at_lz-1_a_image_20250912153047.jpeg",
               "successful_landings": 31,
               "attempted_landings": 31,
@@ -1110,7 +1126,7 @@
               "id": 1896,
               "attempt": false,
               "success": null,
-              "description": "The Falcon 9 booster B1069 will be expended during its 32nd mission.",
+              "description": "The Falcon 9 booster B1069 was expended during its 32nd mission.",
               "downrange_distance": null,
               "location": {
                 "id": 6,
@@ -1201,12 +1217,12 @@
       "vidURLs": [
         {
           "priority": 7,
-          "source": "youtube.com",
-          "publisher": "SPACE AFFAIRS",
-          "title": "GO - SpaceX - Falcon 9 - MRV-MEP - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
-          "description": "Launch Date:  July 21, 2026\nLaunch Time: 5:15 p.m. EDT, 2115 UTC, 23:15 CEST\nLaunch Window:  Open until 9:04 p.m. EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station\nTargeted Orbit: GTO (Geostationary Transfer Orbit) \nLaunch Inclination: East\nLaunch Status: Scheduled and announced\n\nMission: Starlink MRV-MEP (Mission Robotic Vehicle - Mission Extension Pod)\nLaunch Provider: SpaceX\nContractor: Northrop Grumman\nLauncher System: Falcon 9 (Booster 1069 - Turnaround 81days)\nFlight for the Booster: 32 - Final Flight\nPrevious Flights of the Booster: 31 - CRS-24, Eutelsat HOTBIRD 13F, OneWeb 1, SES-18 and SES-19, and 27\nNo recovery of the first stage\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 ...",
-          "feature_image": "https://i.ytimg.com/vi/BEhu74LtIb0/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=BEhu74LtIb0",
+          "source": null,
+          "publisher": "The Space Devs",
+          "title": "SpaceX MRV-1",
+          "description": "On Tuesday July 21, 2026 at 21:15 UTC, SpaceX launched the MRV-1 mission with a Falcon 9 Block 5 from Space Launch Complex 40 at Cape Canaveral SFS, FL, USA.\n\nDescription generated from the Launch Library 2 API.\n——————————————————————\nObject in the Launch Library 2 API: https://ll.thespacedevs.com/2.3.0/launches/0f6780cf-edae-4d7c-99d6-ce7de784d140/?format=json\nRelated news in the Spaceflight News API: https://api.spaceflightnewsapi.net/v4/articles/?launch=0f6780cf-edae-4d7c-99d6-ce7de784d140\n——————————————————————\n\nRehosted on YouTube by The Space Devs.\nSupport our work on https://www.patreon.com/TheSpaceDevs\n——————————————————————\nWebsite: https://thespacedevs.com\nX: https://x.com/thespacedevs\nDiscord: https://discord.com/invite/p7ntkNA\n——————————————————————\n\nOriginal video: https:...",
+          "feature_image": "https://i.ytimg.com/vi/qKgy0UbBZrk/maxresdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=qKgy0UbBZrk",
           "type": {
             "id": 4,
             "name": "Unofficial Re-stream"
@@ -1216,7 +1232,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-07-21T21:03:00Z",
+          "start_time": null,
           "end_time": null
         },
         {
@@ -1225,7 +1241,7 @@
           "publisher": "Spaceflight Now",
           "title": "Live: SpaceX Falcon 9 rocket launches robotic space servicing mission from Cape Canaveral",
           "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying the Northrup Grumman's Mission Robotic Vehicle (MRV) and Mission Extension Pods (MEP), a robotic space servicing mission. Liftoff from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Tuesday, July 21, at 5:15 p.m. EDT (2115 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1069, launching for a 32nd  and final time, will take an easterly trajectory on departure from Florida's Space Coast. The mission requires all the Falcon 9 performance and the first stage booster will not be recovered.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about 90 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this...",
-          "feature_image": "https://i.ytimg.com/vi/2h4gxuQ9lPA/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/2h4gxuQ9lPA/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=2h4gxuQ9lPA",
           "type": {
             "id": 3,
@@ -1237,7 +1253,7 @@
             "code": "en"
           },
           "start_time": "2026-07-21T20:01:31Z",
-          "end_time": null
+          "end_time": "2026-07-21T22:05:33Z"
         },
         {
           "priority": 9,
@@ -1257,7 +1273,7 @@
             "code": "en"
           },
           "start_time": "2026-07-21T20:19:17Z",
-          "end_time": null
+          "end_time": "2026-07-21T21:33:05Z"
         },
         {
           "priority": 10,
