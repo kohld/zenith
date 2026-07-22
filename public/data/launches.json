@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T00:58:21.715Z",
+  "updatedAt": "2026-07-22T04:21:51.647Z",
   "launches": [
     {
       "id": "e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc",
@@ -351,7 +351,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -1514,18 +1514,26 @@
     {
       "id": "d8eb4b68-5307-4b3b-b585-5598958defc2",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/",
-      "slug": "gravity-1-unknown-payload",
+      "slug": "gravity-1-9-satellites",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Gravity-1 | Unknown Payload",
+      "name": "Gravity-1 | 9 satellites",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-07-16T05:14:54Z",
+      "last_updated": "2026-07-22T03:21:31Z",
       "updates": [
+        {
+          "id": 15629,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://m.weibo.cn/detail/5323439984348067",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-22T03:21:00Z"
+        },
         {
           "id": 15567,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1567,12 +1575,12 @@
           "created_on": "2026-05-29T17:41:00Z"
         }
       ],
-      "net": "2026-07-22T02:50:00Z",
+      "net": "2026-07-22T02:54:00Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
       },
       "window_end": "2026-07-22T03:09:00Z",
       "window_start": "2026-07-22T02:44:00Z",
@@ -1595,11 +1603,11 @@
         "launchers": "Gravity-1",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 2,
-        "consecutive_successful_launches": 2,
-        "successful_launches": 2,
+        "total_launch_count": 3,
+        "consecutive_successful_launches": 3,
+        "successful_launches": 3,
         "failed_launches": 0,
-        "pending_launches": 2,
+        "pending_launches": 1,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -1635,11 +1643,11 @@
             "launchers": "Gravity-1",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 2,
-            "consecutive_successful_launches": 2,
-            "successful_launches": 2,
+            "total_launch_count": 3,
+            "consecutive_successful_launches": 3,
+            "successful_launches": 3,
             "failed_launches": 0,
-            "pending_launches": 2,
+            "pending_launches": 1,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -1668,11 +1676,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gravity-1_image_20240108105446.jpeg",
           "info_url": "https://www.orienspace.com/productPage",
           "wiki_url": null,
-          "total_launch_count": 2,
-          "consecutive_successful_launches": 2,
-          "successful_launches": 2,
+          "total_launch_count": 3,
+          "consecutive_successful_launches": 3,
+          "successful_launches": 3,
           "failed_launches": 0,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -1683,14 +1691,14 @@
       },
       "mission": {
         "id": 7632,
-        "name": "Unknown Payload",
-        "description": "Details TBD.",
+        "name": "9 satellites",
+        "description": "Carried 9 satellites on a share-ride to sun-synchronous orbit. Details TBD.",
         "launch_designator": null,
-        "type": "Unknown",
+        "type": "Earth Science",
         "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "id": 17,
+          "name": "Sun-Synchronous Orbit",
+          "abbrev": "SSO"
         },
         "agencies": [],
         "info_urls": [],
@@ -1715,13 +1723,13 @@
           "description": "Chinese orbital launch vehicle launches supporting sea port located at Haiyang, Shandong Province, with dedicated piers and rocket/payload processing facilities for Chinese launch vehicles’ sea launches, and (as part of its expansion project) land based launch pads on artificial islands for various test vehicles and launch vehicles of private and government launch services providers.\r\n\r\nIn operation as a remote base of Taiyuan Satellite Launch Center since 2019.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_haiyang_oriental_spaceport_20251128181322.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 25,
+          "total_launch_count": 26,
           "total_landing_count": 0
         },
         "country_code": "CHN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_yellow_sea_2528launch_location_52529_20260716051255.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -1730,11 +1738,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gravity-1_image_20240108105446.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7346,
+      "orbital_launch_attempt_count": 7347,
       "location_launch_attempt_count": 26,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 3,
-      "orbital_launch_attempt_count_year": 173,
+      "orbital_launch_attempt_count_year": 174,
       "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -3264,7 +3272,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -3903,7 +3911,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -5935,213 +5943,6 @@
       "type": "detailed"
     },
     {
-      "id": "aafe107e-46d8-420c-bcb9-192069d80893",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/aafe107e-46d8-420c-bcb9-192069d80893/",
-      "slug": "soyuz-21b-16-x-rassvet-3-2",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Soyuz 2.1b | 16 x Rassvet-3",
-      "status": {
-        "id": 2,
-        "name": "To Be Determined",
-        "abbrev": "TBD",
-        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
-      },
-      "last_updated": "2026-07-10T13:40:35Z",
-      "updates": [
-        {
-          "id": 15523,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET July 11-16 per marine navigation warnings, TBC.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64652.msg2804544#msg2804544",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-10T13:40:00Z"
-        },
-        {
-          "id": 14641,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per NOTAMs; Payload and launch vehicle variant identities uncertain.\r\nLaunch expected between April 24 - 28 between 11:00-21:00 UTC daily.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=64652.msg2771901#msg2771901",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-11T03:49:00Z"
-        }
-      ],
-      "net": "2026-07-31T00:00:00Z",
-      "net_precision": {
-        "id": 7,
-        "name": "Month",
-        "abbrev": "M",
-        "description": "The T-0 is expected in the given month."
-      },
-      "window_end": "2026-07-31T00:00:00Z",
-      "window_start": "2026-07-31T00:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 63,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
-        "name": "Russian Federal Space Agency (ROSCOSMOS)",
-        "featured": true,
-        "type": "Government",
-        "country_code": "RUS",
-        "abbrev": "RFSA",
-        "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
-        "administrator": "Administrator: Yuri Borisov",
-        "founding_year": "1992",
-        "launchers": "Soyuz",
-        "spacecraft": "Soyuz",
-        "launch_library_url": null,
-        "total_launch_count": 342,
-        "consecutive_successful_launches": 66,
-        "successful_launches": 331,
-        "failed_launches": 11,
-        "pending_launches": 3,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 0,
-        "attempted_landings": 0,
-        "info_url": "https://en.roscosmos.ru/",
-        "wiki_url": "https://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
-      },
-      "rocket": {
-        "id": 8970,
-        "configuration": {
-          "id": 15,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/15/",
-          "name": "Soyuz 2.1b",
-          "active": true,
-          "reusable": false,
-          "description": "Soyuz-2 is the 21st-century version of the Russian Soyuz rocket. In its basic form, it is a three-stage carrier rocket for placing payloads into low Earth orbit.  The 2.1b version adds an upgraded engine (RD-0124) with improved performance to the second stage.",
-          "family": "Soyuz",
-          "full_name": "Soyuz 2.1b",
-          "manufacturer": {
-            "id": 111,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/111/",
-            "name": "Progress Rocket Space Center",
-            "featured": false,
-            "type": "Commercial",
-            "country_code": "RUS",
-            "abbrev": "PRSC",
-            "description": "Progress Rocket Space Centre, formerly known as TsSKB-Progress, is a space science and aerospace research company which is known for manufacturing launch vehicles and satellites. Most notably, Progress Rocket Space Centre is the manufacturer of Soyuz launch vehicles.",
-            "administrator": "CEO: Dmitry Baranov",
-            "founding_year": "1996",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 45,
-            "consecutive_successful_launches": 3,
-            "successful_launches": 44,
-            "failed_launches": 1,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://en.samspace.ru/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Progress_Rocket_Space_Centre",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/progress2520rocket2520space2520center_logo_20210313175054.png",
-            "image_url": null,
-            "nation_url": null
-          },
-          "program": [],
-          "variant": "",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 3,
-          "length": 46.3,
-          "diameter": 2.95,
-          "maiden_flight": "2008-07-26",
-          "launch_cost": "80000000",
-          "launch_mass": 312,
-          "leo_capacity": 8200,
-          "gto_capacity": 3250,
-          "to_thrust": null,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
-          "info_url": null,
-          "wiki_url": "http://en.wikipedia.org/wiki/Soyuz-2_(rocket)",
-          "total_launch_count": 23,
-          "consecutive_successful_launches": 23,
-          "successful_launches": 23,
-          "failed_launches": 0,
-          "pending_launches": 1,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7565,
-        "name": "16 x Rassvet-3",
-        "description": "Note: Payload identities uncertain.\r\n\r\nBatch of 16 Rassvet-3 Low Earth Orbit communication satellites for the Russian Byuro-1440 (Bureau 1440) constellation for broadband high-speed internet access in Russia.",
-        "launch_designator": null,
-        "type": "Communications",
-        "orbit": {
-          "id": 13,
-          "name": "Polar Orbit",
-          "abbrev": "PO"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 48,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/48/",
-        "agency_id": 163,
-        "name": "Unknown Pad",
-        "description": null,
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Plesetsk_Cosmodrome",
-        "map_url": "https://www.google.com/maps?q=62.925556,40.577778",
-        "latitude": "62.925556",
-        "longitude": "40.577778",
-        "location": {
-          "id": 6,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/6/",
-          "name": "Plesetsk Cosmodrome, Russian Federation",
-          "country_code": "RUS",
-          "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
-          "timezone_name": "Europe/Moscow",
-          "total_launch_count": 1685,
-          "total_landing_count": 0
-        },
-        "country_code": "RUS",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_48_20200803143459.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7358,
-      "location_launch_attempt_count": 1687,
-      "pad_launch_attempt_count": 2,
-      "agency_launch_attempt_count": 343,
-      "orbital_launch_attempt_count_year": 185,
-      "location_launch_attempt_count_year": 7,
-      "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 5,
-      "pad_turnaround": "P0D",
-      "mission_patches": [],
-      "type": "detailed"
-    },
-    {
       "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/458e2e52-87b0-4707-96d8-6899f92e53ee/",
       "slug": "soyuz-21bfregat-glonass-k1-no-19",
@@ -6351,13 +6152,13 @@
           "description": "Plesetsk Cosmodrome is a Russian spaceport located in Mirny, Arkhangelsk Oblast, about 800 km north of Moscow and approximately 200 km south of Arkhangelsk. Originally developed as an ICBM site for the R-7 missile, it also served for numerous satellite launches using the R-7 and other rockets. Its high latitude makes it useful only for certain types of launches, especially the Molniya orbits, so for much of the site's history it functioned as a secondary location, with most orbital launches taking place from Baikonur, in the Kazakh SSR. With the end of the Soviet Union, Baikonur became a foreign territory, and Kazakhstan charged $115 million usage fees annually. Consequently, Plesetsk has seen considerably more activity since the 2000s.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_6_20200803142434.jpg",
           "timezone_name": "Europe/Moscow",
-          "total_launch_count": 1685,
+          "total_launch_count": 1686,
           "total_landing_count": 0
         },
         "country_code": "RUS",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_48_20200803143459.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 1
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -10219,11 +10020,11 @@
         "launchers": "Soyuz",
         "spacecraft": "Soyuz",
         "launch_library_url": null,
-        "total_launch_count": 342,
-        "consecutive_successful_launches": 66,
-        "successful_launches": 331,
+        "total_launch_count": 343,
+        "consecutive_successful_launches": 67,
+        "successful_launches": 332,
         "failed_launches": 11,
-        "pending_launches": 3,
+        "pending_launches": 2,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -10292,11 +10093,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
           "info_url": null,
           "wiki_url": "http://en.wikipedia.org/wiki/Soyuz-2_(rocket)",
-          "total_launch_count": 23,
-          "consecutive_successful_launches": 23,
-          "successful_launches": 23,
+          "total_launch_count": 24,
+          "consecutive_successful_launches": 24,
+          "successful_launches": 24,
           "failed_launches": 0,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -10331,11 +10132,11 @@
             "launchers": "Soyuz",
             "spacecraft": "Soyuz",
             "launch_library_url": null,
-            "total_launch_count": 342,
-            "consecutive_successful_launches": 66,
-            "successful_launches": 331,
+            "total_launch_count": 343,
+            "consecutive_successful_launches": 67,
+            "successful_launches": 332,
             "failed_launches": 11,
-            "pending_launches": 3,
+            "pending_launches": 2,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -11511,11 +11312,11 @@
             "launchers": "Soyuz",
             "spacecraft": "Soyuz",
             "launch_library_url": null,
-            "total_launch_count": 342,
-            "consecutive_successful_launches": 66,
-            "successful_launches": 331,
+            "total_launch_count": 343,
+            "consecutive_successful_launches": 67,
+            "successful_launches": 332,
             "failed_launches": 11,
-            "pending_launches": 3,
+            "pending_launches": 2,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -17296,11 +17097,11 @@
         "launchers": "Soyuz",
         "spacecraft": "Soyuz",
         "launch_library_url": null,
-        "total_launch_count": 342,
-        "consecutive_successful_launches": 66,
-        "successful_launches": 331,
+        "total_launch_count": 343,
+        "consecutive_successful_launches": 67,
+        "successful_launches": 332,
         "failed_launches": 11,
-        "pending_launches": 3,
+        "pending_launches": 2,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -17369,11 +17170,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
           "info_url": null,
           "wiki_url": "http://en.wikipedia.org/wiki/Soyuz-2_(rocket)",
-          "total_launch_count": 23,
-          "consecutive_successful_launches": 23,
-          "successful_launches": 23,
+          "total_launch_count": 24,
+          "consecutive_successful_launches": 24,
+          "successful_launches": 24,
           "failed_launches": 0,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -17408,11 +17209,11 @@
             "launchers": "Soyuz",
             "spacecraft": "Soyuz",
             "launch_library_url": null,
-            "total_launch_count": 342,
-            "consecutive_successful_launches": 66,
-            "successful_launches": 331,
+            "total_launch_count": 343,
+            "consecutive_successful_launches": 67,
+            "successful_launches": 332,
             "failed_launches": 11,
-            "pending_launches": 3,
+            "pending_launches": 2,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -27951,7 +27752,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -28295,7 +28096,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -28639,7 +28440,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -28983,7 +28784,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -29327,7 +29128,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -29671,7 +29472,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -30015,7 +29816,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -30359,7 +30160,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -30703,7 +30504,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -31047,7 +30848,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -31391,7 +31192,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -31735,7 +31536,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 212
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -31839,6 +31640,314 @@
       "pad_launch_attempt_count_year": 69,
       "agency_launch_attempt_count_year": 140,
       "pad_turnaround": "P61D",
+      "mission_patches": [],
+      "type": "detailed"
+    },
+    {
+      "id": "0a07a23e-606a-4589-bf3e-c3e41bd4de51",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/0a07a23e-606a-4589-bf3e-c3e41bd4de51/",
+      "slug": "falcon-9-block-5-sda-tranche-2-tracking-layer-a",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Falcon 9 Block 5 | SDA Tranche 2 Tracking Layer A",
+      "status": {
+        "id": 2,
+        "name": "To Be Determined",
+        "abbrev": "TBD",
+        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+      },
+      "last_updated": "2026-07-17T13:37:48Z",
+      "updates": [
+        {
+          "id": 13589,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Adding launch NET Q3 2026",
+          "info_url": "https://spacenews.com/space-force-awards-739-million-in-launch-orders-to-spacex/",
+          "created_by": "Nosu",
+          "created_on": "2026-01-11T10:32:00Z"
+        }
+      ],
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": {
+        "id": 14,
+        "name": "Year",
+        "abbrev": "Y",
+        "description": "The T-0 is expected in the given year."
+      },
+      "window_end": "2026-12-31T00:00:00Z",
+      "window_start": "2026-12-31T00:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": null,
+        "total_launch_count": 707,
+        "consecutive_successful_launches": 191,
+        "successful_launches": 691,
+        "failed_launches": 15,
+        "pending_launches": 126,
+        "consecutive_successful_landings": 27,
+        "successful_landings": 651,
+        "failed_landings": 28,
+        "attempted_landings": 678,
+        "info_url": "https://www.spacex.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+      },
+      "rocket": {
+        "id": 8882,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "active": true,
+          "reusable": true,
+          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "manufacturer": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 707,
+            "consecutive_successful_launches": 191,
+            "successful_launches": 691,
+            "failed_launches": 15,
+            "pending_launches": 126,
+            "consecutive_successful_landings": 27,
+            "successful_landings": 651,
+            "failed_landings": 28,
+            "attempted_landings": 678,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+          },
+          "program": [
+            {
+              "id": 5,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+              "name": "Commercial Crew Program",
+              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+              "agencies": [
+                {
+                  "id": 80,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                  "name": "Boeing",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+              "start_date": "2011-04-18T00:00:00Z",
+              "end_date": null,
+              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            },
+            {
+              "id": 11,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+              "name": "Commercial Resupply Services",
+              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+              "agencies": [
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 257,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                  "name": "Northrop Grumman Space Systems",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 1020,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                  "name": "Sierra Nevada Corporation",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+              "start_date": "2008-12-23T00:00:00Z",
+              "end_date": null,
+              "info_url": null,
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            }
+          ],
+          "variant": "Block 5",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 2,
+          "length": 70,
+          "diameter": 3.65,
+          "maiden_flight": "2018-05-11",
+          "launch_cost": "52000000",
+          "launch_mass": 549,
+          "leo_capacity": 22800,
+          "gto_capacity": 8300,
+          "to_thrust": 7607,
+          "apogee": 200,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+          "total_launch_count": 612,
+          "consecutive_successful_launches": 313,
+          "successful_launches": 610,
+          "failed_launches": 1,
+          "pending_launches": 109,
+          "attempted_landings": 602,
+          "successful_landings": 597,
+          "failed_landings": 5,
+          "consecutive_successful_landings": 297
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7473,
+        "name": "SDA Tranche 2 Tracking Layer A",
+        "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Tracking Layer.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+          "id": 13,
+          "name": "Polar Orbit",
+          "abbrev": "PO"
+        },
+        "agencies": [
+          {
+            "id": 1056,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1056/",
+            "name": "Space Development Agency",
+            "featured": false,
+            "type": "Government",
+            "country_code": "USA",
+            "abbrev": "SDA",
+            "description": "The Space Development Agency (SDA) is a United States Space Force direct-reporting unit tasked with deploying disruptive space technology. A primary focus is space-based missile defense using large global satellite constellations made up of industry-procured low-cost satellites.",
+            "administrator": "Director: Derek Tournear",
+            "founding_year": "2019",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.sda.mil/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Space_Development_Agency",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/space2520development2520agency_logo_20230806170522.jpg",
+            "image_url": null,
+            "nation_url": null
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 72,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/72/",
+        "agency_id": null,
+        "name": "Unknown Pad",
+        "description": null,
+        "info_url": null,
+        "wiki_url": "",
+        "map_url": "https://www.google.com/maps?q=28.458,-80.528",
+        "latitude": "28.458",
+        "longitude": "-80.528",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "timezone_name": "America/New_York",
+          "total_launch_count": 1122,
+          "total_landing_count": 75
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_72_20200803143403.jpg",
+        "total_launch_count": 0,
+        "orbital_launch_attempt_count": 0
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7506,
+      "location_launch_attempt_count": 1168,
+      "pad_launch_attempt_count": 21,
+      "agency_launch_attempt_count": 759,
+      "orbital_launch_attempt_count_year": 333,
+      "location_launch_attempt_count_year": 92,
+      "pad_launch_attempt_count_year": 21,
+      "agency_launch_attempt_count_year": 140,
+      "pad_turnaround": "P92D",
       "mission_patches": [],
       "type": "detailed"
     }
