@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T09:56:46.514Z",
+  "updatedAt": "2026-07-23T11:51:21.858Z",
   "launches": [
     {
       "id": "5421e43a-1623-40ac-9dac-201075064e24",
@@ -14,7 +14,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-17T04:40:36Z",
+      "last_updated": "2026-07-23T11:36:20Z",
       "updates": [
         {
           "id": 15586,
@@ -190,8 +190,29 @@
         "orbital_launch_attempt_count": 125
       },
       "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "ThatSpaceDogeGuy",
+          "title": "(ON LOCATION) Watch Long March 3B Launch from Xichang, LIVE!!",
+          "description": "Credits: TSDG Xichang\n-------------------------------------------------------------\nSubscribe and follow my socials for more content!!!\n▶️ Twitter/X @TestAiden [ThatSpaceDogeGuy]\n▶️ Instagram | ThatSpaceDogeGuy\n▶️ Tiktok | ThatSpaceDogeGuy\n▶️ Twitch | ThatSpaceDogeGuy\n\nFootage from TSDG may be reused only with proper credit. Credit must be clearly visible in the video or included in the description. Unauthorized use without credit may be subject to removal.\n\nFor all business inquiries, questions, or copyright matters, please contact: tsdgbusiness@gmail.com",
+          "feature_image": "https://i.ytimg.com/vi/H6ZqSTcsZko/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=H6ZqSTcsZko",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-07-23T11:33:32Z",
+          "end_time": null
+        }
+      ],
+      "webcast_live": true,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
       "infographic": null,
