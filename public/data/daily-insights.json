@@ -1,47 +1,89 @@
 {
-  "generated_at": "2026-07-10T04:15:30.361Z",
+  "generated_at": "2026-07-23T03:47:23.043Z",
   "daily_summary": {
-    "headline": "A Day of Routine Space Operations",
+    "headline": "Starship Test Flight and Aurora Opportunities Await!",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | Starlink Group 17-48",
-        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-        "importance": 5,
-        "date": "2026-07-11T02:00:00Z",
+        "title": "Starship | Flight 13",
+        "description": "Starship test flight advancing Mars mission capabilities.",
+        "importance": 7,
+        "date": "2026-07-23T22:45:00Z",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Watch live stream for a glimpse into the future of space travel."
       },
       {
         "rank": 2,
-        "title": "Gravity-1 | Unknown Payload",
-        "description": "A launch by Orienspace Technology with an unknown payload.",
+        "title": "Aurora Forecast",
+        "description": "G1 geomagnetic storm expected, offering aurora viewing at high latitudes.",
         "importance": 5,
-        "date": "2026-07-12T02:00:00Z",
-        "type": "launch",
-        "action": "Watch live stream"
+        "date": "2026-07-24T03:00:00Z",
+        "type": "aurora",
+        "action": "Check skies at high latitudes for potential aurora display."
       },
       {
         "rank": 3,
-        "title": "Vikram-I | Demo Flight",
-        "description": "First launch of Skyroot Aerospace's Vikram-I launch vehicle, with several cubesats on board.",
-        "importance": 7,
-        "date": "2026-07-12T05:00:00Z",
+        "title": "Long March 3B/E | Unknown Payload",
+        "description": "Standard operational mission by China Aerospace Science and Technology Corporation.",
+        "importance": 5,
+        "date": "2026-07-23T12:00:00Z",
         "type": "launch",
-        "action": "Watch live stream"
+        "action": "Watch for routine space operations."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 3
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-07-24T03:00:00",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-07-24T03:00:00",
+          "end": "2026-07-24T03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-07-24T06:00:00",
+        "max_kp": 4.33,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-07-24T06:00:00",
+          "end": "2026-07-24T06:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-07-24T09:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-07-24T09:00:00",
+          "end": "2026-07-24T09:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-07-24T03:00:00",
+      "time": "03:00-03:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],

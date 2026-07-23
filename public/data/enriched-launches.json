@@ -1,71 +1,369 @@
 {
-  "generated_at": "2026-07-10T04:15:30.361Z",
+  "generated_at": "2026-07-23T03:47:23.044Z",
   "launches": [
     {
-      "id": "135fb199-a39e-48cc-ba27-0aecd96ba9f8",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/135fb199-a39e-48cc-ba27-0aecd96ba9f8/",
-      "slug": "falcon-9-block-5-starlink-group-17-48",
-      "flightclub_url": "https://flightclub.io/result?llId=135fb199-a39e-48cc-ba27-0aecd96ba9f8",
+      "id": "5421e43a-1623-40ac-9dac-201075064e24",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/5421e43a-1623-40ac-9dac-201075064e24/",
+      "slug": "long-march-3be-unknown-payload",
+      "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | Starlink Group 17-48",
+      "name": "Long March 3B/E | Unknown Payload",
       "status": {
         "id": 1,
         "name": "Go for Launch",
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-02T11:04:25Z",
+      "last_updated": "2026-07-17T04:40:36Z",
       "updates": [
         {
-          "id": 15449,
+          "id": 15586,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Now targeting Jul 11 at 02:00 UTC",
-          "info_url": "https://www.spacex.com/launches/sl-17-48",
+          "comment": "Refined launch window per new NOTAMs.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2806498#msg2806498",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-01T03:00:00Z"
+          "created_on": "2026-07-17T04:40:00Z"
         },
         {
-          "id": 15434,
+          "id": 15478,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Now targeting Jul 11 at 14:00 UTC",
-          "info_url": "https://www.spacex.com/launches/sl-17-48",
+          "comment": "Added launch per NOTAMs; Payload and launch vehicle identities uncertain.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2802432#msg2802432",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2026-06-29T19:38:00Z"
-        },
-        {
-          "id": 15386,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Now targeting Jul 10 at 14:00 UTC",
-          "info_url": "https://www.spacex.com/launches/sl-17-48",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-06-26T21:25:00Z"
-        },
-        {
-          "id": 15360,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Now targeting Jul 06 at 14:00 UTC",
-          "info_url": "https://www.spacex.com/launches/sl-17-48",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-06-25T19:18:00Z"
-        },
-        {
-          "id": 15357,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch.",
-          "info_url": "https://www.spacex.com/launches/sl-17-48",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-06-25T17:44:00Z"
+          "created_on": "2026-07-03T13:13:00Z"
         }
       ],
-      "net": "2026-07-11T02:00:00Z",
+      "net": "2026-07-23T12:00:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "window_end": "2026-07-23T12:54:00Z",
+      "window_start": "2026-07-23T11:52:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "featured": true,
+        "type": "Government",
+        "country_code": "CHN",
+        "abbrev": "CASC",
+        "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
+        "administrator": "Chairman & President: Lei Fanpei",
+        "founding_year": "1999",
+        "launchers": "Long March",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 604,
+        "consecutive_successful_launches": 30,
+        "successful_launches": 589,
+        "failed_launches": 15,
+        "pending_launches": 7,
+        "consecutive_successful_landings": 1,
+        "successful_landings": 1,
+        "failed_landings": 1,
+        "attempted_landings": 2,
+        "info_url": "https://english.spacechina.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
+      },
+      "rocket": {
+        "id": 9083,
+        "configuration": {
+          "id": 50,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/50/",
+          "name": "Long March 3B/E",
+          "active": true,
+          "reusable": false,
+          "description": "The Long March 3B / E (G2) (CZ-3B / E) is one of the most successful medium-range launchers and the strongest variant of the CZ-3 series.\r\nIt was specially developed for the transport of heavy communications satellites into a geostationary transfer orbit.\r\n\r\nThe additional designation \"E\" stands for a higher payload fairing, stretched boosters and extended fuel tanks at the first stage, over the CZ-3B.",
+          "family": "Long March",
+          "full_name": "Long March 3B/E",
+          "manufacturer": {
+            "id": 88,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+            "name": "China Aerospace Science and Technology Corporation",
+            "featured": true,
+            "type": "Government",
+            "country_code": "CHN",
+            "abbrev": "CASC",
+            "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
+            "administrator": "Chairman & President: Lei Fanpei",
+            "founding_year": "1999",
+            "launchers": "Long March",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 604,
+            "consecutive_successful_launches": 30,
+            "successful_launches": 589,
+            "failed_launches": 15,
+            "pending_launches": 7,
+            "consecutive_successful_landings": 1,
+            "successful_landings": 1,
+            "failed_landings": 1,
+            "attempted_landings": 2,
+            "info_url": "https://english.spacechina.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
+          },
+          "program": [],
+          "variant": "B/E",
+          "alias": "CZ-3B/E",
+          "min_stage": 3,
+          "max_stage": 3,
+          "length": 56.3,
+          "diameter": 3.35,
+          "maiden_flight": "2007-05-13",
+          "launch_cost": "70000000",
+          "launch_mass": 456,
+          "leo_capacity": 12000,
+          "gto_capacity": 5500,
+          "to_thrust": 5924,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
+          "info_url": null,
+          "wiki_url": "https://en.wikipedia.org/wiki/Long_March_3B",
+          "total_launch_count": 77,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 75,
+          "failed_launches": 2,
+          "pending_launches": 1,
+          "attempted_landings": 0,
+          "successful_landings": 0,
+          "failed_landings": 0,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7678,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 45,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/45/",
+        "agency_id": null,
+        "name": "Launch Complex 2 (LC-2)",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Xichang_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=28.245504,102.026768",
+        "latitude": "28.245504",
+        "longitude": "102.026768",
+        "location": {
+          "id": 16,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/16/",
+          "name": "Xichang Satellite Launch Center, People's Republic of China",
+          "country_code": "CHN",
+          "description": "The Xichang Satellite Launch Center is a spaceport in China. It is located in Zeyuan Town, northwest of Xichang, Liangshan Yi Autonomous Prefecture in Sichuan.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_16_20200803142513.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 241,
+          "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_45_20200803143520.jpg",
+        "total_launch_count": 125,
+        "orbital_launch_attempt_count": 125
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7348,
+      "location_launch_attempt_count": 242,
+      "pad_launch_attempt_count": 126,
+      "agency_launch_attempt_count": 605,
+      "orbital_launch_attempt_count_year": 175,
+      "location_launch_attempt_count_year": 6,
+      "pad_launch_attempt_count_year": 3,
+      "agency_launch_attempt_count_year": 35,
+      "pad_turnaround": "P37DT2H15M",
+      "mission_patches": [],
+      "type": "detailed",
+      "ai_enrichment": {
+        "launch_id": "5421e43a-1623-40ac-9dac-201075064e24",
+        "importance_score": 5,
+        "reasoning": "Standard operational mission.",
+        "key_facts": [
+          "Rocket: Long March 3B/E",
+          "Launch Site: Xichang Satellite Launch Center, People's Republic of China",
+          "Target Orbit: Unknown",
+          "Mission Type: Unknown"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Worth watching if you're interested in space launches."
+      }
+    },
+    {
+      "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/",
+      "slug": "starship-flight-13",
+      "flightclub_url": "https://flightclub.io/result?llId=ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
+      "r_spacex_api_id": null,
+      "name": "Starship | Flight 13",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-07-19T22:20:34Z",
+      "updates": [
+        {
+          "id": 15601,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Delayed to NET July 23.",
+          "info_url": "https://www.spacex.com/launches/starship-flight-13",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-19T22:20:00Z"
+        },
+        {
+          "id": 15588,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Setting GO.",
+          "info_url": "https://www.spacex.com/launches/starship-flight-13",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-17T14:19:00Z"
+        },
+        {
+          "id": 15587,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET July 20, TBC.",
+          "info_url": "https://www.fly.faa.gov/adv/adv_spt.jsp",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-17T13:12:00Z"
+        },
+        {
+          "id": 15584,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Reverted back to NET July TBD pending more information.",
+          "info_url": "https://x.com/elonmusk/status/2077890013841310149",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-16T22:58:00Z"
+        },
+        {
+          "id": 15583,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Scrubbed for the day.",
+          "info_url": "https://x.com/SpaceX/status/2077887982724321791",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-16T22:50:00Z"
+        },
+        {
+          "id": 15582,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Abort at ignition.",
+          "info_url": "https://x.com/i/broadcasts/1MKgNNXAZdmxL",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-16T22:46:00Z"
+        },
+        {
+          "id": 15580,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Unofficial Re-stream by SPACE AFFAIRS has started",
+          "info_url": "https://www.youtube.com/watch?v=ubVe02oNDww",
+          "created_by": "LL2",
+          "created_on": "2026-07-16T22:07:00Z"
+        },
+        {
+          "id": 15572,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.spacex.com/launches/starship-flight-13",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-16T16:03:00Z"
+        },
+        {
+          "id": 15571,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.spacex.com/launches/starship-flight-13",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-16T15:29:00Z"
+        },
+        {
+          "id": 15534,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/starship-flight-13",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-11T23:08:00Z"
+        },
+        {
+          "id": 15509,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET July 15, TBC.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=63727.msg2804056#msg2804056",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-08T19:49:00Z"
+        },
+        {
+          "id": 15503,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET July 14, TBC.",
+          "info_url": "https://www.fly.faa.gov/adv/adv_spt",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-07T19:46:00Z"
+        },
+        {
+          "id": 15270,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET July.",
+          "info_url": "https://www.nasaspaceflight.com/2026/06/booster-20-cryogenic-testing-ahead-flight-13/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-06-13T14:27:00Z"
+        },
+        {
+          "id": 13566,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Adding launch",
+          "info_url": "https://www.nasaspaceflight.com/2026/01/tps-evaluations-next-two-ships/",
+          "created_by": "Nosu",
+          "created_on": "2026-01-09T09:59:00Z"
+        }
+      ],
+      "net": "2026-07-23T22:45:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-07-11T06:00:00Z",
-      "window_start": "2026-07-11T02:00:00Z",
+      "window_end": "2026-07-24T00:15:00Z",
+      "window_start": "2026-07-23T22:45:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -85,15 +383,15 @@
         "launchers": "Falcon | Starship",
         "spacecraft": "Dragon",
         "launch_library_url": null,
-        "total_launch_count": 701,
-        "consecutive_successful_launches": 186,
-        "successful_launches": 686,
+        "total_launch_count": 707,
+        "consecutive_successful_launches": 192,
+        "successful_launches": 692,
         "failed_launches": 15,
-        "pending_launches": 127,
-        "consecutive_successful_landings": 22,
-        "successful_landings": 646,
+        "pending_launches": 126,
+        "consecutive_successful_landings": 27,
+        "successful_landings": 651,
         "failed_landings": 28,
-        "attempted_landings": 673,
+        "attempted_landings": 678,
         "info_url": "https://www.spacex.com/",
         "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
@@ -101,7 +399,999 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
       },
       "rocket": {
-        "id": 9069,
+        "id": 8879,
+        "configuration": {
+          "id": 522,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/522/",
+          "name": "Starship",
+          "active": false,
+          "reusable": true,
+          "description": "Third development version of the Starship reusable two-stage super heavy-lift launch vehicle.",
+          "family": "Starship",
+          "full_name": "Starship V3",
+          "manufacturer": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 707,
+            "consecutive_successful_launches": 192,
+            "successful_launches": 692,
+            "failed_launches": 15,
+            "pending_launches": 126,
+            "consecutive_successful_landings": 27,
+            "successful_landings": 651,
+            "failed_landings": 28,
+            "attempted_landings": 678,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+          },
+          "program": [
+            {
+              "id": 1,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/1/",
+              "name": "SpaceX Starship",
+              "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012, as a self-funded private spaceflight project.  The second stage of the Starship — is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+              "agencies": [
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
+              "start_date": "2019-03-01T05:00:00Z",
+              "end_date": null,
+              "info_url": "https://www.spacex.com/vehicles/starship/",
+              "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+              "mission_patches": [],
+              "type": {
+                "id": 7,
+                "name": "Technology"
+              }
+            }
+          ],
+          "variant": "V3",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 2,
+          "length": 124.4,
+          "diameter": 9,
+          "maiden_flight": "2026-05-22",
+          "launch_cost": null,
+          "launch_mass": 5250,
+          "leo_capacity": 100000,
+          "gto_capacity": null,
+          "to_thrust": 80807,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": null,
+          "info_url": "https://www.spacex.com/vehicles/starship",
+          "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship#Block_3",
+          "total_launch_count": 1,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
+          "failed_launches": 0,
+          "pending_launches": 1,
+          "attempted_landings": 1,
+          "successful_landings": 0,
+          "failed_landings": 1,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [
+          {
+            "id": 959,
+            "type": "Core",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 256,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/256/",
+              "details": "Second Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. To be used on the 13th Starship flight test.",
+              "flight_proven": false,
+              "serial_number": "Booster 20",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1894,
+              "attempt": true,
+              "success": null,
+              "description": "The Super Heavy Booster 20 will attempt to perform a soft splashdown in the Gulf of Mexico.",
+              "downrange_distance": null,
+              "location": {
+                "id": 16,
+                "name": "Gulf of Mexico",
+                "abbrev": "GOM",
+                "description": "Gulf of Mexico",
+                "location": null,
+                "successful_landings": 18
+              },
+              "type": {
+                "id": 3,
+                "name": "Ocean",
+                "abbrev": "Ocean",
+                "description": "No recovery attempt"
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
+        "spacecraft_stage": {
+          "id": 912,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/912/",
+          "mission_end": null,
+          "destination": "Suborbital",
+          "launch_crew": [],
+          "onboard_crew": [],
+          "landing_crew": [],
+          "spacecraft": {
+            "id": 630,
+            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/630/",
+            "name": "Ship 40",
+            "serial_number": "S40",
+            "is_placeholder": false,
+            "in_space": false,
+            "time_in_space": "P0D",
+            "time_docked": "P0D",
+            "flights_count": 0,
+            "mission_ends_count": 0,
+            "status": {
+              "id": 1,
+              "name": "Active"
+            },
+            "description": "Second V3 Starship, to be used on the 13th Starship test flight.",
+            "spacecraft_config": {
+              "id": 46,
+              "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/46/",
+              "name": "Starship V3",
+              "type": {
+                "id": 6,
+                "name": "Reuseable Upper Stage"
+              },
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "parent": null,
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png"
+              },
+              "in_use": true,
+              "capability": "More than 100 tons to Earth orbit",
+              "history": "The third-generation Starship upper stage will be introduced on flight 12.",
+              "details": "Third-generation second stage of the two-stage Starship super heavy-lift launch vehicle.",
+              "maiden_flight": "2026-05-22",
+              "height": 52.1,
+              "diameter": 9,
+              "human_rated": false,
+              "crew_capacity": null,
+              "payload_capacity": null,
+              "payload_return_capacity": null,
+              "flight_life": "Unknown at this stage",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_during_image_20250824175325.jpg",
+              "nation_url": null,
+              "wiki_link": "",
+              "info_link": "https://www.spacex.com/vehicles/starship"
+            }
+          },
+          "landing": {
+            "id": 1895,
+            "attempt": true,
+            "success": null,
+            "description": "Ship 40 will attempt to perform a soft splashdown in the Indian Ocean.",
+            "downrange_distance": null,
+            "location": {
+              "id": 32,
+              "name": "Indian Ocean",
+              "abbrev": "IND",
+              "description": "Indian Ocean",
+              "location": null,
+              "successful_landings": 9
+            },
+            "type": {
+              "id": 3,
+              "name": "Ocean",
+              "abbrev": "Ocean",
+              "description": "No recovery attempt"
+            }
+          },
+          "docking_events": []
+        }
+      },
+      "mission": {
+        "id": 7470,
+        "name": "Flight 13",
+        "description": "13th test flight of the two-stage Starship launch vehicle. Second flight of Starship V3.\r\n\r\nFor the first time, Starship will carry 20 V3 Starlink satellites to space, which will extend solar arrays and antennas and will attempt to connect with ground stations in South Africa and the larger Starlink constellation via high-capacity lasers. \r\n\r\n6 of the satellites have been modified with a suite of cameras to scan Starship’s heat shield and transmit imagery down to operators to continue testing methods of analyzing Starship’s heat shield readiness for return to launch site on future missions. Several tiles on Starship have been painted white to simulate missing tiles and serve as imaging targets in the test.",
+        "launch_designator": null,
+        "type": "Test Flight",
+        "orbit": {
+          "id": 15,
+          "name": "Suborbital",
+          "abbrev": "Sub"
+        },
+        "agencies": [
+          {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 707,
+            "consecutive_successful_launches": 192,
+            "successful_launches": 692,
+            "failed_launches": 15,
+            "pending_launches": 126,
+            "consecutive_successful_landings": 27,
+            "successful_landings": 651,
+            "failed_landings": 28,
+            "attempted_landings": 678,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 235,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/235/",
+        "agency_id": 121,
+        "name": "Orbital Launch Pad 2",
+        "description": "The second launch and landing pad of the full version of the combined SpaceX Starship and Superheavy booster. To be first used for launch in 2025 with version 3 of Starship and the Superheavy booster.\r\n\r\nThe launch mount itself is named Orbital Launch Mount B.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starbase#Launch_site_(Orbital_Launch_Mount_(Pad_1_and_2))",
+        "map_url": "https://www.google.com/maps?q=25.996770,-97.157990",
+        "latitude": "25.99677",
+        "longitude": "-97.15799",
+        "location": {
+          "id": 143,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/143/",
+          "name": "SpaceX Starbase, TX, USA",
+          "country_code": "USA",
+          "description": "Starbase is an industrial complex for Starship rockets and the headquarters of the American aerospace manufacturer company SpaceX. Located near Brownsville, Texas, United States, it has been under construction since the late 2010s by SpaceX. Starbase is composed of a spaceport near the Gulf of Mexico, a production facility at the Boca Chica village, and a small structure test site along the Texas State Highway 4.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_143_20200803142438.jpg",
+          "timezone_name": "America/Chicago",
+          "total_launch_count": 21,
+          "total_landing_count": 13
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_orbital_launch_mount_b_20241126031254.jpg",
+        "total_launch_count": 1,
+        "orbital_launch_attempt_count": 0
+      },
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/starship-flight-13",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 7,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Starship - Starship Flight 13 - Pad 2 - Starbase, TX - Space Affairs Live",
+          "description": "Launch Date: July 23, 2026\nLaunch Time: 3:45 p.m. PDT, 5:45 p.m. CDT, 6:45 p.m. EDT, 2245 UTC (July 24, 00:45 CEST)\nLaunch Window: 90 minutes, open until 8:15 p.m. CDT\nStatus: Scheduled and announced. Two Raptor engines have been replaced after the scrub on July 16. \nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Prototype) - (Vehicles: Starship 20  & Booster 20)\nMission: Starship Test Flight 13 - Suborbital\nFlight: 1st flight for Super Heavy Booster 20 - 1st flight for Starship 40\nLaunch Location: Pad 2, Starbase, Texas, USA\n\nThe thirteenth flight test of Starship is preparing to launch as soon as Thursday, July 23. The 90-minute launch window will open at 5:45 p.m. CDT, 2245 UTC (July 17, 00:45 CEST)\nAs with all developmental testing, the schedule is dynamic and like...",
+          "feature_image": "https://i.ytimg.com/vi/0EnOQCjgq4E/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=0EnOQCjgq4E",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-07-23T22:05:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Starship Flight 13 - Launch & Landing - ATTEMPT 2 LAUNCH STREAM",
+          "description": "Starship launches Flight 13, the second launch of the Block 3 vehicle from Pad 2 at Starbase at the second attempt following a T-0 abort on July 16.\n\nLaunch Window: July 20th at 5:45PM to 7:15PM CDT (22:45-00:15 UTC)\nCurrent T0: July 20th at 5:45PM CDT (22:45 UTC)\n\nMission: Starship's 13th integrated flight test. Correcting issues from version 3's debut flight.\nLaunch location: Pad 2, Starbase, Earth. \nTarget orbit: Trans-atmospheric\nBooster: B20-1\nShip: S40-1\nBooster recovery: Expended - will attempt a water splashdown, no recovery.\nShip recovery: Expended - will attempt a water splashdown, no recovery.\nRocket trajectory: Southeast passing between Cuba and the Yucatan Peninsula.\nPayload onboard: 20 Starlink v3 satellites, 6 of them fitted with a suite of cameras for heatshield inspec...",
+          "feature_image": "https://i.ytimg.com/vi/lC3RDO7tdLc/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=lC3RDO7tdLc",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-07-23T19:45:00Z",
+          "end_time": null
+        }
+      ],
+      "webcast_live": false,
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT50M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT36M33S"
+        },
+        {
+          "type": {
+            "id": 87,
+            "abbrev": "Stage 1 LNG Load",
+            "description": "Start of liquid methane loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 86,
+            "abbrev": "Stage 2 LNG Load",
+            "description": "Start of liquid methane loading in the second stage"
+          },
+          "relative_time": "-PT34M14S"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT34M13S"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT21M40S"
+        },
+        {
+          "type": {
+            "id": 88,
+            "abbrev": "Stage 1 Propellant Load Complete",
+            "description": "End of propellant loading in the first stage"
+          },
+          "relative_time": "-PT2M50S"
+        },
+        {
+          "type": {
+            "id": 89,
+            "abbrev": "Stage 2 Propellant Load Complete",
+            "description": "End of propellant loading in the second stage"
+          },
+          "relative_time": "-PT2M10S"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT30S"
+        },
+        {
+          "type": {
+            "id": 90,
+            "abbrev": "Flame Deflector Activation",
+            "description": "Activation of the flame deflector ahead of engine ignition"
+          },
+          "relative_time": "-PT17S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 91,
+            "abbrev": "Excitement Guaranteed",
+            "description": "Excitement guaranteed"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT58S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M18S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M21S"
+        },
+        {
+          "type": {
+            "id": 39,
+            "abbrev": "Booster Boostback Burn Startup",
+            "description": "Start of the booster boostback burn"
+          },
+          "relative_time": "PT2M25S"
+        },
+        {
+          "type": {
+            "id": 40,
+            "abbrev": "Booster Boostback Burn Shutdown",
+            "description": "End of the booster boostback burn"
+          },
+          "relative_time": "PT3M3S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT6M27S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT6M53S"
+        },
+        {
+          "type": {
+            "id": 20,
+            "abbrev": "SECO-1",
+            "description": "First cut-off of the second engine"
+          },
+          "relative_time": "PT8M5S"
+        },
+        {
+          "type": {
+            "id": 78,
+            "abbrev": "Payload Deployment Sequence Start",
+            "description": "Start of the payload deployment sequence"
+          },
+          "relative_time": "PT16M40S"
+        },
+        {
+          "type": {
+            "id": 79,
+            "abbrev": "Payload Deployment Sequence End",
+            "description": "End of the payload deployment sequence."
+          },
+          "relative_time": "PT27M39S"
+        },
+        {
+          "type": {
+            "id": 85,
+            "abbrev": "SEB-2",
+            "description": "2nd burn of the second engine"
+          },
+          "relative_time": "PT38M58S"
+        },
+        {
+          "type": {
+            "id": 95,
+            "abbrev": "Atmospheric Entry",
+            "description": "Start of the atmospheric re-entry"
+          },
+          "relative_time": "PT47M30S"
+        },
+        {
+          "type": {
+            "id": 96,
+            "abbrev": "Starship Transonic",
+            "description": "Starship passing through the transonic regime"
+          },
+          "relative_time": "PT1H2M23S"
+        },
+        {
+          "type": {
+            "id": 97,
+            "abbrev": "Starship Subsonic",
+            "description": "Starship reaches a subsonic velocity"
+          },
+          "relative_time": "PT1H3M1S"
+        },
+        {
+          "type": {
+            "id": 106,
+            "abbrev": "Starship Landing Burn",
+            "description": "Start of the Starship orbital stage landing burn"
+          },
+          "relative_time": "PT1H5M1S"
+        },
+        {
+          "type": {
+            "id": 105,
+            "abbrev": "Landing Flip",
+            "description": "Flip maneuver to set the orientation for landing"
+          },
+          "relative_time": "PT1H5M3S"
+        },
+        {
+          "type": {
+            "id": 98,
+            "abbrev": "Starship Landing",
+            "description": "Landing of the Starship orbital stage"
+          },
+          "relative_time": "PT1H5M12S"
+        },
+        {
+          "type": {
+            "id": 98,
+            "abbrev": "Starship Landing",
+            "description": "Landing of the Starship orbital stage"
+          },
+          "relative_time": "PT1H5M19S"
+        },
+        {
+          "type": {
+            "id": 98,
+            "abbrev": "Starship Landing",
+            "description": "Landing of the Starship orbital stage"
+          },
+          "relative_time": "PT1H5M21S"
+        }
+      ],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
+      "infographic": null,
+      "program": [
+        {
+          "id": 1,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/1/",
+          "name": "SpaceX Starship",
+          "description": "The SpaceX Starship is a fully reusable super heavy-lift launch vehicle under development by SpaceX since 2012, as a self-funded private spaceflight project.  The second stage of the Starship — is designed as a long-duration cargo and passenger-carrying spacecraft. It is expected to be initially used without any booster stage at all, as part of an extensive development program to prove out launch-and-landing and iterate on a variety of design details, particularly with respect to the vehicle's atmospheric reentry.",
+          "agencies": [
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
+          "start_date": "2019-03-01T05:00:00Z",
+          "end_date": null,
+          "info_url": "https://www.spacex.com/vehicles/starship/",
+          "wiki_url": "https://en.wikipedia.org/wiki/SpaceX_Starship",
+          "mission_patches": [],
+          "type": {
+            "id": 7,
+            "name": "Technology"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": null,
+      "location_launch_attempt_count": 22,
+      "pad_launch_attempt_count": 2,
+      "agency_launch_attempt_count": 708,
+      "orbital_launch_attempt_count_year": null,
+      "location_launch_attempt_count_year": 2,
+      "pad_launch_attempt_count_year": 2,
+      "agency_launch_attempt_count_year": 89,
+      "pad_turnaround": "P62DT14M36S",
+      "mission_patches": [
+        {
+          "id": 773,
+          "name": "Starship IFT patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/starship2520if_mission_patch_20230414221655.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
+      "type": "detailed",
+      "ai_enrichment": {
+        "launch_id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
+        "importance_score": 7,
+        "reasoning": "Starship test flight advancing Mars mission capabilities.",
+        "key_facts": [
+          "Rocket: Starship V3",
+          "Launch Site: SpaceX Starbase, TX, USA",
+          "Target Orbit: Suborbital",
+          "Reusable rocket design",
+          "Mission Type: Test Flight",
+          "Program: SpaceX Starship"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "SpaceX",
+          "Starship",
+          "Reusable"
+        ],
+        "user_recommendation": "Highly recommended! This is a significant mission worth watching.",
+        "photography_tips": "Telephoto lens (200-400mm) recommended. Tripod essential for stability. Remote trigger to avoid camera shake. Shoot in RAW format. Bracket exposures for HDR. Wide-angle lens (14-24mm) for full vehicle capture. ND filter for flame closeups."
+      }
+    },
+    {
+      "id": "fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/fa42624c-1e30-4b4b-a06b-59b6153bc4e5/",
+      "slug": "kinetica-1-unknown-payload",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Kinetica 1 | Unknown Payload",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-07-19T08:22:20Z",
+      "updates": [
+        {
+          "id": 15600,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Refined launch window per new NOTAMs.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2806735#msg2806735",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-19T08:22:00Z"
+        },
+        {
+          "id": 15585,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch per NOTAMs; Payload and launch vehicle identities uncertain.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2806451#msg2806451",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-17T04:36:00Z"
+        }
+      ],
+      "net": "2026-07-23T23:30:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "window_end": "2026-07-23T23:50:00Z",
+      "window_start": "2026-07-23T23:24:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 1040,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1040/",
+        "name": "CAS Space",
+        "featured": false,
+        "type": "Commercial",
+        "country_code": "CHN",
+        "abbrev": "CAS",
+        "description": "CAS Space is a spin-off company from the Chinese Academy of Sciences (CAS) that is operating and plans to operate various launch vehicles of the Zhongke series.",
+        "administrator": null,
+        "founding_year": "2018",
+        "launchers": "Zhongke",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 15,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 14,
+        "failed_launches": 1,
+        "pending_launches": 1,
+        "consecutive_successful_landings": 0,
+        "successful_landings": 0,
+        "failed_landings": 0,
+        "attempted_landings": 0,
+        "info_url": "https://cas-space.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/CAS_Space",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cas2520space_logo_20220727081352.png",
+        "image_url": null,
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cas2520space_nation_20230604193435.png"
+      },
+      "rocket": {
+        "id": 9090,
+        "configuration": {
+          "id": 483,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/483/",
+          "name": "Kinetica 1",
+          "active": true,
+          "reusable": false,
+          "description": "Kinetica 1 (also known as Lijian-1, Chinese: 力箭一号) is a Chinese solid-propellant light launch vehicle. It is capable of placing about 2 tons into low earth orbit and 1.5 tons into sun-synchronous orbit. It is developed by CAS Space, a subsidiary of the Chinese Academy of Sciences. Kinetica 1 is a light launcher whose first stage seems to be derived from the DF-31 long-range intercontinental ballistic missile. It is 30 m high and has a diameter of 2.65 m, with a liftoff mass of 135 t. It's the largest Chinese solid propellant launcher to date, with four stages with a thrust of 200, 100, 50 and 10 tons respectively. The fairing has a diameter of 3.35 meters.",
+          "family": "",
+          "full_name": "Kinetica 1",
+          "manufacturer": {
+            "id": 1040,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1040/",
+            "name": "CAS Space",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "CHN",
+            "abbrev": "CAS",
+            "description": "CAS Space is a spin-off company from the Chinese Academy of Sciences (CAS) that is operating and plans to operate various launch vehicles of the Zhongke series.",
+            "administrator": null,
+            "founding_year": "2018",
+            "launchers": "Zhongke",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 15,
+            "consecutive_successful_launches": 9,
+            "successful_launches": 14,
+            "failed_launches": 1,
+            "pending_launches": 1,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://cas-space.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/CAS_Space",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cas2520space_logo_20220727081352.png",
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cas2520space_nation_20230604193435.png"
+          },
+          "program": [],
+          "variant": "",
+          "alias": "",
+          "min_stage": 4,
+          "max_stage": 4,
+          "length": 30,
+          "diameter": 2.65,
+          "maiden_flight": "2022-07-27",
+          "launch_cost": null,
+          "launch_mass": 135,
+          "leo_capacity": 2000,
+          "gto_capacity": null,
+          "to_thrust": 1961,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+          "info_url": "https://en.cas-space.com/index/index/technology",
+          "wiki_url": null,
+          "total_launch_count": 14,
+          "consecutive_successful_launches": 8,
+          "successful_launches": 13,
+          "failed_launches": 1,
+          "pending_launches": 1,
+          "attempted_landings": 0,
+          "successful_landings": 0,
+          "failed_landings": 0,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7685,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 151,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/151/",
+        "agency_id": null,
+        "name": "Launch Area 130",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Jiuquan_Satellite_Launch_Center",
+        "map_url": "https://www.google.com/maps?q=40.8182,100.22514",
+        "latitude": "40.8182",
+        "longitude": "100.22514",
+        "location": {
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/17/",
+          "name": "Jiuquan Satellite Launch Center, People's Republic of China",
+          "country_code": "CHN",
+          "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 291,
+          "total_landing_count": 2
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_151_20200803143425.jpg",
+        "total_launch_count": 14,
+        "orbital_launch_attempt_count": 14
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7349,
+      "location_launch_attempt_count": 292,
+      "pad_launch_attempt_count": 15,
+      "agency_launch_attempt_count": 16,
+      "orbital_launch_attempt_count_year": 176,
+      "location_launch_attempt_count_year": 19,
+      "pad_launch_attempt_count_year": 4,
+      "agency_launch_attempt_count_year": 5,
+      "pad_turnaround": "P38DT19H46M",
+      "mission_patches": [],
+      "type": "detailed",
+      "ai_enrichment": null
+    },
+    {
+      "id": "5b2f05d7-9052-49fb-9bd7-2a05d4910576",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/5b2f05d7-9052-49fb-9bd7-2a05d4910576/",
+      "slug": "falcon-9-block-5-starlink-group-17-51",
+      "flightclub_url": "https://flightclub.io/result?llId=5b2f05d7-9052-49fb-9bd7-2a05d4910576",
+      "r_spacex_api_id": null,
+      "name": "Falcon 9 Block 5 | Starlink Group 17-51",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-07-20T17:54:15Z",
+      "updates": [
+        {
+          "id": 15614,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Jul 25 at 14:00 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-51",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-20T17:54:00Z"
+        },
+        {
+          "id": 15545,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Jul 24 at 14:00 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-51",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-13T15:20:00Z"
+        },
+        {
+          "id": 15527,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch.",
+          "info_url": "https://www.spacex.com/launches/sl-17-51",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-10T16:23:00Z"
+        }
+      ],
+      "net": "2026-07-25T14:00:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "window_end": "2026-07-25T18:00:00Z",
+      "window_start": "2026-07-25T14:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": null,
+        "total_launch_count": 707,
+        "consecutive_successful_launches": 192,
+        "successful_launches": 692,
+        "failed_launches": 15,
+        "pending_launches": 126,
+        "consecutive_successful_landings": 27,
+        "successful_landings": 651,
+        "failed_landings": 28,
+        "attempted_landings": 678,
+        "info_url": "https://www.spacex.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+      },
+      "rocket": {
+        "id": 9087,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
@@ -125,15 +1415,15 @@
             "launchers": "Falcon | Starship",
             "spacecraft": "Dragon",
             "launch_library_url": null,
-            "total_launch_count": 701,
-            "consecutive_successful_launches": 186,
-            "successful_launches": 686,
+            "total_launch_count": 707,
+            "consecutive_successful_launches": 192,
+            "successful_launches": 692,
             "failed_launches": 15,
-            "pending_launches": 127,
-            "consecutive_successful_landings": 22,
-            "successful_landings": 646,
+            "pending_launches": 126,
+            "consecutive_successful_landings": 27,
+            "successful_landings": 651,
             "failed_landings": 28,
-            "attempted_landings": 673,
+            "attempted_landings": 678,
             "info_url": "https://www.spacex.com/",
             "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
@@ -237,41 +1527,41 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
           "info_url": "https://www.spacex.com/vehicles/falcon-9/",
           "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-          "total_launch_count": 606,
-          "consecutive_successful_launches": 308,
-          "successful_launches": 605,
+          "total_launch_count": 612,
+          "consecutive_successful_launches": 314,
+          "successful_launches": 611,
           "failed_launches": 1,
-          "pending_launches": 111,
-          "attempted_landings": 597,
-          "successful_landings": 592,
+          "pending_launches": 109,
+          "attempted_landings": 602,
+          "successful_landings": 597,
           "failed_landings": 5,
-          "consecutive_successful_landings": 292
+          "consecutive_successful_landings": 297
         },
         "launcher_stage": [
           {
-            "id": 953,
+            "id": 963,
             "type": "Core",
             "reused": true,
-            "launcher_flight_number": 35,
+            "launcher_flight_number": 8,
             "launcher": {
-              "id": 107,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/107/",
-              "details": "Falcon 9 Block 5 booster first used for the NROL-87 mission.",
+              "id": 239,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/239/",
+              "details": "Falcon 9 booster, with a special “100” logo in lieu of the usual serial number style painted on the booster.",
               "flight_proven": true,
-              "serial_number": "B1071",
+              "serial_number": "B1100",
               "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1071_landing_o_image_20250912153658.jpeg",
-              "successful_landings": 34,
-              "attempted_landings": 34,
-              "flights": 34,
-              "last_launch_date": "2026-06-11T15:05:59Z",
-              "first_launch_date": "2022-02-02T20:27:26Z"
+              "image_url": null,
+              "successful_landings": 7,
+              "attempted_landings": 7,
+              "flights": 7,
+              "last_launch_date": "2026-07-02T02:58:19Z",
+              "first_launch_date": "2025-11-23T08:48:00Z"
             },
             "landing": {
-              "id": 1884,
+              "id": 1893,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage B1071 will land on ASDS OCISLY after its 35th flight.",
+              "description": "The Falcon 9 first stage B1100 will land on ASDS OCISLY after its 8th flight.",
               "downrange_distance": 574,
               "location": {
                 "id": 1,
@@ -279,7 +1569,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 209
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -288,19 +1578,19 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2026-06-11T15:05:59Z",
-            "turn_around_time_days": 29,
+            "previous_flight_date": "2026-07-02T02:58:19Z",
+            "turn_around_time_days": 23,
             "previous_flight": {
-              "id": "c7b7e18f-1b42-467e-a8ed-181fb58080e8",
-              "name": "Falcon 9 Block 5 | Starlink Group 17-44"
+              "id": "491122a3-3eff-42db-aff3-424b3431fc0b",
+              "name": "Falcon 9 Block 5 | Starlink Group 17-46"
             }
           }
         ],
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 7664,
-        "name": "Starlink Group 17-48",
+        "id": 7682,
+        "name": "Starlink Group 17-51",
         "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
@@ -324,15 +1614,15 @@
             "launchers": "Falcon | Starship",
             "spacecraft": "Dragon",
             "launch_library_url": null,
-            "total_launch_count": 701,
-            "consecutive_successful_launches": 186,
-            "successful_launches": 686,
+            "total_launch_count": 707,
+            "consecutive_successful_launches": 192,
+            "successful_launches": 692,
             "failed_launches": 15,
-            "pending_launches": 127,
-            "consecutive_successful_landings": 22,
-            "successful_landings": 646,
+            "pending_launches": 126,
+            "consecutive_successful_landings": 27,
+            "successful_landings": 651,
             "failed_landings": 28,
-            "attempted_landings": 673,
+            "attempted_landings": 678,
             "info_url": "https://www.spacex.com/",
             "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
@@ -362,13 +1652,13 @@
           "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
           "timezone_name": "America/Los_Angeles",
-          "total_launch_count": 896,
+          "total_launch_count": 900,
           "total_landing_count": 35
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
-        "total_launch_count": 280,
-        "orbital_launch_attempt_count": 280
+        "total_launch_count": 284,
+        "orbital_launch_attempt_count": 284
       },
       "infoURLs": [
         {
@@ -377,7 +1667,7 @@
           "title": "SpaceX",
           "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
           "feature_image": null,
-          "url": "https://www.spacex.com/launches/sl-17-48",
+          "url": "https://www.spacex.com/launches/sl-17-51",
           "type": {
             "id": 1,
             "name": "Official Page"
@@ -396,8 +1686,8 @@
           "publisher": "SpaceX",
           "title": "Starlink Mission",
           "description": "Livestream on X",
-          "feature_image": "https://pbs.twimg.com/media/HLrQeRlWEAA8k5Z.jpg",
-          "url": "https://x.com/i/broadcasts/1PKqrrkYpNwGb",
+          "feature_image": "https://pbs.twimg.com/media/HM4PVnDWwAAQTwe.jpg",
+          "url": "https://x.com/i/broadcasts/1wxWjjQvmrkJQ",
           "type": {
             "id": 1,
             "name": "Official Webcast"
@@ -407,8 +1697,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-07-11T01:50:00Z",
-          "end_time": "2026-07-11T07:50:00Z"
+          "start_time": "2026-07-23T13:50:00Z",
+          "end_time": "2026-07-24T13:50:00Z"
         }
       ],
       "webcast_live": false,
@@ -455,17 +1745,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -639,15 +1929,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7338,
-      "location_launch_attempt_count": 897,
-      "pad_launch_attempt_count": 281,
-      "agency_launch_attempt_count": 702,
-      "orbital_launch_attempt_count_year": 165,
-      "location_launch_attempt_count_year": 45,
-      "pad_launch_attempt_count_year": 43,
-      "agency_launch_attempt_count_year": 83,
-      "pad_turnaround": "P3DT18H48M",
+      "orbital_launch_attempt_count": 7350,
+      "location_launch_attempt_count": 901,
+      "pad_launch_attempt_count": 285,
+      "agency_launch_attempt_count": 709,
+      "orbital_launch_attempt_count_year": 177,
+      "location_launch_attempt_count_year": 49,
+      "pad_launch_attempt_count_year": 47,
+      "agency_launch_attempt_count_year": 90,
+      "pad_turnaround": "P3DT23H10M26S",
       "mission_patches": [
         {
           "id": 7,
@@ -663,569 +1953,49 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "135fb199-a39e-48cc-ba27-0aecd96ba9f8",
-        "importance_score": 5,
-        "reasoning": "Standard operational mission.",
-        "key_facts": [
-          "Rocket: Falcon 9 Block 5",
-          "Launch Site: Vandenberg SFB, CA, USA",
-          "Target Orbit: Low Earth Orbit",
-          "Reusable rocket design",
-          "Mission Type: Communications"
-        ],
-        "viewing_info": {
-          "visible_from_europe": true,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "SpaceX",
-          "Reusable"
-        ],
-        "user_recommendation": "Worth watching if you're interested in space launches."
-      }
-    },
-    {
-      "id": "d8eb4b68-5307-4b3b-b585-5598958defc2",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/d8eb4b68-5307-4b3b-b585-5598958defc2/",
-      "slug": "gravity-1-unknown-payload",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Gravity-1 | Unknown Payload",
-      "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
-      },
-      "last_updated": "2026-07-03T13:06:19Z",
-      "updates": [
-        {
-          "id": 15476,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET July 12 per NOTAMs; Payload and launch vehicle identities highly uncertain.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2802668#msg2802668",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-03T13:06:00Z"
-        },
-        {
-          "id": 15180,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Reverted to NET June TBD with cancellation of NOTAMs.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=65143.msg2794881#msg2794881",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-06-04T12:29:00Z"
-        },
-        {
-          "id": 15130,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per NOTAMs; Payload and launch vehicle identities highly uncertain.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2793201#msg2793201",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-05-29T17:41:00Z"
-        }
-      ],
-      "net": "2026-07-12T02:00:00Z",
-      "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
-      },
-      "window_end": "2026-07-12T06:00:00Z",
-      "window_start": "2026-07-12T02:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 1080,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1080/",
-        "name": "Orienspace Technology",
-        "featured": false,
-        "type": "Commercial",
-        "country_code": "CHN",
-        "abbrev": "OrienSpace",
-        "description": "Galactic Energy is a private aerospace company headquartered in Yantai, Shandong, China, established in 2020. The company is developing the Gravity Series of satellite launch vehicles.",
-        "administrator": null,
-        "founding_year": "2020",
-        "launchers": "Gravity-1",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 2,
-        "consecutive_successful_launches": 2,
-        "successful_launches": 2,
-        "failed_launches": 0,
-        "pending_launches": 1,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 0,
-        "attempted_landings": 0,
-        "info_url": "https://www.orienspace.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/Orienspace",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/orienspace2520technology_logo_20240112075736.png",
-        "image_url": null,
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/orienspace2520technology_nation_20240112075637.png"
-      },
-      "rocket": {
-        "id": 9037,
-        "configuration": {
-          "id": 503,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/503/",
-          "name": "Gravity-1",
-          "active": false,
-          "reusable": false,
-          "description": "A 4 stage launch vehicle by Chinese private company OrienSpace, consisting of 5 solid rocket motors clustered together but with the center motor igniting just before boosters separation. The upper two stages also uses solid fuel.",
-          "family": "",
-          "full_name": "Gravity-1",
-          "manufacturer": {
-            "id": 1080,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1080/",
-            "name": "Orienspace Technology",
-            "featured": false,
-            "type": "Commercial",
-            "country_code": "CHN",
-            "abbrev": "OrienSpace",
-            "description": "Galactic Energy is a private aerospace company headquartered in Yantai, Shandong, China, established in 2020. The company is developing the Gravity Series of satellite launch vehicles.",
-            "administrator": null,
-            "founding_year": "2020",
-            "launchers": "Gravity-1",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 2,
-            "consecutive_successful_launches": 2,
-            "successful_launches": 2,
-            "failed_launches": 0,
-            "pending_launches": 1,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.orienspace.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Orienspace",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/orienspace2520technology_logo_20240112075736.png",
-            "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/orienspace2520technology_nation_20240112075637.png"
-          },
-          "program": [],
-          "variant": "Gravity-1",
-          "alias": "",
-          "min_stage": 3,
-          "max_stage": 3,
-          "length": 29.4,
-          "diameter": null,
-          "maiden_flight": "2024-01-11",
-          "launch_cost": null,
-          "launch_mass": 405,
-          "leo_capacity": 6500,
-          "gto_capacity": null,
-          "to_thrust": 5880,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gravity-1_image_20240108105446.jpeg",
-          "info_url": "https://www.orienspace.com/productPage",
-          "wiki_url": null,
-          "total_launch_count": 2,
-          "consecutive_successful_launches": 2,
-          "successful_launches": 2,
-          "failed_launches": 0,
-          "pending_launches": 0,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7632,
-        "name": "Unknown Payload",
-        "description": "Details TBD.",
-        "launch_designator": null,
-        "type": "Unknown",
-        "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 89,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/89/",
-        "agency_id": 88,
-        "name": "Haiyang offshore launch location",
-        "description": "",
-        "info_url": null,
-        "wiki_url": null,
-        "map_url": "https://www.google.com/maps?q=36.631333,121.198361",
-        "latitude": "36.631333",
-        "longitude": "121.198361",
-        "location": {
-          "id": 185,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/185/",
-          "name": "Haiyang Oriental Spaceport",
-          "country_code": "CHN",
-          "description": "Chinese orbital launch vehicle launches supporting sea port located at Haiyang, Shandong Province, with dedicated piers and rocket/payload processing facilities for Chinese launch vehicles’ sea launches, and (as part of its expansion project) land based launch pads on artificial islands for various test vehicles and launch vehicles of private and government launch services providers.\r\n\r\nIn operation as a remote base of Taiyuan Satellite Launch Center since 2019.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_haiyang_oriental_spaceport_20251128181322.jpg",
-          "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 25,
-          "total_landing_count": 0
-        },
-        "country_code": "CHN",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_89_20200803143242.jpg",
-        "total_launch_count": 9,
-        "orbital_launch_attempt_count": 9
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gravity-1_image_20240108105446.jpeg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7339,
-      "location_launch_attempt_count": 26,
-      "pad_launch_attempt_count": 10,
-      "agency_launch_attempt_count": 3,
-      "orbital_launch_attempt_count_year": 166,
-      "location_launch_attempt_count_year": 5,
-      "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P111DT10H11M",
-      "mission_patches": [],
-      "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "d8eb4b68-5307-4b3b-b585-5598958defc2",
-        "importance_score": 5,
-        "reasoning": "Standard operational mission.",
-        "key_facts": [
-          "Rocket: Gravity-1",
-          "Launch Site: Haiyang Oriental Spaceport",
-          "Target Orbit: Unknown",
-          "Mission Type: Unknown"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Worth watching if you're interested in space launches."
-      }
-    },
-    {
-      "id": "10fa7952-f00b-4292-80a2-4207e208844e",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/10fa7952-f00b-4292-80a2-4207e208844e/",
-      "slug": "vikram-i-demo-flight",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Vikram-I | Demo Flight",
-      "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
-      },
-      "last_updated": "2026-07-03T13:23:49Z",
-      "updates": [
-        {
-          "id": 15479,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added daily launch window per NOTAMs.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=63469.msg2802801#msg2802801",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-03T13:23:00Z"
-        },
-        {
-          "id": 15468,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET July.",
-          "info_url": "https://x.com/sdhrthmp/status/2072549363969335565",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-02T06:02:00Z"
-        },
-        {
-          "id": 14726,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Reverted back to NET 2026 TBD based on launch vehicle development testing updates.",
-          "info_url": "https://twitter.com/SkyrootA/status/2041895697054888040",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-17T02:35:00Z"
-        },
-        {
-          "id": 14155,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET April.",
-          "info_url": "https://www.satellitetoday.com/launch/2026/03/03/skyroot-aerospace-indian-launch-player-ready-for-the-big-stage/",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-03-04T01:17:00Z"
-        },
-        {
-          "id": 14066,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Reverted to 2026 TBD pending launch period updates.",
-          "info_url": "https://x.com/SkyrootA/status/2023708618957496324",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-02-23T14:40:00Z"
-        },
-        {
-          "id": 12935,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET February.",
-          "info_url": "https://www.news9live.com/science/vikram-i-mission-by-skyroot-aerospace-to-launch-in-feb-2026-2904963",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-11-18T15:33:00Z"
-        },
-        {
-          "id": 12899,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch.",
-          "info_url": "https://www.livemint.com/companies/start-ups/india-space-startup-skyroot-private-rocket-launch-11761623312736.html",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2025-11-15T04:39:00Z"
-        }
-      ],
-      "net": "2026-07-12T05:00:00Z",
-      "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
-      },
-      "window_end": "2026-07-12T09:00:00Z",
-      "window_start": "2026-07-12T05:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 1099,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/1099/",
-        "name": "Skyroot Aerospace",
-        "featured": false,
-        "type": "Private",
-        "country_code": "IND",
-        "abbrev": "Skyroot",
-        "description": "Indian private launch services provider based in Hyderabad.",
-        "administrator": "CEO: Pawan Kumar Chandana",
-        "founding_year": "2018",
-        "launchers": "",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 0,
-        "consecutive_successful_launches": 0,
-        "successful_launches": 0,
-        "failed_launches": 0,
-        "pending_launches": 0,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 0,
-        "attempted_landings": 0,
-        "info_url": "https://skyroot.in/",
-        "wiki_url": "https://en.wikipedia.org/wiki/Skyroot_Aerospace",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skyroot_aerospa_image_20251115042548.png",
-        "image_url": null,
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skyroot_aerospa_image_20260210085909.jpg"
-      },
-      "rocket": {
-        "id": 8799,
-        "configuration": {
-          "id": 532,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/532/",
-          "name": "Vikram-I",
-          "active": true,
-          "reusable": false,
-          "description": "4-stage orbital launch vehicle developed by Indian private company Skyroot Aerospace, with capability of up to 350 kg to Low Earth Orbit. The first 3 stages are powered by solid fuel rocket motors, topped by a hypergolic fuel upper stage.",
-          "family": "Vikram",
-          "full_name": "Vikram-I",
-          "manufacturer": {
-            "id": 1099,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1099/",
-            "name": "Skyroot Aerospace",
-            "featured": false,
-            "type": "Private",
-            "country_code": "IND",
-            "abbrev": "Skyroot",
-            "description": "Indian private launch services provider based in Hyderabad.",
-            "administrator": "CEO: Pawan Kumar Chandana",
-            "founding_year": "2018",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://skyroot.in/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Skyroot_Aerospace",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skyroot_aerospa_image_20251115042548.png",
-            "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/skyroot_aerospa_image_20260210085909.jpg"
-          },
-          "program": [],
-          "variant": "",
-          "alias": "",
-          "min_stage": 4,
-          "max_stage": 4,
-          "length": 20,
-          "diameter": 1.7,
-          "maiden_flight": null,
-          "launch_cost": null,
-          "launch_mass": null,
-          "leo_capacity": 350,
-          "gto_capacity": null,
-          "to_thrust": 1200,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_artist_image_20251115043247.jpg",
-          "info_url": "https://www.skyroot.in/",
-          "wiki_url": "https://en.wikipedia.org/wiki/Vikram_(rocket_family)",
-          "total_launch_count": 0,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
-          "failed_launches": 0,
-          "pending_launches": 0,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7390,
-        "name": "Demo Flight",
-        "description": "First launch of Skyroot Aerospace's Vikram-I launch vehicle, with several cubesats on board. Payload identities TBD.",
-        "launch_designator": null,
-        "type": "Test Flight",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 50,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/50/",
-        "agency_id": 31,
-        "name": "Satish Dhawan Space Centre First Launch Pad",
-        "description": "India has two launch pads at the site. The First Launch Pad, operational since 1993, is used for Polar Satellite Launch Vehicle, Small Satellite Launch Vehicle and formerly used by Geosynchronous Satellite Launch Vehicle.",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Satish_Dhawan_Space_Centre_First_Launch_Pad",
-        "map_url": "https://www.google.com/maps?q=13.733,80.235",
-        "latitude": "13.733",
-        "longitude": "80.235",
-        "location": {
-          "id": 14,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/14/",
-          "name": "Satish Dhawan Space Centre, India",
-          "country_code": "IND",
-          "description": "Satish Dhawan Space Centre – SDSC (formerly Sriharikota Range – SHAR),[1] is the primary spaceport of the Indian Space Research Organisation (ISRO), located in Sriharikota, Andhra Pradesh.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_14_20200803142403.jpg",
-          "timezone_name": "Asia/Kolkata",
-          "total_launch_count": 103,
-          "total_landing_count": 0
-        },
-        "country_code": "IND",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_50_20200803143457.jpg",
-        "total_launch_count": 63,
-        "orbital_launch_attempt_count": 62
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_artist_image_20251115043247.jpg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7340,
-      "location_launch_attempt_count": 104,
-      "pad_launch_attempt_count": 64,
-      "agency_launch_attempt_count": 1,
-      "orbital_launch_attempt_count_year": 167,
-      "location_launch_attempt_count_year": 2,
-      "pad_launch_attempt_count_year": 2,
-      "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P181DT11M30S",
-      "mission_patches": [],
-      "type": "detailed",
       "ai_enrichment": null
     },
     {
-      "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/e09f254f-18bc-4985-963e-6075fa3d7a1c/",
-      "slug": "falcon-9-block-5-starlink-group-15-14",
-      "flightclub_url": "https://flightclub.io/result?llId=e09f254f-18bc-4985-963e-6075fa3d7a1c",
+      "id": "e7e55b53-6f69-4c22-9fc5-df00df653a3f",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/e7e55b53-6f69-4c22-9fc5-df00df653a3f/",
+      "slug": "falcon-9-block-5-starlink-group-17-52",
+      "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | Starlink Group 15-14",
+      "name": "Falcon 9 Block 5 | Starlink Group 17-52",
       "status": {
         "id": 1,
         "name": "Go for Launch",
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-08T00:27:19Z",
+      "last_updated": "2026-07-20T17:54:47Z",
       "updates": [
         {
-          "id": 15504,
+          "id": 15615,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Now targeting Jul 14 at 01:16 UTC",
-          "info_url": "https://www.spacex.com/launches/sl-15-14",
+          "comment": "Now targeting Jul 29 at 02:00 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-52",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-08T00:27:00Z"
+          "created_on": "2026-07-20T17:54:00Z"
         },
         {
-          "id": 15480,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Now targeting Jul 13 at 22:38 UTC",
-          "info_url": "https://www.spacex.com/launches/sl-15-14",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-03T22:48:00Z"
-        },
-        {
-          "id": 15437,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Now targeting Jul 13 at 08:00 UTC",
-          "info_url": "https://www.spacex.com/launches/sl-15-14",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-06-30T03:06:00Z"
-        },
-        {
-          "id": 15436,
+          "id": 15574,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
           "comment": "Added launch.",
-          "info_url": "https://www.spacex.com/launches/sl-15-14",
+          "info_url": "https://www.spacex.com/launches/sl-17-52",
           "created_by": "Cosmic_Penguin",
-          "created_on": "2026-06-29T20:36:00Z"
+          "created_on": "2026-07-16T20:06:00Z"
         }
       ],
-      "net": "2026-07-14T01:16:00Z",
+      "net": "2026-07-29T02:00:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-07-14T02:16:00Z",
-      "window_start": "2026-07-14T01:16:00Z",
+      "window_end": "2026-07-29T06:00:00Z",
+      "window_start": "2026-07-29T02:00:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -1245,15 +2015,15 @@
         "launchers": "Falcon | Starship",
         "spacecraft": "Dragon",
         "launch_library_url": null,
-        "total_launch_count": 701,
-        "consecutive_successful_launches": 186,
-        "successful_launches": 686,
+        "total_launch_count": 707,
+        "consecutive_successful_launches": 192,
+        "successful_launches": 692,
         "failed_launches": 15,
-        "pending_launches": 127,
-        "consecutive_successful_landings": 22,
-        "successful_landings": 646,
+        "pending_launches": 126,
+        "consecutive_successful_landings": 27,
+        "successful_landings": 651,
         "failed_landings": 28,
-        "attempted_landings": 673,
+        "attempted_landings": 678,
         "info_url": "https://www.spacex.com/",
         "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
@@ -1261,7 +2031,7 @@
         "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
       },
       "rocket": {
-        "id": 9080,
+        "id": 9089,
         "configuration": {
           "id": 164,
           "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
@@ -1285,15 +2055,15 @@
             "launchers": "Falcon | Starship",
             "spacecraft": "Dragon",
             "launch_library_url": null,
-            "total_launch_count": 701,
-            "consecutive_successful_launches": 186,
-            "successful_launches": 686,
+            "total_launch_count": 707,
+            "consecutive_successful_launches": 192,
+            "successful_launches": 692,
             "failed_launches": 15,
-            "pending_launches": 127,
-            "consecutive_successful_landings": 22,
-            "successful_landings": 646,
+            "pending_launches": 126,
+            "consecutive_successful_landings": 27,
+            "successful_landings": 651,
             "failed_landings": 28,
-            "attempted_landings": 673,
+            "attempted_landings": 678,
             "info_url": "https://www.spacex.com/",
             "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
@@ -1397,41 +2167,41 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
           "info_url": "https://www.spacex.com/vehicles/falcon-9/",
           "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-          "total_launch_count": 606,
-          "consecutive_successful_launches": 308,
-          "successful_launches": 605,
+          "total_launch_count": 612,
+          "consecutive_successful_launches": 314,
+          "successful_launches": 611,
           "failed_launches": 1,
-          "pending_launches": 111,
-          "attempted_landings": 597,
-          "successful_landings": 592,
+          "pending_launches": 109,
+          "attempted_landings": 602,
+          "successful_landings": 597,
           "failed_landings": 5,
-          "consecutive_successful_landings": 292
+          "consecutive_successful_landings": 297
         },
         "launcher_stage": [
           {
-            "id": 955,
+            "id": 964,
             "type": "Core",
             "reused": true,
-            "launcher_flight_number": 15,
+            "launcher_flight_number": 26,
             "launcher": {
-              "id": 193,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/193/",
-              "details": "Falcon 9 booster debuting on Starlink Group 11-11.",
+              "id": 124,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/124/",
+              "details": "Launched Crew-7 on its first flight.",
               "flight_proven": true,
-              "serial_number": "B1093",
+              "serial_number": "B1081",
               "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20250910140450.jpeg",
-              "successful_landings": 14,
-              "attempted_landings": 14,
-              "flights": 14,
-              "last_launch_date": "2026-06-15T15:34:35Z",
-              "first_launch_date": "2025-04-07T23:06:10Z"
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/124_image_20230827172435.jpeg",
+              "successful_landings": 25,
+              "attempted_landings": 25,
+              "flights": 25,
+              "last_launch_date": "2026-06-25T03:30:38Z",
+              "first_launch_date": "2023-08-26T07:27:27Z"
             },
             "landing": {
-              "id": 1886,
+              "id": 1897,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage B1093 will land on ASDS OCISLY after its 15th flight.",
+              "description": "The Falcon 9 first stage B1081 will land on ASDS OCISLY after its 26th flight.",
               "downrange_distance": 574,
               "location": {
                 "id": 1,
@@ -1439,7 +2209,7 @@
                 "abbrev": "OCISLY",
                 "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
                 "location": null,
-                "successful_landings": 209
+                "successful_landings": 213
               },
               "type": {
                 "id": 1,
@@ -1448,19 +2218,19 @@
                 "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": "2026-06-15T15:34:35Z",
-            "turn_around_time_days": 28,
+            "previous_flight_date": "2026-06-25T03:30:38Z",
+            "turn_around_time_days": 33,
             "previous_flight": {
-              "id": "bad5ea8c-8b17-4cb3-a063-d427fb092275",
-              "name": "Falcon 9 Block 5 | Starlink Group 17-54"
+              "id": "a4fb0d1a-2655-4552-b950-f2f6340ef85a",
+              "name": "Falcon 9 Block 5 | Starlink Group 17-45"
             }
           }
         ],
         "spacecraft_stage": null
       },
       "mission": {
-        "id": 7675,
-        "name": "Starlink Group 15-14",
+        "id": 7684,
+        "name": "Starlink Group 17-52",
         "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
         "launch_designator": null,
         "type": "Communications",
@@ -1484,15 +2254,15 @@
             "launchers": "Falcon | Starship",
             "spacecraft": "Dragon",
             "launch_library_url": null,
-            "total_launch_count": 701,
-            "consecutive_successful_launches": 186,
-            "successful_launches": 686,
+            "total_launch_count": 707,
+            "consecutive_successful_launches": 192,
+            "successful_launches": 692,
             "failed_launches": 15,
-            "pending_launches": 127,
-            "consecutive_successful_landings": 22,
-            "successful_landings": 646,
+            "pending_launches": 126,
+            "consecutive_successful_landings": 27,
+            "successful_landings": 651,
             "failed_landings": 28,
-            "attempted_landings": 673,
+            "attempted_landings": 678,
             "info_url": "https://www.spacex.com/",
             "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
@@ -1522,13 +2292,13 @@
           "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
           "timezone_name": "America/Los_Angeles",
-          "total_launch_count": 896,
+          "total_launch_count": 900,
           "total_landing_count": 35
         },
         "country_code": "USA",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
-        "total_launch_count": 280,
-        "orbital_launch_attempt_count": 280
+        "total_launch_count": 284,
+        "orbital_launch_attempt_count": 284
       },
       "infoURLs": [
         {
@@ -1537,7 +2307,7 @@
           "title": "SpaceX",
           "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
           "feature_image": null,
-          "url": "https://www.spacex.com/launches/sl-15-14",
+          "url": "https://www.spacex.com/launches/sl-17-52",
           "type": {
             "id": 1,
             "name": "Official Page"
@@ -1556,8 +2326,8 @@
           "publisher": "SpaceX",
           "title": "Starlink Mission",
           "description": "Livestream on X",
-          "feature_image": "https://pbs.twimg.com/media/HMARzwdXAAAYR2I.jpg",
-          "url": "https://x.com/i/broadcasts/1qKDzzywYMVJV",
+          "feature_image": "https://pbs.twimg.com/media/HNX9TuyXAAA7UlA.jpg",
+          "url": "https://x.com/i/broadcasts/1AxRnnrObgzxl",
           "type": {
             "id": 1,
             "name": "Official Webcast"
@@ -1567,8 +2337,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-07-12T07:50:00Z",
-          "end_time": "2026-07-12T09:50:00Z"
+          "start_time": "2026-07-28T01:50:00Z",
+          "end_time": "2026-07-28T03:50:00Z"
         }
       ],
       "webcast_live": false,
@@ -1691,7 +2461,7 @@
             "abbrev": "Fairing Separation",
             "description": "Separation of the payload fairing"
           },
-          "relative_time": "PT2M56S"
+          "relative_time": "PT2M57S"
         },
         {
           "type": {
@@ -1707,638 +2477,6 @@
             "abbrev": "Entry Burn Shutdown",
             "description": "End of the atmospheric entry burn"
           },
-          "relative_time": "PT6M23S"
-        },
-        {
-          "type": {
-            "id": 18,
-            "abbrev": "Stage 1 Landing Burn",
-            "description": "Start of the first stage landing burn"
-          },
-          "relative_time": "PT7M55S"
-        },
-        {
-          "type": {
-            "id": 19,
-            "abbrev": "Stage 1 Landing",
-            "description": "Landing of the first stage"
-          },
-          "relative_time": "PT8M18S"
-        },
-        {
-          "type": {
-            "id": 20,
-            "abbrev": "SECO-1",
-            "description": "First cut-off of the second engine"
-          },
-          "relative_time": "PT8M40S"
-        },
-        {
-          "type": {
-            "id": 21,
-            "abbrev": "SES-2",
-            "description": "Second start of the second engine"
-          },
-          "relative_time": "PT52M20S"
-        },
-        {
-          "type": {
-            "id": 22,
-            "abbrev": "SECO-2",
-            "description": "Second cut-off of the second engine"
-          },
-          "relative_time": "PT52M21S"
-        },
-        {
-          "type": {
-            "id": 23,
-            "abbrev": "Starlink Deployment",
-            "description": "Deployment of the Starlink stack from the rocket"
-          },
-          "relative_time": "PT1H1M11S"
-        }
-      ],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-      "infographic": null,
-      "program": [
-        {
-          "id": 25,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/25/",
-          "name": "Starlink",
-          "description": "Starlink is a satellite internet constellation operated by American aerospace company SpaceX",
-          "agencies": [
-            {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-              "name": "SpaceX",
-              "type": "Commercial"
-            }
-          ],
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starlink_program_20231228154508.jpeg",
-          "start_date": "2018-02-22T14:17:00Z",
-          "end_date": null,
-          "info_url": "https://starlink.com",
-          "wiki_url": "https://en.wikipedia.org/wiki/Starlink",
-          "mission_patches": [
-            {
-              "id": 7,
-              "name": "Space X Starlink Mission Patch",
-              "priority": 10,
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
-              "agency": {
-                "id": 121,
-                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-                "name": "SpaceX",
-                "type": "Commercial"
-              }
-            }
-          ],
-          "type": {
-            "id": 3,
-            "name": "Communication Constellation"
-          }
-        }
-      ],
-      "orbital_launch_attempt_count": 7341,
-      "location_launch_attempt_count": 898,
-      "pad_launch_attempt_count": 282,
-      "agency_launch_attempt_count": 703,
-      "orbital_launch_attempt_count_year": 168,
-      "location_launch_attempt_count_year": 46,
-      "pad_launch_attempt_count_year": 44,
-      "agency_launch_attempt_count_year": 84,
-      "pad_turnaround": "P2DT23H16M",
-      "mission_patches": [
-        {
-          "id": 7,
-          "name": "Space X Starlink Mission Patch",
-          "priority": 10,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/space2520x252_mission_patch_20221011205756.png",
-          "agency": {
-            "id": 121,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-            "name": "SpaceX",
-            "type": "Commercial"
-          }
-        }
-      ],
-      "type": "detailed",
-      "ai_enrichment": null
-    },
-    {
-      "id": "9999a3a3-b15d-4ee3-b70f-acf00d10d912",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/9999a3a3-b15d-4ee3-b70f-acf00d10d912/",
-      "slug": "falcon-9-block-5-starlink-group-10-45",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | Starlink Group 10-45",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-07-06T17:38:54Z",
-      "updates": [
-        {
-          "id": 15495,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch.",
-          "info_url": "https://www.spacex.com/launches/sl-10-45",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-06T17:36:00Z"
-        }
-      ],
-      "net": "2026-07-14T07:15:00Z",
-      "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
-      },
-      "window_end": "2026-07-14T11:15:00Z",
-      "window_start": "2026-07-14T07:15:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 121,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-        "name": "SpaceX",
-        "featured": true,
-        "type": "Commercial",
-        "country_code": "USA",
-        "abbrev": "SpX",
-        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-        "administrator": "CEO: Elon Musk",
-        "founding_year": "2002",
-        "launchers": "Falcon | Starship",
-        "spacecraft": "Dragon",
-        "launch_library_url": null,
-        "total_launch_count": 701,
-        "consecutive_successful_launches": 186,
-        "successful_launches": 686,
-        "failed_launches": 15,
-        "pending_launches": 127,
-        "consecutive_successful_landings": 22,
-        "successful_landings": 646,
-        "failed_landings": 28,
-        "attempted_landings": 673,
-        "info_url": "https://www.spacex.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
-      },
-      "rocket": {
-        "id": 9084,
-        "configuration": {
-          "id": 164,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
-          "name": "Falcon 9",
-          "active": true,
-          "reusable": true,
-          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
-          "family": "Falcon",
-          "full_name": "Falcon 9 Block 5",
-          "manufacturer": {
-            "id": 121,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-            "name": "SpaceX",
-            "featured": true,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "SpX",
-            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-            "administrator": "CEO: Elon Musk",
-            "founding_year": "2002",
-            "launchers": "Falcon | Starship",
-            "spacecraft": "Dragon",
-            "launch_library_url": null,
-            "total_launch_count": 701,
-            "consecutive_successful_launches": 186,
-            "successful_launches": 686,
-            "failed_launches": 15,
-            "pending_launches": 127,
-            "consecutive_successful_landings": 22,
-            "successful_landings": 646,
-            "failed_landings": 28,
-            "attempted_landings": 673,
-            "info_url": "https://www.spacex.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
-          },
-          "program": [
-            {
-              "id": 5,
-              "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
-              "name": "Commercial Crew Program",
-              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
-              "agencies": [
-                {
-                  "id": 80,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
-                  "name": "Boeing",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                {
-                  "id": 121,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-                  "name": "SpaceX",
-                  "type": "Commercial"
-                }
-              ],
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
-              "start_date": "2011-04-18T00:00:00Z",
-              "end_date": null,
-              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
-              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": [],
-              "type": {
-                "id": 2,
-                "name": "Human Spaceflight"
-              }
-            },
-            {
-              "id": 11,
-              "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
-              "name": "Commercial Resupply Services",
-              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
-              "agencies": [
-                {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                {
-                  "id": 257,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
-                  "name": "Northrop Grumman Space Systems",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 1020,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
-                  "name": "Sierra Nevada Corporation",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 121,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-                  "name": "SpaceX",
-                  "type": "Commercial"
-                }
-              ],
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
-              "start_date": "2008-12-23T00:00:00Z",
-              "end_date": null,
-              "info_url": null,
-              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": [],
-              "type": {
-                "id": 2,
-                "name": "Human Spaceflight"
-              }
-            }
-          ],
-          "variant": "Block 5",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 2,
-          "length": 70,
-          "diameter": 3.65,
-          "maiden_flight": "2018-05-11",
-          "launch_cost": "52000000",
-          "launch_mass": 549,
-          "leo_capacity": 22800,
-          "gto_capacity": 8300,
-          "to_thrust": 7607,
-          "apogee": 200,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
-          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-          "total_launch_count": 606,
-          "consecutive_successful_launches": 308,
-          "successful_launches": 605,
-          "failed_launches": 1,
-          "pending_launches": 111,
-          "attempted_landings": 597,
-          "successful_landings": 592,
-          "failed_landings": 5,
-          "consecutive_successful_landings": 292
-        },
-        "launcher_stage": [
-          {
-            "id": 956,
-            "type": "Core",
-            "reused": true,
-            "launcher_flight_number": 28,
-            "launcher": {
-              "id": 123,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/123/",
-              "details": "Falcon 9 Block 5 booster first used for the Axiom Space Mission 2 Crew Dragon mission.",
-              "flight_proven": true,
-              "serial_number": "B1080",
-              "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1080_image_20240322071018.jpeg",
-              "successful_landings": 27,
-              "attempted_landings": 27,
-              "flights": 27,
-              "last_launch_date": "2026-06-12T12:37:00Z",
-              "first_launch_date": "2023-05-21T21:37:09Z"
-            },
-            "landing": {
-              "id": 1888,
-              "attempt": true,
-              "success": null,
-              "description": "The Falcon 9 first stage B1080 will land on ASDS ASOG after its 28th flight.",
-              "downrange_distance": 600,
-              "location": {
-                "id": 17,
-                "name": "A Shortfall of Gravitas",
-                "abbrev": "ASOG",
-                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
-                "location": null,
-                "successful_landings": 160
-              },
-              "type": {
-                "id": 1,
-                "name": "Autonomous Spaceport Drone Ship",
-                "abbrev": "ASDS",
-                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
-              }
-            },
-            "previous_flight_date": "2026-06-12T12:37:00Z",
-            "turn_around_time_days": 31,
-            "previous_flight": {
-              "id": "229267d8-74ca-4d0b-8711-b2efe621fc6b",
-              "name": "Falcon 9 Block 5 | Starlink Group 10-54"
-            }
-          }
-        ],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7679,
-        "name": "Starlink Group 10-45",
-        "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-        "launch_designator": null,
-        "type": "Communications",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [
-          {
-            "id": 121,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-            "name": "SpaceX",
-            "featured": true,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "SpX",
-            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-            "administrator": "CEO: Elon Musk",
-            "founding_year": "2002",
-            "launchers": "Falcon | Starship",
-            "spacecraft": "Dragon",
-            "launch_library_url": null,
-            "total_launch_count": 701,
-            "consecutive_successful_launches": 186,
-            "successful_launches": 686,
-            "failed_launches": 15,
-            "pending_launches": 127,
-            "consecutive_successful_landings": 22,
-            "successful_landings": 646,
-            "failed_landings": 28,
-            "attempted_landings": 673,
-            "info_url": "https://www.spacex.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
-          }
-        ],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 80,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
-        "agency_id": 121,
-        "name": "Space Launch Complex 40",
-        "description": "",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
-        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
-        "latitude": "28.56194122",
-        "longitude": "-80.57735736",
-        "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
-          "name": "Cape Canaveral SFS, FL, USA",
-          "country_code": "USA",
-          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 1120,
-          "total_landing_count": 75
-        },
-        "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
-        "total_launch_count": 392,
-        "orbital_launch_attempt_count": 392
-      },
-      "infoURLs": [
-        {
-          "priority": 10,
-          "source": "spacex.com",
-          "title": "SpaceX",
-          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
-          "feature_image": null,
-          "url": "https://www.spacex.com/launches/sl-10-45",
-          "type": {
-            "id": 1,
-            "name": "Official Page"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          }
-        }
-      ],
-      "vidURLs": [
-        {
-          "priority": 10,
-          "source": "x.com",
-          "publisher": "SpaceX",
-          "title": "Starlink Mission",
-          "description": "Livestream on X",
-          "feature_image": "https://pbs.twimg.com/media/HMjx7l1W4AAFwI8.jpg",
-          "url": "https://x.com/i/broadcasts/1AKEmmZqZlnKL",
-          "type": {
-            "id": 1,
-            "name": "Official Webcast"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          },
-          "start_time": "2026-07-14T07:05:00Z",
-          "end_time": "2026-07-14T09:05:00Z"
-        }
-      ],
-      "webcast_live": false,
-      "timeline": [
-        {
-          "type": {
-            "id": 1,
-            "abbrev": "GO for Prop Load",
-            "description": "Launch director verifies go for propellant load"
-          },
-          "relative_time": "-PT38M"
-        },
-        {
-          "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
-          },
-          "relative_time": "-PT35M"
-        },
-        {
-          "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
-          },
-          "relative_time": "-PT35M"
-        },
-        {
-          "type": {
-            "id": 4,
-            "abbrev": "Stage 2 LOX Load",
-            "description": "Start of liquid oxygen loading in the second stage"
-          },
-          "relative_time": "-PT16M"
-        },
-        {
-          "type": {
-            "id": 5,
-            "abbrev": "Engine Chill",
-            "description": "Start of engine chilling"
-          },
-          "relative_time": "-PT7M"
-        },
-        {
-          "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
-          },
-          "relative_time": "-PT1M"
-        },
-        {
-          "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
-          },
-          "relative_time": "-PT1M"
-        },
-        {
-          "type": {
-            "id": 8,
-            "abbrev": "GO for Launch",
-            "description": "Launch director verifies go for launch"
-          },
-          "relative_time": "-PT45S"
-        },
-        {
-          "type": {
-            "id": 9,
-            "abbrev": "Ignition",
-            "description": "Start of the engine ignition sequence"
-          },
-          "relative_time": "-PT3S"
-        },
-        {
-          "type": {
-            "id": 10,
-            "abbrev": "Liftoff",
-            "description": "First upwards movement of the rocket"
-          },
-          "relative_time": "P0D"
-        },
-        {
-          "type": {
-            "id": 11,
-            "abbrev": "Max-Q",
-            "description": "Maximum dynamic pressure"
-          },
-          "relative_time": "PT1M10S"
-        },
-        {
-          "type": {
-            "id": 12,
-            "abbrev": "MECO",
-            "description": "Cut-off of the main engine"
-          },
-          "relative_time": "PT2M26S"
-        },
-        {
-          "type": {
-            "id": 13,
-            "abbrev": "Stage 2 Separation",
-            "description": "Separation of the second stage from the first"
-          },
-          "relative_time": "PT2M29S"
-        },
-        {
-          "type": {
-            "id": 14,
-            "abbrev": "SES-1",
-            "description": "First start of the second engine"
-          },
-          "relative_time": "PT2M36S"
-        },
-        {
-          "type": {
-            "id": 15,
-            "abbrev": "Fairing Separation",
-            "description": "Separation of the payload fairing"
-          },
-          "relative_time": "PT2M59S"
-        },
-        {
-          "type": {
-            "id": 16,
-            "abbrev": "Entry Burn Startup",
-            "description": "Start of the atmospheric entry burn"
-          },
-          "relative_time": "PT6M"
-        },
-        {
-          "type": {
-            "id": 17,
-            "abbrev": "Entry Burn Shutdown",
-            "description": "End of the atmospheric entry burn"
-          },
           "relative_time": "PT6M22S"
         },
         {
@@ -2347,7 +2485,7 @@
             "abbrev": "Stage 1 Landing Burn",
             "description": "Start of the first stage landing burn"
           },
-          "relative_time": "PT7M56S"
+          "relative_time": "PT7M57S"
         },
         {
           "type": {
@@ -2371,7 +2509,7 @@
             "abbrev": "SES-2",
             "description": "Second start of the second engine"
           },
-          "relative_time": "PT54M10S"
+          "relative_time": "PT52M37S"
         },
         {
           "type": {
@@ -2379,7 +2517,7 @@
             "abbrev": "SECO-2",
             "description": "Second cut-off of the second engine"
           },
-          "relative_time": "PT54M11S"
+          "relative_time": "PT52M38S"
         },
         {
           "type": {
@@ -2387,7 +2525,7 @@
             "abbrev": "Starlink Deployment",
             "description": "Deployment of the Starlink stack from the rocket"
           },
-          "relative_time": "PT1H3M31S"
+          "relative_time": "PT1H1M28S"
         }
       ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
@@ -2431,15 +2569,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7342,
-      "location_launch_attempt_count": 1121,
-      "pad_launch_attempt_count": 393,
-      "agency_launch_attempt_count": 704,
-      "orbital_launch_attempt_count_year": 169,
-      "location_launch_attempt_count_year": 45,
-      "pad_launch_attempt_count_year": 39,
-      "agency_launch_attempt_count_year": 85,
-      "pad_turnaround": "P4DT21H49M23S",
+      "orbital_launch_attempt_count": 7351,
+      "location_launch_attempt_count": 902,
+      "pad_launch_attempt_count": 286,
+      "agency_launch_attempt_count": 710,
+      "orbital_launch_attempt_count_year": 178,
+      "location_launch_attempt_count_year": 50,
+      "pad_launch_attempt_count_year": 48,
+      "agency_launch_attempt_count_year": 91,
+      "pad_turnaround": "P3DT12H",
       "mission_patches": [
         {
           "id": 7,
@@ -2455,29 +2593,7 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "9999a3a3-b15d-4ee3-b70f-acf00d10d912",
-        "importance_score": 5,
-        "reasoning": "Standard operational mission.",
-        "key_facts": [
-          "Rocket: Falcon 9 Block 5",
-          "Launch Site: Cape Canaveral SFS, FL, USA",
-          "Target Orbit: Low Earth Orbit",
-          "Reusable rocket design",
-          "Mission Type: Communications"
-        ],
-        "viewing_info": {
-          "visible_from_europe": true,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "SpaceX",
-          "Reusable"
-        ],
-        "user_recommendation": "Worth watching if you're interested in space launches."
-      }
+      "ai_enrichment": null
     }
   ]
 }
