@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T00:02:17.380Z",
+  "updatedAt": "2026-07-25T03:47:46.865Z",
   "launches": [
     {
       "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
@@ -14,7 +14,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-07-25T00:00:30Z",
+      "last_updated": "2026-07-25T01:25:25Z",
       "updates": [
         {
           "id": 15656,
@@ -314,10 +314,10 @@
             "launcher": {
               "id": 256,
               "url": "https://ll.thespacedevs.com/2.2.0/launcher/256/",
-              "details": "Second Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. To be used on the 13th Starship flight test.",
+              "details": "Second Block 3 Super Heavy booster to fly with various enhancements including Raptor 3 engines, integrated interstage and 3 grid fins instead of 4 used. Used on the 13th Starship flight test. It was lost at splashdown, having completed a nominal boostback burn, but performed its landing burn with fewer engines than planned.",
               "flight_proven": false,
               "serial_number": "Booster 20",
-              "status": "active",
+              "status": "destroyed",
               "image_url": null,
               "successful_landings": 0,
               "attempted_landings": 1,
@@ -354,7 +354,7 @@
         "spacecraft_stage": {
           "id": 912,
           "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/912/",
-          "mission_end": null,
+          "mission_end": "2026-07-24T23:56:27Z",
           "destination": "Suborbital",
           "launch_crew": [],
           "onboard_crew": [],
@@ -365,16 +365,16 @@
             "name": "Ship 40",
             "serial_number": "S40",
             "is_placeholder": false,
-            "in_space": true,
-            "time_in_space": "PT1H8M31S",
+            "in_space": false,
+            "time_in_space": "PT1H5M27S",
             "time_docked": "P0D",
             "flights_count": 1,
-            "mission_ends_count": 0,
+            "mission_ends_count": 1,
             "status": {
               "id": 1,
               "name": "Active"
             },
-            "description": "Second V3 Starship, to be used on the 13th Starship test flight.",
+            "description": "Second V3 Starship, used on the 13th Starship test flight.",
             "spacecraft_config": {
               "id": 46,
               "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/46/",
@@ -422,7 +422,7 @@
             "id": 1895,
             "attempt": true,
             "success": true,
-            "description": "Ship 40 will has performed a soft splashdown in the Indian Ocean.",
+            "description": "Ship 40 has successfully performed a soft splashdown in the Indian Ocean.",
             "downrange_distance": null,
             "location": {
               "id": 32,
@@ -430,7 +430,7 @@
               "abbrev": "IND",
               "description": "Indian Ocean",
               "location": null,
-              "successful_landings": 9
+              "successful_landings": 10
             },
             "type": {
               "id": 3,
@@ -537,11 +537,11 @@
         {
           "priority": 7,
           "source": "youtube.com",
-          "publisher": "SPACE AFFAIRS",
-          "title": "GO! - SpaceX - Starship - Starship Flight 13 - Pad 2 - Starbase, TX - Space Affairs Live",
-          "description": "Launch Date: July 24, 2026\nLaunch Time: 3:45 p.m. PDT, 5:45 p.m. CDT, 6:45 p.m. EDT, 2245 UTC (July 25, 00:45 CEST)\nLaunch Window: 90 minutes, open until 8:15 p.m. CDT\nStatus: Scheduled and announced. Two Raptor engines have been replaced after the scrub on July 16. \nLaunch Provider: SpaceX\nLauncher System: Starship-Super Heavy (Prototype) - (Vehicles: Starship 40 & Booster 20)\nMission: Starship Test Flight 13 - Suborbital\nFlight: 1st flight for Super Heavy Booster 20 - 1st flight for Starship 40\nLaunch Location: Pad 2, Starbase, Texas, USA\n\nThe thirteenth flight test of Starship is preparing to launch as soon as Friday, July 24. The 90-minute launch window will open at 5:45 p.m. CDT, 2245 UTC (July 25, 00:45 CEST)\nAs with all developmental testing, the schedule is dynamic and likely ...",
-          "feature_image": "https://i.ytimg.com/vi/0EnOQCjgq4E/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=0EnOQCjgq4E",
+          "publisher": "The Space Devs",
+          "title": "SpaceX Flight 13",
+          "description": "On Friday July 24, 2026 at 22:51 UTC, SpaceX launched the Flight 13 mission with a Starship V3 from Orbital Launch Pad 2 at SpaceX Starbase, TX, USA.\n\nDescription generated from the Launch Library 2 API.\n——————————————————————\nObject in the Launch Library 2 API: https://ll.thespacedevs.com/2.3.0/launches/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/?format=json\nRelated news in the Spaceflight News API: https://api.spaceflightnewsapi.net/v4/articles/?launch=ac897b9f-44d2-4ff4-8416-1a0a076e98a2\n——————————————————————\n\nRehosted on YouTube by The Space Devs.\nSupport our work on https://www.patreon.com/TheSpaceDevs\n——————————————————————\nWebsite: https://thespacedevs.com\nX: https://x.com/thespacedevs\nDiscord: https://discord.com/invite/p7ntkNA\n——————————————————————\n\nOriginal video: https://x.com/...",
+          "feature_image": "https://i.ytimg.com/vi/7dMblISWtz8/maxresdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=7dMblISWtz8",
           "type": {
             "id": 4,
             "name": "Unofficial Re-stream"
@@ -551,8 +551,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-07-24T22:09:11Z",
-          "end_time": null
+          "start_time": "2026-07-25T00:32:59Z",
+          "end_time": "2026-07-25T02:25:15Z"
         },
         {
           "priority": 8,
@@ -560,7 +560,7 @@
           "publisher": "Spaceflight Now",
           "title": "Watch Live: SpaceX Starship launches on 13th test flight",
           "description": "Watch live as SpaceX launches its revolutionary Starship launcher for a 13th test flight. Liftoff of the Version 3 integrated Starship vehicle from Starbase in Texas is scheduled during a launch window that opens at 5:45 p.m. CDT / 6:45 p.m. EDT / 2245 UTC on Friday, July 24.\n\nThe mission will see splashdowns of the Super Heavy booster (Booster 20) in the Gulf of Mexico and the Starship upper stage (Ship 40) in the Indian Ocean.\n\nThe Starship upper stage will deploy 20 production Starlink V3 satellites for a 20-minute sub-orbital test.\n\nOur live coverage, hosted by Will Robinson-Smith, will begin about two hours before launch. He'll be joined by special guests: Stephen Clark, space reporter for Ars Technica; Jeff Foust, senior staff writer for Space News; and Joey Roulette, space repo...",
-          "feature_image": "https://i.ytimg.com/vi/Ew0Xu1RT8oc/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/Ew0Xu1RT8oc/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=Ew0Xu1RT8oc",
           "type": {
             "id": 3,
@@ -572,7 +572,7 @@
             "code": "en"
           },
           "start_time": "2026-07-24T20:46:04Z",
-          "end_time": null
+          "end_time": "2026-07-25T00:16:36Z"
         },
         {
           "priority": 9,
@@ -580,7 +580,7 @@
           "publisher": "NASASpaceflight",
           "title": "SpaceX Starship Flight 13 - Launch & Landing - ATTEMPT 3 LAUNCH STREAM",
           "description": "Starship launches Flight 13, the second launch of the Block 3 vehicle from Pad 2 at Starbase. This is the third attempt following a T-0 abort on July 16, and a weather scrub on July 23.\n\nLaunch Window: July 24th at 5:45PM to 7:15PM CDT (22:45-00:15 UTC)\n\nMission: Starship's 13th integrated flight test. Correcting issues from version 3's debut flight.\nLaunch location: Pad 2, Starbase, Earth. \nTarget orbit: Trans-atmospheric\nBooster: B20-1\nShip: S40-1\nBooster recovery: Expended - will attempt a water splashdown, no recovery.\nShip recovery: Expended - will attempt a water splashdown, no recovery.\nRocket trajectory: Southeast passing between Cuba and the Yucatan Peninsula.\nPayload onboard: 20 Starlink v3 satellites, 6 of them fitted with a suite of cameras for heatshield inspection.\nPaylo...",
-          "feature_image": "https://i.ytimg.com/vi/lC3RDO7tdLc/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/lC3RDO7tdLc/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=lC3RDO7tdLc",
           "type": {
             "id": 3,
@@ -592,7 +592,7 @@
             "code": "en"
           },
           "start_time": "2026-07-24T19:45:42Z",
-          "end_time": null
+          "end_time": "2026-07-25T01:24:46Z"
         },
         {
           "priority": 10,
@@ -612,7 +612,7 @@
             "code": "en"
           },
           "start_time": "2026-07-24T22:15:55Z",
-          "end_time": "2026-07-25T03:13:00Z"
+          "end_time": "2026-07-25T00:08:11Z"
         },
         {
           "priority": 11,
@@ -620,7 +620,7 @@
           "publisher": "Everyday Astronaut",
           "title": "[4K] Watch SpaceX Launch Starship Flight 13!!",
           "description": "SpaceX is about to launch their second V3 Starship as well as a deploying the first operational V3 Starlink satellites! It will still be a sub-orbital mission with similar objectives to Flight 12, but an important step towards orbit and full reuse.\n\nWant to learn what's new and different about Starship V3 vs V2? Check this out! - https://youtu.be/y_ecCDqTSJs\n\nWant to support what I do? Consider becoming a Patreon supporter for access to exclusive livestreams, our discord channel! - http://patreon.com/everydayastronaut\n\nOr become a YouTube member for some bonus perks as well! - https://www.youtube.com/channel/UC6uKrU_WqJ1R2HMTY3LIx5Q/join\n\nThe best place for all your space merch needs!\nhttps://everydayastronaut.com/shop/\n\nAll music is original! Check it out anywhere you listen to music...",
-          "feature_image": "https://i.ytimg.com/vi/-pR0eOj9hK0/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/-pR0eOj9hK0/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=-pR0eOj9hK0",
           "type": {
             "id": 3,
@@ -632,10 +632,10 @@
             "code": "en"
           },
           "start_time": "2026-07-24T21:15:47Z",
-          "end_time": null
+          "end_time": "2026-07-25T00:28:01Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [
         {
           "type": {
@@ -2224,7 +2224,7 @@
       "location_launch_attempt_count_year": 50,
       "pad_launch_attempt_count_year": 48,
       "agency_launch_attempt_count_year": 91,
-      "pad_turnaround": "P3DT12H",
+      "pad_turnaround": "P3DT10H8M39S",
       "mission_patches": [
         {
           "id": 7,
@@ -7052,7 +7052,7 @@
         },
         "launcher_stage": [
           {
-            "id": 917,
+            "id": 918,
             "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
@@ -7076,7 +7076,7 @@
             "previous_flight": null
           },
           {
-            "id": 918,
+            "id": 917,
             "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
@@ -16060,50 +16060,6 @@
         },
         "launcher_stage": [
           {
-            "id": 417,
-            "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
-            "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
-            },
-            "landing": {
-              "id": 1214,
-              "attempt": true,
-              "success": null,
-              "description": "The center core will attempt to land on an ASDS after launch.",
-              "downrange_distance": null,
-              "location": {
-                "id": 12,
-                "name": "Unknown",
-                "abbrev": "N/A",
-                "description": null,
-                "location": null,
-                "successful_landings": 0
-              },
-              "type": {
-                "id": 1,
-                "name": "Autonomous Spaceport Drone Ship",
-                "abbrev": "ASDS",
-                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 418,
             "type": "Strap-On Booster",
             "reused": null,
@@ -16141,6 +16097,50 @@
                 "name": "Return to Launch Site",
                 "abbrev": "RTLS",
                 "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          },
+          {
+            "id": 417,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 117,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown FH",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": {
+              "id": 1214,
+              "attempt": true,
+              "success": null,
+              "description": "The center core will attempt to land on an ASDS after launch.",
+              "downrange_distance": null,
+              "location": {
+                "id": 12,
+                "name": "Unknown",
+                "abbrev": "N/A",
+                "description": null,
+                "location": null,
+                "successful_landings": 0
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
             "previous_flight_date": null,
