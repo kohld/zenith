@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T07:41:12.282Z",
+  "updatedAt": "2026-07-29T10:37:23.980Z",
   "launches": [
     {
       "id": "beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e",
@@ -436,8 +436,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-25T20:04:24Z",
+      "last_updated": "2026-07-29T07:49:44Z",
       "updates": [
+        {
+          "id": 15684,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
+          "comment": "Now targeting Jul 30 at 07:09 UTC",
+          "info_url": "https://www.spacex.com/launches/nrol95",
+          "created_by": "Nosu",
+          "created_on": "2026-07-29T07:49:00Z"
+        },
         {
           "id": 15644,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -455,12 +463,12 @@
           "created_on": "2026-07-20T14:36:00Z"
         }
       ],
-      "net": "2026-07-30T07:09:00Z",
+      "net": "2026-07-30T07:09:01Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-07-30T07:21:00Z",
       "window_start": "2026-07-30T06:37:00Z",
@@ -1009,7 +1017,7 @@
       "location_launch_attempt_count_year": 47,
       "pad_launch_attempt_count_year": 41,
       "agency_launch_attempt_count_year": 91,
-      "pad_turnaround": "P8DT9H54M",
+      "pad_turnaround": "P8DT9H54M1S",
       "mission_patches": [
         {
           "id": 1336,
