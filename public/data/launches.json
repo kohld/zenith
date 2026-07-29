@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T21:59:34.803Z",
+  "updatedAt": "2026-07-29T23:05:49.279Z",
   "launches": [
     {
       "id": "beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e",
@@ -493,8 +493,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-29T11:25:33Z",
+      "last_updated": "2026-07-29T22:01:07Z",
       "updates": [
+        {
+          "id": 15696,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 70% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20NROL-95%20L-1%20Forecast%20-%2030%20JUL%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-29T22:01:00Z"
+        },
         {
           "id": 15684,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
@@ -529,8 +537,8 @@
       },
       "window_end": "2026-07-30T07:21:00Z",
       "window_start": "2026-07-30T06:37:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 70,
+      "weather_concerns": "Anvil Cloud Rules, Thick Cloud Layers Rule, Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
