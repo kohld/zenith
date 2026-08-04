@@ -1,89 +1,47 @@
 {
-  "generated_at": "2026-07-23T03:47:23.043Z",
+  "generated_at": "2026-08-04T03:38:41.301Z",
   "daily_summary": {
-    "headline": "Starship Test Flight and Aurora Opportunities Await!",
+    "headline": "Exciting Day for Space Enthusiasts: Multiple Launches and Aurora Insights",
     "top_events": [
       {
         "rank": 1,
-        "title": "Starship | Flight 13",
-        "description": "Starship test flight advancing Mars mission capabilities.",
-        "importance": 7,
-        "date": "2026-07-23T22:45:00Z",
+        "title": "Falcon 9 Block 5 | Starlink Group 17-53",
+        "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "importance": 5,
+        "date": "2026-08-04",
         "type": "launch",
-        "action": "Watch live stream for a glimpse into the future of space travel."
+        "action": "Watch live on SpaceX's official webcast."
       },
       {
         "rank": 2,
-        "title": "Aurora Forecast",
-        "description": "G1 geomagnetic storm expected, offering aurora viewing at high latitudes.",
+        "title": "Long March 8A | Unknown Payload",
+        "description": "Launch of the Long March 8A rocket with an unknown payload from Wenchang Space Launch Site, China.",
         "importance": 5,
-        "date": "2026-07-24T03:00:00Z",
-        "type": "aurora",
-        "action": "Check skies at high latitudes for potential aurora display."
+        "date": "2026-08-04",
+        "type": "launch",
+        "action": "Watch live if interested in Chinese space activities."
       },
       {
         "rank": 3,
-        "title": "Long March 3B/E | Unknown Payload",
-        "description": "Standard operational mission by China Aerospace Science and Technology Corporation.",
-        "importance": 5,
-        "date": "2026-07-23T12:00:00Z",
-        "type": "launch",
-        "action": "Watch for routine space operations."
+        "title": "Aurora Forecast",
+        "description": "Moderate geomagnetic activity expected, with Kp index reaching up to 3.",
+        "importance": 3,
+        "date": "2026-08-04",
+        "type": "aurora",
+        "action": "Check local conditions for possible aurora sightings."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 3
+      "aurora_opportunities": 1
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-07-24T03:00:00",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-07-24T03:00:00",
-          "end": "2026-07-24T03:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-07-24T06:00:00",
-        "max_kp": 4.33,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-07-24T06:00:00",
-          "end": "2026-07-24T06:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-07-24T09:00:00",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-07-24T09:00:00",
-          "end": "2026-07-24T09:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-07-24T03:00:00",
-      "time": "03:00-03:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
-    },
+    "opportunities": [],
+    "best_window": {},
     "total_viewing_hours": 0
   },
   "special_events": [],
