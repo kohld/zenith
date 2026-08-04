@@ -1,240 +1,6 @@
 {
-  "generated_at": "2026-08-04T03:38:41.301Z",
+  "generated_at": "2026-08-04T14:42:37.848Z",
   "launches": [
-    {
-      "id": "12b9454b-d48b-4fd5-9c11-17c18f45dafe",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/12b9454b-d48b-4fd5-9c11-17c18f45dafe/",
-      "slug": "long-march-8a-unknown-payload",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Long March 8A | Unknown Payload",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-07-23T03:07:11Z",
-      "updates": [
-        {
-          "id": 15638,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Refined launch window per new NOTAMs.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2807907#msg2807907",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-23T03:07:00Z"
-        },
-        {
-          "id": 15604,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Delayed to NET August 4 per new NOTAMs.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2807101#msg2807101",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-20T12:25:00Z"
-        },
-        {
-          "id": 15541,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch per NOTAMs; Payload and launch vehicle identities uncertain.",
-          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2805274#msg2805274",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-07-13T14:29:00Z"
-        }
-      ],
-      "net": "2026-08-04T08:50:00Z",
-      "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
-      },
-      "window_end": "2026-08-04T09:09:00Z",
-      "window_start": "2026-08-04T08:44:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 88,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-        "name": "China Aerospace Science and Technology Corporation",
-        "featured": true,
-        "type": "Government",
-        "country_code": "CHN",
-        "abbrev": "CASC",
-        "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-        "administrator": "Chairman & President: Lei Fanpei",
-        "founding_year": "1999",
-        "launchers": "Long March",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 607,
-        "consecutive_successful_launches": 33,
-        "successful_launches": 592,
-        "failed_launches": 15,
-        "pending_launches": 6,
-        "consecutive_successful_landings": 1,
-        "successful_landings": 1,
-        "failed_landings": 1,
-        "attempted_landings": 2,
-        "info_url": "https://english.spacechina.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
-      },
-      "rocket": {
-        "id": 9088,
-        "configuration": {
-          "id": 518,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/518/",
-          "name": "Long March 8A",
-          "active": true,
-          "reusable": false,
-          "description": "The Long March 8A is an orbital launch vehicle developed by the China Academy of Launch Vehicle Technology based on the Long March 8. It has an increased capability of up to 7 tonnes to a 700 km altitude sun-synchronous orbit. It implements a larger 3.35 meters diameter liquid hydrogen/liquid oxygen 2nd stage, coupled with 2 upgraded version of the YF-75D engines used on the Long March 5 (known as the YF-75H) with increased thrust to 10 tonnes each through measures such as increased turbopump speeds. \r\n\r\nThe Long March 8A can also use a larger 5.2 meters diameter payload fairing.",
-          "family": "Long March",
-          "full_name": "Long March 8A",
-          "manufacturer": {
-            "id": 88,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
-            "name": "China Aerospace Science and Technology Corporation",
-            "featured": true,
-            "type": "Government",
-            "country_code": "CHN",
-            "abbrev": "CASC",
-            "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
-            "administrator": "Chairman & President: Lei Fanpei",
-            "founding_year": "1999",
-            "launchers": "Long March",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 607,
-            "consecutive_successful_launches": 33,
-            "successful_launches": 592,
-            "failed_launches": 15,
-            "pending_launches": 6,
-            "consecutive_successful_landings": 1,
-            "successful_landings": 1,
-            "failed_landings": 1,
-            "attempted_landings": 2,
-            "info_url": "https://english.spacechina.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
-          },
-          "program": [],
-          "variant": "A",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 2,
-          "length": 50.5,
-          "diameter": 3.35,
-          "maiden_flight": "2025-02-11",
-          "launch_cost": null,
-          "launch_mass": 371,
-          "leo_capacity": 9800,
-          "gto_capacity": 3500,
-          "to_thrust": 4800,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
-          "info_url": null,
-          "wiki_url": "https://en.wikipedia.org/wiki/Long_March_8#CZ-8A_variant",
-          "total_launch_count": 9,
-          "consecutive_successful_launches": 9,
-          "successful_launches": 9,
-          "failed_launches": 0,
-          "pending_launches": 1,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7683,
-        "name": "Unknown Payload",
-        "description": "Details TBD.",
-        "launch_designator": null,
-        "type": "Unknown",
-        "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 218,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/218/",
-        "agency_id": null,
-        "name": "Commercial LC-1",
-        "description": "",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Commercial_Space_Launch_Site",
-        "map_url": "https://www.google.com/maps?q=19.597275,110.930753",
-        "latitude": "19.597275",
-        "longitude": "110.930753",
-        "location": {
-          "id": 8,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
-          "name": "Wenchang Space Launch Site, People's Republic of China",
-          "country_code": "CHN",
-          "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19° north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
-          "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 69,
-          "total_landing_count": 0
-        },
-        "country_code": "CHN",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_commercial_lc-1_20231225074041.jpg",
-        "total_launch_count": 12,
-        "orbital_launch_attempt_count": 12
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7355,
-      "location_launch_attempt_count": 70,
-      "pad_launch_attempt_count": 13,
-      "agency_launch_attempt_count": 608,
-      "orbital_launch_attempt_count_year": 182,
-      "location_launch_attempt_count_year": 15,
-      "pad_launch_attempt_count_year": 7,
-      "agency_launch_attempt_count_year": 38,
-      "pad_turnaround": "P29DT19H7M",
-      "mission_patches": [],
-      "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "12b9454b-d48b-4fd5-9c11-17c18f45dafe",
-        "importance_score": 5,
-        "reasoning": "Standard operational mission.",
-        "key_facts": [
-          "Rocket: Long March 8A",
-          "Launch Site: Wenchang Space Launch Site, People's Republic of China",
-          "Target Orbit: Unknown",
-          "Mission Type: Unknown"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Worth watching if you're interested in space launches."
-      }
-    },
     {
       "id": "0448d030-5175-4c1f-bd0b-4f3f87072921",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/0448d030-5175-4c1f-bd0b-4f3f87072921/",
@@ -248,8 +14,24 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-03T23:31:36Z",
+      "last_updated": "2026-08-04T04:44:28Z",
       "updates": [
+        {
+          "id": 15731,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Aug 04 at 16:29 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-53",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-04T04:44:00Z"
+        },
+        {
+          "id": 15730,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.spacex.com/launches/sl-17-53",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-04T02:20:00Z"
+        },
         {
           "id": 15729,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -291,7 +73,7 @@
           "created_on": "2026-07-23T16:40:00Z"
         }
       ],
-      "net": "2026-08-04T16:24:46Z",
+      "net": "2026-08-04T16:29:39Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -629,7 +411,7 @@
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
           "title": "GO! - SpaceX - Falcon 9 - Starlink 17-53 - SLC-4E - Vandenberg SFB - Space Affairs Live",
-          "description": "Launch Date: August 4, 2026 PDT\nLaunch Time:  7:00 a.m. PDT, 1400 UTC, 16:00 CEST\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 17-53\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 41 days)\nFlight for the Booster: 34\nPrevious Flights of the Booster: 33 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 24 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 ...",
+          "description": "Launch Date: August 4, 2026 PDT\nLaunch Time:  10:05 a.m. PDT, 1705 UTC, 19:05 CEST\nLaunch Window: Open until 11:00 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced \n\nMission: Starlink Group 17-53\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 41 days)\nFlight for the Booster: 34\nPrevious Flights of the Booster: 33 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 24 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607...",
           "feature_image": "https://i.ytimg.com/vi/18lBZDObHp0/maxresdefault_live.jpg",
           "url": "https://www.youtube.com/watch?v=18lBZDObHp0",
           "type": {
@@ -641,7 +423,27 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-08-04T13:50:00Z",
+          "start_time": "2026-08-04T16:55:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches 24 Starlink internet satellites from California",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Tuesday, August 4, at 9:29 a.m. PDT (12:29 p.m. EDT / 1629 UTC).\n\nThe first-stage booster, serial number B1063, launching for a 34th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-53 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perk...",
+          "feature_image": "https://i.ytimg.com/vi/cUU6opP_GDg/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=cUU6opP_GDg",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-08-04T15:59:00Z",
           "end_time": null
         },
         {
@@ -661,8 +463,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-08-04T13:50:00Z",
-          "end_time": "2026-08-04T15:51:00Z"
+          "start_time": "2026-08-04T16:14:00Z",
+          "end_time": "2026-08-05T16:14:00Z"
         }
       ],
       "webcast_live": false,
@@ -901,7 +703,7 @@
       "location_launch_attempt_count_year": 51,
       "pad_launch_attempt_count_year": 49,
       "agency_launch_attempt_count_year": 93,
-      "pad_turnaround": "P3DT13H16M3S",
+      "pad_turnaround": "P3DT13H20M56S",
       "mission_patches": [
         {
           "id": 7,
@@ -926,8 +728,7 @@
           "Launch Site: Vandenberg SFB, CA, USA",
           "Target Orbit: Low Earth Orbit",
           "Reusable rocket design",
-          "Mission Type: Communications",
-          "Program: Starlink"
+          "Mission Type: Communications"
         ],
         "viewing_info": {
           "visible_from_europe": true,
@@ -1148,7 +949,25 @@
       "pad_turnaround": "P135DT10H46M",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "d46cab82-dcf5-4d70-b698-d7bead7f638c",
+        "importance_score": 5,
+        "reasoning": "Standard operational mission.",
+        "key_facts": [
+          "Rocket: Smart Dragon 3",
+          "Launch Site: Haiyang Oriental Spaceport",
+          "Target Orbit: Unknown",
+          "Mission Type: Unknown"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Worth watching if you're interested in space launches."
+      }
     },
     {
       "id": "56a85c82-ea71-449b-828c-b583f6f4a18b",
@@ -1739,7 +1558,6 @@
           "Rocket: Falcon 9 Block 5",
           "Launch Site: Cape Canaveral SFS, FL, USA",
           "Target Orbit: Low Earth Orbit",
-          "Reusable rocket design",
           "Mission Type: Communications"
         ],
         "viewing_info": {
@@ -2377,15 +2195,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7360,
+      "orbital_launch_attempt_count": 7359,
       "location_launch_attempt_count": 904,
       "pad_launch_attempt_count": 288,
       "agency_launch_attempt_count": 714,
-      "orbital_launch_attempt_count_year": 187,
+      "orbital_launch_attempt_count_year": 186,
       "location_launch_attempt_count_year": 52,
       "pad_launch_attempt_count_year": 50,
       "agency_launch_attempt_count_year": 95,
-      "pad_turnaround": "P4D",
+      "pad_turnaround": "P3DT21H35M14S",
       "mission_patches": [
         {
           "id": 7,
@@ -2401,7 +2219,246 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "e4316d4c-9eb8-4a18-9b0d-4307c3970ef6",
+        "importance_score": 5,
+        "reasoning": "Standard operational mission.",
+        "key_facts": [
+          "Rocket: Falcon 9 Block 5",
+          "Launch Site: Vandenberg SFB, CA, USA",
+          "Target Orbit: Low Earth Orbit",
+          "Mission Type: Communications"
+        ],
+        "viewing_info": {
+          "visible_from_europe": true,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "SpaceX",
+          "Reusable"
+        ],
+        "user_recommendation": "Worth watching if you're interested in space launches."
+      }
+    },
+    {
+      "id": "cff704ab-8098-4f65-899e-50adaf908e59",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/cff704ab-8098-4f65-899e-50adaf908e59/",
+      "slug": "long-march-7a-unknown-payload",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Long March 7A | Unknown Payload",
+      "status": {
+        "id": 8,
+        "name": "To Be Confirmed",
+        "abbrev": "TBC",
+        "description": "Awaiting official confirmation - current date is known with some certainty."
+      },
+      "last_updated": "2026-07-20T12:26:55Z",
+      "updates": [
+        {
+          "id": 15605,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch per NOTAMs; Launch vehicle and payload identities uncertain.",
+          "info_url": "https://forum.nasaspaceflight.com/index.php?topic=57867.msg2807103#msg2807103",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-07-20T12:26:00Z"
+        }
+      ],
+      "net": "2026-08-09T11:00:00Z",
+      "net_precision": {
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
+      },
+      "window_end": "2026-08-09T14:00:00Z",
+      "window_start": "2026-08-09T11:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 88,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+        "name": "China Aerospace Science and Technology Corporation",
+        "featured": true,
+        "type": "Government",
+        "country_code": "CHN",
+        "abbrev": "CASC",
+        "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
+        "administrator": "Chairman & President: Lei Fanpei",
+        "founding_year": "1999",
+        "launchers": "Long March",
+        "spacecraft": "",
+        "launch_library_url": null,
+        "total_launch_count": 608,
+        "consecutive_successful_launches": 34,
+        "successful_launches": 593,
+        "failed_launches": 15,
+        "pending_launches": 5,
+        "consecutive_successful_landings": 1,
+        "successful_landings": 1,
+        "failed_landings": 1,
+        "attempted_landings": 2,
+        "info_url": "https://english.spacechina.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
+      },
+      "rocket": {
+        "id": 9091,
+        "configuration": {
+          "id": 216,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/216/",
+          "name": "Long March 7A",
+          "active": true,
+          "reusable": false,
+          "description": "",
+          "family": "Long March",
+          "full_name": "Long March 7A",
+          "manufacturer": {
+            "id": 88,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/88/",
+            "name": "China Aerospace Science and Technology Corporation",
+            "featured": true,
+            "type": "Government",
+            "country_code": "CHN",
+            "abbrev": "CASC",
+            "description": "The China Aerospace Science and Technology Corporation (CASC) is the main contractor for the Chinese space program. It is state-owned and has a number of subordinate entities which design, develop and manufacture a range of spacecraft, launch vehicles, strategic and tactical missile systems, and ground equipment. It was officially established in July 1999 as part of a Chinese government reform drive, having previously been one part of the former China Aerospace Corporation. Various incarnations of the program date back to 1956.",
+            "administrator": "Chairman & President: Lei Fanpei",
+            "founding_year": "1999",
+            "launchers": "Long March",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 608,
+            "consecutive_successful_launches": 34,
+            "successful_launches": 593,
+            "failed_launches": 15,
+            "pending_launches": 5,
+            "consecutive_successful_landings": 1,
+            "successful_landings": 1,
+            "failed_landings": 1,
+            "attempted_landings": 2,
+            "info_url": "https://english.spacechina.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/China_Aerospace_Science_and_Technology_Corporation",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_logo_20220826093937.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_image_20191228094408.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/china2520aerospace2520science2520and2520technology2520corporation_nation_20230604193716.png"
+          },
+          "program": [],
+          "variant": "A",
+          "alias": "",
+          "min_stage": null,
+          "max_stage": null,
+          "length": null,
+          "diameter": null,
+          "maiden_flight": "2020-03-16",
+          "launch_cost": null,
+          "launch_mass": null,
+          "leo_capacity": null,
+          "gto_capacity": null,
+          "to_thrust": null,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg",
+          "info_url": null,
+          "wiki_url": null,
+          "total_launch_count": 17,
+          "consecutive_successful_launches": 16,
+          "successful_launches": 16,
+          "failed_launches": 1,
+          "pending_launches": 0,
+          "attempted_landings": 0,
+          "successful_landings": 0,
+          "failed_landings": 0,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7686,
+        "name": "Unknown Payload",
+        "description": "Details TBD.",
+        "launch_designator": null,
+        "type": "Unknown",
+        "orbit": {
+          "id": 25,
+          "name": "Unknown",
+          "abbrev": "N/A"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 176,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/176/",
+        "agency_id": null,
+        "name": "201",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Wenchang_Spacecraft_Launch_Site",
+        "map_url": "https://www.google.com/maps?q=19.618452,110.955356",
+        "latitude": "19.618452",
+        "longitude": "110.955356",
+        "location": {
+          "id": 8,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/8/",
+          "name": "Wenchang Space Launch Site, People's Republic of China",
+          "country_code": "CHN",
+          "description": "The Wenchang Space Launch Site is a rocket launch site located in Wenchang on the island of Hainan, in China.\r\n\r\nFormally a suborbital test center, it currently serves as China's southernmost spaceport. The site was selected for its low latitude, 19° north of the equator, allowing for larger payloads to be launched. It is capable of launching the Long March 5, the heaviest Chinese rocket. Unlike launch facilities on the mainland, Wenchang uses its seaport for deliveries.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_8_20200803142445.jpg",
+          "timezone_name": "Asia/Shanghai",
+          "total_launch_count": 70,
+          "total_landing_count": 0
+        },
+        "country_code": "CHN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_176_20200803143412.jpg",
+        "total_launch_count": 32,
+        "orbital_launch_attempt_count": 32
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7360,
+      "location_launch_attempt_count": 71,
+      "pad_launch_attempt_count": 33,
+      "agency_launch_attempt_count": 609,
+      "orbital_launch_attempt_count_year": 187,
+      "location_launch_attempt_count_year": 16,
+      "pad_launch_attempt_count_year": 5,
+      "agency_launch_attempt_count_year": 39,
+      "pad_turnaround": "P10DT23H10M",
+      "mission_patches": [],
+      "type": "detailed",
+      "ai_enrichment": {
+        "launch_id": "cff704ab-8098-4f65-899e-50adaf908e59",
+        "importance_score": 5,
+        "reasoning": "Standard operational mission.",
+        "key_facts": [
+          "Rocket: Long March 7A",
+          "Launch Site: Wenchang Space Launch Site, People's Republic of China",
+          "Target Orbit: Unknown",
+          "Mission Type: Unknown"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Worth watching if you're interested in space launches."
+      }
     }
   ]
 }
