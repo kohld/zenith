@@ -7,7 +7,7 @@
     "missionType": "Interstellar Probe",
     "ra": 258.6762916666667,
     "dec": 12.360055555555554,
-    "date": "2026-08-05T14:52:39.178Z",
+    "date": "2026-08-05T20:05:37.198Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -18,8 +18,17 @@
     "missionType": "Interstellar Probe",
     "ra": 302.9584166666667,
     "dec": -59.819750000000006,
-    "date": "2026-08-05T14:52:40.341Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-08-05T20:05:38.680Z",
+    "dsnSignal": {
+      "id": "-32",
+      "name": "VGR2",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 160,
+      "power": -160,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "New Horizons",
@@ -29,18 +38,18 @@
     "missionType": "Pluto/Kuiper Belt",
     "ra": 289.33366666666666,
     "dec": -20.206138888888887,
-    "date": "2026-08-05T14:52:41.433Z",
+    "date": "2026-08-05T20:05:40.187Z",
     "status": "AWAITING SIGNAL"
   },
   {
     "name": "James Webb",
     "id": "-170",
-    "distanceKm": 1568738.7939348752,
-    "velocityKmS": -0.1182213,
+    "distanceKm": 1568739.3919329157,
+    "velocityKmS": -0.1182199,
     "missionType": "Space Telescope",
-    "ra": 282.7808333333333,
-    "dec": -24.443055555555556,
-    "date": "2026-08-05T14:52:42.489Z",
+    "ra": 282.7807916666667,
+    "dec": -24.44302777777778,
+    "date": "2026-08-05T20:05:41.710Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -51,7 +60,7 @@
     "missionType": "Heliophysics",
     "ra": 100.03170833333334,
     "dec": 18.040083333333335,
-    "date": "2026-08-05T14:52:43.321Z",
+    "date": "2026-08-05T20:05:43.422Z",
     "status": "AWAITING SIGNAL"
   }
 ]
