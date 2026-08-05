@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T04:06:35.461Z",
+  "updatedAt": "2026-08-05T07:13:11.900Z",
   "launches": [
     {
       "id": "12b9454b-d48b-4fd5-9c11-17c18f45dafe",
@@ -1297,8 +1297,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-05T00:18:06Z",
+      "last_updated": "2026-08-05T07:06:10Z",
       "updates": [
+        {
+          "id": 15747,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
+          "comment": "Now targeting Aug 05 at 07:49 UTC",
+          "info_url": "https://www.spacex.com/launches/bluebird11-13",
+          "created_by": "hitura-nobad",
+          "created_on": "2026-08-05T07:03:00Z"
+        },
         {
           "id": 15739,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1340,15 +1348,15 @@
           "created_on": "2026-05-28T23:56:00Z"
         }
       ],
-      "net": "2026-08-05T07:42:00Z",
+      "net": "2026-08-05T08:49:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-08-05T09:18:00Z",
-      "window_start": "2026-08-05T07:42:00Z",
+      "window_end": "2026-08-05T10:18:00Z",
+      "window_start": "2026-08-05T08:49:00Z",
       "probability": 85,
       "weather_concerns": "Anvil Cloud Rules, Cumulus Cloud Rule, Thick Cloud Layers Rule",
       "holdreason": "",
@@ -1680,7 +1688,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-08-05T06:25:00Z",
+          "start_time": "2026-08-05T06:30:17Z",
           "end_time": null
         },
         {
@@ -1700,7 +1708,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-08-05T06:42:00Z",
+          "start_time": "2026-08-05T06:25:30Z",
           "end_time": null
         },
         {
@@ -1720,11 +1728,11 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-08-05T07:30:00Z",
+          "start_time": "2026-08-05T07:35:00Z",
           "end_time": "2026-08-05T10:30:00Z"
         }
       ],
-      "webcast_live": false,
+      "webcast_live": true,
       "timeline": [
         {
           "type": {
@@ -1930,7 +1938,7 @@
       "location_launch_attempt_count_year": 48,
       "pad_launch_attempt_count_year": 42,
       "agency_launch_attempt_count_year": 94,
-      "pad_turnaround": "P6DT31M41S",
+      "pad_turnaround": "P6DT1H38M41S",
       "mission_patches": [],
       "type": "detailed"
     },
