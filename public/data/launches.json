@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T09:23:27.284Z",
+  "updatedAt": "2026-08-06T11:39:19.502Z",
   "launches": [
     {
       "id": "8b7e748c-6ed5-4681-a898-827b4a23b8d7",
@@ -12,10 +12,18 @@
         "id": 6,
         "name": "Launch in Flight",
         "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "description": "Launch in Flight"
       },
-      "last_updated": "2026-08-06T09:19:06Z",
+      "last_updated": "2026-08-06T10:11:31Z",
       "updates": [
+        {
+          "id": 15757,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Spacecraft separation.",
+          "info_url": "https://www.youtube.com/watch?v=TR4bkBCR6VI",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-06T10:09:00Z"
+        },
         {
           "id": 15756,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -331,7 +339,7 @@
           "publisher": "Rocket Lab",
           "title": "Rocket Lab - 'The Grain Goddess Provides' Launch",
           "description": "",
-          "feature_image": "https://i.ytimg.com/vi/TR4bkBCR6VI/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/TR4bkBCR6VI/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=TR4bkBCR6VI",
           "type": {
             "id": 1,
@@ -343,10 +351,10 @@
             "code": "en"
           },
           "start_time": "2026-08-06T08:55:02Z",
-          "end_time": null
+          "end_time": "2026-08-06T10:10:55Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [
         {
           "type": {
