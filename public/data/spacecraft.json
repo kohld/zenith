@@ -7,17 +7,8 @@
     "missionType": "Interstellar Probe",
     "ra": 258.67308333333335,
     "dec": 12.35763888888889,
-    "date": "2026-08-06T09:19:33.096Z",
-    "dsnSignal": {
-      "id": "-31",
-      "name": "VGR1",
-      "upSignal": false,
-      "downSignal": true,
-      "dataRate": 160,
-      "power": -160,
-      "frequency": 0
-    },
-    "status": "DOWNLINK ACTIVE"
+    "date": "2026-08-06T14:51:18.843Z",
+    "status": "AWAITING SIGNAL"
   },
   {
     "name": "Voyager 2",
@@ -27,17 +18,8 @@
     "missionType": "Interstellar Probe",
     "ra": 302.946125,
     "dec": -59.82038888888889,
-    "date": "2026-08-06T09:19:33.776Z",
-    "dsnSignal": {
-      "id": "-32",
-      "name": "VGR2",
-      "upSignal": false,
-      "downSignal": true,
-      "dataRate": 160,
-      "power": -160,
-      "frequency": 0
-    },
-    "status": "DOWNLINK ACTIVE"
+    "date": "2026-08-06T14:51:19.963Z",
+    "status": "AWAITING SIGNAL"
   },
   {
     "name": "New Horizons",
@@ -47,8 +29,17 @@
     "missionType": "Pluto/Kuiper Belt",
     "ra": 289.319875,
     "dec": -20.208055555555553,
-    "date": "2026-08-06T09:19:34.516Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-08-06T14:51:21.021Z",
+    "dsnSignal": {
+      "id": "-98",
+      "name": "NHPC",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 841.7,
+      "power": -150,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "James Webb",
@@ -58,8 +49,17 @@
     "missionType": "Space Telescope",
     "ra": 283.71208333333334,
     "dec": -23.96983333333333,
-    "date": "2026-08-06T09:19:35.209Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-08-06T14:51:21.805Z",
+    "dsnSignal": {
+      "id": "-170",
+      "name": "JWST",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 40000,
+      "power": -120,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "Parker Solar Probe",
@@ -69,7 +69,7 @@
     "missionType": "Heliophysics",
     "ra": 102.11695833333333,
     "dec": 17.940333333333335,
-    "date": "2026-08-06T09:19:35.955Z",
+    "date": "2026-08-06T14:51:22.549Z",
     "status": "AWAITING SIGNAL"
   }
 ]
