@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T23:29:02.890Z",
+  "updatedAt": "2026-08-09T23:59:42.009Z",
   "launches": [
     {
       "id": "cff704ab-8098-4f65-899e-50adaf908e59",
@@ -221,8 +221,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-08T17:46:56Z",
+      "last_updated": "2026-08-09T23:43:19Z",
       "updates": [
+        {
+          "id": 15781,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Aug 10 at 15:07 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-10-19",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-09T23:43:00Z"
+        },
         {
           "id": 15779,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -256,12 +264,12 @@
           "created_on": "2026-07-27T16:40:00Z"
         }
       ],
-      "net": "2026-08-10T14:49:00Z",
+      "net": "2026-08-10T15:07:28Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-08-10T18:49:00Z",
       "window_start": "2026-08-10T14:49:00Z",
@@ -626,7 +634,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-08-10T13:49:00Z",
+          "start_time": "2026-08-10T14:07:00Z",
           "end_time": null
         },
         {
@@ -886,7 +894,7 @@
       "location_launch_attempt_count_year": 49,
       "pad_launch_attempt_count_year": 43,
       "agency_launch_attempt_count_year": 96,
-      "pad_turnaround": "P5DT7H",
+      "pad_turnaround": "P5DT7H18M28S",
       "mission_patches": [
         {
           "id": 7,
@@ -916,7 +924,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-09T08:35:41Z",
+      "last_updated": "2026-08-09T23:47:48Z",
       "updates": [
         {
           "id": 15780,
@@ -1140,7 +1148,28 @@
         "orbital_launch_attempt_count": 17
       },
       "infoURLs": [],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "JAXA | 宇宙航空研究開発機構",
+          "title": "準天頂衛星システム「みちびき7号機」/H3ロケット9号機打上げライブ中継",
+          "description": "準天頂衛星システム「みちびき7号機」を搭載したH3ロケット9号機の打上げの様子を、種子島宇宙センターよりライブ配信します。\nThe live coverage of the launch of H3 Launch Vehicle flight No.9 (H3 F9: Flight No.9) with MICHIBIKI No.7, Quasi-Zenith Satellite System (QZS-7) onboard from Tanegashima Space Center.\n \n配信予定：2026年8月11日3時25分頃～\n打上げ時間帯：4時23分31秒～5時23分31秒（日本標準時、24時間表記）\n場所：種子島宇宙センター\nBroadcast Start: around 3:25 (JST)* on Aug 11/ 18:25 (UTC)* on Aug 10\nLaunch Window: 4:23:31-5:23:31 (JST)*\nLaunch Site: JAXA Tanegashima Space Center\n(*)The time is the 24-hour clock\n\n▼JAXA公式チャンネルはこちら\nhttps://www.youtube.com/user/jaxachannel\nhttps://www.youtube.com/@JAXA-LiveEvent\n\n▼JAXA（国立研究開発法人宇宙航空研究開発機構/Japan Aerospace Exploration Agency）\nhttps://www.jaxa.jp/\nhttps://global.jaxa.jp/",
+          "feature_image": "https://i.ytimg.com/vi/fH9hQn8ebp4/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=fH9hQn8ebp4",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 6,
+            "name": "Japanese",
+            "code": "jp"
+          },
+          "start_time": "2026-08-10T18:25:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [
         {
