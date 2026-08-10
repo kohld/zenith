@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T18:55:04.021Z",
+  "updatedAt": "2026-08-10T19:54:08.013Z",
   "launches": [
     {
       "id": "cff704ab-8098-4f65-899e-50adaf908e59",
@@ -281,13 +281,29 @@
       "r_spacex_api_id": null,
       "name": "H3-22 | Michibiki 7 (QZS-7)",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "Launch in Flight"
       },
-      "last_updated": "2026-08-10T18:25:37Z",
+      "last_updated": "2026-08-10T19:53:40Z",
       "updates": [
+        {
+          "id": 15794,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Spacecraft separation.",
+          "info_url": "https://www.youtube.com/watch?v=fH9hQn8ebp4",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-10T19:53:00Z"
+        },
+        {
+          "id": 15793,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://www.youtube.com/watch?v=fH9hQn8ebp4",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-10T19:23:00Z"
+        },
         {
           "id": 15792,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
@@ -389,11 +405,11 @@
         "launchers": "H-I, H-II, H-III",
         "spacecraft": "Kounotori | HTV",
         "launch_library_url": null,
-        "total_launch_count": 57,
+        "total_launch_count": 58,
         "consecutive_successful_launches": 1,
         "successful_launches": 55,
         "failed_launches": 2,
-        "pending_launches": 9,
+        "pending_launches": 8,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -429,11 +445,11 @@
             "launchers": "H-I, H-II, H-III",
             "spacecraft": "Kounotori | HTV",
             "launch_library_url": null,
-            "total_launch_count": 57,
+            "total_launch_count": 58,
             "consecutive_successful_launches": 1,
             "successful_launches": 55,
             "failed_launches": 2,
-            "pending_launches": 9,
+            "pending_launches": 8,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -462,11 +478,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_liftoff__image_20251028183835.jpg",
           "info_url": "https://global.jaxa.jp/press/2015/07/20150702_h3.html",
           "wiki_url": "https://en.wikipedia.org/wiki/H3_(rocket)",
-          "total_launch_count": 6,
+          "total_launch_count": 7,
           "consecutive_successful_launches": 0,
           "successful_launches": 4,
           "failed_launches": 2,
-          "pending_launches": 3,
+          "pending_launches": 2,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -509,13 +525,13 @@
           "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
           "timezone_name": "Asia/Tokyo",
-          "total_launch_count": 98,
+          "total_launch_count": 99,
           "total_landing_count": 0
         },
         "country_code": "JPN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_yoshinobu_launch_complex_lp-2_20230707124715.jpg",
-        "total_launch_count": 17,
-        "orbital_launch_attempt_count": 17
+        "total_launch_count": 18,
+        "orbital_launch_attempt_count": 18
       },
       "infoURLs": [],
       "vidURLs": [
@@ -616,7 +632,7 @@
             "abbrev": "SECO-1",
             "description": "First cut-off of the second engine"
           },
-          "relative_time": "PT12M44S"
+          "relative_time": "PT12M53S"
         },
         {
           "type": {
@@ -624,7 +640,7 @@
             "abbrev": "SES-2",
             "description": "Second start of the second engine"
           },
-          "relative_time": "PT24M26S"
+          "relative_time": "PT24M28S"
         },
         {
           "type": {
@@ -632,7 +648,7 @@
             "abbrev": "SECO-2",
             "description": "Second cut-off of the second engine"
           },
-          "relative_time": "PT28M41S"
+          "relative_time": "PT28M50S"
         },
         {
           "type": {
@@ -640,7 +656,7 @@
             "abbrev": "Payload Separation",
             "description": "Final deployment of the payload from the rocket"
           },
-          "relative_time": "PT29M2S"
+          "relative_time": "PT29M10S"
         }
       ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_liftoff__image_20251028183835.jpg",
@@ -4286,6 +4302,23 @@
         "orbital_launch_attempt_count": 396
       },
       "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/sl-10-39",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        },
         {
           "priority": 10,
           "source": "spacex.com",
@@ -14982,11 +15015,11 @@
         "launchers": "H-I, H-II, H-III",
         "spacecraft": "Kounotori | HTV",
         "launch_library_url": null,
-        "total_launch_count": 57,
+        "total_launch_count": 58,
         "consecutive_successful_launches": 1,
         "successful_launches": 55,
         "failed_launches": 2,
-        "pending_launches": 9,
+        "pending_launches": 8,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -15022,11 +15055,11 @@
             "launchers": "H-I, H-II, H-III",
             "spacecraft": "Kounotori | HTV",
             "launch_library_url": null,
-            "total_launch_count": 57,
+            "total_launch_count": 58,
             "consecutive_successful_launches": 1,
             "successful_launches": 55,
             "failed_launches": 2,
-            "pending_launches": 9,
+            "pending_launches": 8,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -15102,13 +15135,13 @@
           "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
           "timezone_name": "Asia/Tokyo",
-          "total_launch_count": 98,
+          "total_launch_count": 99,
           "total_landing_count": 0
         },
         "country_code": "JPN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_yoshinobu_launch_complex_lp-2_20230707124715.jpg",
-        "total_launch_count": 17,
-        "orbital_launch_attempt_count": 17
+        "total_launch_count": 18,
+        "orbital_launch_attempt_count": 18
       },
       "infoURLs": [],
       "vidURLs": [],
