@@ -1,21 +1,29 @@
 {
-  "updatedAt": "2026-08-10T15:58:22.733Z",
+  "updatedAt": "2026-08-10T16:59:33.648Z",
   "launches": [
     {
       "id": "cff704ab-8098-4f65-899e-50adaf908e59",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/cff704ab-8098-4f65-899e-50adaf908e59/",
-      "slug": "long-march-7a-unknown-payload",
+      "slug": "long-march-7a-chinasat-4b",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Long March 7A | Unknown Payload",
+      "name": "Long March 7A | ChinaSat 4B",
       "status": {
         "id": 4,
         "name": "Launch Failure",
         "abbrev": "Failure",
         "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
       },
-      "last_updated": "2026-08-10T12:28:04Z",
+      "last_updated": "2026-08-10T16:26:32Z",
       "updates": [
+        {
+          "id": 15789,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated mission details.",
+          "info_url": "https://m.weibo.cn/detail/5330505017854536",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-10T16:26:00Z"
+        },
         {
           "id": 15784,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -61,7 +69,7 @@
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
-      "failreason": "",
+      "failreason": "Launch vehicle disintegrated when passing around Max-Q.",
       "hashtag": null,
       "launch_service_provider": {
         "id": 88,
@@ -165,14 +173,14 @@
       },
       "mission": {
         "id": 7686,
-        "name": "Unknown Payload",
-        "description": "Details TBD.",
+        "name": "ChinaSat 4B",
+        "description": "Chinese communication geostationary satellite for unknown purposes.",
         "launch_designator": null,
-        "type": "Unknown",
+        "type": "Communications",
         "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "id": 2,
+          "name": "Geostationary Transfer Orbit",
+          "abbrev": "GTO"
         },
         "agencies": [],
         "info_urls": [],
@@ -250,7 +258,7 @@
       ],
       "webcast_live": false,
       "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg",
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_7a_e_image_20260810162338.jpg",
       "infographic": null,
       "program": [],
       "orbital_launch_attempt_count": 7361,
