@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T01:37:47.764Z",
+  "updatedAt": "2026-08-11T03:42:05.963Z",
   "launches": [
     {
       "id": "cff704ab-8098-4f65-899e-50adaf908e59",
@@ -708,8 +708,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-10T23:37:34Z",
+      "last_updated": "2026-08-11T03:25:45Z",
       "updates": [
+        {
+          "id": 15800,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 85% GO at start of window (75% at end).",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Starlink%2010-19%20L-1%20Forecast%20-%2011%20Aug%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-11T03:25:00Z"
+        },
         {
           "id": 15798,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -800,7 +808,7 @@
       },
       "window_end": "2026-08-11T18:26:00Z",
       "window_start": "2026-08-11T14:26:00Z",
-      "probability": 90,
+      "probability": 85,
       "weather_concerns": "Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
@@ -1471,8 +1479,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-07-30T21:04:38Z",
+      "last_updated": "2026-08-11T03:01:50Z",
       "updates": [
+        {
+          "id": 15799,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Aug 12 at 04:46 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-49",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-11T02:51:00Z"
+        },
         {
           "id": 15693,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -1498,12 +1514,12 @@
           "created_on": "2026-07-27T16:12:00Z"
         }
       ],
-      "net": "2026-08-12T02:00:00Z",
+      "net": "2026-08-12T04:46:00Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-08-12T06:00:00Z",
       "window_start": "2026-08-12T02:00:00Z",
@@ -1832,6 +1848,26 @@
       ],
       "vidURLs": [
         {
+          "priority": 8,
+          "source": null,
+          "publisher": "",
+          "title": null,
+          "description": null,
+          "feature_image": null,
+          "url": "https://www.youtube.com/watch?v=NoJMKlBOi5E",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": null,
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -2088,7 +2124,7 @@
       "location_launch_attempt_count_year": 53,
       "pad_launch_attempt_count_year": 51,
       "agency_launch_attempt_count_year": 97,
-      "pad_turnaround": "P3DT9H24M58S",
+      "pad_turnaround": "P3DT12H10M58S",
       "mission_patches": [
         {
           "id": 7,
