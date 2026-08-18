@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T15:58:49.797Z",
+  "updatedAt": "2026-08-18T16:40:48.391Z",
   "launches": [
     {
       "id": "ef02e2cf-e617-4b38-a526-951ac9204b0a",
@@ -292,8 +292,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-18T04:27:35Z",
+      "last_updated": "2026-08-18T16:32:37Z",
       "updates": [
+        {
+          "id": 15886,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Aug 19 at 03:46 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-17-50",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-18T16:32:00Z"
+        },
         {
           "id": 15884,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -311,7 +319,7 @@
           "created_on": "2026-08-06T16:25:00Z"
         }
       ],
-      "net": "2026-08-19T03:45:08Z",
+      "net": "2026-08-19T03:46:10Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -665,6 +673,26 @@
           "end_time": null
         },
         {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches from Vandenberg, California, with Starlink satellites",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 24 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Tuesday, August 18, 2026, at 8:45 p.m. PDT (11:45 p.m. EDT / 0315 UTC).\n\nThe first-stage booster, serial number B1097, launching for a 12th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 17-50 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary will be provided by Spaceflight Now’s Will Robinson-Smith starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to...",
+          "feature_image": "https://i.ytimg.com/vi/XLnziohHvA4/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=XLnziohHvA4",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-08-19T03:15:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -921,7 +949,7 @@
       "location_launch_attempt_count_year": 55,
       "pad_launch_attempt_count_year": 53,
       "agency_launch_attempt_count_year": 100,
-      "pad_turnaround": "P3DT1H54M23S",
+      "pad_turnaround": "P3DT1H55M25S",
       "mission_patches": [
         {
           "id": 7,
