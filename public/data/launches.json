@@ -1,21 +1,37 @@
 {
-  "updatedAt": "2026-08-18T23:45:54.272Z",
+  "updatedAt": "2026-08-19T01:08:32.886Z",
   "launches": [
     {
       "id": "ef02e2cf-e617-4b38-a526-951ac9204b0a",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/ef02e2cf-e617-4b38-a526-951ac9204b0a/",
-      "slug": "zhuque-3-flight-2",
+      "slug": "zhuque-3-honghu-03",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Zhuque-3 | Flight 2",
+      "name": "Zhuque-3 | Honghu-03",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-08-14T13:42:55Z",
+      "last_updated": "2026-08-19T00:38:40Z",
       "updates": [
+        {
+          "id": 15888,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://m.weibo.cn/detail/5333540054239357",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-19T00:38:00Z"
+        },
+        {
+          "id": 15887,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff and confirmed successful 1st stage booster landing.",
+          "info_url": "https://m.weibo.cn/detail/5333533440869877",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-18T23:56:00Z"
+        },
         {
           "id": 15822,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -49,12 +65,12 @@
           "created_on": "2026-07-10T14:38:00Z"
         }
       ],
-      "net": "2026-08-18T23:35:00Z",
+      "net": "2026-08-18T23:35:20Z",
       "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-08-19T00:04:00Z",
       "window_start": "2026-08-18T23:27:00Z",
@@ -77,15 +93,15 @@
         "launchers": "",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 10,
+        "total_launch_count": 11,
         "consecutive_successful_launches": 3,
         "successful_launches": 7,
         "failed_launches": 3,
-        "pending_launches": 1,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
+        "pending_launches": 0,
+        "consecutive_successful_landings": 1,
+        "successful_landings": 1,
         "failed_landings": 1,
-        "attempted_landings": 1,
+        "attempted_landings": 2,
         "info_url": null,
         "wiki_url": "https://en.wikipedia.org/wiki/LandSpace",
         "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/landspace_logo_20220822100731.png",
@@ -117,15 +133,15 @@
             "launchers": "",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 10,
+            "total_launch_count": 11,
             "consecutive_successful_launches": 3,
             "successful_launches": 7,
             "failed_launches": 3,
-            "pending_launches": 1,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 1,
+            "successful_landings": 1,
             "failed_landings": 1,
-            "attempted_landings": 1,
+            "attempted_landings": 2,
             "info_url": null,
             "wiki_url": "https://en.wikipedia.org/wiki/LandSpace",
             "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/landspace_logo_20220822100731.png",
@@ -150,15 +166,15 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zq-3_flight_1_l_image_20251203064230.jpg",
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/Zhuque-3",
-          "total_launch_count": 1,
+          "total_launch_count": 2,
           "consecutive_successful_launches": 1,
           "successful_launches": 1,
           "failed_launches": 0,
-          "pending_launches": 1,
-          "attempted_landings": 1,
-          "successful_landings": 0,
+          "pending_launches": 0,
+          "attempted_landings": 2,
+          "successful_landings": 1,
           "failed_landings": 1,
-          "consecutive_successful_landings": 0
+          "consecutive_successful_landings": 1
         },
         "launcher_stage": [
           {
@@ -174,17 +190,17 @@
               "serial_number": "ZQ-3 F2",
               "status": "active",
               "image_url": null,
-              "successful_landings": 0,
-              "attempted_landings": 0,
+              "successful_landings": 1,
+              "attempted_landings": 1,
               "flights": 0,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "last_launch_date": "2026-08-18T23:35:20Z",
+              "first_launch_date": "2026-08-18T23:35:20Z"
             },
             "landing": {
               "id": 1891,
               "attempt": true,
-              "success": null,
-              "description": "The Zhuque-3 first stage booster will attempt to land on its downrange landing pad.",
+              "success": true,
+              "description": "The Zhuque-3 first stage booster has successfully landed on its downrange landing pad.",
               "downrange_distance": 390,
               "location": {
                 "id": 60,
@@ -199,8 +215,8 @@
                   "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
                   "timezone_name": "Asia/Shanghai",
-                  "total_launch_count": 292,
-                  "total_landing_count": 2
+                  "total_launch_count": 293,
+                  "total_landing_count": 3
                 },
                 "successful_landings": 0
               },
@@ -220,10 +236,10 @@
       },
       "mission": {
         "id": 7680,
-        "name": "Flight 2",
-        "description": "Second test launch of LandSpace’s ZQ-3 rocket. Payload identities are TBD.",
+        "name": "Honghu-03",
+        "description": "Note: Second test launch of LandSpace’s ZQ-3 rocket and first ever successful orbital launch vehicle booster recovery by a Chinese private launch service provider.\r\n\r\nPrototype LEO communication satellite for LandSpace's subsidiary Hongqing Technology.",
         "launch_designator": null,
-        "type": "Test Flight",
+        "type": "Communications",
         "orbit": {
           "id": 8,
           "name": "Low Earth Orbit",
@@ -252,13 +268,13 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 292,
-          "total_landing_count": 2
+          "total_launch_count": 293,
+          "total_landing_count": 3
         },
         "country_code": "CHN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_launch_area_96b_20251128220544.jpg",
-        "total_launch_count": 1,
-        "orbital_launch_attempt_count": 1
+        "total_launch_count": 2,
+        "orbital_launch_attempt_count": 2
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -275,7 +291,7 @@
       "location_launch_attempt_count_year": 20,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 3,
-      "pad_turnaround": "P258DT19H35M",
+      "pad_turnaround": "P258DT19H35M20S",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -2236,7 +2252,7 @@
       "location_launch_attempt_count_year": 56,
       "pad_launch_attempt_count_year": 54,
       "agency_launch_attempt_count_year": 102,
-      "pad_turnaround": "P3DT5H25M",
+      "pad_turnaround": "P3DT3H38M50S",
       "mission_patches": [
         {
           "id": 7,
@@ -5510,8 +5526,8 @@
                   "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
                   "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
                   "timezone_name": "Asia/Shanghai",
-                  "total_launch_count": 292,
-                  "total_landing_count": 2
+                  "total_launch_count": 293,
+                  "total_landing_count": 3
                 },
                 "successful_landings": 0
               },
@@ -5563,8 +5579,8 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 292,
-          "total_landing_count": 2
+          "total_launch_count": 293,
+          "total_landing_count": 3
         },
         "country_code": "CHN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_long_march_12a_pad_20251128223939.jpg",
@@ -6057,8 +6073,8 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 292,
-          "total_landing_count": 2
+          "total_launch_count": 293,
+          "total_landing_count": 3
         },
         "country_code": "CHN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_pallas-1_launch_pad_20251128223637.jpg",
@@ -20339,8 +20355,8 @@
           "description": "Jiuquan Satellite Launch Center is a Chinese spaceport located between the Ejin, Alxa, Inner Mongolia and Hangtian Town, Jinta County, Jiuquan, Gansu Province. It is part of the Dongfeng Aerospace City (Base 10).",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_17_20200803142429.jpg",
           "timezone_name": "Asia/Shanghai",
-          "total_launch_count": 292,
-          "total_landing_count": 2
+          "total_launch_count": 293,
+          "total_landing_count": 3
         },
         "country_code": "CHN",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_37_20200803143603.jpg",
