@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T13:43:35.074Z",
+  "updatedAt": "2026-08-20T14:33:54.048Z",
   "launches": [
     {
       "id": "57280454-470e-4c5d-8de1-1bbd0ea41b49",
@@ -12,10 +12,18 @@
         "id": 6,
         "name": "Launch in Flight",
         "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "description": "Launch in Flight"
       },
-      "last_updated": "2026-08-20T13:05:39Z",
+      "last_updated": "2026-08-20T13:57:39Z",
       "updates": [
+        {
+          "id": 15904,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Spacecraft separation.",
+          "info_url": "https://www.youtube.com/watch?v=wLc1C15jbgY",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-20T13:57:00Z"
+        },
         {
           "id": 15903,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -277,7 +285,7 @@
           "publisher": "Rocket Lab",
           "title": "Rocket Lab - 'The Lightning God Defends' Launch",
           "description": "",
-          "feature_image": "https://i.ytimg.com/vi/wLc1C15jbgY/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/wLc1C15jbgY/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=wLc1C15jbgY",
           "type": {
             "id": 1,
@@ -289,10 +297,10 @@
             "code": "en"
           },
           "start_time": "2026-08-20T12:39:27Z",
-          "end_time": null
+          "end_time": "2026-08-20T13:56:57Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [
         {
           "type": {
@@ -456,7 +464,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-19T23:06:55Z",
+      "last_updated": "2026-08-20T14:08:49Z",
       "updates": [
         {
           "id": 15897,
@@ -851,6 +859,26 @@
             "code": "en"
           },
           "start_time": "2026-08-20T15:25:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches 29 Starlink satellites from Cape Canaveral",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying 29 satellites for the company's Starlink internet service. Liftoff of the Starlink 10-39 mission from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Thursday, August 20, at 11:38 a.m. EDT (1538 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1078, launching for a 30th time, will take a north-easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nRead our mission preview: https://spaceflightnow.com/2026/08/20/live-coverage-spacex-to...",
+          "feature_image": "https://i.ytimg.com/vi/c0RiIZtCxEM/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=c0RiIZtCxEM",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-08-20T14:38:00Z",
           "end_time": null
         },
         {
