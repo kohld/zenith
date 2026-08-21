@@ -7,7 +7,7 @@
     "missionType": "Interstellar Probe",
     "ra": 258.6350833333334,
     "dec": 12.316972222222223,
-    "date": "2026-08-21T13:24:48.396Z",
+    "date": "2026-08-21T19:05:20.821Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -18,8 +18,17 @@
     "missionType": "Interstellar Probe",
     "ra": 302.76983333333334,
     "dec": -59.821083333333334,
-    "date": "2026-08-21T13:24:49.246Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-08-21T19:05:21.620Z",
+    "dsnSignal": {
+      "id": "-32",
+      "name": "VGR2",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 160,
+      "power": -160,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "New Horizons",
@@ -29,17 +38,8 @@
     "missionType": "Pluto/Kuiper Belt",
     "ra": 289.13008333333335,
     "dec": -20.23588888888889,
-    "date": "2026-08-21T13:24:49.935Z",
-    "dsnSignal": {
-      "id": "-98",
-      "name": "NHPC",
-      "upSignal": false,
-      "downSignal": true,
-      "dataRate": 841.7,
-      "power": -150,
-      "frequency": 0
-    },
-    "status": "DOWNLINK ACTIVE"
+    "date": "2026-08-21T19:05:22.461Z",
+    "status": "AWAITING SIGNAL"
   },
   {
     "name": "James Webb",
@@ -49,17 +49,8 @@
     "missionType": "Space Telescope",
     "ra": 301.16158333333334,
     "dec": -14.937472222222222,
-    "date": "2026-08-21T13:24:50.710Z",
-    "dsnSignal": {
-      "id": "-170",
-      "name": "JWST",
-      "upSignal": false,
-      "downSignal": true,
-      "dataRate": 40000,
-      "power": -120,
-      "frequency": 0
-    },
-    "status": "DOWNLINK ACTIVE"
+    "date": "2026-08-21T19:05:23.295Z",
+    "status": "AWAITING SIGNAL"
   },
   {
     "name": "Parker Solar Probe",
@@ -69,7 +60,7 @@
     "missionType": "Heliophysics",
     "ra": 133.453125,
     "dec": 14.407805555555555,
-    "date": "2026-08-21T13:24:51.693Z",
+    "date": "2026-08-21T19:05:24.179Z",
     "status": "AWAITING SIGNAL"
   }
 ]
