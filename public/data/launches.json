@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T13:56:13.573Z",
+  "updatedAt": "2026-08-29T17:31:47.431Z",
   "launches": [
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-29T11:45:51Z",
+      "last_updated": "2026-08-29T15:22:33Z",
       "updates": [
+        {
+          "id": 15978,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 50% GO (launch window per https://x.com/spaceflightnow/status/2093717878302216462).",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%20Heavy%20Roman%20Space%20Telescope%20L-1%20Forecast%20-%2030%20Aug%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-29T15:22:00Z"
+        },
         {
           "id": 15974,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -120,9 +128,9 @@
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2026-08-30T11:25:49Z",
+      "window_end": "2026-08-30T11:26:19Z",
       "window_start": "2026-08-30T11:25:49Z",
-      "probability": 60,
+      "probability": 50,
       "weather_concerns": "Cumulus Cloud Rule, Surface Electric Fields Rule",
       "holdreason": "",
       "failreason": "",
@@ -228,19 +236,19 @@
           {
             "id": 917,
             "type": "Strap-On Booster",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
+              "id": 250,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/250/",
+              "details": "Falcon 9 booster.",
               "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
+              "serial_number": "B1104",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
               "last_launch_date": null,
               "first_launch_date": null
             },
@@ -248,7 +256,7 @@
               "id": 1912,
               "attempt": true,
               "success": null,
-              "description": "The Falcon Heavy side booster will land back at the launch site at Landing Zone 40 after its flight.",
+              "description": "The Falcon Heavy side booster B1104 will land back at the launch site at Landing Zone 40 after its 1st flight.",
               "downrange_distance": 5.8,
               "location": {
                 "id": 62,
@@ -339,19 +347,19 @@
           {
             "id": 916,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": false,
+            "launcher_flight_number": 1,
             "launcher": {
-              "id": 117,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/117/",
-              "details": "Booster serial number unknown.",
+              "id": 251,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/251/",
+              "details": "Falcon Heavy core booster.",
               "flight_proven": false,
-              "serial_number": "Unknown FH",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/117_image_20230723180948.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
+              "serial_number": "B1105",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 0,
+              "attempted_landings": 0,
+              "flights": 0,
               "last_launch_date": null,
               "first_launch_date": null
             },
@@ -359,7 +367,7 @@
               "id": 1911,
               "attempt": false,
               "success": null,
-              "description": "The Falcon Heavy center core will be expended.",
+              "description": "The Falcon Heavy center core B1105 will be expended.",
               "downrange_distance": null,
               "location": {
                 "id": 6,
