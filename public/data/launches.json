@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T01:27:56.770Z",
+  "updatedAt": "2026-08-31T07:27:48.726Z",
   "launches": [
     {
       "id": "521f3a1c-f977-4306-9b7f-495858719adf",
@@ -282,60 +282,6 @@
         },
         "launcher_stage": [
           {
-            "id": 917,
-            "type": "Strap-On Booster",
-            "reused": false,
-            "launcher_flight_number": 1,
-            "launcher": {
-              "id": 250,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/250/",
-              "details": "Falcon 9 booster.",
-              "flight_proven": true,
-              "serial_number": "B1104",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 1,
-              "attempted_landings": 1,
-              "flights": 1,
-              "last_launch_date": "2026-08-30T11:26:04Z",
-              "first_launch_date": "2026-08-30T11:26:04Z"
-            },
-            "landing": {
-              "id": 1912,
-              "attempt": true,
-              "success": true,
-              "description": "The Falcon Heavy side booster B1104 has landed back at the launch site at Landing Zone 40 after its 1st flight.",
-              "downrange_distance": 5.8,
-              "location": {
-                "id": 62,
-                "name": "Landing Zone 40",
-                "abbrev": "LZ-40",
-                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1128,
-                  "total_landing_count": 79
-                },
-                "successful_landings": 5
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
-          },
-          {
             "id": 918,
             "type": "Strap-On Booster",
             "reused": true,
@@ -376,7 +322,7 @@
                   "total_launch_count": 1128,
                   "total_landing_count": 79
                 },
-                "successful_landings": 18
+                "successful_landings": 19
               },
               "type": {
                 "id": 2,
@@ -391,6 +337,60 @@
               "id": "4cc237b2-c61a-491e-9532-466cce81f524",
               "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)"
             }
+          },
+          {
+            "id": 917,
+            "type": "Strap-On Booster",
+            "reused": false,
+            "launcher_flight_number": 1,
+            "launcher": {
+              "id": 250,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/250/",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1104",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 1,
+              "last_launch_date": "2026-08-30T11:26:04Z",
+              "first_launch_date": "2026-08-30T11:26:04Z"
+            },
+            "landing": {
+              "id": 1912,
+              "attempt": true,
+              "success": true,
+              "description": "The Falcon Heavy side booster B1104 has landed back at the launch site at Landing Zone 40 after its 1st flight.",
+              "downrange_distance": 5.8,
+              "location": {
+                "id": 62,
+                "name": "Landing Zone 40",
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+                  "name": "Cape Canaveral SFS, FL, USA",
+                  "country_code": "USA",
+                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 1128,
+                  "total_landing_count": 79
+                },
+                "successful_landings": 6
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
           },
           {
             "id": 916,
@@ -4866,7 +4866,7 @@
                   "total_launch_count": 1128,
                   "total_landing_count": 79
                 },
-                "successful_landings": 5
+                "successful_landings": 6
               },
               "type": {
                 "id": 2,
@@ -7058,11 +7058,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7397,
+      "orbital_launch_attempt_count": 7398,
       "location_launch_attempt_count": 1131,
       "pad_launch_attempt_count": 126,
       "agency_launch_attempt_count": 176,
-      "orbital_launch_attempt_count_year": 224,
+      "orbital_launch_attempt_count_year": 225,
       "location_launch_attempt_count_year": 55,
       "pad_launch_attempt_count_year": 6,
       "agency_launch_attempt_count_year": 6,
@@ -8516,11 +8516,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_20240820080542.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7399,
+      "orbital_launch_attempt_count": 7400,
       "location_launch_attempt_count": 9,
       "pad_launch_attempt_count": 6,
       "agency_launch_attempt_count": 9,
-      "orbital_launch_attempt_count_year": 226,
+      "orbital_launch_attempt_count_year": 227,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -9065,11 +9065,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7404,
+      "orbital_launch_attempt_count": 7405,
       "location_launch_attempt_count": 86,
       "pad_launch_attempt_count": 6,
       "agency_launch_attempt_count": 99,
-      "orbital_launch_attempt_count_year": 231,
+      "orbital_launch_attempt_count_year": 232,
       "location_launch_attempt_count_year": 17,
       "pad_launch_attempt_count_year": 6,
       "agency_launch_attempt_count_year": 20,
@@ -14836,11 +14836,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7519,
+      "orbital_launch_attempt_count": 7520,
       "location_launch_attempt_count": 943,
       "pad_launch_attempt_count": 316,
       "agency_launch_attempt_count": 771,
-      "orbital_launch_attempt_count_year": 346,
+      "orbital_launch_attempt_count_year": 347,
       "location_launch_attempt_count_year": 91,
       "pad_launch_attempt_count_year": 78,
       "agency_launch_attempt_count_year": 152,
@@ -16331,11 +16331,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7519,
+      "orbital_launch_attempt_count": 7520,
       "location_launch_attempt_count": 114,
       "pad_launch_attempt_count": 38,
       "agency_launch_attempt_count": 109,
-      "orbital_launch_attempt_count_year": 346,
+      "orbital_launch_attempt_count_year": 347,
       "location_launch_attempt_count_year": 12,
       "pad_launch_attempt_count_year": 6,
       "agency_launch_attempt_count_year": 11,
@@ -17632,11 +17632,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7519,
+      "orbital_launch_attempt_count": 7520,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 405,
       "agency_launch_attempt_count": 771,
-      "orbital_launch_attempt_count_year": 346,
+      "orbital_launch_attempt_count_year": 347,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 51,
       "agency_launch_attempt_count_year": 152,
@@ -18109,11 +18109,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7519,
+      "orbital_launch_attempt_count": 7520,
       "location_launch_attempt_count": 6,
       "pad_launch_attempt_count": 6,
       "agency_launch_attempt_count": 6,
-      "orbital_launch_attempt_count_year": 346,
+      "orbital_launch_attempt_count_year": 347,
       "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 5,
@@ -20455,11 +20455,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7519,
+      "orbital_launch_attempt_count": 7520,
       "location_launch_attempt_count": 93,
       "pad_launch_attempt_count": 13,
       "agency_launch_attempt_count": 109,
-      "orbital_launch_attempt_count_year": 346,
+      "orbital_launch_attempt_count_year": 347,
       "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 13,
       "agency_launch_attempt_count_year": 30,
@@ -21567,11 +21567,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7519,
+      "orbital_launch_attempt_count": 7520,
       "location_launch_attempt_count": 943,
       "pad_launch_attempt_count": 316,
       "agency_launch_attempt_count": 771,
-      "orbital_launch_attempt_count_year": 346,
+      "orbital_launch_attempt_count_year": 347,
       "location_launch_attempt_count_year": 91,
       "pad_launch_attempt_count_year": 78,
       "agency_launch_attempt_count_year": 152,
@@ -23975,11 +23975,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7519,
+      "orbital_launch_attempt_count": 7520,
       "location_launch_attempt_count": 943,
       "pad_launch_attempt_count": 316,
       "agency_launch_attempt_count": 771,
-      "orbital_launch_attempt_count_year": 346,
+      "orbital_launch_attempt_count_year": 347,
       "location_launch_attempt_count_year": 91,
       "pad_launch_attempt_count_year": 78,
       "agency_launch_attempt_count_year": 152,
@@ -28717,11 +28717,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7519,
+      "orbital_launch_attempt_count": 7520,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
       "agency_launch_attempt_count": 771,
-      "orbital_launch_attempt_count_year": 346,
+      "orbital_launch_attempt_count_year": 347,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
       "agency_launch_attempt_count_year": 152,
