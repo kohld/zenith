@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T19:12:17.731Z",
+  "updatedAt": "2026-09-01T21:54:14.234Z",
   "launches": [
     {
       "id": "a927b2f9-f9a5-4196-9abb-2e275e4a6b96",
@@ -295,8 +295,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-08-26T20:14:02Z",
+      "last_updated": "2026-09-01T21:10:51Z",
       "updates": [
+        {
+          "id": 16000,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Sep 02 at 08:18 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-15-23",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-01T21:10:00Z"
+        },
         {
           "id": 15954,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -314,12 +322,12 @@
           "created_on": "2026-08-20T20:21:00Z"
         }
       ],
-      "net": "2026-09-02T07:46:00Z",
+      "net": "2026-09-02T08:18:09Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
       "window_end": "2026-09-02T11:46:00Z",
       "window_start": "2026-09-02T07:46:00Z",
@@ -648,6 +656,66 @@
       ],
       "vidURLs": [
         {
+          "priority": 7,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - Starlink 15-23 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
+          "description": "Launch Date: September 2, 2026 \nLaunch Time:  01:18 a.m. PDT, 0818 UTC, 10:18 CEST \nLaunch Window: Open until 4:46 a.m.  PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: Southeast\nLaunch Status: Announced and scheduled \n\nMission: Starlink Group 15-23\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1063 - Turnaround time 29 days)\nFlight for the Booster: 35\nPrevious Flights of the Booster: 34 - Sentinel-6 Michael Freilich, DART, Transporter-7, Iridium OneWeb, SDA-0B, NROL-113, NROL-167, NROL-149, NAOS, and 25 Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7...",
+          "feature_image": "https://i.ytimg.com/vi/C2M8CpEjHJk/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=C2M8CpEjHJk",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-02T08:06:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket from West Coast with 27 satellites for Starlink internet service",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California with 27 satellites for the company's Starlink space-based internet service. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Wednesday, September 2, 2026, at 1:18 a.m. PDT (4:18 a.m. EDT / 0818 UTC).\n\nThe first-stage booster, serial number B1063, launching for a 35th time, will land on the drone ship 'Of Course I Still Love You' nearly 8.5 minutes into the flight.\n\nThe Starlink 15-23 mission will take a southeasterly trajectory upon departure from Vandenberg. \n\nLive coverage will start about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/channel/UCoLdERT4-T...",
+          "feature_image": "https://i.ytimg.com/vi/bwGo6lIW3rQ/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=bwGo6lIW3rQ",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-02T07:48:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Launches Falcon 9 Starlink 15-23 from Vandenberg",
+          "description": "Launch Window: September 2nd from 00:46 to 04:46 PDT (07:46-11:46 UTC)\nCurrent T0: September 2nd at 01:18:09 PDT (08:18:09 UTC)\n\nMission: Falcon 9 launch of 27 Starlink v2 Mini satellites into orbit.\nLaunch location: Space Launch Complex 4E (SLC-4E), Vandenberg Space Force Base, Earth.\nTarget orbit: Low-Earth Orbit (LEO); 251x265km 70.01º\nBooster: B1063-35; 28d 15h 13min 6s turnaround\nPast customer missions: Sentinel 6 Michael Freilich, NASA's DART, Transporter-7, Iridium-9/OneWeb-19, SDA Tranche 0B, NROL-113, NROL-167, NROL-149, NAOS.\nPast Starlink missions: v1.0-28, 4-11, 4-13, 3-1, 3-4, 4-31, 2-5, 5-13, 7-4, 7-7, 7-11, 7-17, 8-7, 9-3, 11-6, 11-7, 11-9, 11-22, 11-20, 11-23, 15-13, 17-25, 17-21, 17-28, 17-53.\nSatellites launched: 979, will be 1006 after this mission\nBooster recovery:...",
+          "feature_image": "https://i.ytimg.com/vi/msp_aXGeB0I/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=msp_aXGeB0I",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-02T07:18:00Z",
+          "end_time": null
+        },
+        {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
@@ -664,7 +732,7 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-09-02T07:36:00Z",
+          "start_time": "2026-09-02T08:08:00Z",
           "end_time": "2026-09-02T10:09:00Z"
         }
       ],
@@ -904,7 +972,7 @@
       "location_launch_attempt_count_year": 58,
       "pad_launch_attempt_count_year": 56,
       "agency_launch_attempt_count_year": 106,
-      "pad_turnaround": "P6DT22H10M49S",
+      "pad_turnaround": "P6DT22H42M58S",
       "mission_patches": [
         {
           "id": 7,
