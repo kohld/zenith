@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T21:58:44.119Z",
+  "updatedAt": "2026-09-05T23:45:09.912Z",
   "launches": [
     {
       "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
@@ -9,13 +9,29 @@
       "r_spacex_api_id": null,
       "name": "Spectrum | Onward and Upward",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-09-05T20:33:09Z",
+      "last_updated": "2026-09-05T22:56:40Z",
       "updates": [
+        {
+          "id": 16069,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-05T22:56:00Z"
+        },
+        {
+          "id": 16067,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Payload separation confirmed.",
+          "info_url": "https://x.com/isaraerospace/status/2096361245062357238",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-05T22:19:00Z"
+        },
         {
           "id": 16065,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/lucas2520stauder_profile_20230526163835.jpg",
@@ -374,8 +390,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 2,
-        "consecutive_successful_launches": 0,
-        "successful_launches": 0,
+        "consecutive_successful_launches": 1,
+        "successful_launches": 1,
         "failed_launches": 1,
         "pending_launches": 9,
         "consecutive_successful_landings": 0,
@@ -414,8 +430,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 2,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 1,
             "failed_launches": 1,
             "pending_launches": 9,
             "consecutive_successful_landings": 0,
@@ -447,8 +463,8 @@
           "info_url": "https://www.isaraerospace.com/spectrum",
           "wiki_url": null,
           "total_launch_count": 2,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
           "failed_launches": 1,
           "pending_launches": 9,
           "attempted_landings": 0,
@@ -605,8 +621,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-09-05T21:12:02Z",
+      "last_updated": "2026-09-05T22:31:12Z",
       "updates": [
+        {
+          "id": 16068,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Sep 06 at 14:26 UTC",
+          "info_url": "https://www.spacex.com/launches/sl-15-24",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-05T22:31:00Z"
+        },
         {
           "id": 16066,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -640,7 +664,7 @@
           "created_on": "2026-08-21T15:12:00Z"
         }
       ],
-      "net": "2026-09-06T11:13:47Z",
+      "net": "2026-09-06T14:26:28Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
@@ -1230,7 +1254,7 @@
       "location_launch_attempt_count_year": 59,
       "pad_launch_attempt_count_year": 57,
       "agency_launch_attempt_count_year": 107,
-      "pad_turnaround": "P4DT2H31M35S",
+      "pad_turnaround": "P4DT5H44M16S",
       "mission_patches": [
         {
           "id": 7,
@@ -1459,7 +1483,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-09-03T21:04:08Z",
+      "last_updated": "2026-09-05T23:39:12Z",
       "updates": [
         {
           "id": 15952,
@@ -1682,6 +1706,26 @@
       },
       "infoURLs": [],
       "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "NASA",
+          "title": "Progress 96 Cargo Ship Launch",
+          "description": "A spacecraft carrying food, fuel, and supplies is launching to the International Space Station. Watch along with us.\n\nThe unpiloted Progress 96 resupply spacecraft is scheduled to lift off at 12:15 p.m. EDT (1615 UTC) on Wednesday, Sept. 9, on a Soyuz rocket from the Baikonur Cosmodrome in Kazakhstan. After liftoff, Progress 96 will travel to the station, a trip that is scheduled to take two days. Once there, it will dock autonomously to the orbiting laboratory. \n\nFor more than 25 years, people have lived and worked continuously aboard the International Space Station, advancing scientific knowledge and making research breakthroughs that aren’t possible on Earth. \n\nThe space station helps NASA understand and overcome the challenges of human spaceflight, expand commercial opportunities ...",
+          "feature_image": "https://i.ytimg.com/vi/cCpf0BOjlLE/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=cCpf0BOjlLE",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-09T16:00:00Z",
+          "end_time": null
+        },
         {
           "priority": 12,
           "source": "plus.nasa.gov",
@@ -15240,8 +15284,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 2,
-        "consecutive_successful_launches": 0,
-        "successful_launches": 0,
+        "consecutive_successful_launches": 1,
+        "successful_launches": 1,
         "failed_launches": 1,
         "pending_launches": 9,
         "consecutive_successful_landings": 0,
@@ -15280,8 +15324,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 2,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 1,
             "failed_launches": 1,
             "pending_launches": 9,
             "consecutive_successful_landings": 0,
@@ -15313,8 +15357,8 @@
           "info_url": "https://www.isaraerospace.com/spectrum",
           "wiki_url": null,
           "total_launch_count": 2,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
           "failed_launches": 1,
           "pending_launches": 9,
           "attempted_landings": 0,
@@ -15469,8 +15513,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 2,
-        "consecutive_successful_launches": 0,
-        "successful_launches": 0,
+        "consecutive_successful_launches": 1,
+        "successful_launches": 1,
         "failed_launches": 1,
         "pending_launches": 9,
         "consecutive_successful_landings": 0,
@@ -15509,8 +15553,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 2,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 1,
             "failed_launches": 1,
             "pending_launches": 9,
             "consecutive_successful_landings": 0,
@@ -15542,8 +15586,8 @@
           "info_url": "https://www.isaraerospace.com/spectrum",
           "wiki_url": null,
           "total_launch_count": 2,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
           "failed_launches": 1,
           "pending_launches": 9,
           "attempted_landings": 0,
@@ -16819,8 +16863,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 2,
-        "consecutive_successful_launches": 0,
-        "successful_launches": 0,
+        "consecutive_successful_launches": 1,
+        "successful_launches": 1,
         "failed_launches": 1,
         "pending_launches": 9,
         "consecutive_successful_landings": 0,
@@ -16859,8 +16903,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 2,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
+            "consecutive_successful_launches": 1,
+            "successful_launches": 1,
             "failed_launches": 1,
             "pending_launches": 9,
             "consecutive_successful_landings": 0,
@@ -16892,8 +16936,8 @@
           "info_url": "https://www.isaraerospace.com/spectrum",
           "wiki_url": null,
           "total_launch_count": 2,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
           "failed_launches": 1,
           "pending_launches": 9,
           "attempted_landings": 0,
