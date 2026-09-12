@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T18:05:50.632Z",
+  "updatedAt": "2026-09-12T20:46:42.167Z",
   "launches": [
     {
       "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-09-09T15:20:58Z",
+      "last_updated": "2026-09-12T20:28:54Z",
       "updates": [
+        {
+          "id": 16104,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 60% GO at start of window (40% at end).",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20MPOWER-F%20L-1%20Forecast%20-%2013%20Sep%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-12T20:28:00Z"
+        },
         {
           "id": 16084,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -82,8 +90,8 @@
       },
       "window_end": "2026-09-13T20:16:00Z",
       "window_start": "2026-09-13T18:49:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 60,
+      "weather_concerns": "Cumulus Cloud Rule, Surface Electric Fields Rule, Anvil Cloud Rules",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
@@ -406,6 +414,66 @@
         }
       ],
       "vidURLs": [
+        {
+          "priority": 7,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - O3b mPOWER 11, 12 & 13 - SLC-40 - Cape Canaveral SFS - Space Affairs Live",
+          "description": "Launch Date: September 13, 2026 PDT\nLaunch Time: 2:49 p.m. EDT, 1849 UTC, 20:49 CEST\nLaunch Window: Open until 4:16 p.m.  EDT\nLaunch Site: SLC-40 - Cape Canaveral Space Force Station, Florida\nTargeted Orbit: Medium Earth Orbit (MEO)\nLaunch Inclination: East\nLaunch Status: Scheduled and announced\n\nMission: O3b mPOWER 11, 12 & 13\nLaunch Provider: SpaceX\nLaunch Contractor: SED\nLauncher System: Falcon 9 (Booster 1080 - Turnaround time 61 days)\nFlight for the Booster: 29\nPrevious Flights of the Booster: 28 - Ax-2, Euclid, Ax-3, CRS-30, SES ASTRA 1P, NG-21, and 22 Starlink missions\nDroneship: A Shortfall Of Gravitas\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters ...",
+          "feature_image": "https://i.ytimg.com/vi/2n8k4DZUln8/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=2n8k4DZUln8",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-13T18:31:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "Live: SpaceX Falcon 9 rocket launches three O3b mPOWER satellites for Luxembourg-based SES",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket carrying three O3b mPOWER communications satellites for Luxembourg-based SES. Liftoff  from Space Launch Complex 40 at Cape Canaveral Space Force Station is scheduled for Sunday, September 13, during a launch window that opens at 2:49 p.m. EDT (1849 UTC).\n\nThe first-stage Falcon 9 booster, serial number B1080, launching for a 29th time, will take an easterly trajectory on departure from Florida's Space Coast. About 8.5 minutes into flight it will land on SpaceX's drone ship 'A Shortfall of Gravitas', stationed in the Atlantic Ocean.\n\nOur live coverage with commentary from Spaceflight Now's Will Robinson-Smith will start about one hour prior to launch.\n\nVideos like this are made possible by the support of our members. Join this c...",
+          "feature_image": "https://i.ytimg.com/vi/r0avdYfJO2Q/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=r0avdYfJO2Q",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-13T17:49:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "NASASpaceflight",
+          "title": "SpaceX Launches Falcon 9 with O3b mPOWER 11, 12 & 13",
+          "description": "Launch Window: September 13th from 14:49 to 16:16 EDT (18:49-20:16 UTC)\nCurrent T0: September 13th at 14:49 EDT (18:49 UTC)\n\nMission: Falcon 9 launch of three O3b mPOWER satellites for SES\nLaunch location: Space Launch Complex 40 (SLC-40), Cape Canaveral Space Force Station, Earth.\nTarget orbit: Medium Transfer Orbit \nBooster: B1080-29; 61d 9h 38min 48s turnaround\nPast customer missions: Axiom-2, Euclid, Axiom-3, CRS-30, SES-24, NG-21.\nPast Starlink missions: 6-11, 6-24, 6-52, 6-62, 10-10, 6-69, 12-1, 12-2, 12-4, 10-12, 6-80, 6-75, 10-32, 10-16, 10-30, 10-15, 6-78, 6-100, 10-40, 10-24, 10-54, 10-45.\nSatellites launched: 579, will be 582 after this mission.\nBooster recovery: A Shortfall Of Gravitas (ASOG)\nFairing recovery: Bob\nRocket trajectory: Straight east\nPayload mass: Approximatel...",
+          "feature_image": "https://i.ytimg.com/vi/FgKKtSsyYD4/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=FgKKtSsyYD4",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-13T17:49:00Z",
+          "end_time": null
+        },
         {
           "priority": 10,
           "source": "x.com",
