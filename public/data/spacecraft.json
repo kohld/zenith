@@ -7,7 +7,7 @@
     "missionType": "Interstellar Probe",
     "ra": 258.61745833333333,
     "dec": 12.244444444444444,
-    "date": "2026-09-13T05:06:08.638Z",
+    "date": "2026-09-13T12:10:58.666Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -18,7 +18,7 @@
     "missionType": "Interstellar Probe",
     "ra": 302.5491666666667,
     "dec": -59.78980555555555,
-    "date": "2026-09-13T05:06:09.275Z",
+    "date": "2026-09-13T12:10:59.452Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -29,8 +29,17 @@
     "missionType": "Pluto/Kuiper Belt",
     "ra": 288.9211666666667,
     "dec": -20.270888888888887,
-    "date": "2026-09-13T05:06:10.038Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-09-13T12:11:00.286Z",
+    "dsnSignal": {
+      "id": "-98",
+      "name": "NHPC",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 0,
+      "power": -160,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "James Webb",
@@ -40,7 +49,7 @@
     "missionType": "Space Telescope",
     "ra": 342.8957916666667,
     "dec": 6.907611111111112,
-    "date": "2026-09-13T05:06:10.800Z",
+    "date": "2026-09-13T12:11:01.097Z",
     "status": "AWAITING SIGNAL"
   },
   {
@@ -51,7 +60,7 @@
     "missionType": "Heliophysics",
     "ra": 188.71608333333333,
     "dec": -4.695250000000001,
-    "date": "2026-09-13T05:06:11.436Z",
+    "date": "2026-09-13T12:11:01.986Z",
     "status": "AWAITING SIGNAL"
   }
 ]
