@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T19:02:44.027Z",
+  "updatedAt": "2026-09-14T22:37:39.455Z",
   "launches": [
     {
       "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
@@ -14,7 +14,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-09-14T17:21:50Z",
+      "last_updated": "2026-09-14T21:11:38Z",
       "updates": [
         {
           "id": 15708,
@@ -283,7 +283,25 @@
         "total_launch_count": 55,
         "orbital_launch_attempt_count": 55
       },
-      "infoURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "avio.com",
+          "title": "LAUNCH KIT VV30",
+          "description": "Launch Kit VV30",
+          "feature_image": null,
+          "url": "https://www.avio.com/press-kit/launch-kit-vv-30",
+          "type": {
+            "id": 2,
+            "name": "Official Press Kit"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
       "vidURLs": [
         {
           "priority": 10,
@@ -370,15 +388,7 @@
             "abbrev": "Stage 3 Separation",
             "description": "Separation of the third stage from the second"
           },
-          "relative_time": "PT4M31S"
-        },
-        {
-          "type": {
-            "id": 75,
-            "abbrev": "Stage 3 Ignition",
-            "description": "Third stage engine ignites."
-          },
-          "relative_time": "PT4M37S"
+          "relative_time": "PT4M32S"
         },
         {
           "type": {
@@ -386,7 +396,7 @@
             "abbrev": "Fairing Separation",
             "description": "Separation of the payload fairing"
           },
-          "relative_time": "PT4M41S"
+          "relative_time": "PT4M43S"
         },
         {
           "type": {
@@ -394,7 +404,7 @@
             "abbrev": "Kick Stage Separation",
             "description": "Separation of the kick stage from the previous stage"
           },
-          "relative_time": "PT7M17S"
+          "relative_time": "PT7M11S"
         },
         {
           "type": {
@@ -402,15 +412,55 @@
             "abbrev": "Kick Stage Ignition",
             "description": "Start of the kick stage engine"
           },
-          "relative_time": "PT1H51S"
+          "relative_time": "PT8M22S"
         },
         {
           "type": {
-            "id": 33,
-            "abbrev": "Kick Stage Cut-off",
-            "description": "Cut-off of the kick stage engine"
+            "id": 32,
+            "abbrev": "Kick Stage Ignition",
+            "description": "Start of the kick stage engine"
           },
-          "relative_time": "PT1H57M14S"
+          "relative_time": "PT55M28S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT1H49S"
+        },
+        {
+          "type": {
+            "id": 32,
+            "abbrev": "Kick Stage Ignition",
+            "description": "Start of the kick stage engine"
+          },
+          "relative_time": "PT1H46M19S"
+        },
+        {
+          "type": {
+            "id": 32,
+            "abbrev": "Kick Stage Ignition",
+            "description": "Start of the kick stage engine"
+          },
+          "relative_time": "PT1H54M32S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT1H56M3S"
+        },
+        {
+          "type": {
+            "id": 32,
+            "abbrev": "Kick Stage Ignition",
+            "description": "Start of the kick stage engine"
+          },
+          "relative_time": "PT2H23M31S"
         }
       ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
@@ -2772,17 +2822,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
