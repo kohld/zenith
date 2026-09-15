@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T01:10:11.857Z",
+  "updatedAt": "2026-09-15T06:26:22.912Z",
   "launches": [
     {
       "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
@@ -9,13 +9,29 @@
       "r_spacex_api_id": null,
       "name": "Vega-C | Sentinel-3C & FLEX",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-09-15T00:25:26Z",
+      "last_updated": "2026-09-15T03:41:17Z",
       "updates": [
+        {
+          "id": 16115,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Both satellites successfully deployed and signals acquired from both.",
+          "info_url": "https://www.youtube.com/watch?v=Rb4CN2avz90",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-15T03:23:00Z"
+        },
+        {
+          "id": 16114,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://www.youtube.com/watch?v=Rb4CN2avz90",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-15T01:21:00Z"
+        },
         {
           "id": 16113,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
@@ -133,11 +149,11 @@
         "launchers": "Vega",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 1,
-        "consecutive_successful_launches": 1,
-        "successful_launches": 1,
+        "total_launch_count": 2,
+        "consecutive_successful_launches": 2,
+        "successful_launches": 2,
         "failed_launches": 0,
-        "pending_launches": 24,
+        "pending_launches": 23,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -173,11 +189,11 @@
             "launchers": "Vega",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 1,
-            "consecutive_successful_launches": 1,
-            "successful_launches": 1,
+            "total_launch_count": 2,
+            "consecutive_successful_launches": 2,
+            "successful_launches": 2,
             "failed_launches": 0,
-            "pending_launches": 24,
+            "pending_launches": 23,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -206,11 +222,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
           "info_url": "https://www.arianespace.com/vehicle/vega/",
           "wiki_url": "https://en.wikipedia.org/wiki/Vega_(rocket)",
-          "total_launch_count": 7,
-          "consecutive_successful_launches": 5,
-          "successful_launches": 6,
+          "total_launch_count": 8,
+          "consecutive_successful_launches": 6,
+          "successful_launches": 7,
           "failed_launches": 1,
-          "pending_launches": 22,
+          "pending_launches": 21,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -283,13 +299,13 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 335,
+          "total_launch_count": 336,
           "total_landing_count": 0
         },
         "country_code": "GUF",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_34_20200803143527.jpg",
-        "total_launch_count": 55,
-        "orbital_launch_attempt_count": 55
+        "total_launch_count": 56,
+        "orbital_launch_attempt_count": 56
       },
       "infoURLs": [
         {
@@ -317,7 +333,7 @@
           "publisher": "Avio SpA",
           "title": "Vega C | Flight VV30 | Sentinel-3C - FLEX | Avio",
           "description": "On September 14th at 10.21 PM Kourou time (01.21 UTC; 03.21 AM CEST on September 15th), Avio will launch two Earth observation satellites: the Sentinel-3C of the Copernicus programme for the European Commission and the FLEX Earth Explorer for the European Space Agency (ESA). The mission, designated “VV30”, will be carried out by a Vega C launcher, the second operated by Avio, lifting off from the European Spaceport in French Guiana.\n \nThe satellites will be released into Sun-Synchronous Orbit at an altitude of about 820 km with an inclination of 98.6°. The duration of the launch (from lift-off to separation of the last satellite) is 116 minutes.\n \nCopernicus Sentinel-3C is the third satellite of the Sentinel-3 mission, dedicated to monitoring the health of our planet by observing ocea...",
-          "feature_image": "https://i.ytimg.com/vi/Rb4CN2avz90/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/Rb4CN2avz90/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=Rb4CN2avz90",
           "type": {
             "id": 1,
@@ -329,7 +345,7 @@
             "code": "en"
           },
           "start_time": "2026-09-15T00:47:26Z",
-          "end_time": null
+          "end_time": "2026-09-15T03:40:32Z"
         },
         {
           "priority": 11,
@@ -337,7 +353,7 @@
           "publisher": "European Space Agency, ESA",
           "title": "FLEX and Sentinel-3C launch (Official broadcast)",
           "description": "ESA’s FLEX satellite and the Copernicus Sentinel-3C satellite are set to launch on 15 September at 03:21 CEST (14 September at 22:21 local time). Watch the launch programme live from Europe’s Spaceport in French Guiana, with streaming starting at 02:50 CEST and continuing until 05:36 CEST.\n\nFLEX will provide new insights into how plants function by measuring the faint fluorescence they emit as they capture sunlight during photosynthesis. This unique measurement will help scientists better understand plant health and productivity, as well as how vegetation responds to a changing environment.\n\nSentinel-3C is the third satellite in the Sentinel-3 mission, which systematically monitors Earth’s oceans, land, ice and atmosphere. The mission as a whole contributes to a better understanding o...",
-          "feature_image": "https://i.ytimg.com/vi/fmrgyh5s-is/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/fmrgyh5s-is/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=fmrgyh5s-is",
           "type": {
             "id": 1,
@@ -349,7 +365,7 @@
             "code": "en"
           },
           "start_time": "2026-09-15T00:48:56Z",
-          "end_time": null
+          "end_time": "2026-09-15T03:40:39Z"
         },
         {
           "priority": 12,
@@ -357,7 +373,7 @@
           "publisher": "NASASpaceflight",
           "title": "Vega C launches Sentinel-3C & FLEX",
           "description": "Launch: 9:21:07 PM Eastern\n\nMission overview:\nhttps://www.nasaspaceflight.com/2026/09/vega-c-launch-sentinel-3c-flex/\n\n⚡ Become a member of NASASpaceflight's channel for exclusive discord access, fast turnaround clips, and other exclusive benefits. Your support helps us continue our 24/7 coverage. ⚡\n\n🔍 If you are interested in using footage captured by this stream, please review our content use policy: https://www.nasaspaceflight.com/content-use-policy/\n\n#Ariane6 #Arianespace #ESA #Space  #SatelliteLaunch #SpaceLaunch #ArianeRocket #LEOConstellation #FrenchGuiana \n\n🎵 Intro song: New Way Out by Denis. Licensed via PremiumBeat. LDAPAABJRG2UMCU3\n🎵 Music used on streams and in videos is licensed via EpidemicSound: https://share.epidemicsound.com/qvh38e\n\nAll content copyright NASASpaceflig...",
-          "feature_image": "https://i.ytimg.com/vi/_7nBPHF-hAE/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/_7nBPHF-hAE/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=_7nBPHF-hAE",
           "type": {
             "id": 3,
@@ -369,10 +385,10 @@
             "code": "en"
           },
           "start_time": "2026-09-15T00:25:07Z",
-          "end_time": null
+          "end_time": "2026-09-15T01:46:40Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [
         {
           "type": {
@@ -388,7 +404,15 @@
             "abbrev": "Stage 2 Separation",
             "description": "Separation of the second stage from the first"
           },
-          "relative_time": "PT2M26S"
+          "relative_time": "PT2M27S"
+        },
+        {
+          "type": {
+            "id": 31,
+            "abbrev": "SES",
+            "description": "Start of the second engine"
+          },
+          "relative_time": "PT2M28S"
         },
         {
           "type": {
@@ -400,11 +424,19 @@
         },
         {
           "type": {
+            "id": 75,
+            "abbrev": "Stage 3 Ignition",
+            "description": "Third stage engine ignites."
+          },
+          "relative_time": "PT4M39S"
+        },
+        {
+          "type": {
             "id": 15,
             "abbrev": "Fairing Separation",
             "description": "Separation of the payload fairing"
           },
-          "relative_time": "PT4M43S"
+          "relative_time": "PT4M44S"
         },
         {
           "type": {
@@ -420,7 +452,15 @@
             "abbrev": "Kick Stage Ignition",
             "description": "Start of the kick stage engine"
           },
-          "relative_time": "PT8M22S"
+          "relative_time": "PT8M23S"
+        },
+        {
+          "type": {
+            "id": 33,
+            "abbrev": "Kick Stage Cut-off",
+            "description": "Cut-off of the kick stage engine"
+          },
+          "relative_time": "PT17M6S"
         },
         {
           "type": {
@@ -428,7 +468,15 @@
             "abbrev": "Kick Stage Ignition",
             "description": "Start of the kick stage engine"
           },
-          "relative_time": "PT55M28S"
+          "relative_time": "PT55M29S"
+        },
+        {
+          "type": {
+            "id": 33,
+            "abbrev": "Kick Stage Cut-off",
+            "description": "Cut-off of the kick stage engine"
+          },
+          "relative_time": "PT58M30S"
         },
         {
           "type": {
@@ -436,7 +484,7 @@
             "abbrev": "Payload Separation",
             "description": "Final deployment of the payload from the rocket"
           },
-          "relative_time": "PT1H49S"
+          "relative_time": "PT1H50S"
         },
         {
           "type": {
@@ -448,11 +496,27 @@
         },
         {
           "type": {
+            "id": 33,
+            "abbrev": "Kick Stage Cut-off",
+            "description": "Cut-off of the kick stage engine"
+          },
+          "relative_time": "PT1H46M49S"
+        },
+        {
+          "type": {
             "id": 32,
             "abbrev": "Kick Stage Ignition",
             "description": "Start of the kick stage engine"
           },
           "relative_time": "PT1H54M32S"
+        },
+        {
+          "type": {
+            "id": 33,
+            "abbrev": "Kick Stage Cut-off",
+            "description": "Cut-off of the kick stage engine"
+          },
+          "relative_time": "PT1H54M58S"
         },
         {
           "type": {
@@ -468,7 +532,15 @@
             "abbrev": "Kick Stage Ignition",
             "description": "Start of the kick stage engine"
           },
-          "relative_time": "PT2H23M31S"
+          "relative_time": "PT2H23M32S"
+        },
+        {
+          "type": {
+            "id": 33,
+            "abbrev": "Kick Stage Cut-off",
+            "description": "Cut-off of the kick stage engine"
+          },
+          "relative_time": "PT2H24M58S"
         }
       ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
@@ -1350,17 +1422,17 @@
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
@@ -2428,11 +2500,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7398,
+      "orbital_launch_attempt_count": 7397,
       "location_launch_attempt_count": 161,
       "pad_launch_attempt_count": 80,
       "agency_launch_attempt_count": 615,
-      "orbital_launch_attempt_count_year": 225,
+      "orbital_launch_attempt_count_year": 224,
       "location_launch_attempt_count_year": 12,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 45,
@@ -2830,17 +2902,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -6743,7 +6815,7 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 335,
+          "total_launch_count": 336,
           "total_landing_count": 0
         },
         "country_code": "GUF",
@@ -9673,7 +9745,7 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 335,
+          "total_launch_count": 336,
           "total_landing_count": 0
         },
         "country_code": "GUF",
@@ -12192,7 +12264,7 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 335,
+          "total_launch_count": 336,
           "total_landing_count": 0
         },
         "country_code": "GUF",
@@ -17748,7 +17820,7 @@
           "description": "The Guiana Space Centre is a European spaceport to the northwest of Kourou in French Guiana, a region of France in South America. Kourou is located at a latitude of 5°. In operation since 1968, it is a suitable location for a spaceport because of its equatorial location and open sea to the east.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_13_20200803142412.jpg",
           "timezone_name": "America/Cayenne",
-          "total_launch_count": 335,
+          "total_launch_count": 336,
           "total_landing_count": 0
         },
         "country_code": "GUF",
