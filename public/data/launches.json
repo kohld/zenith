@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T11:55:18.716Z",
+  "updatedAt": "2026-09-16T16:11:12.450Z",
   "launches": [
     {
       "id": "767f7827-53d8-4621-803b-f456a1e6b512",
@@ -216,13 +216,37 @@
       "r_spacex_api_id": null,
       "name": "Soyuz 2.1b | Progress MS-35 (96P)",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-09-09T15:44:41Z",
+      "last_updated": "2026-09-16T14:03:08Z",
       "updates": [
+        {
+          "id": 16128,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success, spacecraft in operation.",
+          "info_url": "https://www.youtube.com/watch?v=cCpf0BOjlLE",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-16T13:50:00Z"
+        },
+        {
+          "id": 16127,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://www.youtube.com/watch?v=cCpf0BOjlLE",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-16T13:34:00Z"
+        },
+        {
+          "id": 16126,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Official Webcast by NASA has started",
+          "info_url": "https://www.youtube.com/watch?v=cCpf0BOjlLE",
+          "created_by": "LL2",
+          "created_on": "2026-09-16T13:17:00Z"
+        },
         {
           "id": 16085,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -272,15 +296,15 @@
           "created_on": "2025-12-20T03:46:00Z"
         }
       ],
-      "net": "2026-09-16T13:33:53Z",
+      "net": "2026-09-16T13:33:54Z",
       "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2026-09-16T13:33:53Z",
-      "window_start": "2026-09-16T13:33:53Z",
+      "window_end": "2026-09-16T13:33:54Z",
+      "window_start": "2026-09-16T13:33:54Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -300,11 +324,11 @@
         "launchers": "Soyuz",
         "spacecraft": "Soyuz",
         "launch_library_url": null,
-        "total_launch_count": 343,
-        "consecutive_successful_launches": 67,
-        "successful_launches": 332,
+        "total_launch_count": 344,
+        "consecutive_successful_launches": 68,
+        "successful_launches": 333,
         "failed_launches": 11,
-        "pending_launches": 5,
+        "pending_launches": 4,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -373,11 +397,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
           "info_url": null,
           "wiki_url": "http://en.wikipedia.org/wiki/Soyuz-2_(rocket)",
-          "total_launch_count": 24,
-          "consecutive_successful_launches": 24,
-          "successful_launches": 24,
+          "total_launch_count": 25,
+          "consecutive_successful_launches": 25,
+          "successful_launches": 25,
           "failed_launches": 0,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -412,11 +436,11 @@
             "launchers": "Soyuz",
             "spacecraft": "Soyuz",
             "launch_library_url": null,
-            "total_launch_count": 343,
-            "consecutive_successful_launches": 67,
-            "successful_launches": 332,
+            "total_launch_count": 344,
+            "consecutive_successful_launches": 68,
+            "successful_launches": 333,
             "failed_launches": 11,
-            "pending_launches": 5,
+            "pending_launches": 4,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -450,13 +474,13 @@
           "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
           "timezone_name": "Asia/Qyzylorda",
-          "total_launch_count": 1564,
+          "total_launch_count": 1565,
           "total_landing_count": 0
         },
         "country_code": "KAZ",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
-        "total_launch_count": 429,
-        "orbital_launch_attempt_count": 429
+        "total_launch_count": 430,
+        "orbital_launch_attempt_count": 430
       },
       "infoURLs": [],
       "vidURLs": [
@@ -466,7 +490,7 @@
           "publisher": "NASA",
           "title": "Progress 96 Cargo Ship Launch",
           "description": "A spacecraft carrying food, fuel, and supplies is launching to the International Space Station. Watch along with us.\n\nThe unpiloted Progress 96 resupply spacecraft is scheduled to lift off at 9:33 a.m. EDT (1333 UTC) on Wednesday, Sept. 16, on a Soyuz rocket from the Baikonur Cosmodrome in Kazakhstan. After liftoff, Progress 96 will travel to the station, a trip that is scheduled to take two days. Once there, it will dock autonomously to the orbiting laboratory. \n\nFor more than 25 years, people have lived and worked continuously aboard the International Space Station, advancing scientific knowledge and making research breakthroughs that aren’t possible on Earth. \n\nThe space station helps NASA understand and overcome the challenges of human spaceflight, expand commercial opportunities ...",
-          "feature_image": "https://i.ytimg.com/vi/cCpf0BOjlLE/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/cCpf0BOjlLE/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=cCpf0BOjlLE",
           "type": {
             "id": 1,
@@ -477,8 +501,28 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-09-16T13:15:00Z",
-          "end_time": null
+          "start_time": "2026-09-16T13:14:16Z",
+          "end_time": "2026-09-16T13:46:07Z"
+        },
+        {
+          "priority": 11,
+          "source": "youtube.com",
+          "publisher": "Роскосмос ТВ",
+          "title": "Трансляция запуска грузового корабля «Прогресс МС-35»",
+          "description": "16 сентября в 16:34 мск с космодрома Байконур запланирован пуск ракеты-носителя \"Союз-2.1б\" с грузовым кораблём \"Прогресс МС-35\".\n\n\"Прогресс МС-35\" доставит на Международную космическую станцию более 2400 кг грузов: \n·       842 кг топлива для дозаправки станции;\n·       420 кг воды для экипажа;\n·       50 кг кислорода для пополнения атмосферы МКС;\n·       275 кг питания, в т.ч. свежие продукты;\n·       357 кг оборудования для санитарных нужд и средств гигиены; \n·       20 кг медикаментов и средств профилактики невесомости;\n·       525 кг оборудования и расходных материалов для содержания станции, а также научной работы экипажа.\n\nСайт Роскосмоса: https://www.roscosmos.ru/\nРоскосмос в социальных сетях: \nVk: https://vk.com/roscosmos\nOk: https://ok.ru/roscosmos  \nTelegram: https://t.me/r...",
+          "feature_image": "https://i.ytimg.com/vi/3rQ6o_0seEE/maxresdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=3rQ6o_0seEE",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 3,
+            "name": "Russian",
+            "code": "ru"
+          },
+          "start_time": "2026-09-16T12:13:17Z",
+          "end_time": "2026-09-16T13:46:19Z"
         },
         {
           "priority": 12,
@@ -497,12 +541,61 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-09-09T16:00:00Z",
-          "end_time": "2026-09-09T18:00:00Z"
+          "start_time": "2026-09-16T13:15:00Z",
+          "end_time": "2026-09-16T13:46:00Z"
         }
       ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 111,
+            "abbrev": "Boosters Separation",
+            "description": "Separation of the side boosters"
+          },
+          "relative_time": "PT1M57S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT4M45S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT4M54S"
+        },
+        {
+          "type": {
+            "id": 76,
+            "abbrev": "Stage 3 Cutoff",
+            "description": "Third stage engine shuts down."
+          },
+          "relative_time": "PT9M11S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT9M14S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
       "infographic": null,
       "program": [
@@ -563,7 +656,7 @@
       "location_launch_attempt_count_year": 6,
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 6,
-      "pad_turnaround": "P63DT22H46M10S",
+      "pad_turnaround": "P63DT22H46M11S",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -1228,17 +1321,17 @@
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
@@ -3713,8 +3806,16 @@
         "abbrev": "TBC",
         "description": "Awaiting official confirmation - current date is known with some certainty."
       },
-      "last_updated": "2026-09-15T14:24:58Z",
+      "last_updated": "2026-09-16T14:00:01Z",
       "updates": [
+        {
+          "id": 16129,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Moved up to NET September 26.",
+          "info_url": "https://www.fly.faa.gov/adv/adv_spt",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-16T14:00:00Z"
+        },
         {
           "id": 16117,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -3724,15 +3825,15 @@
           "created_on": "2026-09-15T14:24:00Z"
         }
       ],
-      "net": "2026-09-27T11:42:00Z",
+      "net": "2026-09-26T11:56:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-09-27T15:25:00Z",
-      "window_start": "2026-09-27T11:42:00Z",
+      "window_end": "2026-09-26T15:39:00Z",
+      "window_start": "2026-09-26T11:56:00Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -4041,15 +4142,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7401,
+      "orbital_launch_attempt_count": 7402,
       "location_launch_attempt_count": 915,
       "pad_launch_attempt_count": 299,
       "agency_launch_attempt_count": 732,
-      "orbital_launch_attempt_count_year": 228,
+      "orbital_launch_attempt_count_year": 229,
       "location_launch_attempt_count_year": 63,
       "pad_launch_attempt_count_year": 61,
       "agency_launch_attempt_count_year": 113,
-      "pad_turnaround": "P7DT9H55M",
+      "pad_turnaround": "P6DT10H9M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -4265,942 +4366,6 @@
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 20,
       "pad_turnaround": "P10DT20H45M",
-      "mission_patches": [],
-      "type": "detailed"
-    },
-    {
-      "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/",
-      "slug": "falcon-9-block-5-crew-13",
-      "flightclub_url": "https://flightclub.io/result?llId=18441371-8b2e-457c-afb5-1ec1b11ab630",
-      "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | Crew-13",
-      "status": {
-        "id": 2,
-        "name": "To Be Determined",
-        "abbrev": "TBD",
-        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
-      },
-      "last_updated": "2026-08-30T01:29:52Z",
-      "updates": [
-        {
-          "id": 15979,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Launch delayed due to Dragon propulsion system leak.",
-          "info_url": "https://www.nasa.gov/blogs/spacestation/2026/08/29/nasa-spacex-adjust-crew-13-launch-date/",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-08-30T01:29:00Z"
-        },
-        {
-          "id": 15726,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Updated launch time.",
-          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-08-03T16:17:00Z"
-        },
-        {
-          "id": 15724,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET September 12.",
-          "info_url": "https://www.youtube.com/watch?v=IDUtReQSlb0",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-08-03T16:09:00Z"
-        },
-        {
-          "id": 14796,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "NET mid-September.",
-          "info_url": "https://www.nasa.gov/news-release/nasa-shares-spacex-crew-13-assignments-for-space-station-mission/",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-04-23T23:28:00Z"
-        }
-      ],
-      "net": "2026-09-30T00:00:00Z",
-      "net_precision": {
-        "id": 7,
-        "name": "Month",
-        "abbrev": "M",
-        "description": "The T-0 is expected in the given month."
-      },
-      "window_end": "2026-09-30T00:00:00Z",
-      "window_start": "2026-09-30T00:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 121,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-        "name": "SpaceX",
-        "featured": true,
-        "type": "Commercial",
-        "country_code": "USA",
-        "abbrev": "SpX",
-        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-        "administrator": "CEO: Elon Musk",
-        "founding_year": "2002",
-        "launchers": "Falcon | Starship",
-        "spacecraft": "Dragon",
-        "launch_library_url": null,
-        "total_launch_count": 728,
-        "consecutive_successful_launches": 213,
-        "successful_launches": 713,
-        "failed_launches": 15,
-        "pending_launches": 126,
-        "consecutive_successful_landings": 21,
-        "successful_landings": 672,
-        "failed_landings": 29,
-        "attempted_landings": 700,
-        "info_url": "https://www.spacex.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
-      },
-      "rocket": {
-        "id": 7600,
-        "configuration": {
-          "id": 164,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
-          "name": "Falcon 9",
-          "active": true,
-          "reusable": true,
-          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
-          "family": "Falcon",
-          "full_name": "Falcon 9 Block 5",
-          "manufacturer": {
-            "id": 121,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-            "name": "SpaceX",
-            "featured": true,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "SpX",
-            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-            "administrator": "CEO: Elon Musk",
-            "founding_year": "2002",
-            "launchers": "Falcon | Starship",
-            "spacecraft": "Dragon",
-            "launch_library_url": null,
-            "total_launch_count": 728,
-            "consecutive_successful_launches": 213,
-            "successful_launches": 713,
-            "failed_launches": 15,
-            "pending_launches": 126,
-            "consecutive_successful_landings": 21,
-            "successful_landings": 672,
-            "failed_landings": 29,
-            "attempted_landings": 700,
-            "info_url": "https://www.spacex.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
-          },
-          "program": [
-            {
-              "id": 11,
-              "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
-              "name": "Commercial Resupply Services",
-              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
-              "agencies": [
-                {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                {
-                  "id": 257,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
-                  "name": "Northrop Grumman Space Systems",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 1020,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
-                  "name": "Sierra Nevada Corporation",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 121,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-                  "name": "SpaceX",
-                  "type": "Commercial"
-                }
-              ],
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
-              "start_date": "2008-12-23T00:00:00Z",
-              "end_date": null,
-              "info_url": null,
-              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": [],
-              "type": {
-                "id": 2,
-                "name": "Human Spaceflight"
-              }
-            },
-            {
-              "id": 5,
-              "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
-              "name": "Commercial Crew Program",
-              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
-              "agencies": [
-                {
-                  "id": 80,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
-                  "name": "Boeing",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                {
-                  "id": 121,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-                  "name": "SpaceX",
-                  "type": "Commercial"
-                }
-              ],
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
-              "start_date": "2011-04-18T00:00:00Z",
-              "end_date": null,
-              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
-              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": [],
-              "type": {
-                "id": 2,
-                "name": "Human Spaceflight"
-              }
-            }
-          ],
-          "variant": "Block 5",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 2,
-          "length": 70,
-          "diameter": 3.65,
-          "maiden_flight": "2018-05-11",
-          "launch_cost": "52000000",
-          "launch_mass": 549,
-          "leo_capacity": 22800,
-          "gto_capacity": 8300,
-          "to_thrust": 7607,
-          "apogee": 200,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
-          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-          "total_launch_count": 631,
-          "consecutive_successful_launches": 333,
-          "successful_launches": 630,
-          "failed_launches": 1,
-          "pending_launches": 108,
-          "attempted_landings": 621,
-          "successful_landings": 616,
-          "failed_landings": 5,
-          "consecutive_successful_landings": 316
-        },
-        "launcher_stage": [
-          {
-            "id": 924,
-            "type": "Core",
-            "reused": true,
-            "launcher_flight_number": 3,
-            "launcher": {
-              "id": 240,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/240/",
-              "details": "Falcon 9 booster.",
-              "flight_proven": true,
-              "serial_number": "B1101",
-              "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1101_at_slc-40_image_20260208171031.jpg",
-              "successful_landings": 2,
-              "attempted_landings": 2,
-              "flights": 2,
-              "last_launch_date": "2026-02-13T10:15:56Z",
-              "first_launch_date": "2026-01-04T06:48:10Z"
-            },
-            "landing": {
-              "id": 1847,
-              "attempt": true,
-              "success": null,
-              "description": "The Falcon 9 first stage B1101 will land back at the launch site after its 3rd flight.",
-              "downrange_distance": 0.3,
-              "location": {
-                "id": 62,
-                "name": "Landing Zone 40",
-                "abbrev": "LZ-40",
-                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1129,
-                  "total_landing_count": 79
-                },
-                "successful_landings": 6
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2026-02-13T10:15:56Z",
-            "turn_around_time_days": 228,
-            "previous_flight": {
-              "id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
-              "name": "Falcon 9 Block 5 | Crew-12"
-            }
-          }
-        ],
-        "spacecraft_stage": {
-          "id": 907,
-          "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/907/",
-          "mission_end": null,
-          "destination": "International Space Station",
-          "launch_crew": [
-            {
-              "id": 5245,
-              "role": {
-                "id": 24,
-                "role": "Spacecraft Commander",
-                "priority": 1
-              },
-              "astronaut": {
-                "id": 582,
-                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/582/",
-                "name": "Jessica Watkins",
-                "type": {
-                  "id": 2,
-                  "name": "Government"
-                },
-                "in_space": false,
-                "time_in_space": "P170DT13H2M8S",
-                "status": {
-                  "id": 1,
-                  "name": "Active"
-                },
-                "agency": {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                "date_of_birth": "1988-05-14",
-                "date_of_death": null,
-                "nationality": "American",
-                "twitter": null,
-                "instagram": null,
-                "bio": "Jessica Andrea Watkins is an American geologist, former international rugby player, and a NASA astronaut of the class of 2017.",
-                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jessica2520watkins_image_20200110161821.jpeg",
-                "wiki": "https://en.wikipedia.org/wiki/Jessica_Watkins",
-                "last_flight": "2022-04-27T07:52:55Z",
-                "first_flight": "2022-04-27T07:52:55Z"
-              }
-            },
-            {
-              "id": 5247,
-              "role": {
-                "id": 3,
-                "role": "Flight Engineer",
-                "priority": 2
-              },
-              "astronaut": {
-                "id": 642,
-                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/642/",
-                "name": "Joshua Kutryk",
-                "type": {
-                  "id": 2,
-                  "name": "Government"
-                },
-                "in_space": false,
-                "time_in_space": "P0D",
-                "status": {
-                  "id": 1,
-                  "name": "Active"
-                },
-                "agency": {
-                  "id": 16,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
-                  "name": "Canadian Space Agency",
-                  "type": "Government"
-                },
-                "date_of_birth": "1982-03-21",
-                "date_of_death": null,
-                "nationality": "Canadian",
-                "twitter": "https://twitter.com/astro_kutryk",
-                "instagram": "https://www.instagram.com/astro_kutryk/",
-                "bio": "Joshua Kutryk, a Royal Canadian Air Force lieutenant colonel, is from Beauvallon, Alberta. He has a bachelor’s degree in mechanical engineering, as well as master’s degrees in space studies, flight test engineering, and defense studies. Prior to joining CSA, Kutryk worked as an experimental test pilot and a fighter pilot in Cold Lake, Alberta, where he led the unit responsible for the operational flight-testing of fighter aircraft in Canada.",
-                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/joshua2520kutryk_image_20191228095953.jpg",
-                "wiki": "https://en.wikipedia.org/wiki/Joshua_Kutryk",
-                "last_flight": null,
-                "first_flight": null
-              }
-            },
-            {
-              "id": 5246,
-              "role": {
-                "id": 2,
-                "role": "Pilot",
-                "priority": 2
-              },
-              "astronaut": {
-                "id": 710,
-                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/710/",
-                "name": "Luke Delaney",
-                "type": {
-                  "id": 2,
-                  "name": "Government"
-                },
-                "in_space": false,
-                "time_in_space": "P0D",
-                "status": {
-                  "id": 1,
-                  "name": "Active"
-                },
-                "agency": {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                "date_of_birth": "1979-01-01",
-                "date_of_death": null,
-                "nationality": "American",
-                "twitter": null,
-                "instagram": null,
-                "bio": "Luke Delaney is a retired US Marine Corps major who grew up in Debary, Florida. He holds a degree in mechanical engineering from University of North Florida and a master’s degree in aerospace engineering from the Naval Postgraduate School. He is a distinguished naval aviator who participated in exercises throughout the Asia Pacific region and conducted combat missions in support of Operation Enduring Freedom. As a test pilot, he executed numerous flights evaluating weapon systems integration, and he served as a test pilot instructor. Delaney most recently worked as a research pilot at NASA’s Langley Research Center, in Hampton, Virginia, where he supported airborne science missions. Including his NASA career, Delaney logged more than 3,700 flight hours on 48 models of jet, propeller, and rotary wing aircraft.\r\n\r\nExact date of birth unknown.",
-                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/luke_delaney_image_20211206185357.jpg",
-                "wiki": "https://en.wikipedia.org/wiki/Luke_Delaney_(astronaut)",
-                "last_flight": null,
-                "first_flight": null
-              }
-            },
-            {
-              "id": 5251,
-              "role": {
-                "id": 3,
-                "role": "Flight Engineer",
-                "priority": 2
-              },
-              "astronaut": {
-                "id": 915,
-                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/915/",
-                "name": "Sergey Teteryatnikov",
-                "type": {
-                  "id": 2,
-                  "name": "Government"
-                },
-                "in_space": false,
-                "time_in_space": "P0D",
-                "status": {
-                  "id": 1,
-                  "name": "Active"
-                },
-                "agency": {
-                  "id": 63,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
-                  "name": "Russian Federal Space Agency (ROSCOSMOS)",
-                  "type": "Government"
-                },
-                "date_of_birth": "1988-12-19",
-                "date_of_death": null,
-                "nationality": "Russian",
-                "twitter": null,
-                "instagram": null,
-                "bio": "Sergey Teteryatnikov graduated from the Naval Academy, St. Petersburg, Russia, in 2011 as an engineer specializing in ship power plant operations. Before his selection as a test cosmonaut, Teteryatnikov served in various naval engineering roles, including undersea vessels and specialized engine room operations. He was selected for the Gagarin Research and Test Cosmonaut Training Center Cosmonaut Corps in 2021 and has served as a test cosmonaut since 2023.",
-                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sergey_teteryat_image_20260424073411.jpg",
-                "wiki": null,
-                "last_flight": null,
-                "first_flight": null
-              }
-            }
-          ],
-          "onboard_crew": [],
-          "landing_crew": [
-            {
-              "id": 5248,
-              "role": {
-                "id": 24,
-                "role": "Spacecraft Commander",
-                "priority": 1
-              },
-              "astronaut": {
-                "id": 582,
-                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/582/",
-                "name": "Jessica Watkins",
-                "type": {
-                  "id": 2,
-                  "name": "Government"
-                },
-                "in_space": false,
-                "time_in_space": "P170DT13H2M8S",
-                "status": {
-                  "id": 1,
-                  "name": "Active"
-                },
-                "agency": {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                "date_of_birth": "1988-05-14",
-                "date_of_death": null,
-                "nationality": "American",
-                "twitter": null,
-                "instagram": null,
-                "bio": "Jessica Andrea Watkins is an American geologist, former international rugby player, and a NASA astronaut of the class of 2017.",
-                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jessica2520watkins_image_20200110161821.jpeg",
-                "wiki": "https://en.wikipedia.org/wiki/Jessica_Watkins",
-                "last_flight": "2022-04-27T07:52:55Z",
-                "first_flight": "2022-04-27T07:52:55Z"
-              }
-            },
-            {
-              "id": 5250,
-              "role": {
-                "id": 3,
-                "role": "Flight Engineer",
-                "priority": 2
-              },
-              "astronaut": {
-                "id": 642,
-                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/642/",
-                "name": "Joshua Kutryk",
-                "type": {
-                  "id": 2,
-                  "name": "Government"
-                },
-                "in_space": false,
-                "time_in_space": "P0D",
-                "status": {
-                  "id": 1,
-                  "name": "Active"
-                },
-                "agency": {
-                  "id": 16,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
-                  "name": "Canadian Space Agency",
-                  "type": "Government"
-                },
-                "date_of_birth": "1982-03-21",
-                "date_of_death": null,
-                "nationality": "Canadian",
-                "twitter": "https://twitter.com/astro_kutryk",
-                "instagram": "https://www.instagram.com/astro_kutryk/",
-                "bio": "Joshua Kutryk, a Royal Canadian Air Force lieutenant colonel, is from Beauvallon, Alberta. He has a bachelor’s degree in mechanical engineering, as well as master’s degrees in space studies, flight test engineering, and defense studies. Prior to joining CSA, Kutryk worked as an experimental test pilot and a fighter pilot in Cold Lake, Alberta, where he led the unit responsible for the operational flight-testing of fighter aircraft in Canada.",
-                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/joshua2520kutryk_image_20191228095953.jpg",
-                "wiki": "https://en.wikipedia.org/wiki/Joshua_Kutryk",
-                "last_flight": null,
-                "first_flight": null
-              }
-            },
-            {
-              "id": 5249,
-              "role": {
-                "id": 2,
-                "role": "Pilot",
-                "priority": 2
-              },
-              "astronaut": {
-                "id": 710,
-                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/710/",
-                "name": "Luke Delaney",
-                "type": {
-                  "id": 2,
-                  "name": "Government"
-                },
-                "in_space": false,
-                "time_in_space": "P0D",
-                "status": {
-                  "id": 1,
-                  "name": "Active"
-                },
-                "agency": {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                "date_of_birth": "1979-01-01",
-                "date_of_death": null,
-                "nationality": "American",
-                "twitter": null,
-                "instagram": null,
-                "bio": "Luke Delaney is a retired US Marine Corps major who grew up in Debary, Florida. He holds a degree in mechanical engineering from University of North Florida and a master’s degree in aerospace engineering from the Naval Postgraduate School. He is a distinguished naval aviator who participated in exercises throughout the Asia Pacific region and conducted combat missions in support of Operation Enduring Freedom. As a test pilot, he executed numerous flights evaluating weapon systems integration, and he served as a test pilot instructor. Delaney most recently worked as a research pilot at NASA’s Langley Research Center, in Hampton, Virginia, where he supported airborne science missions. Including his NASA career, Delaney logged more than 3,700 flight hours on 48 models of jet, propeller, and rotary wing aircraft.\r\n\r\nExact date of birth unknown.",
-                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/luke_delaney_image_20211206185357.jpg",
-                "wiki": "https://en.wikipedia.org/wiki/Luke_Delaney_(astronaut)",
-                "last_flight": null,
-                "first_flight": null
-              }
-            },
-            {
-              "id": 5252,
-              "role": {
-                "id": 3,
-                "role": "Flight Engineer",
-                "priority": 2
-              },
-              "astronaut": {
-                "id": 915,
-                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/915/",
-                "name": "Sergey Teteryatnikov",
-                "type": {
-                  "id": 2,
-                  "name": "Government"
-                },
-                "in_space": false,
-                "time_in_space": "P0D",
-                "status": {
-                  "id": 1,
-                  "name": "Active"
-                },
-                "agency": {
-                  "id": 63,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
-                  "name": "Russian Federal Space Agency (ROSCOSMOS)",
-                  "type": "Government"
-                },
-                "date_of_birth": "1988-12-19",
-                "date_of_death": null,
-                "nationality": "Russian",
-                "twitter": null,
-                "instagram": null,
-                "bio": "Sergey Teteryatnikov graduated from the Naval Academy, St. Petersburg, Russia, in 2011 as an engineer specializing in ship power plant operations. Before his selection as a test cosmonaut, Teteryatnikov served in various naval engineering roles, including undersea vessels and specialized engine room operations. He was selected for the Gagarin Research and Test Cosmonaut Training Center Cosmonaut Corps in 2021 and has served as a test cosmonaut since 2023.",
-                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sergey_teteryat_image_20260424073411.jpg",
-                "wiki": null,
-                "last_flight": null,
-                "first_flight": null
-              }
-            }
-          ],
-          "spacecraft": {
-            "id": 595,
-            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/595/",
-            "name": "Crew Dragon Grace",
-            "serial_number": "C213",
-            "is_placeholder": false,
-            "in_space": false,
-            "time_in_space": "P20DT2H58M8S",
-            "time_docked": "P18DT44M",
-            "flights_count": 1,
-            "mission_ends_count": 1,
-            "status": {
-              "id": 1,
-              "name": "Active"
-            },
-            "description": "Crew Dragon spacecraft first used for Axiom-4.",
-            "spacecraft_config": {
-              "id": 6,
-              "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/6/",
-              "name": "Crew Dragon 2",
-              "type": {
-                "id": 2,
-                "name": "Capsule"
-              },
-              "agency": {
-                "id": 121,
-                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-                "name": "SpaceX",
-                "featured": true,
-                "type": "Commercial",
-                "country_code": "USA",
-                "abbrev": "SpX",
-                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-                "administrator": "CEO: Elon Musk",
-                "founding_year": "2002",
-                "launchers": "Falcon | Starship",
-                "spacecraft": "Dragon",
-                "parent": null,
-                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png"
-              },
-              "in_use": true,
-              "capability": "Crew Flights to ISS or Low Earth Orbit",
-              "history": "Crew Dragon 2 is a spacecraft developed by SpaceX, an American private space transportation company based in Hawthorne, California. Dragon is launched into space by the SpaceX Falcon 9 two-stage-to-orbit launch vehicle. It is one of two American Spacecraft being develeoped capable of lifting American Astronauts to the International Space Station.\r\n\r\nThe first crewed flight, launched on 30 May 2020 on a Falcon 9 rocket, and carried NASA astronauts Douglas Hurley and Robert Behnken to the International Space Station in the first crewed orbital spaceflight launched from the US since the final Space Shuttle mission in 2011, and the first ever operated by a commercial provider.",
-              "details": "Crew Dragon 2 is capable of lifting four astronauts, or a combination of crew and cargo to and from low Earth orbit. Its heat shield is designed to withstand Earth re-entry velocities from Lunar and Martian spaceflights.",
-              "maiden_flight": "2019-03-02",
-              "height": 7.2,
-              "diameter": 3.7,
-              "human_rated": true,
-              "crew_capacity": 4,
-              "payload_capacity": 6000,
-              "payload_return_capacity": null,
-              "flight_life": "Able to fly for up to one week of free flight or two years docked.",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_dm-2_cre_image_20200504065311.jpeg",
-              "nation_url": null,
-              "wiki_link": "https://en.wikipedia.org/wiki/Dragon_2",
-              "info_link": "https://www.spacex.com/crew-dragon"
-            }
-          },
-          "landing": {
-            "id": 1848,
-            "attempt": true,
-            "success": null,
-            "description": "The Crew Dragon Grace capsule will splash down in the Pacific Ocean.",
-            "downrange_distance": null,
-            "location": {
-              "id": 18,
-              "name": "Pacific Ocean",
-              "abbrev": "PAC",
-              "description": "Pacific Ocean",
-              "location": null,
-              "successful_landings": 53
-            },
-            "type": {
-              "id": 4,
-              "name": "Parachute Landing",
-              "abbrev": "PCL",
-              "description": "Unpowered landing using parachute(s)."
-            }
-          },
-          "docking_events": []
-        }
-      },
-      "mission": {
-        "id": 6043,
-        "name": "Crew-13",
-        "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
-        "launch_designator": null,
-        "type": "Human Exploration",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [
-          {
-            "id": 16,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
-            "name": "Canadian Space Agency",
-            "featured": false,
-            "type": "Government",
-            "country_code": "CAN",
-            "abbrev": "CSA",
-            "description": "The Canadian Space Agency was established by the Canadian Space Agency Act which received Royal Assent on May 10, 1990. \r\n\r\nThe Canadian space program is administered by the Canadian Space Agency. Canada has contributed technology, expertise and personnel to the world space effort, especially in collaboration with ESA and NASA. In addition to its astronauts and satellites, some of the most notable Canadian technological contributions to space exploration include the Canadarm on the Space Shuttle and Canadarm2 on the International Space Station.",
-            "administrator": "President: Lisa Campbell",
-            "founding_year": "1990",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://asc-csa.gc.ca/eng/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Canadian_Space_Agency",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/canadian_space__image_20260402074720.png",
-            "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/canadian_space__image_20260402074642.jpg"
-          },
-          {
-            "id": 44,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-            "name": "National Aeronautics and Space Administration",
-            "featured": true,
-            "type": "Government",
-            "country_code": "USA",
-            "abbrev": "NASA",
-            "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
-            "administrator": "Administrator: Jared Isaacman",
-            "founding_year": "1958",
-            "launchers": "Space Shuttle | SLS",
-            "spacecraft": "Orion",
-            "launch_library_url": null,
-            "total_launch_count": 142,
-            "consecutive_successful_launches": 12,
-            "successful_launches": 122,
-            "failed_launches": 20,
-            "pending_launches": 5,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.nasa.gov",
-            "wiki_url": "https://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg"
-          },
-          {
-            "id": 63,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
-            "name": "Russian Federal Space Agency (ROSCOSMOS)",
-            "featured": true,
-            "type": "Government",
-            "country_code": "RUS",
-            "abbrev": "RFSA",
-            "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
-            "administrator": "Administrator: Yuri Borisov",
-            "founding_year": "1992",
-            "launchers": "Soyuz",
-            "spacecraft": "Soyuz",
-            "launch_library_url": null,
-            "total_launch_count": 343,
-            "consecutive_successful_launches": 67,
-            "successful_launches": 332,
-            "failed_launches": 11,
-            "pending_launches": 5,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://en.roscosmos.ru/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
-          }
-        ],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 80,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
-        "agency_id": 121,
-        "name": "Space Launch Complex 40",
-        "description": "",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
-        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
-        "latitude": "28.56194122",
-        "longitude": "-80.57735736",
-        "location": {
-          "id": 12,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
-          "name": "Cape Canaveral SFS, FL, USA",
-          "country_code": "USA",
-          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 1129,
-          "total_landing_count": 79
-        },
-        "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
-        "total_launch_count": 401,
-        "orbital_launch_attempt_count": 401
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
-      "infographic": null,
-      "program": [
-        {
-          "id": 5,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
-          "name": "Commercial Crew Program",
-          "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
-          "agencies": [
-            {
-              "id": 80,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
-              "name": "Boeing",
-              "type": "Commercial"
-            },
-            {
-              "id": 44,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-              "name": "National Aeronautics and Space Administration",
-              "type": "Government"
-            },
-            {
-              "id": 121,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-              "name": "SpaceX",
-              "type": "Commercial"
-            }
-          ],
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
-          "start_date": "2011-04-18T00:00:00Z",
-          "end_date": null,
-          "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
-          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-          "mission_patches": [],
-          "type": {
-            "id": 2,
-            "name": "Human Spaceflight"
-          }
-        },
-        {
-          "id": 17,
-          "url": "https://ll.thespacedevs.com/2.2.0/program/17/",
-          "name": "International Space Station",
-          "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
-          "agencies": [
-            {
-              "id": 16,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
-              "name": "Canadian Space Agency",
-              "type": "Government"
-            },
-            {
-              "id": 27,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
-              "name": "European Space Agency",
-              "type": "Multinational"
-            },
-            {
-              "id": 37,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
-              "name": "Japan Aerospace Exploration Agency",
-              "type": "Government"
-            },
-            {
-              "id": 44,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-              "name": "National Aeronautics and Space Administration",
-              "type": "Government"
-            },
-            {
-              "id": 63,
-              "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
-              "name": "Russian Federal Space Agency (ROSCOSMOS)",
-              "type": "Government"
-            }
-          ],
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
-          "start_date": "1998-11-20T06:40:00Z",
-          "end_date": null,
-          "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
-          "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
-          "mission_patches": [],
-          "type": {
-            "id": 2,
-            "name": "Human Spaceflight"
-          }
-        }
-      ],
-      "orbital_launch_attempt_count": 7409,
-      "location_launch_attempt_count": 1131,
-      "pad_launch_attempt_count": 402,
-      "agency_launch_attempt_count": 734,
-      "orbital_launch_attempt_count_year": 236,
-      "location_launch_attempt_count_year": 55,
-      "pad_launch_attempt_count_year": 48,
-      "agency_launch_attempt_count_year": 115,
-      "pad_turnaround": "P16DT5H11M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -8208,15 +7373,959 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20251102082912.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7416,
+      "orbital_launch_attempt_count": 7417,
       "location_launch_attempt_count": 1133,
       "pad_launch_attempt_count": 404,
       "agency_launch_attempt_count": 738,
-      "orbital_launch_attempt_count_year": 243,
+      "orbital_launch_attempt_count_year": 244,
       "location_launch_attempt_count_year": 57,
       "pad_launch_attempt_count_year": 50,
       "agency_launch_attempt_count_year": 119,
-      "pad_turnaround": "P31D",
+      "pad_turnaround": "P47DT5H11M",
+      "mission_patches": [],
+      "type": "detailed"
+    },
+    {
+      "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/18441371-8b2e-457c-afb5-1ec1b11ab630/",
+      "slug": "falcon-9-block-5-crew-13",
+      "flightclub_url": "https://flightclub.io/result?llId=18441371-8b2e-457c-afb5-1ec1b11ab630",
+      "r_spacex_api_id": null,
+      "name": "Falcon 9 Block 5 | Crew-13",
+      "status": {
+        "id": 2,
+        "name": "To Be Determined",
+        "abbrev": "TBD",
+        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+      },
+      "last_updated": "2026-09-16T14:36:32Z",
+      "updates": [
+        {
+          "id": 16130,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET early October.",
+          "info_url": "https://x.com/Space_Station/status/2100230430687428940",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-16T14:20:00Z"
+        },
+        {
+          "id": 15979,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch delayed due to Dragon propulsion system leak.",
+          "info_url": "https://www.nasa.gov/blogs/spacestation/2026/08/29/nasa-spacex-adjust-crew-13-launch-date/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-30T01:29:00Z"
+        },
+        {
+          "id": 15726,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch time.",
+          "info_url": "https://www.launchphotography.com/Launch_Viewing_Guide.html",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-03T16:17:00Z"
+        },
+        {
+          "id": 15724,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET September 12.",
+          "info_url": "https://www.youtube.com/watch?v=IDUtReQSlb0",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-08-03T16:09:00Z"
+        },
+        {
+          "id": 14796,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET mid-September.",
+          "info_url": "https://www.nasa.gov/news-release/nasa-shares-spacex-crew-13-assignments-for-space-station-mission/",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-04-23T23:28:00Z"
+        }
+      ],
+      "net": "2026-10-31T00:00:00Z",
+      "net_precision": {
+        "id": 7,
+        "name": "Month",
+        "abbrev": "M",
+        "description": "The T-0 is expected in the given month."
+      },
+      "window_end": "2026-10-31T00:00:00Z",
+      "window_start": "2026-10-31T00:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": null,
+        "total_launch_count": 728,
+        "consecutive_successful_launches": 213,
+        "successful_launches": 713,
+        "failed_launches": 15,
+        "pending_launches": 126,
+        "consecutive_successful_landings": 21,
+        "successful_landings": 672,
+        "failed_landings": 29,
+        "attempted_landings": 700,
+        "info_url": "https://www.spacex.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+      },
+      "rocket": {
+        "id": 7600,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "active": true,
+          "reusable": true,
+          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "manufacturer": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 728,
+            "consecutive_successful_launches": 213,
+            "successful_launches": 713,
+            "failed_launches": 15,
+            "pending_launches": 126,
+            "consecutive_successful_landings": 21,
+            "successful_landings": 672,
+            "failed_landings": 29,
+            "attempted_landings": 700,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+          },
+          "program": [
+            {
+              "id": 11,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+              "name": "Commercial Resupply Services",
+              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+              "agencies": [
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 257,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                  "name": "Northrop Grumman Space Systems",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 1020,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                  "name": "Sierra Nevada Corporation",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+              "start_date": "2008-12-23T00:00:00Z",
+              "end_date": null,
+              "info_url": null,
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            },
+            {
+              "id": 5,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+              "name": "Commercial Crew Program",
+              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+              "agencies": [
+                {
+                  "id": 80,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                  "name": "Boeing",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+              "start_date": "2011-04-18T00:00:00Z",
+              "end_date": null,
+              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            }
+          ],
+          "variant": "Block 5",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 2,
+          "length": 70,
+          "diameter": 3.65,
+          "maiden_flight": "2018-05-11",
+          "launch_cost": "52000000",
+          "launch_mass": 549,
+          "leo_capacity": 22800,
+          "gto_capacity": 8300,
+          "to_thrust": 7607,
+          "apogee": 200,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+          "total_launch_count": 631,
+          "consecutive_successful_launches": 333,
+          "successful_launches": 630,
+          "failed_launches": 1,
+          "pending_launches": 108,
+          "attempted_landings": 621,
+          "successful_landings": 616,
+          "failed_landings": 5,
+          "consecutive_successful_landings": 316
+        },
+        "launcher_stage": [
+          {
+            "id": 924,
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 3,
+            "launcher": {
+              "id": 240,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/240/",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1101",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1101_at_slc-40_image_20260208171031.jpg",
+              "successful_landings": 2,
+              "attempted_landings": 2,
+              "flights": 2,
+              "last_launch_date": "2026-02-13T10:15:56Z",
+              "first_launch_date": "2026-01-04T06:48:10Z"
+            },
+            "landing": {
+              "id": 1847,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage B1101 will land back at the launch site after its 3rd flight.",
+              "downrange_distance": 0.3,
+              "location": {
+                "id": 62,
+                "name": "Landing Zone 40",
+                "abbrev": "LZ-40",
+                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+                  "name": "Cape Canaveral SFS, FL, USA",
+                  "country_code": "USA",
+                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 1129,
+                  "total_landing_count": 79
+                },
+                "successful_landings": 6
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2026-02-13T10:15:56Z",
+            "turn_around_time_days": 259,
+            "previous_flight": {
+              "id": "862b54e3-7bf8-48e5-8cd1-d77257d5fde9",
+              "name": "Falcon 9 Block 5 | Crew-12"
+            }
+          }
+        ],
+        "spacecraft_stage": {
+          "id": 907,
+          "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/flight/907/",
+          "mission_end": null,
+          "destination": "International Space Station",
+          "launch_crew": [
+            {
+              "id": 5245,
+              "role": {
+                "id": 24,
+                "role": "Spacecraft Commander",
+                "priority": 1
+              },
+              "astronaut": {
+                "id": 582,
+                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/582/",
+                "name": "Jessica Watkins",
+                "type": {
+                  "id": 2,
+                  "name": "Government"
+                },
+                "in_space": false,
+                "time_in_space": "P170DT13H2M8S",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "agency": {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                "date_of_birth": "1988-05-14",
+                "date_of_death": null,
+                "nationality": "American",
+                "twitter": null,
+                "instagram": null,
+                "bio": "Jessica Andrea Watkins is an American geologist, former international rugby player, and a NASA astronaut of the class of 2017.",
+                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jessica2520watkins_image_20200110161821.jpeg",
+                "wiki": "https://en.wikipedia.org/wiki/Jessica_Watkins",
+                "last_flight": "2022-04-27T07:52:55Z",
+                "first_flight": "2022-04-27T07:52:55Z"
+              }
+            },
+            {
+              "id": 5247,
+              "role": {
+                "id": 3,
+                "role": "Flight Engineer",
+                "priority": 2
+              },
+              "astronaut": {
+                "id": 642,
+                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/642/",
+                "name": "Joshua Kutryk",
+                "type": {
+                  "id": 2,
+                  "name": "Government"
+                },
+                "in_space": false,
+                "time_in_space": "P0D",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "agency": {
+                  "id": 16,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
+                  "name": "Canadian Space Agency",
+                  "type": "Government"
+                },
+                "date_of_birth": "1982-03-21",
+                "date_of_death": null,
+                "nationality": "Canadian",
+                "twitter": "https://twitter.com/astro_kutryk",
+                "instagram": "https://www.instagram.com/astro_kutryk/",
+                "bio": "Joshua Kutryk, a Royal Canadian Air Force lieutenant colonel, is from Beauvallon, Alberta. He has a bachelor’s degree in mechanical engineering, as well as master’s degrees in space studies, flight test engineering, and defense studies. Prior to joining CSA, Kutryk worked as an experimental test pilot and a fighter pilot in Cold Lake, Alberta, where he led the unit responsible for the operational flight-testing of fighter aircraft in Canada.",
+                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/joshua2520kutryk_image_20191228095953.jpg",
+                "wiki": "https://en.wikipedia.org/wiki/Joshua_Kutryk",
+                "last_flight": null,
+                "first_flight": null
+              }
+            },
+            {
+              "id": 5246,
+              "role": {
+                "id": 2,
+                "role": "Pilot",
+                "priority": 2
+              },
+              "astronaut": {
+                "id": 710,
+                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/710/",
+                "name": "Luke Delaney",
+                "type": {
+                  "id": 2,
+                  "name": "Government"
+                },
+                "in_space": false,
+                "time_in_space": "P0D",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "agency": {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                "date_of_birth": "1979-01-01",
+                "date_of_death": null,
+                "nationality": "American",
+                "twitter": null,
+                "instagram": null,
+                "bio": "Luke Delaney is a retired US Marine Corps major who grew up in Debary, Florida. He holds a degree in mechanical engineering from University of North Florida and a master’s degree in aerospace engineering from the Naval Postgraduate School. He is a distinguished naval aviator who participated in exercises throughout the Asia Pacific region and conducted combat missions in support of Operation Enduring Freedom. As a test pilot, he executed numerous flights evaluating weapon systems integration, and he served as a test pilot instructor. Delaney most recently worked as a research pilot at NASA’s Langley Research Center, in Hampton, Virginia, where he supported airborne science missions. Including his NASA career, Delaney logged more than 3,700 flight hours on 48 models of jet, propeller, and rotary wing aircraft.\r\n\r\nExact date of birth unknown.",
+                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/luke_delaney_image_20211206185357.jpg",
+                "wiki": "https://en.wikipedia.org/wiki/Luke_Delaney_(astronaut)",
+                "last_flight": null,
+                "first_flight": null
+              }
+            },
+            {
+              "id": 5251,
+              "role": {
+                "id": 3,
+                "role": "Flight Engineer",
+                "priority": 2
+              },
+              "astronaut": {
+                "id": 915,
+                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/915/",
+                "name": "Sergey Teteryatnikov",
+                "type": {
+                  "id": 2,
+                  "name": "Government"
+                },
+                "in_space": false,
+                "time_in_space": "P0D",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "agency": {
+                  "id": 63,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                  "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                  "type": "Government"
+                },
+                "date_of_birth": "1988-12-19",
+                "date_of_death": null,
+                "nationality": "Russian",
+                "twitter": null,
+                "instagram": null,
+                "bio": "Sergey Teteryatnikov graduated from the Naval Academy, St. Petersburg, Russia, in 2011 as an engineer specializing in ship power plant operations. Before his selection as a test cosmonaut, Teteryatnikov served in various naval engineering roles, including undersea vessels and specialized engine room operations. He was selected for the Gagarin Research and Test Cosmonaut Training Center Cosmonaut Corps in 2021 and has served as a test cosmonaut since 2023.",
+                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sergey_teteryat_image_20260424073411.jpg",
+                "wiki": null,
+                "last_flight": null,
+                "first_flight": null
+              }
+            }
+          ],
+          "onboard_crew": [],
+          "landing_crew": [
+            {
+              "id": 5248,
+              "role": {
+                "id": 24,
+                "role": "Spacecraft Commander",
+                "priority": 1
+              },
+              "astronaut": {
+                "id": 582,
+                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/582/",
+                "name": "Jessica Watkins",
+                "type": {
+                  "id": 2,
+                  "name": "Government"
+                },
+                "in_space": false,
+                "time_in_space": "P170DT13H2M8S",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "agency": {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                "date_of_birth": "1988-05-14",
+                "date_of_death": null,
+                "nationality": "American",
+                "twitter": null,
+                "instagram": null,
+                "bio": "Jessica Andrea Watkins is an American geologist, former international rugby player, and a NASA astronaut of the class of 2017.",
+                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/jessica2520watkins_image_20200110161821.jpeg",
+                "wiki": "https://en.wikipedia.org/wiki/Jessica_Watkins",
+                "last_flight": "2022-04-27T07:52:55Z",
+                "first_flight": "2022-04-27T07:52:55Z"
+              }
+            },
+            {
+              "id": 5250,
+              "role": {
+                "id": 3,
+                "role": "Flight Engineer",
+                "priority": 2
+              },
+              "astronaut": {
+                "id": 642,
+                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/642/",
+                "name": "Joshua Kutryk",
+                "type": {
+                  "id": 2,
+                  "name": "Government"
+                },
+                "in_space": false,
+                "time_in_space": "P0D",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "agency": {
+                  "id": 16,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
+                  "name": "Canadian Space Agency",
+                  "type": "Government"
+                },
+                "date_of_birth": "1982-03-21",
+                "date_of_death": null,
+                "nationality": "Canadian",
+                "twitter": "https://twitter.com/astro_kutryk",
+                "instagram": "https://www.instagram.com/astro_kutryk/",
+                "bio": "Joshua Kutryk, a Royal Canadian Air Force lieutenant colonel, is from Beauvallon, Alberta. He has a bachelor’s degree in mechanical engineering, as well as master’s degrees in space studies, flight test engineering, and defense studies. Prior to joining CSA, Kutryk worked as an experimental test pilot and a fighter pilot in Cold Lake, Alberta, where he led the unit responsible for the operational flight-testing of fighter aircraft in Canada.",
+                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/joshua2520kutryk_image_20191228095953.jpg",
+                "wiki": "https://en.wikipedia.org/wiki/Joshua_Kutryk",
+                "last_flight": null,
+                "first_flight": null
+              }
+            },
+            {
+              "id": 5249,
+              "role": {
+                "id": 2,
+                "role": "Pilot",
+                "priority": 2
+              },
+              "astronaut": {
+                "id": 710,
+                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/710/",
+                "name": "Luke Delaney",
+                "type": {
+                  "id": 2,
+                  "name": "Government"
+                },
+                "in_space": false,
+                "time_in_space": "P0D",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "agency": {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                "date_of_birth": "1979-01-01",
+                "date_of_death": null,
+                "nationality": "American",
+                "twitter": null,
+                "instagram": null,
+                "bio": "Luke Delaney is a retired US Marine Corps major who grew up in Debary, Florida. He holds a degree in mechanical engineering from University of North Florida and a master’s degree in aerospace engineering from the Naval Postgraduate School. He is a distinguished naval aviator who participated in exercises throughout the Asia Pacific region and conducted combat missions in support of Operation Enduring Freedom. As a test pilot, he executed numerous flights evaluating weapon systems integration, and he served as a test pilot instructor. Delaney most recently worked as a research pilot at NASA’s Langley Research Center, in Hampton, Virginia, where he supported airborne science missions. Including his NASA career, Delaney logged more than 3,700 flight hours on 48 models of jet, propeller, and rotary wing aircraft.\r\n\r\nExact date of birth unknown.",
+                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/luke_delaney_image_20211206185357.jpg",
+                "wiki": "https://en.wikipedia.org/wiki/Luke_Delaney_(astronaut)",
+                "last_flight": null,
+                "first_flight": null
+              }
+            },
+            {
+              "id": 5252,
+              "role": {
+                "id": 3,
+                "role": "Flight Engineer",
+                "priority": 2
+              },
+              "astronaut": {
+                "id": 915,
+                "url": "https://ll.thespacedevs.com/2.2.0/astronaut/915/",
+                "name": "Sergey Teteryatnikov",
+                "type": {
+                  "id": 2,
+                  "name": "Government"
+                },
+                "in_space": false,
+                "time_in_space": "P0D",
+                "status": {
+                  "id": 1,
+                  "name": "Active"
+                },
+                "agency": {
+                  "id": 63,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+                  "name": "Russian Federal Space Agency (ROSCOSMOS)",
+                  "type": "Government"
+                },
+                "date_of_birth": "1988-12-19",
+                "date_of_death": null,
+                "nationality": "Russian",
+                "twitter": null,
+                "instagram": null,
+                "bio": "Sergey Teteryatnikov graduated from the Naval Academy, St. Petersburg, Russia, in 2011 as an engineer specializing in ship power plant operations. Before his selection as a test cosmonaut, Teteryatnikov served in various naval engineering roles, including undersea vessels and specialized engine room operations. He was selected for the Gagarin Research and Test Cosmonaut Training Center Cosmonaut Corps in 2021 and has served as a test cosmonaut since 2023.",
+                "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sergey_teteryat_image_20260424073411.jpg",
+                "wiki": null,
+                "last_flight": null,
+                "first_flight": null
+              }
+            }
+          ],
+          "spacecraft": {
+            "id": 595,
+            "url": "https://ll.thespacedevs.com/2.2.0/spacecraft/595/",
+            "name": "Crew Dragon Grace",
+            "serial_number": "C213",
+            "is_placeholder": false,
+            "in_space": false,
+            "time_in_space": "P20DT2H58M8S",
+            "time_docked": "P18DT44M",
+            "flights_count": 1,
+            "mission_ends_count": 1,
+            "status": {
+              "id": 1,
+              "name": "Active"
+            },
+            "description": "Crew Dragon spacecraft first used for Axiom-4.",
+            "spacecraft_config": {
+              "id": 6,
+              "url": "https://ll.thespacedevs.com/2.2.0/config/spacecraft/6/",
+              "name": "Crew Dragon 2",
+              "type": {
+                "id": 2,
+                "name": "Capsule"
+              },
+              "agency": {
+                "id": 121,
+                "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                "name": "SpaceX",
+                "featured": true,
+                "type": "Commercial",
+                "country_code": "USA",
+                "abbrev": "SpX",
+                "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+                "administrator": "CEO: Elon Musk",
+                "founding_year": "2002",
+                "launchers": "Falcon | Starship",
+                "spacecraft": "Dragon",
+                "parent": null,
+                "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+                "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png"
+              },
+              "in_use": true,
+              "capability": "Crew Flights to ISS or Low Earth Orbit",
+              "history": "Crew Dragon 2 is a spacecraft developed by SpaceX, an American private space transportation company based in Hawthorne, California. Dragon is launched into space by the SpaceX Falcon 9 two-stage-to-orbit launch vehicle. It is one of two American Spacecraft being develeoped capable of lifting American Astronauts to the International Space Station.\r\n\r\nThe first crewed flight, launched on 30 May 2020 on a Falcon 9 rocket, and carried NASA astronauts Douglas Hurley and Robert Behnken to the International Space Station in the first crewed orbital spaceflight launched from the US since the final Space Shuttle mission in 2011, and the first ever operated by a commercial provider.",
+              "details": "Crew Dragon 2 is capable of lifting four astronauts, or a combination of crew and cargo to and from low Earth orbit. Its heat shield is designed to withstand Earth re-entry velocities from Lunar and Martian spaceflights.",
+              "maiden_flight": "2019-03-02",
+              "height": 7.2,
+              "diameter": 3.7,
+              "human_rated": true,
+              "crew_capacity": 4,
+              "payload_capacity": 6000,
+              "payload_return_capacity": null,
+              "flight_life": "Able to fly for up to one week of free flight or two years docked.",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_dm-2_cre_image_20200504065311.jpeg",
+              "nation_url": null,
+              "wiki_link": "https://en.wikipedia.org/wiki/Dragon_2",
+              "info_link": "https://www.spacex.com/crew-dragon"
+            }
+          },
+          "landing": {
+            "id": 1848,
+            "attempt": true,
+            "success": null,
+            "description": "The Crew Dragon Grace capsule will splash down in the Pacific Ocean.",
+            "downrange_distance": null,
+            "location": {
+              "id": 18,
+              "name": "Pacific Ocean",
+              "abbrev": "PAC",
+              "description": "Pacific Ocean",
+              "location": null,
+              "successful_landings": 53
+            },
+            "type": {
+              "id": 4,
+              "name": "Parachute Landing",
+              "abbrev": "PCL",
+              "description": "Unpowered landing using parachute(s)."
+            }
+          },
+          "docking_events": []
+        }
+      },
+      "mission": {
+        "id": 6043,
+        "name": "Crew-13",
+        "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
+        "launch_designator": null,
+        "type": "Human Exploration",
+        "orbit": {
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
+        },
+        "agencies": [
+          {
+            "id": 16,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
+            "name": "Canadian Space Agency",
+            "featured": false,
+            "type": "Government",
+            "country_code": "CAN",
+            "abbrev": "CSA",
+            "description": "The Canadian Space Agency was established by the Canadian Space Agency Act which received Royal Assent on May 10, 1990. \r\n\r\nThe Canadian space program is administered by the Canadian Space Agency. Canada has contributed technology, expertise and personnel to the world space effort, especially in collaboration with ESA and NASA. In addition to its astronauts and satellites, some of the most notable Canadian technological contributions to space exploration include the Canadarm on the Space Shuttle and Canadarm2 on the International Space Station.",
+            "administrator": "President: Lisa Campbell",
+            "founding_year": "1990",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://asc-csa.gc.ca/eng/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Canadian_Space_Agency",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/canadian_space__image_20260402074720.png",
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/canadian_space__image_20260402074642.jpg"
+          },
+          {
+            "id": 44,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+            "name": "National Aeronautics and Space Administration",
+            "featured": true,
+            "type": "Government",
+            "country_code": "USA",
+            "abbrev": "NASA",
+            "description": "The National Aeronautics and Space Administration is an independent agency of the executive branch of the United States federal government responsible for the civilian space program, as well as aeronautics and aerospace research. NASA have many launch facilities but most are inactive. The most commonly used pad will be LC-39B at Kennedy Space Center in Florida.",
+            "administrator": "Administrator: Jared Isaacman",
+            "founding_year": "1958",
+            "launchers": "Space Shuttle | SLS",
+            "spacecraft": "Orion",
+            "launch_library_url": null,
+            "total_launch_count": 142,
+            "consecutive_successful_launches": 12,
+            "successful_launches": 122,
+            "failed_launches": 20,
+            "pending_launches": 5,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.nasa.gov",
+            "wiki_url": "https://en.wikipedia.org/wiki/National_Aeronautics_and_Space_Administration",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_logo_20190207032448.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_image_20190207032448.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/national2520aeronautics2520and2520space2520administration_nation_20230803040809.jpg"
+          },
+          {
+            "id": 63,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+            "name": "Russian Federal Space Agency (ROSCOSMOS)",
+            "featured": true,
+            "type": "Government",
+            "country_code": "RUS",
+            "abbrev": "RFSA",
+            "description": "The Roscosmos State Corporation for Space Activities, commonly known as Roscosmos, is the governmental body responsible for the space science program of the Russian Federation and general aerospace research. Soyuz has many launch locations the Russian sites are Baikonur, Plesetsk and Vostochny however Ariane also purchases the vehicle and launches it from French Guiana.",
+            "administrator": "Administrator: Yuri Borisov",
+            "founding_year": "1992",
+            "launchers": "Soyuz",
+            "spacecraft": "Soyuz",
+            "launch_library_url": null,
+            "total_launch_count": 344,
+            "consecutive_successful_launches": 68,
+            "successful_launches": 333,
+            "failed_launches": 11,
+            "pending_launches": 4,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://en.roscosmos.ru/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Russian_Federal_Space_Agency",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_logo_20190207032459.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_image_20190207032459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/russian2520federal2520space2520agency25202528roscosmos2529_nation_20230531052758.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 80,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/80/",
+        "agency_id": 121,
+        "name": "Space Launch Complex 40",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Cape_Canaveral_Air_Force_Station_Space_Launch_Complex_40",
+        "map_url": "https://www.google.com/maps?q=28.56194122,-80.57735736",
+        "latitude": "28.56194122",
+        "longitude": "-80.57735736",
+        "location": {
+          "id": 12,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+          "name": "Cape Canaveral SFS, FL, USA",
+          "country_code": "USA",
+          "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+          "timezone_name": "America/New_York",
+          "total_launch_count": 1129,
+          "total_landing_count": 79
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_80_20200803143323.jpg",
+        "total_launch_count": 401,
+        "orbital_launch_attempt_count": 401
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
+      "infographic": null,
+      "program": [
+        {
+          "id": 5,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+          "name": "Commercial Crew Program",
+          "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+          "agencies": [
+            {
+              "id": 80,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+              "name": "Boeing",
+              "type": "Commercial"
+            },
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 121,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+              "name": "SpaceX",
+              "type": "Commercial"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+          "start_date": "2011-04-18T00:00:00Z",
+          "end_date": null,
+          "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        },
+        {
+          "id": 17,
+          "url": "https://ll.thespacedevs.com/2.2.0/program/17/",
+          "name": "International Space Station",
+          "description": "The International Space Station programme is tied together by a complex set of legal, political and financial agreements between the sixteen nations involved in the project, governing ownership of the various components, rights to crewing and utilization, and responsibilities for crew rotation and resupply of the International Space Station. It was conceived in 1984 by President Ronald Reagan, during the Space Station Freedom project as it was originally called.",
+          "agencies": [
+            {
+              "id": 16,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/16/",
+              "name": "Canadian Space Agency",
+              "type": "Government"
+            },
+            {
+              "id": 27,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/27/",
+              "name": "European Space Agency",
+              "type": "Multinational"
+            },
+            {
+              "id": 37,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/37/",
+              "name": "Japan Aerospace Exploration Agency",
+              "type": "Government"
+            },
+            {
+              "id": 44,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+              "name": "National Aeronautics and Space Administration",
+              "type": "Government"
+            },
+            {
+              "id": 63,
+              "url": "https://ll.thespacedevs.com/2.2.0/agencies/63/",
+              "name": "Russian Federal Space Agency (ROSCOSMOS)",
+              "type": "Government"
+            }
+          ],
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/international2_program_20201129184745.png",
+          "start_date": "1998-11-20T06:40:00Z",
+          "end_date": null,
+          "info_url": "https://www.nasa.gov/mission_pages/station/main/index.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/International_Space_Station_programme",
+          "mission_patches": [],
+          "type": {
+            "id": 2,
+            "name": "Human Spaceflight"
+          }
+        }
+      ],
+      "orbital_launch_attempt_count": 7417,
+      "location_launch_attempt_count": 1133,
+      "pad_launch_attempt_count": 404,
+      "agency_launch_attempt_count": 738,
+      "orbital_launch_attempt_count_year": 244,
+      "location_launch_attempt_count_year": 57,
+      "pad_launch_attempt_count_year": 50,
+      "agency_launch_attempt_count_year": 119,
+      "pad_turnaround": "P47DT5H11M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -8767,15 +8876,15 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7416,
+      "orbital_launch_attempt_count": 7417,
       "location_launch_attempt_count": 1133,
       "pad_launch_attempt_count": 404,
       "agency_launch_attempt_count": 738,
-      "orbital_launch_attempt_count_year": 243,
+      "orbital_launch_attempt_count_year": 244,
       "location_launch_attempt_count_year": 57,
       "pad_launch_attempt_count_year": 50,
       "agency_launch_attempt_count_year": 119,
-      "pad_turnaround": "P31D",
+      "pad_turnaround": "P47DT5H11M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -9100,11 +9209,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7416,
+      "orbital_launch_attempt_count": 7417,
       "location_launch_attempt_count": 917,
       "pad_launch_attempt_count": 301,
       "agency_launch_attempt_count": 738,
-      "orbital_launch_attempt_count_year": 243,
+      "orbital_launch_attempt_count_year": 244,
       "location_launch_attempt_count_year": 65,
       "pad_launch_attempt_count_year": 63,
       "agency_launch_attempt_count_year": 119,
@@ -9437,11 +9546,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7416,
+      "orbital_launch_attempt_count": 7417,
       "location_launch_attempt_count": 283,
       "pad_launch_attempt_count": 224,
       "agency_launch_attempt_count": 738,
-      "orbital_launch_attempt_count_year": 243,
+      "orbital_launch_attempt_count_year": 244,
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 119,
@@ -9509,11 +9618,11 @@
         "launchers": "Soyuz",
         "spacecraft": "Soyuz",
         "launch_library_url": null,
-        "total_launch_count": 343,
-        "consecutive_successful_launches": 67,
-        "successful_launches": 332,
+        "total_launch_count": 344,
+        "consecutive_successful_launches": 68,
+        "successful_launches": 333,
         "failed_launches": 11,
-        "pending_launches": 5,
+        "pending_launches": 4,
         "consecutive_successful_landings": 0,
         "successful_landings": 0,
         "failed_landings": 0,
@@ -9582,11 +9691,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
           "info_url": null,
           "wiki_url": "http://en.wikipedia.org/wiki/Soyuz-2_(rocket)",
-          "total_launch_count": 24,
-          "consecutive_successful_launches": 24,
-          "successful_launches": 24,
+          "total_launch_count": 25,
+          "consecutive_successful_launches": 25,
+          "successful_launches": 25,
           "failed_launches": 0,
-          "pending_launches": 1,
+          "pending_launches": 0,
           "attempted_landings": 0,
           "successful_landings": 0,
           "failed_landings": 0,
@@ -9621,11 +9730,11 @@
             "launchers": "Soyuz",
             "spacecraft": "Soyuz",
             "launch_library_url": null,
-            "total_launch_count": 343,
-            "consecutive_successful_launches": 67,
-            "successful_launches": 332,
+            "total_launch_count": 344,
+            "consecutive_successful_launches": 68,
+            "successful_launches": 333,
             "failed_launches": 11,
-            "pending_launches": 5,
+            "pending_launches": 4,
             "consecutive_successful_landings": 0,
             "successful_landings": 0,
             "failed_landings": 0,
@@ -9659,13 +9768,13 @@
           "description": "The Baikonur Cosmodrome is a spaceport operated by Russia within Kazakhstan. Located in the Kazakh city of Baikonur, it is the largest operational space launch facility in terms of area. All Russian crewed spaceflights are launched from Baikonur.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_15_20200803142517.jpg",
           "timezone_name": "Asia/Qyzylorda",
-          "total_launch_count": 1564,
+          "total_launch_count": 1565,
           "total_landing_count": 0
         },
         "country_code": "KAZ",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_20_20200803143516.jpg",
-        "total_launch_count": 429,
-        "orbital_launch_attempt_count": 429
+        "total_launch_count": 430,
+        "orbital_launch_attempt_count": 430
       },
       "infoURLs": [],
       "vidURLs": [],
@@ -18065,205 +18174,6 @@
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 8,
       "pad_turnaround": "P31D",
-      "mission_patches": [],
-      "type": "detailed"
-    },
-    {
-      "id": "3ac1bd74-bf9a-4afe-ae00-3e1d180142dd",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/3ac1bd74-bf9a-4afe-ae00-3e1d180142dd/",
-      "slug": "astra-rocket-4-maiden-flight",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Astra Rocket 4 | Maiden Flight",
-      "status": {
-        "id": 2,
-        "name": "To Be Determined",
-        "abbrev": "TBD",
-        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
-      },
-      "last_updated": "2026-07-17T14:36:24Z",
-      "updates": [
-        {
-          "id": 12299,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/arnaud2520muller_profile_20230607144351.jpg",
-          "comment": "Adding launch NET mid-2026",
-          "info_url": "https://spacenews.com/astra-plans-mid-2026-first-launch-of-rocket-4/",
-          "created_by": "Nosu",
-          "created_on": "2025-09-18T17:07:00Z"
-        }
-      ],
-      "net": "2026-12-31T00:00:00Z",
-      "net_precision": {
-        "id": 14,
-        "name": "Year",
-        "abbrev": "Y",
-        "description": "The T-0 is expected in the given year."
-      },
-      "window_end": "2026-12-31T00:00:00Z",
-      "window_start": "2026-12-31T00:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 285,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/285/",
-        "name": "Astra Space",
-        "featured": false,
-        "type": "Commercial",
-        "country_code": "USA",
-        "abbrev": "AS",
-        "description": "Astra Space is a launch vehicle company based in San Francisco, California, that develops pump-fed, liquid bipropellant propulsion engines for DARPA and NASA as well as their Astra Rocket launch vehicle.",
-        "administrator": "CEO: Chris Kemp",
-        "founding_year": "2005",
-        "launchers": "Rocket 3.3",
-        "spacecraft": "",
-        "launch_library_url": null,
-        "total_launch_count": 7,
-        "consecutive_successful_launches": 0,
-        "successful_launches": 2,
-        "failed_launches": 5,
-        "pending_launches": 1,
-        "consecutive_successful_landings": 0,
-        "successful_landings": 0,
-        "failed_landings": 0,
-        "attempted_landings": 0,
-        "info_url": "https://astra.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/Astra_Space",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra2520space_logo_20210828205410.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra2520space_image_20200216210038.jpg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra_space_soc_image_20250918170503.jpg"
-      },
-      "rocket": {
-        "id": 8720,
-        "configuration": {
-          "id": 526,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/526/",
-          "name": "Astra Rocket 4",
-          "active": true,
-          "reusable": false,
-          "description": "Astra Rocket 4 is the fourth version and second orbital version of Astra Space's small satellite launch vehicle. It is designed to carry 750kg in LEO.",
-          "family": "Astra Rocket",
-          "full_name": "Astra Rocket 4",
-          "manufacturer": {
-            "id": 285,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/285/",
-            "name": "Astra Space",
-            "featured": false,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "AS",
-            "description": "Astra Space is a launch vehicle company based in San Francisco, California, that develops pump-fed, liquid bipropellant propulsion engines for DARPA and NASA as well as their Astra Rocket launch vehicle.",
-            "administrator": "CEO: Chris Kemp",
-            "founding_year": "2005",
-            "launchers": "Rocket 3.3",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 7,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 2,
-            "failed_launches": 5,
-            "pending_launches": 1,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://astra.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/Astra_Space",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra2520space_logo_20210828205410.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra2520space_image_20200216210038.jpg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra_space_soc_image_20250918170503.jpg"
-          },
-          "program": [],
-          "variant": "4",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 2,
-          "length": 18.9,
-          "diameter": 1.8,
-          "maiden_flight": null,
-          "launch_cost": "5000000",
-          "launch_mass": 30,
-          "leo_capacity": 750,
-          "gto_capacity": null,
-          "to_thrust": 310,
-          "apogee": null,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra_rocket_4_image_20250918165934.jpg",
-          "info_url": "https://astra.com/launch/",
-          "wiki_url": "https://en.wikipedia.org/wiki/Astra_Rocket#Rocket_4",
-          "total_launch_count": 0,
-          "consecutive_successful_launches": 0,
-          "successful_launches": 0,
-          "failed_launches": 0,
-          "pending_launches": 1,
-          "attempted_landings": 0,
-          "successful_landings": 0,
-          "failed_landings": 0,
-          "consecutive_successful_landings": 0
-        },
-        "launcher_stage": [],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7312,
-        "name": "Maiden Flight",
-        "description": "First flight of Astra Space's second generation small satellite launch vehicle.",
-        "launch_designator": null,
-        "type": "Test Flight",
-        "orbit": {
-          "id": 8,
-          "name": "Low Earth Orbit",
-          "abbrev": "LEO"
-        },
-        "agencies": [],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 30,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/30/",
-        "agency_id": null,
-        "name": "Launch Complex 48",
-        "description": null,
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Launch_Complex_48",
-        "map_url": "https://www.google.com/maps?q=28.5990626125553,-80.60428186",
-        "latitude": "28.5990626125553",
-        "longitude": "-80.60428186",
-        "location": {
-          "id": 27,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/27/",
-          "name": "Kennedy Space Center, FL, USA",
-          "country_code": "USA",
-          "description": "The John F. Kennedy Space Center, located on Merritt Island, Florida, is one of NASA's ten field centers. Since 1968, KSC has been NASA's primary launch center of American spaceflight, research, and technology. Launch operations for the Apollo, Skylab and Space Shuttle programs were carried out from Kennedy Space Center Launch Complex 39 and managed by KSC. Located on the east coast of Florida, KSC is adjacent to Cape Canaveral Space Force Station (CCSFS).",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_27_20200803142447.jpg",
-          "timezone_name": "America/New_York",
-          "total_launch_count": 282,
-          "total_landing_count": 0
-        },
-        "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_30_20200803143320.jpg",
-        "total_launch_count": 0,
-        "orbital_launch_attempt_count": 0
-      },
-      "infoURLs": [],
-      "vidURLs": [],
-      "webcast_live": false,
-      "timeline": [],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra_rocket_4_image_20250918165934.jpg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7530,
-      "location_launch_attempt_count": 286,
-      "pad_launch_attempt_count": 1,
-      "agency_launch_attempt_count": 8,
-      "orbital_launch_attempt_count_year": 357,
-      "location_launch_attempt_count_year": 7,
-      "pad_launch_attempt_count_year": 1,
-      "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -30712,6 +30622,221 @@
           }
         }
       ],
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 104,
+      "pad_launch_attempt_count": 23,
+      "agency_launch_attempt_count": 63,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 7,
+      "pad_launch_attempt_count_year": 7,
+      "agency_launch_attempt_count_year": 7,
+      "pad_turnaround": "P72DT4H18M57S",
+      "mission_patches": [],
+      "type": "detailed"
+    },
+    {
+      "id": "3a4dc969-d264-48a1-b113-bf69a798a5c4",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/3a4dc969-d264-48a1-b113-bf69a798a5c4/",
+      "slug": "h3-24-lunar-polar-exploration-mission-lupex",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "H3-24 | Lunar Polar Exploration Mission (LUPEX)",
+      "status": {
+        "id": 2,
+        "name": "To Be Determined",
+        "abbrev": "TBD",
+        "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+      },
+      "last_updated": "2024-12-10T14:10:53Z",
+      "updates": [
+        {
+          "id": 9468,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Reverted to NET 2026 per Japanese government documentation, awaiting clarification.",
+          "info_url": "https://www8.cao.go.jp/space/comittee/dai115/siryou2-3.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-12-10T14:10:00Z"
+        },
+        {
+          "id": 8926,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET 2028.",
+          "info_url": "https://x.com/aj_fi/status/1846950470524297310",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2024-10-18T01:42:00Z"
+        },
+        {
+          "id": 5887,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "NET late 2025.",
+          "info_url": "https://www8.cao.go.jp/space/comittee/dai108/siryou2_2.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2023-12-06T11:10:50Z"
+        }
+      ],
+      "net": "2026-12-31T00:00:00Z",
+      "net_precision": {
+        "id": 14,
+        "name": "Year",
+        "abbrev": "Y",
+        "description": "The T-0 is expected in the given year."
+      },
+      "window_end": "2026-12-31T00:00:00Z",
+      "window_start": "2026-12-31T00:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 98,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/98/",
+        "name": "Mitsubishi Heavy Industries",
+        "featured": false,
+        "type": "Commercial",
+        "country_code": "JPN",
+        "abbrev": "MHI",
+        "description": "Mitsubishi Heavy Industries, Ltd. is a Japanese multinational engineering, electrical equipment and electronics company headquartered in Tokyo, Japan. MHI is one of the core companies of the Mitsubishi Group.\r\n\r\nMHI's products include aerospace components, air conditioners, aircraft, automotive components, forklift trucks, hydraulic equipment, machine tools, missiles, power generation equipment, printing machines, ships and space launch vehicles. Through its defense-related activities, it is the world's 23rd-largest defense contractor measured by 2011 defense revenues and the largest based in Japan.",
+        "administrator": "President: Seiji Izumisawa",
+        "founding_year": "1884",
+        "launchers": "H-I, H-II, H-III",
+        "spacecraft": "Kounotori | HTV",
+        "launch_library_url": null,
+        "total_launch_count": 58,
+        "consecutive_successful_launches": 2,
+        "successful_launches": 56,
+        "failed_launches": 2,
+        "pending_launches": 8,
+        "consecutive_successful_landings": 0,
+        "successful_landings": 0,
+        "failed_landings": 0,
+        "attempted_landings": 0,
+        "info_url": "https://www.mhi.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/Mitsubishi_Heavy_Industries",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/mitsubishi2520heavy2520industries_logo_20200117065724.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/mitsubishi2520heavy2520industries_image_20200117065724.jpg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/mitsubishi2520heavy2520industries_nation_20240112111043.jpg"
+      },
+      "rocket": {
+        "id": 7770,
+        "configuration": {
+          "id": 204,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/204/",
+          "name": "H3-24",
+          "active": true,
+          "reusable": false,
+          "description": "The H3 Launch Vehicle is an expendable launch system in development in Japan.\r\nEach H3 booster configuration has a two-digit and a letter designation that indicates the features of that configuration. The first digit represents the number of LE-9 engines on the main stage, either \"2\" or \"3\". The second digit indicates the number of SRB-3 solid rocket boosters attached to the base of the rocket, and can be \"0\", \"2\" or \"4\". All layouts of solid boosters are symmetrical. The letter in the end shows the length of the payload fairing, either short \"S\" or long \"L\". For example, an H3-24L has two engines, four solid rocket boosters, and a long fairing, whereas an H3-30S has three engines, no solid rocket boosters, and a short fairing.",
+          "family": "H3",
+          "full_name": "H3-24",
+          "manufacturer": {
+            "id": 98,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/98/",
+            "name": "Mitsubishi Heavy Industries",
+            "featured": false,
+            "type": "Commercial",
+            "country_code": "JPN",
+            "abbrev": "MHI",
+            "description": "Mitsubishi Heavy Industries, Ltd. is a Japanese multinational engineering, electrical equipment and electronics company headquartered in Tokyo, Japan. MHI is one of the core companies of the Mitsubishi Group.\r\n\r\nMHI's products include aerospace components, air conditioners, aircraft, automotive components, forklift trucks, hydraulic equipment, machine tools, missiles, power generation equipment, printing machines, ships and space launch vehicles. Through its defense-related activities, it is the world's 23rd-largest defense contractor measured by 2011 defense revenues and the largest based in Japan.",
+            "administrator": "President: Seiji Izumisawa",
+            "founding_year": "1884",
+            "launchers": "H-I, H-II, H-III",
+            "spacecraft": "Kounotori | HTV",
+            "launch_library_url": null,
+            "total_launch_count": 58,
+            "consecutive_successful_launches": 2,
+            "successful_launches": 56,
+            "failed_launches": 2,
+            "pending_launches": 8,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.mhi.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/Mitsubishi_Heavy_Industries",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/mitsubishi2520heavy2520industries_logo_20200117065724.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/mitsubishi2520heavy2520industries_image_20200117065724.jpg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/mitsubishi2520heavy2520industries_nation_20240112111043.jpg"
+          },
+          "program": [],
+          "variant": "24",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 2,
+          "length": 63,
+          "diameter": 5.27,
+          "maiden_flight": "2025-10-26",
+          "launch_cost": "50000000",
+          "launch_mass": null,
+          "leo_capacity": null,
+          "gto_capacity": 7900,
+          "to_thrust": 12142,
+          "apogee": null,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
+          "info_url": "https://global.jaxa.jp/press/2015/07/20150702_h3.html",
+          "wiki_url": "https://en.wikipedia.org/wiki/H3_(rocket)",
+          "total_launch_count": 1,
+          "consecutive_successful_launches": 1,
+          "successful_launches": 1,
+          "failed_launches": 0,
+          "pending_launches": 5,
+          "attempted_landings": 0,
+          "successful_landings": 0,
+          "failed_landings": 0,
+          "consecutive_successful_landings": 0
+        },
+        "launcher_stage": [],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 6288,
+        "name": "Lunar Polar Exploration Mission (LUPEX)",
+        "description": "The Lunar Polar Exploration mission (LUPEX) is a robotic lunar mission jointly developed by the Indian Space Research Organisation (ISRO) and Japan Aerospace Exploration Agency (JAXA), deploying a lunar rover and lander to explore the south pole region of the Moon.\r\n\r\nJAXA will provide the under-development H3 launch vehicle and the rover, while ISRO would be responsible for the lander.",
+        "launch_designator": null,
+        "type": "Lunar Exploration",
+        "orbit": {
+          "id": 11,
+          "name": "Lunar Orbit",
+          "abbrev": "LO"
+        },
+        "agencies": [],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 209,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/209/",
+        "agency_id": 37,
+        "name": "Yoshinobu Launch Complex LP-2",
+        "description": "",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Yoshinobu_Launch_Complex",
+        "map_url": "https://www.google.com/maps?q=30.400938,130.97564",
+        "latitude": "30.400938",
+        "longitude": "130.97564",
+        "location": {
+          "id": 26,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/26/",
+          "name": "Tanegashima Space Center, Japan",
+          "country_code": "JPN",
+          "description": "The Tanegashima Space Center is the largest rocket-launch complex in Japan. It is located on the southeastern tip of Tanegashima, an island located south of Kyushu, an island and region and Japan. It was established in 1969 when the National Space Development Agency of Japan (NASDA) was formed, and is now run by JAXA. The activities that take place at TNSC include assembly, testing, launching, and tracking satellites, as well as rocket engine firing tests.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_26_20200803142507.jpg",
+          "timezone_name": "Asia/Tokyo",
+          "total_launch_count": 99,
+          "total_landing_count": 0
+        },
+        "country_code": "JPN",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_yoshinobu_launch_complex_lp-2_20230707124715.jpg",
+        "total_launch_count": 18,
+        "orbital_launch_attempt_count": 18
+      },
+      "infoURLs": [],
+      "vidURLs": [],
+      "webcast_live": false,
+      "timeline": [],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
+      "infographic": null,
+      "program": [],
       "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 104,
       "pad_launch_attempt_count": 23,
