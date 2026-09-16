@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T22:50:50.804Z",
+  "updatedAt": "2026-09-16T01:06:21.287Z",
   "launches": [
     {
       "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
@@ -1017,610 +1017,6 @@
       "type": "detailed"
     },
     {
-      "id": "17c71937-dd80-406f-bb47-0c9ee9a24276",
-      "url": "https://ll.thespacedevs.com/2.2.0/launch/17c71937-dd80-406f-bb47-0c9ee9a24276/",
-      "slug": "falcon-9-block-5-ussf-259",
-      "flightclub_url": null,
-      "r_spacex_api_id": null,
-      "name": "Falcon 9 Block 5 | USSF-259",
-      "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
-      },
-      "last_updated": "2026-09-15T21:31:56Z",
-      "updates": [
-        {
-          "id": 16120,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Now targeting Sep 16 at 02:18 UTC",
-          "info_url": "https://www.spacex.com/launches/ussf259",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-09-15T21:31:00Z"
-        },
-        {
-          "id": 16118,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Now targeting Sep 16 at 01:29 UTC",
-          "info_url": "https://www.spacex.com/launches/ussf259",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-09-15T16:34:00Z"
-        },
-        {
-          "id": 16087,
-          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
-          "comment": "Added launch.",
-          "info_url": "https://www.spacex.com/launches/ussf259",
-          "created_by": "Cosmic_Penguin",
-          "created_on": "2026-09-09T16:07:00Z"
-        }
-      ],
-      "net": "2026-09-16T02:18:38Z",
-      "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
-      },
-      "window_end": "2026-09-16T05:00:00Z",
-      "window_start": "2026-09-16T01:00:00Z",
-      "probability": null,
-      "weather_concerns": null,
-      "holdreason": "",
-      "failreason": "",
-      "hashtag": null,
-      "launch_service_provider": {
-        "id": 121,
-        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-        "name": "SpaceX",
-        "featured": true,
-        "type": "Commercial",
-        "country_code": "USA",
-        "abbrev": "SpX",
-        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-        "administrator": "CEO: Elon Musk",
-        "founding_year": "2002",
-        "launchers": "Falcon | Starship",
-        "spacecraft": "Dragon",
-        "launch_library_url": null,
-        "total_launch_count": 728,
-        "consecutive_successful_launches": 213,
-        "successful_launches": 713,
-        "failed_launches": 15,
-        "pending_launches": 126,
-        "consecutive_successful_landings": 21,
-        "successful_landings": 672,
-        "failed_landings": 29,
-        "attempted_landings": 700,
-        "info_url": "https://www.spacex.com/",
-        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
-      },
-      "rocket": {
-        "id": 9134,
-        "configuration": {
-          "id": 164,
-          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
-          "name": "Falcon 9",
-          "active": true,
-          "reusable": true,
-          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
-          "family": "Falcon",
-          "full_name": "Falcon 9 Block 5",
-          "manufacturer": {
-            "id": 121,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-            "name": "SpaceX",
-            "featured": true,
-            "type": "Commercial",
-            "country_code": "USA",
-            "abbrev": "SpX",
-            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
-            "administrator": "CEO: Elon Musk",
-            "founding_year": "2002",
-            "launchers": "Falcon | Starship",
-            "spacecraft": "Dragon",
-            "launch_library_url": null,
-            "total_launch_count": 728,
-            "consecutive_successful_launches": 213,
-            "successful_launches": 713,
-            "failed_launches": 15,
-            "pending_launches": 126,
-            "consecutive_successful_landings": 21,
-            "successful_landings": 672,
-            "failed_landings": 29,
-            "attempted_landings": 700,
-            "info_url": "https://www.spacex.com/",
-            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
-            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
-          },
-          "program": [
-            {
-              "id": 11,
-              "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
-              "name": "Commercial Resupply Services",
-              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
-              "agencies": [
-                {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                {
-                  "id": 257,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
-                  "name": "Northrop Grumman Space Systems",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 1020,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
-                  "name": "Sierra Nevada Corporation",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 121,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-                  "name": "SpaceX",
-                  "type": "Commercial"
-                }
-              ],
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
-              "start_date": "2008-12-23T00:00:00Z",
-              "end_date": null,
-              "info_url": null,
-              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
-              "mission_patches": [],
-              "type": {
-                "id": 2,
-                "name": "Human Spaceflight"
-              }
-            },
-            {
-              "id": 5,
-              "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
-              "name": "Commercial Crew Program",
-              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
-              "agencies": [
-                {
-                  "id": 80,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
-                  "name": "Boeing",
-                  "type": "Commercial"
-                },
-                {
-                  "id": 44,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
-                  "name": "National Aeronautics and Space Administration",
-                  "type": "Government"
-                },
-                {
-                  "id": 121,
-                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
-                  "name": "SpaceX",
-                  "type": "Commercial"
-                }
-              ],
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
-              "start_date": "2011-04-18T00:00:00Z",
-              "end_date": null,
-              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
-              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
-              "mission_patches": [],
-              "type": {
-                "id": 2,
-                "name": "Human Spaceflight"
-              }
-            }
-          ],
-          "variant": "Block 5",
-          "alias": "",
-          "min_stage": 2,
-          "max_stage": 2,
-          "length": 70,
-          "diameter": 3.65,
-          "maiden_flight": "2018-05-11",
-          "launch_cost": "52000000",
-          "launch_mass": 549,
-          "leo_capacity": 22800,
-          "gto_capacity": 8300,
-          "to_thrust": 7607,
-          "apogee": 200,
-          "vehicle_range": null,
-          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
-          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
-          "total_launch_count": 631,
-          "consecutive_successful_launches": 333,
-          "successful_launches": 630,
-          "failed_launches": 1,
-          "pending_launches": 108,
-          "attempted_landings": 621,
-          "successful_landings": 616,
-          "failed_landings": 5,
-          "consecutive_successful_landings": 316
-        },
-        "launcher_stage": [
-          {
-            "id": 991,
-            "type": "Core",
-            "reused": true,
-            "launcher_flight_number": 13,
-            "launcher": {
-              "id": 199,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/199/",
-              "details": "Falcon 9 booster.",
-              "flight_proven": true,
-              "serial_number": "B1097",
-              "status": "active",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1097_landing_a_image_20251219190818.jpg",
-              "successful_landings": 12,
-              "attempted_landings": 12,
-              "flights": 12,
-              "last_launch_date": "2026-08-19T04:01:07Z",
-              "first_launch_date": "2025-09-03T03:51:26Z"
-            },
-            "landing": {
-              "id": 1952,
-              "attempt": true,
-              "success": null,
-              "description": "The Falcon 9 first stage B1097 will land on ASDS OCISLY after its 13th flight.",
-              "downrange_distance": 574,
-              "location": {
-                "id": 1,
-                "name": "Of Course I Still Love You",
-                "abbrev": "OCISLY",
-                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
-                "location": null,
-                "successful_landings": 225
-              },
-              "type": {
-                "id": 1,
-                "name": "Autonomous Spaceport Drone Ship",
-                "abbrev": "ASDS",
-                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
-              }
-            },
-            "previous_flight_date": "2026-08-19T04:01:07Z",
-            "turn_around_time_days": 27,
-            "previous_flight": {
-              "id": "f6958a77-37bb-4559-a108-40ba0ff9e34a",
-              "name": "Falcon 9 Block 5 | Starlink Group 17-50"
-            }
-          }
-        ],
-        "spacecraft_stage": null
-      },
-      "mission": {
-        "id": 7733,
-        "name": "USSF-259",
-        "description": "USSF-259 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
-        "launch_designator": null,
-        "type": "Government/Top Secret",
-        "orbit": {
-          "id": 13,
-          "name": "Polar Orbit",
-          "abbrev": "PO"
-        },
-        "agencies": [
-          {
-            "id": 1041,
-            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1041/",
-            "name": "United States Space Force",
-            "featured": false,
-            "type": "Government",
-            "country_code": "USA",
-            "abbrev": "USSF",
-            "description": "The United States Space Force (USSF) is the space service branch of the U.S. Armed Forces, one of the eight U.S. uniformed services.",
-            "administrator": "Chief of Space Operations: Gen. Douglas Schiess",
-            "founding_year": "2019",
-            "launchers": "",
-            "spacecraft": "",
-            "launch_library_url": null,
-            "total_launch_count": 0,
-            "consecutive_successful_launches": 0,
-            "successful_launches": 0,
-            "failed_launches": 0,
-            "pending_launches": 0,
-            "consecutive_successful_landings": 0,
-            "successful_landings": 0,
-            "failed_landings": 0,
-            "attempted_landings": 0,
-            "info_url": "https://www.spaceforce.mil/",
-            "wiki_url": "https://en.wikipedia.org/wiki/United_States_Space_Force",
-            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520space2520force_logo_20221102113048.png",
-            "image_url": null,
-            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_states_s_image_20250916065613.jpg"
-          }
-        ],
-        "info_urls": [],
-        "vid_urls": []
-      },
-      "pad": {
-        "id": 16,
-        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/",
-        "agency_id": null,
-        "name": "Space Launch Complex 4E",
-        "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
-        "info_url": null,
-        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
-        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
-        "latitude": "34.632",
-        "longitude": "-120.611",
-        "location": {
-          "id": 11,
-          "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
-          "name": "Vandenberg SFB, CA, USA",
-          "country_code": "USA",
-          "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
-          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
-          "timezone_name": "America/Los_Angeles",
-          "total_launch_count": 912,
-          "total_landing_count": 35
-        },
-        "country_code": "USA",
-        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
-        "total_launch_count": 296,
-        "orbital_launch_attempt_count": 296
-      },
-      "infoURLs": [
-        {
-          "priority": 10,
-          "source": "spacex.com",
-          "title": "SpaceX",
-          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
-          "feature_image": null,
-          "url": "https://www.spacex.com/launches/ussf259",
-          "type": {
-            "id": 1,
-            "name": "Official Page"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          }
-        }
-      ],
-      "vidURLs": [
-        {
-          "priority": 8,
-          "source": "youtube.com",
-          "publisher": "SPACE AFFAIRS",
-          "title": "GO! - SpaceX - Falcon 9 - USSF-259 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
-          "description": "Launch Date: September 15, 2026 (PDT)\nLaunch Time:  7:18 p.m. PDT (September 16, 0218 UTC, 4:18 CEST) \nLaunch Window: Open until 10:00 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced \n\nMission: USSF-259\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1097 - Turnaround time 28 days)\nFlight for the Booster: 13\nPrevious Flights of the Booster: 12 - Sentinel-6B, Twilight, NROL-172, Transporter-17, and eight Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height ...",
-          "feature_image": "https://i.ytimg.com/vi/X0Rc1uf_6nw/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=X0Rc1uf_6nw",
-          "type": {
-            "id": 4,
-            "name": "Unofficial Re-stream"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          },
-          "start_time": "2026-09-16T02:06:00Z",
-          "end_time": null
-        },
-        {
-          "priority": 9,
-          "source": "youtube.com",
-          "publisher": "Spaceflight Now",
-          "title": "SpaceX Falcon 9 rocket launches from California on secretive U.S. Space Force mission",
-          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California carrying a classified payload for the U.S. Space Force. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Tuesday, Sept. 15, at 7:18 p.m. PDT (10:18 p.m. EDT / 0218 UTC).\n\nThe first-stage booster, serial number B1097, launching for a 13th time, will land on the drone ship 'Of Course I Still Love You' about 8.5 minutes into the flight.\n\nThe USSF-259 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/...",
-          "feature_image": "https://i.ytimg.com/vi/zKKHrz80iEQ/maxresdefault_live.jpg",
-          "url": "https://www.youtube.com/watch?v=zKKHrz80iEQ",
-          "type": {
-            "id": 3,
-            "name": "Unofficial Webcast"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          },
-          "start_time": "2026-09-16T01:48:00Z",
-          "end_time": null
-        },
-        {
-          "priority": 10,
-          "source": "x.com",
-          "publisher": "SpaceX",
-          "title": "USSF-259 Mission",
-          "description": "Livestream on X",
-          "feature_image": "https://pbs.twimg.com/media/HRyHXi3WoAAYJ6F.jpg",
-          "url": "https://x.com/i/broadcasts/1nGeLMWbkpaKX",
-          "type": {
-            "id": 1,
-            "name": "Official Webcast"
-          },
-          "language": {
-            "id": 1,
-            "name": "English",
-            "code": "en"
-          },
-          "start_time": "2026-09-16T02:06:00Z",
-          "end_time": "2026-09-16T03:48:00Z"
-        }
-      ],
-      "webcast_live": false,
-      "timeline": [
-        {
-          "type": {
-            "id": 1,
-            "abbrev": "GO for Prop Load",
-            "description": "Launch director verifies go for propellant load"
-          },
-          "relative_time": "-PT38M"
-        },
-        {
-          "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
-          },
-          "relative_time": "-PT35M"
-        },
-        {
-          "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
-          },
-          "relative_time": "-PT35M"
-        },
-        {
-          "type": {
-            "id": 4,
-            "abbrev": "Stage 2 LOX Load",
-            "description": "Start of liquid oxygen loading in the second stage"
-          },
-          "relative_time": "-PT16M"
-        },
-        {
-          "type": {
-            "id": 5,
-            "abbrev": "Engine Chill",
-            "description": "Start of engine chilling"
-          },
-          "relative_time": "-PT7M"
-        },
-        {
-          "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
-          },
-          "relative_time": "-PT1M"
-        },
-        {
-          "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
-          },
-          "relative_time": "-PT1M"
-        },
-        {
-          "type": {
-            "id": 8,
-            "abbrev": "GO for Launch",
-            "description": "Launch director verifies go for launch"
-          },
-          "relative_time": "-PT45S"
-        },
-        {
-          "type": {
-            "id": 9,
-            "abbrev": "Ignition",
-            "description": "Start of the engine ignition sequence"
-          },
-          "relative_time": "-PT3S"
-        },
-        {
-          "type": {
-            "id": 10,
-            "abbrev": "Liftoff",
-            "description": "First upwards movement of the rocket"
-          },
-          "relative_time": "P0D"
-        },
-        {
-          "type": {
-            "id": 11,
-            "abbrev": "Max-Q",
-            "description": "Maximum dynamic pressure"
-          },
-          "relative_time": "PT1M7S"
-        },
-        {
-          "type": {
-            "id": 12,
-            "abbrev": "MECO",
-            "description": "Cut-off of the main engine"
-          },
-          "relative_time": "PT2M26S"
-        },
-        {
-          "type": {
-            "id": 13,
-            "abbrev": "Stage 2 Separation",
-            "description": "Separation of the second stage from the first"
-          },
-          "relative_time": "PT2M30S"
-        },
-        {
-          "type": {
-            "id": 14,
-            "abbrev": "SES-1",
-            "description": "First start of the second engine"
-          },
-          "relative_time": "PT2M36S"
-        },
-        {
-          "type": {
-            "id": 15,
-            "abbrev": "Fairing Separation",
-            "description": "Separation of the payload fairing"
-          },
-          "relative_time": "PT2M57S"
-        },
-        {
-          "type": {
-            "id": 16,
-            "abbrev": "Entry Burn Startup",
-            "description": "Start of the atmospheric entry burn"
-          },
-          "relative_time": "PT6M3S"
-        },
-        {
-          "type": {
-            "id": 17,
-            "abbrev": "Entry Burn Shutdown",
-            "description": "End of the atmospheric entry burn"
-          },
-          "relative_time": "PT6M24S"
-        },
-        {
-          "type": {
-            "id": 18,
-            "abbrev": "Stage 1 Landing Burn",
-            "description": "Start of the first stage landing burn"
-          },
-          "relative_time": "PT7M58S"
-        },
-        {
-          "type": {
-            "id": 19,
-            "abbrev": "Stage 1 Landing",
-            "description": "Landing of the first stage"
-          },
-          "relative_time": "PT8M20S"
-        }
-      ],
-      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
-      "infographic": null,
-      "program": [],
-      "orbital_launch_attempt_count": 7393,
-      "location_launch_attempt_count": 913,
-      "pad_launch_attempt_count": 297,
-      "agency_launch_attempt_count": 729,
-      "orbital_launch_attempt_count_year": 220,
-      "location_launch_attempt_count_year": 61,
-      "pad_launch_attempt_count_year": 59,
-      "agency_launch_attempt_count_year": 110,
-      "pad_turnaround": "P5DT10H36M8S",
-      "mission_patches": [],
-      "type": "detailed"
-    },
-    {
       "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/d793ba47-faf5-4bab-a386-39a9ccc49c90/",
       "slug": "soyuz-21b-progress-ms-35-96p",
@@ -2183,6 +1579,618 @@
       "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 44,
       "pad_turnaround": "P31DT20H20M",
+      "mission_patches": [],
+      "type": "detailed"
+    },
+    {
+      "id": "17c71937-dd80-406f-bb47-0c9ee9a24276",
+      "url": "https://ll.thespacedevs.com/2.2.0/launch/17c71937-dd80-406f-bb47-0c9ee9a24276/",
+      "slug": "falcon-9-block-5-ussf-259",
+      "flightclub_url": null,
+      "r_spacex_api_id": null,
+      "name": "Falcon 9 Block 5 | USSF-259",
+      "status": {
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
+      },
+      "last_updated": "2026-09-16T01:02:58Z",
+      "updates": [
+        {
+          "id": 16123,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Scrubbed for the day.",
+          "info_url": "https://www.spacex.com/launches/ussf259",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-16T01:02:00Z"
+        },
+        {
+          "id": 16120,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Sep 16 at 02:18 UTC",
+          "info_url": "https://www.spacex.com/launches/ussf259",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-15T21:31:00Z"
+        },
+        {
+          "id": 16118,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Now targeting Sep 16 at 01:29 UTC",
+          "info_url": "https://www.spacex.com/launches/ussf259",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-15T16:34:00Z"
+        },
+        {
+          "id": 16087,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Added launch.",
+          "info_url": "https://www.spacex.com/launches/ussf259",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-09-09T16:07:00Z"
+        }
+      ],
+      "net": "2026-09-17T01:00:00Z",
+      "net_precision": {
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
+      },
+      "window_end": "2026-09-17T05:00:00Z",
+      "window_start": "2026-09-17T01:00:00Z",
+      "probability": null,
+      "weather_concerns": null,
+      "holdreason": "",
+      "failreason": "",
+      "hashtag": null,
+      "launch_service_provider": {
+        "id": 121,
+        "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+        "name": "SpaceX",
+        "featured": true,
+        "type": "Commercial",
+        "country_code": "USA",
+        "abbrev": "SpX",
+        "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+        "administrator": "CEO: Elon Musk",
+        "founding_year": "2002",
+        "launchers": "Falcon | Starship",
+        "spacecraft": "Dragon",
+        "launch_library_url": null,
+        "total_launch_count": 728,
+        "consecutive_successful_launches": 213,
+        "successful_launches": 713,
+        "failed_launches": 15,
+        "pending_launches": 126,
+        "consecutive_successful_landings": 21,
+        "successful_landings": 672,
+        "failed_landings": 29,
+        "attempted_landings": 700,
+        "info_url": "https://www.spacex.com/",
+        "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+        "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+      },
+      "rocket": {
+        "id": 9134,
+        "configuration": {
+          "id": 164,
+          "url": "https://ll.thespacedevs.com/2.2.0/config/launcher/164/",
+          "name": "Falcon 9",
+          "active": true,
+          "reusable": true,
+          "description": "Falcon 9 is a two-stage rocket designed and manufactured by SpaceX for the reliable and safe transport of satellites and the Dragon spacecraft into orbit. The Block 5 variant is the fifth major interval aimed at improving upon the ability for rapid reusability.",
+          "family": "Falcon",
+          "full_name": "Falcon 9 Block 5",
+          "manufacturer": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "featured": true,
+            "type": "Commercial",
+            "country_code": "USA",
+            "abbrev": "SpX",
+            "description": "Space Exploration Technologies Corp., known as SpaceX, is an American aerospace manufacturer and space transport services company headquartered in Hawthorne, California. It was founded in 2002 by entrepreneur Elon Musk with the goal of reducing space transportation costs and enabling the colonization of Mars. SpaceX operates from many pads, on the East Coast of the US they operate from SLC-40 at Cape Canaveral Space Force Station and historic LC-39A at Kennedy Space Center. They also operate from SLC-4E at Vandenberg Space Force Base, California, usually for polar launches. Another launch site is being developed at Boca Chica, Texas.",
+            "administrator": "CEO: Elon Musk",
+            "founding_year": "2002",
+            "launchers": "Falcon | Starship",
+            "spacecraft": "Dragon",
+            "launch_library_url": null,
+            "total_launch_count": 728,
+            "consecutive_successful_launches": 213,
+            "successful_launches": 713,
+            "failed_launches": 15,
+            "pending_launches": 126,
+            "consecutive_successful_landings": 21,
+            "successful_landings": 672,
+            "failed_landings": 29,
+            "attempted_landings": 700,
+            "info_url": "https://www.spacex.com/",
+            "wiki_url": "https://en.wikipedia.org/wiki/SpaceX",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_logo_20220826094919.png",
+            "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spacex_social_l_image_20260407054626.jpg"
+          },
+          "program": [
+            {
+              "id": 11,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/11/",
+              "name": "Commercial Resupply Services",
+              "description": "Commercial Resupply Services (CRS) are a series of flights awarded by NASA for the delivery of cargo and supplies to the International Space Station.The first CRS contracts were signed in 2008 and awarded $1.6 billion to SpaceX for twelve cargo Dragon and $1.9 billion to Orbital Sciences for eight Cygnus flights, covering deliveries to 2016. The Falcon 9 and Antares rockets were also developed under the CRS program to deliver cargo spacecraft to the ISS.",
+              "agencies": [
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 257,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/257/",
+                  "name": "Northrop Grumman Space Systems",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 1020,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/1020/",
+                  "name": "Sierra Nevada Corporation",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20201129212219.png",
+              "start_date": "2008-12-23T00:00:00Z",
+              "end_date": null,
+              "info_url": null,
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Resupply_Services#Commercial_Resupply_Services",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            },
+            {
+              "id": 5,
+              "url": "https://ll.thespacedevs.com/2.2.0/program/5/",
+              "name": "Commercial Crew Program",
+              "description": "The Commercial Crew Program (CCP) is a human spaceflight program operated by NASA, in association with American aerospace manufacturers Boeing and SpaceX. The program conducts rotations between the expeditions of the International Space Station program, transporting crews to and from the International Space Station (ISS) aboard Boeing Starliner and SpaceX Crew Dragon capsules, in the first crewed orbital spaceflights operated by private companies.",
+              "agencies": [
+                {
+                  "id": 80,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/80/",
+                  "name": "Boeing",
+                  "type": "Commercial"
+                },
+                {
+                  "id": 44,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/44/",
+                  "name": "National Aeronautics and Space Administration",
+                  "type": "Government"
+                },
+                {
+                  "id": 121,
+                  "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+                  "name": "SpaceX",
+                  "type": "Commercial"
+                }
+              ],
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/commercial2520_program_20200820201209.png",
+              "start_date": "2011-04-18T00:00:00Z",
+              "end_date": null,
+              "info_url": "https://www.nasa.gov/exploration/commercial/crew/index.html",
+              "wiki_url": "https://en.wikipedia.org/wiki/Commercial_Crew_Program",
+              "mission_patches": [],
+              "type": {
+                "id": 2,
+                "name": "Human Spaceflight"
+              }
+            }
+          ],
+          "variant": "Block 5",
+          "alias": "",
+          "min_stage": 2,
+          "max_stage": 2,
+          "length": 70,
+          "diameter": 3.65,
+          "maiden_flight": "2018-05-11",
+          "launch_cost": "52000000",
+          "launch_mass": 549,
+          "leo_capacity": 22800,
+          "gto_capacity": 8300,
+          "to_thrust": 7607,
+          "apogee": 200,
+          "vehicle_range": null,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+          "info_url": "https://www.spacex.com/vehicles/falcon-9/",
+          "wiki_url": "https://en.wikipedia.org/wiki/Falcon_9",
+          "total_launch_count": 631,
+          "consecutive_successful_launches": 333,
+          "successful_launches": 630,
+          "failed_launches": 1,
+          "pending_launches": 108,
+          "attempted_landings": 621,
+          "successful_landings": 616,
+          "failed_landings": 5,
+          "consecutive_successful_landings": 316
+        },
+        "launcher_stage": [
+          {
+            "id": 991,
+            "type": "Core",
+            "reused": true,
+            "launcher_flight_number": 13,
+            "launcher": {
+              "id": 199,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/199/",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1097",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1097_landing_a_image_20251219190818.jpg",
+              "successful_landings": 12,
+              "attempted_landings": 12,
+              "flights": 12,
+              "last_launch_date": "2026-08-19T04:01:07Z",
+              "first_launch_date": "2025-09-03T03:51:26Z"
+            },
+            "landing": {
+              "id": 1952,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon 9 first stage B1097 will land on ASDS OCISLY after its 13th flight.",
+              "downrange_distance": 574,
+              "location": {
+                "id": 1,
+                "name": "Of Course I Still Love You",
+                "abbrev": "OCISLY",
+                "description": "The second ASDS barge, Of Course I Still Love You (OCISLY) services launches in the Pacific Ocean and was the site of the first landing of a SpaceX Falcon 9 first stage during CRS-8, the launch of a Dragon spacecraft to the International Space Station.",
+                "location": null,
+                "successful_landings": 225
+              },
+              "type": {
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
+              }
+            },
+            "previous_flight_date": "2026-08-19T04:01:07Z",
+            "turn_around_time_days": 27,
+            "previous_flight": {
+              "id": "f6958a77-37bb-4559-a108-40ba0ff9e34a",
+              "name": "Falcon 9 Block 5 | Starlink Group 17-50"
+            }
+          }
+        ],
+        "spacecraft_stage": null
+      },
+      "mission": {
+        "id": 7733,
+        "name": "USSF-259",
+        "description": "USSF-259 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
+        "launch_designator": null,
+        "type": "Government/Top Secret",
+        "orbit": {
+          "id": 13,
+          "name": "Polar Orbit",
+          "abbrev": "PO"
+        },
+        "agencies": [
+          {
+            "id": 1041,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/1041/",
+            "name": "United States Space Force",
+            "featured": false,
+            "type": "Government",
+            "country_code": "USA",
+            "abbrev": "USSF",
+            "description": "The United States Space Force (USSF) is the space service branch of the U.S. Armed Forces, one of the eight U.S. uniformed services.",
+            "administrator": "Chief of Space Operations: Gen. Douglas Schiess",
+            "founding_year": "2019",
+            "launchers": "",
+            "spacecraft": "",
+            "launch_library_url": null,
+            "total_launch_count": 0,
+            "consecutive_successful_launches": 0,
+            "successful_launches": 0,
+            "failed_launches": 0,
+            "pending_launches": 0,
+            "consecutive_successful_landings": 0,
+            "successful_landings": 0,
+            "failed_landings": 0,
+            "attempted_landings": 0,
+            "info_url": "https://www.spaceforce.mil/",
+            "wiki_url": "https://en.wikipedia.org/wiki/United_States_Space_Force",
+            "logo_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united2520states2520space2520force_logo_20221102113048.png",
+            "image_url": null,
+            "nation_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/united_states_s_image_20250916065613.jpg"
+          }
+        ],
+        "info_urls": [],
+        "vid_urls": []
+      },
+      "pad": {
+        "id": 16,
+        "url": "https://ll.thespacedevs.com/2.2.0/pad/16/",
+        "agency_id": null,
+        "name": "Space Launch Complex 4E",
+        "description": "Space Launch Complex 4 East (SLC-4E) is a launch site at Vandenberg Space Force Base, California, U.S.\r\n\r\nThe pad was previously used by Atlas and Titan rockets between 1963 and 2005. The pad was built for use by Atlas-Agena rockets, but was later rebuilt to handle Titan rockets.",
+        "info_url": null,
+        "wiki_url": "https://en.wikipedia.org/wiki/Vandenberg_Space_Launch_Complex_4#SLC-4E",
+        "map_url": "https://www.google.com/maps?q=34.632,-120.611",
+        "latitude": "34.632",
+        "longitude": "-120.611",
+        "location": {
+          "id": 11,
+          "url": "https://ll.thespacedevs.com/2.2.0/location/11/",
+          "name": "Vandenberg SFB, CA, USA",
+          "country_code": "USA",
+          "description": "Vandenberg Space Force Base is a United States Space Force Base in Santa Barbara County, California. Established in 1941, Vandenberg Space Force Base is a space launch base, launching spacecraft from the Western Range, and also performs missile testing. The United States Space Force's Space Launch Delta 30 serves as the host delta for the base, equivalent to an Air Force air base wing. In addition to its military space launch mission, Vandenberg Space Force Base also hosts space launches for civil and commercial space entities, such as NASA and SpaceX.",
+          "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_11_20200803142416.jpg",
+          "timezone_name": "America/Los_Angeles",
+          "total_launch_count": 912,
+          "total_landing_count": 35
+        },
+        "country_code": "USA",
+        "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_16_20200803143532.jpg",
+        "total_launch_count": 296,
+        "orbital_launch_attempt_count": 296
+      },
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/ussf259",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 8,
+          "source": "youtube.com",
+          "publisher": "SPACE AFFAIRS",
+          "title": "GO! - SpaceX - Falcon 9 - USSF-259 - SLC-4E - Vandenberg SFB, CA - Space Affairs Live",
+          "description": "Launch Date: September 15, 2026 (PDT)\nLaunch Time:  7:18 p.m. PDT (September 16, 0218 UTC, 4:18 CEST) \nLaunch Window: Open until 10:00 p.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Low Earth Orbit (LEO)\nLaunch Inclination: South\nLaunch Status: Scheduled and announced \n\nMission: USSF-259\nLaunch Provider: SpaceX\nLauncher System: Falcon 9 (Booster 1097 - Turnaround time 28 days)\nFlight for the Booster: 13\nPrevious Flights of the Booster: 12 - Sentinel-6B, Twilight, NROL-172, Transporter-17, and eight Starlink missions\nDroneship: Of Course I Still Love You (OCISLY)\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nFairing: Diameter 5,2 meters / Height ...",
+          "feature_image": "https://i.ytimg.com/vi/X0Rc1uf_6nw/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=X0Rc1uf_6nw",
+          "type": {
+            "id": 4,
+            "name": "Unofficial Re-stream"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-16T02:06:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 9,
+          "source": "youtube.com",
+          "publisher": "Spaceflight Now",
+          "title": "SpaceX Falcon 9 rocket launches from California on secretive U.S. Space Force mission",
+          "description": "Watch live coverage as SpaceX launches a Falcon 9 rocket from California carrying a classified payload for the U.S. Space Force. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is scheduled for Tuesday, Sept. 15, at 7:18 p.m. PDT (10:18 p.m. EDT / 0218 UTC).\n\nThe first-stage booster, serial number B1097, launching for a 13th time, will land on the drone ship 'Of Course I Still Love You' about 8.5 minutes into the flight.\n\nThe USSF-259 mission will take a southerly trajectory upon departure from Vandenberg. \n\nLive commentary from Spaceflight Now's Will Robinson-Smith will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:\nhttps://www.youtube.com/...",
+          "feature_image": "https://i.ytimg.com/vi/zKKHrz80iEQ/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=zKKHrz80iEQ",
+          "type": {
+            "id": 3,
+            "name": "Unofficial Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-16T01:48:00Z",
+          "end_time": null
+        },
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "USSF-259 Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/HRyHXi3WoAAYJ6F.jpg",
+          "url": "https://x.com/i/broadcasts/1nGeLMWbkpaKX",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-17T00:50:00Z",
+          "end_time": "2026-09-17T03:51:00Z"
+        }
+      ],
+      "webcast_live": false,
+      "timeline": [
+        {
+          "type": {
+            "id": 1,
+            "abbrev": "GO for Prop Load",
+            "description": "Launch director verifies go for propellant load"
+          },
+          "relative_time": "-PT38M"
+        },
+        {
+          "type": {
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
+          },
+          "relative_time": "-PT35M"
+        },
+        {
+          "type": {
+            "id": 4,
+            "abbrev": "Stage 2 LOX Load",
+            "description": "Start of liquid oxygen loading in the second stage"
+          },
+          "relative_time": "-PT16M"
+        },
+        {
+          "type": {
+            "id": 5,
+            "abbrev": "Engine Chill",
+            "description": "Start of engine chilling"
+          },
+          "relative_time": "-PT7M"
+        },
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
+          },
+          "relative_time": "-PT1M"
+        },
+        {
+          "type": {
+            "id": 8,
+            "abbrev": "GO for Launch",
+            "description": "Launch director verifies go for launch"
+          },
+          "relative_time": "-PT45S"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT3S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M7S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M26S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M30S"
+        },
+        {
+          "type": {
+            "id": 14,
+            "abbrev": "SES-1",
+            "description": "First start of the second engine"
+          },
+          "relative_time": "PT2M36S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT2M57S"
+        },
+        {
+          "type": {
+            "id": 16,
+            "abbrev": "Entry Burn Startup",
+            "description": "Start of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M3S"
+        },
+        {
+          "type": {
+            "id": 17,
+            "abbrev": "Entry Burn Shutdown",
+            "description": "End of the atmospheric entry burn"
+          },
+          "relative_time": "PT6M24S"
+        },
+        {
+          "type": {
+            "id": 18,
+            "abbrev": "Stage 1 Landing Burn",
+            "description": "Start of the first stage landing burn"
+          },
+          "relative_time": "PT7M58S"
+        },
+        {
+          "type": {
+            "id": 19,
+            "abbrev": "Stage 1 Landing",
+            "description": "Landing of the first stage"
+          },
+          "relative_time": "PT8M20S"
+        }
+      ],
+      "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
+      "infographic": null,
+      "program": [],
+      "orbital_launch_attempt_count": 7393,
+      "location_launch_attempt_count": 913,
+      "pad_launch_attempt_count": 297,
+      "agency_launch_attempt_count": 729,
+      "orbital_launch_attempt_count_year": 220,
+      "location_launch_attempt_count_year": 61,
+      "pad_launch_attempt_count_year": 59,
+      "agency_launch_attempt_count_year": 110,
+      "pad_turnaround": "P5DT10H36M8S",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -4276,11 +4284,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7399,
+      "orbital_launch_attempt_count": 7400,
       "location_launch_attempt_count": 23,
       "pad_launch_attempt_count": 3,
       "agency_launch_attempt_count": 731,
-      "orbital_launch_attempt_count_year": 226,
+      "orbital_launch_attempt_count_year": 227,
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 112,
@@ -4642,11 +4650,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7400,
+      "orbital_launch_attempt_count": 7401,
       "location_launch_attempt_count": 915,
       "pad_launch_attempt_count": 299,
       "agency_launch_attempt_count": 732,
-      "orbital_launch_attempt_count_year": 227,
+      "orbital_launch_attempt_count_year": 228,
       "location_launch_attempt_count_year": 63,
       "pad_launch_attempt_count_year": 61,
       "agency_launch_attempt_count_year": 113,
@@ -4857,15 +4865,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7407,
-      "location_launch_attempt_count": 85,
-      "pad_launch_attempt_count": 3,
-      "agency_launch_attempt_count": 98,
-      "orbital_launch_attempt_count_year": 234,
-      "location_launch_attempt_count_year": 16,
-      "pad_launch_attempt_count_year": 3,
-      "agency_launch_attempt_count_year": 19,
-      "pad_turnaround": "P0D",
+      "orbital_launch_attempt_count": 7409,
+      "location_launch_attempt_count": 86,
+      "pad_launch_attempt_count": 4,
+      "agency_launch_attempt_count": 99,
+      "orbital_launch_attempt_count_year": 236,
+      "location_launch_attempt_count_year": 17,
+      "pad_launch_attempt_count_year": 4,
+      "agency_launch_attempt_count_year": 20,
+      "pad_turnaround": "P10DT20H45M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -5793,14 +5801,14 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7407,
+      "orbital_launch_attempt_count": 7409,
       "location_launch_attempt_count": 1131,
       "pad_launch_attempt_count": 402,
-      "agency_launch_attempt_count": 733,
-      "orbital_launch_attempt_count_year": 234,
+      "agency_launch_attempt_count": 734,
+      "orbital_launch_attempt_count_year": 236,
       "location_launch_attempt_count_year": 55,
       "pad_launch_attempt_count_year": 48,
-      "agency_launch_attempt_count_year": 114,
+      "agency_launch_attempt_count_year": 115,
       "pad_turnaround": "P16DT5H11M",
       "mission_patches": [],
       "type": "detailed"
@@ -6627,11 +6635,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7407,
+      "orbital_launch_attempt_count": 7409,
       "location_launch_attempt_count": 74,
       "pad_launch_attempt_count": 14,
       "agency_launch_attempt_count": 617,
-      "orbital_launch_attempt_count_year": 234,
+      "orbital_launch_attempt_count_year": 236,
       "location_launch_attempt_count_year": 19,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 47,
@@ -7150,15 +7158,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7407,
-      "location_launch_attempt_count": 85,
-      "pad_launch_attempt_count": 3,
-      "agency_launch_attempt_count": 98,
-      "orbital_launch_attempt_count_year": 234,
-      "location_launch_attempt_count_year": 16,
-      "pad_launch_attempt_count_year": 3,
-      "agency_launch_attempt_count_year": 19,
-      "pad_turnaround": "P0D",
+      "orbital_launch_attempt_count": 7409,
+      "location_launch_attempt_count": 86,
+      "pad_launch_attempt_count": 4,
+      "agency_launch_attempt_count": 99,
+      "orbital_launch_attempt_count_year": 236,
+      "location_launch_attempt_count_year": 17,
+      "pad_launch_attempt_count_year": 4,
+      "agency_launch_attempt_count_year": 20,
+      "pad_turnaround": "P10DT20H45M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -7357,15 +7365,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7407,
-      "location_launch_attempt_count": 85,
-      "pad_launch_attempt_count": 3,
-      "agency_launch_attempt_count": 98,
-      "orbital_launch_attempt_count_year": 234,
-      "location_launch_attempt_count_year": 16,
-      "pad_launch_attempt_count_year": 3,
-      "agency_launch_attempt_count_year": 19,
-      "pad_turnaround": "P0D",
+      "orbital_launch_attempt_count": 7409,
+      "location_launch_attempt_count": 86,
+      "pad_launch_attempt_count": 4,
+      "agency_launch_attempt_count": 99,
+      "orbital_launch_attempt_count_year": 236,
+      "location_launch_attempt_count_year": 17,
+      "pad_launch_attempt_count_year": 4,
+      "agency_launch_attempt_count_year": 20,
+      "pad_turnaround": "P10DT20H45M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -7903,11 +7911,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7408,
+      "orbital_launch_attempt_count": 7410,
       "location_launch_attempt_count": 337,
       "pad_launch_attempt_count": 10,
       "agency_launch_attempt_count": 329,
-      "orbital_launch_attempt_count_year": 235,
+      "orbital_launch_attempt_count_year": 237,
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 5,
@@ -8446,11 +8454,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7410,
+      "orbital_launch_attempt_count": 7412,
       "location_launch_attempt_count": 100,
       "pad_launch_attempt_count": 19,
       "agency_launch_attempt_count": 59,
-      "orbital_launch_attempt_count_year": 237,
+      "orbital_launch_attempt_count_year": 239,
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 3,
@@ -8809,14 +8817,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20251102082912.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7415,
+      "orbital_launch_attempt_count": 7416,
       "location_launch_attempt_count": 1133,
       "pad_launch_attempt_count": 404,
-      "agency_launch_attempt_count": 737,
-      "orbital_launch_attempt_count_year": 242,
+      "agency_launch_attempt_count": 738,
+      "orbital_launch_attempt_count_year": 243,
       "location_launch_attempt_count_year": 57,
       "pad_launch_attempt_count_year": 50,
-      "agency_launch_attempt_count_year": 118,
+      "agency_launch_attempt_count_year": 119,
       "pad_turnaround": "P31D",
       "mission_patches": [],
       "type": "detailed"
@@ -9701,14 +9709,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7415,
-      "location_launch_attempt_count": 916,
-      "pad_launch_attempt_count": 300,
-      "agency_launch_attempt_count": 737,
-      "orbital_launch_attempt_count_year": 242,
-      "location_launch_attempt_count_year": 64,
-      "pad_launch_attempt_count_year": 62,
-      "agency_launch_attempt_count_year": 118,
+      "orbital_launch_attempt_count": 7416,
+      "location_launch_attempt_count": 917,
+      "pad_launch_attempt_count": 301,
+      "agency_launch_attempt_count": 738,
+      "orbital_launch_attempt_count_year": 243,
+      "location_launch_attempt_count_year": 65,
+      "pad_launch_attempt_count_year": 63,
+      "agency_launch_attempt_count_year": 119,
       "pad_turnaround": "P31D",
       "mission_patches": [
         {
@@ -10038,14 +10046,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7415,
+      "orbital_launch_attempt_count": 7416,
       "location_launch_attempt_count": 283,
       "pad_launch_attempt_count": 224,
-      "agency_launch_attempt_count": 737,
-      "orbital_launch_attempt_count_year": 242,
+      "agency_launch_attempt_count": 738,
+      "orbital_launch_attempt_count_year": 243,
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 3,
-      "agency_launch_attempt_count_year": 118,
+      "agency_launch_attempt_count_year": 119,
       "pad_turnaround": "P61DT12H33M56S",
       "mission_patches": [],
       "type": "detailed"
@@ -10324,11 +10332,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7416,
+      "orbital_launch_attempt_count": 7417,
       "location_launch_attempt_count": 1566,
       "pad_launch_attempt_count": 431,
       "agency_launch_attempt_count": 345,
-      "orbital_launch_attempt_count_year": 243,
+      "orbital_launch_attempt_count_year": 244,
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 7,
@@ -10582,11 +10590,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_20240711132056.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7419,
+      "orbital_launch_attempt_count": 7420,
       "location_launch_attempt_count": 338,
       "pad_launch_attempt_count": 11,
       "agency_launch_attempt_count": 330,
-      "orbital_launch_attempt_count_year": 246,
+      "orbital_launch_attempt_count_year": 247,
       "location_launch_attempt_count_year": 8,
       "pad_launch_attempt_count_year": 6,
       "agency_launch_attempt_count_year": 6,
@@ -11253,11 +11261,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_20251224011159.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7419,
+      "orbital_launch_attempt_count": 7420,
       "location_launch_attempt_count": 5,
       "pad_launch_attempt_count": 3,
       "agency_launch_attempt_count": 3,
-      "orbital_launch_attempt_count_year": 246,
+      "orbital_launch_attempt_count_year": 247,
       "location_launch_attempt_count_year": 1,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -11503,15 +11511,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 93,
       "pad_launch_attempt_count": 11,
       "agency_launch_attempt_count": 109,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 30,
-      "pad_turnaround": "P61D",
+      "pad_turnaround": "P92D",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -12221,14 +12229,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -12529,14 +12537,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
-      "pad_launch_attempt_count": 319,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
-      "pad_launch_attempt_count_year": 81,
-      "agency_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 320,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
+      "pad_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P61D",
       "mission_patches": [],
       "type": "detailed"
@@ -13115,11 +13123,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 343,
       "pad_launch_attempt_count": 13,
       "agency_launch_attempt_count": 332,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 13,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 8,
@@ -13409,14 +13417,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -13712,14 +13720,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -14028,14 +14036,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
-      "pad_launch_attempt_count": 319,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
-      "pad_launch_attempt_count_year": 81,
-      "agency_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 320,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
+      "pad_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P61D",
       "mission_patches": [],
       "type": "detailed"
@@ -14960,14 +14968,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
-      "pad_launch_attempt_count": 319,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
-      "pad_launch_attempt_count_year": 81,
-      "agency_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 320,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
+      "pad_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P61D",
       "mission_patches": [],
       "type": "detailed"
@@ -15499,12 +15507,12 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_20240605174156.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
       "pad_launch_attempt_count": 102,
       "agency_launch_attempt_count": 10,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 4,
       "agency_launch_attempt_count_year": 4,
       "pad_turnaround": "P293DT23H10M",
@@ -16376,11 +16384,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 6,
       "pad_launch_attempt_count": 6,
       "agency_launch_attempt_count": 6,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 5,
       "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 5,
@@ -16891,14 +16899,14 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 24,
       "pad_launch_attempt_count": 4,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 4,
       "pad_launch_attempt_count_year": 4,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P99DT11H45M",
       "mission_patches": [
         {
@@ -18856,11 +18864,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/astra_rocket_4_image_20250918165934.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 286,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 8,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 7,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 1,
@@ -19295,11 +19303,11 @@
           }
         }
       ],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 139,
       "agency_launch_attempt_count": 196,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 19,
       "agency_launch_attempt_count_year": 26,
@@ -19494,15 +19502,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 93,
       "pad_launch_attempt_count": 11,
       "agency_launch_attempt_count": 109,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 30,
-      "pad_turnaround": "P61D",
+      "pad_turnaround": "P92D",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -19693,15 +19701,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 93,
       "pad_launch_attempt_count": 11,
       "agency_launch_attempt_count": 109,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 30,
-      "pad_turnaround": "P61D",
+      "pad_turnaround": "P92D",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -19892,15 +19900,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 93,
       "pad_launch_attempt_count": 11,
       "agency_launch_attempt_count": 109,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 30,
-      "pad_turnaround": "P61D",
+      "pad_turnaround": "P92D",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -20579,15 +20587,15 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 93,
       "pad_launch_attempt_count": 11,
       "agency_launch_attempt_count": 109,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 24,
       "pad_launch_attempt_count_year": 11,
       "agency_launch_attempt_count_year": 30,
-      "pad_turnaround": "P61D",
+      "pad_turnaround": "P92D",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -21121,14 +21129,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -21444,14 +21452,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -22141,14 +22149,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
-      "pad_launch_attempt_count": 319,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
-      "pad_launch_attempt_count_year": 81,
-      "agency_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 320,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
+      "pad_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P61D",
       "mission_patches": [],
       "type": "detailed"
@@ -23173,14 +23181,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
-      "pad_launch_attempt_count": 319,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
-      "pad_launch_attempt_count_year": 81,
-      "agency_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 320,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
+      "pad_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P61D",
       "mission_patches": [],
       "type": "detailed"
@@ -23861,14 +23869,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
-      "pad_launch_attempt_count": 319,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
-      "pad_launch_attempt_count_year": 81,
-      "agency_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 320,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
+      "pad_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P61D",
       "mission_patches": [],
       "type": "detailed"
@@ -24549,14 +24557,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
-      "pad_launch_attempt_count": 319,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
-      "pad_launch_attempt_count_year": 81,
-      "agency_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 320,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
+      "pad_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P61D",
       "mission_patches": [],
       "type": "detailed"
@@ -24893,14 +24901,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
-      "pad_launch_attempt_count": 319,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
-      "pad_launch_attempt_count_year": 81,
-      "agency_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 320,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
+      "pad_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P61D",
       "mission_patches": [],
       "type": "detailed"
@@ -25237,14 +25245,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
-      "pad_launch_attempt_count": 319,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
-      "pad_launch_attempt_count_year": 81,
-      "agency_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 320,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
+      "pad_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P61D",
       "mission_patches": [],
       "type": "detailed"
@@ -25581,14 +25589,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
-      "location_launch_attempt_count": 945,
-      "pad_launch_attempt_count": 319,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
-      "location_launch_attempt_count_year": 93,
-      "pad_launch_attempt_count_year": 81,
-      "agency_launch_attempt_count_year": 158,
+      "orbital_launch_attempt_count": 7530,
+      "location_launch_attempt_count": 946,
+      "pad_launch_attempt_count": 320,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
+      "location_launch_attempt_count_year": 94,
+      "pad_launch_attempt_count_year": 82,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P61D",
       "mission_patches": [],
       "type": "detailed"
@@ -25889,14 +25897,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -26821,14 +26829,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -27745,14 +27753,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -28361,14 +28369,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -28669,14 +28677,14 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 1170,
       "pad_launch_attempt_count": 18,
-      "agency_launch_attempt_count": 777,
-      "orbital_launch_attempt_count_year": 356,
+      "agency_launch_attempt_count": 778,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 94,
       "pad_launch_attempt_count_year": 18,
-      "agency_launch_attempt_count_year": 158,
+      "agency_launch_attempt_count_year": 159,
       "pad_turnaround": "P0D",
       "mission_patches": [],
       "type": "detailed"
@@ -29909,11 +29917,11 @@
       "image": null,
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 30,
       "pad_launch_attempt_count": 1,
       "agency_launch_attempt_count": 5,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 9,
       "pad_launch_attempt_count_year": 1,
       "agency_launch_attempt_count_year": 3,
@@ -30349,11 +30357,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520ii_image_20190825171642.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 114,
       "pad_launch_attempt_count": 38,
       "agency_launch_attempt_count": 109,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 12,
       "pad_launch_attempt_count_year": 6,
       "agency_launch_attempt_count_year": 11,
@@ -30594,11 +30602,11 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk252_image_20240101090337.jpg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7529,
+      "orbital_launch_attempt_count": 7530,
       "location_launch_attempt_count": 114,
       "pad_launch_attempt_count": 38,
       "agency_launch_attempt_count": 109,
-      "orbital_launch_attempt_count_year": 356,
+      "orbital_launch_attempt_count_year": 357,
       "location_launch_attempt_count_year": 12,
       "pad_launch_attempt_count_year": 6,
       "agency_launch_attempt_count_year": 11,
