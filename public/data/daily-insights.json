@@ -1,84 +1,48 @@
 {
-  "generated_at": "2026-09-15T17:02:43.643Z",
+  "generated_at": "2026-09-19T15:54:54.864Z",
   "daily_summary": {
-    "headline": "Exciting Launches and Aurora Opportunities Await!",
+    "headline": "Routine Launches and Low Aurora Activity",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | USSF-259",
-        "description": "A classified mission for the United States Space Force, possibly deploying LEO satellites.",
-        "importance": 7,
-        "date": "2026-09-16T01:29:18Z",
+        "title": "Falcon 9 Block 5 | Starlink Group 15-27",
+        "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+        "importance": 5,
+        "date": "2026-09-20T01:47:00Z",
         "type": "launch",
-        "action": "Watch the live stream for a glimpse into classified space operations."
+        "action": "Watch the live stream for the launch."
       },
       {
         "rank": 2,
-        "title": "Soyuz 2.1b | Progress MS-35 (96P)",
-        "description": "Resupply mission to the International Space Station, ensuring continuous support for ISS operations.",
-        "importance": 6,
-        "date": "2026-09-16T13:33:53Z",
+        "title": "Kinetica 1 | Unknown Payload",
+        "description": "Launch of a Chinese solid-propellant light launch vehicle with an unknown payload.",
+        "importance": 4,
+        "date": "2026-09-20T04:00:00Z",
         "type": "launch",
-        "action": "Follow the mission to see how the ISS is resupplied."
+        "action": "Monitor updates for more information."
       },
       {
         "rank": 3,
-        "title": "Aurora Viewing Opportunity",
-        "description": "G1 geomagnetic storm predicted, offering a chance to see auroras at higher latitudes.",
-        "importance": 5,
-        "date": "2026-09-15T21:00:00Z",
-        "type": "aurora",
-        "action": "Find a dark spot away from city lights for the best viewing experience."
+        "title": "Long March 6A | Unknown Payload",
+        "description": "Launch of a Chinese rocket with an unknown payload from Taiyuan Satellite Launch Center.",
+        "importance": 4,
+        "date": "2026-09-24T08:45:00Z",
+        "type": "launch",
+        "action": "Watch the live stream for the launch."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 1
+      "aurora_opportunities": 0
     }
   },
-  "alerts": [
-    {
-      "id": "alert_1789491684172_jv7cx2v9k",
-      "type": "aurora",
-      "priority": "medium",
-      "title": "Aurora Viewing Opportunity",
-      "message": "A G1 geomagnetic storm is predicted, offering a chance to see auroras at higher latitudes.",
-      "action_required": "Find a dark spot away from city lights for the best viewing experience.",
-      "expires_at": "2026-09-16T03:00:00Z",
-      "tags": [
-        "aurora",
-        "G1",
-        "geomagnetic",
-        "viewing"
-      ]
-    }
-  ],
+  "alerts": [],
   "aurora_insights": {
-    "opportunities": [
-      {
-        "time": "2026-09-15T21:00:00",
-        "kp": 4.67,
-        "status": "estimated",
-        "scale": "G1",
-        "visibility": "Visible to 60° latitude"
-      },
-      {
-        "time": "2026-09-16T21:00:00",
-        "kp": 4.67,
-        "status": "predicted",
-        "scale": "G1",
-        "visibility": "Visible to 60° latitude"
-      }
-    ],
-    "best_window": {
-      "start": "2026-09-15T21:00:00",
-      "end": "2026-09-16T03:00:00",
-      "kp": 4.67,
-      "scale": "G1"
-    },
-    "total_viewing_hours": 6
+    "opportunities": [],
+    "best_window": {},
+    "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
@@ -86,6 +50,6 @@
     "total_launches_analyzed": 5,
     "total_aurora_entries_analyzed": 19,
     "processing_time_seconds": 0,
-    "iterations": 4
+    "iterations": 3
   }
 }
