@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T15:24:59.636Z",
+  "updatedAt": "2026-09-25T19:25:17.615Z",
   "launches": [
     {
       "id": "9e24bef7-c44b-4fdc-ba52-68545ce9457e",
@@ -14,7 +14,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-09-24T22:17:04Z",
+      "last_updated": "2026-09-25T18:29:26Z",
       "updates": [
         {
           "id": 16194,
@@ -262,7 +262,28 @@
           }
         }
       ],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Rocket Lab",
+          "title": "Rocket Lab - 'Owlright, Owlright, Owlright' Launch",
+          "description": "",
+          "feature_image": "https://i.ytimg.com/vi/hkLw0Kf_iSA/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=hkLw0Kf_iSA",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-09-26T00:00:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
