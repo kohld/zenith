@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T23:14:39.190Z",
+  "updatedAt": "2026-09-28T01:50:51.072Z",
   "launches": [
     {
       "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
@@ -2687,63 +2687,6 @@
         },
         "launcher_stage": [
           {
-            "id": 988,
-            "type": "Strap-On Booster",
-            "reused": true,
-            "launcher_flight_number": 2,
-            "launcher": {
-              "id": 250,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/250/",
-              "details": "Falcon 9 booster.",
-              "flight_proven": true,
-              "serial_number": "B1104",
-              "status": "active",
-              "image_url": null,
-              "successful_landings": 1,
-              "attempted_landings": 1,
-              "flights": 1,
-              "last_launch_date": "2026-08-30T11:26:04Z",
-              "first_launch_date": "2026-08-30T11:26:04Z"
-            },
-            "landing": {
-              "id": 1959,
-              "attempt": true,
-              "success": null,
-              "description": "The Falcon Heavy side booster B1104 will land back at the launch site at Landing Zone 1 after its 2nd flight.",
-              "downrange_distance": 14.9,
-              "location": {
-                "id": 4,
-                "name": "Landing Zone 1",
-                "abbrev": "LZ-1",
-                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1129,
-                  "total_landing_count": 79
-                },
-                "successful_landings": 53
-              },
-              "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
-              }
-            },
-            "previous_flight_date": "2026-08-30T11:26:04Z",
-            "turn_around_time_days": 32,
-            "previous_flight": {
-              "id": "521f3a1c-f977-4306-9b7f-495858719adf",
-              "name": "Falcon Heavy | Nancy Grace Roman Space Telescope"
-            }
-          },
-          {
             "id": 989,
             "type": "Strap-On Booster",
             "reused": true,
@@ -2843,6 +2786,63 @@
             "previous_flight_date": null,
             "turn_around_time_days": null,
             "previous_flight": null
+          },
+          {
+            "id": 988,
+            "type": "Strap-On Booster",
+            "reused": true,
+            "launcher_flight_number": 2,
+            "launcher": {
+              "id": 250,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/250/",
+              "details": "Falcon 9 booster.",
+              "flight_proven": true,
+              "serial_number": "B1104",
+              "status": "active",
+              "image_url": null,
+              "successful_landings": 1,
+              "attempted_landings": 1,
+              "flights": 1,
+              "last_launch_date": "2026-08-30T11:26:04Z",
+              "first_launch_date": "2026-08-30T11:26:04Z"
+            },
+            "landing": {
+              "id": 1959,
+              "attempt": true,
+              "success": null,
+              "description": "The Falcon Heavy side booster B1104 will land back at the launch site at Landing Zone 1 after its 2nd flight.",
+              "downrange_distance": 14.9,
+              "location": {
+                "id": 4,
+                "name": "Landing Zone 1",
+                "abbrev": "LZ-1",
+                "description": "LZ-1 Pad located at Cape Canaveral Space Force Station at the previous LC-13.",
+                "location": {
+                  "id": 12,
+                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
+                  "name": "Cape Canaveral SFS, FL, USA",
+                  "country_code": "USA",
+                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
+                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
+                  "timezone_name": "America/New_York",
+                  "total_launch_count": 1129,
+                  "total_landing_count": 79
+                },
+                "successful_landings": 53
+              },
+              "type": {
+                "id": 2,
+                "name": "Return to Launch Site",
+                "abbrev": "RTLS",
+                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+              }
+            },
+            "previous_flight_date": "2026-08-30T11:26:04Z",
+            "turn_around_time_days": 32,
+            "previous_flight": {
+              "id": "521f3a1c-f977-4306-9b7f-495858719adf",
+              "name": "Falcon Heavy | Nancy Grace Roman Space Telescope"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -7958,7 +7958,7 @@
         },
         "launcher_stage": [
           {
-            "id": 418,
+            "id": 419,
             "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
@@ -7977,7 +7977,7 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1215,
+              "id": 1216,
               "attempt": true,
               "success": null,
               "description": "the sidebooster will attempt to land at the launch site after launch.",
@@ -8002,7 +8002,7 @@
             "previous_flight": null
           },
           {
-            "id": 419,
+            "id": 418,
             "type": "Strap-On Booster",
             "reused": null,
             "launcher_flight_number": null,
@@ -8021,7 +8021,7 @@
               "first_launch_date": null
             },
             "landing": {
-              "id": 1216,
+              "id": 1215,
               "attempt": true,
               "success": null,
               "description": "the sidebooster will attempt to land at the launch site after launch.",
