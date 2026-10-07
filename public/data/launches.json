@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T04:25:59.850Z",
+  "updatedAt": "2026-10-07T11:15:33.101Z",
   "launches": [
     {
       "id": "e0741415-6c63-4236-9736-24a6c04485bc",
@@ -9,13 +9,21 @@
       "r_spacex_api_id": null,
       "name": "Nuri | NeonSat-2 to 6",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "Launch in Flight"
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-10-07T03:43:48Z",
+      "last_updated": "2026-10-07T05:55:39Z",
       "updates": [
+        {
+          "id": 16435,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://x.com/kari2030/status/2107702183487742126",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-10-07T05:28:00Z"
+        },
         {
           "id": 16434,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -118,8 +126,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 9,
-        "consecutive_successful_launches": 3,
-        "successful_launches": 5,
+        "consecutive_successful_launches": 4,
+        "successful_launches": 6,
         "failed_launches": 3,
         "pending_launches": 1,
         "consecutive_successful_landings": 0,
@@ -158,8 +166,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 9,
-            "consecutive_successful_launches": 3,
-            "successful_launches": 5,
+            "consecutive_successful_launches": 4,
+            "successful_launches": 6,
             "failed_launches": 3,
             "pending_launches": 1,
             "consecutive_successful_landings": 0,
@@ -191,8 +199,8 @@
           "info_url": "https://www.kari.re.kr/eng/sub03_03_01.do",
           "wiki_url": "https://en.wikipedia.org/wiki/KSLV-2",
           "total_launch_count": 5,
-          "consecutive_successful_launches": 3,
-          "successful_launches": 3,
+          "consecutive_successful_launches": 4,
+          "successful_launches": 4,
           "failed_launches": 1,
           "pending_launches": 1,
           "attempted_landings": 0,
@@ -253,7 +261,7 @@
           "publisher": "우주항공청 KASA",
           "title": "국내 최초 군집위성 탑재 누리호 5차 발사 LIVE",
           "description": "",
-          "feature_image": "https://i.ytimg.com/vi/pA96fyDkqMw/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/pA96fyDkqMw/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=pA96fyDkqMw",
           "type": {
             "id": 1,
@@ -265,7 +273,7 @@
             "code": "ko"
           },
           "start_time": "2026-10-07T01:37:29Z",
-          "end_time": null
+          "end_time": "2026-10-07T05:55:25Z"
         },
         {
           "priority": 11,
@@ -273,7 +281,7 @@
           "publisher": "한국항공우주연구원 KARI TV",
           "title": "[LIVE] 누리호 5차 발사 공식 생중계 🚀 2026.10.07.",
           "description": "대한민국 독자 개발 우주발사체 누리호(KSLV-II)가 다섯 번째 비행에 나섭니다. 🚀\n\n이번 누리호 5차 발사에는 주탑재위성인 초소형군집위성 2~6호 5기와 큐브위성 10기 등 총 15기의 위성이 탑재됩니다.\n\n누리호가 우주로 향하는 순간을 한국항공우주연구원 공식 유튜브 생중계로 함께해 주세요.\n\n📅 발사 예정일 : 2026년 10월 7일(수)\n🚀 발사체 : 누리호(KSLV-II)\n🛰️ 탑재위성 : 총 15기\n\n※ 발사 일정 및 시각은 기상 상황과 발사 준비 상황 등에 따라 변경될 수 있습니다.\n\n#한국항공우주연구원 #항우연 #KARI #누리호 #누리호5차발사 #KSLVII #누리호생중계",
-          "feature_image": "https://i.ytimg.com/vi/v9gY7VkVT0w/maxresdefault_live.jpg",
+          "feature_image": "https://i.ytimg.com/vi/v9gY7VkVT0w/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=v9gY7VkVT0w",
           "type": {
             "id": 1,
@@ -285,10 +293,10 @@
             "code": "ko"
           },
           "start_time": "2026-10-07T01:31:20Z",
-          "end_time": null
+          "end_time": "2026-10-07T05:51:37Z"
         }
       ],
-      "webcast_live": true,
+      "webcast_live": false,
       "timeline": [
         {
           "type": {
