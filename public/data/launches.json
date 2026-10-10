@@ -1,21 +1,29 @@
 {
-  "updatedAt": "2026-10-09T21:07:27.419Z",
+  "updatedAt": "2026-10-10T01:05:31.441Z",
   "launches": [
     {
       "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/a1bb0984-19d4-4b47-9bba-706d225573e2/",
-      "slug": "long-march-12-unknown-payload",
+      "slug": "long-march-12-satnet-leo-group-27",
       "flightclub_url": null,
       "r_spacex_api_id": null,
-      "name": "Long March 12 | Unknown Payload",
+      "name": "Long March 12 | SatNet LEO Group 27",
       "status": {
-        "id": 6,
-        "name": "Launch in Flight",
-        "abbrev": "In Flight",
-        "description": "The launch vehicle has lifted off from the launchpad."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-10-09T19:37:22Z",
+      "last_updated": "2026-10-09T21:14:37Z",
       "updates": [
+        {
+          "id": 16454,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Launch success.",
+          "info_url": "https://m.weibo.cn/detail/5352336723804291",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-10-09T21:14:00Z"
+        },
         {
           "id": 16453,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -62,8 +70,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 618,
-        "consecutive_successful_launches": 8,
-        "successful_launches": 601,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 602,
         "failed_launches": 16,
         "pending_launches": 7,
         "consecutive_successful_landings": 1,
@@ -102,8 +110,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 618,
-            "consecutive_successful_launches": 8,
-            "successful_launches": 601,
+            "consecutive_successful_launches": 9,
+            "successful_launches": 602,
             "failed_launches": 16,
             "pending_launches": 7,
             "consecutive_successful_landings": 1,
@@ -135,8 +143,8 @@
           "info_url": null,
           "wiki_url": "https://en.wikipedia.org/wiki/Long_March_12",
           "total_launch_count": 9,
-          "consecutive_successful_launches": 8,
-          "successful_launches": 8,
+          "consecutive_successful_launches": 9,
+          "successful_launches": 9,
           "failed_launches": 0,
           "pending_launches": 0,
           "attempted_landings": 0,
@@ -149,14 +157,14 @@
       },
       "mission": {
         "id": 7759,
-        "name": "Unknown Payload",
-        "description": "Details TBD.",
+        "name": "SatNet LEO Group 27",
+        "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
         "launch_designator": null,
-        "type": "Unknown",
+        "type": "Communications",
         "orbit": {
-          "id": 25,
-          "name": "Unknown",
-          "abbrev": "N/A"
+          "id": 8,
+          "name": "Low Earth Orbit",
+          "abbrev": "LEO"
         },
         "agencies": [],
         "info_urls": [],
@@ -262,8 +270,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-10-09T14:57:50Z",
+      "last_updated": "2026-10-10T00:49:04Z",
       "updates": [
+        {
+          "id": 16455,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Tweaked T-0.",
+          "info_url": "https://www.spacex.com/launches/sda-t1tl-a",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-10-10T00:45:00Z"
+        },
         {
           "id": 16451,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -457,15 +473,15 @@
           "created_on": "2022-05-27T10:19:13Z"
         }
       ],
-      "net": "2026-10-10T07:39:00Z",
+      "net": "2026-10-10T07:39:44Z",
       "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
       },
-      "window_end": "2026-10-10T07:39:00Z",
-      "window_start": "2026-10-10T07:39:00Z",
+      "window_end": "2026-10-10T07:39:44Z",
+      "window_start": "2026-10-10T07:39:44Z",
       "probability": null,
       "weather_concerns": null,
       "holdreason": "",
@@ -804,10 +820,10 @@
           "priority": 8,
           "source": "youtube.com",
           "publisher": "SPACE AFFAIRS",
-          "title": "SCRUBBED - SpaceX - Falcon 9 - Tranche 1 Transport Layer A - SLC-4E - VSFB, CA - Space Affairs Live",
-          "description": "Launch Date: October 5, 2026 \nLaunch Time:  1:18 a.m. PDT, 0818 UTC, 10:18 CEST \nLaunch Window: Open until 2:11 a.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Polar Orbit\nLaunch Inclination: South\nLaunch Status: Scrubbed 58 seconds before Lift-Off by the Falcon 9 onboard computer. Reasons are unknown. \n\nNew launch schedule is here: https://www.youtube.com/watch?v=g2zSmp6e2Vs\n\nMission: Tranche 1 Transport Layer A\nClient: United States Space Force Development Agency (SDA)\nLaunch Provider: SpaceX\n\nLauncher System: Falcon 9 (Booster 1103 - Turnaround time 54 days)\nFlight for the Booster: 6\nPrevious Flights of the Booster: 5 - NROL-179, SDA-T1TL-E, and three Starlink missions\nBooster Landing: Landing Zone 4 (LZ-4) Vandenberg Space Force Base\n\nPrice: ...",
-          "feature_image": "https://i.ytimg.com/vi/-SYfgSTJsyM/maxresdefault.jpg",
-          "url": "https://www.youtube.com/watch?v=-SYfgSTJsyM",
+          "title": "SpaceX - Falcon 9 - Tranche 1 Transport Layer A - SLC-4E - VSFB, CA - Space Affairs Live",
+          "description": "Launch Date: October 9, 2026 \nLaunch Time:  12:29 a.m. PDT, 0729 UTC, 09:29 CEST \nLaunch Window: Open until 2:11 a.m. PDT\nLaunch Site: SLC-4E - Vandenberg Space Force Base, California\nTargeted Orbit: Polar Orbit\nLaunch Inclination: South\nLaunch Status: Scheduled and announced\n\nMission: Tranche 1 Transport Layer A\nClient: United States Space Force Development Agency (SDA)\nLaunch Provider: SpaceX\n\nLauncher System: Falcon 9 (Booster 1103 - Turnaround time 54 days)\nFlight for the Booster: 6\nPrevious Flights of the Booster: 5 - NROL-179, SDA-T1TL-E, and three Starlink missions\nBooster Landing: Landing Zone 4 (LZ-4) Vandenberg Space Force Base\n\nPrice: $74 million (without payload)\nDiameter: 3,7 m\nHeight: 70 meters\nPayload to Orbit: 22,800 LEO / 8,300 GTO\nLift-Off Thrust: 7,607 kilonewtons\nF...",
+          "feature_image": "https://i.ytimg.com/vi/g2zSmp6e2Vs/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=g2zSmp6e2Vs",
           "type": {
             "id": 4,
             "name": "Unofficial Re-stream"
@@ -817,17 +833,17 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-10-05T08:02:24Z",
-          "end_time": "2026-10-05T08:28:34Z"
+          "start_time": "2026-10-10T07:17:00Z",
+          "end_time": null
         },
         {
           "priority": 9,
           "source": "youtube.com",
           "publisher": "Spaceflight Now",
-          "title": "Scrub: SpaceX aborts Falcon 9 rocket launch from California for the Space Development Agency",
-          "description": "Watch a replay of live coverage as SpaceX attempted to launch a Falcon 9 rocket from California carrying satellites for the Space Development Agency's Proliferated Warfighter Space Architecture satellite constellation. Liftoff from Space Launch Complex 4E (SLC-4E) was scheduled for Vandenberg Space Force Base is scheduled for Monday, Oct. 5, at 1:18 a.m. PDT (4:18 a.m. EDT / 0818 UTC). However, the rocket's automated startup system aborted the launch in the final minute of the count.\n\nA new launch attempt is scheduled for NET Oct. 6. Watch live here: https://www.youtube.com/live/ntJhonUlUlc?si=ptcRvN3nYXNpc0Xw\n\nThe first-stage booster, serial number B1103, making its sixth flight, will return to a land at LZ-4 at Vandenberg.\n\nThe SDA T1TL-A mission will head out across the Pacific Oce...",
-          "feature_image": "https://i.ytimg.com/vi/FJpcyVk9vaI/maxresdefault.jpg",
-          "url": "https://www.youtube.com/watch?v=FJpcyVk9vaI",
+          "title": "Live: SpaceX Falcon 9 rocket launches from California for U.S. Military's Space Development Agency",
+          "description": "Watch a live coverage as SpaceX launches a Falcon 9 rocket from California carrying satellites for the Space Development Agency's Proliferated Warfighter Space Architecture satellite constellation. Liftoff from Space Launch Complex 4E (SLC-4E) at Vandenberg Space Force Base is currently is now scheduled for 12:39 a.m. PDT (3:39 a.m. EDT (0739 UTC) on Saturday, Oct. 10.\n\nThe first-stage booster, serial number B1103, making its sixth flight, will return to a land at LZ-4 at Vandenberg.\n\nThe SDA T1TL-A mission will head out across the Pacific Ocean on a southerly trajectory upon departure from Vandenberg.\n\nLive commentary will be provided starting about 30 minutes prior to launch.\n\nVideos like this are made possible by the support of our members. Join this channel to get access to perks:...",
+          "feature_image": "https://i.ytimg.com/vi/ntJhonUlUlc/maxresdefault_live.jpg",
+          "url": "https://www.youtube.com/watch?v=ntJhonUlUlc",
           "type": {
             "id": 3,
             "name": "Unofficial Webcast"
@@ -837,17 +853,17 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-10-05T07:48:07Z",
-          "end_time": "2026-10-05T08:28:03Z"
+          "start_time": "2026-10-10T07:09:00Z",
+          "end_time": null
         },
         {
           "priority": 10,
           "source": "x.com",
           "publisher": "SpaceX",
-          "title": "SDA’s Fourth Tranche 1 Mission",
+          "title": "SDA's Fourth Tranche 1 Mission",
           "description": "Livestream on X",
-          "feature_image": "https://pbs.twimg.com/media/HTeP9eqWgAAzb69.jpg",
-          "url": "https://x.com/i/broadcasts/1oJMvNEQewoxQ",
+          "feature_image": "https://pbs.twimg.com/media/HUCyF5VWoAAE14n.jpg",
+          "url": "https://x.com/i/broadcasts/1jGXgBoBYkRKZ",
           "type": {
             "id": 1,
             "name": "Official Webcast"
@@ -857,8 +873,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-10-05T08:05:56Z",
-          "end_time": "2026-10-05T08:23:10Z"
+          "start_time": "2026-10-10T07:27:00Z",
+          "end_time": "2026-10-11T07:27:00Z"
         }
       ],
       "webcast_live": false,
@@ -1499,8 +1515,8 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-09-30T13:50:00Z",
-          "end_time": "2026-09-30T15:50:00Z"
+          "start_time": "2026-10-12T22:50:00Z",
+          "end_time": "2026-10-13T22:50:00Z"
         }
       ],
       "webcast_live": false,
@@ -1739,7 +1755,7 @@
       "location_launch_attempt_count_year": 66,
       "pad_launch_attempt_count_year": 64,
       "agency_launch_attempt_count_year": 118,
-      "pad_turnaround": "P2DT15H31M",
+      "pad_turnaround": "P2DT15H20M16S",
       "mission_patches": [
         {
           "id": 7,
@@ -4739,8 +4755,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 618,
-        "consecutive_successful_launches": 8,
-        "successful_launches": 601,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 602,
         "failed_launches": 16,
         "pending_launches": 7,
         "consecutive_successful_landings": 1,
@@ -4779,8 +4795,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 618,
-            "consecutive_successful_launches": 8,
-            "successful_launches": 601,
+            "consecutive_successful_launches": 9,
+            "successful_launches": 602,
             "failed_launches": 16,
             "pending_launches": 7,
             "consecutive_successful_landings": 1,
@@ -13284,8 +13300,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 618,
-        "consecutive_successful_launches": 8,
-        "successful_launches": 601,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 602,
         "failed_launches": 16,
         "pending_launches": 7,
         "consecutive_successful_landings": 1,
@@ -13324,8 +13340,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 618,
-            "consecutive_successful_launches": 8,
-            "successful_launches": 601,
+            "consecutive_successful_launches": 9,
+            "successful_launches": 602,
             "failed_launches": 16,
             "pending_launches": 7,
             "consecutive_successful_landings": 1,
@@ -26068,7 +26084,7 @@
       "location_launch_attempt_count_year": 22,
       "pad_launch_attempt_count_year": 7,
       "agency_launch_attempt_count_year": 1,
-      "pad_turnaround": "P82DT4H35M",
+      "pad_turnaround": "P82DT4H33M",
       "mission_patches": [],
       "type": "detailed"
     },
@@ -26125,8 +26141,8 @@
         "spacecraft": "",
         "launch_library_url": null,
         "total_launch_count": 618,
-        "consecutive_successful_launches": 8,
-        "successful_launches": 601,
+        "consecutive_successful_launches": 9,
+        "successful_launches": 602,
         "failed_launches": 16,
         "pending_launches": 7,
         "consecutive_successful_landings": 1,
@@ -26165,8 +26181,8 @@
             "spacecraft": "",
             "launch_library_url": null,
             "total_launch_count": 618,
-            "consecutive_successful_launches": 8,
-            "successful_launches": 601,
+            "consecutive_successful_launches": 9,
+            "successful_launches": 602,
             "failed_launches": 16,
             "pending_launches": 7,
             "consecutive_successful_landings": 1,
