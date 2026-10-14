@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T19:15:55.642Z",
+  "generated_at": "2026-10-14T04:51:21.270Z",
   "launches": [
     {
       "id": "dfcabb3c-078b-4f5b-a47c-0161f248cee9",
@@ -283,7 +283,7 @@
         "consecutive_successful_launches": 223,
         "successful_launches": 723,
         "failed_launches": 15,
-        "pending_launches": 132,
+        "pending_launches": 133,
         "consecutive_successful_landings": 32,
         "successful_landings": 683,
         "failed_landings": 29,
@@ -323,7 +323,7 @@
             "consecutive_successful_launches": 223,
             "successful_launches": 723,
             "failed_launches": 15,
-            "pending_launches": 132,
+            "pending_launches": 133,
             "consecutive_successful_landings": 32,
             "successful_landings": 683,
             "failed_landings": 29,
@@ -435,7 +435,7 @@
           "consecutive_successful_launches": 341,
           "successful_launches": 638,
           "failed_launches": 1,
-          "pending_launches": 116,
+          "pending_launches": 117,
           "attempted_landings": 629,
           "successful_landings": 624,
           "failed_landings": 5,
@@ -774,29 +774,7 @@
       "pad_turnaround": "P2DT23H15M49S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
-        "importance_score": 5,
-        "reasoning": "Standard operational mission.",
-        "key_facts": [
-          "Rocket: Falcon 9 Block 5",
-          "Launch Site: Vandenberg SFB, CA, USA",
-          "Target Orbit: Polar Orbit",
-          "Reusable rocket design",
-          "Mission Type: Government/Top Secret"
-        ],
-        "viewing_info": {
-          "visible_from_europe": true,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "SpaceX",
-          "Reusable"
-        ],
-        "user_recommendation": "Worth watching if you're interested in space launches."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
@@ -806,13 +784,21 @@
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
       "status": {
-        "id": 8,
-        "name": "To Be Confirmed",
-        "abbrev": "TBC",
-        "description": "Awaiting official confirmation - current date is known with some certainty."
+        "id": 1,
+        "name": "Go for Launch",
+        "abbrev": "Go",
+        "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-10-13T12:48:40Z",
+      "last_updated": "2026-10-13T17:28:28Z",
       "updates": [
+        {
+          "id": 16481,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "GO for launch.",
+          "info_url": "https://www.spacex.com/launches/bandwagon5",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-10-13T17:28:00Z"
+        },
         {
           "id": 16479,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -853,7 +839,7 @@
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-10-19T12:13:00Z",
+      "window_end": "2026-10-19T11:30:00Z",
       "window_start": "2026-10-19T10:30:00Z",
       "probability": null,
       "weather_concerns": null,
@@ -878,7 +864,7 @@
         "consecutive_successful_launches": 223,
         "successful_launches": 723,
         "failed_launches": 15,
-        "pending_launches": 132,
+        "pending_launches": 133,
         "consecutive_successful_landings": 32,
         "successful_landings": 683,
         "failed_landings": 29,
@@ -918,7 +904,7 @@
             "consecutive_successful_launches": 223,
             "successful_launches": 723,
             "failed_launches": 15,
-            "pending_launches": 132,
+            "pending_launches": 133,
             "consecutive_successful_landings": 32,
             "successful_landings": 683,
             "failed_landings": 29,
@@ -1030,7 +1016,7 @@
           "consecutive_successful_launches": 341,
           "successful_launches": 638,
           "failed_launches": 1,
-          "pending_launches": 116,
+          "pending_launches": 117,
           "attempted_landings": 629,
           "successful_landings": 624,
           "failed_landings": 5,
@@ -1040,56 +1026,49 @@
           {
             "id": 979,
             "type": "Core",
-            "reused": null,
-            "launcher_flight_number": null,
+            "reused": true,
+            "launcher_flight_number": 19,
             "launcher": {
-              "id": 106,
-              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/",
-              "details": "Booster serial number unknown.",
-              "flight_proven": false,
-              "serial_number": "Unknown F9",
-              "status": "N/A",
-              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
-              "successful_landings": null,
-              "attempted_landings": null,
-              "flights": null,
-              "last_launch_date": null,
-              "first_launch_date": null
+              "id": 151,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/151/",
+              "details": "Booster used during the Crew-9 and Fram2 mission.",
+              "flight_proven": true,
+              "serial_number": "B1085",
+              "status": "active",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/b1085_during_la_image_20241217151951.jpg",
+              "successful_landings": 18,
+              "attempted_landings": 18,
+              "flights": 18,
+              "last_launch_date": "2026-08-11T15:58:26Z",
+              "first_launch_date": "2024-08-20T13:20:00Z"
             },
             "landing": {
               "id": 1920,
               "attempt": true,
               "success": null,
-              "description": "The Falcon 9 first stage will land back at the launch site after its flight.",
-              "downrange_distance": 0.3,
+              "description": "The Falcon 9 first stage B1085 will land on ASDS ASOG after its 19th flight.",
+              "downrange_distance": 600,
               "location": {
-                "id": 62,
-                "name": "Landing Zone 40",
-                "abbrev": "LZ-40",
-                "description": "Landing Pad at SLC-40 for Falcon 9 boosters. Built as an replacement for LZ-1 & LZ-2.",
-                "location": {
-                  "id": 12,
-                  "url": "https://ll.thespacedevs.com/2.2.0/location/12/",
-                  "name": "Cape Canaveral SFS, FL, USA",
-                  "country_code": "USA",
-                  "description": "Cape Canaveral Space Force Station (CCSFS) is an installation of the United States Space Force's Space Launch Delta 45, located on Cape Canaveral in Brevard County, Florida.",
-                  "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_12_20200803142519.jpg",
-                  "timezone_name": "America/New_York",
-                  "total_launch_count": 1131,
-                  "total_landing_count": 83
-                },
-                "successful_landings": 7
+                "id": 17,
+                "name": "A Shortfall of Gravitas",
+                "abbrev": "ASOG",
+                "description": "The fourth ASDS barge, A Shortfall of Gravitas (ASOG) is currently used to recover Falcon 9 and Heavy boosters in the Altantic Ocean.",
+                "location": null,
+                "successful_landings": 167
               },
               "type": {
-                "id": 2,
-                "name": "Return to Launch Site",
-                "abbrev": "RTLS",
-                "description": "A return to launch site usually means that after stage separation the booster flips and does a burn back towards the launch site, landing near where it initially launched from."
+                "id": 1,
+                "name": "Autonomous Spaceport Drone Ship",
+                "abbrev": "ASDS",
+                "description": "An autonomous spaceport drone ship (ASDS) is an ocean-going vessel derived from a deck barge, outfitted with station-keeping engines and a large landing platform. Construction of such ships was commissioned by aerospace company SpaceX to allow for recovery of rocket first-stages at sea for high-velocity missions which do not carry enough fuel to return to the launch site after lofting spacecraft onto an orbital trajectory."
               }
             },
-            "previous_flight_date": null,
-            "turn_around_time_days": null,
-            "previous_flight": null
+            "previous_flight_date": "2026-08-11T15:58:26Z",
+            "turn_around_time_days": 68,
+            "previous_flight": {
+              "id": "36ab6924-bb36-416a-b71d-cda9e88004be",
+              "name": "Falcon 9 Block 5 | Starlink Group 10-19"
+            }
           }
         ],
         "spacecraft_stage": null
@@ -1124,7 +1103,7 @@
             "consecutive_successful_launches": 223,
             "successful_launches": 723,
             "failed_launches": 15,
-            "pending_launches": 132,
+            "pending_launches": 133,
             "consecutive_successful_landings": 32,
             "successful_landings": 683,
             "failed_landings": 29,
@@ -1166,8 +1145,47 @@
         "total_launch_count": 403,
         "orbital_launch_attempt_count": 403
       },
-      "infoURLs": [],
-      "vidURLs": [],
+      "infoURLs": [
+        {
+          "priority": 10,
+          "source": "spacex.com",
+          "title": "SpaceX",
+          "description": "SpaceX designs, manufactures and launches advanced rockets and spacecraft. The company was founded in 2002 to revolutionize space technology, with the ultimate goal of enabling people to live on other planets.",
+          "feature_image": null,
+          "url": "https://www.spacex.com/launches/bandwagon5",
+          "type": {
+            "id": 1,
+            "name": "Official Page"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          }
+        }
+      ],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "x.com",
+          "publisher": "SpaceX",
+          "title": "Bandwagon-5 Mission",
+          "description": "Livestream on X",
+          "feature_image": "https://pbs.twimg.com/media/HUhnl7NWoAAts9l.jpg",
+          "url": "https://x.com/i/broadcasts/1nxeLMddZlEJX",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-10-19T10:13:00Z",
+          "end_time": "2026-10-20T10:13:00Z"
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20251102082912.jpg",
@@ -1508,18 +1526,36 @@
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
       "infographic": null,
       "program": [],
-      "orbital_launch_attempt_count": 7417,
+      "orbital_launch_attempt_count": 7418,
       "location_launch_attempt_count": 100,
       "pad_launch_attempt_count": 19,
       "agency_launch_attempt_count": 59,
-      "orbital_launch_attempt_count_year": 244,
+      "orbital_launch_attempt_count_year": 245,
       "location_launch_attempt_count_year": 3,
       "pad_launch_attempt_count_year": 3,
       "agency_launch_attempt_count_year": 3,
       "pad_turnaround": "P70DT17M32S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
+        "importance_score": 5,
+        "reasoning": "Standard operational mission.",
+        "key_facts": [
+          "Rocket: H3-24",
+          "Launch Site: Tanegashima Space Center, Japan",
+          "Target Orbit: Mars Orbit",
+          "Mission Type: Planetary Science"
+        ],
+        "viewing_info": {
+          "visible_from_europe": false,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [],
+        "user_recommendation": "Worth watching if you're interested in space launches."
+      }
     },
     {
       "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
@@ -1577,7 +1613,7 @@
         "consecutive_successful_launches": 223,
         "successful_launches": 723,
         "failed_launches": 15,
-        "pending_launches": 132,
+        "pending_launches": 133,
         "consecutive_successful_landings": 32,
         "successful_landings": 683,
         "failed_landings": 29,
@@ -1617,7 +1653,7 @@
             "consecutive_successful_launches": 223,
             "successful_launches": 723,
             "failed_launches": 15,
-            "pending_launches": 132,
+            "pending_launches": 133,
             "consecutive_successful_landings": 32,
             "successful_landings": 683,
             "failed_landings": 29,
@@ -1729,7 +1765,7 @@
           "consecutive_successful_launches": 341,
           "successful_launches": 638,
           "failed_launches": 1,
-          "pending_launches": 116,
+          "pending_launches": 117,
           "attempted_landings": 629,
           "successful_landings": 624,
           "failed_landings": 5,
@@ -1816,7 +1852,7 @@
             "consecutive_successful_launches": 223,
             "successful_launches": 723,
             "failed_launches": 15,
-            "pending_launches": 132,
+            "pending_launches": 133,
             "consecutive_successful_landings": 32,
             "successful_landings": 683,
             "failed_landings": 29,
@@ -1911,17 +1947,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -2151,7 +2187,30 @@
         }
       ],
       "type": "detailed",
-      "ai_enrichment": null
+      "ai_enrichment": {
+        "launch_id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
+        "importance_score": 5,
+        "reasoning": "Standard operational mission.",
+        "key_facts": [
+          "Rocket: Falcon 9 Block 5",
+          "Launch Site: Vandenberg SFB, CA, USA",
+          "Target Orbit: Low Earth Orbit",
+          "Reusable rocket design",
+          "Mission Type: Communications",
+          "Program: Starlink"
+        ],
+        "viewing_info": {
+          "visible_from_europe": true,
+          "best_viewing_distance_km": 50,
+          "live_stream_recommended": true,
+          "visibility_window": "10 minutes before to 5 minutes after liftoff"
+        },
+        "tags": [
+          "SpaceX",
+          "Reusable"
+        ],
+        "user_recommendation": "Worth watching if you're interested in space launches."
+      }
     }
   ]
 }
