@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T01:39:11.007Z",
+  "updatedAt": "2026-10-15T06:58:14.271Z",
   "launches": [
     {
       "id": "dfcabb3c-078b-4f5b-a47c-0161f248cee9",
@@ -4606,7 +4606,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2026-10-14T15:17:03Z",
+      "last_updated": "2026-10-15T05:35:18Z",
       "updates": [
         {
           "id": 16485,
@@ -4654,7 +4654,7 @@
       "weather_concerns": null,
       "holdreason": "",
       "failreason": "",
-      "hashtag": null,
+      "hashtag": "VA271",
       "launch_service_provider": {
         "id": 115,
         "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
@@ -4868,7 +4868,20 @@
       "pad_launch_attempt_count_year": 5,
       "agency_launch_attempt_count_year": 5,
       "pad_turnaround": "P87DT3H49M",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1354,
+          "name": "VA271 Patch",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/va2712520patch_mission_patch_20261015053511.png",
+          "agency": {
+            "id": 115,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/115/",
+            "name": "Arianespace",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
