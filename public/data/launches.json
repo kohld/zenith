@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:24:14.230Z",
+  "updatedAt": "2026-10-17T05:53:35.469Z",
   "launches": [
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
@@ -14,7 +14,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-10-16T12:08:39Z",
+      "last_updated": "2026-10-17T04:23:02Z",
       "updates": [
         {
           "id": 16481,
@@ -618,7 +618,20 @@
       "pad_launch_attempt_count_year": 50,
       "agency_launch_attempt_count_year": 121,
       "pad_turnaround": "P5DT23H56M16S",
-      "mission_patches": [],
+      "mission_patches": [
+        {
+          "id": 1355,
+          "name": "Bandwagon 5",
+          "priority": 10,
+          "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/mission_patch_images/bandwagon25205_mission_patch_20261017042118.png",
+          "agency": {
+            "id": 121,
+            "url": "https://ll.thespacedevs.com/2.2.0/agencies/121/",
+            "name": "SpaceX",
+            "type": "Commercial"
+          }
+        }
+      ],
       "type": "detailed"
     },
     {
