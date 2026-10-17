@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T05:53:35.469Z",
+  "updatedAt": "2026-10-17T10:10:56.478Z",
   "launches": [
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
@@ -6657,7 +6657,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2026-02-24T17:08:45Z",
+      "last_updated": "2026-10-17T08:28:07Z",
       "updates": [
         {
           "id": 14079,
@@ -6866,7 +6866,32 @@
           "failed_landings": 5,
           "consecutive_successful_landings": 325
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 1037,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
@@ -6973,7 +6998,7 @@
         "abbrev": "TBD",
         "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
       },
-      "last_updated": "2025-04-10T05:42:02Z",
+      "last_updated": "2026-10-17T08:28:47Z",
       "updates": [
         {
           "id": 10692,
@@ -7174,7 +7199,32 @@
           "failed_landings": 5,
           "consecutive_successful_landings": 325
         },
-        "launcher_stage": [],
+        "launcher_stage": [
+          {
+            "id": 1038,
+            "type": "Core",
+            "reused": null,
+            "launcher_flight_number": null,
+            "launcher": {
+              "id": 106,
+              "url": "https://ll.thespacedevs.com/2.2.0/launcher/106/",
+              "details": "Booster serial number unknown.",
+              "flight_proven": false,
+              "serial_number": "Unknown F9",
+              "status": "N/A",
+              "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/106_image_20230708172214.png",
+              "successful_landings": null,
+              "attempted_landings": null,
+              "flights": null,
+              "last_launch_date": null,
+              "first_launch_date": null
+            },
+            "landing": null,
+            "previous_flight_date": null,
+            "turn_around_time_days": null,
+            "previous_flight": null
+          }
+        ],
         "spacecraft_stage": null
       },
       "mission": {
