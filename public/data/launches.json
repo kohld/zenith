@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T16:50:29.287Z",
+  "updatedAt": "2026-10-17T19:01:15.353Z",
   "launches": [
     {
       "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
@@ -14,8 +14,16 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-10-17T15:58:16Z",
+      "last_updated": "2026-10-17T17:51:39Z",
       "updates": [
+        {
+          "id": 16512,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Updated launch weather, 55% GO.",
+          "info_url": "https://45thweathersquadron.nebula.spaceforce.mil/assets/LaunchForecasts/Falcon%209%20Bandwagon-5%20L-2%20Forecast%20-%2019%20Oct%20Launch.pdf",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-10-17T17:51:00Z"
+        },
         {
           "id": 16481,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -66,8 +74,8 @@
       },
       "window_end": "2026-10-19T11:30:00Z",
       "window_start": "2026-10-19T10:30:00Z",
-      "probability": null,
-      "weather_concerns": null,
+      "probability": 55,
+      "weather_concerns": "Liftoff Winds, Cumulus Cloud Rule",
       "holdreason": "",
       "failreason": "",
       "hashtag": null,
