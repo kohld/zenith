@@ -7,8 +7,17 @@
     "missionType": "Interstellar Probe",
     "ra": 258.70833333333337,
     "dec": 12.11888888888889,
-    "date": "2026-10-23T11:53:15.093Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-10-23T17:20:00.801Z",
+    "dsnSignal": {
+      "id": "-31",
+      "name": "VGR1",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 40,
+      "power": -160,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "Voyager 2",
@@ -18,8 +27,17 @@
     "missionType": "Interstellar Probe",
     "ra": 302.39762499999995,
     "dec": -59.663916666666665,
-    "date": "2026-10-23T11:53:15.710Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-10-23T17:20:01.603Z",
+    "dsnSignal": {
+      "id": "-32",
+      "name": "VGR2",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 160,
+      "power": -160,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "New Horizons",
@@ -29,17 +47,8 @@
     "missionType": "Pluto/Kuiper Belt",
     "ra": 288.8722916666667,
     "dec": -20.297027777777778,
-    "date": "2026-10-23T11:53:16.322Z",
-    "dsnSignal": {
-      "id": "-98",
-      "name": "NHPC",
-      "upSignal": false,
-      "downSignal": true,
-      "dataRate": 600.3,
-      "power": -150,
-      "frequency": 0
-    },
-    "status": "DOWNLINK ACTIVE"
+    "date": "2026-10-23T17:20:02.399Z",
+    "status": "AWAITING SIGNAL"
   },
   {
     "name": "James Webb",
@@ -49,8 +58,17 @@
     "missionType": "Space Telescope",
     "ra": 58.030458333333335,
     "dec": 20.012166666666666,
-    "date": "2026-10-23T11:53:17.008Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-10-23T17:20:03.124Z",
+    "dsnSignal": {
+      "id": "-170",
+      "name": "JWST",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 40000,
+      "power": -120,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "Parker Solar Probe",
@@ -60,7 +78,7 @@
     "missionType": "Heliophysics",
     "ra": 251.93162500000003,
     "dec": -24.961916666666667,
-    "date": "2026-10-23T11:53:17.635Z",
+    "date": "2026-10-23T17:20:03.890Z",
     "status": "AWAITING SIGNAL"
   }
 ]
