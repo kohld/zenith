@@ -7,8 +7,17 @@
     "missionType": "Interstellar Probe",
     "ra": 258.7429166666667,
     "dec": 12.098111111111113,
-    "date": "2026-10-31T06:03:36.921Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-10-31T12:54:23.994Z",
+    "dsnSignal": {
+      "id": "-31",
+      "name": "VGR1",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 160,
+      "power": -160,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "Voyager 2",
@@ -18,8 +27,17 @@
     "missionType": "Interstellar Probe",
     "ra": 302.40979166666665,
     "dec": -59.63252777777778,
-    "date": "2026-10-31T06:03:37.860Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-10-31T12:54:24.815Z",
+    "dsnSignal": {
+      "id": "-32",
+      "name": "VGR2",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 160,
+      "power": -160,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "New Horizons",
@@ -29,17 +47,8 @@
     "missionType": "Pluto/Kuiper Belt",
     "ra": 288.91391666666664,
     "dec": -20.295861111111112,
-    "date": "2026-10-31T06:03:38.827Z",
-    "dsnSignal": {
-      "id": "-98",
-      "name": "NHPC",
-      "upSignal": false,
-      "downSignal": true,
-      "dataRate": 793.5,
-      "power": -150,
-      "frequency": 0
-    },
-    "status": "DOWNLINK ACTIVE"
+    "date": "2026-10-31T12:54:25.638Z",
+    "status": "AWAITING SIGNAL"
   },
   {
     "name": "James Webb",
@@ -49,8 +58,17 @@
     "missionType": "Space Telescope",
     "ra": 66.15029166666667,
     "dec": 18.26975,
-    "date": "2026-10-31T06:03:39.712Z",
-    "status": "AWAITING SIGNAL"
+    "date": "2026-10-31T12:54:26.463Z",
+    "dsnSignal": {
+      "id": "-170",
+      "name": "JWST",
+      "upSignal": false,
+      "downSignal": true,
+      "dataRate": 40000,
+      "power": -120,
+      "frequency": 0
+    },
+    "status": "DOWNLINK ACTIVE"
   },
   {
     "name": "Parker Solar Probe",
@@ -60,7 +78,7 @@
     "missionType": "Heliophysics",
     "ra": 257.8727083333333,
     "dec": -25.38861111111111,
-    "date": "2026-10-31T06:03:40.553Z",
+    "date": "2026-10-31T12:54:27.253Z",
     "status": "AWAITING SIGNAL"
   }
 ]
