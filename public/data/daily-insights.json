@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-10-22T04:41:18.601Z",
+  "generated_at": "2026-10-31T05:38:23.011Z",
   "daily_summary": {
-    "headline": "SpaceX Starlink Launch Highlights the Day",
+    "headline": "Exciting Space Events and Aurora Opportunities",
     "top_events": [
       {
         "rank": 1,
-        "title": "SpaceX Falcon 9 Launch",
-        "description": "SpaceX is set to launch a Falcon 9 Block 5 rocket carrying the Starlink Group 15-15 satellites from Vandenberg Space Force Base, California. This mission is part of SpaceX's ongoing efforts to expand its Starlink satellite internet constellation.",
-        "importance": 5,
-        "date": "2026-10-22",
+        "title": "Falcon 9 Block 5 | USSF-432",
+        "description": "A classified mission for the United States Space Force, possibly deploying classified LEO satellites.",
+        "importance": 8,
+        "date": "2026-11-03",
         "type": "launch",
-        "action": "Watch live on SpaceX's official webcast."
+        "action": "Watch live on SpaceX webcast"
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G1 geomagnetic storm is expected, offering a minor aurora viewing opportunity at higher latitudes.",
-        "importance": 4,
-        "date": "2026-10-22",
-        "type": "aurora",
-        "action": "Check local aurora forecasts for the best viewing times."
+        "title": "Kinetica 2 | SpaceSail Polar Group TBD?",
+        "description": "Launch of communication satellites for the G60 constellation by CAS Space.",
+        "importance": 7,
+        "date": "2026-11-03",
+        "type": "launch",
+        "action": "Follow updates from CAS Space"
       },
       {
         "rank": 3,
-        "title": "Long March 6A Launch",
-        "description": "China's Long March 6A rocket is scheduled to launch with an unknown payload from Taiyuan Satellite Launch Center.",
+        "title": "Aurora Viewing Opportunity",
+        "description": "Minor geomagnetic storm with Kp 4.67, visible at 52° latitude.",
         "importance": 5,
-        "date": "2026-10-23",
-        "type": "launch",
-        "action": "Follow updates for more details on the payload."
+        "date": "2026-11-01",
+        "type": "aurora",
+        "action": "Prepare for aurora photography"
       }
     ],
     "statistics": {
@@ -40,8 +40,62 @@
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": {},
+    "opportunities": [
+      {
+        "date": "2026-11-01T03:00:00",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-11-01T03:00:00",
+          "end": "2026-11-01T03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-10-31T06:00:00",
+        "max_kp": 4.33,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-10-31T06:00:00",
+          "end": "2026-10-31T06:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-10-31T09:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-10-31T09:00:00",
+          "end": "2026-10-31T09:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-10-31T21:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-10-31T21:00:00",
+          "end": "2026-10-31T21:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-11-01T03:00:00",
+      "time": "03:00-03:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
@@ -50,6 +104,6 @@
     "total_launches_analyzed": 5,
     "total_aurora_entries_analyzed": 23,
     "processing_time_seconds": 0,
-    "iterations": 4
+    "iterations": 7
   }
 }
