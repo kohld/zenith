@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T06:00:58.707Z",
+  "generated_at": "2026-11-01T17:57:25.820Z",
   "launches": [
     {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
@@ -524,7 +524,7 @@
       "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
       "url": "https://ll.thespacedevs.com/2.2.0/launch/54d471e8-695c-4fa7-a3cf-dbd8b389e8ae/",
       "slug": "falcon-9-block-5-ussf-432",
-      "flightclub_url": null,
+      "flightclub_url": "https://flightclub.io/result?llId=54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
       "r_spacex_api_id": null,
       "name": "Falcon 9 Block 5 | USSF-432",
       "status": {
@@ -533,7 +533,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-11-01T01:00:49Z",
+      "last_updated": "2026-11-01T11:02:55Z",
       "updates": [
         {
           "id": 16614,
@@ -938,17 +938,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -1095,29 +1095,7 @@
       "pad_turnaround": "P2DT21H37M26S",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
-        "importance_score": 5,
-        "reasoning": "Standard operational mission.",
-        "key_facts": [
-          "Rocket: Falcon 9 Block 5",
-          "Launch Site: Vandenberg SFB, CA, USA",
-          "Target Orbit: Low Earth Orbit",
-          "Reusable rocket design",
-          "Mission Type: Government/Top Secret"
-        ],
-        "viewing_info": {
-          "visible_from_europe": true,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [
-          "SpaceX",
-          "Reusable"
-        ],
-        "user_recommendation": "Worth watching if you're interested in space launches."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
@@ -1421,25 +1399,7 @@
       "pad_turnaround": "P1066D",
       "mission_patches": [],
       "type": "detailed",
-      "ai_enrichment": {
-        "launch_id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-        "importance_score": 5,
-        "reasoning": "Standard operational mission.",
-        "key_facts": [
-          "Rocket: Mir",
-          "Launch Site: Sea Launch",
-          "Target Orbit: Low Earth Orbit",
-          "Mission Type: Test Flight"
-        ],
-        "viewing_info": {
-          "visible_from_europe": false,
-          "best_viewing_distance_km": 50,
-          "live_stream_recommended": true,
-          "visibility_window": "10 minutes before to 5 minutes after liftoff"
-        },
-        "tags": [],
-        "user_recommendation": "Worth watching if you're interested in space launches."
-      }
+      "ai_enrichment": null
     },
     {
       "id": "e91d1da2-819b-4523-95bf-39ac7daa871d",

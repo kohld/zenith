@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-11-01T06:00:58.706Z",
+  "generated_at": "2026-11-01T17:57:25.820Z",
   "daily_summary": {
-    "headline": "Space Exploration and Aurora Opportunities on the Horizon",
+    "headline": "Exciting Space Events on November 1, 2026",
     "top_events": [
       {
         "rank": 1,
-        "title": "Electron | The Sea God Surveys (iQPS Launch 9)",
-        "description": "Rocket Lab's Electron rocket will launch the Sea God Surveys mission for Earth observation.",
-        "importance": 5,
-        "date": "2026-11-02T16:41:00Z",
+        "title": "Falcon 9 Block 5 | USSF-432",
+        "description": "A classified mission for the United States Space Force, possibly involving a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus.",
+        "importance": 8,
+        "date": "2026-11-03T01:42:00Z",
         "type": "launch",
-        "action": "Watch live stream for the launch."
+        "action": "Watch the live stream for potential insights into classified satellite deployments."
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G1-level geomagnetic storm may produce auroras visible at high latitudes.",
-        "importance": 4,
-        "date": "2026-11-01T06:00:00Z",
-        "type": "aurora",
-        "action": "Check for auroras at high latitudes."
+        "title": "Kinetica 2 | SpaceSail Polar Group TBD?",
+        "description": "Launch of communication satellites for the G60 constellation operated by Shanghai Spacesail Technologies.",
+        "importance": 6,
+        "date": "2026-11-03T00:10:00Z",
+        "type": "launch",
+        "action": "Tune in to see the deployment of new communication satellites."
       },
       {
         "rank": 3,
-        "title": "Kinetica 2 | SpaceSail Polar Group TBD?",
-        "description": "CAS Space's Kinetica 2 rocket will launch communication satellites for the G60 constellation.",
+        "title": "Aurora Forecast - Minor Activity",
+        "description": "A minor geomagnetic storm (G1) is expected, offering limited aurora visibility.",
         "importance": 5,
-        "date": "2026-11-03T00:10:00Z",
-        "type": "launch",
-        "action": "Watch live stream for the launch."
+        "date": "2026-11-01T21:00:00Z",
+        "type": "aurora",
+        "action": "Best viewing at higher latitudes; prepare cameras for potential aurora shots."
       }
     ],
     "statistics": {
@@ -38,25 +38,40 @@
       "aurora_opportunities": 1
     }
   },
-  "alerts": [],
+  "alerts": [
+    {
+      "type": "launch",
+      "priority": "high",
+      "title": "Falcon 9 Block 5 | USSF-432",
+      "message": "A classified mission for the United States Space Force, possibly involving a batch of classified LEO satellites based on SpaceX’s Starshield satellite bus.",
+      "action_required": "Watch the live stream for potential insights into classified satellite deployments.",
+      "expires_at": "2026-11-03T05:42:00Z",
+      "tags": [
+        "SpaceX",
+        "USSF",
+        "classified",
+        "satellite"
+      ]
+    }
+  ],
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-11-01T06:00:00",
+        "date": "2026-11-01T21:00:00",
         "max_kp": 4.67,
         "storm_level": "G1",
         "probability": "Low (30-50%)",
         "time_window": {
-          "start": "2026-11-01T06:00:00",
-          "end": "2026-11-01T06:00:00"
+          "start": "2026-11-01T21:00:00",
+          "end": "2026-11-01T21:00:00"
         },
         "duration_hours": 0,
         "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
       }
     ],
     "best_window": {
-      "date": "2026-11-01T06:00:00",
-      "time": "06:00-06:00 UTC",
+      "date": "2026-11-01T21:00:00",
+      "time": "21:00-21:00 UTC",
       "kp": 4.67,
       "visibility_range": "Above 65° latitude"
     },
@@ -66,8 +81,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 23,
+    "total_aurora_entries_analyzed": 19,
     "processing_time_seconds": 0,
-    "iterations": 7
+    "iterations": 5
   }
 }
