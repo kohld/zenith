@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T04:32:48.630Z",
+  "updatedAt": "2026-11-02T13:05:44.080Z",
   "launches": [
     {
       "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
@@ -14,7 +14,7 @@
         "abbrev": "Go",
         "description": "Current T-0 confirmed by official or reliable sources."
       },
-      "last_updated": "2026-10-31T13:53:23Z",
+      "last_updated": "2026-11-02T10:08:57Z",
       "updates": [
         {
           "id": 16638,
@@ -270,7 +270,28 @@
           }
         }
       ],
-      "vidURLs": [],
+      "vidURLs": [
+        {
+          "priority": 10,
+          "source": "youtube.com",
+          "publisher": "Rocket Lab",
+          "title": "Rocket Lab - 'The Sea God Surveys' Launch",
+          "description": "",
+          "feature_image": "https://i.ytimg.com/vi/irbPTnpIl9g/maxresdefault.jpg?v=6ae86043",
+          "url": "https://www.youtube.com/watch?v=irbPTnpIl9g",
+          "type": {
+            "id": 1,
+            "name": "Official Webcast"
+          },
+          "language": {
+            "id": 1,
+            "name": "English",
+            "code": "en"
+          },
+          "start_time": "2026-11-02T16:10:00Z",
+          "end_time": null
+        }
+      ],
       "webcast_live": false,
       "timeline": [],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
