@@ -1,55 +1,85 @@
 {
-  "generated_at": "2026-11-03T19:32:10.885Z",
+  "generated_at": "2026-11-09T06:20:33.168Z",
   "daily_summary": {
-    "headline": "Routine Rocket Launches and Calm Aurora Forecast",
+    "headline": "Exciting Space Launches and Aurora Opportunities on the Horizon!",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | USSF-432",
-        "description": "A classified mission for the United States Space Force using SpaceX's Falcon 9 Block 5 rocket, targeting Low Earth Orbit.",
+        "title": "Falcon 9 Block 5 | USSF-627",
+        "description": "A classified mission for the United States Space Force using SpaceX's Falcon 9 Block 5 rocket. Launching from Vandenberg SFB, CA, USA.",
         "importance": 5,
-        "date": "2026-11-07T00:46:00Z",
+        "date": "2026-11-10T03:03:00Z",
         "type": "launch",
-        "action": "Watch live stream for launch updates."
+        "action": "Watch live for a glimpse of cutting-edge space technology."
       },
       {
         "rank": 2,
-        "title": "Long March 12 | SatNet LEO Group TBD?",
-        "description": "Launch of a batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation.",
-        "importance": 5,
-        "date": "2026-11-05T21:15:00Z",
-        "type": "launch",
-        "action": "Tune in to live stream for launch coverage."
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 geomagnetic storm is expected, offering potential aurora visibility at high latitudes.",
+        "importance": 4,
+        "date": "2026-11-09T21:00:00Z",
+        "type": "aurora",
+        "action": "Check the skies if you're in northern regions."
       },
       {
         "rank": 3,
-        "title": "Mir | Demo Flight",
-        "description": "First orbital full version launch of the South Korean military small satellite launch vehicle, Mir.",
+        "title": "Vulcan VC6L | Amazon Leo (LV-01)",
+        "description": "United Launch Alliance's Vulcan VC6L rocket will launch the Amazon Leo satellite constellation from Cape Canaveral SFS, FL, USA.",
         "importance": 5,
-        "date": "2026-11-04T05:00:00Z",
+        "date": "2026-11-13T17:54:00Z",
         "type": "launch",
-        "action": "Watch live stream for detailed coverage."
+        "action": "Tune in for a significant step in satellite internet deployment."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 0
+      "aurora_opportunities": 2
     }
   },
   "alerts": [],
   "aurora_insights": {
-    "opportunities": [],
-    "best_window": null,
+    "opportunities": [
+      {
+        "date": "2026-11-09T21:00:00",
+        "max_kp": 4.67,
+        "storm_level": "G1",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-11-09T21:00:00",
+          "end": "2026-11-09T21:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      },
+      {
+        "date": "2026-11-09T12:00:00",
+        "max_kp": 4,
+        "storm_level": "G0 (Quiet)",
+        "probability": "Low (30-50%)",
+        "time_window": {
+          "start": "2026-11-09T12:00:00",
+          "end": "2026-11-09T12:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+      }
+    ],
+    "best_window": {
+      "date": "2026-11-09T21:00:00",
+      "time": "21:00-21:00 UTC",
+      "kp": 4.67,
+      "visibility_range": "Above 65° latitude"
+    },
     "total_viewing_hours": 0
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 18,
+    "total_aurora_entries_analyzed": 22,
     "processing_time_seconds": 0,
-    "iterations": 7
+    "iterations": 4
   }
 }
