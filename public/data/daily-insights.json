@@ -1,77 +1,84 @@
 {
-  "generated_at": "2026-11-09T06:20:33.168Z",
+  "generated_at": "2026-11-10T07:16:31.947Z",
   "daily_summary": {
-    "headline": "Exciting Space Launches and Aurora Opportunities on the Horizon!",
+    "headline": "Significant Space Events on November 10, 2026",
     "top_events": [
       {
         "rank": 1,
         "title": "Falcon 9 Block 5 | USSF-627",
-        "description": "A classified mission for the United States Space Force using SpaceX's Falcon 9 Block 5 rocket. Launching from Vandenberg SFB, CA, USA.",
+        "description": "A classified mission for the United States Space Force, launching from Vandenberg SFB, CA, USA.",
         "importance": 5,
-        "date": "2026-11-10T03:03:00Z",
+        "date": "2026-11-11T02:49:00Z",
         "type": "launch",
-        "action": "Watch live for a glimpse of cutting-edge space technology."
+        "action": "Watch live on SpaceX's official webcast."
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G1 geomagnetic storm is expected, offering potential aurora visibility at high latitudes.",
-        "importance": 4,
-        "date": "2026-11-09T21:00:00Z",
-        "type": "aurora",
-        "action": "Check the skies if you're in northern regions."
+        "title": "Mir | Demo Flight",
+        "description": "First orbital full version launch of the South Korean military small satellite launch vehicle.",
+        "importance": 5,
+        "date": "2026-11-11T05:00:00Z",
+        "type": "launch",
+        "action": "Follow updates from the Agency for Defense Development."
       },
       {
         "rank": 3,
-        "title": "Vulcan VC6L | Amazon Leo (LV-01)",
-        "description": "United Launch Alliance's Vulcan VC6L rocket will launch the Amazon Leo satellite constellation from Cape Canaveral SFS, FL, USA.",
+        "title": "Aurora Forecast",
+        "description": "Moderate geomagnetic activity expected, with Kp index peaking at 3.67.",
         "importance": 5,
-        "date": "2026-11-13T17:54:00Z",
-        "type": "launch",
-        "action": "Tune in for a significant step in satellite internet deployment."
+        "date": "2026-11-10",
+        "type": "aurora",
+        "action": "Best viewing in higher latitudes."
       }
     ],
     "statistics": {
       "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
-      "aurora_opportunities": 2
+      "aurora_opportunities": 0
     }
   },
-  "alerts": [],
-  "aurora_insights": {
-    "opportunities": [
-      {
-        "date": "2026-11-09T21:00:00",
-        "max_kp": 4.67,
-        "storm_level": "G1",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-11-09T21:00:00",
-          "end": "2026-11-09T21:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      },
-      {
-        "date": "2026-11-09T12:00:00",
-        "max_kp": 4,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-11-09T12:00:00",
-          "end": "2026-11-09T12:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
-      }
-    ],
-    "best_window": {
-      "date": "2026-11-09T21:00:00",
-      "time": "21:00-21:00 UTC",
-      "kp": 4.67,
-      "visibility_range": "Above 65° latitude"
+  "alerts": [
+    {
+      "type": "launch",
+      "priority": "medium",
+      "title": "Long March 2D Launch",
+      "message": "Long March 2D is scheduled to launch with an unknown payload from Jiuquan Satellite Launch Center.",
+      "action_required": "Monitor updates for payload details.",
+      "expires_at": "2026-11-11T12:05:00Z",
+      "tags": [
+        "Long March",
+        "China"
+      ]
     },
+    {
+      "type": "launch",
+      "priority": "medium",
+      "title": "Kuaizhou 11 Launch",
+      "message": "Kuaizhou 11 is scheduled to launch with an unknown payload from Jiuquan Satellite Launch Center.",
+      "action_required": "Monitor updates for payload details.",
+      "expires_at": "2026-11-12T20:29:00Z",
+      "tags": [
+        "Kuaizhou",
+        "China"
+      ]
+    },
+    {
+      "type": "launch",
+      "priority": "medium",
+      "title": "Vulcan VC6L Launch",
+      "message": "Vulcan VC6L is scheduled to launch with Amazon Leo (LV-01) from Cape Canaveral SFS, FL, USA.",
+      "action_required": "Watch live on ULA's official webcast.",
+      "expires_at": "2026-11-13T18:24:00Z",
+      "tags": [
+        "Vulcan",
+        "Amazon Leo"
+      ]
+    }
+  ],
+  "aurora_insights": {
+    "opportunities": [],
+    "best_window": null,
     "total_viewing_hours": 0
   },
   "special_events": [],
@@ -80,6 +87,6 @@
     "total_launches_analyzed": 5,
     "total_aurora_entries_analyzed": 22,
     "processing_time_seconds": 0,
-    "iterations": 4
+    "iterations": 7
   }
 }
