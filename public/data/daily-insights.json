@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-11-25T08:29:32.981Z",
+  "generated_at": "2026-11-25T21:43:15.495Z",
   "daily_summary": {
-    "headline": "Exciting Space Events Await: Launches and Auroras",
+    "headline": "Exciting Space Events on November 25, 2026",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 | USSF-380",
-        "description": "A classified mission for the United States Space Force, potentially involving a batch of classified LEO satellites.",
+        "title": "Falcon 9 Block 5 Launch for USSF-380",
+        "description": "SpaceX's Falcon 9 Block 5 rocket will launch a classified mission for the United States Space Force, potentially deploying a batch of classified LEO satellites.",
         "importance": 8,
-        "date": "2026-11-29T04:39:00Z",
+        "date": "2026-11-29",
         "type": "launch",
-        "action": "Watch live on SpaceX's official webcast."
+        "action": "Watch the live stream on SpaceX's official website."
       },
       {
         "rank": 2,
-        "title": "Aurora Viewing Opportunity",
-        "description": "A G1 (Kp 5) geomagnetic storm is predicted, offering potential aurora visibility at lower latitudes.",
+        "title": "Aurora Borealis Viewing Opportunity",
+        "description": "A G1-class geomagnetic storm is predicted, providing a chance to view the aurora borealis at 60° latitude.",
         "importance": 7,
-        "date": "2026-11-27T03:00:00Z",
+        "date": "2026-11-26",
         "type": "aurora",
-        "action": "Prepare for aurora viewing in areas with clear skies."
+        "action": "Find a dark location away from city lights to view the aurora."
       },
       {
         "rank": 3,
-        "title": "Electron | Night Owls Never Sleep (StriX Launch 14)",
-        "description": "Launch of a synthetic aperture radar satellite for Synspective, a Japanese Earth imaging company.",
+        "title": "Electron Launch for Synspective",
+        "description": "Rocket Lab's Electron rocket will launch a synthetic aperture radar satellite for Japanese company Synspective.",
         "importance": 6,
-        "date": "2026-11-27T00:05:00Z",
+        "date": "2026-11-27",
         "type": "launch",
-        "action": "Follow Rocket Lab's updates for live coverage."
+        "action": "Follow the launch on Rocket Lab's official page."
       }
     ],
     "statistics": {
-      "total_launches_this_week": 6,
+      "total_launches_this_week": 5,
       "crewed_missions": 0,
       "historic_events": 0,
       "aurora_opportunities": 1
@@ -41,22 +41,33 @@
   "alerts": [
     {
       "type": "aurora",
-      "priority": "high",
-      "title": "G1 Geomagnetic Storm Alert",
-      "message": "A G1 (Kp 5) geomagnetic storm is predicted for 2026-11-27, offering potential aurora visibility at lower latitudes.",
-      "action_required": "Prepare for aurora viewing in areas with clear skies, especially if you're above 60° latitude.",
-      "expires_at": "2026-11-27T06:00:00Z",
+      "priority": "medium",
+      "title": "Aurora Borealis Viewing Opportunity",
+      "message": "A G1-class geomagnetic storm is predicted for November 26, 2026, providing a chance to view the aurora borealis at 60° latitude.",
+      "action_required": "Find a dark location away from city lights to view the aurora.",
+      "expires_at": "2026-11-27T00:00:00Z",
       "tags": [
         "aurora",
         "G1",
-        "Kp5",
-        "visibility"
+        "viewing"
       ],
-      "id": "alert_1795595359198_v2vcspo0u"
+      "id": "alert_1795642793712_9537u4yu9"
     }
   ],
   "aurora_insights": {
     "opportunities": [
+      {
+        "date": "2026-11-26T21:00:00",
+        "max_kp": 5,
+        "storm_level": "G1",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-11-26T21:00:00",
+          "end": "2026-11-26T21:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
       {
         "date": "2026-11-27T03:00:00",
         "max_kp": 5,
@@ -83,8 +94,8 @@
       }
     ],
     "best_window": {
-      "date": "2026-11-27T03:00:00",
-      "time": "03:00-03:00 UTC",
+      "date": "2026-11-26T21:00:00",
+      "time": "21:00-21:00 UTC",
       "kp": 5,
       "visibility_range": "Down to 60° latitude"
     },
@@ -94,8 +105,8 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 22,
+    "total_aurora_entries_analyzed": 17,
     "processing_time_seconds": 0,
-    "iterations": 8
+    "iterations": 6
   }
 }
