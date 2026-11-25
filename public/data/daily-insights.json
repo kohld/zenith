@@ -1,61 +1,74 @@
 {
-  "generated_at": "2026-11-24T22:25:14.864Z",
+  "generated_at": "2026-11-25T08:29:32.981Z",
   "daily_summary": {
-    "headline": "Historic Crewed Mission and Aurora Alert",
+    "headline": "Exciting Space Events Await: Launches and Auroras",
     "top_events": [
       {
         "rank": 1,
-        "title": "Long March 2F/G | Shenzhou 24",
-        "description": "Launch of Shenzhou 24, featuring the first Pakistani astronaut on a short duration mission. Part of the Shenzhou program.",
+        "title": "Falcon 9 Block 5 | USSF-380",
+        "description": "A classified mission for the United States Space Force, potentially involving a batch of classified LEO satellites.",
         "importance": 8,
-        "date": "2026-11-25T00:18:00Z",
+        "date": "2026-11-29T04:39:00Z",
         "type": "launch",
-        "action": "Watch live for a historic crewed mission."
+        "action": "Watch live on SpaceX's official webcast."
       },
       {
         "rank": 2,
-        "title": "Aurora Opportunity",
-        "description": "Potential aurora visibility at high latitudes with Kp index reaching 4.33. Best viewing for locations above 65° latitude.",
-        "importance": 6,
-        "date": "2026-11-27T00:00:00Z",
+        "title": "Aurora Viewing Opportunity",
+        "description": "A G1 (Kp 5) geomagnetic storm is predicted, offering potential aurora visibility at lower latitudes.",
+        "importance": 7,
+        "date": "2026-11-27T03:00:00Z",
         "type": "aurora",
-        "action": "Check conditions for aurora visibility."
+        "action": "Prepare for aurora viewing in areas with clear skies."
       },
       {
         "rank": 3,
         "title": "Electron | Night Owls Never Sleep (StriX Launch 14)",
-        "description": "Launch of a synthetic aperture radar satellite for Synspective.",
-        "importance": 5,
+        "description": "Launch of a synthetic aperture radar satellite for Synspective, a Japanese Earth imaging company.",
+        "importance": 6,
         "date": "2026-11-27T00:05:00Z",
         "type": "launch",
-        "action": "Watch live for Earth observation mission."
+        "action": "Follow Rocket Lab's updates for live coverage."
       }
     ],
     "statistics": {
       "total_launches_this_week": 6,
-      "crewed_missions": 1,
-      "historic_events": 1,
+      "crewed_missions": 0,
+      "historic_events": 0,
       "aurora_opportunities": 1
     }
   },
   "alerts": [
     {
-      "type": "launch",
+      "type": "aurora",
       "priority": "high",
-      "title": "Long March 2F/G | Shenzhou 24",
-      "message": "Launch of Shenzhou 24 featuring the first Pakistani astronaut. Significant crewed mission as part of the Shenzhou program.",
-      "action_required": "Watch live for a historic crewed mission.",
-      "expires_at": "2026-11-25T01:00:00Z",
+      "title": "G1 Geomagnetic Storm Alert",
+      "message": "A G1 (Kp 5) geomagnetic storm is predicted for 2026-11-27, offering potential aurora visibility at lower latitudes.",
+      "action_required": "Prepare for aurora viewing in areas with clear skies, especially if you're above 60° latitude.",
+      "expires_at": "2026-11-27T06:00:00Z",
       "tags": [
-        "Crewed",
-        "Historic",
-        "Shenzhou"
+        "aurora",
+        "G1",
+        "Kp5",
+        "visibility"
       ],
-      "id": "alert_1795559104297_fyxp3n44e"
+      "id": "alert_1795595359198_v2vcspo0u"
     }
   ],
   "aurora_insights": {
     "opportunities": [
+      {
+        "date": "2026-11-27T03:00:00",
+        "max_kp": 5,
+        "storm_level": "G1",
+        "probability": "Moderate (50-70%)",
+        "time_window": {
+          "start": "2026-11-27T03:00:00",
+          "end": "2026-11-27T03:00:00"
+        },
+        "duration_hours": 0,
+        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
+      },
       {
         "date": "2026-11-27T00:00:00",
         "max_kp": 4.33,
@@ -70,10 +83,10 @@
       }
     ],
     "best_window": {
-      "date": "2026-11-27T00:00:00",
-      "time": "00:00-00:00 UTC",
-      "kp": 4.33,
-      "visibility_range": "Above 65° latitude"
+      "date": "2026-11-27T03:00:00",
+      "time": "03:00-03:00 UTC",
+      "kp": 5,
+      "visibility_range": "Down to 60° latitude"
     },
     "total_viewing_hours": 0
   },
@@ -81,7 +94,7 @@
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 17,
+    "total_aurora_entries_analyzed": 22,
     "processing_time_seconds": 0,
     "iterations": 8
   }
