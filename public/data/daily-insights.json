@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-11-25T21:43:15.495Z",
+  "generated_at": "2026-11-26T08:14:13.913Z",
   "daily_summary": {
-    "headline": "Exciting Space Events on November 25, 2026",
+    "headline": "Exciting Space Events Await!",
     "top_events": [
       {
         "rank": 1,
-        "title": "Falcon 9 Block 5 Launch for USSF-380",
-        "description": "SpaceX's Falcon 9 Block 5 rocket will launch a classified mission for the United States Space Force, potentially deploying a batch of classified LEO satellites.",
+        "title": "Falcon 9 Block 5 | USSF-380",
+        "description": "A classified mission for the United States Space Force, possibly deploying classified LEO satellites.",
         "importance": 8,
-        "date": "2026-11-29",
+        "date": "2026-11-29T04:39:00Z",
         "type": "launch",
-        "action": "Watch the live stream on SpaceX's official website."
+        "action": "Watch live on SpaceX's official webcast."
       },
       {
         "rank": 2,
-        "title": "Aurora Borealis Viewing Opportunity",
-        "description": "A G1-class geomagnetic storm is predicted, providing a chance to view the aurora borealis at 60° latitude.",
-        "importance": 7,
-        "date": "2026-11-26",
+        "title": "Aurora Viewing Opportunity",
+        "description": "A minor geomagnetic storm (Kp 5) is expected, offering aurora visibility up to 60° latitude.",
+        "importance": 5,
+        "date": "2026-11-26T21:00:00Z",
         "type": "aurora",
-        "action": "Find a dark location away from city lights to view the aurora."
+        "action": "Prepare for aurora viewing around 21:00 UTC."
       },
       {
         "rank": 3,
-        "title": "Electron Launch for Synspective",
-        "description": "Rocket Lab's Electron rocket will launch a synthetic aperture radar satellite for Japanese company Synspective.",
-        "importance": 6,
-        "date": "2026-11-27",
+        "title": "Long March 6A | Unknown Payload",
+        "description": "Launch of an unknown payload, possibly reconnaissance satellites, by China Aerospace Science and Technology Corporation.",
+        "importance": 5,
+        "date": "2026-11-27T13:00:00Z",
         "type": "launch",
-        "action": "Follow the launch on Rocket Lab's official page."
+        "action": "Watch live if interested in Chinese space activities."
       }
     ],
     "statistics": {
@@ -40,73 +40,42 @@
   },
   "alerts": [
     {
-      "type": "aurora",
+      "type": "launch",
       "priority": "medium",
-      "title": "Aurora Borealis Viewing Opportunity",
-      "message": "A G1-class geomagnetic storm is predicted for November 26, 2026, providing a chance to view the aurora borealis at 60° latitude.",
-      "action_required": "Find a dark location away from city lights to view the aurora.",
-      "expires_at": "2026-11-27T00:00:00Z",
+      "title": "Falcon 9 Block 5 | USSF-380 Launch",
+      "message": "A classified mission for the United States Space Force, possibly deploying classified LEO satellites.",
+      "action_required": "Watch live on SpaceX's official webcast.",
+      "expires_at": "2026-11-29T08:39:00Z",
       "tags": [
-        "aurora",
-        "G1",
-        "viewing"
+        "SpaceX",
+        "USSF",
+        "classified",
+        "LEO"
       ],
-      "id": "alert_1795642793712_9537u4yu9"
+      "id": "alert_1795680844817_ht61kftmn"
     }
   ],
   "aurora_insights": {
     "opportunities": [
       {
-        "date": "2026-11-26T21:00:00",
-        "max_kp": 5,
-        "storm_level": "G1",
-        "probability": "Moderate (50-70%)",
-        "time_window": {
-          "start": "2026-11-26T21:00:00",
-          "end": "2026-11-26T21:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
-      {
-        "date": "2026-11-27T03:00:00",
-        "max_kp": 5,
-        "storm_level": "G1",
-        "probability": "Moderate (50-70%)",
-        "time_window": {
-          "start": "2026-11-27T03:00:00",
-          "end": "2026-11-27T03:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Good viewing opportunity for high-latitude observers. Worth checking if you're above 60° latitude and skies are clear."
-      },
-      {
-        "date": "2026-11-27T00:00:00",
-        "max_kp": 4.33,
-        "storm_level": "G0 (Quiet)",
-        "probability": "Low (30-50%)",
-        "time_window": {
-          "start": "2026-11-27T00:00:00",
-          "end": "2026-11-27T00:00:00"
-        },
-        "duration_hours": 0,
-        "recommendation": "Possible aurora at high latitudes. Best for northern locations (65°+). Worth checking if conditions are optimal."
+        "time": "2026-11-26T21:00:00Z",
+        "kp": 5,
+        "status": "estimated",
+        "scale": "G1"
       }
     ],
     "best_window": {
-      "date": "2026-11-26T21:00:00",
-      "time": "21:00-21:00 UTC",
-      "kp": 5,
-      "visibility_range": "Down to 60° latitude"
+      "start": "2026-11-26T21:00:00Z",
+      "end": "2026-11-27T03:00:00Z"
     },
-    "total_viewing_hours": 0
+    "total_viewing_hours": 6
   },
   "special_events": [],
   "agent_metadata": {
     "model": "gpt-4o",
     "total_launches_analyzed": 5,
-    "total_aurora_entries_analyzed": 17,
+    "total_aurora_entries_analyzed": 22,
     "processing_time_seconds": 0,
-    "iterations": 6
+    "iterations": 5
   }
 }
