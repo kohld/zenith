@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T22:48:33.632Z",
+  "updatedAt": "2026-11-27T04:46:53.071Z",
   "launches": [
     {
       "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
@@ -14,7 +14,7 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
       },
-      "last_updated": "2026-11-26T11:20:00Z",
+      "last_updated": "2026-11-27T02:25:32Z",
       "updates": [
         {
           "id": 16881,
@@ -216,13 +216,53 @@
       "r_spacex_api_id": null,
       "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
       "status": {
-        "id": 1,
-        "name": "Go for Launch",
-        "abbrev": "Go",
-        "description": "Current T-0 confirmed by official or reliable sources."
+        "id": 6,
+        "name": "Launch in Flight",
+        "abbrev": "In Flight",
+        "description": "Launch in Flight"
       },
-      "last_updated": "2026-11-26T19:42:10Z",
+      "last_updated": "2026-11-27T01:14:59Z",
       "updates": [
+        {
+          "id": 16889,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Spacecraft separation.",
+          "info_url": "https://x.com/RocketLab/status/2126122302563873022",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-11-27T01:14:00Z"
+        },
+        {
+          "id": 16888,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Liftoff.",
+          "info_url": "https://www.youtube.com/watch?v=p75NOkFoyXs",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-11-27T00:15:00Z"
+        },
+        {
+          "id": 16887,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "New T-0.",
+          "info_url": "https://www.youtube.com/watch?v=p75NOkFoyXs",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-11-27T00:07:00Z"
+        },
+        {
+          "id": 16886,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
+          "comment": "Awaiting new T-0.",
+          "info_url": "https://www.youtube.com/watch?v=p75NOkFoyXs",
+          "created_by": "Cosmic_Penguin",
+          "created_on": "2026-11-27T00:01:00Z"
+        },
+        {
+          "id": 16885,
+          "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/ll2_profile_20230311134739.png",
+          "comment": "Official Webcast by Rocket Lab has started",
+          "info_url": "https://www.youtube.com/watch?v=p75NOkFoyXs",
+          "created_by": "LL2",
+          "created_on": "2026-11-26T23:59:00Z"
+        },
         {
           "id": 16884,
           "profile_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/profile_images/cosmic2520penguin_profile_20210817212020.png",
@@ -272,14 +312,14 @@
           "created_on": "2024-06-18T07:48:42Z"
         }
       ],
-      "net": "2026-11-27T00:05:00Z",
+      "net": "2026-11-27T00:15:00Z",
       "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
       },
-      "window_end": "2026-11-27T00:05:00Z",
+      "window_end": "2026-11-27T01:00:00Z",
       "window_start": "2026-11-27T00:00:00Z",
       "probability": 75,
       "weather_concerns": null,
@@ -300,11 +340,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -340,11 +380,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -373,11 +413,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -450,13 +490,13 @@
           "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
           "timezone_name": "Pacific/Auckland",
-          "total_launch_count": 87,
+          "total_launch_count": 88,
           "total_landing_count": 17
         },
         "country_code": "NZL",
         "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/pad_185_20200803143540.jpg",
-        "total_launch_count": 41,
-        "orbital_launch_attempt_count": 41
+        "total_launch_count": 42,
+        "orbital_launch_attempt_count": 42
       },
       "infoURLs": [
         {
@@ -484,7 +524,7 @@
           "publisher": "Rocket Lab",
           "title": "Rocket Lab Launch - Night Owls Never Sleep",
           "description": "",
-          "feature_image": "https://i.ytimg.com/vi/p75NOkFoyXs/maxresdefault.jpg?v=6b088a0e",
+          "feature_image": "https://i.ytimg.com/vi/p75NOkFoyXs/maxresdefault.jpg",
           "url": "https://www.youtube.com/watch?v=p75NOkFoyXs",
           "type": {
             "id": 1,
@@ -495,12 +535,133 @@
             "name": "English",
             "code": "en"
           },
-          "start_time": "2026-11-27T00:00:00Z",
-          "end_time": null
+          "start_time": "2026-11-26T23:59:18Z",
+          "end_time": "2026-11-27T00:26:54Z"
         }
       ],
       "webcast_live": false,
-      "timeline": [],
+      "timeline": [
+        {
+          "type": {
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
+          },
+          "relative_time": "-PT2M"
+        },
+        {
+          "type": {
+            "id": 9,
+            "abbrev": "Ignition",
+            "description": "Start of the engine ignition sequence"
+          },
+          "relative_time": "-PT2S"
+        },
+        {
+          "type": {
+            "id": 10,
+            "abbrev": "Liftoff",
+            "description": "First upwards movement of the rocket"
+          },
+          "relative_time": "P0D"
+        },
+        {
+          "type": {
+            "id": 25,
+            "abbrev": "Supersonic",
+            "description": "Vehicle is supersonic"
+          },
+          "relative_time": "PT56S"
+        },
+        {
+          "type": {
+            "id": 11,
+            "abbrev": "Max-Q",
+            "description": "Maximum dynamic pressure"
+          },
+          "relative_time": "PT1M7S"
+        },
+        {
+          "type": {
+            "id": 12,
+            "abbrev": "MECO",
+            "description": "Cut-off of the main engine"
+          },
+          "relative_time": "PT2M37S"
+        },
+        {
+          "type": {
+            "id": 13,
+            "abbrev": "Stage 2 Separation",
+            "description": "Separation of the second stage from the first"
+          },
+          "relative_time": "PT2M40S"
+        },
+        {
+          "type": {
+            "id": 31,
+            "abbrev": "SES",
+            "description": "Start of the second engine"
+          },
+          "relative_time": "PT2M43S"
+        },
+        {
+          "type": {
+            "id": 15,
+            "abbrev": "Fairing Separation",
+            "description": "Separation of the payload fairing"
+          },
+          "relative_time": "PT3M41S"
+        },
+        {
+          "type": {
+            "id": 72,
+            "abbrev": "Battery Hotswap",
+            "description": "Electron Second stages switches to a new set of batteries and jettisons the depleted ones."
+          },
+          "relative_time": "PT6M35S"
+        },
+        {
+          "type": {
+            "id": 24,
+            "abbrev": "SECO",
+            "description": "Cut-off of the second engine"
+          },
+          "relative_time": "PT9M7S"
+        },
+        {
+          "type": {
+            "id": 30,
+            "abbrev": "Kick Stage Separation",
+            "description": "Separation of the kick stage from the previous stage"
+          },
+          "relative_time": "PT9M11S"
+        },
+        {
+          "type": {
+            "id": 32,
+            "abbrev": "Kick Stage Ignition",
+            "description": "Start of the kick stage engine"
+          },
+          "relative_time": "PT51M13S"
+        },
+        {
+          "type": {
+            "id": 33,
+            "abbrev": "Kick Stage Cut-off",
+            "description": "Cut-off of the kick stage engine"
+          },
+          "relative_time": "PT53M8S"
+        },
+        {
+          "type": {
+            "id": 35,
+            "abbrev": "Payload Separation",
+            "description": "Final deployment of the payload from the rocket"
+          },
+          "relative_time": "PT53M58S"
+        }
+      ],
       "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
       "infographic": null,
       "program": [],
@@ -512,7 +673,7 @@
       "location_launch_attempt_count_year": 19,
       "pad_launch_attempt_count_year": 8,
       "agency_launch_attempt_count_year": 22,
-      "pad_turnaround": "P61DT23H26M",
+      "pad_turnaround": "P61DT23H36M",
       "mission_patches": [
         {
           "id": 1357,
@@ -1373,17 +1534,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -3839,17 +4000,17 @@
         },
         {
           "type": {
-            "id": 2,
-            "abbrev": "Prop Load",
-            "description": "Start of propelland loading"
+            "id": 3,
+            "abbrev": "Stage 1 LOX Load",
+            "description": "Start of liquid oxygen loading in the first stage"
           },
           "relative_time": "-PT35M"
         },
         {
           "type": {
-            "id": 3,
-            "abbrev": "Stage 1 LOX Load",
-            "description": "Start of liquid oxygen loading in the first stage"
+            "id": 2,
+            "abbrev": "Prop Load",
+            "description": "Start of propelland loading"
           },
           "relative_time": "-PT35M"
         },
@@ -7230,17 +7391,17 @@
         },
         {
           "type": {
-            "id": 7,
-            "abbrev": "Tank Press",
-            "description": "Fuel tanks are pressurized to flight levels"
+            "id": 6,
+            "abbrev": "Startup",
+            "description": "The onboard computer takes control over the countdown and runs last checks"
           },
           "relative_time": "-PT1M"
         },
         {
           "type": {
-            "id": 6,
-            "abbrev": "Startup",
-            "description": "The onboard computer takes control over the countdown and runs last checks"
+            "id": 7,
+            "abbrev": "Tank Press",
+            "description": "Fuel tanks are pressurized to flight levels"
           },
           "relative_time": "-PT1M"
         },
@@ -7744,11 +7905,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -7784,11 +7945,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -7817,11 +7978,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -7864,7 +8025,7 @@
           "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
           "timezone_name": "Pacific/Auckland",
-          "total_launch_count": 87,
+          "total_launch_count": 88,
           "total_landing_count": 17
         },
         "country_code": "NZL",
@@ -7951,11 +8112,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -7991,11 +8152,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -8024,11 +8185,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -8071,7 +8232,7 @@
           "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
           "timezone_name": "Pacific/Auckland",
-          "total_launch_count": 87,
+          "total_launch_count": 88,
           "total_landing_count": 17
         },
         "country_code": "NZL",
@@ -10988,11 +11149,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -11028,11 +11189,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -11061,11 +11222,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -11138,7 +11299,7 @@
           "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
           "timezone_name": "Pacific/Auckland",
-          "total_launch_count": 87,
+          "total_launch_count": 88,
           "total_landing_count": 17
         },
         "country_code": "NZL",
@@ -11233,11 +11394,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -11273,11 +11434,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -11306,11 +11467,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -11353,7 +11514,7 @@
           "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
           "timezone_name": "Pacific/Auckland",
-          "total_launch_count": 87,
+          "total_launch_count": 88,
           "total_landing_count": 17
         },
         "country_code": "NZL",
@@ -13378,11 +13539,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -13418,11 +13579,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -13451,11 +13612,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -13581,11 +13742,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -13621,11 +13782,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -13654,11 +13815,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -13784,11 +13945,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -13824,11 +13985,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -13857,11 +14018,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -17071,11 +17232,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -17111,11 +17272,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -17144,11 +17305,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -17221,7 +17382,7 @@
           "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
           "timezone_name": "Pacific/Auckland",
-          "total_launch_count": 87,
+          "total_launch_count": 88,
           "total_landing_count": 17
         },
         "country_code": "NZL",
@@ -22810,11 +22971,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -22850,11 +23011,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -22883,11 +23044,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -22930,7 +23091,7 @@
           "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
           "timezone_name": "Pacific/Auckland",
-          "total_launch_count": 87,
+          "total_launch_count": 88,
           "total_landing_count": 17
         },
         "country_code": "NZL",
@@ -27447,11 +27608,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -27487,11 +27648,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -27520,11 +27681,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -27567,7 +27728,7 @@
           "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
           "timezone_name": "Pacific/Auckland",
-          "total_launch_count": 87,
+          "total_launch_count": 88,
           "total_landing_count": 17
         },
         "country_code": "NZL",
@@ -27646,11 +27807,11 @@
         "launchers": "Electron",
         "spacecraft": "",
         "launch_library_url": null,
-        "total_launch_count": 100,
+        "total_launch_count": 101,
         "consecutive_successful_launches": 59,
         "successful_launches": 96,
         "failed_launches": 4,
-        "pending_launches": 58,
+        "pending_launches": 57,
         "consecutive_successful_landings": 4,
         "successful_landings": 7,
         "failed_landings": 2,
@@ -27686,11 +27847,11 @@
             "launchers": "Electron",
             "spacecraft": "",
             "launch_library_url": null,
-            "total_launch_count": 100,
+            "total_launch_count": 101,
             "consecutive_successful_launches": 59,
             "successful_launches": 96,
             "failed_launches": 4,
-            "pending_launches": 58,
+            "pending_launches": 57,
             "consecutive_successful_landings": 4,
             "successful_landings": 7,
             "failed_landings": 2,
@@ -27719,11 +27880,11 @@
           "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
           "info_url": "https://www.rocketlabusa.com/electron/",
           "wiki_url": "https://en.wikipedia.org/wiki/Rocket_Lab_Electron",
-          "total_launch_count": 100,
+          "total_launch_count": 101,
           "consecutive_successful_launches": 59,
           "successful_launches": 96,
           "failed_launches": 4,
-          "pending_launches": 55,
+          "pending_launches": 54,
           "attempted_landings": 9,
           "successful_landings": 7,
           "failed_landings": 2,
@@ -27766,7 +27927,7 @@
           "description": "Rocket Lab Launch Complex 1 is a commercial spaceport located close to Ahuriri Point at the southern tip of Māhia Peninsula, on the east coast of New Zealand's North Island. It is owned and operated by private spaceflight company Rocket Lab and supports launches of the company's Electron rocket for small satellites. With the launch of Electron on 25 May 2017, it became the first private spaceport to host an orbital launch attempt, and the first site in New Zealand to host an orbital launch attempt. With the Electron launch of 21 January 2018, it became the first private spaceport to host a successful orbital launch.",
           "map_image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/map_images/location_10_20200803142509.jpg",
           "timezone_name": "Pacific/Auckland",
-          "total_launch_count": 87,
+          "total_launch_count": 88,
           "total_landing_count": 17
         },
         "country_code": "NZL",
